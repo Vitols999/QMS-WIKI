@@ -7,7 +7,7 @@
 
 # Preface
 
-Feature requests are [managed using the Bitbucket Issue page](https://bitbucket.org/maproom/qmapshack/issues?status=new&status=open).
+Feature requests are [managed using the GitHub Issue page](https://github.com/Maproom/qmapshack/issues).
 
 Keep in mind that you are asking a stranger to spend time/work for you - be kind and try to support him/her as good as you can.
 
