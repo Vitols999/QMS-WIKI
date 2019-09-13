@@ -34,7 +34,7 @@ Due to limited resources a few operating system versions are not supported:
 
 * Linux 32bit versions
 * Windows 32bit versions
-* OS X < 10.8
+* OS X < 10.12
 
 ## Features
 
