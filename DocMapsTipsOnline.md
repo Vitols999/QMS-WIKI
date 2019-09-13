@@ -16,20 +16,20 @@ If you have a hot tip for free maps or a spiffy trick about what to do with maps
 
 ### WMS
 
-__WMS__ stands for __W__eb __M__ap __S__ervice. It is a standard protocol for serving (over the Internet) georeferenced map images which a map server generates 
+__WMS__ stands for **W**eb **M**ap **S**ervice. It is a standard protocol for serving (over the Internet) georeferenced map images which a map server generates 
 using data from a GIS database.
 
 There is no direct support for WMS in QMS but some tricks described in this page may help to use WMS servers via WMTS or TMS.
 
 ### WMTS
 
-__WMTS__ stands for __W__eb __M__ap __T__ile Service. It is a standard protocol for serving pre-rendered georeferenced map tiles over the Internet.
+__WMTS__ stands for **W**eb **M**ap **T**ile Service. It is a standard protocol for serving pre-rendered georeferenced map tiles over the Internet.
 
 QMS does support a limited number of WMTS formats.
 
 ### TMS
 
-TMS stands for __T__ile __M__ap __S__ervice. It is a standard protocol for tiled web maps. TMS is most widely supported by web mapping clients and servers.
+TMS stands for **T**ile **M**ap **S**ervice. It is a standard protocol for tiled web maps. TMS is most widely supported by web mapping clients and servers.
 
 QMS does support TMS.
 

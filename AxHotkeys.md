@@ -27,8 +27,8 @@ up-key     | Move the map focus north, moving the map south
 down-key   | Move the map focus south, moving the map north
 left-key   | Move the map focus west, moving the map east
 right-key  | Move the map focus east, moving the map west
-+          | Zoom into the map
--          | Zoom out of the map
+| +         | Zoom into the map
+| -         | Zoom out of the map
 __Routing__ |
 CTRL-A | Use routing algorithm with options selected in the routing window when creating route or track. Choice can be modified during routing. No map data required.
 CTRL-O | Use straight lines for routing when creating route or track. Choice can be modified during routing.

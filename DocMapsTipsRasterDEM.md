@@ -41,9 +41,9 @@ _(Updated for QMS 1.12.3  2019-02-10)_
 
 MBTiles is a file format for storing map tiles in a single file. It is, technically, a SQLite database and my contain raster as well as vector data. Starting at QMS 1.12.0 the QMS Windows installer includes support for MBTiles files with raster data. 
 
-ECW stands for __E__nhanced __C__ompression __W__avelet and is a proprietary wavelet compression image format optimized for aerial and satellite imagery. The lossy compression format efficiently compresses very large images with fine alternating contrast while retaining their visual quality.
+ECW stands for **E**nhanced **C**ompression **W**avelet and is a proprietary wavelet compression image format optimized for aerial and satellite imagery. The lossy compression format efficiently compresses very large images with fine alternating contrast while retaining their visual quality.
 
-MrSID stands for __M__ulti__r__esolution __S__eamless __I__mage __D__atabase. It is a file format (with filename extension .sid) for encoding of georeferenced raster graphics, such as orthophotos.
+MrSID stands for **M**ulti**r**esolution **S**eamless **I**mage **D**atabase. It is a file format (with filename extension .sid) for encoding of georeferenced raster graphics, such as orthophotos.
 
 Both ECW and MrSID need some special preparation of the installed QMapShack package as described below for Windows10 64-bit systems (the approach for Linux-type systems should be similar but was not tested).
 

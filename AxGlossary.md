@@ -18,7 +18,7 @@
 * work online and offline.
   
 **DEM**
-: Abbreviation for __D__igital __E__levation __M__odel. DEM data provides elevation data for maps.
+: Abbreviation for **D**igital **E**levation **M**odel. DEM data provides elevation data for maps.
   QMapShack can handle this data from different sources with the help of _VRT_ files that describe the properties of
   the downloaded elevation data.
 
@@ -35,10 +35,10 @@
 : See __Track filter__.
 
 **GDAL**
-: Abbreviation for __G__eospatial __D__ata __A__bstraction __L__ibrary. Library for handling raster and vector geospatial data formats.
+: Abbreviation for **G**eospatial **D**ata **A**bstraction **L**ibrary. Library for handling raster and vector geospatial data formats.
 
 **GIS data**
-: Abbreviation for __G__eographic __I__nformation __S__ystems data.  This data includes all tracks, routes and
+: Abbreviation for **G**eographic **I**nformation **S**ystems data.  This data includes all tracks, routes and
   waypoints used in QMapShack.
 
 **gmapsupp.img**
@@ -104,7 +104,7 @@ Measured in degrees. Can be displayed in a graph in the track edit window.
 : See __Slope of terrain__.
 
 **TMS**
-: Abbreviation for __T__ile __M__ap __S__ervice. A __TMS__ file provides access to cartographic maps
+: Abbreviation for **T**ile **M**ap **S**ervice. A **TMS** file provides access to cartographic maps
   on special map servers.
 
 **Track details dialog**
@@ -156,7 +156,7 @@ of some track data.
   can define track legs for which the roadbook of the track gives additional information.
 
 **WMTS**
-: Abbreviation for __W__eb __M__ap __T__ile __S__ervice. A __WMTS__ file provides access to cartographic maps
+: Abbreviation for **W**eb **M**ap **T**ile **S**ervice. A __WMTS__ file provides access to cartographic maps
   on special map servers.
 
 **Workspace**
