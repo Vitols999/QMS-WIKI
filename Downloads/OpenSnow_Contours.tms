@@ -1,0 +1,10 @@
+<TMS>
+ <Title>OpenSnowMap Contour Lines</Title>
+ <MinZoomLevel>1</MinZoomLevel>
+ <MaxZoomLevel>1024</MaxZoomLevel>
+ <Layer idx="0">
+     <ServerUrl>http://www.opensnowmap.org/opensnowmap-overlay/%1/%2/%3.png</ServerUrl>
+ </Layer>
+ <Copyright>Openstreetmap contributors | Rendering: www.opensnowmap.org | DEM: ASTER GDEM is a product of METI and NASA
+SRTM V4.1 from CGIAR-CSI EU-DEM: Produced using Copernicus data and information funded by the European Union </Copyright>
+</TMS>

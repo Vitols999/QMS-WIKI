@@ -1,0 +1,13 @@
+<TMS>
+    <Title>NZTopo</Title>
+    <MinZoomLevel>6</MinZoomLevel>
+    <MaxZoomLevel>15</MaxZoomLevel>
+    <Layer idx="0">
+        <Title>NZTopo</Title>
+        <Script><![CDATA[(
+        function convert(z1,x1,y1)
+        {  return "http://nz1.nztopomaps.com/" + z1 + "/" + x1 + "/" + ((1<<z1) - y1 - 1) + ".png";
+        }
+        )]]></Script>
+    </Layer>
+</TMS>

@@ -1,0 +1,73 @@
+<WCS_GDAL>
+  <ServiceURL>http://www.ign.es/wcs/mdt?</ServiceURL>
+  <CoverageName>mdt:Elevacion25830_25</CoverageName>
+  <Version>1.0.0</Version>
+  <CoverageOffering>
+    <description>Generated from JP2ECW</description>
+    <name>mdt:Elevacion25830_25</name>
+    <label>Elevaciones 25  ETRS89 UTM30N</label>
+    <lonLatEnvelope srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+      <pos>-10.34 34.81</pos>
+      <pos>5.836 44.208</pos>
+    </lonLatEnvelope>
+    <keywords>
+      <keyword>MDT</keyword>
+      <keyword>MDE</keyword>
+      <keyword>Altura</keyword>
+    </keywords>
+    <domainSet>
+      <spatialDomain>
+        <Envelope srsName="EPSG:25830">
+          <pos>-88767.649 3879512.199</pos>
+          <pos>1210132.351 4895212.199</pos>
+        </Envelope>
+        <RectifiedGrid dimension="2" srsName="EPSG:25830">
+          <limits>
+            <GridEnvelope>
+              <low>0 0</low>
+              <high>51955 40627</high>
+            </GridEnvelope>
+          </limits>
+          <axisName>E</axisName>
+          <axisName>N</axisName>
+          <origin>
+            <pos>-88755.14887867612 4895199.699075411</pos>
+          </origin>
+          <offsetVector>25.0 0.0</offsetVector>
+          <offsetVector>0.0 -25.0</offsetVector>
+        </RectifiedGrid>
+      </spatialDomain>
+    </domainSet>
+    <rangeSet>
+      <RangeSet>
+        <name>Elevacion25830_25</name>
+        <label>Elevaciones 25  ETRS89 UTM30N</label>
+        <axisDescription>
+          <AxisDescription>
+            <name>Band</name>
+            <label>Band</label>
+            <values>
+              <singleValue>1</singleValue>
+            </values>
+          </AxisDescription>
+        </axisDescription>
+      </RangeSet>
+    </rangeSet>
+    <supportedCRSs>
+      <requestResponseCRSs>EPSG:25830</requestResponseCRSs>
+    </supportedCRSs>
+    <supportedFormats nativeFormat="JP2ECW">
+      <formats>ARCGRID</formats>
+      <formats>GeoTIFF</formats>
+    </supportedFormats>
+    <supportedInterpolations default="nearest neighbour">
+      <interpolationMethod>bilinear</interpolationMethod>
+      <interpolationMethod>bicubic</interpolationMethod>
+      <interpolationMethod>nearest neighbour</interpolationMethod>
+    </supportedInterpolations>
+  </CoverageOffering>
+  <PreferredFormat>GeoTIFF</PreferredFormat>
+  <BandIdentifier>Band</BandIdentifier>
+  <BandCount>1</BandCount>
+  <BandType>Int16</BandType>
+</WCS_GDAL>

@@ -1,0 +1,14 @@
+<TMS>
+<Layer idx="0">
+<Title>IGN BRGM France</Title>
+<Script><![CDATA[(
+function convert(z1,x1,y1)
+{ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}
+  y=(1<<z1)-1-y1;
+  bbox=M(x1)+','+M(y)+','+M(x1+1)+','+M(y+1);
+  return "http://www.pcn.minambiente.it/arcgis/rest/services/immagini/IGM_25000/MapServer/export?dpi=96&transparent=true&format=png8&bbox=" + bbox + " &bboxSR=3857&imageSR=3857&size=256,256&f=image";
+}
+)]]></Script>
+</Layer>
+<Copyright>Geoportale Nazionale, Italy</Copyright>
+</TMS>

@@ -1,0 +1,13 @@
+<TMS>
+  <Title>Norvege</Title>
+  <MinZoomLevel>1</MinZoomLevel>
+  <MaxZoomLevel>22</MaxZoomLevel>
+  <Layer idx="0">
+   <Title>Toporaster 3</Title>
+   <ServerUrl>http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster3&amp;zoom=%1&amp;x=%2&amp;y=%3</ServerUrl>
+   <MinZoomLevel>1</MinZoomLevel>
+   <MaxZoomLevel>22</MaxZoomLevel>
+  </Layer>
+   <Copyright>Kartverket</Copyright>
+</TMS>
+
