@@ -5,8 +5,6 @@
 
 # Track history and saving
 
-xx
-
 QMapShack maintains a record of all changes made while editing a track (the same is also true for routes, waypoints, and areas). To see the list of all changes made select `Edit` from the
 track context menu to open the track edit window and click the `History` tab in this window. Each entry in the list has a short description of the
 change made to the given track.
