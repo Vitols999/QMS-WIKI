@@ -199,6 +199,7 @@ In this section details for a waypoint, a track and a geocache are shown togethe
 | Query | Comment |
 |-------|---------|
 | `elevation equals 3459 m` | Töö Pass waypoint satisfies condition |
+| `elevation =  `| (*2 spaces at the end of the search string!*) Find all waypoints without elevation | 
 | `date equals 04.07.2019` | Töö Pass waypoint satisfies condition  |
 | `date between 13.03.2019 and 17.07.2019` | Töö Pass waypoint satisfies condition |
 | `elevation above 1000m`| Töö Pass waypoint satisfies condition  |
