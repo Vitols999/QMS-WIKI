@@ -37,12 +37,12 @@ _Hints_:
 * Often, files can be selected for specific regions on the specified pages. The user should find the region he is interested in.
 * The recommendations given here are examples. There are many other options available!
 
-The following links are recommendations for files which allow comfortable working with QMS and which can be downloaded from the Internet.
+The following links are recommendations for files which allow comfortable work with QMS and which can be downloaded from the Internet.
 
 * _QMapShack_:
 
-    * [Load QMS from Bitbucket-Server](https://bitbucket.org/maproom/qmapshack/downloads "Load QMS installation file").
-      Download the file `QMapShack_Install_Windows64bit__1.11.0.exe` from this site (approximately 50 MB, version number can be different).
+    * [Load QMS from server](https://www.pling.com/p/1127946 "Load QMS installation file").
+      Download the file `QMapShack_Win64bit_1.13.2.exe` from this site (approximately 100 MB, version number can be different).
 
 * _Use of maps (recommended)_:
 

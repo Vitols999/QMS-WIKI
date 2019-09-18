@@ -46,8 +46,8 @@ heruntergeladen werden können.
 
 * _QMapShack_:
 
-    * [QMS vom Bitbucket-Server laden](https://bitbucket.org/maproom/qmapshack/downloads "QMS Installationsdatei laden").
-      Von dieser Seite Datei `QMapShack_Install_Windows64bit__1.11.0.exe` laden (etwa 50 MB, Versionsnummer kann verschieden sein).
+    * [QMS vom Server laden](https://www.pling.com/p/1127946 "QMS Installationsdatei laden").
+      Von dieser Seite Datei `QMapShack_Win64bit_1.13.2.exe	` laden (etwa 100 MB, Versionsnummer kann verschieden sein).
 
 * _Kartenunterstützung (empfohlen)_:
 
