@@ -331,9 +331,10 @@ It is ok to use `--force` as this is your branch and you do not have to care abo
 To get the latest changes of `dev` into your branch you do not merge them into your branch. You `rebase` on latest `dev`
 
 ```sh
-$ git checkout <your branch>
+$ git checkout dev
 $ git fetch upstream
 $ git merge upstream/dev
+$ git checkout <your branch>
 $ git rebase dev
 ```
 
