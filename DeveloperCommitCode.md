@@ -22,6 +22,7 @@
 * **Each pull request needs a ticket**
 * **Never work on the branches `master` or `dev`**
 * **Always open a branch with name `QMS-<ticket number>`**
+* **Do not merge `dev` into your branch. Do a rebase on `dev`**
 
 This page will summarize the necessary steps.
 
