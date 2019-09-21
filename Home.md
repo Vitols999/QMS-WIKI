@@ -19,6 +19,8 @@ Users can find a short quickstart description here:
 
 If you need **troubleshooting**, have a look [**here**](TroubleShooting)
 
+The QMapShack package includes the `QMapTool` application, too. To get information about this tool visit its [documentation page](QMTDocMain "QMapTool documentation")
+
 ## Support
 
 Problems understanding the documentation? Your requirement is not addressed by the documentation? You want to add to the project, but you do not know where to start? You got lost in the source code and need some guidance? You just want to brag about the crazy new feature you plan to add? 
