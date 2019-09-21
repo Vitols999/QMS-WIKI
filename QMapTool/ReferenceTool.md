@@ -1,4 +1,4 @@
-[Prev](CutTool) (Cut tool) | [Home](Home) | [Manual](DocMain) | (Grid tool) [Next](GridTool)
+[Prev](CutTool) (Cut tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Grid tool) [Next](GridTool)
 - - -
 [TOC]
 - - -
@@ -171,4 +171,4 @@ In this case the described procedure for creating the GCP output file should be 
    
     
 - - -
-[Prev](CutTool) (Cut tool) | [Home](Home) | [Manual](DocMain) | [Top](#) | (Grid tool) [Next](GridTool)
+[Prev](CutTool) (Cut tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Grid tool) [Next](GridTool)

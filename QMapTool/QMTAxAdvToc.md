@@ -1,4 +1,4 @@
-[Prev](AxMenuStructure) (Main menu overview) | [Home](Home) | [Manual](DocMain) | () Next
+Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | () Next
 - - -
 [TOC]
 - - -
@@ -52,4 +52,4 @@ ___Do not edit - automatically created from DocMain!___
     * [Appendix](AxAdvToc#markdown-header-appendix)
 
 - - -
-[Prev](AxMenuStructure) (Main menu overview) | [Home](Home) | [Manual](DocMain) | [Top](#) | () Next
+Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | () Next

@@ -1,4 +1,4 @@
-[Prev](InstallSetup) (Installation and setup) | [Home](Home) | [Manual](DocMain) | (Cut tool) [Next](CutTool)
+[Prev](InstallSetup) (Installation and setup) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Cut tool) [Next](CutTool)
 - - -
 [TOC]
 - - -
@@ -80,4 +80,4 @@ _Remark:_ In the 3 other QMT tools (cut tool, overview tool, reference tool) a `
     * There are 2 overview levels with image sizes 960 x 540 and 480 x 270 (used overwiew levels: 2 and 4).
   
 - - -
-[Prev](InstallSetup) (Installation and setup) | [Home](Home) | [Manual](DocMain) | [Top](#) | (Cut tool) [Next](CutTool)
+[Prev](InstallSetup) (Installation and setup) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Cut tool) [Next](CutTool)

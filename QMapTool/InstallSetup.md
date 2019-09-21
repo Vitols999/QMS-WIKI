@@ -1,4 +1,4 @@
-[Prev](DocMain) (Manual) | [Home](Home) | [Manual](DocMain) | (Overview tool) [Next](OverviewTool)
+[Prev](QMTDocMain) (Manual) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Overview tool) [Next](OverviewTool)
 - - -
 [TOC]
 - - -
@@ -102,4 +102,4 @@ QMapTool needs some setup to run properly. The user should carry out the followi
    
     
 - - -
-[Prev](DocMain) (Manual) | [Home](Home) | [Manual](DocMain) | [Top](#) | (Overview tool) [Next](OverviewTool)
+[Prev](QMTDocMain) (Manual) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Overview tool) [Next](OverviewTool)

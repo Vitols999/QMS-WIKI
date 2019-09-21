@@ -1,4 +1,4 @@
-[Prev](ReferenceTool) (Reference tool) | [Home](Home) | [Manual](DocMain) | (Color palette tool) [Next](PaletteTool)
+[Prev](ReferenceTool) (Reference tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Color palette tool) [Next](PaletteTool)
 - - -
 [TOC]
 - - -
@@ -105,4 +105,4 @@ To work with the QMT grid tool proceed as follows (compare the images in the [ex
     ![Grid tool EPSG 4326](QMapTool/images/ETH_GridTool4326.jpg "Grid tool EPSG 4326")
     
 - - -
-[Prev](ReferenceTool) (Reference tool) | [Home](Home) | [Manual](DocMain) | [Top](#) | (Color palette tool) [Next](PaletteTool)
+[Prev](ReferenceTool) (Reference tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Color palette tool) [Next](PaletteTool)

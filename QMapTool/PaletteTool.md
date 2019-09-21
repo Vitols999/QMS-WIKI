@@ -1,4 +1,4 @@
-[Prev](GridTool) (Grid tool) | [Home](Home) | [Manual](DocMain) | (Properties of some commonly used coordinate systems) [Next](EpsgOverview)
+[Prev](GridTool) (Grid tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Properties of some commonly used coordinate systems) [Next](EpsgOverview)
 - - -
 [TOC]
 - - -
@@ -79,4 +79,4 @@ _Remark:_
   
  
 - - -
-[Prev](GridTool) (Grid tool) | [Home](Home) | [Manual](DocMain) | [Top](#) | (Properties of some commonly used coordinate systems) [Next](EpsgOverview)
+[Prev](GridTool) (Grid tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Properties of some commonly used coordinate systems) [Next](EpsgOverview)

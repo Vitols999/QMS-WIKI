@@ -1,4 +1,4 @@
-[Prev](OverviewTool) (Overview tool) | [Home](Home) | [Manual](DocMain) | (Reference tool) [Next](ReferenceTool)
+[Prev](OverviewTool) (Overview tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Reference tool) [Next](ReferenceTool)
 - - -
 [TOC]
 - - -
@@ -182,4 +182,4 @@ Using a text editor and the information from the MAP file it is easy to cut such
 
 
 - - -
-[Prev](OverviewTool) (Overview tool) | [Home](Home) | [Manual](DocMain) | [Top](#) | (Reference tool) [Next](ReferenceTool)
+[Prev](OverviewTool) (Overview tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Reference tool) [Next](ReferenceTool)

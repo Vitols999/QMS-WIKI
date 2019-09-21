@@ -1,4 +1,4 @@
-Prev () | [Home](Home) | [Manual](DocMain) | (Installation and setup) [Next](InstallSetup)
+Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Installation and setup) [Next](InstallSetup)
 - - -
 [TOC]
 - - -
@@ -43,4 +43,4 @@ large changes to the GUI. However, smaller changes will be ignored.
 
 
 - - -
-Prev () | [Home](Home) | [Manual](DocMain) | [Top](#) | (Installation and setup) [Next](InstallSetup)
+Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Installation and setup) [Next](InstallSetup)
