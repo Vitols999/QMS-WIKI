@@ -60,7 +60,7 @@ cd
 
 ## Initial build of QMapShack
 ```
-hg clone https://bitbucket.org/maproom/qmapshack QMapShack
+hgit clone https://github.com/Maproom/qmapshack.git QMapShack
 mkdir build_QMapShack
 cd build_QMapShack
 cmake ../QMapShack
@@ -71,8 +71,7 @@ sudo make install
 ### Update of QMapShack when something has changed in future
 ```
 cd ~/GPS/QMapShack
-hg pull
-hg update
+git pull
 cd ../build_QMapShack
 make
 sudo make install
@@ -86,9 +85,9 @@ qmapshack
 
 
 # Setup development environment
-To code at your own you can easily build a development environment by using "QtCreator" for coding, "TortoiseHg" for code management in relation with Bitbucket and "Diffuse" for code comparing inside TortoiseHg.
+To code at your own you can easily build a development environment by using "QtCreator" for coding. 
 ```
-sudo apt-get install qtcreator tortoisehg diffuse
+sudo apt-get install qtcreator 
 ```
 
 Note:

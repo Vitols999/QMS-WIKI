@@ -6,15 +6,13 @@
 # Using Offline Documentation
 
 The online _QMapShack_ documentation (which you are probably just reading)
-is also available as offline documentation in the `doc/` sub-directory
-of the source code distribution or as a _Mercurial_ repository.  If you
-have _Mercurial_ installed, you can clone the _QMapShack_ wiki by issuing
+is also available as offline documentation in the [QMSgithub wiki](https://github.com/Maproom/qmapshack)  If you
+have _GIT_ installed, you can clone the _QMapShack_ wiki by issuing
 the command
 
-        hg clone https://bitbucket.org/maproom/qmapshack/wiki QMapShack-doc
+        git clone https://github.com/Maproom/qmapshack.wiki.git QMapShack-doc
 
-Both, the source code distribution's `doc/` sub-directory and the
-_Mercurial_ repository contain _Markdown_ (`*.md`) files, and to read
+The wiki consists of _Markdown_ (`*.md`) files, and to read
 them you will either need some _Markdown_ plugin for your browser or
 you'll need to create `*.html` input files for your browser from the
 `*.md` files as described below.

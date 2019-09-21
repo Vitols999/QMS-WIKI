@@ -7,15 +7,15 @@
 
 ## Windows
 
-For 64 bit Windows there is a binary installer available [in the download section](https://bitbucket.org/maproom/qmapshack/downloads).
+For 64 bit Windows there is a binary installer available [in the download section](https://github.com/Maproom/qmapshack/releases).
 There is also an outdated version for 32 bit Windows. To get up-to-date 32 bit binaries it needs someone maintaining it.
 
 If you want to compile QMapShack for Windows have a look at ["Compiling and Building QMapShack for Windows"](BuildWindowsVisualStudio) in the source tree.
 
 ## OS X
 
-A binary bundle is available [in the download section](https://bitbucket.org/maproom/qmapshack/downloads).
-The binary is build with compatibility for Mac OS X 10.5 (Leopard) and later. The build is done with the Xcode 7.0.1 and tested on OS-X 10.10.5 (Yosemite) and partly on OS-X 10.11 (El Capitan).
+A binary bundle is available [in the download section](https://github.com/Maproom/qmapshack/releases).
+The binary is build with compatibility for Mac OS X 10.14 and later. 
 
 The application can also be installed through cask (homebrew addition).
 Installing homebrew and cask, if not already done:
@@ -72,22 +72,20 @@ You also need to **install the development packages** in order to build QMapShac
 
 #### Obtaining the Source
 
-The **latest stable release** [can be downloaded here](https://bitbucket.org/maproom/qmapshack/downloads).
+The **latest stable release** [can be downloaded here](https://github.com/Maproom/qmapshack/releases).
 You have to download and unpack the \*tar.gz files.
 
-If you want to use the cutting edge you need _Mercurial_ to access the repository.
-A GUI for _Mercurial_ is [TortoiseHg](http://tortoisehg.bitbucket.org/).
 
 Keep in mind: **_The cutting edge may be less stable and/or contain bugs_**
 
 Clone the QMapShack repo into a folder QMapShack by executing:
 
-    hg clone https://bitbucket.org/maproom/qmapshack QMapShack
+    git clone https://github.com/Maproom/qmapshack.git QMapShack
 
 To update the code to the cutting edge change to the folder `QMapShack` and execute:
 
-    hg pull
-    hg update
+    git pull
+   
 
 #### Compiling and Installing
 

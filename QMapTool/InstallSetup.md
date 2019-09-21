@@ -9,7 +9,7 @@
 
 ### Windows
 
-For 64-bit Windows use the [QMapShack installer binary](https://bitbucket.org/maproom/qmapshack/downloads) which installs QMapTool, too.
+For 64-bit Windows use the [QMapShack installer binary](https://github.com/Maproom/qmapshack/releases) which installs QMapTool, too.
 
 The Windows installer makes the following changes to environment variables:
 
@@ -21,7 +21,7 @@ The Windows installer makes the following changes to environment variables:
 
 ### Linux 
 
-Download, unpack and compile the [latest stable release from the download page](https://bitbucket.org/maproom/qmaptool/downloads). 
+Download, unpack and compile the [latest stable release from the download page](https://github.com/Maproom/qmapshack/releases). 
 
 To compile QMapTool, you need to have installed:
 
