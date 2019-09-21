@@ -13,7 +13,7 @@ size itself is changed. Thus, cutting a map is without influence on existing ref
 In the following image the map area (without content, only grid lines drawn for better visibility) is delimited by a black rectangular frame. The cut polygon is defined
 with the help of 6 points (vertices), 4 of them outside the map area. The shaded area within the map is cut off from the map (is made transparent).
 
-![Cut map with polygon](images/CutPolygon.jpg "Cut map with polygon")
+![Cut map with polygon](QMapTool/images/CutPolygon.jpg "Cut map with polygon")
 
 ## Basic information
 
