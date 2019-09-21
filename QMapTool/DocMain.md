@@ -7,15 +7,15 @@ Prev () | [Home](Home) | [Manual](DocMain) | (Installation and setup) [Next](Ins
 
 User interface of the QMapTool (QMT) reference tool:
 
-![](images/qmaptool.jpg "")
+![](QMapTool/images/qmaptool.jpg "")
 
 User interface of the QMT cut tool:
 
-![](images/qmaptool1.jpg "")
+![](QMapTool/images/qmaptool1.jpg "")
 
 User interface of the QMT grid tool
 
-![](images/qmaptool2.jpg "")
+![](QMapTool/images/qmaptool2.jpg "")
 
 **Note**: As the software is subject to a constant development progress, this manual will
 always reflect just a snapshot of the current state. Screenshots seen in this manual might 

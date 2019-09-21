@@ -35,7 +35,7 @@ To add a color palette to a map proceed as follows:
 
 1. Select the menu entry `Window - Shell` to open the QMT shell window (docked window, can be moved on the desktop).
 1. Click the `Add color palette` button in the QMT `Tools` window to open the palette tool.
-1. Click the `Open` (`Add map files to list`) icon (![](images/PathBlue.png)) and select one or several raster maps. 
+1. Click the `Open` (`Add map files to list`) icon (![](QMapTool/images/PathBlue.png)) and select one or several raster maps. 
 
      * _Attention:_ If more than one map is loaded into the palette tool, then all maps must be georeferenced with the same coordinate system.
      * A tooltip pops-up when the mouse pointer is located on the filename of a map. This tooltip shows some of the properties of the map. Here, the
@@ -58,7 +58,7 @@ To add a color palette to a map proceed as follows:
 The following image shows the complete palette tool with 2 maps and the tooltip for one of the maps.
  
 
-![Palette tool](images/PaletteTool.jpg "Palette tool")
+![Palette tool](QMapTool/images/PaletteTool.jpg "Palette tool")
 
 ## More details   
 
@@ -66,9 +66,9 @@ The following image shows the complete palette tool with 2 maps and the tooltip 
 
     | Icon | Tooltip |
     |------|---------|
-    | ![](images/DeleteOne.png) | Remove selected (map) file from the list |
-    | ![](images/DeleteMultiple.png) | Clear complete list of map files | 
-    | ![](images/Reload.png) | Reload the currently selected map | 
+    | ![](QMapTool/images/DeleteOne.png) | Remove selected (map) file from the list |
+    | ![](QMapTool/images/DeleteMultiple.png) | Clear complete list of map files | 
+    | ![](QMapTool/images/Reload.png) | Reload the currently selected map | 
  
 
 _Remark:_ 

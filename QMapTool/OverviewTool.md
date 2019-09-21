@@ -20,7 +20,7 @@ To add map overviews proceed as follows:
 
 1. Select the menu entry `Window - Shell` to open the QMT shell window (docked window, can be moved on the desktop).
 1. Click the `Add overviews` button in the QMT `Tools` window  to open the overview tool.
-1. Click the `Open` (`Add map files to list`) icon (![](images/PathBlue.png)) and select a raster map. The raster map is loaded into the QMT map window.
+1. Click the `Open` (`Add map files to list`) icon (![](QMapTool/images/PathBlue.png)) and select a raster map. The raster map is loaded into the QMT map window.
 1. Select up to 6 zoom levels for which overviews should be created. _Remark:_ The selected value is used as reduction factor for the original image size.
 1. Select the `Overview as external file` checkbox (the overview file has an additional `OVR` extension added to the map file name, this file is a multipage TIFF file, 
    its pages can be checked/rendered in an image viewer). 
@@ -28,7 +28,7 @@ To add map overviews proceed as follows:
 1. The shell window (if activated) shows the used GDAL commands and the progress of the operation.
 
 
-![Overview tool](images/OverviewTool.jpg "Overview tool")
+![Overview tool](QMapTool/images/OverviewTool.jpg "Overview tool")
 
 _Remark:_ In the 3 other QMT tools (cut tool, overview tool, reference tool) a `Create overviews ...` option is available. This is necessary because there is no fixed order of
   using these tools. When one of these tools calls GDAL for some operation, then GDAL doesn't read the overview information contained in the raster map file. Thus, overview 
@@ -40,9 +40,9 @@ _Remark:_ In the 3 other QMT tools (cut tool, overview tool, reference tool) a `
 
     | Icon | Tooltip |
     |------|---------|
-    | ![](images/DeleteOne.png) | Remove selected (map) file from the list |
-    | ![](images/DeleteMultiple.png) | Clear complete list of map files | 
-    | ![](images/Reload.png) | Reload the currently selected map | 
+    | ![](QMapTool/images/DeleteOne.png) | Remove selected (map) file from the list |
+    | ![](QMapTool/images/DeleteMultiple.png) | Clear complete list of map files | 
+    | ![](QMapTool/images/Reload.png) | Reload the currently selected map | 
 
 * If the `Remove` checkbox is selected, then the overviews are removed from the map file.
 * It is possible to open several map files. If the checkbox `For all files` at the bottom of the tool is checked, then the required action (create or remove overview)

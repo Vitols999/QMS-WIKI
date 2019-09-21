@@ -19,12 +19,12 @@ To work with the QMT grid tool proceed as follows (compare the images in the [ex
 
 1. Select the menu entry `Window - Shell` to open a shell window (docked window, can be moved on the desktop).
 1. Click the `Reference tool` button in the QMT `Tools` window (docked window, can be moved on the desktop).
-1. Click the `Open` (`Add map files to list`) icon (![](images/PathBlue.png)) and select a raster map with a grid and known coordinate system for the grid (this means: some
+1. Click the `Open` (`Add map files to list`) icon (![](QMapTool/images/PathBlue.png)) and select a raster map with a grid and known coordinate system for the grid (this means: some
    form of the Proj.4 description of the coordinate system should be known). 
    The raster map is loaded into the QMT map window.
-1. Click the grid tool icon (![](images/GridTool.png)) in the reference tool to open the grid tool (docked window, can be moved on the desktop).
+1. Click the grid tool icon (![](QMapTool/images/GridTool.png)) in the reference tool to open the grid tool (docked window, can be moved on the desktop).
 1. Zoom the map with the mouse wheel so that 1 complete grid square is displayed in the window (make it as large as reasonable).
-1. Click the coordinate system selection icon (![](images/GridWizzard.png))
+1. Click the coordinate system selection icon (![](QMapTool/images/GridWizzard.png))
 1. Choose the coordinate system of the grid (coordinate systems may have degree or meter as unit). If the coordinate system is not in the list provided by QMT, then
    check if it can be found in the [list of some additional coordinate systems](EpsgOverview) or in one of the links given there.
 1. Get the coordinates of the upper left corner of a grid square (coordinates must match the coordinate system defined in the previous step!).
@@ -60,7 +60,7 @@ To work with the QMT grid tool proceed as follows (compare the images in the [ex
   zone boundary). Pay attention to the fact that in this
   case grid lines are broken (see cyan rectangle for northing and jump in the easting value)!
   
-    ![Different grids on map](images/GridChange.jpg "Different grids on 1 map")
+    ![Different grids on map](QMapTool/images/GridChange.jpg "Different grids on 1 map")
 
 ## Examples of referencing a map with the grid tool
 
@@ -68,13 +68,13 @@ To work with the QMT grid tool proceed as follows (compare the images in the [ex
 
 * Used map: OpenStreetMap displayed in QMS, screen snapshot of center of Addis Abeba, Ethiopia
 
-    ![Used map](images/ETH_Map.jpg "Used map")
+    ![Used map](QMapTool/images/ETH_Map.jpg "Used map")
 
 * Grid used: EPSG 3857,  WGS 84 / Pseudo-Mercator (selected in QMS/QMT via "World Mercator (OSM) - datum WGS_1984"):
 
-    ![Set grid to World Mercator (OSM) - WGS84](images/ETH_GridSetting.jpg "Set grid to World Mercator (OSM) - WGS84")
+    ![Set grid to World Mercator (OSM) - WGS84](QMapTool/images/ETH_GridSetting.jpg "Set grid to World Mercator (OSM) - WGS84")
 
-    ![Set proj.4 to World Mercator (OSM) - WGS84](images/ETH_GridSetting1.jpg "Set proj.4 to World Mercator (OSM) - WGS84")
+    ![Set proj.4 to World Mercator (OSM) - WGS84](QMapTool/images/ETH_GridSetting1.jpg "Set proj.4 to World Mercator (OSM) - WGS84")
 
 * Proj.4 parameters: `+proj=merc +a=6378137 +b=6378137 +lat_ts=0.001 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs` 
 * Open grid tool for referencing
@@ -83,26 +83,26 @@ To work with the QMT grid tool proceed as follows (compare the images in the [ex
 * number of reference points added by QMT: 8 (small green squares, returning back to the reference tool all reference points are shown as small black squares)
 * no additional refinement of automatically created reference points in the reference tool (precision of obtained reference points seems to be sufficient)
 
-    ![Grid tool](images/ETH_GridTool.jpg "Grid tool")
+    ![Grid tool](QMapTool/images/ETH_GridTool.jpg "Grid tool")
 
 
 * Result when displaying referenced map in QMS: differences in grid lines and streets between original OSM map and referenced map practically not visible
   (inside the black frame is the referenced map, outside the original one).
 
-    ![Compare original and referenced map](images/ETH_ReferencedMap.jpg "Compare original and referenced map")
+    ![Compare original and referenced map](QMapTool/images/ETH_ReferencedMap.jpg "Compare original and referenced map")
     
 ### Example 2
 
 * Similar to Example 1
 * Grid used: EPSG 4326 (WGS84 geographic)
 
-     ![Set grid to EPSG 4326](images/ETH_ReferenceMap1.jpg "Set grid to EPSG:4326")
+     ![Set grid to EPSG 4326](QMapTool/images/ETH_ReferenceMap1.jpg "Set grid to EPSG:4326")
 
 * Proj.4 parameters: `+init=epsg:4326`
 * Coordinates of first point N9.035°, E38.74 (easting: longitude, northing: latitude, spacing in degrees)
 * no additional refinement of automatically created reference points
 
-    ![Grid tool EPSG 4326](images/ETH_GridTool4326.jpg "Grid tool EPSG 4326")
+    ![Grid tool EPSG 4326](QMapTool/images/ETH_GridTool4326.jpg "Grid tool EPSG 4326")
     
 - - -
 [Prev](ReferenceTool) (Reference tool) | [Home](Home) | [Manual](DocMain) | [Top](#) | (Color palette tool) [Next](PaletteTool)

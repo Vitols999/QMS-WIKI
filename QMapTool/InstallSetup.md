@@ -43,7 +43,7 @@ Windows users can go to the start menu and select `QMapShack - QMapTool` (rememb
 
 After starting QMapTool, the initial user interface is shown:
 
-![QMT initial layout](images/QMTLayout.jpg "QMT initial layout")
+![QMT initial layout](QMapTool/images/QMTLayout.jpg "QMT initial layout")
 
 
 ### List of command-line options
@@ -84,7 +84,7 @@ QMapTool needs some setup to run properly. The user should carry out the followi
 
 1. Select the menu item `Setup - Ext.tools` and fill in the requested paths to the GDAL package (QMT is trying to find these paths automatically):
 
-    ![Setup of external tools](images/SetupExternals.jpg "Setup of external tools")
+    ![Setup of external tools](QMapTool/images/SetupExternals.jpg "Setup of external tools")
     
    _Remarks:_
 

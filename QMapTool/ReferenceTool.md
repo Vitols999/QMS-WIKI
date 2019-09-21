@@ -26,27 +26,27 @@ To work with the QMT reference tool proceed as follows:
 1. Find more than 3 reference points in the raster map with known WGS84 lat/lon coordinates. _Remark:_ An easy way to get reference points with coordinates is to use a 
    map (e.g. OpenStreetMap) in QMS.
 1. Click the `Reference tool` button in the QMT `Tools` window (docked window, can be moved on the desktop).
-1. Click the `Open` (`Add map files to list`) icon (![](images/PathBlue.png)) and select a raster map. The raster map is loaded into the QMT map window.
-1. Click the `Add reference point` icon (![](images/RefAdd.png)). The map cursor now is a cross-hair one.
+1. Click the `Open` (`Add map files to list`) icon (![](QMapTool/images/PathBlue.png)) and select a raster map. The raster map is loaded into the QMT map window.
+1. Click the `Add reference point` icon (![](QMapTool/images/RefAdd.png)). The map cursor now is a cross-hair one.
 1. Move the mouse cursor on each of the known reference points as precisely as possible (use mouse wheel to zoom map!) and left-click to fix the reference point.
 1. Insert the WGS84 coordinates of the reference point into the pop-up window. The input format is shown as soon as input is started. A small black square is shown
    at the reference point in the map. The coordinates and the pixel location of the reference point are inserted into the list of reference points in the tool window.
 
-     ![Input of WGS84 coordinates](images/RefToolCoord.jpg "Input of WGS84 coordinates")
+     ![Input of WGS84 coordinates](QMapTool/images/RefToolCoord.jpg "Input of WGS84 coordinates")
 
      _Remark:_ An easy way to get reference points into QMT is to use QMS. Find some reference point which is on the raster map and on the
      QMS map as well. Right click the QMS map at the reference point location to get a context menu and then click `Copy position`. This copies the current position to
      the clipboard. Now, goto to the QMT window and add the reference point. When being asked for the coordinates simply press `CTRL-V` to insert the coordinates
      found in QMS.
      
-1. Click the `Start projection wizard` icon (![](images/GridWizzard.png)) and select the coordinate system for the output of referenced data. An example is shown in the next image.
+1. Click the `Start projection wizard` icon (![](QMapTool/images/GridWizzard.png)) and select the coordinate system for the output of referenced data. An example is shown in the next image.
 
-     ![Select output coordinates](images/RefToolOutCoord.jpg "Select output coordinates")
+     ![Select output coordinates](QMapTool/images/RefToolOutCoord.jpg "Select output coordinates")
 
 1. Leave defaults for other settings.
 1. Click the `Start` button to get a referenced image file and a VRT file in the directory of the original raster map. The shell window displays the GDAL commands run.
 
-    ![Reference tool with referenced map](images/RefTool.jpg "Reference tool with referenced map")
+    ![Reference tool with referenced map](QMapTool/images/RefTool.jpg "Reference tool with referenced map")
 
 ### More details   
 
@@ -54,19 +54,19 @@ In addition to the basic steps described in the previous section some more actio
 
 Icon | Tooltip | Comment
 -----|---------|--------
-![](images/DeleteOne.png) | Remove selected (map) file from the list | Reference points are deleted, too.
-![](images/DeleteMultiple.png) | Clear complete list of map files | Reference points are deleted, too.
-![](images/Reload.png) | Reload the currently selected map | Reference points aren't changed.
-![](images/MoveArrow.png) | Move the map and zoom | Zoom with mouse wheel.
-![](images/RefAdd.png) | Add reference point | Move mouse to wanted point, left-click and insert coordinates into the coordinate definition window.
-![](images/RefMove.png) | Move reference point | Reposition misplaced reference point. A selected reference point either in the list or in the map changes the square color to red. Left-click the reference point in the map, move it to new location and left-click again to fix it.
-![](images/RefDel.png) | Remove single reference point | A selected reference point either in the list or in the map changes the square color to red. Left-click in the map to remove it.
-![](images/RefMoveAuto.png) | Move reference point with automode. This will pick-up (move the mouse to) the next point after you moved a reference point. | Press `b` or `n` on the keyboard to jump to the previous or next reference point in the list.
-![](images/RefDelAll.png) | Remove all reference points | Requires additional confirmation of deletion.
-![](images/GridTool.png) | Switch to the [grid tool](GridTool) | Reference tool add-on for fast creation of reference points if map has known grid.
-![](images/LoadGcp.png) | Load reference points from GCP file | Load previously defined and saved reference points from file.
-![](images/SaveGcp.png) | Save reference points into GCP file | Save reference points for future use.
-![](images/Sort.png) | Sort list of reference points |
+![](QMapTool/images/DeleteOne.png) | Remove selected (map) file from the list | Reference points are deleted, too.
+![](QMapTool/images/DeleteMultiple.png) | Clear complete list of map files | Reference points are deleted, too.
+![](QMapTool/images/Reload.png) | Reload the currently selected map | Reference points aren't changed.
+![](QMapTool/images/MoveArrow.png) | Move the map and zoom | Zoom with mouse wheel.
+![](QMapTool/images/RefAdd.png) | Add reference point | Move mouse to wanted point, left-click and insert coordinates into the coordinate definition window.
+![](QMapTool/images/RefMove.png) | Move reference point | Reposition misplaced reference point. A selected reference point either in the list or in the map changes the square color to red. Left-click the reference point in the map, move it to new location and left-click again to fix it.
+![](QMapTool/images/RefDel.png) | Remove single reference point | A selected reference point either in the list or in the map changes the square color to red. Left-click in the map to remove it.
+![](QMapTool/images/RefMoveAuto.png) | Move reference point with automode. This will pick-up (move the mouse to) the next point after you moved a reference point. | Press `b` or `n` on the keyboard to jump to the previous or next reference point in the list.
+![](QMapTool/images/RefDelAll.png) | Remove all reference points | Requires additional confirmation of deletion.
+![](QMapTool/images/GridTool.png) | Switch to the [grid tool](GridTool) | Reference tool add-on for fast creation of reference points if map has known grid.
+![](QMapTool/images/LoadGcp.png) | Load reference points from GCP file | Load previously defined and saved reference points from file.
+![](QMapTool/images/SaveGcp.png) | Save reference points into GCP file | Save reference points for future use.
+![](QMapTool/images/Sort.png) | Sort list of reference points |
 
 * If the field labeled `Embed result into *.vrt file` is not checked, then the above mentioned VRT file (needed for displaying the map in QMS) is not 
   created. _Remark:_ Leave the checkbox selected, if the referenced map should be used in QMS.
@@ -135,7 +135,7 @@ and reference such maps with QMT. Follow these steps for downloading and referen
 * Select the `Load reference points from GCP file` icon in the toolbar and load the file `001m--m36--(1989).gcp`.
 * The map window shows now 9 reference points (4 points in the corners, 4 points in the middle of the 4 edges of the map, 1 in the center of the map). 
     
-     ![Using GCP file](images/RefToolGCP.jpg "Use of GCP file")
+     ![Using GCP file](QMapTool/images/RefToolGCP.jpg "Use of GCP file")
       
     If necessary, improve reference points manually as described on this page.
     

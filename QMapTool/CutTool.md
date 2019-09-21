@@ -21,8 +21,8 @@ To cut a map proceed as follows:
 
 1. Select the menu entry `Window - Shell` to open the QMT shell window (docked window, can be moved on the desktop).
 1. Click the `Cut map` button in the QMT `Tools` window to open the cut tool.
-1. Click the `Open` (`Add map files to list`) icon (![](images/PathBlue.png)) and select a raster map. The raster map is loaded into the QMT map window.
-1. Click the `Add point to mask` icon (![](images/RefAdd.png)). The map cursor now is a cross-hair one.
+1. Click the `Open` (`Add map files to list`) icon (![](QMapTool/images/PathBlue.png)) and select a raster map. The raster map is loaded into the QMT map window.
+1. Click the `Add point to mask` icon (![](QMapTool/images/RefAdd.png)). The map cursor now is a cross-hair one.
 1. Move the mouse cursor to the first polygon point as precisely as possible (use the mouse wheel to zoom map!) and left-click to fix the point.
 1. Move the mouse to the next polygon point and fix it with a left click. Continue until the polygon mask has the wanted shape. _Remark:_ Starting with the third
    point the cut polygon is visible as an area.
@@ -31,11 +31,11 @@ To cut a map proceed as follows:
 
 The following image shows the complete cut tool with a map and a mask which removes the non-map parts of the printed map.
 
-![Cut tool](images/CutMap.jpg "Cut tool")
+![Cut tool](QMapTool/images/CutMap.jpg "Cut tool")
 
 An advantage of the use of cut maps is that several neighboring ones can be rendered smoothly as demonstrated in the following image:
 
-![Maps cut and joined](images/JoinMaps.jpg "Maps cut and joined")
+![Maps cut and joined](QMapTool/images/JoinMaps.jpg "Maps cut and joined")
 
 ### More details   
 
@@ -43,16 +43,16 @@ In addition to the basic steps described in the previous section some more actio
 
 Icon | Tooltip | Comment
 -----|---------|--------
-![](images/DeleteOne.png) | Remove selected (map) file from the list | 
-![](images/DeleteMultiple.png) | Clear complete list of map files | 
-![](images/Reload.png) | Reload the currently selected map | 
-![](images/MoveArrow.png) | Move the map and zoom | Zoom with mouse wheel. |
-![](images/RefAdd.png) | Add point to mask | Left-click on polygon edge (selected edge is in red color), move mouse to new location, left-click again to fix the new point. 
-![](images/RefMove.png) | Move points of mask | Reposition misplaced mask point. Left-click the mask point in the map, move it to new location, left-click again to fix it.
-![](images/RefDel.png) | Remove point from mask | Left-click on a mask point in the map to remove the point.
-![](images/RefDelAll.png) | Remove complete cut mask | Requires additional confirmation of deletion of whole mask.
-![](images/LoadShape.png) | Load reference points from shape file | Load previously defined cut mask from file.
-![](images/SaveShape.png) | Save reference points into shape file | Save cut mask for future use.
+![](QMapTool/images/DeleteOne.png) | Remove selected (map) file from the list | 
+![](QMapTool/images/DeleteMultiple.png) | Clear complete list of map files | 
+![](QMapTool/images/Reload.png) | Reload the currently selected map | 
+![](QMapTool/images/MoveArrow.png) | Move the map and zoom | Zoom with mouse wheel. |
+![](QMapTool/images/RefAdd.png) | Add point to mask | Left-click on polygon edge (selected edge is in red color), move mouse to new location, left-click again to fix the new point. 
+![](QMapTool/images/RefMove.png) | Move points of mask | Reposition misplaced mask point. Left-click the mask point in the map, move it to new location, left-click again to fix it.
+![](QMapTool/images/RefDel.png) | Remove point from mask | Left-click on a mask point in the map to remove the point.
+![](QMapTool/images/RefDelAll.png) | Remove complete cut mask | Requires additional confirmation of deletion of whole mask.
+![](QMapTool/images/LoadShape.png) | Load reference points from shape file | Load previously defined cut mask from file.
+![](QMapTool/images/SaveShape.png) | Save reference points into shape file | Save cut mask for future use.
 
 
 
@@ -114,7 +114,7 @@ Using a text editor and the information from the MAP file it is easy to cut such
     * Select the `Load cut mask from shape file` icon in the toolbar and load the file `001m--m36--(1989)_1.shp`.
     * The map window shows now a cut mask with cut points in the 4 corners of the map area as shown in the next image:
     
-         ![Using shape file](images/CutMask.jpg "Use of a cut mask")
+         ![Using shape file](QMapTool/images/CutMask.jpg "Use of a cut mask")
       
          If necessary, improve the cut mask manually as described on this page.
     * Click `Start` to create a new map file which will be displayed without the boundary area (boundary area is now transparent).
@@ -123,7 +123,7 @@ Using a text editor and the information from the MAP file it is easy to cut such
     * Carefully checking the cut mask obtained in the first approach makes the weakness of this map obvious: there is still some part of
       the boundary not cut from the map:
       
-         ![Inaccurate cut mask](images/CutMask1.jpg "Inaccurate cut mask")
+         ![Inaccurate cut mask](QMapTool/images/CutMask1.jpg "Inaccurate cut mask")
       
     * Open the MAP file in a text editor and find the lines labeled `POINT` near the top of the file.
     * In the example the lines are
@@ -164,7 +164,7 @@ Using a text editor and the information from the MAP file it is easy to cut such
     * Select the `Load cut mask from shape file` icon in the toolbar and load the file `001m--m36--(1989)_2.shp`.
     * The map window shows now a cut mask with 8 cut points (4 points in the corners, 4 points in the middle of the 4 edges of the map). 
     
-        ![Using shape file](images/CutMask2.jpg "Use of a more precise cut mask")
+        ![Using shape file](QMapTool/images/CutMask2.jpg "Use of a more precise cut mask")
       
         This mask is more precise than the one obtained in the first approach. If necessary, improve the cut mask manually as described on this page.
         
