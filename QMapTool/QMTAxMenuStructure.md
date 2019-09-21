@@ -1,4 +1,4 @@
-Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | () Next
+[Prev](EpsgOverview) (Properties of some commonly used coordinate systems) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Complete table of contents) [Next](QMTAxAdvToc)
 - - -
 [TOC]
 - - -
@@ -29,4 +29,4 @@ Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | () N
   `not checked/not selected`).
 
 - - -
-Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | () Next
+[Prev](EpsgOverview) (Properties of some commonly used coordinate systems) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Complete table of contents) [Next](QMTAxAdvToc)

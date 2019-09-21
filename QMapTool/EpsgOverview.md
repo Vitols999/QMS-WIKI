@@ -1,4 +1,4 @@
-[Prev](PaletteTool) (Color palette tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Main menu overview) [Next](AxMenuStructure)
+[Prev](PaletteTool) (Color palette tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Main menu overview) [Next](QMTAxMenuStructure)
 - - -
 [TOC]
 - - -
@@ -193,4 +193,4 @@ __EPSG 4178: Pulkovo 42/83 (Krassowski), geographic__
 
                 
 - - -
-[Prev](PaletteTool) (Color palette tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Main menu overview) [Next](AxMenuStructure)
+[Prev](PaletteTool) (Color palette tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Main menu overview) [Next](QMTAxMenuStructure)

@@ -37,8 +37,8 @@ large changes to the GUI. However, smaller changes will be ignored.
 ## Appendix
 
 * [Properties of some commonly used coordinate systems](EpsgOverview)
-* [Main menu overview](AxMenuStructure)
-* [Complete table of contents](AxAdvToc)
+* [Main menu overview](QMTAxMenuStructure)
+* [Complete table of contents](QMTAxAdvToc)
 
 
 

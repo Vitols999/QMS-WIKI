@@ -1,4 +1,4 @@
-Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | () Next
+[Prev](QMTAxMenuStructure) (Main menu overview) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | () Next
 - - -
 [TOC]
 - - -
@@ -46,10 +46,10 @@ ___Do not edit - automatically created from DocMain!___
 
 
 * [Properties of some commonly used coordinate systems](EpsgOverview)
-* [Main menu overview](AxMenuStructure)
-* [Complete table of contents](AxAdvToc)
-    * [Basic usage](AxAdvToc#markdown-header-basic-usage)
-    * [Appendix](AxAdvToc#markdown-header-appendix)
+* [Main menu overview](QMTAxMenuStructure)
+* [Complete table of contents](QMTAxAdvToc)
+    * [Basic usage](QMTAxAdvToc#markdown-header-basic-usage)
+    * [Appendix](QMTAxAdvToc#markdown-header-appendix)
 
 - - -
-Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | () Next
+[Prev](QMTAxMenuStructure) (Main menu overview) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | () Next
