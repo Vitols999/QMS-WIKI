@@ -41,7 +41,7 @@ The following links are recommendations for files which allow comfortable work w
 
 * _QMapShack_:
 
-    * [Load QMS from server](https://www.pling.com/p/1127946 "Load QMS installation file").
+    * [Load QMS from server](https://github.com/Maproom/qmapshack/releases "Load QMS installation file").
       Download the file `QMapShack_Win64bit_1.13.2.exe` from this site (approximately 100 MB, version number can be different).
 
 * _Use of maps (recommended)_:
