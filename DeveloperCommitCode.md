@@ -1,18 +1,19 @@
 [Prev](DeveloperCodingGuideline) (Coding Guideline) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Add translations) [Next](DeveloperTranslate)
 - - -
-
-- [Commit Code](#commit-code)
-  - [Fork the repository](#fork-the-repository)
-  - [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
-  - [Configure Git to sync your fork with the original QMapShack repository](#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
-  - [Keep your fork synced](#keep-your-fork-synced)
-  - [Open a new branch](#open-a-new-branch)
-  - [Commit changes locally](#commit-changes-locally)
-    - [Change commits](#change-commits)
-  - [Push your commits](#push-your-commits)
-  - [Rebase your branch](#rebase-your-branch)
-
+[TOC]
 - - -
+
+- [Commit Code](#markdown-header-commit-code)
+  - [Fork the repository](#markdown-header-fork-the-repository)
+  - [Create a local clone of your fork](#markdown-header-create-a-local-clone-of-your-fork)
+  - [Configure Git to sync your fork with the original QMapShack repository](#markdown-header-configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
+  - [Keep your fork synced](#markdown-header-keep-your-fork-synced)
+  - [Open a new branch](#markdown-header-open-a-new-branch)
+  - [Commit changes locally](#markdown-header-commit-changes-locally)
+    - [Change commits](#markdown-header-change-commits)
+  - [Push your commits](#markdown-header-push-your-commits)
+  - [Rebase your branch](#markdown-header-rebase-your-branch)
+
 
 # Commit Code
 
@@ -84,7 +85,7 @@ When you fork a project in order to propose changes to the original repository, 
 
 4. Open Terminal.
 
-5. Change directories to the location of the fork you cloned  [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
+5. Change directories to the location of the fork you cloned  [Create a local clone of your fork](#markdown-header-create-a-local-clone-of-your-fork)
     * To go to your home directory, type just `cd` with no other text.
     * To list the files and folders in your current directory, type `ls`.
     * To go into one of your listed directories, type `cd your_listed_directory`.

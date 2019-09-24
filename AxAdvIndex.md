@@ -661,6 +661,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Map, openmtbmap (Linux)**
 :  [Vector maps for Linux systems](DocMapsTipsRasterDEM#markdown-header-vector-maps-for-linux-systems "Vector maps for Linux systems")
 
+**Map, overlay layer**
+:  [Google terrain map](DocFaqMaps#markdown-header-why-is-google-terrain-map-a-black-and-white-map "Google terrain map")
+
 **Map, overview of setup**
 :  [Map and DEM setup](AdvSetup#markdown-header-map-and-dem-setup "Map and DEM setup")
 

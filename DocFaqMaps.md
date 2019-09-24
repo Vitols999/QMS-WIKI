@@ -289,7 +289,19 @@ The third and the forth layouts illustrate how important and even dangerous layo
 types are not displayed anymore (a motorway might be of no interest for a bicycle user). The forth layout results from a type file not
 built for the given vector map. As a result, even the motorway is not displayed correctly.
 
+## Why is Google Terrain map a black-and-white map?
 
+**Source:** [Discussion at https://sourceforge.net](https://sourceforge.net/p/qlandkartegt/mailman/message/36769269)
+
+[Google maps](https://www.google.com/maps) offers different map layers as overlays to some basic map. Among the overlay layers is a *Terrain* layer. 
+
+Using various [TMS files](http://www.mtb-touring.net/qms/onlinekarten-einbinden) these maps and their layers can be visualized in QMS. The next image shows in its upper part a map of some mountainous area without any overlays.
+
+In the middle of this image the Google terrain overlay is activated and shows the same area as the upper part. This overlay isn't a map in the proper sense of the word. It is used to show hillshading on some base map. The white/grey spots in this layer indicate hillshading.
+
+Changing the opacity of the terrain layer with the help of the opacity slider reveals the hillshading on the base map (compare lower part of the next image with its upper and middle parts).
+
+![Google terrain layer](images/DocFaq/MapLayers.jpg "Google terrain layer")
 
 ## Which raster map formats are supported?
 

@@ -86,6 +86,7 @@ Image caption | Used in
 [GPS Tether track](images/DocAdv/GPSTetherTrack.jpg "GPS Tether track") | [AdvRealtime](AdvRealtime)
 [GPX replay](images/DocAdv/RealtimeReplay.png) | [AdvRealtime](AdvRealtime)
 [Geosearch](images/DocIcons/SearchGoogle.png) | [AdvToolbarAct](AdvToolbarAct)
+[Google terrain layer](images/DocFaq/MapLayers.jpg "Google terrain layer") | [DocFaqMaps](DocFaqMaps)
 [Help](images/DocIcons/Help.png) | [AdvToolbarAct](AdvToolbarAct)
 [Hidden trackpoints](images/DocFaq/HiddenWPTs.png "Hidden trackpoints") | [AdvTrkGeneral](AdvTrkGeneral)
 [Import Database from QLandkarte](images/DocIcons/DatabaseConvert.png) | [AdvToolbarAct](AdvToolbarAct)

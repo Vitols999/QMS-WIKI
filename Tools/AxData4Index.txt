@@ -1294,7 +1294,10 @@ ___Basic usage___
                 1. Map|change layout
                 1. Type file|change map layout
                 
-                
+            * [Why is Google Terrain map a black-and-white map?](DocFaqMaps#markdown-header-why-is-google-terrain-map-a-black-and-white-map)    
+            + Google terrain map
+                1. Map|overlay layer            
+             
             * [Which raster map formats are supported?](DocFaqMaps#markdown-header-which-raster-map-formats-are-supported)
             + Supported raster maps
                 1. Raster map|sources
@@ -1352,9 +1355,9 @@ ___Basic usage___
     * [Qt comes without SSL support](TroubleShooting#markdown-header-qt-comes-without-ssl-support)
     * [GDAL comes without curl support](TroubleShooting#markdown-header-gdal-comes-without-curl-support)
     * [GDAL comes without support for exotic formats](TroubleShooting#markdown-header-gdal-comes-without-support-for-exotic-formats)
+
 * [Reporting a bug](ReportBugs)
-    * [Additional Tips](ReportBugs#markdown-header-additional-tips)
-        * [Remarks (see example above)](ReportBugs#markdown-header-remarks-see-example-above)
+
 * [Requesting a feature](RequestFeatures)
     * [Implement it yourself](RequestFeatures#markdown-header-implement-it-yourself)
 
@@ -1364,7 +1367,17 @@ ___Developing QMapShack___
 * [Coding Guideline](DeveloperCodingGuideline)
    
 * [Commit Code](DeveloperCommitCode)
-    * [Pull Request](DeveloperCommitCode#markdown-header-pull-request)
+    * [Fork the repository](DeveloperCommitCode#markdown-header-fork-the-repository)
+    * [Create a local clone of your fork](DeveloperCommitCode#markdown-header-create-a-local-clone-of-your-fork)
+    * [Configure Git to sync your fork with the original QMapShack repository](DeveloperCommitCode#markdown-header-configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
+    * [Keep your fork synced](DeveloperCommitCode#markdown-header-keep-your-fork-synced)
+    * [Open a new branch](DeveloperCommitCode#markdown-header-open-a-new-branch)
+    * [Commit changes locally](DeveloperCommitCode#markdown-header-commit-changes-locally)
+    * [Change commits](DeveloperCommitCode#markdown-header-change-commits)
+    * [Push your commits](DeveloperCommitCode#markdown-header-push-your-commits)
+    * [Rebase your branch](DeveloperCommitCode#markdown-header-rebase-your-branch)
+   
+    
 * [Add translations](DeveloperTranslate)
 * [Developing Documentation](DevelopingDocumentation)
     * [Prerequisites](DevelopingDocumentation#markdown-header-prerequisites)
