@@ -48,6 +48,11 @@ bitbucket='https://bitbucket.org/maproom/qmapshack/wiki/'
 footnote='///Footnotes Go Here///$'
 navbar='[[](Home|Prev)[]]|Prev [(][)]|- - -$|[[]TOC[]]$'
 
+# dirty hack to avoid (remove) navbar in _Sidebar.md ------------------- W.Thämelt
+
+cp -b -f ./_Sidebar.md ./_Sidebar.md.cp
+
+
 #
 # Variable "nb"  contains the constant  common text part  of the top and
 # bottom navigation bars.
@@ -263,5 +268,11 @@ if cmp  -s "$2" "$2.out"                          # File did not change,
 then rm -f      "$2.out"                        # so remove output file.
 else mv         "$2.out" "$2"  # Move output file back to original file.
 fi
+
+# dirty hack to avoid (remove) navbar in _Sidebar.md ------------------- W.Thämelt
+
+cp -b -f ./_Sidebar.md.cp ./_Sidebar.md
+rm -f ./_Sidebar.md.cp*
+rm -f ./_Sidebar.md~ 
 
 exit 0
