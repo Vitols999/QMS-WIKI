@@ -151,6 +151,7 @@ Each property has a specific set of GIS object types for which it can be used. T
 
 ### More details and remarks
 
+* *Check the examples later on this page for more explanations and hints!*
 * All comparisons are exclusive, i.e. the bounds are not included
 * When trying a search with the comparison term `equals`, then you have to type the complete value to search for before you get the correct result. 
 * When trying a search with a comparison `regex`, then follow the regular expression syntax used for [Pearl](https://perldoc.perl.org/perlre.html).
@@ -165,28 +166,31 @@ Each property has a specific set of GIS object types for which it can be used. T
 * A list of all supported attributes can be found on the [geocaching.com server](https://www.geocaching.com/about/icons.aspx) (attributes together with their symbols, switch language if necessary!) and [here](https://forums.geocaching.com/GC/index.php?/topic/282652-groundspeak-gpx) (attributes together with their codes). 
 * If an extended search string is syntactically wrong, then a red background indicates this fact. Additionally, a tooltip pops-up to inform about this fact. In this case the input string is used for a name-only or complete-text search depending on the setup options. *Attention:* The background is red, too, if the search string is still incomplete!
 * Dates and times must have the structure described in the search help window. The parts that appear in this description have the following meaning (compare ["Custom date and time strings"](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings)):
-* *Check the examples later on this page fore more explanations and hints!*
 
-| Abbreviation | Meaning |
-| ------------ | ------- |
-| d | day of the month, from 1 through 31 |
-| dd | day of the month, from 01 through 31 |
-| dddd | full name of the day of the week (e.g. Monday) |
-| HH | hour, using a 24-hour clock from 00 to 23 |
-| mm | minute, from 00 through 59 |
-| MM | month, from 01 through 12 |
-| MMM | abbreviated name of the month (e.g. Jan)|
-| MMMM | full name of the month (e.g. January) |
-| ss | second, from 00 through 59 |
-| t | first character of the AM/PM designator |
-| yyyy | year as a four-digit number |
+    | Abbreviation | Meaning |
+    | ------------ | ------- |
+    | d | day of the month, from 1 through 31 |
+    | dd | day of the month, from 01 through 31 |
+    | dddd | full name of the day of the week (e.g. Monday) |
+    | HH | hour, using a 24-hour clock from 00 to 23 |
+    | mm | minute, from 00 through 59 |
+    | MM | month, from 01 through 12 |
+    | MMM | abbreviated name of the month (e.g. Jan)|
+    | MMMM | full name of the month (e.g. January) |
+    | ss | second, from 00 through 59 |
+    | t | first character of the AM/PM designator |
+    | yyyy | year as a four-digit number |
 
-Here are examples for each of the given formats:
+    Here are examples for each of the given formats:
 
-* Wednesday, 17. July 2019 13:08:11
-* 17.07.2019 13:08
-* Wednesday, 17 July 2019 13:09:11 P
-* 17 Jan 2019 13:09:11
+    * Wednesday, 17. July 2019 13:08:11
+    * 17.07.2019 13:08
+    * Wednesday, 17 July 2019 13:09:11 P
+    * 17 Jan 2019 13:09:11
+* If using a search string of the form `date equals xx`, then the following rules apply:
+    * If `xx` is without a time part, then `00:00` is added as the time part.
+    * The timezone for `xx` is the local timezone of the operating system. **Attention:** Depending on the QMS setup timestamps in QMS could be displayed in a timezone different from the local timezone!
+    * The search result shows all QMS data objects with timestamps greater than the given date and time and less than this date and time plus 24 hours. For tracks the first and the last trackpoint should have timestamps within this interval.
 
 ### Examples
 
