@@ -956,6 +956,10 @@ ___Basic usage___
                     1. Track|change start
                     1. Filter|change track start
                     
+                * [Cycling energy use](AdvTrkFilters#markdown-header-cycling-energy-use)    
+                    1. Track|cycling energy use
+                    1. Cycling energy|calculate use
+                    
                     
         * [Working with track graphs](AdvTrkGraphs)
             * [Zoom track graphs](AdvTrkGraphs#markdown-header-zoom-track-graphs)

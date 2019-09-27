@@ -14,6 +14,9 @@ ___Do not edit - automatically created!___
 
 Image caption | Used in
 ---------|---------
+["Energy use - help"](images/DocAdv/EnergyCyclingHelp.png "Energy use - help") | [AdvTrkFilters](AdvTrkFilters)
+["Energy use - parameters"](images/DocAdv/EnergyCyclingParameters.png "Energy use - parameters") | [AdvTrkFilters](AdvTrkFilters)
+["Energy use"](images/DocAdv/EnergyCycling.png "Energy use") | [AdvTrkFilters](AdvTrkFilters)
 [About](images/DocIcons/Info.png) | [AdvToolbarAct](AdvToolbarAct)
 [Activate on-line map](images/DocAdv/InstallMapsEn.jpg "Activating on-line map") | [DocQuickStartEnglish](DocQuickStartEnglish)
 [Active no-go areas and line](images/DocAdv/NoGoIcons.jpg "Active no-go areas and line") | [AdvRoutes](AdvRoutes)

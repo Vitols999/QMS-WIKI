@@ -332,6 +332,7 @@ ___Do not edit - automatically created from DocMain!___
                 * [Convert track subpoints to points](AdvTrkFilters#markdown-header-convert-track-subpoints-to-points)
                 * [Calculate terrain slope](AdvTrkFilters#markdown-header-calculate-terrain-slope)
                 * [Change start point](AdvTrkFilters#markdown-header-change-start-point)
+                * [Cycling energy use](AdvTrkFilters#markdown-header-cycling-energy-use)
         * [Working with track graphs](AdvTrkGraphs)
             * [Zoom track graphs](AdvTrkGraphs#markdown-header-zoom-track-graphs)
             * [Select a scale range for track data display](AdvTrkGraphs#markdown-header-select-a-scale-range-for-track-data-display)

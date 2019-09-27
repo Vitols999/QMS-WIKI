@@ -107,6 +107,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Course, as trackpoint extension**
 :  [GPXTPX track extension](DocFaqHandling#markdown-header-what-is-the-difference-between-speed-and-gpxtpxspeed "Speed in GPXTPX track extension")
 
+**Cycling energy, calculate use**
+:  [Cycling energy use](AdvTrkFilters#markdown-header-cycling-energy-use "Cycling energy use")
+
 
 ## D
 
@@ -1282,6 +1285,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Track, cut into parts**
 :  [Cut track](AdvTrkGeneral#markdown-header-cut-track "Cut track")
+
+**Track, cycling energy use**
+:  [Cycling energy use](AdvTrkFilters#markdown-header-cycling-energy-use "Cycling energy use")
 
 **Track, delete points in range**
 :  [Select a range of a track in edit mode](AdvTrkGeneral#markdown-header-select-a-range-of-a-track-in-edit-mode "Select a range of a track in edit mode")
