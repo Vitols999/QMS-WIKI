@@ -244,12 +244,17 @@ Note: libjpeg is needed for qmt_map2jnx. Other parts of QMapshack may use the jp
 
 ### C7.) Get the QMapShack source from the repository, e.g.
 ~~~~
-   hg clone https://bitbucket.org/maproom/qmapshack QMapShack
+   git clone https://github.com/Maproom/qmapshack.git
 ~~~~
-Note: you might have to install TortoiseHG or any other mercurial client
+Note: you might have to install 
+[git for Windows](https://git-scm.com/download/win), 
+[TortoiseGit](https://tortoisegit.org/)
+or any other [git client](https://git-scm.com/downloads).
+
+If you want to develop for QMapshack, have a look at [DeveloperCommitCode](https://github.com/Maproom/qmapshack/wiki/DeveloperCommitCode).
 
 ### C8.) Start the CMake GUI (you did install CMake before, didn't you)
-- Enter the path to the source directory (which has been created by cloning the hg repository in the previous step)
+- Enter the path to the source directory (which has been created by cloning the git repository in the previous step)
 - Enter the path where you want to build the binaries (should be a new directory)
 - Select "Visual Studio 15 2017 Win64" and "Use default native compilers"
 - Configure
