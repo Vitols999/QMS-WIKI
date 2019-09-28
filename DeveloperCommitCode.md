@@ -18,7 +18,7 @@
 # Commit Code
 
 **Fundamental rules:**
-
+* **You need a GitHub account**
 * **Please do not send patches! Use a pull request**
 * **Each pull request needs a ticket**
 * **Never work on the branches `master` or `dev`**
@@ -165,6 +165,8 @@ You might fork a project in order to propose changes to the upstream, or origina
     ```
 
 ## Open a new branch
+
+**Never work on the branches `dev` or `master`.** These are reserved. `dev` is the branch that digests all _pull request_. Unless you have administration rights you are not entitled to commit to `dev` directly. You have to start a _pull request_ with your own branch. `master` is the branch that digests all releases. It will be updated with all the changes in `dev` on a release.
 
 First make sure there is a ticket for your contribution. If there is none create one on the [Issue page](https://github.com/Maproom/qmapshack/issues). The branch name will be named `QMS-<ticket number>` replacing `ticket number` by the actual number.
 
