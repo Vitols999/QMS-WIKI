@@ -81,13 +81,11 @@ creating a command alias from the last command line above by executing
 
 >    alias qms-doc='_YourBrowser_ /_absolute_/_path_/_to_/doc/DocMain.html'[^3]
 
-[^3]:
-    Under _Cygwin_ you should instead use
+[^3]:  Under _Cygwin_ you should instead use
 
-    >    alias qms-doc="_YourBrowser_ $(cygpath -w /_absolute_/_path_/_to_/doc/DocMain.html)"
+>    alias qms-doc="_YourBrowser_ $(cygpath -w /_absolute_/_path_/_to_/doc/DocMain.html)"
 
-    because in that case the argument passed to your browser must be
-    interpretable as a Windows path.
+because in that case the argument passed to your browser must be interpretable as a Windows path.
 
 
 
