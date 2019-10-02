@@ -376,7 +376,7 @@ To calculate the energy use for a recorded cycling track open the track edit win
 
 After setting the parameters properly (some default values are shown after opening the window) the right part of the pop-up window displays various information on which the energy use is based and, finally, in the lower right part the used energy is shown with the units `kJ`(oule) and `kcal`.
 
-Clicking on the question mark in the header line of the window opens a help window giving some insight in the procedure used for calculating the enrgy use.
+Clicking on the question mark in the header line of the window opens a help window giving some insight in the procedure used for calculating the energy use.
 
 !["Energy use - help"](images/DocAdv/EnergyCyclingHelp.png "Energy use - help")
 
