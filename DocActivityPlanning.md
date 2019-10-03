@@ -1,5 +1,7 @@
 # Activity Brainstorming
 
+See [QMS #39](https://github.com/Maproom/qmapshack/issues/39)
+
 These are all activities (V1.13.2). They are also kind of a category. 
 Let's collect sub-activities for each of them
 
