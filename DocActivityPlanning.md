@@ -31,15 +31,31 @@ Let's collect sub-activities for each of them
 
 ## Ship     = 700
 
-    * Water
+    * Ship
+    * Sailing ship
+    * Windsurfing
+    * Kitesurfing
+    * Motorboat
+    * Ferry
+  
 
 ## Aero     = 800
 
     * Aero
+    * Gliding
+    * Paragliding
+    * Parachute
+    * Helicopter
+    * Small plain
+    * Jet
 
 ## Ski      = 900
 
     * Ski
+    * Snow shoe
+    * Cross-country skiing
+    * Downhill skiing
+    * Ski tour
 
 ## Train    = 1000
 
