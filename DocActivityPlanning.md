@@ -10,8 +10,10 @@ Let's collect sub-activities for each of them
     * Foot
     * Running
     * Hiking
+    * Trekking
     * Mountaineering
     * Orienteering
+    * Climbing
 
 ## Cycle    = 200
 
@@ -46,6 +48,8 @@ Let's collect sub-activities for each of them
     * Kitesurfing
     * Motorboat
     * Ferry
+    * Kayak
+    * Canoe
   
 
 ## Aero     = 800
@@ -55,7 +59,7 @@ Let's collect sub-activities for each of them
     * Paragliding
     * Parachute
     * Helicopter
-    * Small plain
+    * Small plane
     * Jet
 
 ## Ski      = 900
@@ -66,7 +70,9 @@ Let's collect sub-activities for each of them
     * Downhill skiing
     * Ski tour
 
-## Train    = 1000
+## Public Transport    = 1000    (formerly Train)
 
+    * Public Transport
     * Train
+    * Bus
 
