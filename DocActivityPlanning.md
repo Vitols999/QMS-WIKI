@@ -8,12 +8,19 @@ Let's collect sub-activities for each of them
 ## Foot     = 100
 
     * Foot
+    * Running
     * Hiking
     * Mountaineering
+    * Orienteering
 
 ## Cycle    = 200
 
     * Cycle
+    * Road bike
+    * Trekking
+    * MTB
+        * XC
+        * Downhill
 
 ## Bike     = 300
 
