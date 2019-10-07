@@ -120,7 +120,7 @@ Proposed default colors ( for track drawing and maybe for icons):
 
 Some extra explanation about hiking levels can be included in tooltips and in the wiki.
 
-H1 to H4 fits well with the 4 existing hiking  profiles in the hiking time filter. This opens a possibility to connect those activities with the filter, doing so  different filter parameters could be aplied at once to different track ranges based on their activity (.. if someone picks up that task).
+H1 to H4 fit well with the 4 existing hiking  profiles in the hiking time filter. This opens a possibility to connect those activities with the filter, doing so  different filter parameters could be aplied at once to different track ranges based on their activity (.. if someone picks up that task).
 
 Additionally it could be a place for other Hiking flavours:
 - Hiking DAV-OEAV (related to  DIN-33466)
