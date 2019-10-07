@@ -91,7 +91,7 @@ Let's collect sub-activities for each of them
 We have *at least* these references:
  *  **DAV scale** ( [German, sektion 1.6.3 und 1.7.1](https://www.alpenverein.at/portal_wAssets/docs/berg-aktiv/wege_touren/wegehandbuch_digital.pdf) )
 *  **SAC scale** ([German](https://www.sac-cas.ch/fileadmin/Ausbildung_und_Wissen/Tourenplanung/Schwierigkeitsskala/Wanderskala-SAC.pdf), [French](https://www.sac-cas.ch/fileadmin/Ausbildung_und_Wissen/Tourenplanung/Schwierigkeitsskala/Cotation-CAS-des-randonnees.pdf) ) 
-*  **MIDE** ( [Spanish, view section 'Desplazamiento' pag.10](http://montanasegura.com/MIDE/manualMIDE.pdf) )...
+*  **MIDE** ( [Spanish, view section 'Desplazamiento' pag.7/11](http://montanasegura.com/MIDE/manualMIDE.pdf) )...
 
 The DAV document is more related to how paths have to been marked on the terrain and only makes 3 divisions, the lower one talks about easy paths and the top one talk about alpine skills. I would stick to SAC and MIDE schema with 5 levels (so DAV schema of 3 levels + valley tracks would be inside). 
 
