@@ -64,14 +64,14 @@ Some more maps can be found in the [package online.zip](http://www.mtb-touring.n
 | Poland | [Hike routes](http://mapaszlakow.eu/Gdynia.html/wmts) | online, raster | download file in link and change extension of downloaded file to `wmts`. Hike routes in Poland | |
 | Norway | file `Norway Topo 50.tms` in [package online.zip](http://www.mtb-touring.net/?ddownload=5012) | online, raster created from vector data| Norway topo map |   |
 | **Spain** |
-| . | file `ESP_ IGN_Topografico.tms` in [package ESP\_IGN\_QMS\_onlinemaps.zip](https://www.dropbox.com/s/sfzxdehmdqfs784/ESP_IGN_QMS_onlinemaps.zip?dl=0) | online, raster | Spain topo map | |
-| . | file `ESP_IGN_Ortofoto.tms` in [package ESP\_IGN\_QMS\_onlinemaps.zip](https://www.dropbox.com/s/sfzxdehmdqfs784/ESP_IGN_QMS_onlinemaps.zip?dl=0) | online, raster | Spain orthofotos |  | 
+| . | file `ESP_IGN_Topografico.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!5dMAzSyD!RJ1FDTxYC9jUxHEQ73jHmXm_S1dc6Jt0UUfYBgfN41o) | online, raster | Spain topo map | |
+| . | file `ESP_IGN_Ortofoto.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!5dMAzSyD!RJ1FDTxYC9jUxHEQ73jHmXm_S1dc6Jt0UUfYBgfN41o) | online, raster | Spain orthofotos |  | 
 | . | file `ESP\_IGN\_MDT25.wcs` in [package QMS\_onlineDEM\_WCS.zip](https://drive.google.com/open?id=1CLzw4SH62BtgLJ7ZeUgT9SFQh1lh3Dbn) | online DEM| place the `.wcs` file in your DEM path and activate it  | [here](DocMapsTipsRasterDEM#markdown-header-online-dem-data)  |
 
 _Remarks:_
 
 * The [webpage](http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=1&gdz_unt_zeile=0&gdz_user_id=0) of the German _Bundesamt für Kartographie und Geodäsie_ has links to various forms of online and offline maps for Germany. Equivalent institutions for German counties offer similar services.
-* Some more maps and detailed DEMs for Spain can be found in the packages [ESP\_IGN\_QMS\_onlinemaps.zip](https://www.dropbox.com/s/sfzxdehmdqfs784/ESP_IGN_QMS_onlinemaps.zip?dl=0) and [QMS\_onlineDEM\_WCS.zip](https://drive.google.com/open?id=1CLzw4SH62BtgLJ7ZeUgT9SFQh1lh3Dbn)  provided by [Mitxel](https://sourceforge.net/p/qlandkartegt/mailman/message/35951444/). You can also have a look at the [list of maps and resources in Mendiak spanish forum.](https://www.mendiak.net/viewtopic.php?f=529&t=59020).
+* Some more maps and detailed DEMs for Spain can be found in the packages [ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!5dMAzSyD!RJ1FDTxYC9jUxHEQ73jHmXm_S1dc6Jt0UUfYBgfN41o) and [QMS\_onlineDEM\_WCS.zip](https://drive.google.com/open?id=1CLzw4SH62BtgLJ7ZeUgT9SFQh1lh3Dbn)  provided by [Mitxel](https://sourceforge.net/p/qlandkartegt/mailman/message/35951444/). You can also have a look at the [list of maps and resources in Mendiak spanish forum.](https://www.mendiak.net/viewtopic.php?f=529&t=59020).
 
 
 ## Other regions
