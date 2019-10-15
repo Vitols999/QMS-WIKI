@@ -1,7 +1,3 @@
-[Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (List of images (Advanced usage and FAQ parts only)) [Next](AxWikiImages)
-- - -
-[TOC]
-- - -
 
 # Index
 
@@ -22,7 +18,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 
-[A](a) [B](b) [C](c) [D](d) [E](e) [F](f) [G](g) [H](h) [I](i) [L](l) [M](m) [N](n) [O](o) [P](p) [Q](q) [R](r) [S](s) [T](t) [U](u) [V](v) [W](w)
+[A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w)
 
 ------
 
@@ -322,11 +318,11 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Elevation, edit**
 :  [Edit track elevation](AdvTrkElevation#manually-edit-elevation-of-a-track-point "Edit track elevation")
 
-**Elevation, Filter**
-:  [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
-
 **Elevation, filter**
 :  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
+
+**Elevation, Filter**
+:  [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
 
 **Elevation, invalid data**
 :  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
@@ -1603,6 +1599,3 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Workspace, search data**
 :  [Search workspace](AdvDataHandling#searching-data-in-the-workspace "Search workspace")
-
-- - -
-[Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (List of images (Advanced usage and FAQ parts only)) [Next](AxWikiImages)

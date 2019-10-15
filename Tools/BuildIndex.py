@@ -152,7 +152,7 @@ idxtoc = {}   # list used for Index TOC (capital first letters of index entries)
 
 for x in idxlistd:
   if x[0][2] not in idxtoc:
-    idxtoc["[%s](%s)" % (x[0][2].upper(), x[0][2].lower())] = x[0]
+    idxtoc["[%s](#%s)" % (x[0][2].upper(), x[0][2].lower())] = x[0]
 
 usedletters = list(idxtoc.keys())   
 usedletters.sort()                                          # sorted list of used first uppercase letters
