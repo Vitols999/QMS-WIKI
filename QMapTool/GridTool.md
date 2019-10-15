@@ -15,7 +15,7 @@ used in the map and the coordinates of just one reference point. 3 other referen
 The grid tool automatically creates additional reference points on the grid in a user-defined area. If necessary, the reference tool can help
 to improve the positions of reference points created with the grid tool.
 
-To work with the QMT grid tool proceed as follows (compare the images in the [example section](#markdown-header-examples-of-referencing-a-map-with-the-grid-tool)):
+To work with the QMT grid tool proceed as follows (compare the images in the [example section](#examples-of-referencing-a-map-with-the-grid-tool)):
 
 1. Select the menu entry `Window - Shell` to open a shell window (docked window, can be moved on the desktop).
 1. Click the `Reference tool` button in the QMT `Tools` window (docked window, can be moved on the desktop).

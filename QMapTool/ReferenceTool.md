@@ -91,7 +91,7 @@ Typically, Russian military maps are georeferenced with reference information pr
 is used in the MAP file for lat/lon coordinates. In this example it is assumed that the differences between these coordinates and the WGS84 lat/lon coordinates
 used in the reference tool can be neglected.
 
-Using a text editor and the information from the MAP file it is easy [to cut](CutTool#markdown-header-example-cutting-of-russian-military-maps) 
+Using a text editor and the information from the MAP file it is easy [to cut](CutTool#example-cutting-of-russian-military-maps) 
 and reference such maps with QMT. Follow these steps for downloading and referencing a (cut) map:
 
 * Select a map on [http://loadmap.net](http://loadmap.net).
