@@ -234,11 +234,12 @@ gawk -v BINMODE=w -v ORS='\n'                                                 \
        # Bitbucket "markdown-header-" prefix to fragment identifiers re-
        # ferring to header identifiers ("r4"):
 
-       printf "%s\n", gensub(r4,          "\\1markdown-header-\\3","G",
+       # next statement adjusted to GitHub needs by W. Thämelt!
+       printf "%s\n", 
                              gensub(r3,                      "\\1","G",
                                     gensub(r2,               "\\1","G",
                                            gensub(r1,        "\\1","G",
-                                                  gensub("\r$", "", 1)))))
+                                                  gensub("\r$", "", 1))))
 
        begin = 0                          # Document is no longer empty.
      }

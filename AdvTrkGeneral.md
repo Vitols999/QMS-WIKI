@@ -174,7 +174,7 @@ There are several ways to do this:
     * Move the mouse cursor on the profile graph to a location where the index shown in the upper left corner jumps to a new value (i.e. where a trackpoint is located).
     * Right-click and select `Add waypoint` to attach a waypoint to the track. _Remark:_ If a selected waypoint has a distance of less than 50m to a trackpoint than it is attached to the track.
 
-Having waypoints attached to a track additional information about the waypoints is available in the [roadbook](AdvProjActions#markdown-header-working-with-project-roadbook) of the project.
+Having waypoints attached to a track additional information about the waypoints is available in the [roadbook](AdvProjActions#working-with-project-roadbook) of the project.
 
 Attached waypoints are also shown with their icons - or in the case that the cursor is located at the waypoint position with
 their name - in the profile graph of the track (if elevation data is available). To see the profile graph open the edit window for the
@@ -328,7 +328,7 @@ described below:
 
 A track interval (a part of a track between 2 trackpoints) is called **range** in the QMS terminology. Thus, to find the length of a track interval
 
-* select a track range as described [here](AdvTrkGeneral#markdown-header-select-a-range-of-a-track) (compare also the instructions in the upper left corner of the map window),
+* select a track range as described [here](AdvTrkGeneral#select-a-range-of-a-track) (compare also the instructions in the upper left corner of the map window),
 * find the length of the track interval/range and some other information of the range in the info window that pops-up.
 
 
@@ -338,7 +338,7 @@ A track interval (a part of a track between 2 trackpoints) is called **range** i
 
 To assign an activity to a range of a track proceed as follows:
 
-* Select a track range (for details see [here](#markdown-header-select-a-range-of-a-track)).
+* Select a track range (for details see [here](#select-a-range-of-a-track)).
 * In the bubble box that pops up click the `Select an activity` icon.
 * Choose the activity from the list which appears.
 
@@ -444,13 +444,13 @@ To deal with invalid track data QMS offers some filters in the track edit window
 * define new timestamps for trackpoints.
 
 Different approaches for avoiding or removing invalid elevations are described also
-[here](AdvTrkElevation#markdown-header-handle-invalid-elevation-data).
+[here](AdvTrkElevation#handle-invalid-elevation-data).
 
 
 ## Tracks and no-go areas
 
 When using the BRouter as routing engine for creating or editing tracks, then the tracks won't pass through no-go areas of all selected projects.
-For details of no-go areas compare section ["Using no-go areas"](AdvRoutes#markdown-header-using-no-go-areas-and-lines)
+For details of no-go areas compare section ["Using no-go areas"](AdvRoutes#using-no-go-areas-and-lines)
 .
  
 - - -

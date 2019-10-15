@@ -7,7 +7,7 @@
 
 _Valid starting with commit c66c4b52fa4a (Thu Apr 04 15:43:31 2019 +0000)_ 
 
-The focus of this page is on track information that can be found in a map view. For more information compare also the ["General information about tracks"](AdvTrkGeneral) and ["General project actions"](AdvProjActions#markdown-header-working-with-project-roadbook) pages.
+The focus of this page is on track information that can be found in a map view. For more information compare also the ["General information about tracks"](AdvTrkGeneral) and ["General project actions"](AdvProjActions#working-with-project-roadbook) pages.
 
 ## Track states
 
@@ -27,7 +27,7 @@ _Remark:_ When moving the mouse pointer on a track in a map view, then the track
 
 ### Overview
 
-**NOTE**: This section is about a _highlighted_ track. To highlight a track double-click on it in the workspace or use the track information icon ![track info](images/DocAdv/TrkProfile.png) of the track options toolbar of a map view. You can select what features are shown for a highlighted track in the [main menu](#markdown-header-select-display-of-track-information-in-main-menu) `View- Track Info`. 
+**NOTE**: This section is about a _highlighted_ track. To highlight a track double-click on it in the workspace or use the track information icon ![track info](images/DocAdv/TrkProfile.png) of the track options toolbar of a map view. You can select what features are shown for a highlighted track in the [main menu](#select-display-of-track-information-in-main-menu) `View- Track Info`. 
 
 Here is a screenshot with all features enabled:
 
@@ -50,7 +50,7 @@ The numbers mark the different features that can be selected.
 
     You can toggle visibility of the bullets with the `View - Track Info - Track Point Info` main menu entry or with the main toolbar icon ![track point info](images/DocAdv/PointInfo.png).
 
-    More details about trackpoint information can be found in section [Adding trackpoint information](#markdown-header-adding-trackpoint-information).
+    More details about trackpoint information can be found in section [Adding trackpoint information](#adding-trackpoint-information).
     
  4. These are labels for the minimum and maximum values of track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Labels` main menu entry, via keyboard hotkey `CTRL-N`, or with the main toolbar icon ![min max labels](images/DocAdv/Label.png).
 
@@ -62,7 +62,7 @@ The numbers mark the different features that can be selected.
 
  8. The color bar for track coloring. The color bar has to be enabled in the track's edit/details dialog. Use the track options toolbar icon ![track details](images/DocAdv/EditDetails.png) to open this dialog. Select the `Style` tab in the edit window and select one of the track properties as source, e.g. elevation or slope. 
 
-Compare section [Select display of track information in main menu](#markdown-header-select-display-of-track-information-in-main-menu) for a list of all menu entries described in this section.
+Compare section [Select display of track information in main menu](#select-display-of-track-information-in-main-menu) for a list of all menu entries described in this section.
 
 __Remark:__ Access to the actions in the main toolbar requires a proper configuration of the toolbar with the help of the menu entry `Window - Setup toolbar` (activate the necessary icons).
 
@@ -72,7 +72,7 @@ If you want to have the complete view with the selected track information as a s
  ---- | ---- |
  ![wo profile](images/DocAdv/screenshot_small_wo_profile.png "Screenshot without profile window") | ![w profile](images/DocAdv/screenshot_small_w_profile.png "Screenshot with profile window") |
  
-Section [Get additional track information in highlighted state](#markdown-header-get-additional-track-information-in-highlighted-state) describes some more information that can be obtained from a track.
+Section [Get additional track information in highlighted state](#get-additional-track-information-in-highlighted-state) describes some more information that can be obtained from a track.
 
 ### Adding trackpoint information
 
@@ -100,7 +100,7 @@ _Remarks:_
 
 * Trackpoint descriptions can be added also using the context menu of a graph in the track edit window.
 * If the bullets are missing in the map view or the track edit window, then click the main menu entry `View -Track info - Trackpoint info`.
-* Trackpoints with description are shown also in the [roadbook of the project](AdvProjActions#markdown-header-working-with-project-roadbook) to which the track belongs. They are not [(attached) waypoints](AdvTrkGeneral#markdown-header-attach-waypoints-to-a-track-to-get-additional-track-information)!
+* Trackpoints with description are shown also in the [roadbook of the project](AdvProjActions#working-with-project-roadbook) to which the track belongs. They are not [(attached) waypoints](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information)!
 * Never add a description to a trackpoint that has the same location as a waypoint!
  
 
@@ -120,7 +120,7 @@ _Remarks:_
         
     ![Track info in map window](images/DocAdv/TrackInfo6.jpg "Track info at location in map window")
        
-* With a left-click on the track the summary information described in section [Track information in selected state](#markdown-header-track-information-in-selected-state) is displayed.
+* With a left-click on the track the summary information described in section [Track information in selected state](#track-information-in-selected-state) is displayed.
 
 If the track was not recorded by a GPS device, then some of this information can be missing.
 
@@ -213,7 +213,7 @@ There are more ways to get information about a track. Some of these are describe
         
     ![](images/DocAdv/TrkInfoWithAct.png "Track summary with activities")
         
-    With the help of the icons shown in this info window the user can carry out various [actions](AdvTrkGeneral#markdown-header-track-actions) with the track.
+    With the help of the icons shown in this info window the user can carry out various [actions](AdvTrkGeneral#track-actions) with the track.
        
        
        

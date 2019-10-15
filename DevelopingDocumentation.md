@@ -20,7 +20,7 @@ Bitbucket, the following conditions must be met:
 *   If you want to do more than just correcting a typo (which can also be
     done directly on the
     [Bitbucket server](https://bitbucket.org/maproom/qmapshack/wiki), see
-    [below](#markdown-header-online-editing)), you should be working on a
+    [below](#online-editing)), you should be working on a
     local clone of the _Mercurial_ repository of the _QMapShack_ wiki at
     Bitbucket.
 
@@ -51,7 +51,7 @@ Bitbucket, the following conditions must be met:
     *   [Documentation](https://python-markdown.github.io/extensions/)
         of the _Markdown_ syntax understood by every _Markdown_ extension
         used by Bitbucket[^1] (see
-        [_Python_ requirements](OfflineDocumentation#markdown-header-prerequisites))
+        [_Python_ requirements](OfflineDocumentation#prerequisites))
         as well as the HTML code produced from it.
 
     *   Finally, you can look into any of the `*.md` files in this
@@ -192,8 +192,8 @@ Bitbucket, the following conditions must be met:
     file.
 
 *   You can edit an existing or create a new `*.md` file either
-    [online](#markdown-header-online-editing) or
-    [offline](#markdown-header-offline-editing), the latter being the
+    [online](#online-editing) or
+    [offline](#offline-editing), the latter being the
     preferred method.  **Online editing is discouraged and should only
     be used for minor changes like correcting a typo!**
 
@@ -275,7 +275,7 @@ Bitbucket, the following conditions must be met:
 *   Additional Prerequisites:
 
     *   You have the software tools described
-        [here](OfflineDocumentation#markdown-header-prerequisites) to
+        [here](OfflineDocumentation#prerequisites) to
         manually convert your `*.md` file to HTML so you can locally
         inspect it using your browser.
 

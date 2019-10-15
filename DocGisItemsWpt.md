@@ -16,17 +16,17 @@ If you click on the highlighted waypoint you get a short on-screen-summary of th
 
 |   |   |   |
 |---|---|---|
-| ![Edit/Details](images/DocGisItemsWpt/EditDetails.png) | Edit/Show Details | [Show details of the waypoint and edit attached data.](#markdown-header-view-edit-details)   |
+| ![Edit/Details](images/DocGisItemsWpt/EditDetails.png) | Edit/Show Details | [Show details of the waypoint and edit attached data.](#view-edit-details)   |
 | ![Copy](images/DocGisItemsWpt/Copy.png)                | Copy              | Copy the waypoint into another project. |
 | ![Delete](images/DocGisItemsWpt/DeleteOne.png)         | Delete            | Delete the waypoint. This also deletes data associated with the waypoint, such as photos. |
 | ![Show Bubble](images/DocGisItemsWpt/Bubble.png)       | Show Bubble       | When enabled, the waypoint's content is shown as a static bubble. |
-| ![Move](images/DocGisItemsWpt/WptMove.png)             | Move              | [Move the waypoint to another location.](#markdown-header-move-waypoint) |
-| ![Project](images/DocGisItemsWpt/WptProj.png)          | Project           | [Project the waypoint - This is copying the waypoint and to move to copy a given distance and bearing](#markdown-header-project-waypoint) |
+| ![Move](images/DocGisItemsWpt/WptMove.png)             | Move              | [Move the waypoint to another location.](#move-waypoint) |
+| ![Project](images/DocGisItemsWpt/WptProj.png)          | Project           | [Project the waypoint - This is copying the waypoint and to move to copy a given distance and bearing](#project-waypoint) |
 | ![Set elevation](images/DocGisItemsWpt/SetEle.png)     | Replace elevation | Replace waypoint elevation with elevation from DEM data |
 | ![Edit proximity](images/DocGisItemsWpt/WptEditProx.png)  | Edit proximity | Edit/set proximity radius of waypoint (graphically) |
 | ![Delete proximity](images/DocGisItemsWpt/WptDelProx.png) | Delete proximity | Delete proximity radius of waypoint |
-| ![No-go](images/DocGisItemsWpt/NoGo.png)                  | Set no-go        | Activate/deactivate proximity range as [no-go area](AdvRoutes#markdown-header-using-no-go-areas-and-lines)|
-| ![Search web](images/DocGisItemsWpt/SearchWeb.png)        | Search web       | [Search for information about the waypoint position on selected websites](DocFaqMaps#markdown-header-how-to-find-information-about-a-position-a-poi-in-the-web) |
+| ![No-go](images/DocGisItemsWpt/NoGo.png)                  | Set no-go        | Activate/deactivate proximity range as [no-go area](AdvRoutes#using-no-go-areas-and-lines)|
+| ![Search web](images/DocGisItemsWpt/SearchWeb.png)        | Search web       | [Search for information about the waypoint position on selected websites](DocFaqMaps#how-to-find-information-about-a-position-a-poi-in-the-web) |
 
 
 ## ![EditDetails](images/DocGisItemsWpt/EditDetails.png) View / Edit Details

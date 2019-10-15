@@ -3,16 +3,18 @@
 
 # Create AxAdvToc.md containing links to all header lines in all QMS Wiki pages
 
-# Script only tested with Windows7 and Python 3.3!
+# Script tested with Windows10 and Python 3.5!
 
 # Script is based on the following assumptions about the formatting of used files
 # * indentation in DocMain is with 4 spaces
 # * subsections in MD files have header lines with one more "#" than parent section
 
-# The following formattings are handled correctly by this script:
+# The following formats are handled correctly by this script:
 # * Top-level entries in the DocMain TOC list without a link 
 # * Section headers with included images
 # * Section headers with "#" at the end
+
+# W.Thämelt, 15.10.2019: script adjusted to GitHub Wiki needs
 
 import os
 import fnmatch
@@ -41,7 +43,7 @@ r3 = re.compile("^\s*##\s+.*$")
   
 # delete image links in section headers
 # matches:   ## ![EditDetails](images/DocGisItemsWpt/EditDetails.png) View / Edit Details
-r4 = re.compile("\!\[[^]]*\]\([^)]*\)")
+r4 = re.compile("\!\[[^]]*\]\([^)]*\)\s+")   # include spaces at the end of the link
   
 # delete ## at end of line
 # matches:   ## Track Details Dialog ## 
@@ -50,13 +52,10 @@ r5 = re.compile("#+\s+$")
 
 # build MD reference from given string using separator as word separator (taken from HtmlMake.py)
 def slugify(value, separator):
-    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore') # Ergebnis ist string
-    value = re.sub('[^\w\s-]', '', value.decode('ascii')).strip().lower() # beseitige einige nicht gewollte Zeichen
+    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore') # result is string
+    value = re.sub('[^a-zA-Z0-9\s-]', '', value.decode('ascii')).lower().rstrip() # remove some unnecessary characters including "_"
 
-    # Insert Bitbucket's "markdown-header-" prefix  and squeeze separat-
-    # ors and white space:
-
-    return re.sub('[%s\s]+' % separator, separator, 'markdown-header-' + value) # sorge für saubere separators und hänge Präfix davor
+    return re.sub('\s', separator, value).strip() # replace space with separator ("-")
 
      
 # read TOC from open DocMain.md    
@@ -97,7 +96,7 @@ def gen_output(lines):
     
     rr = r3.search(lnk)
     if rr:                                  # subsection header
-      lnk = r4.sub("", lnk)                 # remove possible image link
+      lnk = r4.sub("-", lnk)                # remove possible image link
      
     lnk = r5.sub("", lnk)                   # remove "#" at line end
     
@@ -106,6 +105,10 @@ def gen_output(lines):
       prefix = lne[2] + "    " * (lnk.count("#")-1) + "*" # build list prefix, lne[2] is indentation coming from DocMain
       lnk = re.sub("#+ *", "", lnk[:-1])    # remove section header markers from line 
       lnk1 = slugify(lnk, "-")              # build MD link label
+      
+      if lnk.startswith("-"):               # drop superfluous "-" as first character
+        lnk = lnk[1:]
+        
       yield "%s [%s](%s#%s)\n" % (prefix, lnk, f, lnk1) # line for MD output   
 
 #-------------------------------------------------------------------------

@@ -122,7 +122,7 @@ The following setup options change the layout of all map windows:
     * _Remark:_ Each view has its own settings!
 * Menu `View - Setup map view`: 
     * Set the map scales to _Logarithmic_ or _Square_. A change of this option leads to a different zoom behavior of maps 
-     (compare section "[Map scale type](AdvMapDetails#markdown-header-map-scale-type)").
+     (compare section "[Map scale type](AdvMapDetails#map-scale-type)").
     * _Expert mode_: Define projection and datum (coordinate system) used for rendering of maps
     * _Remarks:_ 
         * Each view has its own settings!
@@ -133,7 +133,7 @@ The following setup options change the layout of all map windows:
 ### Single map display options
 
 With the help of these options the user controls the rendering of a single map. For details, see 
-section "[Adjustable map properties](AdvMapDetails#markdown-header-adjustable-map-properties)"
+section "[Adjustable map properties](AdvMapDetails#adjustable-map-properties)"
 
 
 ## Routing setup

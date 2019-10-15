@@ -61,7 +61,7 @@ This page is not part of the manual. It is not referenced from the manual main p
 
 Index entries in the raw index should be defined on a per-section basis as follows:
 
-    * [Test](Test.Page#markdown-header-label...)   <-------- link taken from section headers - don't change
+    * [Test](Test.Page#label...)   <-------- link taken from section headers - don't change
     + Short Linktext           <-------- insert short but concise link text (optional)
     ++ Longer Linkcaption      <-------- insert longer link description, appears as caption text of the link (optional)
         1. MainIndex|subindex  <-------- MainIndex must be sortable!
@@ -69,7 +69,7 @@ Index entries in the raw index should be defined on a per-section basis as follo
         1. MainIndex3|         <-------- possible variant of previous line
         1. MainIndex
 
-    * [Test1](Test.Page1#markdown-header-label...)
+    * [Test1](Test.Page1#label...)
     + Short Linktext1
     ++ longer Linkcaption1
         1. MainIndex|subindex  <-------- MainIndex with uppercase first character, subindex lowercase as a rule
@@ -100,20 +100,20 @@ following part of the definition list in the index:
 
 
     **MainIndex**
-    :  [Short Linktext](Test.Page#markdown-header-label... "longer Linkcaption")
+    :  [Short Linktext](Test.Page#label... "longer Linkcaption")
 
     **MainIndex, subindex**
-    :  [Short Linktext1](Test.Page1#markdown-header-label... "longer Linkcaption1")
-        ⊞ [Short Linktext](Test.Page#markdown-header-label... "longer Linkcaption")
+    :  [Short Linktext1](Test.Page1#label... "longer Linkcaption1")
+        ⊞ [Short Linktext](Test.Page#label... "longer Linkcaption")
 
     **MainIndex1, subindex1**
-    :  [Short Linktext1](Test.Page1#markdown-header-label... "longer Linkcaption1")
+    :  [Short Linktext1](Test.Page1#label... "longer Linkcaption1")
 
     **MainIndex2**
-    :  [Short Linktext](Test.Page#markdown-header-label... "longer Linkcaption")
+    :  [Short Linktext](Test.Page#label... "longer Linkcaption")
 
     **MainIndex3**
-    :  [Short Linktext](Test.Page#markdown-header-label... "longer Linkcaption")
+    :  [Short Linktext](Test.Page#label... "longer Linkcaption")
 
 If several links are shown for an index entry, this means that the index entry is discussed in different subsections of the
 manual. In this case the "⊞" character is inserted as a separator between links.
@@ -128,12 +128,12 @@ If you found an index entry "__MainIndex, subindex__" in the index that you want
 * Find the text string "__MainIndex, subindex__" in the index file.
 * Select the link part of the index entry (the subsection to which the index entry belongs), e.g.
 
-        [Short Linktext](Test.Page#markdown-header-label... "longer Linkcaption")
+        [Short Linktext](Test.Page#label... "longer Linkcaption")
 
 * Open the raw index in an editor and find the link part (the `TestPage#label` part).
   There should be exactly 1 line with a "__*__"
   marker and the given link part. If not then there is some inconsistency between the index and the raw index.
-  Go to section [Consistency checks](#markdown-header-consistency-checks)
+  Go to section [Consistency checks](#consistency-checks)
   first and remove the inconsistencies. Then continue here.
 * Find in one of the following lines with a "__1.__" marker the text string "__MainIndex, subindex__".
 * Now you can edit
@@ -148,7 +148,7 @@ If you found an index entry "__MainIndex, subindex__" in the index that you want
       use lowercase for the first word in __subindex__.
     * Avoid any special formatting in the text strings.
 
-* Continue as described in section [Updating the index](#markdown-header-updating-the-index).
+* Continue as described in section [Updating the index](#updating-the-index).
 
 ## Consistency checks
 
@@ -173,7 +173,7 @@ of the raw index.
 * The result is in a Diff-like form and shows the differences between the complete table of contents and the
   lines marked with a "__*__" in the raw index as follows:
 
-        - * [Test1](Test.Page1#markdown-header-label...)
+        - * [Test1](Test.Page1#label...)
 
     Here the "**-**"" means that there is a line in the raw index that doesn't appear in the table of contents.
 
@@ -187,7 +187,7 @@ Use the script results to manually adjust/edit the raw index in order to remove 
     * Find this parent section in `AxData4Index.txt`.
     * Insert
 
-            * [Test1](Test.Page1#markdown-header-label...)
+            * [Test1](Test.Page1#label...)
 
          into `AxData4Index.txt` after the parent header block.
 
@@ -216,8 +216,8 @@ These steps are required to remove inconsistencies of this type:
   to manually adjust/edit the raw index in order to remove the inconsistencies.
 * _Example of script output:_
 
-         + Track, select range in edit mode ---> [Select a range...](AdvTrk.General#markdown-header-select-a-range...)
-         - Track, select range in edit mode ---> [Select a range...](AdvTrk.General#markdown-header-select-a-range...)
+         + Track, select range in edit mode ---> [Select a range...](AdvTrk.General#select-a-range...)
+         - Track, select range in edit mode ---> [Select a range...](AdvTrk.General#select-a-range...)
 
 
      These lines mean
@@ -253,10 +253,10 @@ This is a recommended sequence of steps when editing the index in a local copy o
 1. Run `BuildToc.py` to update the complete table of contents.
 1. Run `CompareIdxToc.py` to get inconsistencies between the complete table of contents and the raw index (output in console window!).
 1. Remove these inconsistencies (compare section
-[Table of contents consistency check](#markdown-header-table-of-contents-consistency-check "TOC consistency check")).
+[Table of contents consistency check](#table-of-contents-consistency-check "TOC consistency check")).
 1. Run `CheckIndex.py` to get inconsistencies between the raw index and the index (output in console window!).
 1. Open the raw index `.\Tools\AxDate4Index.md` in an editor and remove manually these inconsistencies
-  (compare section [Index consistency check](#markdown-header-index-consistency-check "Index consistency check")).
+  (compare section [Index consistency check](#index-consistency-check "Index consistency check")).
 1. Modify index entries in the raw index as wanted and save the file when finished.
 1. Run `BuildIndex.py` to rebuild the index.
 1. Run the navbar tool `make nav` to insert navigation bars into the index page

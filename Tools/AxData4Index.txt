@@ -5,119 +5,119 @@ ___Basic usage___
 
 * [Installing QMapShack](Don'tInsertIndexEntriesHere)
     * [Install QMapShack](DocGetQMapShack)
-        * [Windows](DocGetQMapShack#markdown-header-windows)
+        * [Windows](DocGetQMapShack#windows)
         + Windows installation
             1. Installation|Windows
             
-        * [OS X](DocGetQMapShack#markdown-header-os-x)
+        * [OS X](DocGetQMapShack#os-x)
         + OS X installation
             1. Installation|OS X
             
-        * [Linux](DocGetQMapShack#markdown-header-linux)
+        * [Linux](DocGetQMapShack#linux)
         + Linux installation
             1. Installation|Linux
         
-            * [From distribution's package system](DocGetQMapShack#markdown-header-from-distributions-package-system)
-            * [From Source](DocGetQMapShack#markdown-header-from-source)
-                * [Prerequisites](DocGetQMapShack#markdown-header-prerequisites)
-                * [Obtaining the Source](DocGetQMapShack#markdown-header-obtaining-the-source)
-                * [Compiling and Installing](DocGetQMapShack#markdown-header-compiling-and-installing)
+            * [From distribution's package system](DocGetQMapShack#from-distributions-package-system)
+            * [From Source](DocGetQMapShack#from-source)
+                * [Prerequisites](DocGetQMapShack#prerequisites)
+                * [Obtaining the Source](DocGetQMapShack#obtaining-the-source)
+                * [Compiling and Installing](DocGetQMapShack#compiling-and-installing)
                     1. Compilation|Linux
                     
     * [Compile Instructions for Windows with VisualStudio 2013](BuildWindowsVisualStudio2013)
-        * [Foreword](BuildWindowsVisualStudio2013#markdown-header-foreword)
-        * [General remarks](BuildWindowsVisualStudio2013#markdown-header-general-remarks)
+        * [Foreword](BuildWindowsVisualStudio2013#foreword)
+        * [General remarks](BuildWindowsVisualStudio2013#general-remarks)
             
-        * [Required tools for building and installing](BuildWindowsVisualStudio2013#markdown-header-required-tools-for-building-and-installing)
-        * [Compile instructions](BuildWindowsVisualStudio2013#markdown-header-compile-instructions)
+        * [Required tools for building and installing](BuildWindowsVisualStudio2013#required-tools-for-building-and-installing)
+        * [Compile instructions](BuildWindowsVisualStudio2013#compile-instructions)
         
-            * [C1.) Compile the GDAL library, http://www.gdal.org/](BuildWindowsVisualStudio2013#markdown-header-c1-compile-the-gdal-library-httpwwwgdalorg)
-            * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](BuildWindowsVisualStudio2013#markdown-header-c2-compile-the-proj-library-httptracosgeoorgproj)        
-            * [C3.) Compile the routino library http://www.routino.org](BuildWindowsVisualStudio2013#markdown-header-c3-compile-the-routino-library-httpwwwroutinoorg)
-            * [C4.) Install Qt5.5 http://qt-project.org](BuildWindowsVisualStudio2013#markdown-header-c4-install-qt55-httpqt-projectorg)
-		    * [C5.) Compile the QuaZip library http://quazip.sourceforge.net/index.html](BuildWindowsVisualStudio2013#markdown-header-c5-compile-the-quazip-library-httpquazipsourceforgenetindexhtml)
-            * [C6.) Compile the jpeg library http://www.ijg.org/](BuildWindowsVisualStudio2013#markdown-header-c6-compile-the-jpeg-library-httpwwwijgorg)
-            * [C7.) Get the QMapShack source from the repository, e.g.](BuildWindowsVisualStudio2013#markdown-header-c7-get-the-qmapshack-source-from-the-repository-eg)
-            * [C8.) Start the CMake GUI (you did install CMake before, didn't you)](BuildWindowsVisualStudio2013#markdown-header-c8-start-the-cmake-gui-you-did-install-cmake-before-didnt-you)	
-            * [C9.) Open the generated  build\QMapShack.sln with VS2013](BuildWindowsVisualStudio2013#markdown-header-c9-open-the-generated-buildqmapshacksln-with-vs2013)
+            * [C1.) Compile the GDAL library, http://www.gdal.org/](BuildWindowsVisualStudio2013#c1-compile-the-gdal-library-httpwwwgdalorg)
+            * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](BuildWindowsVisualStudio2013#c2-compile-the-proj-library-httptracosgeoorgproj)        
+            * [C3.) Compile the routino library http://www.routino.org](BuildWindowsVisualStudio2013#c3-compile-the-routino-library-httpwwwroutinoorg)
+            * [C4.) Install Qt5.5 http://qt-project.org](BuildWindowsVisualStudio2013#c4-install-qt55-httpqt-projectorg)
+		    * [C5.) Compile the QuaZip library http://quazip.sourceforge.net/index.html](BuildWindowsVisualStudio2013#c5-compile-the-quazip-library-httpquazipsourceforgenetindexhtml)
+            * [C6.) Compile the jpeg library http://www.ijg.org/](BuildWindowsVisualStudio2013#c6-compile-the-jpeg-library-httpwwwijgorg)
+            * [C7.) Get the QMapShack source from the repository, e.g.](BuildWindowsVisualStudio2013#c7-get-the-qmapshack-source-from-the-repository-eg)
+            * [C8.) Start the CMake GUI (you did install CMake before, didn't you)](BuildWindowsVisualStudio2013#c8-start-the-cmake-gui-you-did-install-cmake-before-didnt-you)	
+            * [C9.) Open the generated  build\QMapShack.sln with VS2013](BuildWindowsVisualStudio2013#c9-open-the-generated--buildqmapshacksln-with-vs2013)
             
-        * [Creating a Windows binary installer](BuildWindowsVisualStudio2013#markdown-header-creating-a-windows-binary-installer)
-            * [I1.) Download the VC redistributable installer](BuildWindowsVisualStudio2013#markdown-header-i1-download-the-vc-redistributable-installer)
-            * [I2.) [Optional] Download libmysql.dll from mariadb](BuildWindowsVisualStudio2013#markdown-header-i2-optional-download-libmysqldll-from-mariadb)
-            * [I3.) Copy all required files to intermediate directory](BuildWindowsVisualStudio2013#markdown-header-i3-copy-all-required-files-to-intermediate-directory)
-            * [I4.) Create the installer with NSIS(3.0b1)](BuildWindowsVisualStudio2013#markdown-header-i4-create-the-installer-with-nsis30b1)
-        * [TroubleShooting](BuildWindowsVisualStudio2013#markdown-header-troubleshooting)
-        * [Debugging with VS2013](BuildWindowsVisualStudio2013#markdown-header-debugging-with-vs2013)
-            * [D1.) Set the solution configuration type to "RelWithDebInfo"](BuildWindowsVisualStudio2013#markdown-header-d1-set-the-solution-configuration-type-to-relwithdebinfo)
-            * [D2.) Right-click on the "qmapshack" project and open the "Properties" dialog](BuildWindowsVisualStudio2013#markdown-header-d2-right-click-on-the-qmapshack-project-and-open-the-properties-dialog)                        
-            * [D3.) Compile](BuildWindowsVisualStudio2013#markdown-header-d3-compile)
-            * [D4.) Run/Debug preparations](BuildWindowsVisualStudio2013#markdown-header-d4-rundebug-preparations)
-            * [D5.) Run/Debug](BuildWindowsVisualStudio2013#markdown-header-d5-rundebug)
+        * [Creating a Windows binary installer](BuildWindowsVisualStudio2013#creating-a-windows-binary-installer)
+            * [I1.) Download the VC redistributable installer](BuildWindowsVisualStudio2013#i1-download-the-vc-redistributable-installer)
+            * [I2.) [Optional] Download libmysql.dll from mariadb](BuildWindowsVisualStudio2013#i2-optional-download-libmysqldll-from-mariadb)
+            * [I3.) Copy all required files to intermediate directory](BuildWindowsVisualStudio2013#i3-copy-all-required-files-to-intermediate-directory)
+            * [I4.) Create the installer with NSIS(3.0b1)](BuildWindowsVisualStudio2013#i4-create-the-installer-with-nsis30b1)
+        * [TroubleShooting](BuildWindowsVisualStudio2013#troubleshooting)
+        * [Debugging with VS2013](BuildWindowsVisualStudio2013#debugging-with-vs2013)
+            * [D1.) Set the solution configuration type to "RelWithDebInfo"](BuildWindowsVisualStudio2013#d1-set-the-solution-configuration-type-to-relwithdebinfo)
+            * [D2.) Right-click on the "qmapshack" project and open the "Properties" dialog](BuildWindowsVisualStudio2013#d2-right-click-on-the-qmapshack-project-and-open-the-properties-dialog)                        
+            * [D3.) Compile](BuildWindowsVisualStudio2013#d3-compile)
+            * [D4.) Run/Debug preparations](BuildWindowsVisualStudio2013#d4-rundebug-preparations)
+            * [D5.) Run/Debug](BuildWindowsVisualStudio2013#d5-rundebug)
 
     * [Compile Instructions for Windows with VisualStudio 2017](BuildWindowsVisualStudio) 
          1. Compilation|Windows VS 2017
          1. Installation|Windows
 
-      * [Foreword](BuildWindowsVisualStudio#markdown-header-foreword)
-      * [General remarks](BuildWindowsVisualStudio#markdown-header-general-remarks)
-      * [Required tools for building and installing](BuildWindowsVisualStudio#markdown-header-required-tools-for-building-and-installing)
-      * [Compile instructions](BuildWindowsVisualStudio#markdown-header-compile-instructions)
-      * [C0.) Install Microsoft Visual Studio 2017 (short: VS2017)](BuildWindowsVisualStudio#markdown-header-c0-install-microsoft-visual-studio-2017-short-vs2017)
-      * [C1.) Compile the GDAL library, http://www.gdal.org/](BuildWindowsVisualStudio#markdown-header-c1-compile-the-gdal-library-httpwwwgdalorg)
-      * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](BuildWindowsVisualStudio#markdown-header-c2-compile-the-proj-library-httptracosgeoorgproj)
-             * [C2.1.) - for QMapShack before version 1.13.0](BuildWindowsVisualStudio#markdown-header-c21-for-qmapshack-before-version-1130)
-             * [C2.2.) - for QMapShack from version V1.13.0](BuildWindowsVisualStudio#markdown-header-c22-for-qmapshack-from-version-v1130)
+      * [Foreword](BuildWindowsVisualStudio#foreword)
+      * [General remarks](BuildWindowsVisualStudio#general-remarks)
+      * [Required tools for building and installing](BuildWindowsVisualStudio#required-tools-for-building-and-installing)
+      * [Compile instructions](BuildWindowsVisualStudio#compile-instructions)
+      * [C0.) Install Microsoft Visual Studio 2017 (short: VS2017)](BuildWindowsVisualStudio#c0-install-microsoft-visual-studio-2017-short-vs2017)
+      * [C1.) Compile the GDAL library, http://www.gdal.org/](BuildWindowsVisualStudio#c1-compile-the-gdal-library-httpwwwgdalorg)
+      * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](BuildWindowsVisualStudio#c2-compile-the-proj-library-httptracosgeoorgproj)
+             * [C2.1.) - for QMapShack before version 1.13.0](BuildWindowsVisualStudio#c21---for-qmapshack-before-version-1130)
+             * [C2.2.) - for QMapShack from version V1.13.0](BuildWindowsVisualStudio#c22---for-qmapshack-from-version-v1130)
 
-      * [C3.) Compile the routino library http://www.routino.org](BuildWindowsVisualStudio#markdown-header-c3-compile-the-routino-library-httpwwwroutinoorg)
-      * [C4.) Install Qt5.11 or above http://qt-project.org](BuildWindowsVisualStudio#markdown-header-c4-install-qt511-or-above-httpqt-projectorg)      
-      * [C5.) Compile the QuaZip library https://stachenov.github.io/quazip/](BuildWindowsVisualStudio#markdown-header-c5-compile-the-quazip-library-httpsstachenovgithubioquazip)      
-      * [C6.) Compile the jpeg library http://www.ijg.org/](BuildWindowsVisualStudio#markdown-header-c6-compile-the-jpeg-library-httpwwwijgorg)
-      * [C7.) Get the QMapShack source from the repository, e.g.](BuildWindowsVisualStudio#markdown-header-c7-get-the-qmapshack-source-from-the-repository-eg)
-      * [C8.) Start the CMake GUI (you did install CMake before, didn't you)](BuildWindowsVisualStudio#markdown-header-c8-start-the-cmake-gui-you-did-install-cmake-before-didnt-you)
-      * [C9.) Open the generated build\QMapShack.sln with VS2017](BuildWindowsVisualStudio#markdown-header-c9-open-the-generated-buildqmapshacksln-with-vs2017)
-      * [Creating a Windows binary installer](BuildWindowsVisualStudio#markdown-header-creating-a-windows-binary-installer)
-      * [I1.) Download the VC redistributable installer](BuildWindowsVisualStudio#markdown-header-i1-download-the-vc-redistributable-installer)
-      * [I2.) [Optional] Download libmysql.dll from mariadb](BuildWindowsVisualStudio#markdown-header-i2-optional-download-libmysqldll-from-mariadb)
-      * [I3.) [Optional] Build libraries libeay32.dll and ssleay32.dll](BuildWindowsVisualStudio#markdown-header-i3-optional-build-libraries-libeay32dll-and-ssleay32dll)
-      * [I4.) Copy all required files to intermediate directory](BuildWindowsVisualStudio#markdown-header-i4-copy-all-required-files-to-intermediate-directory)
-      * [I5.) Create the installer with NSIS(3.0b1)](BuildWindowsVisualStudio#markdown-header-i5-create-the-installer-with-nsis30b1)
-      * [TroubleShooting](BuildWindowsVisualStudio#markdown-header-troubleshooting)
-      * [Debugging with VS2013 !!!TODO Update for VS2017!!!](BuildWindowsVisualStudio#markdown-header-debugging-with-vs2013-todo-update-for-vs2017)
-      * [D1.) Set the solution configuration type to "RelWithDebInfo"](BuildWindowsVisualStudio#markdown-header-d1-set-the-solution-configuration-type-to-relwithdebinfo)
-      * [D2.) Right-click on the "qmapshack" project and open the "Properties" dialog](BuildWindowsVisualStudio#markdown-header-d2-right-click-on-the-qmapshack-project-and-open-the-properties-dialog)
-      * [D3.) Compile](BuildWindowsVisualStudio#markdown-header-d3-compile)
-      * [D4.) Run/Debug preparations](BuildWindowsVisualStudio#markdown-header-d4-rundebug-preparations)
-      * [D5.) Run/Debug](BuildWindowsVisualStudio#markdown-header-d5-rundebug)
+      * [C3.) Compile the routino library http://www.routino.org](BuildWindowsVisualStudio#c3-compile-the-routino-library-httpwwwroutinoorg)
+      * [C4.) Install Qt5.11 or above http://qt-project.org](BuildWindowsVisualStudio#c4-install-qt511-or-above-httpqt-projectorg)      
+      * [C5.) Compile the QuaZip library https://stachenov.github.io/quazip/](BuildWindowsVisualStudio#c5-compile-the-quazip-library-httpsstachenovgithubioquazip)      
+      * [C6.) Compile the jpeg library http://www.ijg.org/](BuildWindowsVisualStudio#c6-compile-the-jpeg-library-httpwwwijgorg)
+      * [C7.) Get the QMapShack source from the repository, e.g.](BuildWindowsVisualStudio#c7-get-the-qmapshack-source-from-the-repository-eg)
+      * [C8.) Start the CMake GUI (you did install CMake before, didn't you)](BuildWindowsVisualStudio#c8-start-the-cmake-gui-you-did-install-cmake-before-didnt-you)
+      * [C9.) Open the generated build\QMapShack.sln with VS2017](BuildWindowsVisualStudio#c9-open-the-generated-buildqmapshacksln-with-vs2017)
+      * [Creating a Windows binary installer](BuildWindowsVisualStudio#creating-a-windows-binary-installer)
+      * [I1.) Download the VC redistributable installer](BuildWindowsVisualStudio#i1-download-the-vc-redistributable-installer)
+      * [I2.) [Optional] Download libmysql.dll from mariadb](BuildWindowsVisualStudio#i2-optional-download-libmysqldll-from-mariadb)
+      * [I3.) [Optional] Build libraries libeay32.dll and ssleay32.dll](BuildWindowsVisualStudio#i3-optional-build-libraries-libeay32dll-and-ssleay32dll)
+      * [I4.) Copy all required files to intermediate directory](BuildWindowsVisualStudio#i4-copy-all-required-files-to-intermediate-directory)
+      * [I5.) Create the installer with NSIS(3.0b1)](BuildWindowsVisualStudio#i5-create-the-installer-with-nsis30b1)
+      * [TroubleShooting](BuildWindowsVisualStudio#troubleshooting)
+      * [Debugging with VS2013 !!!TODO Update for VS2017!!!](BuildWindowsVisualStudio#debugging-with-vs2013-todo-update-for-vs2017)
+      * [D1.) Set the solution configuration type to "RelWithDebInfo"](BuildWindowsVisualStudio#d1-set-the-solution-configuration-type-to-relwithdebinfo)
+      * [D2.) Right-click on the "qmapshack" project and open the "Properties" dialog](BuildWindowsVisualStudio#d2-right-click-on-the-qmapshack-project-and-open-the-properties-dialog)
+      * [D3.) Compile](BuildWindowsVisualStudio#d3-compile)
+      * [D4.) Run/Debug preparations](BuildWindowsVisualStudio#d4-rundebug-preparations)
+      * [D5.) Run/Debug](BuildWindowsVisualStudio#d5-rundebug)
         
          
          
          
     * [Compile Instructions for Ubuntu-14.04](Ubuntu-14.04-HowTo)
 
-      * [cmake 3](Ubuntu-14.04-HowTo#markdown-header-cmake-3)
-      * [Qt 5.4](Ubuntu-14.04-HowTo#markdown-header-qt-54)
-      * [Routino](Ubuntu-14.04-HowTo#markdown-header-routino)
-      * [QuaZip](Ubuntu-14.04-HowTo#markdown-header-quazip)
-      * [Use Qt 5.4 instead of 5.2 (it's only temporary and for the current terminal)](Ubuntu-14.04-HowTo#markdown-header-use-qt-54-instead-of-52-its-only-temporary-and-for-the-current-terminal)
+      * [cmake 3](Ubuntu-14.04-HowTo#cmake-3)
+      * [Qt 5.4](Ubuntu-14.04-HowTo#qt-54)
+      * [Routino](Ubuntu-14.04-HowTo#routino)
+      * [QuaZip](Ubuntu-14.04-HowTo#quazip)
+      * [Use Qt 5.4 instead of 5.2 (it's only temporary and for the current terminal)](Ubuntu-14.04-HowTo#use-qt-54-instead-of-52-its-only-temporary-and-for-the-current-terminal)
     
     * [Compile Instructions for Ubuntu-18](Ubuntu-18-HowTo)
         1. Compilation|Ubuntu-18.04
         1. Ubuntu-18.04|compilation
         
-      * [Create installation folder](Ubuntu-18-HowTo#markdown-header-create-installation-folder)
-      * [Installation of needed build packages](Ubuntu-18-HowTo#markdown-header-installation-of-needed-build-packages)
-      * [Initial build of Routino](Ubuntu-18-HowTo#markdown-header-initial-build-of-routino)
-      * [Update of Routino when something has changed in future](Ubuntu-18-HowTo#markdown-header-update-of-routino-when-something-has-changed-in-future)
-      * [Initial build of QMapShack](Ubuntu-18-HowTo#markdown-header-initial-build-of-qmapshack)
-      * [Update of QMapShack when something has changed in future](Ubuntu-18-HowTo#markdown-header-update-of-qmapshack-when-something-has-changed-in-future)
-      * [Start QMapShack](Ubuntu-18-HowTo#markdown-header-start-qmapshack)
+      * [Create installation folder](Ubuntu-18-HowTo#create-installation-folder)
+      * [Installation of needed build packages](Ubuntu-18-HowTo#installation-of-needed-build-packages)
+      * [Initial build of Routino](Ubuntu-18-HowTo#initial-build-of-routino)
+      * [Update of Routino when something has changed in future](Ubuntu-18-HowTo#update-of-routino-when-something-has-changed-in-future)
+      * [Initial build of QMapShack](Ubuntu-18-HowTo#initial-build-of-qmapshack)
+      * [Update of QMapShack when something has changed in future](Ubuntu-18-HowTo#update-of-qmapshack-when-something-has-changed-in-future)
+      * [Start QMapShack](Ubuntu-18-HowTo#start-qmapshack)
         
         
     * [Create Offline Documentation](OfflineDocumentation)
          1. Documentation|create off-line version
     
-        * [Prerequisites](OfflineDocumentation#markdown-header-prerequisites)
-        * [Building the `*.html` files](OfflineDocumentation#markdown-header-building-the-html-files)
+        * [Prerequisites](OfflineDocumentation#prerequisites)
+        * [Building the `*.html` files](OfflineDocumentation#building-the-html-files)
         * Building HTML files
             1. Documentation|building HTML off-line version     
         
@@ -125,10 +125,10 @@ ___Basic usage___
     * [Getting started](DocGettingStarted)
         1. Main window|layout
     
-        * [Add maps](DocGettingStarted#markdown-header-add-maps)
+        * [Add maps](DocGettingStarted#add-maps)
             1. Map|add and activate
             
-        * [Add digital elevation model](DocGettingStarted#markdown-header-add-digital-elevation-model)
+        * [Add digital elevation model](DocGettingStarted#add-digital-elevation-model)
             1. Elevation data|add and activate
             1. DEM|add elevation data
         
@@ -142,15 +142,15 @@ ___Basic usage___
         1. Logfile|enable debug output
        
     * [Install Maps & DEM Data](DocInstallMapDem)
-        * [Organization of Maps & DEM](DocInstallMapDem#markdown-header-organization-of-maps-dem)
+        * [Organization of Maps & DEM](DocInstallMapDem#organization-of-maps--dem)
             1. Map|folder organization
             1. DEM|folder organization
             
-        * [Installing Maps](DocInstallMapDem#markdown-header-installing-maps)
+        * [Installing Maps](DocInstallMapDem#installing-maps)
             1. Map|installation
             1. Installation|map
         
-        * [Installing Raster Maps or DEM Data](DocInstallMapDem#markdown-header-installing-raster-maps-or-dem-data)
+        * [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data)
             1. Installation|raster map
             1. Raster map|installation
             1. DEM|installation
@@ -158,24 +158,24 @@ ___Basic usage___
             1. VRT|DEM
             1. Menu|Tool - VRT Builder
             
-        * [Sources of Maps and DEM files](DocInstallMapDem#markdown-header-sources-of-maps-and-dem-files)    
-            * [Maps](DocInstallMapDem#markdown-header-maps)
+        * [Sources of Maps and DEM files](DocInstallMapDem#sources-of-maps-and-dem-files)    
+            * [Maps](DocInstallMapDem#maps)
                 1. Map|sources of vector maps
             
-            * [DEM](DocInstallMapDem#markdown-header-dem)
+            * [DEM](DocInstallMapDem#dem)
                 1. DEM|sources 
         
         * [Maps & DEM](DocBasicsMapDem)
             1. Map|supported formats
             
-            * [Map formats](DocBasicsMapDem#markdown-header-map-formats)
-                * [Vector Maps](DocBasicsMapDem#markdown-header-vector-maps)
+            * [Map formats](DocBasicsMapDem#map-formats)
+                * [Vector Maps](DocBasicsMapDem#vector-maps)
                 + Supported vector maps
                     1. Map|Garmin map image
                     1. Garmin|map images
                     1. Map|vector map
                     
-                * [Raster Maps](DocBasicsMapDem#markdown-header-raster-maps)
+                * [Raster Maps](DocBasicsMapDem#raster-maps)
                 + Supported raster maps
                     1. Map|raster map
                     1. Map|VRT
@@ -187,7 +187,7 @@ ___Basic usage___
                     1. Map|GEMF
                     
                     
-                * [Online Maps](DocBasicsMapDem#markdown-header-online-maps)
+                * [Online Maps](DocBasicsMapDem#online-maps)
                 + Supported on-line maps
                     1. WMTS|map
                     1. Map|WMTS
@@ -195,12 +195,12 @@ ___Basic usage___
                     1. Map|TMS
                     1. Map|on-line
 
-                * [DEM Files](DocBasicsMapDem#markdown-header-dem-files)
+                * [DEM Files](DocBasicsMapDem#dem-files)
                     1. DEM|VRT file for
                     1. VRT|DEM
                     1. Elevation|DEM
                     
-            * [Projection and Scaling](DocBasicsMapDem#markdown-header-projection-and-scaling)
+            * [Projection and Scaling](DocBasicsMapDem#projection-and-scaling)
                 1. Map|projection
                 1. Map|datum
                 1. Projection|map
@@ -208,44 +208,44 @@ ___Basic usage___
                 1. Datum|WGS84
                 1. Projection|Mercator                
                 
-            * [GDAL *.vrt Maps](DocBasicsMapDem#markdown-header-gdal-vrt-maps)
+            * [GDAL *.vrt Maps](DocBasicsMapDem#gdal-vrt-maps)
             + Maps in GDAL VRT format
                 1. GDAL|VRT 
                 1. VRT|raster map
  
-            * [WMTS Maps](DocBasicsMapDem#markdown-header-wmts-maps)
+            * [WMTS Maps](DocBasicsMapDem#wmts-maps)
                 1. WMTS|map
                 1. Map|WMTS
                 
-            * [TMS Maps](DocBasicsMapDem#markdown-header-tms-maps)
+            * [TMS Maps](DocBasicsMapDem#tms-maps)
                 1. TMS|map
                 1. Map|TMS
                 
         * [Control maps and DEM files](DocControlMapDem)
-            * [Draw Order](DocControlMapDem#markdown-header-draw-order)
+            * [Draw Order](DocControlMapDem#draw-order)
                 1. Map|draw order
                 1. DEM|draw order
             
-            * [Map Properties](DocControlMapDem#markdown-header-map-properties)
+            * [Map Properties](DocControlMapDem#map-properties)
                 1. Map|properties
                 
-                * [Workspace](DocControlMapDem#markdown-header-workspace)
+                * [Workspace](DocControlMapDem#workspace)
                     1. Map view|add
                     1. Map view|clone
                     1. Menu|View
 
-                * [Map and DEM](DocControlMapDem#markdown-header-map-and-dem)
+                * [Map and DEM](DocControlMapDem#map-and-dem)
                     1. Map|opacity
                     1. Map|visibility
                 
-                * [Vector Maps](DocControlMapDem#markdown-header-vector-maps)
+                * [Vector Maps](DocControlMapDem#vector-maps)
                     1. Map|properties of vector map
                     
-                * [Online Maps](DocControlMapDem#markdown-header-online-maps)
+                * [Online Maps](DocControlMapDem#online-maps)
                     1. Map|properties of on-line maps
                     1. Map|tile cache                  
                     
-                * [DEM Files](DocControlMapDem#markdown-header-dem-files)
+                * [DEM Files](DocControlMapDem#dem-files)
                     1. DEM|properties of DEM
                     1. DEM|hill shading
                     1. Hill shading|DEM
@@ -254,13 +254,13 @@ ___Basic usage___
             1. DEM|sources
             1. Map|sources
             
-            * [World](DocMapDemSources#markdown-header-world)
-            * [Europe and European regions](DocMapDemSources#markdown-header-europe-and-european-regions)
-            * [Other regions](DocMapDemSources#markdown-header-other-regions)
-            * [Short summary of map and DEM use](DocMapDemSources#markdown-header-short-summary-of-map-and-dem-use)
-            * [Overview of supported map formats](DocMapDemSources#markdown-header-overview-of-supported-map-formats)
-                * [Offline maps](DocMapDemSources#markdown-header-offline-maps)
-                * [Online map services](DocMapDemSources#markdown-header-online-map-services)
+            * [World](DocMapDemSources#world)
+            * [Europe and European regions](DocMapDemSources#europe-and-european-regions)
+            * [Other regions](DocMapDemSources#other-regions)
+            * [Short summary of map and DEM use](DocMapDemSources#short-summary-of-map-and-dem-use)
+            * [Overview of supported map formats](DocMapDemSources#overview-of-supported-map-formats)
+                * [Offline maps](DocMapDemSources#offline-maps)
+                * [Online map services](DocMapDemSources#online-map-services)
       
                     
     * [Working with Projects](DocWorkingWithProjects)
@@ -270,7 +270,7 @@ ___Basic usage___
         * [Handle GPX and QMS files](DocHandleGpxFiles)
             1. GPX|general remark
             
-            * [Load GPX Files](DocHandleGpxFiles#markdown-header-load-gpx-files)
+            * [Load GPX Files](DocHandleGpxFiles#load-gpx-files)
                 1. GPX|load file
                 1. QMS|load file
                 1. Menu|File - Load GIS Data
@@ -278,10 +278,10 @@ ___Basic usage___
                 1. SLF|load file
                 1. TCX|load file
                 
-            * [Data view](DocHandleGpxFiles#markdown-header-data-view)
+            * [Data view](DocHandleGpxFiles#data-view)
                 1. Workspace|data view
                 
-            * [Save GPX Files](DocHandleGpxFiles#markdown-header-save-gpx-files)
+            * [Save GPX Files](DocHandleGpxFiles#save-gpx-files)
                 1. GPX|save as
                 
         
@@ -297,48 +297,48 @@ ___Basic usage___
         1. GIS data|locked
         1. GIS data|recorded
         
-        * [Cluttered items](DocGisItems#markdown-header-cluttered-items)
+        * [Cluttered items](DocGisItems#cluttered-items)
             1. GIS data|select cluttered
             
-        * [Draw Order & Copy Items](DocGisItems#markdown-header-draw-order-copy-items)
+        * [Draw Order & Copy Items](DocGisItems#draw-order--copy-items)
             1. GIS data|draw order
              
-        * [History of Changes & Undo/Redo](DocGisItems#markdown-header-history-of-changes-undoredo)
+        * [History of Changes & Undo/Redo](DocGisItems#history-of-changes--undoredo)
             1. GIS data|history of changes
             1. GIS data|undo & redo            
             
         * [Create new tracks, waypoints etc.](DocGisItemsNew)
             1. GIS data|create
             
-            * [Waypoint](DocGisItemsNew#markdown-header-waypoint)
+            * [Waypoint](DocGisItemsNew#waypoint)
                 1. Waypoint|create
                 
-            * [Track](DocGisItemsNew#markdown-header-track)
+            * [Track](DocGisItemsNew#track)
                 1. Track|create
                 
-            * [Area](DocGisItemsNew#markdown-header-area)
+            * [Area](DocGisItemsNew#area)
                 1. Area|create
                 
         * [Tracks](DocGisItemsTrk2)
             1. Track|options
             
-            * [Track Details Dialog](DocGisItemsTrk2#markdown-header-track-details-dialog)
+            * [Track Details Dialog](DocGisItemsTrk2#track-details-dialog)
                 1. Track|details dialog
                 
-                * [Graph Area](DocGisItemsTrk2#markdown-header-graph-area)
+                * [Graph Area](DocGisItemsTrk2#graph-area)
                     1. Track|graphs
                     
-                * [Info](DocGisItemsTrk2#markdown-header-info)
+                * [Info](DocGisItemsTrk2#info)
                 + Track info window
                     1. Track|info tab
                     
-                * [Style](DocGisItemsTrk2#markdown-header-style)
+                * [Style](DocGisItemsTrk2#style)
                     1. Track|style tab
                     
-                * [Graphs](DocGisItemsTrk2#markdown-header-graphs)
+                * [Graphs](DocGisItemsTrk2#graphs)
                     1. Track|graphs tab
                     
-                * [Activity](DocGisItemsTrk2#markdown-header-activity)
+                * [Activity](DocGisItemsTrk2#activity)
                 + Track activity
                 ++ Track details, activity tab
                     1. Track|activity tab 
@@ -346,62 +346,62 @@ ___Basic usage___
                     1. Activity|of track
                     1. Activity|assign color to
 
-                * [Points](DocGisItemsTrk2#markdown-header-points)
+                * [Points](DocGisItemsTrk2#points)
                 + Track points tab
                 ++ Track details, points tab
                     1. Track|points tab
                     
-                * [Filter](DocGisItemsTrk2#markdown-header-filter)
+                * [Filter](DocGisItemsTrk2#filter)
                 + Track filter tab
                 ++ Track details, filter tab
                     1. Track|filters tab
                     
-                * [History](DocGisItemsTrk2#markdown-header-history)
+                * [History](DocGisItemsTrk2#history)
                 + Track history tab
                 ++ Track details, history tab
                     1. Track|history tab
                     
-            * [Track Filter](DocGisItemsTrk2#markdown-header-track-filter)
-                * [Points](DocGisItemsTrk2#markdown-header-points)
+            * [Track Filter](DocGisItemsTrk2#track-filter)
+                * [Points](DocGisItemsTrk2#points)
                 + Track points filter
                     1. Filter|track points
                     1. Track|track points filter
                     1. Douglas-Peuker|filter
                     1. Filter|Douglas-Peuker
                     
-                * [Elevation](DocGisItemsTrk2#markdown-header-elevation)
+                * [Elevation](DocGisItemsTrk2#elevation)
                 + Track elevation filter
                     1. Filter|elevation
                     1. Elevation|Filter
                     1. Track|elevation filter                    
                     
-                * [Timestamps](DocGisItemsTrk2#markdown-header-timestamps)
+                * [Timestamps](DocGisItemsTrk2#timestamps)
                 + Track timestamps filter
                     1. Filter|timestamps
                     1. Track|timestamps filter
                     
-                * [Extensions](DocGisItemsTrk2#markdown-header-extensions)
+                * [Extensions](DocGisItemsTrk2#extensions)
                 + Track extensions filter
                     1. Filter|extensions
                     1. Track|extensions filter
                     
-                * [Split Track](DocGisItemsTrk2#markdown-header-split-track)
+                * [Split Track](DocGisItemsTrk2#split-track)
                     1. Filter|split track
                     1. Track|split filter
                     
         * [Routes](DocGisItemsRte)
-            * [Create route](DocGisItemsRte#markdown-header-create-route)
+            * [Create route](DocGisItemsRte#create-route)
                 1. Route|create
                 
-            * [Routing Engines](DocGisItemsRte#markdown-header-routing-engines)        
-                * [Routino](DocGisItemsRte#markdown-header-routino)
+            * [Routing Engines](DocGisItemsRte#routing-engines)        
+                * [Routino](DocGisItemsRte#routino)
                 + Routino router
                     1. Routing engine|Routino
                     1. Routino|routing engine
                     1. Off-line routing|Routino
                     1. Routino|routing database                    
                     
-                    * [Create Own Routino database](DocGisItemsRte#markdown-header-create-own-routino-database)
+                    * [Create Own Routino database](DocGisItemsRte#create-own-routino-database)
                     + Create Routino database
                     ++ Create Routino database using planetsplitter
                         1. Routino|create database
@@ -410,7 +410,7 @@ ___Basic usage___
                         1. Menu|Tool - Create Routino Database
                         1. Planetsplitter|create routing database
                         
-                * [MapQuest](DocGisItemsRte#markdown-header-mapquest)
+                * [MapQuest](DocGisItemsRte#mapquest)
                 + MapQuest router
                     1. Routing engine|MapQuest
                     1. MapQuest|routing engine
@@ -421,32 +421,32 @@ ___Basic usage___
             1. Waypoint|get info
             1. Waypoint|options
             
-            * [View / Edit Details](DocGisItemsWpt#markdown-header-view-edit-details)
+            * [View / Edit Details](DocGisItemsWpt#-view--edit-details)
             + View/edit waypoint
                 1. Waypoint|details window
                 1. Waypoint|edit window
                                 
-                * [Custom Icons](DocGisItemsWpt#markdown-header-custom-icons)
+                * [Custom Icons](DocGisItemsWpt#custom-icons)
                 + Custom icons
                     1. Waypoint|custom icons
                     
-                * [The Photo Album](DocGisItemsWpt#markdown-header-the-photo-album)
+                * [The Photo Album](DocGisItemsWpt#the-photo-album)
                 + Photo album
                     1. Waypoint|photo album
                     
-            * [Move Waypoint](DocGisItemsWpt#markdown-header-move-waypoint)
+            * [Move Waypoint](DocGisItemsWpt#-move-waypoint)
                 1. Waypoint|move
                 
-            * [Project Waypoint](DocGisItemsWpt#markdown-header-project-waypoint)
+            * [Project Waypoint](DocGisItemsWpt#-project-waypoint)
                 1. Waypoint|project (clone)
                 
-            * [Geocaches](DocGisItemsWpt#markdown-header-geocaches)    
+            * [Geocaches](DocGisItemsWpt#geocaches)    
                 1. Geocache|as waypoint
                 
         * [Areas](DocGisItemsArea)
             1. Area|as map overlay
             
-            * [View / Edit Details](DocGisItemsArea#markdown-header-view-edit-details)
+            * [View / Edit Details](DocGisItemsArea#view--edit-details)
                 1. Area|details view
                 1. Area|edit
                 
@@ -457,20 +457,20 @@ ___Basic usage___
             1. Area|edit
             1. Edit mode|for items with multiple points
             
-            * [Saving data](DocGisItemsEditMultiple#markdown-header-saving-data)
+            * [Saving data](DocGisItemsEditMultiple#saving-data)
                 1. Track|save
                 1. Route|save
                 1. Area|save
                 
-            * [Edit line](DocGisItemsEditMultiple#markdown-header-edit-line)                
+            * [Edit line](DocGisItemsEditMultiple#edit-line)                
                 1. Track|edit
                 1. Route|edit
                 1. Area|edit
                                 
-            * [Routing](DocGisItemsEditMultiple#markdown-header-routing)
+            * [Routing](DocGisItemsEditMultiple#routing)
                 1. Routing|methods
                 
-            * [Undo/Redo](DocGisItemsEditMultiple#markdown-header-undoredo)
+            * [Undo/Redo](DocGisItemsEditMultiple#undoredo)
                 1. Undo|edit
                 1. Redo|edit
                 1. Edit|undo
@@ -485,26 +485,26 @@ ___Basic usage___
             1. Workspace|relation between database and workspace
         
         * [Add/Remove/Synchronize/Search a Database](DocGisDatabaseAddRemove)
-            * [Add/Remove a database](DocGisDatabaseAddRemove#markdown-header-addremove-a-database)        
+            * [Add/Remove a database](DocGisDatabaseAddRemove#addremove-a-database)        
                 1. Database|add
                 1. Database|remove
             
-                * [SQLite](DocGisDatabaseAddRemove#markdown-header-sqlite)
+                * [SQLite](DocGisDatabaseAddRemove#sqlite)
                 + SQLite database
                     1. Database|SQLite
                     1. SQLite|database
                 
-                * [MySQL (>= 5.6.5)](DocGisDatabaseAddRemove#markdown-header-mysql-565)
+                * [MySQL (>= 5.6.5)](DocGisDatabaseAddRemove#mysql--565)
                 + MySQL database
                     1. Database|MySQL
                     1. MySQL|database
 
-            * [Multi-user access](DocGisDatabaseAddRemove#markdown-header-multi-user-access)
+            * [Multi-user access](DocGisDatabaseAddRemove#multi-user-access)
                 1. Database|multi-user access
                 1. Database|synchronize
                 1. Menu|Workspace - Setup Workspace
                 
-            * [Search the database](DocGisDatabaseAddRemove#markdown-header-search-the-database)   
+            * [Search the database](DocGisDatabaseAddRemove#search-the-database)   
                 1. Database|search
                 
         * [Folders and Items](DocGisDatabaseFoldersItems)
@@ -517,11 +517,11 @@ ___Basic usage___
             1. Database|lost & found folder
             
     * [GPS Devices](DocGisDevices)
-        * [General description](DocGisDevices#markdown-header-general-description)
+        * [General description](DocGisDevices#general-description)
             1. GPS device|use of
             1. GPS device|copy from/to
 
-        * [Remark about Garmin GPSmap 60CSx and similar devices](DocGisDevices#markdown-header-remark-about-garmin-gpsmap-60csx-and-similar-devices)
+        * [Remark about Garmin GPSmap 60CSx and similar devices](DocGisDevices#remark-about-garmin-gpsmap-60csx-and-similar-devices)
         + Use of legacy GPS devices
         ++ Use of Garmin GPSmap 60CSx and similar devices
             1. GPS device|use of legacy Garmin device
@@ -531,23 +531,23 @@ ___Basic usage___
         1. Editor templates|purpose of
         1. Text editor|templates for
     
-        * [Use a Template](DocGisTemplates#markdown-header-use-a-template)
+        * [Use a Template](DocGisTemplates#use-a-template)
             1. Templates|use of
             
-        * [Create a Template](DocGisTemplates#markdown-header-create-a-template)
+        * [Create a Template](DocGisTemplates#create-a-template)
             1. Templates|create new
             
-            * [Widgets Overview](DocGisTemplates#markdown-header-widgets-overview)
-            * [Basic Concept](DocGisTemplates#markdown-header-basic-concept)
-            * [Layout Management](DocGisTemplates#markdown-header-layout-management)
-            * [Order Of Items](DocGisTemplates#markdown-header-order-of-items)            
+            * [Widgets Overview](DocGisTemplates#widgets-overview)
+            * [Basic Concept](DocGisTemplates#basic-concept)
+            * [Layout Management](DocGisTemplates#layout-management)
+            * [Order Of Items](DocGisTemplates#order-of-items)            
             
-        * [Additional information](DocGisTemplates#markdown-header-additional-information)
+        * [Additional information](DocGisTemplates#additional-information)
         
  ___(Advanced usage part)___
 
 * [Databases and projects](AdvProjects)
-    * [Organization of QMapShack data](AdvProjects#markdown-header-organization-of-qmapshack-data)
+    * [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data)
     + Data organization
         1. Data organization|projects
         1. Data organization|data items
@@ -561,54 +561,54 @@ ___Basic usage___
         1. Database|project in
         1. Menu|Workspace - Setup Workspace
 
-    * [Workspace and database windows](AdvProjects#markdown-header-workspace-and-database-windows)
+    * [Workspace and database windows](AdvProjects#workspace-and-database-windows)
         1. Delete data|in workspace & database
         1. Workspace|delete data
         1. Database|delete data   
         1. Database|relation between database and workspace     
         1. Workspace|relation between database and workspace
     
-    * [Summary projects and drop zones](AdvProjects#markdown-header-summary-projects-and-drop-zones)
+    * [Summary projects and drop zones](AdvProjects#summary-projects-and-drop-zones)
         1. Drop zone|definition and use
         1. Summary project|definition and use
         1. Drop zone|for summary projects
         1. Database window|drop zone
     
     * [General Actions](AdvProjActions)
-        * [Working with databases](AdvProjActions#markdown-header-working-with-databases)
-            * [Import of GIS data](AdvProjActions#markdown-header-import-of-gis-data)
+        * [Working with databases](AdvProjActions#working-with-databases)
+            * [Import of GIS data](AdvProjActions#import-of-gis-data)
                 1. Database|import GIS data
                 1. GIS data|import to database
                 
-            * [Export database to GPX file](AdvProjActions#markdown-header-export-database-to-gpx-file)    
+            * [Export database to GPX file](AdvProjActions#export-database-to-gpx-file)    
                 1. Database|save as GPX file
                 1. Database|export as GPX file             
                 1. GPX|database saved as GPX
                 1. Export as GPX file|database
                 1. Export as GPX file|project
                 
-        * [Working with projects](AdvProjActions#markdown-header-working-with-projects)
-            * [Merge projects](AdvProjActions#markdown-header-merge-projects)
+        * [Working with projects](AdvProjActions#working-with-projects)
+            * [Merge projects](AdvProjActions#merge-projects)
                 1. Project|merge 
            
-            * [Copy project](AdvProjActions#markdown-header-copy-project)
+            * [Copy project](AdvProjActions#copy-project)
                 1. Project|copy
              
-            * [Save project](AdvProjActions#markdown-header-save-project)     
+            * [Save project](AdvProjActions#save-project)     
                 1. Project|save
                 1. GPX|save project as GPX
                 1. Menu|File - Save all GIS data
                 
-            * [Edit project metadata](AdvProjActions#markdown-header-edit-project-metadata)
+            * [Edit project metadata](AdvProjActions#edit-project-metadata)
                 1. Project|edit metadata
 
-            * [Working with project roadbook    ](AdvProjActions#markdown-header-working-with-project-roadbook)
+            * [Working with project roadbook    ](AdvProjActions#working-with-project-roadbook)
                 1. Project|roadbook
                 1. Project|summary
                 1. Track|summary
                 
 * [Details of map use](AdvMapDetails)
-    * [Adjustable map properties](AdvMapDetails#markdown-header-adjustable-map-properties)
+    * [Adjustable map properties](AdvMapDetails#adjustable-map-properties)
     + Adjust map properties  
         1. Map|display properties
         1. Map|details level
@@ -618,7 +618,7 @@ ___Basic usage___
         1. Data|opacity selection
         1. Map|cache
     
-    * [Adjustable elevation properties](AdvMapDetails#markdown-header-adjustable-elevation-properties)
+    * [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties)
     + Adjust elevation properties 
         1. DEM|hill shading
         1. DEM|slope
@@ -626,7 +626,7 @@ ___Basic usage___
         1. Hill shading|visualization
         1. DEM|display properties
     
-    * [Map scale type](AdvMapDetails#markdown-header-map-scale-type)    
+    * [Map scale type](AdvMapDetails#map-scale-type)    
     + Change scale type
     ++ Change scale type (logarithmic/square)
         1. Map|zoom
@@ -636,7 +636,7 @@ ___Basic usage___
         1. WMTS|recommended map scale
         1. Menu|View - Setup Map View
         
-    * [Projection and datum](AdvMapDetails#markdown-header-projection-and-datum)     
+    * [Projection and datum](AdvMapDetails#projection-and-datum)     
         1. Map|projection and datum
         1. Grid|projection and datum
         1. Datum|map
@@ -647,140 +647,140 @@ ___Basic usage___
         1. WGS84|projection
     
     
-    * [Full-screen display](AdvMapDetails#markdown-header-full-screen-display)
+    * [Full-screen display](AdvMapDetails#full-screen-display)
         1. Map|full-screen display
         1. Full-screen display|of maps        
      
-    * [Distance ruler](AdvMapDetails#markdown-header-distance-ruler) 
+    * [Distance ruler](AdvMapDetails#distance-ruler) 
         1. Distance measurement|with ruler tool
         1. Ruler|for distance measurement
      
     * [Tips & tricks for online maps](DocMapsTipsOnline)
-        * [Map service file formats](DocMapsTipsOnline#markdown-header-map-service-file-formats)
-            * [WMS](DocMapsTipsOnline#markdown-header-wms)
-            * [WMTS](DocMapsTipsOnline#markdown-header-wmts)
-            * [TMS](DocMapsTipsOnline#markdown-header-tms)
-        * [Basic procedure for using WMTS or TMS files](DocMapsTipsOnline#markdown-header-basic-procedure-for-using-wmts-or-tms-files)
-        * [Overview of map regions mentioned on this page](DocMapsTipsOnline#markdown-header-overview-of-map-regions-mentioned-on-this-page)
+        * [Map service file formats](DocMapsTipsOnline#map-service-file-formats)
+            * [WMS](DocMapsTipsOnline#wms)
+            * [WMTS](DocMapsTipsOnline#wmts)
+            * [TMS](DocMapsTipsOnline#tms)
+        * [Basic procedure for using WMTS or TMS files](DocMapsTipsOnline#basic-procedure-for-using-wmts-or-tms-files)
+        * [Overview of map regions mentioned on this page](DocMapsTipsOnline#overview-of-map-regions-mentioned-on-this-page)
             1. Map|list of online maps
             
-        * [Sources of WMTS and TMS map files](DocMapsTipsOnline#markdown-header-sources-of-wmts-and-tms-map-files)
+        * [Sources of WMTS and TMS map files](DocMapsTipsOnline#sources-of-wmts-and-tms-map-files)
             1. WMTS|server list
             1. TMS|Server list
 
-        * [Tips for some widely used server types](DocMapsTipsOnline#markdown-header-tips-for-some-widely-used-server-types)
-            * [Use WMS server as TMS server](DocMapsTipsOnline#markdown-header-use-wms-server-as-tms-server)
+        * [Tips for some widely used server types](DocMapsTipsOnline#tips-for-some-widely-used-server-types)
+            * [Use WMS server as TMS server](DocMapsTipsOnline#use-wms-server-as-tms-server)
                 1. TMS|use for WMS server
                 1. WMS|accessed with TMS
   
-            * [Use WMTS server as TMS server](DocMapsTipsOnline#markdown-header-use-wmts-server-as-tms-server)
+            * [Use WMTS server as TMS server](DocMapsTipsOnline#use-wmts-server-as-tms-server)
                 1. WMTS|accessed with TMS
 
-            * [Use ArcGIS server as TMS server](DocMapsTipsOnline#markdown-header-use-arcgis-server-as-tms-server)
+            * [Use ArcGIS server as TMS server](DocMapsTipsOnline#use-arcgis-server-as-tms-server)
                 1. TMS|use for ArcGIS
                 1. ArcGIS|accessed with TMS
 
-            * [Use MapProxy to access many maps as TMS](DocMapsTipsOnline#markdown-header-use-mapproxy-to-access-many-maps-as-tms)
+            * [Use MapProxy to access many maps as TMS](DocMapsTipsOnline#use-mapproxy-to-access-many-maps-as-tms)
 		        1. Online maps|Access with MapProxy
 			    1. MapProxy|Use to access online maps
 			    1. TMS|Use with MapProxy
 
-                * [Gathering information](DocMapsTipsOnline#markdown-header-gathering-information)
-                * [MapProxy basic usage](DocMapsTipsOnline#markdown-header-mapproxy-basic-usage)
+                * [Gathering information](DocMapsTipsOnline#gathering-information)
+                * [MapProxy basic usage](DocMapsTipsOnline#mapproxy-basic-usage)
                     1. MapProxy|Usage
                 
-                * [Configuration template](DocMapsTipsOnline#markdown-header-configuration-template)
+                * [Configuration template](DocMapsTipsOnline#configuration-template)
 		        + MapProxy configuration
 		            1. MapProxy|Configuration
 
-                * [Troubleshooting](DocMapsTipsOnline#markdown-header-troubleshooting)
+                * [Troubleshooting](DocMapsTipsOnline#troubleshooting)
                 + MapProxy troubleshooting
                     1. MapProxy|Troubleshooting
                 
-            * [Country-specific tips](DocMapsTipsOnline#markdown-header-country-specific-tips)
-                * [WMTS configuration for French IGN maps](DocMapsTipsOnline#markdown-header-wmts-configuration-for-french-ign-maps)
+            * [Country-specific tips](DocMapsTipsOnline#country-specific-tips)
+                * [WMTS configuration for French IGN maps](DocMapsTipsOnline#wmts-configuration-for-french-ign-maps)
                 + WMTS for French IGN maps
                 ++ WMTS configuration for French IGN maps
                     1. WMTS|for French IGN maps
                     1. IGN map|accessed with WMTS
 
-                * [TMS configuration for New Zealand topo maps](DocMapsTipsOnline#markdown-header-tms-configuration-for-new-zealand-topo-maps)
+                * [TMS configuration for New Zealand topo maps](DocMapsTipsOnline#tms-configuration-for-new-zealand-topo-maps)
                     1. Map|NZ topo configuration
                     1. TMS|NZ topo configuration  
 
 
-                * [TMS configuration for Norwegian topo maps](DocMapsTipsOnline#markdown-header-tms-configuration-for-norwegian-topo-maps)
+                * [TMS configuration for Norwegian topo maps](DocMapsTipsOnline#tms-configuration-for-norwegian-topo-maps)
                     1. TMS|for Norway topo  
                     1. Map|Norway topo online
                 
-                * [TMS for Spanish orthophoto maps](DocMapsTipsOnline#markdown-header-tms-for-spanish-orthophoto-maps)
+                * [TMS for Spanish orthophoto maps](DocMapsTipsOnline#tms-for-spanish-orthophoto-maps)
                     1. TMS|for Spain
                     1. Map|Spain online
 
     * [Tips & tricks for raster maps, vector maps, and elevation data](DocMapsTipsRasterDEM)
-        * [Raster maps](DocMapsTipsRasterDEM#markdown-header-raster-maps)
-            * [Russian army maps](DocMapsTipsRasterDEM#markdown-header-russian-army-maps)
+        * [Raster maps](DocMapsTipsRasterDEM#raster-maps)
+            * [Russian army maps](DocMapsTipsRasterDEM#russian-army-maps)
                 1. Map|Russian military map
             
-            * [ECW, MBTILES and MrSID maps](DocMapsTipsRasterDEM#markdown-header-ecw-mbtiles-and-mrsid-maps)
+            * [ECW, MBTILES and MrSID maps](DocMapsTipsRasterDEM#ecw-mbtiles-and-mrsid-maps)
                 1. ECW|use for maps
                 1. MBTILES|use for maps
                 1. MrSID| use for maps
                 
-                * [Add ECW plugin](DocMapsTipsRasterDEM#markdown-header-add-ecw-plugin)
-                * [Add MrSID plugin](DocMapsTipsRasterDEM#markdown-header-add-mrsid-plugin)
-                * [Updating QMS after install plugins](DocMapsTipsRasterDEM#markdown-header-updating-qms-after-install-plugins)
-                * [Remarks on proprietary map formats](DocMapsTipsRasterDEM#markdown-header-remarks-on-proprietary-map-formats)
+                * [Add ECW plugin](DocMapsTipsRasterDEM#add-ecw-plugin)
+                * [Add MrSID plugin](DocMapsTipsRasterDEM#add-mrsid-plugin)
+                * [Updating QMS after install plugins](DocMapsTipsRasterDEM#updating-qms-after-install-plugins)
+                * [Remarks on proprietary map formats](DocMapsTipsRasterDEM#remarks-on-proprietary-map-formats)
                 
-        * [Elevation data](DocMapsTipsRasterDEM#markdown-header-elevation-data)
-            * [Contour lines](DocMapsTipsRasterDEM#markdown-header-contour-lines)
-                * [Contour line vector map in Garmin IMG format](DocMapsTipsRasterDEM#markdown-header-contour-line-vector-map-in-garmin-img-format)
+        * [Elevation data](DocMapsTipsRasterDEM#elevation-data)
+            * [Contour lines](DocMapsTipsRasterDEM#contour-lines)
+                * [Contour line vector map in Garmin IMG format](DocMapsTipsRasterDEM#contour-line-vector-map-in-garmin-img-format)
                     1. Contour lines|from Garmin IMG
         
-                * [Raster contour line layer](DocMapsTipsRasterDEM#markdown-header-raster-contour-line-layer)
+                * [Raster contour line layer](DocMapsTipsRasterDEM#raster-contour-line-layer)
                     1. Contour lines|from raster map
                     1. TMS|for contour lines
                     
-            * [Online DEM data](DocMapsTipsRasterDEM#markdown-header-online-dem-data)
+            * [Online DEM data](DocMapsTipsRasterDEM#online-dem-data)
                 1. DEM|use of online data
                 1. Elevation data|use of online data
                 
-                * [DEM data from WCS (Web Coverage Service) servers](DocMapsTipsRasterDEM#markdown-header-dem-data-from-wcs-web-coverage-service-servers)
-                * [European DEM data ](DocMapsTipsRasterDEM#markdown-header-european-dem-data)                
+                * [DEM data from WCS (Web Coverage Service) servers](DocMapsTipsRasterDEM#dem-data-from-wcs-web-coverage-service-servers)
+                * [European DEM data ](DocMapsTipsRasterDEM#european-dem-data)                
                 
-        * [Vector maps for Linux systems](DocMapsTipsRasterDEM#markdown-header-vector-maps-for-linux-systems)
+        * [Vector maps for Linux systems](DocMapsTipsRasterDEM#vector-maps-for-linux-systems)
             1. Map|openmtbmap (Linux)
             1. Map|velomap (Linux)
 
-            * [Script](DocMapsTipsRasterDEM#markdown-header-script)
-            * [Configuration](DocMapsTipsRasterDEM#markdown-header-configuration)
+            * [Script](DocMapsTipsRasterDEM#script)
+            * [Configuration](DocMapsTipsRasterDEM#configuration)
     
          
 * [Data handling](AdvDataHandling)    
 
-    * [Data selection and handling in map views](AdvDataHandling#markdown-header-data-selection-and-handling-in-map-views)
+    * [Data selection and handling in map views](AdvDataHandling#data-selection-and-handling-in-map-views)
     + Data handling in views  
         1. Data selection|in map views
         1. Map view|data selection in view
         
-    * [Searching data in the workspace](AdvDataHandling#markdown-header-searching-data-in-the-workspace)
+    * [Searching data in the workspace](AdvDataHandling#searching-data-in-the-workspace)
     + Search workspace
         1. Search|data in workspace
         1. Workspace|search data
         
-        * [General description](AdvDataHandling#markdown-header-general-description)
-        * [Object types for properties](AdvDataHandling#markdown-header-object-types-for-properties)
-        * [More details and remarks](AdvDataHandling#markdown-header-more-details-and-remarks)
-        * [Examples](AdvDataHandling#markdown-header-examples)
-            * [Waypoint](AdvDataHandling#markdown-header-waypoint)
-            * [Track](AdvDataHandling#markdown-header-track)
-            * [Geocache](AdvDataHandling#markdown-header-geocache)        
+        * [General description](AdvDataHandling#general-description)
+        * [Object types for properties](AdvDataHandling#object-types-for-properties)
+        * [More details and remarks](AdvDataHandling#more-details-and-remarks)
+        * [Examples](AdvDataHandling#examples)
+            * [Waypoint](AdvDataHandling#waypoint)
+            * [Track](AdvDataHandling#track)
+            * [Geocache](AdvDataHandling#geocache)        
         
     * [Tracks](AdvTracks)    
     
         * [General information about tracks](AdvTrkGeneral)
                  
-            * [Symbols for trackpoints](AdvTrkGeneral#markdown-header-symbols-for-trackpoints)    
+            * [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints)    
                 1. Track|used trackpoint symbols
                 1. Trackpoint|used symbols/icons
                 1. Trackpoint|hidden
@@ -788,17 +788,17 @@ ___Basic usage___
                 1. Track|range
                 1. Track|subpoint
                 
-            * [Track actions](AdvTrkGeneral#markdown-header-track-actions) 
+            * [Track actions](AdvTrkGeneral#track-actions) 
                 1. Track|actions toolbar            
                 
-            * [Add point to track](AdvTrkGeneral#markdown-header-add-point-to-track)
+            * [Add point to track](AdvTrkGeneral#add-point-to-track)
                 1. Track|add new trackpoint
                 1. Trackpoint|add new to track   
                 
-            * [Cut track](AdvTrkGeneral#markdown-header-cut-track)
+            * [Cut track](AdvTrkGeneral#cut-track)
                 1. Track|cut into parts
                 
-            * [Attach waypoints to a track to get additional track information](AdvTrkGeneral#markdown-header-attach-waypoints-to-a-track-to-get-additional-track-information)
+            * [Attach waypoints to a track to get additional track information](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information)
             + Attach waypoint to track
             ++ Attach waypoints to a track to get additional track information
                 1. Track|attach waypoint
@@ -807,7 +807,7 @@ ___Basic usage___
                 1. Project|edit window
                 1. Edit window|of project
                 
-            * [Select a range of a track](AdvTrkGeneral#markdown-header-select-a-range-of-a-track)
+            * [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track)
                 1. Track|range
                 1. Track graph|track range in
                 1. Track|edit window
@@ -816,25 +816,25 @@ ___Basic usage___
                 1. Range|of track
                 1. Track|assign activity
 
-            * [Select a range of a track in edit mode](AdvTrkGeneral#markdown-header-select-a-range-of-a-track-in-edit-mode)               
+            * [Select a range of a track in edit mode](AdvTrkGeneral#select-a-range-of-a-track-in-edit-mode)               
                 1. Range|of track in edit mode
                 1. Track|range in edit mode
                 1. Track|delete points in range
 
-            * [Move track range to new location](AdvTrkGeneral#markdown-header-move-track-range-to-new-location)
+            * [Move track range to new location](AdvTrkGeneral#move-track-range-to-new-location)
                 1. Track|move range to new location 
                                 
-            * [Find the length of a track interval](AdvTrkGeneral#markdown-header-find-the-length-of-a-track-interval)
+            * [Find the length of a track interval](AdvTrkGeneral#find-the-length-of-a-track-interval)
                 1. Track|find length of range
                 1. Range|find length                
                                 
-            * [Assign colors to track activities](AdvTrkGeneral#markdown-header-assign-colors-to-track-activities)
+            * [Assign colors to track activities](AdvTrkGeneral#assign-colors-to-track-activities)
                 1. Activity|of track
                 1. Track|activity
                 1. Activity|assign color to
                 1. Track graph|activity handling
 
-            * [Recorded and calculated track data](AdvTrkGeneral#markdown-header-recorded-and-calculated-track-data)
+            * [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data)
                 1. Track|recorded
                 1. Track|calculated
                 1. Track|edit window
@@ -843,143 +843,143 @@ ___Basic usage___
                 1. Edit window|of track
                 1. Filter|track
                 
-            * [Avoid and remove invalid data in a track](AdvTrkGeneral#markdown-header-avoid-and-remove-invalid-data-in-a-track)
+            * [Avoid and remove invalid data in a track](AdvTrkGeneral#avoid-and-remove-invalid-data-in-a-track)
                 1. Track|invalid data
                 1. Track|filter
                 1. Filter|track
                 
-            * [Tracks and no-go areas](AdvTrkGeneral#markdown-header-tracks-and-no-go-areas)
+            * [Tracks and no-go areas](AdvTrkGeneral#tracks-and-no-go-areas)
                 1. Track|use of no-go areas
 
         * [Track information](AdvTrkInfo)
             1. Track|get information
             
-            * [Track states](AdvTrkInfo#markdown-header-track-states)
+            * [Track states](AdvTrkInfo#track-states)
                 1. Track|selected/highlighted
                 
-            * [Trackpoint information for highlighted tracks](AdvTrkInfo#markdown-header-trackpoint-information-for-highlighted-tracks)
-                * [Overview](AdvTrkInfo#markdown-header-overview) 
+            * [Trackpoint information for highlighted tracks](AdvTrkInfo#trackpoint-information-for-highlighted-tracks)
+                * [Overview](AdvTrkInfo#overview) 
                     1. Trackpoint|additional description
                     
-                * [Adding trackpoint information](AdvTrkInfo#markdown-header-adding-trackpoint-information)
-                * [Get additional track information in highlighted state](AdvTrkInfo#markdown-header-get-additional-track-information-in-highlighted-state)
-                * [Select display of track information in main menu](AdvTrkInfo#markdown-header-select-display-of-track-information-in-main-menu)
+                * [Adding trackpoint information](AdvTrkInfo#adding-trackpoint-information)
+                * [Get additional track information in highlighted state](AdvTrkInfo#get-additional-track-information-in-highlighted-state)
+                * [Select display of track information in main menu](AdvTrkInfo#select-display-of-track-information-in-main-menu)
                     1. Track|summary information
                     1. Track|trackpoint description list
                 
-            * [Additional sources of track information](AdvTrkInfo#markdown-header-additional-sources-of-track-information)
+            * [Additional sources of track information](AdvTrkInfo#additional-sources-of-track-information)
                 
-                * [Track information in normal state](AdvTrkInfo#markdown-header-track-information-in-normal-state)
-                    * [Using the workspace window](AdvTrkInfo#markdown-header-using-the-workspace-window)
-                    * [Using the track edit/info window](AdvTrkInfo#markdown-header-using-the-track-editinfo-window)
+                * [Track information in normal state](AdvTrkInfo#track-information-in-normal-state)
+                    * [Using the workspace window](AdvTrkInfo#using-the-workspace-window)
+                    * [Using the track edit/info window](AdvTrkInfo#using-the-track-editinfo-window)
                         1. Trackpoint|edit/delete description
                 
-                * [Track information in selected state](AdvTrkInfo#markdown-header-track-information-in-selected-state)
+                * [Track information in selected state](AdvTrkInfo#track-information-in-selected-state)
                 
    
                    
         * [Track filters](AdvTrkFilters)
-            * [Point filters](AdvTrkFilters#markdown-header-point-filters)
-                * [Douglas-Peuker filter](AdvTrkFilters#markdown-header-douglas-peuker-filter)
+            * [Point filters](AdvTrkFilters#point-filters)
+                * [Douglas-Peuker filter](AdvTrkFilters#douglas-peuker-filter)
                     1. Track|Douglas-Peuker filter
                     1. Filter|Douglas-Peuker
-                * [Zero speed drift knot filter](AdvTrkFilters#markdown-header-zero-speed-drift-knot-filter)
+                * [Zero speed drift knot filter](AdvTrkFilters#zero-speed-drift-knot-filter)
                     1. Track|zero speed knot filter
                     1. Filter|zero speed knot
         
-            * [Elevation filters](AdvTrkFilters#markdown-header-elevation-filters)    
+            * [Elevation filters](AdvTrkFilters#elevation-filters)    
             + Description of track elevation filters            
                 1. Filter|elevation
                 1. Track|elevation filter                
             
-                * [Median filter](AdvTrkFilters#markdown-header-median-filter)
+                * [Median filter](AdvTrkFilters#median-filter)
                     1. Track|median filter
                     1. Filter|median
                 
-                * [Interpolation filter](AdvTrkFilters#markdown-header-interpolation-filter)
+                * [Interpolation filter](AdvTrkFilters#interpolation-filter)
                     1. Track|interpolation filter
                     1. Filter|interpolation
                     
-                * [Replace elevation data](AdvTrkFilters#markdown-header-replace-elevation-data)
+                * [Replace elevation data](AdvTrkFilters#replace-elevation-data)
                     1. Filter|replace elevation
                     1. Track|replace elevation filter
                 
-                * [Offset elevation](AdvTrkFilters#markdown-header-offset-elevation)
+                * [Offset elevation](AdvTrkFilters#offset-elevation)
                     1. Filter|offset elevation
                     1. Track|offset elevation filter
                     
                     
-            * [Timestamps filters](AdvTrkFilters#markdown-header-timestamps-filters)
+            * [Timestamps filters](AdvTrkFilters#timestamps-filters)
                 1. Filter|timestamp
                 1. Track|timestamps filter
                 
-                * [Change time](AdvTrkFilters#markdown-header-change-time)
+                * [Change time](AdvTrkFilters#change-time)
                     1. Track|change start time
                     1. Filter|change track start time
                     
-                * [Obscure timestamps](AdvTrkFilters#markdown-header-obscure-timestamps)
+                * [Obscure timestamps](AdvTrkFilters#obscure-timestamps)
                     1. Track|obscure timestamps
                     1. Filter|obscure timestamps
                     
-                * [Change speed](AdvTrkFilters#markdown-header-change-speed)    
+                * [Change speed](AdvTrkFilters#change-speed)    
                     1. Track|change speed filter
                     1. Filter|change speed        
             
-                    * [Constant](AdvTrkFilters#markdown-header-constant)
-                    * [Cycling](AdvTrkFilters#markdown-header-cycling)
-                    * [Hiking](AdvTrkFilters#markdown-header-hiking)
+                    * [Constant](AdvTrkFilters#constant)
+                    * [Cycling](AdvTrkFilters#cycling)
+                    * [Hiking](AdvTrkFilters#hiking)
 
-            * [Miscellaneous filters](AdvTrkFilters#markdown-header-miscellaneous-filters)
-                * [Remove extension from all trackpoints](AdvTrkFilters#markdown-header-remove-extension-from-all-trackpoints)
+            * [Miscellaneous filters](AdvTrkFilters#miscellaneous-filters)
+                * [Remove extension from all trackpoints](AdvTrkFilters#remove-extension-from-all-trackpoints)
                     1. Filter|remove extension
                     1. Track|remove extension filter
                     1. Trackpoint|remove extension
                 
-                * [Split segments into tracks](AdvTrkFilters#markdown-header-split-segments-into-tracks)
+                * [Split segments into tracks](AdvTrkFilters#split-segments-into-tracks)
                     1. Filter|split segments
                     1. Track|split segments filter
                     1. Track segment|split segments to tracks
                     1. Track|combine tracks
                     
-                * [Convert track subpoints to points](AdvTrkFilters#markdown-header-convert-track-subpoints-to-points)
+                * [Convert track subpoints to points](AdvTrkFilters#convert-track-subpoints-to-points)
                     1. Subpoint|convert subpoint filter
                     1. Track|convert subpoint filter
                 
-                * [Calculate terrain slope](AdvTrkFilters#markdown-header-calculate-terrain-slope)
+                * [Calculate terrain slope](AdvTrkFilters#calculate-terrain-slope)
                 + Terrain slope filter
                     1. Slope|calculate terrain slope
                     1. Terrain slope|calculate
                     1. GPX|extensions
                     
-                * [Change start point](AdvTrkFilters#markdown-header-change-start-point)
+                * [Change start point](AdvTrkFilters#change-start-point)
                 + Start point filter
                     1. Track|change start
                     1. Filter|change track start
                     
-                * [Cycling energy use](AdvTrkFilters#markdown-header-cycling-energy-use)    
+                * [Cycling energy use](AdvTrkFilters#cycling-energy-use)    
                     1. Track|cycling energy use
                     1. Cycling energy|calculate use
                     
                     
         * [Working with track graphs](AdvTrkGraphs)
-            * [Zoom track graphs](AdvTrkGraphs#markdown-header-zoom-track-graphs)
+            * [Zoom track graphs](AdvTrkGraphs#zoom-track-graphs)
                 1. Track graph|zoom
                 
-            * [Select a scale range for track data display](AdvTrkGraphs#markdown-header-select-a-scale-range-for-track-data-display)
+            * [Select a scale range for track data display](AdvTrkGraphs#select-a-scale-range-for-track-data-display)
                 1. Track graph|scales
                 
         * [Editing elevation data](AdvTrkElevation)            
-            * [Manually edit elevation of a track point](AdvTrkElevation#markdown-header-manually-edit-elevation-of-a-track-point)
+            * [Manually edit elevation of a track point](AdvTrkElevation#manually-edit-elevation-of-a-track-point)
             + Edit track elevation
                 1. Trackpoint|elevation
                 1. Elevation|edit
                 
-            * [Assign elevation using DEM data](AdvTrkElevation#markdown-header-assign-elevation-using-dem-data)
+            * [Assign elevation using DEM data](AdvTrkElevation#assign-elevation-using-dem-data)
             + Assign DEM elevation
                 1. Track|assign DEM elevation
                 1. Waypoint|assign DEM elevation
                             
-            * [Handle invalid elevation data](AdvTrkElevation#markdown-header-handle-invalid-elevation-data)
+            * [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data)
                 1. Elevation|invalid data
                 1. Elevation|filter
                 1. Filter|elevation
@@ -994,8 +994,8 @@ ___Basic usage___
             1. QMS|track history handling
         
     * [Routes and Routing](AdvRoutes)
-        * [Description of a route](AdvRoutes#markdown-header-description-of-a-route)
-        * [Routing engines](AdvRoutes#markdown-header-routing-engines)
+        * [Description of a route](AdvRoutes#description-of-a-route)
+        * [Routing engines](AdvRoutes#routing-engines)
             1. Routing engine|Routino
             1. Routing engine|BRouter
             1. Routing engine|MapQuest
@@ -1004,84 +1004,84 @@ ___Basic usage___
             1. MapQuest|routing engine
 
 
-        * [Create a route](AdvRoutes#markdown-header-create-a-route)
+        * [Create a route](AdvRoutes#create-a-route)
             1. Route|create
             1. Routing|routing strategy
             1. Route|routing engine
             1. Route|routing strategy
            
-            * [Select autorouting](AdvRoutes#markdown-header-select-autorouting)
-            * [Use list of routing points](AdvRoutes#markdown-header-use-list-of-routing-points)
-            * [Use map window](AdvRoutes#markdown-header-use-map-window)
+            * [Select autorouting](AdvRoutes#select-autorouting)
+            * [Use list of routing points](AdvRoutes#use-list-of-routing-points)
+            * [Use map window](AdvRoutes#use-map-window)
             
-        * [Edit a route](AdvRoutes#markdown-header-edit-a-route)
+        * [Edit a route](AdvRoutes#edit-a-route)
             1. Route|edit
             1. Route|recalculate
             1. Route|add point
             
-        * [Get route instructions](AdvRoutes#markdown-header-get-route-instructions)
+        * [Get route instructions](AdvRoutes#get-route-instructions)
             1. Route|route instructions
             1. Route instruction|get
             
-        * [Save route in GPX file](AdvRoutes#markdown-header-save-route-in-gpx-file)
+        * [Save route in GPX file](AdvRoutes#save-route-in-gpx-file)
             1. Route|save
             
-        * [Using no-go areas and lines](AdvRoutes#markdown-header-using-no-go-areas-and-lines)
+        * [Using no-go areas and lines](AdvRoutes#using-no-go-areas-and-lines)
         + No-go areas/lines
             1. No-go area/line|routing
             1. Routing|with no-go areas/lines
             1. Avoid area|routing
             
-            * [Purpose of no-go areas and lines](AdvRoutes#markdown-header-purpose-of-no-go-areas-and-lines)
-            * [Defining no-go areas/lines](AdvRoutes#markdown-header-defining-no-go-areaslines)
-            * [Disc-shaped no-go areas](AdvRoutes#markdown-header-disc-shaped-no-go-areas)
-            * [Polygon-shaped no-go areas  ](AdvRoutes#markdown-header-polygon-shaped-no-go-areas)
-            * [No-go lines](AdvRoutes#markdown-header-no-go-lines)
-            * [Activate no-go areas/lines](AdvRoutes#markdown-header-activate-no-go-areaslines)
-            * [Routing with no-go areas/lines](AdvRoutes#markdown-header-routing-with-no-go-areaslines)
+            * [Purpose of no-go areas and lines](AdvRoutes#purpose-of-no-go-areas-and-lines)
+            * [Defining no-go areas/lines](AdvRoutes#defining-no-go-areaslines)
+            * [Disc-shaped no-go areas](AdvRoutes#disc-shaped-no-go-areas)
+            * [Polygon-shaped no-go areas  ](AdvRoutes#polygon-shaped-no-go-areas)
+            * [No-go lines](AdvRoutes#no-go-lines)
+            * [Activate no-go areas/lines](AdvRoutes#activate-no-go-areaslines)
+            * [Routing with no-go areas/lines](AdvRoutes#routing-with-no-go-areaslines)
         
-        * [Description of routing methods in QMapShack](AdvRoutes#markdown-header-description-of-routing-methods-in-qmapshack)
+        * [Description of routing methods in QMapShack](AdvRoutes#description-of-routing-methods-in-qmapshack)
             1. Routing method|off-road routing
             1. Routing method|automatic routing
             1. Routing method|using vector map            
             1. Routing method|track routing
             1. Routino|routing method
             
-        * [Comparison of routing engines](AdvRoutes#markdown-header-comparison-of-routing-engines)
+        * [Comparison of routing engines](AdvRoutes#comparison-of-routing-engines)
             1. Routing engine|compare
 
-        * [Other information](AdvRoutes#markdown-header-other-information)    
+        * [Other information](AdvRoutes#other-information)    
             
     * [Realtime data](AdvRealtime)
         1. Realtime data|use in QMS
         
-        * [General description](AdvRealtime#markdown-header-general-description)
+        * [General description](AdvRealtime#general-description)
 
-        * [OpenSky flight data](AdvRealtime#markdown-header-opensky-flight-data)
+        * [OpenSky flight data](AdvRealtime#opensky-flight-data)
             1. OpenSky|realtime data
             1. Realtime data|OpenSky
             
-        * [GPS location data](AdvRealtime#markdown-header-gps-location-data)    
+        * [GPS location data](AdvRealtime#gps-location-data)    
         
-            * [General remarks](AdvRealtime#markdown-header-general-remarks)
+            * [General remarks](AdvRealtime#general-remarks)
                 1. NMEA|realtime data
                 
-            * [GPS Tether on Android smartphones ](AdvRealtime#markdown-header-gps-tether-on-android-smartphones)
+            * [GPS Tether on Android smartphones ](AdvRealtime#gps-tether-on-android-smartphones)
                 1. GPS tether|realtime data
                 1. Realtime data|GPS tether
 
-            * [Using serial interface and Ncat (Windows OS)    ](AdvRealtime#markdown-header-using-serial-interface-and-ncat-windows-os)
-            * [Python server for Linux-like OS](AdvRealtime#markdown-header-python-server-for-linux-like-os)
-            * [Track replay](AdvRealtime#markdown-header-track-replay)
+            * [Using serial interface and Ncat (Windows OS)    ](AdvRealtime#using-serial-interface-and-ncat-windows-os)
+            * [Python server for Linux-like OS](AdvRealtime#python-server-for-linux-like-os)
+            * [Track replay](AdvRealtime#track-replay)
                 1. GPX|data replay
                 1. Data replay|GPX
                 
-            * [Using Garmin devices with Windows 10](AdvRealtime#markdown-header-using-garmin-devices-with-windows-10) 
+            * [Using Garmin devices with Windows 10](AdvRealtime#using-garmin-devices-with-windows-10) 
                 1. Garmin|realtime data   
                 1. Realtime data|Garmin devices                
                 
-            * [QMS as TCP client](AdvRealtime#markdown-header-qms-as-tcp-client)
-            * [NMEA and other restrictions](AdvRealtime#markdown-header-nmea-and-other-restrictions)  
+            * [QMS as TCP client](AdvRealtime#qms-as-tcp-client)
+            * [NMEA and other restrictions](AdvRealtime#nmea-and-other-restrictions)  
                 1. NMEA|QMS restrictions
         
 * [Overview of setup and configuration options](AdvSetup)
@@ -1089,8 +1089,8 @@ ___Basic usage___
     1. Setup|overview of options
     1. Configuration|overview of options
     
-    * [General options](AdvSetup#markdown-header-general-options)
-        * [Workspace setup](AdvSetup#markdown-header-workspace-setup)
+    * [General options](AdvSetup#general-options)
+        * [Workspace setup](AdvSetup#workspace-setup)
             1. Automatic backup|setup
             1. Setup|automatic backup
             1. Multi-user version|setup
@@ -1098,35 +1098,35 @@ ___Basic usage___
             1. GPS device|setup
             1. Setup|GPS device
             
-        * [Waypoint icons setup](AdvSetup#markdown-header-waypoint-icons-setup)
-        * [Toolbar setup](AdvSetup#markdown-header-toolbar-setup)
+        * [Waypoint icons setup](AdvSetup#waypoint-icons-setup)
+        * [Toolbar setup](AdvSetup#toolbar-setup)
         
-    * [Map and DEM setup](AdvSetup#markdown-header-map-and-dem-setup)
+    * [Map and DEM setup](AdvSetup#map-and-dem-setup)
         1. Map setup|overview of options
         1. DEM setup|overview of options
         1. Map|overview of setup
         1. DEM|overview of setup
         
-        * [Download and install ](AdvSetup#markdown-header-download-and-install)
-        * [Map paths](AdvSetup#markdown-header-map-paths)
-        * [Map cache path for online maps](AdvSetup#markdown-header-map-cache-path-for-online-maps)
-        * [DEM file paths](AdvSetup#markdown-header-dem-file-paths)
-        * [Map window display switches (toggles)](AdvSetup#markdown-header-map-window-display-switches-toggles)
-        * [Map window display setup](AdvSetup#markdown-header-map-window-display-setup)
-        * [Single map display options](AdvSetup#markdown-header-single-map-display-options)
+        * [Download and install ](AdvSetup#download-and-install)
+        * [Map paths](AdvSetup#map-paths)
+        * [Map cache path for online maps](AdvSetup#map-cache-path-for-online-maps)
+        * [DEM file paths](AdvSetup#dem-file-paths)
+        * [Map window display switches (toggles)](AdvSetup#map-window-display-switches-toggles)
+        * [Map window display setup](AdvSetup#map-window-display-setup)
+        * [Single map display options](AdvSetup#single-map-display-options)
         
-    * [Routing setup](AdvSetup#markdown-header-routing-setup)
+    * [Routing setup](AdvSetup#routing-setup)
         1. Routing setup|overview of options
         1. Configuration|Routino
         1. Routino|configuration
         1. Routing|setup
         
-        * [Routino database paths](AdvSetup#markdown-header-routino-database-paths)
-        * [Routino setup](AdvSetup#markdown-header-routino-setup)
-        * [BRouter setup](AdvSetup#markdown-header-brouter-setup)
-        * [MapQuest setup](AdvSetup#markdown-header-mapquest-setup)
+        * [Routino database paths](AdvSetup#routino-database-paths)
+        * [Routino setup](AdvSetup#routino-setup)
+        * [BRouter setup](AdvSetup#brouter-setup)
+        * [MapQuest setup](AdvSetup#mapquest-setup)
         
-    * [Further setup and configuration options](AdvSetup#markdown-header-further-setup-and-configuration-options)            
+    * [Further setup and configuration options](AdvSetup#further-setup-and-configuration-options)            
 
 * [Overview of toolbar actions](AdvToolbarAct)
 + Toolbar
@@ -1134,11 +1134,11 @@ ___Basic usage___
 
 * [Frequently Asked Questions](DocFaq)
     * [Configuring and running](DocFaqConfig)
-        * [Can I run several QMS instances at the same time?](DocFaqConfig#markdown-header-can-i-run-several-qms-instances-at-the-same-time)
+        * [Can I run several QMS instances at the same time?](DocFaqConfig#can-i-run-several-qms-instances-at-the-same-time)
         + Running several QMS instances
             1. QMapShack|running
                       
-        * [User-relevant QMapShack directories (Windows version)](DocFaqConfig#markdown-header-user-relevant-qmapshack-directories-windows-version)
+        * [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version)
         + User-relevant directories (Windows)
             1. QMapShack|used directories
             1. Directories|used
@@ -1147,7 +1147,7 @@ ___Basic usage___
             1. Map|cache
             1. Configuration|Routino
 
-        * [How to change the GUI language?](DocFaqConfig#markdown-header-how-to-change-the-gui-language)    
+        * [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language)    
         + Change GUI language
             1. Installation|language selection and change
             1. QMapShack|language selection and change
@@ -1156,44 +1156,44 @@ ___Basic usage___
             1. Logfile|find used locale and language file
               
         * [Databases and projects](DocFaqData)
-            * [Why does QMapShack use a separate workspace.db to save data?](DocFaqData#markdown-header-why-does-qmapshack-use-a-separate-workspacedb-to-save-data)
+            * [Why does QMapShack use a separate workspace.db to save data?](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data)
             + QMS workspace database
                 1. Workspace|project in
                 1. Project|in workspace
             
-            * [Why are there no checkboxes for data in workspace projects?](DocFaqData#markdown-header-why-are-there-no-checkboxes-for-data-in-workspace-projects)
+            * [Why are there no checkboxes for data in workspace projects?](DocFaqData#why-are-there-no-checkboxes-for-data-in-workspace-projects)
             + QMS data selection
                 1. Workspace|purpose of
                 1. Database|purpose of
             
-            * [How to edit quickly the name of a project?](DocFaqData#markdown-header-how-to-edit-quickly-the-name-of-a-project)
+            * [How to edit quickly the name of a project?](DocFaqData#how-to-edit-quickly-the-name-of-a-project)
             + Edit project name
                 1. Project|edit
             
-            * [How to find the location of a database file used in QMapShack?](DocFaqData#markdown-header-how-to-find-the-location-of-a-database-file-used-in-qmapshack)
+            * [How to find the location of a database file used in QMapShack?](DocFaqData#how-to-find-the-location-of-a-database-file-used-in-qmapshack)
             + Find location of database file
                 1. Database|location
             
-            * [How to find database to which a project belongs?](DocFaqData#markdown-header-how-to-find-database-to-which-a-project-belongs)
+            * [How to find database to which a project belongs?](DocFaqData#how-to-find-database-to-which-a-project-belongs)
             + Find database for project
                 1. Project|in database 
                 
-            * [Why does a database not allow creating new folders?](DocFaqData#markdown-header-why-does-a-database-not-allow-creating-new-folders)    
+            * [Why does a database not allow creating new folders?](DocFaqData#why-does-a-database-not-allow-creating-new-folders)    
                 1. Database|MySQL errors
                 1. MySQL|database errors
             
         * [Data handling](DocFaqHandling)
-            * [How to create waypoint from POI (point of interest) in map?](DocFaqHandling#markdown-header-how-to-create-waypoint-from-poi-point-of-interest-in-map)
+            * [How to create waypoint from POI (point of interest) in map?](DocFaqHandling#how-to-create-waypoint-from-poi-point-of-interest-in-map)
             + Create waypoint from POI
                 1. Waypoint|create from POI
                 1. POI|use as waypoint
                 
-            * [How to find distance between waypoints](DocFaqHandling#markdown-header-how-to-find-distance-between-waypoints)
+            * [How to find distance between waypoints](DocFaqHandling#how-to-find-distance-between-waypoints)
             + Find waypoint distance
                 1. Waypoint|distance
                 1. Waypoint|proximity
                           
-            * [Which track data is saved in GPX files?](DocFaqHandling#markdown-header-which-track-data-is-saved-in-gpx-files)
+            * [Which track data is saved in GPX files?](DocFaqHandling#which-track-data-is-saved-in-gpx-files)
             + Track data in GPX file
             ++ Which track data is saved in GPX file?
                 1. Track|saved in GPX
@@ -1201,13 +1201,13 @@ ___Basic usage___
                 1. Track|subpoint
                 1. GPX|subpoint handling in
 
-            * [How to access data from legacy Garmin devices?](DocFaqHandling#markdown-header-how-to-access-data-from-legacy-garmin-devices)
+            * [How to access data from legacy Garmin devices?](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices)
             + Data on legacy devices
                 1. Garmin|use of legacy device
                 1. GPS device|use of legacy Garmin device 
                 1. GPSBabel|use for data download
                 
-            * [What is the difference between speed and gpxtpx:speed?](DocFaqHandling#markdown-header-what-is-the-difference-between-speed-and-gpxtpxspeed)
+            * [What is the difference between speed and gpxtpx:speed?](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed)
             + GPXTPX track extension
             ++ Speed in GPXTPX track extension
                 1. Trackpoint|speed in track extension
@@ -1215,23 +1215,23 @@ ___Basic usage___
                 1. Course|as trackpoint extension
                 1. Trackpoint|course in track extension
             
-            * [How to remove DEM info from elevation graph?](DocFaqHandling#markdown-header-how-to-remove-dem-info-from-elevation-graph)
+            * [How to remove DEM info from elevation graph?](DocFaqHandling#how-to-remove-dem-info-from-elevation-graph)
             + Track profile without DEM info
                 1. Track profile|remove DEM data
             
-            * [How to edit tracks without losing track data?](DocFaqHandling#markdown-header-how-to-edit-tracks-without-losing-track-data)
+            * [How to edit tracks without losing track data?](DocFaqHandling#how-to-edit-tracks-without-losing-track-data)
             + Lossless track editing
                 1. Track|edit
                 1. Range|of track
             
             * [Routing](DocFaqRouting)
-            * [Why do route instructions use different languages?](DocFaqRouting#markdown-header-why-do-route-instructions-use-different-languages)
+            * [Why do route instructions use different languages?](DocFaqRouting#why-do-route-instructions-use-different-languages)
             + Language in route instruction
             ++ Why do route instructions use different languages?
                 1. Route|route instructions
                 1. Route instruction|used language
             
-            * [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#markdown-header-is-there-a-possibility-to-choose-the-preferred-road-class-when-routing)
+            * [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing)
             + Choose preferred routing road class        
                 1. Routing|road class preference
                 1. Routing|Routino
@@ -1241,32 +1241,32 @@ ___Basic usage___
                 1. Routino|edit routing profile
             
             
-            * [Does QMapShack/Routino support cross-border routing?](DocFaqRouting#markdown-header-does-qmapshackroutino-support-cross-border-routing)
+            * [Does QMapShack/Routino support cross-border routing?](DocFaqRouting#does-qmapshackroutino-support-cross-border-routing)
             + Routino cross-border routing
                 1. Routino|cross-border routing
                 1. Routino|planetsplitter
                 1. Planetsplitter|Routino
                 
-            * [Does the Routino router support _fly-as-a-bird_ routing?](DocFaqRouting#markdown-header-does-the-routino-router-support-_fly-as-a-bird_-routing)
+            * [Does the Routino router support _fly-as-a-bird_ routing?](DocFaqRouting#does-the-routino-router-support-fly-as-a-bird-routing)
             + Routino fly-as-bird routing
                 1. Routino|fly-as-bird routing
             
-            * [What can be the reason for unexpected Routino routing results?](DocFaqRouting#markdown-header-what-can-be-the-reason-for-unexpected-routino-routing-results)                
+            * [What can be the reason for unexpected Routino routing results?](DocFaqRouting#what-can-be-the-reason-for-unexpected-routino-routing-results)                
             + Unexpected Routino results
                 1. Routino|unexpected routing
                 1. Routino|configuration
             
         * [Maps](DocFaqMaps)
-            * [How to control visibility of POI info?](DocFaqMaps#markdown-header-how-to-control-visibility-of-poi-info)
+            * [How to control visibility of POI info?](DocFaqMaps#how-to-control-visibility-of-poi-info)
             + POI visibility
                 1. POI|control of visibility
                 1. Map|visibility of data
                 
-            * [Why are waypoints shown with a blue dot icon?](DocFaqMaps#markdown-header-why-are-waypoints-shown-with-a-blue-dot-icon)
+            * [Why are waypoints shown with a blue dot icon?](DocFaqMaps#why-are-waypoints-shown-with-a-blue-dot-icon)
             + Blue dot waypoint icons
                 1. Waypoint|with blue icon
             
-            * [How to find information about a position (a POI) in the Web?](DocFaqMaps#markdown-header-how-to-find-information-about-a-position-a-poi-in-the-web)
+            * [How to find information about a position (a POI) in the Web?](DocFaqMaps#how-to-find-information-about-a-position-a-poi-in-the-web)
             * Web search
                 1. Waypoint|find info in web
                 1. Web search|find location info
@@ -1274,35 +1274,35 @@ ___Basic usage___
                 1. Web services|examples
                 1. Web services|transportation, meteo
             
-            * [What is the difference between `Copy position` and `Copy position (Grid)`?](DocFaqMaps#markdown-header-what-is-the-difference-between-copy-position-and-copy-position-grid)
+            * [What is the difference between `Copy position` and `Copy position (Grid)`?](DocFaqMaps#what-is-the-difference-between-copy-position-and-copy-position-grid)
             + Position in map
             ++ What is the difference between map position and map grid position?
                 1. Map|copy position 
                 1. Menu|View - Setup Coord. Format
                            
-            * [Is there a possibility to display small roads/tracks in a vector map without zooming in too much?](DocFaqMaps#markdown-header-is-there-a-possibility-to-display-small-roadstracks-in-a-vector-map-without-zooming-in-too-much)
+            * [Is there a possibility to display small roads/tracks in a vector map without zooming in too much?](DocFaqMaps#is-there-a-possibility-to-display-small-roadstracks-in-a-vector-map-without-zooming-in-too-much)
             + Zooming maps
             ++ Display of small roads/tracks in a vector map and zooming
                 1. Map|zoom
                 1. Menu|View - Setup Map View - Projections&Datum
                 
-            * [Does QMS support the use of single Garmin-style map tiles?](DocFaqMaps#markdown-header-does-qms-support-the-use-of-single-garmin-style-map-tiles)    
+            * [Does QMS support the use of single Garmin-style map tiles?](DocFaqMaps#does-qms-support-the-use-of-single-garmin-style-map-tiles)    
             + Use of Garmin map tiles
             ++ Use of single Garmin-style map tiles
                 1. Map|tile
                 1. gmapsupp.img|map
                 1. Map|Garmin                
                 
-            * [How to change the layout of vector maps?](DocFaqMaps#markdown-header-how-to-change-the-layout-of-vector-maps)
+            * [How to change the layout of vector maps?](DocFaqMaps#how-to-change-the-layout-of-vector-maps)
             + Change vector map layout
                 1. Map|change layout
                 1. Type file|change map layout
                 
-            * [Why is Google Terrain map a black-and-white map?](DocFaqMaps#markdown-header-why-is-google-terrain-map-a-black-and-white-map)    
+            * [Why is Google Terrain map a black-and-white map?](DocFaqMaps#why-is-google-terrain-map-a-black-and-white-map)    
             + Google terrain map
                 1. Map|overlay layer            
              
-            * [Which raster map formats are supported?](DocFaqMaps#markdown-header-which-raster-map-formats-are-supported)
+            * [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported)
             + Supported raster maps
                 1. Raster map|sources
                 1. Raster map|supported formats
@@ -1312,7 +1312,7 @@ ___Basic usage___
                 1. GDAL|VRT
                 1. GDAL|supported version
                 
-            * [How to use Russian military and similar raster maps with QMapShack?](DocFaqMaps#markdown-header-how-to-use-russian-military-and-similar-raster-maps-with-qmapshack)
+            * [How to use Russian military and similar raster maps with QMapShack?](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack)
             + Use of raster maps
             ++ Use of Russian military raster maps            
                 1. Raster map|use of Russian military map    
@@ -1321,13 +1321,13 @@ ___Basic usage___
                 1. VRT|for raster map
                 1. OziExplorer|use of map
             
-            * [Why is a raster map not displayed?](DocFaqMaps#markdown-header-why-is-a-raster-map-not-displayed)
+            * [Why is a raster map not displayed?](DocFaqMaps#why-is-a-raster-map-not-displayed)
             + Display of raster maps
             ++ Why is a raster map not displayed?
                 1. Raster map|display
                 1. Raster map|overview map of
             
-            * [How to find the location of a raster map?](DocFaqMaps#markdown-header-how-to-find-the-location-of-a-raster-map)
+            * [How to find the location of a raster map?](DocFaqMaps#how-to-find-the-location-of-a-raster-map)
             + Find raster map location
             ++ Find raster map location with gdalinfo
                 1. Raster map|find location
@@ -1336,19 +1336,19 @@ ___Basic usage___
                 1. gdalinfo|get VRT file info
                 1. VRT|get file info with gdalinfo                
              
-            * [Is it possible to use several VRT files?](DocFaqMaps#markdown-header-is-it-possible-to-use-several-vrt-files)
+            * [Is it possible to use several VRT files?](DocFaqMaps#is-it-possible-to-use-several-vrt-files)
             + Use of VRT files
             ++ Use of several VRT files
                 1. VRT|use of several files
                 1. VRT|for DEM file
                 1. DEM|VRT file for
                 
-            * [When to use GDALWarp to get VRT file?](DocFaqMaps#markdown-header-when-to-use-gdalwarp-to-get-vrt-file)
+            * [When to use GDALWarp to get VRT file?](DocFaqMaps#when-to-use-gdalwarp-to-get-vrt-file)
             + Use of GDALWarp            
                 1. VRT|use of GDALWarp vs. GDALBuildVRT       
                 1. GDALWarp|for VRT creation                
                 
-            * [Is it possible to use EPSG codes for the coordinate system setup?](DocFaqMaps#markdown-header-is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup)    
+            * [Is it possible to use EPSG codes for the coordinate system setup?](DocFaqMaps#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup)    
             + Use of EPSG code
                 1. EPSG|use for coordinate system setup
                 1. Setup|coordinate system
@@ -1356,14 +1356,14 @@ ___Basic usage___
             
             
 * [Troubleshooting QMapShack](TroubleShooting)
-    * [Qt comes without SSL support](TroubleShooting#markdown-header-qt-comes-without-ssl-support)
-    * [GDAL comes without curl support](TroubleShooting#markdown-header-gdal-comes-without-curl-support)
-    * [GDAL comes without support for exotic formats](TroubleShooting#markdown-header-gdal-comes-without-support-for-exotic-formats)
+    * [Qt comes without SSL support](TroubleShooting#qt-comes-without-ssl-support)
+    * [GDAL comes without curl support](TroubleShooting#gdal-comes-without-curl-support)
+    * [GDAL comes without support for exotic formats](TroubleShooting#gdal-comes-without-support-for-exotic-formats)
 
 * [Reporting a bug](ReportBugs)
 
 * [Requesting a feature](RequestFeatures)
-    * [Implement it yourself](RequestFeatures#markdown-header-implement-it-yourself)
+    * [Implement it yourself](RequestFeatures#implement-it-yourself)
 
 
 ___Developing QMapShack___
@@ -1371,48 +1371,48 @@ ___Developing QMapShack___
 * [Coding Guideline](DeveloperCodingGuideline)
    
 * [Commit Code](DeveloperCommitCode)
-    * [Fork the repository](DeveloperCommitCode#markdown-header-fork-the-repository)
-    * [Create a local clone of your fork](DeveloperCommitCode#markdown-header-create-a-local-clone-of-your-fork)
-    * [Configure Git to sync your fork with the original QMapShack repository](DeveloperCommitCode#markdown-header-configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
-    * [Keep your fork synced](DeveloperCommitCode#markdown-header-keep-your-fork-synced)
-    * [Open a new branch](DeveloperCommitCode#markdown-header-open-a-new-branch)
-    * [Commit changes locally](DeveloperCommitCode#markdown-header-commit-changes-locally)
-    * [Change commits](DeveloperCommitCode#markdown-header-change-commits)
-    * [Push your commits](DeveloperCommitCode#markdown-header-push-your-commits)
-    * [Rebase your branch](DeveloperCommitCode#markdown-header-rebase-your-branch)
+    * [Fork the repository](DeveloperCommitCode#fork-the-repository)
+    * [Create a local clone of your fork](DeveloperCommitCode#create-a-local-clone-of-your-fork)
+    * [Configure Git to sync your fork with the original QMapShack repository](DeveloperCommitCode#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
+    * [Keep your fork synced](DeveloperCommitCode#keep-your-fork-synced)
+    * [Open a new branch](DeveloperCommitCode#open-a-new-branch)
+    * [Commit changes locally](DeveloperCommitCode#commit-changes-locally)
+    * [Change commits](DeveloperCommitCode#change-commits)
+    * [Push your commits](DeveloperCommitCode#push-your-commits)
+    * [Rebase your branch](DeveloperCommitCode#rebase-your-branch)
    
     
 * [Add translations](DeveloperTranslate)
 * [Developing Documentation](DevelopingDocumentation)
-    * [Prerequisites](DevelopingDocumentation#markdown-header-prerequisites)
-    * [The _Markdown_ Language](DevelopingDocumentation#markdown-header-the-_markdown_-language)
-    * [Dos and Don'ts](DevelopingDocumentation#markdown-header-dos-and-donts)
-    * [Online Editing](DevelopingDocumentation#markdown-header-online-editing)
-    * [Offline Editing](DevelopingDocumentation#markdown-header-offline-editing)
+    * [Prerequisites](DevelopingDocumentation#prerequisites)
+    * [The _Markdown_ Language](DevelopingDocumentation#the-markdown-language)
+    * [Dos and Don'ts](DevelopingDocumentation#dos-and-donts)
+    * [Online Editing](DevelopingDocumentation#online-editing)
+    * [Offline Editing](DevelopingDocumentation#offline-editing)
 
     * [Recommendations for editing QMS Wiki pages](AxMaintainAutoPages)
-        * [General recommendations for editing the manual](AxMaintainAutoPages#markdown-header-general-recommendations-for-editing-the-manual)
-        * [More recommendations](AxMaintainAutoPages#markdown-header-more-recommendations)
-        * [Workflow after editing page](AxMaintainAutoPages#markdown-header-workflow-after-editing-page)
-        * [Formatting rules:](AxMaintainAutoPages#markdown-header-formatting-rules)
-        * [Comments on some script-created pages in the Appendix part](AxMaintainAutoPages#markdown-header-comments-on-some-script-created-pages-in-the-appendix-part)
-            * [BuildImgLink.py and AxWikiImages.md](AxMaintainAutoPages#markdown-header-buildimglinkpy-and-axwikiimagesmd)
-            * [BuildToc.py and AxAdvToc.md](AxMaintainAutoPages#markdown-header-buildtocpy-and-axadvtocmd)
-            * [SortGlossary.py and AxGlossary.md](AxMaintainAutoPages#markdown-header-sortglossarypy-and-axglossarymd)
+        * [General recommendations for editing the manual](AxMaintainAutoPages#general-recommendations-for-editing-the-manual)
+        * [More recommendations](AxMaintainAutoPages#more-recommendations)
+        * [Workflow after editing page](AxMaintainAutoPages#workflow-after-editing-page)
+        * [Formatting rules:](AxMaintainAutoPages#formatting-rules)
+        * [Comments on some script-created pages in the Appendix part](AxMaintainAutoPages#comments-on-some-script-created-pages-in-the-appendix-part)
+            * [BuildImgLink.py and AxWikiImages.md](AxMaintainAutoPages#buildimglinkpy-and-axwikiimagesmd)
+            * [BuildToc.py and AxAdvToc.md](AxMaintainAutoPages#buildtocpy-and-axadvtocmd)
+            * [SortGlossary.py and AxGlossary.md](AxMaintainAutoPages#sortglossarypy-and-axglossarymd)
     * [Maintaining the QMS Wiki Index](AxMaintainIndex)
-        * [Preface](AxMaintainIndex#markdown-header-preface)
-        * [Short description of index maintenance](AxMaintainIndex#markdown-header-short-description-of-index-maintenance)
-        * [Structure of the raw index](AxMaintainIndex#markdown-header-structure-of-the-raw-index)
-        * [Structure of the index](AxMaintainIndex#markdown-header-structure-of-the-index)
-            * [Editing an existing index entry](AxMaintainIndex#markdown-header-editing-an-existing-index-entry)
-        * [Consistency checks](AxMaintainIndex#markdown-header-consistency-checks)
-            * [Table of contents consistency check](AxMaintainIndex#markdown-header-table-of-contents-consistency-check)
-            * [Index consistency check](AxMaintainIndex#markdown-header-index-consistency-check)
-        * [Updating the index](AxMaintainIndex#markdown-header-updating-the-index)
-        * [Updating the navigation bars](AxMaintainIndex#markdown-header-updating-the-navigation-bars)
-        * [Summary of recommended workflow for index maintenance](AxMaintainIndex#markdown-header-summary-of-recommended-workflow-for-index-maintenance)
-        * [Further remarks](AxMaintainIndex#markdown-header-further-remarks)
-        * [Some remarks on the design of the index page](AxMaintainIndex#markdown-header-some-remarks-on-the-design-of-the-index-page)
+        * [Preface](AxMaintainIndex#preface)
+        * [Short description of index maintenance](AxMaintainIndex#short-description-of-index-maintenance)
+        * [Structure of the raw index](AxMaintainIndex#structure-of-the-raw-index)
+        * [Structure of the index](AxMaintainIndex#structure-of-the-index)
+            * [Editing an existing index entry](AxMaintainIndex#editing-an-existing-index-entry)
+        * [Consistency checks](AxMaintainIndex#consistency-checks)
+            * [Table of contents consistency check](AxMaintainIndex#table-of-contents-consistency-check)
+            * [Index consistency check](AxMaintainIndex#index-consistency-check)
+        * [Updating the index](AxMaintainIndex#updating-the-index)
+        * [Updating the navigation bars](AxMaintainIndex#updating-the-navigation-bars)
+        * [Summary of recommended workflow for index maintenance](AxMaintainIndex#summary-of-recommended-workflow-for-index-maintenance)
+        * [Further remarks](AxMaintainIndex#further-remarks)
+        * [Some remarks on the design of the index page](AxMaintainIndex#some-remarks-on-the-design-of-the-index-page)
     
 ___Quickstart pages:___
 
@@ -1438,11 +1438,11 @@ ___No indices maintained in the following sections:___
 
 
 * [Complete table of contents](AxAdvToc)
-* [Basic usage](AxAdvToc#markdown-header-basic-usage)
-* [Advanced usage](AxAdvToc#markdown-header-advanced-usage)
-* [Getting Help](AxAdvToc#markdown-header-getting-help)
-* [Developing QMapShack](AxAdvToc#markdown-header-developing-qmapshack)
-* [Appendix](AxAdvToc#markdown-header-appendix)
+* [Basic usage](AxAdvToc#basic-usage)
+* [Advanced usage](AxAdvToc#advanced-usage)
+* [Getting Help](AxAdvToc#getting-help)
+* [Developing QMapShack](AxAdvToc#developing-qmapshack)
+* [Appendix](AxAdvToc#appendix)
 * [Glossary](AxGlossary)
 * [Index](AxAdvIndex)
 * [List of images (Advanced usage and FAQ parts only)](AxWikiImages)            

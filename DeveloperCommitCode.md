@@ -85,7 +85,7 @@ When you fork a project in order to propose changes to the original repository, 
 
 4. Open Terminal.
 
-5. Change directories to the location of the fork you cloned  [Create a local clone of your fork](#markdown-header-create-a-local-clone-of-your-fork)
+5. Change directories to the location of the fork you cloned  [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
     * To go to your home directory, type just `cd` with no other text.
     * To list the files and folders in your current directory, type `ls`.
     * To go into one of your listed directories, type `cd your_listed_directory`.

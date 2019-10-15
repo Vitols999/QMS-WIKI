@@ -366,7 +366,7 @@ georeference data can't be found within the MAP files.
         * If there is a need to move the files discussed in this topic to a different location then repeat this procedure! The VRT file has a pointer to the relative or absolute path of the MAP file.
 
 *  Raster maps may have borders. Use QMapTool to cut the map to the wanted shape without borders. For details compare section
-   ["Raster maps"](DocMapsTipsRasterDEM#markdown-header-russian-army-maps)
+   ["Raster maps"](DocMapsTipsRasterDEM#russian-army-maps)
 
 ## Why is a raster map not displayed?
 

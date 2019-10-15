@@ -89,7 +89,7 @@ To move a project from the workspace into a group in a database and keep the wor
         * If `Save as ...` is selected then the user can decide if the project should be saved as `QMS` or as `GPX` file.
         * If `Save as GPX 1.1 w/o ext...` is selected then the project is saved as GPX file without extensions
            (compare section
-           ["Which track data is saved in GPX files?"](DocFaqHandling#markdown-header-which-track-data-is-saved-in-gpx-files))
+           ["Which track data is saved in GPX files?"](DocFaqHandling#which-track-data-is-saved-in-gpx-files))
 
 * _Save all projects in workspace:_
 
@@ -98,12 +98,12 @@ To move a project from the workspace into a group in a database and keep the wor
 
 * _Save (export) project as part of a database:_
 
-    See section ["Export database to GPX file"](AdvProjActions#markdown-header-export-database-to-gpx-file)!
+    See section ["Export database to GPX file"](AdvProjActions#export-database-to-gpx-file)!
 
 
 ### Edit project metadata
 
-Right-click on a project name in the workspace window and select the menu entry `Edit` from the context menu to open a window where you can edit project metadata and view a summary of the data contained in the project (the so-called [project roadbook](#markdown-header-working-with-project-roadbook)).
+Right-click on a project name in the workspace window and select the menu entry `Edit` from the context menu to open a window where you can edit project metadata and view a summary of the data contained in the project (the so-called [project roadbook](#working-with-project-roadbook)).
 
 In the upper part of this window you can edit 
 
@@ -118,7 +118,7 @@ _Hint:_ Be sure the lock in the toolbar at the upper right part of the window is
 
 _Valid starting with commit 9c99c4dee222 (2019-07-11)_ 
 
-Open the project roadbook as described in the [previous section](#markdown-header-edit-project-metadata).
+Open the project roadbook as described in the [previous section](#edit-project-metadata).
 
 The roadbook shows the project metadata and details about the waypoints and tracks in the project. It can be printed using the print icon in the window toolbar.
 
@@ -142,7 +142,7 @@ The layout of the information displayed in the lower part of the roadbook depend
     
 * `Sort along track (multiple)`
 
-    Show a list of all tracks together with the waypoints/geocaches [attached to the track](AdvTrkGeneral#markdown-header-attach-waypoints-to-a-track-to-get-additional-track-information). This list shows also all [trackpoints with additional information](AdvTrkInfo#markdown-header-trackpoint-information). If a track passes several times through a point (i.e. if the track has loops), then the point is shown repeatedly. For each point its distance, ascent and descent
+    Show a list of all tracks together with the waypoints/geocaches [attached to the track](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information). This list shows also all [trackpoints with additional information](AdvTrkInfo#trackpoint-information). If a track passes several times through a point (i.e. if the track has loops), then the point is shown repeatedly. For each point its distance, ascent and descent
 
     * from the start of the track,
     * to the next point, and

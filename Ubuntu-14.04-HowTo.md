@@ -43,7 +43,7 @@ sudo apt-get install libquazip5-headers libquazip5-1 libquazip5-dev
 ```
 source /opt/qt54/bin/qt54-env.sh
 ```
-[go on with the build instructions](DocGetQMapShack#markdown-header-linux)
+[go on with the build instructions](DocGetQMapShack#linux)
 
 
 # Running the software:

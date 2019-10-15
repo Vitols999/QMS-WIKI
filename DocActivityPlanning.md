@@ -1,3 +1,8 @@
+Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
+- - -
+[TOC]
+- - -
+
 # Activity Brainstorming
 
 See [QMS #39](https://github.com/Maproom/qmapshack/issues/39)
@@ -133,3 +138,6 @@ The Hiking schema can be cloned:
 eg: 'Running 3 - Difficult path'  / 'Running 3'  /  'R3' / Default color blue
 
 ...
+
+- - -
+Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | () Next

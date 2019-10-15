@@ -99,7 +99,7 @@ If by some reason autorouting might not be active, then proceed as follows:
 1. Right-click the mouse and select `Add route` from the context menu which pops-up. A toolbox appears on the top of the map
    view.
 1. Press `CTRL-A` (autorouting), `CTRL-O` (off-road routing) or `CTRL-V` (vector routing) to select a routing method
-   (described in detail [here](#markdown-header-description-of-routing-methods-in-qmapshack)).
+   (described in detail [here](#description-of-routing-methods-in-qmapshack)).
 1. Move the mouse pointer to the next waypoint of the route in the map view and left-click the mouse. After a
    short moment, the route connecting the selected waypoints is shown (maybe in form of a straight line). _Remark:_ The first waypoint is shown with a yellow border,
    the latest one with a green border. Waypoints between the first and the last one are shown as big black rectangles.
