@@ -112,7 +112,7 @@ In the history tab you can see all changes applied to your track. You can revert
 
 Track filter are little macros that process on the track's data to enhance it. They are grouped by function. To apply a filter press the button with the gear. Most filter results can be reverted by the [history](DocGisItemsTrk2#history)
 
-### Points ###
+### Visible Points ###
 
 With these filters you can weed out bad points or reduce the number of track points without changing the overall appearance of your track.
 

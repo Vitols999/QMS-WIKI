@@ -362,7 +362,7 @@ ___Basic usage___
                     1. Track|history tab
                     
             * [Track Filter](DocGisItemsTrk2#track-filter)
-                * [Points](DocGisItemsTrk2#points)
+                * [Visible Points](DocGisItemsTrk2#visible-points)
                 + Track points filter
                     1. Filter|track points
                     1. Track|track points filter

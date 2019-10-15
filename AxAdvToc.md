@@ -161,7 +161,7 @@ ___Do not edit - automatically created from DocMain!___
                 * [Filter](DocGisItemsTrk2#filter)
                 * [History](DocGisItemsTrk2#history)
             * [Track Filter](DocGisItemsTrk2#track-filter)
-                * [Points](DocGisItemsTrk2#points)
+                * [Visible Points](DocGisItemsTrk2#visible-points)
                 * [Elevation](DocGisItemsTrk2#elevation)
                 * [Timestamps](DocGisItemsTrk2#timestamps)
                 * [Extensions](DocGisItemsTrk2#extensions)

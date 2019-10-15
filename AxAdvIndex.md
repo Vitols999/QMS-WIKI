@@ -274,7 +274,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Create Offline Documentation](OfflineDocumentation "Create Offline Documentation")
 
 **Douglas-Peuker, filter**
-:  [Track points filter](DocGisItemsTrk2#points "Track points filter")
+:  [Track points filter](DocGisItemsTrk2#visible-points "Track points filter")
 
 **Drop zone, definition and use**
 :  [Summary projects and drop zones](AdvProjects#summary-projects-and-drop-zones "Summary projects and drop zones")
@@ -354,7 +354,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Start point filter](AdvTrkFilters#change-start-point "Start point filter")
 
 **Filter, Douglas-Peuker**
-:  [Douglas-Peuker filter](AdvTrkFilters#douglas-peuker-filter "Douglas-Peuker filter") ⊞ [Track points filter](DocGisItemsTrk2#points "Track points filter")
+:  [Douglas-Peuker filter](AdvTrkFilters#douglas-peuker-filter "Douglas-Peuker filter") ⊞ [Track points filter](DocGisItemsTrk2#visible-points "Track points filter")
 
 **Filter, elevation**
 :  [Description of track elevation filters](AdvTrkFilters#elevation-filters "Description of track elevation filters") ⊞ [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data") ⊞ [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
@@ -393,7 +393,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Track timestamps filter](DocGisItemsTrk2#timestamps "Track timestamps filter")
 
 **Filter, track points**
-:  [Track points filter](DocGisItemsTrk2#points "Track points filter")
+:  [Track points filter](DocGisItemsTrk2#visible-points "Track points filter")
 
 **Filter, track**
 :  [Avoid and remove invalid data in a track](AdvTrkGeneral#avoid-and-remove-invalid-data-in-a-track "Avoid and remove invalid data in a track") ⊞ [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data")
@@ -1407,7 +1407,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Timestamps filters](AdvTrkFilters#timestamps-filters "Timestamps filters") ⊞ [Track timestamps filter](DocGisItemsTrk2#timestamps "Track timestamps filter")
 
 **Track, track points filter**
-:  [Track points filter](DocGisItemsTrk2#points "Track points filter")
+:  [Track points filter](DocGisItemsTrk2#visible-points "Track points filter")
 
 **Track, trackpoint description list**
 :  [Select display of track information in main menu](AdvTrkInfo#select-display-of-track-information-in-main-menu "Select display of track information in main menu")
