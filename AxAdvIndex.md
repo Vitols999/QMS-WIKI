@@ -1,3 +1,7 @@
+[Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (List of images (Advanced usage and FAQ parts only)) [Next](AxWikiImages)
+- - -
+[TOC]
+- - -
 
 # Index
 
@@ -1599,3 +1603,6 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Workspace, search data**
 :  [Search workspace](AdvDataHandling#searching-data-in-the-workspace "Search workspace")
+
+- - -
+[Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (List of images (Advanced usage and FAQ parts only)) [Next](AxWikiImages)
