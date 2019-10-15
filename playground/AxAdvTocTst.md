@@ -1,8 +1,3 @@
-[Prev](AxMenuStructure) (Main and context menu overview) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Glossary) [Next](AxGlossary)
-- - -
-[TOC]
-- - -
-
 # Complete table of contents
 
 ___Do not edit - automatically created from DocMain!___
@@ -38,7 +33,7 @@ ___Do not edit - automatically created from DocMain!___
             * [C6.) Compile the jpeg library http://www.ijg.org/](BuildWindowsVisualStudio2013#c6-compile-the-jpeg-library-httpwwwijgorg)
             * [C7.) Get the QMapShack source from the repository, e.g.](BuildWindowsVisualStudio2013#c7-get-the-qmapshack-source-from-the-repository-eg)
             * [C8.) Start the CMake GUI (you did install CMake before, didn't you)](BuildWindowsVisualStudio2013#c8-start-the-cmake-gui-you-did-install-cmake-before-didnt-you)
-            * [C9.) Open the generated  build\QMapShack.sln with VS2013](BuildWindowsVisualStudio2013#c9-open-the-generated-buildqmapshacksln-with-vs2013)
+            * [C9.) Open the generated  build\QMapShack.sln with VS2013](BuildWindowsVisualStudio2013#c9-open-the-generated--buildqmapshacksln-with-vs2013)
         * [Creating a Windows binary installer](BuildWindowsVisualStudio2013#creating-a-windows-binary-installer)
             * [I1.) Download the VC redistributable installer](BuildWindowsVisualStudio2013#i1-download-the-vc-redistributable-installer)
             * [I2.) [Optional] Download libmysql.dll from mariadb](BuildWindowsVisualStudio2013#i2-optional-download-libmysqldll-from-mariadb)
@@ -59,8 +54,8 @@ ___Do not edit - automatically created from DocMain!___
             * [C0.) Install Microsoft Visual Studio 2017 (short: VS2017)](BuildWindowsVisualStudio#c0-install-microsoft-visual-studio-2017-short-vs2017)
             * [C1.) Compile the GDAL library, http://www.gdal.org/](BuildWindowsVisualStudio#c1-compile-the-gdal-library-httpwwwgdalorg)
             * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](BuildWindowsVisualStudio#c2-compile-the-proj-library-httptracosgeoorgproj)
-                * [C2.1.) - for QMapShack before version 1.13.0](BuildWindowsVisualStudio#c21-for-qmapshack-before-version-1130)
-                * [C2.2.) - for QMapShack from version V1.13.0](BuildWindowsVisualStudio#c22-for-qmapshack-from-version-v1130)
+                * [C2.1.) - for QMapShack before version 1.13.0](BuildWindowsVisualStudio#c21---for-qmapshack-before-version-1130)
+                * [C2.2.) - for QMapShack from version V1.13.0](BuildWindowsVisualStudio#c22---for-qmapshack-from-version-v1130)
             * [C3.) Compile the routino library http://www.routino.org](BuildWindowsVisualStudio#c3-compile-the-routino-library-httpwwwroutinoorg)
             * [C4.) Install Qt5.11 or above http://qt-project.org](BuildWindowsVisualStudio#c4-install-qt511-or-above-httpqt-projectorg)
             * [C5.) Compile the QuaZip library https://stachenov.github.io/quazip/](BuildWindowsVisualStudio#c5-compile-the-quazip-library-httpsstachenovgithubioquazip)
@@ -104,7 +99,7 @@ ___Do not edit - automatically created from DocMain!___
         * [Add digital elevation model](DocGettingStarted#add-digital-elevation-model)
     * [Command line parameters](DocCmdOptions)
     * [Install Maps & DEM Data](DocInstallMapDem)
-        * [Organization of Maps & DEM](DocInstallMapDem#organization-of-maps-dem)
+        * [Organization of Maps & DEM](DocInstallMapDem#organization-of-maps--dem)
         * [Installing Maps](DocInstallMapDem#installing-maps)
         * [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data)
         * [Sources of Maps and DEM files](DocInstallMapDem#sources-of-maps-and-dem-files)
@@ -144,8 +139,8 @@ ___Do not edit - automatically created from DocMain!___
         * [Geosearch](DocSearchGoogle)
     * [Tracks, Waypoints & Co](DocGisItems)
         * [Cluttered items](DocGisItems#cluttered-items)
-        * [Draw Order & Copy Items](DocGisItems#draw-order-copy-items)
-        * [History of Changes & Undo/Redo](DocGisItems#history-of-changes-undoredo)
+        * [Draw Order & Copy Items](DocGisItems#draw-order--copy-items)
+        * [History of Changes & Undo/Redo](DocGisItems#history-of-changes--undoredo)
         * [Create new tracks, waypoints etc.](DocGisItemsNew)
             * [Waypoint](DocGisItemsNew#waypoint)
             * [Track](DocGisItemsNew#track)
@@ -173,14 +168,14 @@ ___Do not edit - automatically created from DocMain!___
                     * [Create Own Routino database](DocGisItemsRte#create-own-routino-database)
                 * [MapQuest](DocGisItemsRte#mapquest)
         * [Waypoints](DocGisItemsWpt)
-            * [View / Edit Details](DocGisItemsWpt#view-edit-details)
+            * [View / Edit Details](DocGisItemsWpt#view--edit-details)
                 * [Custom Icons](DocGisItemsWpt#custom-icons)
                 * [The Photo Album](DocGisItemsWpt#the-photo-album)
             * [Move Waypoint](DocGisItemsWpt#move-waypoint)
             * [Project Waypoint](DocGisItemsWpt#project-waypoint)
             * [Geocaches](DocGisItemsWpt#geocaches)
         * [Areas](DocGisItemsArea)
-            * [View / Edit Details](DocGisItemsArea#view-edit-details)
+            * [View / Edit Details](DocGisItemsArea#view--edit-details)
         * [Edit items with multiple points (tracks, routes, areas)](DocGisItemsEditMultiple)
             * [Saving data](DocGisItemsEditMultiple#saving-data)
             * [Edit line](DocGisItemsEditMultiple#edit-line)
@@ -191,7 +186,7 @@ ___Do not edit - automatically created from DocMain!___
         * [Add/Remove/Synchronize/Search a Database](DocGisDatabaseAddRemove)
             * [Add/Remove a database](DocGisDatabaseAddRemove#addremove-a-database)
                 * [SQLite](DocGisDatabaseAddRemove#sqlite)
-                * [MySQL (>= 5.6.5)](DocGisDatabaseAddRemove#mysql-565)
+                * [MySQL (>= 5.6.5)](DocGisDatabaseAddRemove#mysql--565)
             * [Multi-user access](DocGisDatabaseAddRemove#multi-user-access)
             * [Search the database](DocGisDatabaseAddRemove#search-the-database)
         * [Folders and Items](DocGisDatabaseFoldersItems)
@@ -532,6 +527,3 @@ ___Do not edit - automatically created from DocMain!___
     * [V](AxAdvIndex#v)
     * [W](AxAdvIndex#w)
 * [List of images (Advanced usage and FAQ parts only)](AxWikiImages)
-
-- - -
-[Prev](AxMenuStructure) (Main and context menu overview) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Glossary) [Next](AxGlossary)
