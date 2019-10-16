@@ -1,7 +1,5 @@
 [Prev](QMTAxMenuStructure) (Main menu overview) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | () Next
 - - -
-[TOC]
-- - -
 
 # Complete table of contents
 

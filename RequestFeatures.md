@@ -1,7 +1,5 @@
 [Prev](ReportBugs) (Reporting a bug) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Coding Guideline) [Next](DeveloperCodingGuideline)
 - - -
-[TOC]
-- - -
 
 [Read this if you want to **report a bug**](ReportBugs).
 

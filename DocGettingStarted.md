@@ -1,7 +1,5 @@
 [Prev](OfflineDocumentation) (Create Offline Documentation) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Command line parameters) [Next](DocCmdOptions)
 - - -
-[TOC]
-- - -
 
 # Getting started
 

@@ -1,7 +1,5 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
-[TOC]
-- - -
 
 # Quickstart
 ___(Short summary for Windows users)___

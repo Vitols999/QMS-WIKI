@@ -1,7 +1,5 @@
 [Prev](Ubuntu-14.04-HowTo) (Compile Instructions for Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Create Offline Documentation) [Next](OfflineDocumentation)
 - - -
-[TOC]
-- - -
 
 This installation guide is based on a fresh new installation of Ubuntu 18.04.
 

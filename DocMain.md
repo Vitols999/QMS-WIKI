@@ -1,7 +1,5 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Install QMapShack) [Next](DocGetQMapShack)
 - - -
-[TOC]
-- - -
 
 # QMapShack Manual
 

@@ -1,7 +1,5 @@
 [Prev](GridTool) (Grid tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Properties of some commonly used coordinate systems) [Next](EpsgOverview)
 - - -
-[TOC]
-- - -
 
 # Add color palette
 

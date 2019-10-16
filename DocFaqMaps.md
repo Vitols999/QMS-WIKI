@@ -1,7 +1,5 @@
 [Prev](DocFaqRouting) (Routing) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Troubleshooting QMapShack) [Next](TroubleShooting)
 - - -
-[TOC]
-- - -
 
 # Frequently Asked Questions - Maps
 

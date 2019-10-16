@@ -195,7 +195,7 @@ gawk -v BINMODE=w -v ORS='\n'                                                 \
 
      ++i == 1 && FILENAME != "QMTHome.md" {
         nav(FILENAME,0)                                   # Create upper
-        printf "- - -\n[TOC]\n- - -\n\n"               # navigation bar.
+        printf "- - -\n\n"               # navigation bar for GitHub.
 
         navbar = 1     # Also insert a bottom navigation bar at the end.
                                        }

@@ -1,7 +1,5 @@
 [Prev](PaletteTool) (Color palette tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Main menu overview) [Next](QMTAxMenuStructure)
 - - -
-[TOC]
-- - -
 
 # Properties of some commonly used coordinate systems
 

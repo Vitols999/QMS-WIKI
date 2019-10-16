@@ -1,7 +1,5 @@
 [Prev](RequestFeatures) (Requesting a feature) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Commit Code) [Next](DeveloperCommitCode)
 - - -
-[TOC]
-- - -
 
 # Coding Guideline
 

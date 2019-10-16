@@ -1,7 +1,5 @@
 [Prev](AxHotkeys) (Hotkeys) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Complete table of contents) [Next](AxAdvToc)
 - - -
-[TOC]
-- - -
 
 # Main and context menus overview
 

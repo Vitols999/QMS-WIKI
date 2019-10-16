@@ -1,7 +1,5 @@
 [Prev](AxMenuStructure) (Main and context menu overview) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Glossary) [Next](AxGlossary)
 - - -
-[TOC]
-- - -
 
 # Complete table of contents
 

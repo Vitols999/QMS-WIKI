@@ -1,7 +1,5 @@
 [Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Playground - start your new Wiki page) [Next](DocPlayground)
 - - -
-[TOC]
-- - -
 
 _Attention: This page contains examples for formatting links. The anchors of these links don't exist. To avoid that these
 links cause problems with the scripts `LinkCheck.sh` and `HtmlMake.py` a point is added in the middle of some file names and 3 points are added

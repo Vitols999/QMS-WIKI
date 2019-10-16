@@ -1,7 +1,5 @@
 [Prev](InstallSetup) (Installation and setup) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Cut tool) [Next](CutTool)
 - - -
-[TOC]
-- - -
 
 # The overview tool
 

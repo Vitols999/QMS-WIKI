@@ -1,7 +1,5 @@
 [Prev](DocCmdOptions) (Command line parameters) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maps & DEM) [Next](DocBasicsMapDem)
 - - -
-[TOC]
-- - -
 
 # Install Maps & DEM
 

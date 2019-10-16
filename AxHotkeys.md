@@ -1,7 +1,5 @@
 [Prev](DocPlayground) (Playground - start your new Wiki page) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Main and context menu overview) [Next](AxMenuStructure)
 - - -
-[TOC]
-- - -
 
 # Hotkeys used in QMapShack
 

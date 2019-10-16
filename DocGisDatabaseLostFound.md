@@ -1,7 +1,5 @@
 [Prev](DocGisDatabaseFoldersItems) (Folders and Items) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (GPS Devices) [Next](DocGisDevices)
 - - -
-[TOC]
-- - -
 
 # 'Lost & Found' Folder
 

@@ -1,7 +1,5 @@
 [Prev](DocGisItemsEditMultiple) (Edit items with multiple points (tracks, routes, areas)) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Workspace and Database) [Next](DocGisDatabaseWorkspaceDatabase)
 - - -
-[TOC]
-- - -
 
 # Database
 

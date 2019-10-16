@@ -1,7 +1,5 @@
 [Prev](TroubleShooting) (Troubleshooting QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Requesting a feature) [Next](RequestFeatures)
 - - -
-[TOC]
-- - -
 
 # Reporting Bugs
 

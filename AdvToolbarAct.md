@@ -1,7 +1,5 @@
 [Prev](AdvSetup) (Overview of setup and configuration options) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Frequently Asked Questions) [Next](DocFaq)
 - - -
-[TOC]
-- - -
 
 # The QMapShack Toolbar
 

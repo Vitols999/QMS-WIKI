@@ -1,7 +1,5 @@
 [Prev](DocGisDatabaseWorkspaceDatabase) (Workspace and Database) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Folders and Items) [Next](DocGisDatabaseFoldersItems)
 - - -
-[TOC]
-- - -
 
 # Use of databases
 

@@ -1,7 +1,5 @@
 [Prev](ReferenceTool) (Reference tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Color palette tool) [Next](PaletteTool)
 - - -
-[TOC]
-- - -
 
 # Grid tool
 

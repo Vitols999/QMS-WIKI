@@ -1,7 +1,5 @@
 [Prev](AxMaintainIndex) (Maintaining the QMS Wiki Index) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Hotkeys) [Next](AxHotkeys)
 - - -
-[TOC]
-- - -
 
 # The Playground #
 

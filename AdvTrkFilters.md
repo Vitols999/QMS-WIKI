@@ -1,7 +1,5 @@
 [Prev](AdvTrkInfo) (Track information) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Working with track graphs) [Next](AdvTrkGraphs)
 - - -
-[TOC]
-- - -
 
 # Track filters
 

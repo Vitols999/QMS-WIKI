@@ -1,7 +1,5 @@
 [Prev](AxAdvToc) (Complete table of contents) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Index) [Next](AxAdvIndex)
 - - -
-[TOC]
-- - -
 
 # Glossary
 

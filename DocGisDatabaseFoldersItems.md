@@ -1,7 +1,5 @@
 [Prev](DocGisDatabaseAddRemove) (Add/Remove/Synchronize/Search a Database) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | ('Lost & Found' Folder) [Next](DocGisDatabaseLostFound)
 - - -
-[TOC]
-- - -
 
 # Folders and Items
 

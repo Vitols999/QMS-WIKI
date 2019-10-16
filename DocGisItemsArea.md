@@ -1,7 +1,5 @@
 [Prev](DocGisItemsWpt) (Waypoints) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Edit items with multiple points (tracks, routes, areas)) [Next](DocGisItemsEditMultiple)
 - - -
-[TOC]
-- - -
 
 # Area Overlay
 

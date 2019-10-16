@@ -1,7 +1,5 @@
 [Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (List of images (Advanced usage and FAQ parts only)) [Next](AxWikiImages)
 - - -
-[TOC]
-- - -
 
 # Index
 

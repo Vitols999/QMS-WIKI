@@ -1,7 +1,5 @@
 [Prev](EpsgOverview) (Properties of some commonly used coordinate systems) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Complete table of contents) [Next](QMTAxAdvToc)
 - - -
-[TOC]
-- - -
 
 # Main menu overview
 

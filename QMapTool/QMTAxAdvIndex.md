@@ -1,7 +1,5 @@
 Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | () Next
 - - -
-[TOC]
-- - -
 
 # Index
 

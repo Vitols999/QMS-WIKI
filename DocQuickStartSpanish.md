@@ -1,7 +1,5 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
-[TOC]
-- - -
 
 # Guía de inicio
 

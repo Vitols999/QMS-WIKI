@@ -1,7 +1,5 @@
 [Prev](DocFaqHandling) (Data handling) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maps) [Next](DocFaqMaps)
 - - -
-[TOC]
-- - -
 
 # Frequently Asked Questions - Routing with Routino router
 

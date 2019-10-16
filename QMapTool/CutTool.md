@@ -1,7 +1,5 @@
 [Prev](OverviewTool) (Overview tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Reference tool) [Next](ReferenceTool)
 - - -
-[TOC]
-- - -
 
 # Cutting maps
 

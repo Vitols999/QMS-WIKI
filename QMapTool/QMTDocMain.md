@@ -1,7 +1,5 @@
 Prev () | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Installation and setup) [Next](InstallSetup)
 - - -
-[TOC]
-- - -
 
 # QMapTool Manual
 

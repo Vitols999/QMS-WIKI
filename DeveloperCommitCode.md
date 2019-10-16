@@ -1,7 +1,5 @@
 [Prev](DeveloperCodingGuideline) (Coding Guideline) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Add translations) [Next](DeveloperTranslate)
 - - -
-[TOC]
-- - -
 
 - [Commit Code](#commit-code)
   - [Fork the repository](#fork-the-repository)

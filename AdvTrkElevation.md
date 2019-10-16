@@ -1,7 +1,5 @@
 [Prev](AdvTrkGraphs) (Working with track graphs) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Track history and saving) [Next](AdvTrkHist)
 - - -
-[TOC]
-- - -
 
 # Edit elevation data
 

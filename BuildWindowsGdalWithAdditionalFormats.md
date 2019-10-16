@@ -1,7 +1,5 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
-[TOC]
-- - -
 
 !!!!!!!WORK IN PROGRESS Compiling and Building QMapShack for Windows / VS2107 WORK IN PROGRESS!!!!!!!
 

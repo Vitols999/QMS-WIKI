@@ -1,7 +1,5 @@
 [Prev](DocWorkingWithProjects) (Working with Projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Geosearch) [Next](DocSearchGoogle)
 - - -
-[TOC]
-- - -
 
 # Handle GPX and QMS Files
 

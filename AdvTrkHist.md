@@ -1,7 +1,5 @@
 [Prev](AdvTrkElevation) (Editing elevation data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Routes and Routing) [Next](AdvRoutes)
 - - -
-[TOC]
-- - -
 
 # Track history and saving
 

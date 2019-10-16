@@ -1,7 +1,5 @@
 [Prev](AdvToolbarAct) (Overview of toolbar actions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Configuring and running) [Next](DocFaqConfig)
 - - -
-[TOC]
-- - -
 
 # Frequently Asked Questions
 

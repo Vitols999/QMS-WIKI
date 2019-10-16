@@ -1,7 +1,5 @@
 [Prev](DeveloperCommitCode) (Commit Code) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Developing Documentation) [Next](DevelopingDocumentation)
 - - -
-[TOC]
-- - -
 
 # HOWTO enable/disable source translations extraction #
 We now have the ability to choose when to update (extract) the

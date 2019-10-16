@@ -1,7 +1,5 @@
 [Prev](DocFaqMaps) (Maps) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Reporting a bug) [Next](ReportBugs)
 - - -
-[TOC]
-- - -
 
 # Troubleshooting
 

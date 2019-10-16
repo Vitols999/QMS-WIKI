@@ -1,7 +1,5 @@
 [Prev](Ubuntu-18-HowTo) (Compile Instructions for Ubuntu-18) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Getting started) [Next](DocGettingStarted)
 - - -
-[TOC]
-- - -
 
 # Using Offline Documentation
 

@@ -1,7 +1,5 @@
 [Prev](DocGisItemsTrk2) (Tracks) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Waypoints) [Next](DocGisItemsWpt)
 - - -
-[TOC]
-- - -
 
 # Routes
 

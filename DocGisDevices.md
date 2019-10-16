@@ -1,7 +1,5 @@
 [Prev](DocGisDatabaseLostFound) ('Lost & Found' Folder) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Text Editor Templates) [Next](DocGisTemplates)
 - - -
-[TOC]
-- - -
 
 # Working with GPS Devices
 

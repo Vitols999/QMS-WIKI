@@ -1,7 +1,5 @@
 [Prev](CutTool) (Cut tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Grid tool) [Next](GridTool)
 - - -
-[TOC]
-- - -
 
 # Referencing maps
 

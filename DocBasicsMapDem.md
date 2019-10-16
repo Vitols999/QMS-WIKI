@@ -1,7 +1,5 @@
 [Prev](DocInstallMapDem) (Install Maps & DEM Data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Control maps and DEM files) [Next](DocControlMapDem)
 - - -
-[TOC]
-- - -
 
 # Basic knowledge about maps and DEM files
 

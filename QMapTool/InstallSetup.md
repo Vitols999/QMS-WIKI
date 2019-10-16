@@ -1,7 +1,5 @@
 [Prev](QMTDocMain) (Manual) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Overview tool) [Next](OverviewTool)
 - - -
-[TOC]
-- - -
 
 # Installation and Setup
 

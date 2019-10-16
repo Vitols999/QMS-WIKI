@@ -1,7 +1,5 @@
 [Prev](AxAdvIndex) (Index) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
-[TOC]
-- - -
 
 # Images in QMS Wiki
 

@@ -1,7 +1,5 @@
 [Prev](DocSearchGoogle) (Geosearch) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Create new tracks, waypoints etc.) [Next](DocGisItemsNew)
 - - -
-[TOC]
-- - -
 
 # Waypoints, Tracks & Co (A general word about GIS items)
 

@@ -1,7 +1,5 @@
 [Prev](AdvTrkHist) (Track history and saving) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Realtime data) [Next](AdvRealtime)
 - - -
-[TOC]
-- - -
 
 # Routes and Routing
 

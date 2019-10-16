@@ -1,7 +1,5 @@
 [Prev](BuildWindowsVisualStudio) (Compile Instructions for Windows with VisualStudio 2017) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Ubuntu-18) [Next](Ubuntu-18-HowTo)
 - - -
-[TOC]
-- - -
 
 In particular Ubuntu 14.04 needs cmake 3 and Qt 5.4
 
