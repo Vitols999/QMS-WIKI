@@ -1,6 +1,8 @@
 [Prev](Ubuntu-18-HowTo) (Compile Instructions for Ubuntu-18) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Getting started) [Next](DocGettingStarted)
 - - -
 
+***Attention: This page describes features tested only with the Bitbucket Wiki!***
+
 # Using Offline Documentation
 
 The online _QMapShack_ documentation (which you are probably just reading)
