@@ -5,7 +5,7 @@
 
 * [Test of strangely formatted headers](#test-of-strangely-formatted-headers)
     * [German umlauts in heasder: äöüß should work](#german-umlauts-in-heasder-äöüß-should-work)
-    * [Spanish characters: áäéíñóöúü should work too](#spanish-characters-áäéíñóöúü-should-work-too)
+    * [Spanish characters: áÄäéíñóöúü should work too](#spanish-characters-áääéíñóöúü-should-work-too)
     * [Загрузка файлов из Интернета](#Загрузка-файлов-из-Интернета)
     * [Cyrillic text: Загрузка файлов из Интернета](#cyrillic-text-Загрузка-файлов-из-Интернета)
     * [-View / Edit Details](#-view--edit-details)
@@ -56,7 +56,7 @@ Geosearch requires some initial setup.
 * Using the menu entry `Reset results` you can clean the list of search results.
 * Some of the services need additional setup information. To supply this information click the menu entry `Configure services` and insert the requested information into the edit fields. This setup window provides also links to the usage and license conditions of the services. The setup information is saved in the QMS configuration for further use.
     
-## Spanish characters: áäéíñóöúü should work too
+## Spanish characters: áÄäéíñóöúü should work too
 
 QMS supports online search of coordinates for geographical locations or addresses using different services.
 
