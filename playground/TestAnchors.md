@@ -5,7 +5,7 @@
 
 * [Test of strangely formatted headers](#test-of-strangely-formatted-headers)
     * [German umlauts in heasder: äöüß should work](#german-umlauts-in-heasder-äöüß-should-work)
-    * [Spanish characters: áÄäéíñóöúü should work too](#spanish-characters-áääéíñóöúü-should-work-too)
+    * [Spanish characters: áÄäéíñóöúü should work too](#spanish-characters-áÄäéíñóöúü-should-work-too)
     * [Загрузка файлов из Интернета](#Загрузка-файлов-из-Интернета)
     * [Cyrillic text: Загрузка файлов из Интернета](#cyrillic-text-Загрузка-файлов-из-Интернета)
     * [-View / Edit Details](#-view--edit-details)
