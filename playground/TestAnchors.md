@@ -6,7 +6,7 @@
 * [Test of strangely formatted headers](#test-of-strangely-formatted-headers)
     * [German umlauts in heasder: äöüß should work](#german-umlauts-in-heasder-äöüß-should-work)
     * [Spanish characters: áäéíñóöúü should work too](#spanish-characters-áäéíñóöúü-should-work-too)
-    * [Cyrillic text: Загрузка файлов из Интернета](https://github.com/Maproom/qmapshack/wiki/TestAnchors#cyrillic-text-Загрузка-файлов-из-Интернета)
+    * [Cyrillic text: Загрузка файлов из Интернета](#cyrillic-text-Загрузка-файлов-из-Интернета)
     * [-View / Edit Details](#-view--edit-details)
         * [C1.) Compile the GDAL library, http://www.gdal.org/](#c1-compile-the-gdal-library-httpwwwgdalorg)
     * [The _Markdown_ Language](#the-markdown-language)
