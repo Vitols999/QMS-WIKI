@@ -6,7 +6,7 @@
 * [Test of strangely formatted headers](#test-of-strangely-formatted-headers)
     * [German umlauts in heasder: äöüß should work](#german-umlauts-in-heasder-äöüß-should-work)
     * [Spanish characters: áäéíñóöúü should work too](#spanish-characters-áäéíñóöúü-should-work-too)
-    * [Cyrillic text: Загрузка файлов из Интернета](#cyrillic-text-%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2-%D0%B8%D0%B7-%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B0)
+    * [Cyrillic text: Загрузка файлов из Интернета](#cyrillic-text-Загрузка-файлов-из-Интернета)
     * [-View / Edit Details](#-view--edit-details)
         * [C1.) Compile the GDAL library, http://www.gdal.org/](#c1-compile-the-gdal-library-httpwwwgdalorg)
     * [The _Markdown_ Language](#the-markdown-language)
@@ -74,7 +74,9 @@ Geosearch requires some initial setup.
 ( ![No accumulation](images/DocSearchGoogle/GeosearchIcon1.jpg "No accumulation") vs. ![Accumulation](images/DocSearchGoogle/GeosearchIcon2.jpg "Accumulation")).
 * Using the menu entry `Reset results` you can clean the list of search results.
 * Some of the services need additional setup information. To supply this information click the menu entry `Configure services` and insert the requested information into the edit fields. This setup window provides also links to the usage and license conditions of the services. The setup information is saved in the QMS configuration for further use.
-    
+
+## Загрузка файлов из Интернета    
+
 ## Cyrillic text: Загрузка файлов из Интернета
 
 QMS supports online search of coordinates for geographical locations or addresses using different services.
