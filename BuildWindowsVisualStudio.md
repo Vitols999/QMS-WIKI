@@ -9,7 +9,7 @@ For earlier releases, have a look at [BuildWindowsVisualStudio2013](BuildWindows
 
 ## Foreword
 
-The following description explains how the QMapShack windows binaries provided for download at https://bitbucket.org/maproom/qmapshack/downloads are created.
+The following description explains how the QMapShack windows binaries provided for download at https://github.com/Maproom/qmapshack/releases are created.
 
 I try to keep a balance between providing a complete but still reasonably compact description.
 So, depending on the setup of your development machine (e.g. language settings) you might have to make some adaptations which may not be described here in full detail.
