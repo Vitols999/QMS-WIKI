@@ -1,6 +1,25 @@
-[Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Playground - start your new Wiki page) [Next](DocPlayground)
+[Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maintaining TOC's on Wiki pages) [Next](AxMaintainPageTOC)
 - - -
+ 
+***Table of contents***
 
+* [Maintaining the QMS Wiki Index](#maintaining-the-qms-wiki-index)
+    * [Preface](#preface)
+    * [Short description of index maintenance](#short-description-of-index-maintenance)
+    * [Structure of the raw index](#structure-of-the-raw-index)
+    * [Structure of the index](#structure-of-the-index)
+        * [Editing an existing index entry](#editing-an-existing-index-entry)
+    * [Consistency checks](#consistency-checks)
+        * [Table of contents consistency check](#table-of-contents-consistency-check)
+        * [Index consistency check](#index-consistency-check)
+    * [Updating the index](#updating-the-index)
+    * [Updating the navigation bars](#updating-the-navigation-bars)
+    * [Summary of recommended workflow for index maintenance](#summary-of-recommended-workflow-for-index-maintenance)
+    * [Further remarks](#further-remarks)
+    * [Some remarks on the design of the index page](#some-remarks-on-the-design-of-the-index-page)
+
+* * * * * * * * * *
+ 
 _Attention: This page contains examples for formatting links. The anchors of these links don't exist. To avoid that these
 links cause problems with the scripts `LinkCheck.sh` and `HtmlMake.py` a point is added in the middle of some file names and 3 points are added
 at the end of a reference!_
@@ -361,4 +380,4 @@ chosen for
 * a slightly longer text describing in more detail the target topic.
 
 - - -
-[Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Playground - start your new Wiki page) [Next](DocPlayground)
+[Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Maintaining TOC's on Wiki pages) [Next](AxMaintainPageTOC)

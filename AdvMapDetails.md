@@ -1,6 +1,18 @@
 [Prev](AdvProjActions) (General Actions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Tips & tricks for online maps) [Next](DocMapsTipsOnline)
 - - -
+ 
+***Table of contents***
 
+* [Details of map use](#details-of-map-use)
+    * [Adjustable map properties](#adjustable-map-properties)
+    * [Adjustable elevation properties](#adjustable-elevation-properties)
+    * [Map scale type](#map-scale-type)
+    * [Projection and datum](#projection-and-datum)
+    * [Full-screen display](#full-screen-display)
+    * [Distance ruler](#distance-ruler)
+
+* * * * * * * * * *
+ 
 # Details of map use
 
 For basic information about this topic compare also the

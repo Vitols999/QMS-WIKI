@@ -1,6 +1,12 @@
 [Prev](PaletteTool) (Color palette tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Main menu overview) [Next](QMTAxMenuStructure)
 - - -
+ 
+***Table of contents***
 
+* [Properties of some commonly used coordinate systems](#properties-of-some-commonly-used-coordinate-systems)
+
+* * * * * * * * * *
+ 
 # Properties of some commonly used coordinate systems
 
 QMapTool (QMT) offers a list of predefined coordinate systems for referencing raster maps. This list is taken from the GDAL sources. Some commonly used coordinate systems

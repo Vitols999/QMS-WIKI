@@ -1,6 +1,16 @@
 [Prev](CutTool) (Cut tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Grid tool) [Next](GridTool)
 - - -
+ 
+***Table of contents***
 
+* [Referencing maps](#referencing-maps)
+    * [Reference tool](#reference-tool)
+        * [Basic information](#basic-information)
+        * [More details   ](#more-details)
+    * [Example: Referencing of Russian military maps](#example-referencing-of-russian-military-maps)
+
+* * * * * * * * * *
+ 
 # Referencing maps
 
 Raster maps are typically obtained by scanning maps or collecting aerial photographs and satellite images. They are saved as image files in

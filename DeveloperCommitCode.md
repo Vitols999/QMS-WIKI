@@ -1,6 +1,21 @@
 [Prev](DeveloperCodingGuideline) (Coding Guideline) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Add translations) [Next](DeveloperTranslate)
 - - -
+ 
+***Table of contents***
 
+* [Commit Code](#commit-code)
+    * [Fork the repository](#fork-the-repository)
+    * [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
+    * [Configure Git to sync your fork with the original QMapShack repository](#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
+    * [Keep your fork synced](#keep-your-fork-synced)
+    * [Open a new branch](#open-a-new-branch)
+    * [Commit changes locally](#commit-changes-locally)
+        * [Change commits](#change-commits)
+    * [Push your commits](#push-your-commits)
+    * [Rebase your branch](#rebase-your-branch)
+
+* * * * * * * * * *
+ 
 - [Commit Code](#commit-code)
   - [Fork the repository](#fork-the-repository)
   - [Create a local clone of your fork](#create-a-local-clone-of-your-fork)

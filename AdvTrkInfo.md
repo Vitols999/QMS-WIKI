@@ -1,6 +1,23 @@
 [Prev](AdvTrkGeneral) (General information about tracks) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Track filters) [Next](AdvTrkFilters)
 - - -
+ 
+***Table of contents***
 
+* [Track information](#track-information)
+    * [Track states](#track-states)
+    * [Trackpoint information for highlighted tracks](#trackpoint-information-for-highlighted-tracks)
+        * [Overview](#overview)
+        * [Adding trackpoint information](#adding-trackpoint-information)
+        * [Get additional track information in highlighted state](#get-additional-track-information-in-highlighted-state)
+        * [Select display of track information in main menu](#select-display-of-track-information-in-main-menu)
+    * [Additional sources of track information](#additional-sources-of-track-information)
+        * [Track information in normal state](#track-information-in-normal-state)
+            * [Using the workspace window](#using-the-workspace-window)
+            * [Using the track edit/info window](#using-the-track-editinfo-window)
+        * [Track information in selected state](#track-information-in-selected-state)
+
+* * * * * * * * * *
+ 
 # Track information
 
 _Valid starting with commit c66c4b52fa4a (Thu Apr 04 15:43:31 2019 +0000)_ 

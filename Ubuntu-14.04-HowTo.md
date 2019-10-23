@@ -1,6 +1,22 @@
 [Prev](BuildWindowsVisualStudio) (Compile Instructions for Windows with VisualStudio 2017) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Ubuntu-18) [Next](Ubuntu-18-HowTo)
 - - -
+ 
+***Table of contents***
 
+* [Build](#build)
+    * [cmake 3](#cmake-3)
+    * [Qt 5.4](#qt-54)
+    * [Routino](#routino)
+* [!bash](#bash)
+* [install required dev-packages](#install-required-dev-packages)
+* [download, build and install routino](#download-build-and-install-routino)
+    * [QuaZip](#quazip)
+* [install required dev-packages *libquazip5 seems not available in Ubuntu 14.04*](#install-required-dev-packages-libquazip5-seems-not-available-in-ubuntu-1404)
+    * [Use Qt 5.4 instead of 5.2 (it's only temporary and for the current terminal)](#use-qt-54-instead-of-52-its-only-temporary-and-for-the-current-terminal)
+* [Running the software:](#running-the-software)
+
+* * * * * * * * * *
+ 
 In particular Ubuntu 14.04 needs cmake 3 and Qt 5.4
 
 

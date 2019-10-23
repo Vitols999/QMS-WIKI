@@ -1,6 +1,21 @@
 [Prev](AdvProjects) (Databases and projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Details of map use) [Next](AdvMapDetails)
 - - -
+ 
+***Table of contents***
 
+* [General actions](#general-actions)
+    * [Working with databases](#working-with-databases)
+        * [Import of GIS data](#import-of-gis-data)
+        * [Export database to GPX file](#export-database-to-gpx-file)
+    * [Working with projects](#working-with-projects)
+        * [Merge projects](#merge-projects)
+        * [Copy project](#copy-project)
+        * [Save project](#save-project)
+        * [Edit project metadata](#edit-project-metadata)
+    * [Working with project roadbook    ](#working-with-project-roadbook)
+
+* * * * * * * * * *
+ 
 # General actions
 
 ## Working with databases

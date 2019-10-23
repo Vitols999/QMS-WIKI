@@ -1,6 +1,14 @@
 [Prev](GridTool) (Grid tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Properties of some commonly used coordinate systems) [Next](EpsgOverview)
 - - -
+ 
+***Table of contents***
 
+* [Add color palette](#add-color-palette)
+    * [Basic information](#basic-information)
+    * [More details   ](#more-details)
+
+* * * * * * * * * *
+ 
 # Add color palette
 
 Quite often RGBA colors are used in raster map files because the large 

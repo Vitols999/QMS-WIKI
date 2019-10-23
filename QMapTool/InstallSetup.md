@@ -1,6 +1,18 @@
 [Prev](QMTDocMain) (Manual) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Overview tool) [Next](OverviewTool)
 - - -
+ 
+***Table of contents***
 
+* [Installation and Setup](#installation-and-setup)
+    * [Installation ](#installation)
+        * [Windows](#windows)
+        * [Linux ](#linux)
+    * [Running](#running)
+        * [List of command-line options](#list-of-command-line-options)
+    * [Setup](#setup)
+
+* * * * * * * * * *
+ 
 # Installation and Setup
 
 ## Installation 

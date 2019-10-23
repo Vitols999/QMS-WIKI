@@ -1,6 +1,12 @@
 [Prev](DocGisDatabaseAddRemove) (Add/Remove/Synchronize/Search a Database) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | ('Lost & Found' Folder) [Next](DocGisDatabaseLostFound)
 - - -
+ 
+***Table of contents***
 
+* [Folders and Items](#folders-and-items)
+
+* * * * * * * * * *
+ 
 # Folders and Items
 
 You can add or delete folders by a right click on the parent folder/database. Simply select from the context menu:

@@ -1,6 +1,15 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
+ 
+***Table of contents***
 
+    * [zlib https://zlib.net/](#zlib-httpszlibnet)
+    * [cURL  https://curl.haxx.se/](#curl--httpscurlhaxxse)
+    * [sqlite https://www.sqlite.org/download.html](#sqlite-httpswwwsqliteorgdownloadhtml)
+        * [Additional binaries needed to compile [PROJ.4 version 6](https://proj4.org/news.htm](#additional-binaries-needed-to-compile-proj4-version-6httpsproj4orgnewshtml)
+
+* * * * * * * * * *
+ 
 !!!!!!!WORK IN PROGRESS Compiling and Building QMapShack for Windows / VS2107 WORK IN PROGRESS!!!!!!!
 
 If you need GDAL support for the WCS, WMS, WMTS, MBTiles formats, then you need to compile GDAL with zlib, cURL and sqlite.

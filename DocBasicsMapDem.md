@@ -1,6 +1,24 @@
 [Prev](DocInstallMapDem) (Install Maps & DEM Data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Control maps and DEM files) [Next](DocControlMapDem)
 - - -
+ 
+***Table of contents***
 
+* [Basic knowledge about maps and DEM files](#basic-knowledge-about-maps-and-dem-files)
+    * [Map formats](#map-formats)
+        * [Vector Maps](#vector-maps)
+        * [Raster Maps](#raster-maps)
+        * [Online Maps](#online-maps)
+        * [DEM Files](#dem-files)
+    * [Projection and Scaling](#projection-and-scaling)
+    * [GDAL *.vrt Maps](#gdal-vrt-maps)
+    * [WMTS Maps](#wmts-maps)
+    * [TMS Maps](#tms-maps)
+* [!xml](#xml)
+* [!xml](#xml)
+* [!xml](#xml)
+
+* * * * * * * * * *
+ 
 # Basic knowledge about maps and DEM files
 
 ## Map formats

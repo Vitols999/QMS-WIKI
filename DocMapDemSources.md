@@ -1,6 +1,19 @@
 [Prev](DocControlMapDem) (Control maps and DEM files) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Working with Projects) [Next](DocWorkingWithProjects)
 - - -
+ 
+***Table of contents***
 
+* [Sources of QMapShack-compatible maps and elevation data](#sources-of-qmapshack-compatible-maps-and-elevation-data)
+    * [World](#world)
+    * [Europe and European regions](#europe-and-european-regions)
+    * [Other regions](#other-regions)
+    * [Short summary of map and DEM use](#short-summary-of-map-and-dem-use)
+    * [Overview of supported map formats](#overview-of-supported-map-formats)
+        * [Offline maps](#offline-maps)
+        * [Online map services](#online-map-services)
+
+* * * * * * * * * *
+ 
 # Sources of QMapShack-compatible maps and elevation data
 
 This page provides information about sources for

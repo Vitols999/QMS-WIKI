@@ -1,6 +1,20 @@
 [Prev](DocMain) (Manual) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Windows with VisualStudio 2013) [Next](BuildWindowsVisualStudio2013)
 - - -
+ 
+***Table of contents***
 
+* [Install QMapShack](#install-qmapshack)
+    * [Windows](#windows)
+    * [OS X](#os-x)
+    * [Linux](#linux)
+        * [From distribution's package system](#from-distributions-package-system)
+        * [From Source](#from-source)
+            * [Prerequisites](#prerequisites)
+            * [Obtaining the Source](#obtaining-the-source)
+            * [Compiling and Installing](#compiling-and-installing)
+
+* * * * * * * * * *
+ 
 # Install QMapShack
 
 ## Windows

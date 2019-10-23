@@ -1,6 +1,14 @@
 [Prev](OfflineDocumentation) (Create Offline Documentation) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Command line parameters) [Next](DocCmdOptions)
 - - -
+ 
+***Table of contents***
 
+* [Getting started](#getting-started)
+    * [Add maps](#add-maps)
+    * [Add digital elevation model](#add-digital-elevation-model)
+
+* * * * * * * * * *
+ 
 # Getting started
 
 This is what you get on the first start-up. 

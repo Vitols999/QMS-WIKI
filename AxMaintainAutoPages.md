@@ -1,6 +1,20 @@
 [Prev](DevelopingDocumentation) (Developing Documentation) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maintaining the QMS Wiki Index) [Next](AxMaintainIndex)
 - - -
+ 
+***Table of contents***
 
+* [Recommendations for editing QMS Wiki pages](#recommendations-for-editing-qms-wiki-pages)
+    * [General recommendations for editing the manual](#general-recommendations-for-editing-the-manual)
+    * [More recommendations](#more-recommendations)
+    * [Workflow after editing page](#workflow-after-editing-page)
+    * [Formatting rules:](#formatting-rules)
+    * [Comments on some script-created pages in the Appendix part](#comments-on-some-script-created-pages-in-the-appendix-part)
+        * [BuildImgLink.py and AxWikiImages.md](#buildimglinkpy-and-axwikiimagesmd)
+        * [BuildToc.py and AxAdvToc.md](#buildtocpy-and-axadvtocmd)
+        * [SortGlossary.py and AxGlossary.md](#sortglossarypy-and-axglossarymd)
+
+* * * * * * * * * *
+ 
 _Attention: This page contains examples for formatting links. The anchors of these links don't exist. To avoid that these
 links cause problems with the scripts `LinkCheck.sh` and `HtmlMake.py` a point is added in the middle of some file names and 3 points are added
 at the end of a reference!_

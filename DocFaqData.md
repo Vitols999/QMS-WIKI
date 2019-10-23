@@ -1,6 +1,18 @@
 [Prev](DocFaqConfig) (Configuring and running) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Data handling) [Next](DocFaqHandling)
 - - -
+ 
+***Table of contents***
 
+* [Frequently Asked Questions - Databases and projects](#frequently-asked-questions---databases-and-projects)
+    * [Why does QMapShack use a separate workspace.db to save data?](#why-does-qmapshack-use-a-separate-workspacedb-to-save-data)
+    * [Why are there no checkboxes for data in workspace projects?](#why-are-there-no-checkboxes-for-data-in-workspace-projects)
+    * [How to edit quickly the name of a project?](#how-to-edit-quickly-the-name-of-a-project)
+    * [How to find the location of a database file used in QMapShack?](#how-to-find-the-location-of-a-database-file-used-in-qmapshack)
+    * [How to find database to which a project belongs?](#how-to-find-database-to-which-a-project-belongs)
+    * [Why does a database not allow creating new folders?](#why-does-a-database-not-allow-creating-new-folders)
+
+* * * * * * * * * *
+ 
 # Frequently Asked Questions - Databases and projects
 
 

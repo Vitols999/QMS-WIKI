@@ -1,6 +1,20 @@
 [Prev](Ubuntu-14.04-HowTo) (Compile Instructions for Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Create Offline Documentation) [Next](OfflineDocumentation)
 - - -
+ 
+***Table of contents***
 
+* [Initial build Routino and QMapShack](#initial-build-routino-and-qmapshack)
+    * [Create installation folder](#create-installation-folder)
+    * [Installation of needed build packages](#installation-of-needed-build-packages)
+    * [Initial build of Routino](#initial-build-of-routino)
+        * [Update of Routino when something has changed in future](#update-of-routino-when-something-has-changed-in-future)
+    * [Initial build of QMapShack](#initial-build-of-qmapshack)
+        * [Update of QMapShack when something has changed in future](#update-of-qmapshack-when-something-has-changed-in-future)
+    * [Start QMapShack](#start-qmapshack)
+* [Setup development environment](#setup-development-environment)
+
+* * * * * * * * * *
+ 
 This installation guide is based on a fresh new installation of Ubuntu 18.04.
 
 

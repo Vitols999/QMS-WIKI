@@ -1,6 +1,23 @@
 [Prev](AdvRoutes) (Routes and Routing) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Overview of setup and configuration options) [Next](AdvSetup)
 - - -
+ 
+***Table of contents***
 
+* [Realtime applications](#realtime-applications)
+    * [General description](#general-description)
+    * [OpenSky flight data](#opensky-flight-data)
+    * [GPS location data](#gps-location-data)
+        * [General remarks](#general-remarks)
+        * [GPS Tether on Android smartphones ](#gps-tether-on-android-smartphones)
+        * [Using serial interface and Ncat (Windows OS)    ](#using-serial-interface-and-ncat-windows-os)
+        * [Python server for Linux-like OS](#python-server-for-linux-like-os)
+        * [Track replay](#track-replay)
+        * [Using Garmin devices with Windows 10](#using-garmin-devices-with-windows-10)
+        * [QMS as TCP client](#qms-as-tcp-client)
+        * [NMEA and other restrictions](#nmea-and-other-restrictions)
+
+* * * * * * * * * *
+ 
 # Realtime applications
 
 _Valid from patch version 0830561c1244 (20.02.2019)._

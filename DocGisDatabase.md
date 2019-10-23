@@ -1,6 +1,12 @@
 [Prev](DocGisItemsEditMultiple) (Edit items with multiple points (tracks, routes, areas)) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Workspace and Database) [Next](DocGisDatabaseWorkspaceDatabase)
 - - -
+ 
+***Table of contents***
 
+* [Database](#database)
+
+* * * * * * * * * *
+ 
 # Database
 
 The GIS Data view is split into half. The upper half contains the list of currently loaded projects. See [_Tracks, Waypoints & Co_](DocGisItems) to learn more about the GIS Data Workspace in general.

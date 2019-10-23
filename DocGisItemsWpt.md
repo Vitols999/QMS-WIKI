@@ -1,6 +1,18 @@
 [Prev](DocGisItemsRte) (Routes) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Areas) [Next](DocGisItemsArea)
 - - -
+ 
+***Table of contents***
 
+* [Waypoints](#waypoints)
+    * [View / Edit Details](#-view--edit-details)
+        * [Custom Icons](#custom-icons)
+        * [The Photo Album](#the-photo-album)
+    * [Move Waypoint](#-move-waypoint)
+    * [Project Waypoint](#-project-waypoint)
+    * [Geocaches](#geocaches)
+
+* * * * * * * * * *
+ 
 # Waypoints
 
 A waypoint is a coordinate with data attached. This can be a point of interest, a geocache or a georeferenced image. If you move the mouse close enough to a waypoint it gets highlighted by a red circle:

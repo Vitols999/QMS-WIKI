@@ -1,6 +1,25 @@
 [Prev](AdvTracks) (Tracks) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Track information) [Next](AdvTrkInfo)
 - - -
+ 
+***Table of contents***
 
+* [General information about tracks](#general-information-about-tracks)
+    * [Symbols for trackpoints](#symbols-for-trackpoints)
+    * [Track actions](#track-actions)
+    * [Add point to track](#add-point-to-track)
+    * [Cut track](#cut-track)
+    * [Attach waypoints to a track to get additional track information](#attach-waypoints-to-a-track-to-get-additional-track-information)
+    * [Select a range of a track](#select-a-range-of-a-track)
+    * [Select a range of a track in edit mode](#select-a-range-of-a-track-in-edit-mode)
+    * [Move track range to new location](#move-track-range-to-new-location)
+    * [Find the length of a track interval](#find-the-length-of-a-track-interval)
+    * [Assign colors to track activities](#assign-colors-to-track-activities)
+    * [Recorded and calculated track data](#recorded-and-calculated-track-data)
+    * [Avoid and remove invalid data in a track](#avoid-and-remove-invalid-data-in-a-track)
+    * [Tracks and no-go areas](#tracks-and-no-go-areas)
+
+* * * * * * * * * *
+ 
 # General information about tracks
 
 _Valid starting with commit f611532bf9e0 (Thu Mar 28 18:50:18 2019 +0100)_ 

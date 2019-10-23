@@ -1,6 +1,15 @@
 [Prev](AdvTrkGraphs) (Working with track graphs) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Track history and saving) [Next](AdvTrkHist)
 - - -
+ 
+***Table of contents***
 
+* [Edit elevation data](#edit-elevation-data)
+    * [Manually edit elevation of a track point](#manually-edit-elevation-of-a-track-point)
+    * [Assign elevation using DEM data](#assign-elevation-using-dem-data)
+    * [Handle invalid elevation data](#handle-invalid-elevation-data)
+
+* * * * * * * * * *
+ 
 # Edit elevation data
 
 ## Manually edit elevation of a track point

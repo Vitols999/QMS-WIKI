@@ -24,14 +24,15 @@ ExceptionList = ("AxAdvIndex",         # pages in this list have subsections not
                 )
 
 def gen_toclines(inpfile):      # find TOC lines in input files - generator used as a filter
-  for lne in inpfile:     
-    if r3.search(lne) and r4.search(lne).group(1) not in ExceptionList: # skip non-TOC lines and those belonging to a file in exception list
-      yield lne.strip()
+
+    for lne in inpfile:     
+      if r3.search(lne) and r4.search(lne).group(1) not in ExceptionList: # skip non-TOC lines and those belonging to a file in exception list
+        yield lne.strip()
 
 oidxfile = open(idxfile, encoding="utf-8")
 otocfile = open(tocfile, encoding="utf-8")
     
-# Differ reuqires lists    
+# Differ requires lists    
 idxtoc = list(gen_toclines(oidxfile))
 toctoc = list(gen_toclines(otocfile))
 
@@ -43,6 +44,8 @@ for r in res:
      if not "* [Installing QMapShack]" in r and \
         not "* [Using QMapShack]" in r      and \
         not "* [Quickstart" in r:      # these lines are there for hierarchy reasons only!
-       print(r)    
+        
+       rr = r.encode(encoding="ASCII", errors="xmlcharrefreplace").decode(encoding="utf-8")
+       print(rr)    
  
 print("\nEnd of run.") 

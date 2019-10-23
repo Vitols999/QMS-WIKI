@@ -1,6 +1,36 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
+ 
+***Table of contents***
 
+* [Guía de inicio](#guía-de-inicio)
+    * [Descargar lo necesario desde Internet](#descargar-lo-necesario-desde-internet)
+    * [Organización de las carpetas de datos y mapas](#organización-de-las-carpetas-de-datos-y-mapas)
+    * [Instalación del programa](#instalación-del-programa)
+    * [Primeros pasos tras el primer arranque de QMS](#primeros-pasos-tras-el-primer-arranque-de-qms)
+        * [Configurar carpetas de mapas](#configurar-carpetas-de-mapas)
+        * [Configurar carpetas DEM](#configurar-carpetas-dem)
+        * [Configurar y Activar creación automática de rutas.(opcional)](#configurar-y-activar-creación-automática-de-rutasopcional)
+    * [Manejo básico de QMS](#manejo-básico-de-qms)
+        * [Cargar un archivo GPX y mostrar su contenido](#cargar-un-archivo-gpx-y-mostrar-su-contenido)
+        * [Activar mapas](#activar-mapas)
+        * [Trabajar con varias Vistas de Mapa](#trabajar-con-varias-vistas-de-mapa)
+        * [Activar un Modelo Digital del Terreno (DEM)](#activar-un-modelo-digital-del-terreno-dem)
+            * [Uso de un MDT (DEM) online](#uso-de-un-mdt-dem-online)
+        * [Ejemplo de uso de Vistas con mapas y DEMs](#ejemplo-de-uso-de-vistas-con-mapas-y-dems)
+        * [Hacer zoom y mover el mapa](#hacer-zoom-y-mover-el-mapa)
+        * [Dibujar un track nuevo     ](#dibujar-un-track-nuevo)
+        * [Crear un Waypoint](#crear-un-waypoint)
+        * [Trabajar con Proyectos y con Bases de Datos](#trabajar-con-proyectos-y-con-bases-de-datos)
+        * [Copiar datos entre Bases de datos y Proyectos](#copiar-datos-entre-bases-de-datos-y-proyectos)
+        * [Conexión con la unidad GPS](#conexión-con-la-unidad-gps)
+            * [Cargar tracks y waypoints al GPS ](#cargar-tracks-y-waypoints-al-gps)
+            * [Descargar tracks y waypoints desde el GPS ](#descargar-tracks-y-waypoints-desde-el-gps)
+        * [Renombrar los tracks y waypoints ](#renombrar-los-tracks-y-waypoints)
+    * [Para saber más](#para-saber-más)
+
+* * * * * * * * * *
+ 
 # Guía de inicio
 
 * Esta es una guia breve para instalar y dar los primeros pasos con QMapShack (abreviado QMS)

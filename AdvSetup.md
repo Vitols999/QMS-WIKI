@@ -1,6 +1,30 @@
 [Prev](AdvRealtime) (Realtime data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Overview of toolbar actions) [Next](AdvToolbarAct)
 - - -
+ 
+***Table of contents***
 
+* [Overview of setup and configuration options](#overview-of-setup-and-configuration-options)
+    * [General options](#general-options)
+        * [Workspace setup](#workspace-setup)
+        * [Waypoint icons setup](#waypoint-icons-setup)
+        * [Toolbar setup](#toolbar-setup)
+    * [Map and DEM setup](#map-and-dem-setup)
+        * [Download and install ](#download-and-install)
+        * [Map paths](#map-paths)
+        * [Map cache path for online maps](#map-cache-path-for-online-maps)
+        * [DEM file paths](#dem-file-paths)
+        * [Map window display switches (toggles)](#map-window-display-switches-toggles)
+        * [Map window display setup](#map-window-display-setup)
+        * [Single map display options](#single-map-display-options)
+    * [Routing setup](#routing-setup)
+        * [Routino database paths](#routino-database-paths)
+        * [Routino setup](#routino-setup)
+        * [BRouter setup](#brouter-setup)
+        * [MapQuest setup](#mapquest-setup)
+    * [Further setup and configuration options](#further-setup-and-configuration-options)
+
+* * * * * * * * * *
+ 
 # Overview of setup and configuration options
 
 _Valid from patch version 55d8aa7 (18.11.2017)._

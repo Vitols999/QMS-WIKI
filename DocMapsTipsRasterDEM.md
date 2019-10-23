@@ -1,6 +1,35 @@
 [Prev](DocMapsTipsOnline) (Tips & tricks for online maps) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Data handling) [Next](AdvDataHandling)
 - - -
+ 
+***Table of contents***
 
+* [Tips & tricks for raster maps, vector maps, and elevation data](#tips--tricks-for-raster-maps-vector-maps-and-elevation-data)
+    * [Raster maps](#raster-maps)
+        * [Russian army maps](#russian-army-maps)
+        * [ECW, MBTILES and MrSID maps](#ecw-mbtiles-and-mrsid-maps)
+            * [Add ECW plugin](#add-ecw-plugin)
+            * [Add MrSID plugin](#add-mrsid-plugin)
+            * [Updating QMS after install plugins](#updating-qms-after-install-plugins)
+            * [Remarks on proprietary map formats](#remarks-on-proprietary-map-formats)
+    * [Elevation data](#elevation-data)
+        * [Contour lines](#contour-lines)
+            * [Contour line vector map in Garmin IMG format](#contour-line-vector-map-in-garmin-img-format)
+            * [Raster contour line layer](#raster-contour-line-layer)
+* [!xml](#xml)
+        * [Online DEM data](#online-dem-data)
+            * [DEM data from WCS (Web Coverage Service) servers](#dem-data-from-wcs-web-coverage-service-servers)
+            * [European DEM data ](#european-dem-data)
+    * [Vector maps for Linux systems](#vector-maps-for-linux-systems)
+* [!sh](#sh)
+        * [Script](#script)
+        * [Configuration](#configuration)
+* [!sh](#sh)
+* [! /bin/sh](#-binsh)
+* [configuration](#configuration)
+* [code starts here, no changes below here required](#code-starts-here-no-changes-below-here-required)
+
+* * * * * * * * * *
+ 
 # Tips & tricks for raster maps, vector maps, and elevation data
 
 ## Raster maps

@@ -1,6 +1,36 @@
 [Prev](AdvMapDetails) (Details of map use) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Tips & tricks for raster maps, vector maps, and elevation data) [Next](DocMapsTipsRasterDEM)
 - - -
+ 
+***Table of contents***
 
+* [Tips & tricks for online maps](#tips--tricks-for-online-maps)
+    * [Map service file formats](#map-service-file-formats)
+        * [WMS](#wms)
+        * [WMTS](#wmts)
+        * [TMS](#tms)
+    * [Basic procedure for using WMTS or TMS files](#basic-procedure-for-using-wmts-or-tms-files)
+    * [Overview of map regions mentioned on this page](#overview-of-map-regions-mentioned-on-this-page)
+    * [Sources of WMTS and TMS map files](#sources-of-wmts-and-tms-map-files)
+    * [Tips for some widely used server types](#tips-for-some-widely-used-server-types)
+        * [Use WMS server as TMS server](#use-wms-server-as-tms-server)
+* [!XML](#xml)
+* [!XML](#xml)
+        * [Use WMTS server as TMS server](#use-wmts-server-as-tms-server)
+* [!XML](#xml)
+        * [Use ArcGIS server as TMS server](#use-arcgis-server-as-tms-server)
+        * [Use MapProxy to access many maps as TMS](#use-mapproxy-to-access-many-maps-as-tms)
+            * [Gathering information](#gathering-information)
+            * [MapProxy basic usage](#mapproxy-basic-usage)
+            * [Configuration template](#configuration-template)
+            * [Troubleshooting](#troubleshooting)
+    * [Country-specific tips](#country-specific-tips)
+        * [WMTS configuration for French IGN maps](#wmts-configuration-for-french-ign-maps)
+        * [TMS configuration for New Zealand topo maps](#tms-configuration-for-new-zealand-topo-maps)
+        * [TMS configuration for Norwegian topo maps](#tms-configuration-for-norwegian-topo-maps)
+        * [TMS for Spanish orthophoto maps](#tms-for-spanish-orthophoto-maps)
+
+* * * * * * * * * *
+ 
 # Tips & tricks for online maps
 
 Various institutions offer online map services. Often, the capabilities of these services are described in form of `WMS, WMTS` or `TMS` files.

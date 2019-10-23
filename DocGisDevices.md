@@ -1,6 +1,14 @@
 [Prev](DocGisDatabaseLostFound) ('Lost & Found' Folder) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Text Editor Templates) [Next](DocGisTemplates)
 - - -
+ 
+***Table of contents***
 
+* [Working with GPS Devices](#working-with-gps-devices)
+    * [General description](#general-description)
+    * [Remark about Garmin GPSmap 60CSx and similar devices](#remark-about-garmin-gpsmap-60csx-and-similar-devices)
+
+* * * * * * * * * *
+ 
 # Working with GPS Devices
 
 ## General description

@@ -1,6 +1,18 @@
 [Prev](RequestFeatures) (Requesting a feature) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Commit Code) [Next](DeveloperCommitCode)
 - - -
+ 
+***Table of contents***
 
+* [Coding Guideline](#coding-guideline)
+* [!c++](#c)
+* [!c++](#c)
+* [!c++](#c)
+* [!c++](#c)
+* [!c++](#c)
+* [!c++](#c)
+
+* * * * * * * * * *
+ 
 # Coding Guideline
 
 No one likes them but it helps to read and maintain the code. Thus please stick to them:

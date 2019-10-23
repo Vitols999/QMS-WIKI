@@ -1,6 +1,19 @@
 [Prev](DocCmdOptions) (Command line parameters) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maps & DEM) [Next](DocBasicsMapDem)
 - - -
+ 
+***Table of contents***
 
+* [Install Maps & DEM](#install-maps--dem)
+    * [Organization of Maps & DEM](#organization-of-maps--dem)
+* [!bash](#bash)
+    * [Installing Maps](#installing-maps)
+    * [Installing Raster Maps or DEM Data](#installing-raster-maps-or-dem-data)
+    * [Sources of Maps and DEM files](#sources-of-maps-and-dem-files)
+        * [Maps](#maps)
+        * [DEM](#dem)
+
+* * * * * * * * * *
+ 
 # Install Maps & DEM
 
 QMapShack is not a commercial software, providing installable, ready made maps and DEM packages. The project does not have the man power and financial resources to provide that kind of stuff. However we think it's really simple to install maps & DEM after you have read this.

@@ -1,6 +1,13 @@
 [Prev](DocGisItemsWpt) (Waypoints) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Edit items with multiple points (tracks, routes, areas)) [Next](DocGisItemsEditMultiple)
 - - -
+ 
+***Table of contents***
 
+* [Area Overlay](#area-overlay)
+    * [View / Edit Details](#view--edit-details)
+
+* * * * * * * * * *
+ 
 # Area Overlay
 
 An area overlay is a polygon to mark an area on a map. Commonly used by search and rescue.

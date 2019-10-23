@@ -1,6 +1,21 @@
 [Prev](DocMapsTipsRasterDEM) (Tips & tricks for raster maps, vector maps, and elevation data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Tracks) [Next](AdvTracks)
 - - -
+ 
+***Table of contents***
 
+* [Data handling](#data-handling)
+    * [Data selection and handling in map views](#data-selection-and-handling-in-map-views)
+    * [Searching data in the workspace](#searching-data-in-the-workspace)
+        * [General description](#general-description)
+        * [Object types for properties](#object-types-for-properties)
+        * [More details and remarks](#more-details-and-remarks)
+        * [Examples](#examples)
+            * [Waypoint](#waypoint)
+            * [Track](#track)
+            * [Geocache](#geocache)
+
+* * * * * * * * * *
+ 
 # Data handling
 
 ## Data selection and handling in map views

@@ -1,6 +1,15 @@
 [Prev](DocGisItems) (Tracks, Waypoints & Co) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Tracks) [Next](DocGisItemsTrk2)
 - - -
+ 
+***Table of contents***
 
+* [Create new tracks, waypoints etc.](#create-new-tracks-waypoints-etc)
+    * [Waypoint](#waypoint)
+    * [Track](#track)
+    * [Area](#area)
+
+* * * * * * * * * *
+ 
 # Create new tracks, waypoints etc.
 
 You can create your own GIS items in QMapShack by a simple right mouse click on the canvas.

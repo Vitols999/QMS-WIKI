@@ -1,6 +1,12 @@
-[Prev](AxMaintainIndex) (Maintaining the QMS Wiki Index) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Hotkeys) [Next](AxHotkeys)
+[Prev](AxMaintainPageTOC) (Maintaining TOC's on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Hotkeys) [Next](AxHotkeys)
 - - -
+ 
+***Table of contents***
 
+* [The Playground](#the-playground)
+
+* * * * * * * * * *
+ 
 # The Playground #
 
 This page references all articles being currently developed that are not yet referenced by any other page. If you want to start a new page/article, start here.
@@ -16,4 +22,4 @@ Articles currenly being developed:
 None
 
 - - -
-[Prev](AxMaintainIndex) (Maintaining the QMS Wiki Index) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Hotkeys) [Next](AxHotkeys)
+[Prev](AxMaintainPageTOC) (Maintaining TOC's on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Hotkeys) [Next](AxHotkeys)

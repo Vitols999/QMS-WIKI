@@ -1,6 +1,17 @@
 [Prev](ReferenceTool) (Reference tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Color palette tool) [Next](PaletteTool)
 - - -
+ 
+***Table of contents***
 
+* [Grid tool](#grid-tool)
+    * [Basic information](#basic-information)
+    * [More details](#more-details)
+    * [Examples of referencing a map with the grid tool](#examples-of-referencing-a-map-with-the-grid-tool)
+        * [Example 1](#example-1)
+        * [Example 2](#example-2)
+
+* * * * * * * * * *
+ 
 # Grid tool
 
 ## Basic information

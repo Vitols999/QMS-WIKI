@@ -1,6 +1,15 @@
 [Prev](OverviewTool) (Overview tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Reference tool) [Next](ReferenceTool)
 - - -
+ 
+***Table of contents***
 
+* [Cutting maps](#cutting-maps)
+    * [Basic information](#basic-information)
+        * [More details   ](#more-details)
+    * [Example: Cutting of Russian military maps](#example-cutting-of-russian-military-maps)
+
+* * * * * * * * * *
+ 
 # Cutting maps
 
 With the help of the cut tool the user can cut off (crop) unwanted parts at the edges of a raster map (e.g. map descriptions). Do this a polygon (a mask) has to be defined.

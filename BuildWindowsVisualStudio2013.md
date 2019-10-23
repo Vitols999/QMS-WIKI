@@ -1,6 +1,37 @@
 [Prev](DocGetQMapShack) (Install QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Windows with VisualStudio 2017) [Next](BuildWindowsVisualStudio)
 - - -
+ 
+***Table of contents***
 
+* [Compiling and Building QMapShack for Windows](#compiling-and-building-qmapshack-for-windows)
+    * [Foreword](#foreword)
+    * [General remarks](#general-remarks)
+    * [Required tools for building and installing](#required-tools-for-building-and-installing)
+    * [Compile instructions](#compile-instructions)
+        * [C1.) Compile the GDAL library, http://www.gdal.org/](#c1-compile-the-gdal-library-httpwwwgdalorg)
+        * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](#c2-compile-the-proj-library-httptracosgeoorgproj)
+        * [C3.) Compile the routino library http://www.routino.org](#c3-compile-the-routino-library-httpwwwroutinoorg)
+        * [C4.) Install Qt5.5 http://qt-project.org](#c4-install-qt55-httpqt-projectorg)
+        * [C5.) Compile the QuaZip library http://quazip.sourceforge.net/index.html](#c5-compile-the-quazip-library-httpquazipsourceforgenetindexhtml)
+        * [C6.) Compile the jpeg library http://www.ijg.org/](#c6-compile-the-jpeg-library-httpwwwijgorg)
+        * [C7.) Get the QMapShack source from the repository, e.g.](#c7-get-the-qmapshack-source-from-the-repository-eg)
+        * [C8.) Start the CMake GUI (you did install CMake before, didn't you)](#c8-start-the-cmake-gui-you-did-install-cmake-before-didnt-you)
+        * [C9.) Open the generated  build\QMapShack.sln with VS2013](#c9-open-the-generated--buildqmapshacksln-with-vs2013)
+    * [Creating a Windows binary installer](#creating-a-windows-binary-installer)
+        * [I1.) Download the VC redistributable installer](#i1-download-the-vc-redistributable-installer)
+        * [I2.) [Optional] Download libmysql.dll from mariadb](#i2-optional-download-libmysqldll-from-mariadb)
+        * [I3.) Copy all required files to intermediate directory](#i3-copy-all-required-files-to-intermediate-directory)
+        * [I4.) Create the installer with NSIS(3.0b1)](#i4-create-the-installer-with-nsis30b1)
+    * [TroubleShooting](#troubleshooting)
+    * [Debugging with VS2013](#debugging-with-vs2013)
+        * [D1.) Set the solution configuration type to "RelWithDebInfo"](#d1-set-the-solution-configuration-type-to-relwithdebinfo)
+        * [D2.) Right-click on the "qmapshack" project and open the "Properties" dialog](#d2-right-click-on-the-qmapshack-project-and-open-the-properties-dialog)
+        * [D3.) Compile](#d3-compile)
+        * [D4.) Run/Debug preparations](#d4-rundebug-preparations)
+        * [D5.) Run/Debug](#d5-rundebug)
+
+* * * * * * * * * *
+ 
 # Compiling and Building QMapShack for Windows
 
 ## Foreword

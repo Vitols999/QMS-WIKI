@@ -1,6 +1,14 @@
 [Prev](AdvTrkFilters) (Track filters) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Editing elevation data) [Next](AdvTrkElevation)
 - - -
+ 
+***Table of contents***
 
+* [Working with track graphs](#working-with-track-graphs)
+    * [Zoom track graphs](#zoom-track-graphs)
+    * [Select a scale range for track data display](#select-a-scale-range-for-track-data-display)
+
+* * * * * * * * * *
+ 
 # Working with track graphs
 
 ## Zoom track graphs

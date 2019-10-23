@@ -1,6 +1,17 @@
 [Prev](DeveloperTranslate) (Add translations) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Recommendations for editing QMS Wiki pages) [Next](AxMaintainAutoPages)
 - - -
+ 
+***Table of contents***
 
+* [Developing Documentation](#developing-documentation)
+    * [Prerequisites](#prerequisites)
+    * [The _Markdown_ Language](#the-markdown-language)
+    * [Dos and Don'ts](#dos-and-donts)
+    * [Online Editing](#online-editing)
+    * [Offline Editing](#offline-editing)
+
+* * * * * * * * * *
+ 
 # Developing Documentation
 
 ## Prerequisites

@@ -1,6 +1,19 @@
 [Prev](DocGisDevices) (GPS Devices) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Databases and projects) [Next](AdvProjects)
 - - -
+ 
+***Table of contents***
 
+* [Text Editor Templates](#text-editor-templates)
+    * [Use a Template](#use-a-template)
+    * [Create a Template](#create-a-template)
+        * [Widgets Overview](#widgets-overview)
+        * [Basic Concept](#basic-concept)
+        * [Layout Management](#layout-management)
+        * [Order Of Items](#order-of-items)
+        * [Additional information](#additional-information)
+
+* * * * * * * * * *
+ 
 # Text Editor Templates
 
 QMapShack has the functionality to search the database or filter the workspace items by searching for a text in the items full text information. This information includes

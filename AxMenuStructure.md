@@ -1,6 +1,12 @@
 [Prev](AxHotkeys) (Hotkeys) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Complete table of contents) [Next](AxAdvToc)
 - - -
+ 
+***Table of contents***
 
+* [Main and context menus overview](#main-and-context-menus-overview)
+
+* * * * * * * * * *
+ 
 # Main and context menus overview
 
 This page gives an overview of all QMS actions that can be triggered via the main menu or various context menus.

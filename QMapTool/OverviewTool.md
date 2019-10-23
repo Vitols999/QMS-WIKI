@@ -1,6 +1,14 @@
 [Prev](InstallSetup) (Installation and setup) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Cut tool) [Next](CutTool)
 - - -
+ 
+***Table of contents***
 
+* [The overview tool](#the-overview-tool)
+    * [Basic information](#basic-information)
+    * [More details   ](#more-details)
+
+* * * * * * * * * *
+ 
 # The overview tool
 
 Raster map files can have a considerable size. Loading and rendering them on different zoom levels can therefore take some time. The overview tool helps to add

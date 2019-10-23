@@ -1,6 +1,12 @@
 [Prev](AdvTrkElevation) (Editing elevation data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Routes and Routing) [Next](AdvRoutes)
 - - -
+ 
+***Table of contents***
 
+* [Track history and saving](#track-history-and-saving)
+
+* * * * * * * * * *
+ 
 # Track history and saving
 
 QMapShack maintains a record of all changes made while editing a track (the same is also true for routes, waypoints, and areas). To see the list of all changes made select `Edit` from the

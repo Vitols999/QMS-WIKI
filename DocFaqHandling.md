@@ -1,6 +1,19 @@
 [Prev](DocFaqData) (Databases and projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Routing) [Next](DocFaqRouting)
 - - -
+ 
+***Table of contents***
 
+* [Frequently Asked Questions - Data handling](#frequently-asked-questions---data-handling)
+    * [How to create waypoint from POI (point of interest) in map?](#how-to-create-waypoint-from-poi-point-of-interest-in-map)
+    * [How to find distance between waypoints](#how-to-find-distance-between-waypoints)
+    * [Which track data is saved in GPX files?](#which-track-data-is-saved-in-gpx-files)
+    * [How to access data from legacy Garmin devices?](#how-to-access-data-from-legacy-garmin-devices)
+    * [What is the difference between speed and gpxtpx:speed?](#what-is-the-difference-between-speed-and-gpxtpxspeed)
+    * [How to remove DEM info from elevation graph?](#how-to-remove-dem-info-from-elevation-graph)
+    * [How to edit tracks without losing track data?](#how-to-edit-tracks-without-losing-track-data)
+
+* * * * * * * * * *
+ 
 # Frequently Asked Questions - Data handling
 
 ## How to create waypoint from POI (point of interest) in map?

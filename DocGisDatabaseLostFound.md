@@ -1,6 +1,12 @@
 [Prev](DocGisDatabaseFoldersItems) (Folders and Items) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (GPS Devices) [Next](DocGisDevices)
 - - -
+ 
+***Table of contents***
 
+* ['Lost & Found' Folder](#lost--found-folder)
+
+* * * * * * * * * *
+ 
 # 'Lost & Found' Folder
 
 When deleting an item from a database folder the item is not deleted itself. Just the relation with that folder. All items with no relation to any folder are collected in the Lost & Found folder. Only if you delete the item form this folder it is deleted permanently. You can do this by either emptying the complete folder or by deleting selected items.

@@ -1,6 +1,12 @@
 [Prev](TroubleShooting) (Troubleshooting QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Requesting a feature) [Next](RequestFeatures)
 - - -
+ 
+***Table of contents***
 
+* [Reporting Bugs](#reporting-bugs)
+
+* * * * * * * * * *
+ 
 # Reporting Bugs
 
 If you have found a bug file a bug report on the [Issues page](https://github.com/Maproom/qmapshack/issues).

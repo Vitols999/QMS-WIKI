@@ -1,6 +1,15 @@
 [Prev](DocFaq) (Frequently Asked Questions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Databases and projects) [Next](DocFaqData)
 - - -
+ 
+***Table of contents***
 
+* [Frequently Asked Questions - Configuring and running QMapShack](#frequently-asked-questions---configuring-and-running-qmapshack)
+    * [Can I run several QMS instances at the same time?](#can-i-run-several-qms-instances-at-the-same-time)
+    * [User-relevant QMapShack directories (Windows version)](#user-relevant-qmapshack-directories-windows-version)
+    * [How to change the GUI language?](#how-to-change-the-gui-language)
+
+* * * * * * * * * *
+ 
 # Frequently Asked Questions - Configuring and running QMapShack
 
 ## Can I run several QMS instances at the same time?

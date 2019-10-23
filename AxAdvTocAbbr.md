@@ -260,6 +260,9 @@ ___Do not edit - automatically created from DocMain!___
         * [Summary of recommended workflow for index maintenance](AxMaintainIndex#summary-of-recommended-workflow-for-index-maintenance)
         * [Further remarks](AxMaintainIndex#further-remarks)
         * [Some remarks on the design of the index page](AxMaintainIndex#some-remarks-on-the-design-of-the-index-page)
+    * [Maintaining TOC's on Wiki pages](AxMaintainPageTOC)
+        * [The `AddToc.py` script](AxMaintainPageTOC#the-addtocpy-script)
+        * [Differences in rendering TOC's ](AxMaintainPageTOC#differences-in-rendering-tocs)
 * [Playground - start your new Wiki page](DocPlayground)
 
 

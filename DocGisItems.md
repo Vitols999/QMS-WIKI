@@ -1,6 +1,15 @@
 [Prev](DocSearchGoogle) (Geosearch) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Create new tracks, waypoints etc.) [Next](DocGisItemsNew)
 - - -
+ 
+***Table of contents***
 
+* [Waypoints, Tracks & Co (A general word about GIS items)](#waypoints-tracks--co-a-general-word-about-gis-items)
+    * [Cluttered items](#cluttered-items)
+    * [Draw Order & Copy Items](#draw-order--copy-items)
+    * [History of Changes & Undo/Redo](#history-of-changes--undoredo)
+
+* * * * * * * * * *
+ 
 # Waypoints, Tracks & Co (A general word about GIS items)
 
 There are artificial items that are created on your computer. And there are items recorded in the field. The artificial ones are based on assumptions of maps and what you think the world looks like. And the ones from the field are created in reality, with an error typical to the GPS.

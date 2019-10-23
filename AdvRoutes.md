@@ -1,6 +1,32 @@
 [Prev](AdvTrkHist) (Track history and saving) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Realtime data) [Next](AdvRealtime)
 - - -
+ 
+***Table of contents***
 
+* [Routes and Routing](#routes-and-routing)
+    * [Description of a route](#description-of-a-route)
+    * [Routing engines](#routing-engines)
+    * [Create a route](#create-a-route)
+        * [Select autorouting](#select-autorouting)
+        * [Use list of routing points](#use-list-of-routing-points)
+        * [Use map window](#use-map-window)
+    * [Edit a route](#edit-a-route)
+    * [Get route instructions](#get-route-instructions)
+    * [Save route in GPX file](#save-route-in-gpx-file)
+    * [Using no-go areas and lines](#using-no-go-areas-and-lines)
+        * [Purpose of no-go areas and lines](#purpose-of-no-go-areas-and-lines)
+        * [Defining no-go areas/lines](#defining-no-go-areaslines)
+            * [Disc-shaped no-go areas](#disc-shaped-no-go-areas)
+            * [Polygon-shaped no-go areas  ](#polygon-shaped-no-go-areas)
+            * [No-go lines](#no-go-lines)
+        * [Activate no-go areas/lines](#activate-no-go-areaslines)
+            * [Routing with no-go areas/lines](#routing-with-no-go-areaslines)
+    * [Description of routing methods in QMapShack](#description-of-routing-methods-in-qmapshack)
+    * [Comparison of routing engines](#comparison-of-routing-engines)
+    * [Other information](#other-information)
+
+* * * * * * * * * *
+ 
 # Routes and Routing
 
 _(For basic information about routes see [here](DocGisItemsRte))_

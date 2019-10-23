@@ -1,6 +1,16 @@
 [Prev](DeveloperCommitCode) (Commit Code) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Developing Documentation) [Next](DevelopingDocumentation)
 - - -
+ 
+***Table of contents***
 
+* [HOWTO enable/disable source translations extraction](#howto-enabledisable-source-translations-extraction)
+* [!cmake](#cmake)
+* [!cmake](#cmake)
+* [HOWTO translate qmapshack.desktop (UNIX like only)](#howto-translate-qmapshackdesktop-unix-like-only)
+* [Translations](#translations)
+
+* * * * * * * * * *
+ 
 # HOWTO enable/disable source translations extraction #
 We now have the ability to choose when to update (extract) the
 translations from the sources files within CMake. It's controlled by the `UPDATE_TRANSLATIONS` CMake command line option. It defaults to `OFF`. Translations are always compiled (.ts to .qm)

@@ -1,6 +1,27 @@
 [Prev](DocGisItemsNew) (Create new tracks, waypoints etc.) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Routes) [Next](DocGisItemsRte)
 - - -
+ 
+***Table of contents***
 
+* [Tracks](#tracks)
+    * [Track Details Dialog](#track-details-dialog)
+        * [Graph Area](#graph-area)
+        * [Info](#info)
+        * [Style](#style)
+        * [Graphs](#graphs)
+        * [Activity](#activity)
+        * [Points](#points)
+        * [Filter](#filter)
+        * [History](#history)
+    * [Track Filter](#track-filter)
+        * [Visible Points](#visible-points)
+        * [Elevation](#elevation)
+        * [Timestamps](#timestamps)
+        * [Extensions](#extensions)
+        * [Split Track](#split-track)
+
+* * * * * * * * * *
+ 
 # Tracks #
 
 A track is a list of points recorded while moving along. Tracks are also created artificially to be used for navigation and planning.

@@ -1,6 +1,14 @@
 [Prev](ReportBugs) (Reporting a bug) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Coding Guideline) [Next](DeveloperCodingGuideline)
 - - -
+ 
+***Table of contents***
 
+* [Preface](#preface)
+* [Things to include in your request](#things-to-include-in-your-request)
+    * [Implement it yourself](#implement-it-yourself)
+
+* * * * * * * * * *
+ 
 [Read this if you want to **report a bug**](ReportBugs).
 
 # Preface

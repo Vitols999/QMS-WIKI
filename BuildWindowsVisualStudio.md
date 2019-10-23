@@ -1,6 +1,41 @@
 [Prev](BuildWindowsVisualStudio2013) (Compile Instructions for Windows with VisualStudio 2013) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Ubuntu-14.04) [Next](Ubuntu-14.04-HowTo)
 - - -
+ 
+***Table of contents***
 
+* [Compiling and Building QMapShack for Windows](#compiling-and-building-qmapshack-for-windows)
+    * [Foreword](#foreword)
+    * [General remarks](#general-remarks)
+    * [Required tools for building and installing](#required-tools-for-building-and-installing)
+    * [Compile instructions](#compile-instructions)
+        * [C0.) Install Microsoft Visual Studio 2017 (short: VS2017)](#c0-install-microsoft-visual-studio-2017-short-vs2017)
+        * [C1.) Compile the GDAL library, http://www.gdal.org/](#c1-compile-the-gdal-library-httpwwwgdalorg)
+        * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](#c2-compile-the-proj-library-httptracosgeoorgproj)
+            * [C2.1.) - for QMapShack before version 1.13.0](#c21---for-qmapshack-before-version-1130)
+            * [C2.2.) - for QMapShack from version V1.13.0](#c22---for-qmapshack-from-version-v1130)
+        * [C3.) Compile the routino library http://www.routino.org](#c3-compile-the-routino-library-httpwwwroutinoorg)
+        * [C4.) Install Qt5.11 or above http://qt-project.org](#c4-install-qt511-or-above-httpqt-projectorg)
+        * [C5.) Compile the QuaZip library https://stachenov.github.io/quazip/](#c5-compile-the-quazip-library-httpsstachenovgithubioquazip)
+        * [C6.) Compile the jpeg library http://www.ijg.org/](#c6-compile-the-jpeg-library-httpwwwijgorg)
+        * [C7.) Get the QMapShack source from the repository, e.g.](#c7-get-the-qmapshack-source-from-the-repository-eg)
+        * [C8.) Start the CMake GUI (you did install CMake before, didn't you)](#c8-start-the-cmake-gui-you-did-install-cmake-before-didnt-you)
+        * [C9.) Open the generated build\QMapShack.sln with VS2017](#c9-open-the-generated-buildqmapshacksln-with-vs2017)
+    * [Creating a Windows binary installer](#creating-a-windows-binary-installer)
+        * [I1.) Download the VC redistributable installer](#i1-download-the-vc-redistributable-installer)
+        * [I2.) [Optional] Download libmysql.dll from mariadb](#i2-optional-download-libmysqldll-from-mariadb)
+        * [I3.) [Optional] Build libraries libeay32.dll and ssleay32.dll](#i3-optional-build-libraries-libeay32dll-and-ssleay32dll)
+        * [I4.) Copy all required files to intermediate directory](#i4-copy-all-required-files-to-intermediate-directory)
+        * [I5.) Create the installer with NSIS(3.0b1)](#i5-create-the-installer-with-nsis30b1)
+    * [TroubleShooting](#troubleshooting)
+    * [Debugging with VS2013 !!!TODO Update for VS2017!!!](#debugging-with-vs2013-todo-update-for-vs2017)
+        * [D1.) Set the solution configuration type to "RelWithDebInfo"](#d1-set-the-solution-configuration-type-to-relwithdebinfo)
+        * [D2.) Right-click on the "qmapshack" project and open the "Properties" dialog](#d2-right-click-on-the-qmapshack-project-and-open-the-properties-dialog)
+        * [D3.) Compile](#d3-compile)
+        * [D4.) Run/Debug preparations](#d4-rundebug-preparations)
+        * [D5.) Run/Debug](#d5-rundebug)
+
+* * * * * * * * * *
+ 
 # Compiling and Building QMapShack for Windows
 
 Since QMapShack Release 1.12.0, Microsoft Visual Studio 2017 (VS2017) is needed to build QMapShack for Windows

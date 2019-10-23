@@ -1,6 +1,27 @@
 [Prev](DocFaqRouting) (Routing) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Troubleshooting QMapShack) [Next](TroubleShooting)
 - - -
+ 
+***Table of contents***
 
+* [Frequently Asked Questions - Maps](#frequently-asked-questions---maps)
+    * [How to control visibility of POI info?](#how-to-control-visibility-of-poi-info)
+    * [Why are waypoints shown with a blue dot icon?](#why-are-waypoints-shown-with-a-blue-dot-icon)
+    * [How to find information about a position (a POI) in the Web?](#how-to-find-information-about-a-position-a-poi-in-the-web)
+    * [What is the difference between `Copy position` and `Copy position (Grid)`?](#what-is-the-difference-between-copy-position-and-copy-position-grid)
+    * [Is there a possibility to display small roads/tracks in a vector map without zooming in too much?](#is-there-a-possibility-to-display-small-roadstracks-in-a-vector-map-without-zooming-in-too-much)
+    * [Does QMS support the use of single Garmin-style map tiles?](#does-qms-support-the-use-of-single-garmin-style-map-tiles)
+    * [How to change the layout of vector maps?](#how-to-change-the-layout-of-vector-maps)
+    * [Why is Google Terrain map a black-and-white map?](#why-is-google-terrain-map-a-black-and-white-map)
+    * [Which raster map formats are supported?](#which-raster-map-formats-are-supported)
+    * [How to use Russian military and similar raster maps with QMapShack?](#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack)
+    * [Why is a raster map not displayed?](#why-is-a-raster-map-not-displayed)
+    * [How to find the location of a raster map?](#how-to-find-the-location-of-a-raster-map)
+    * [Is it possible to use several VRT files?](#is-it-possible-to-use-several-vrt-files)
+    * [When to use GDALWarp to get VRT file?](#when-to-use-gdalwarp-to-get-vrt-file)
+    * [Is it possible to use EPSG codes for the coordinate system setup?](#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup)
+
+* * * * * * * * * *
+ 
 # Frequently Asked Questions - Maps
 
 ## How to control visibility of POI info?

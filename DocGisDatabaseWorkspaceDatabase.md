@@ -1,6 +1,12 @@
 [Prev](DocGisDatabase) (Database) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Add/Remove/Synchronize/Search a Database) [Next](DocGisDatabaseAddRemove)
 - - -
+ 
+***Table of contents***
 
+* [The Workspace and the Database](#the-workspace-and-the-database)
+
+* * * * * * * * * *
+ 
 # The Workspace and the Database
 
 ![Database - workspace relation](images/DocGisDatabaseWorkspaceDatabase/maproom2.png "Database - workspace relation")

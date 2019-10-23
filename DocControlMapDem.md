@@ -1,6 +1,19 @@
 [Prev](DocBasicsMapDem) (Maps & DEM) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Sources of QMapShack-compatible maps and elevation data) [Next](DocMapDemSources)
 - - -
+ 
+***Table of contents***
 
+* [Control of Maps and DEM Files](#control-of-maps-and-dem-files)
+    * [Draw Order](#draw-order)
+    * [Map Properties](#map-properties)
+        * [Workspace](#workspace)
+        * [Map and DEM](#map-and-dem)
+        * [Vector Maps](#vector-maps)
+        * [Online Maps](#online-maps)
+        * [DEM Files](#dem-files)
+
+* * * * * * * * * *
+ 
 # Control of Maps and DEM Files
 
 The render engine of QMapShack is quite flexible and lets you create map stacks with

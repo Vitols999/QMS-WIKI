@@ -1,6 +1,21 @@
 [Prev](DocGisDatabaseWorkspaceDatabase) (Workspace and Database) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Folders and Items) [Next](DocGisDatabaseFoldersItems)
 - - -
+ 
+***Table of contents***
 
+* [Use of databases](#use-of-databases)
+    * [Add/Remove a database](#addremove-a-database)
+        * [SQLite](#sqlite)
+        * [MySQL (>= 5.6.5)](#mysql--565)
+* [!bash](#bash)
+* [!mysql](#mysql)
+* [!mysql](#mysql)
+* [!mysql](#mysql)
+    * [Multi-user access](#multi-user-access)
+    * [Search the database](#search-the-database)
+
+* * * * * * * * * *
+ 
 # Use of databases
 
 ## Add/Remove a database

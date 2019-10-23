@@ -1,6 +1,15 @@
 [Prev](DocGisTemplates) (Text Editor Templates) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (General Actions) [Next](AdvProjActions)
 - - -
+ 
+***Table of contents***
 
+* [Databases and projects](#databases-and-projects)
+    * [Organization of QMapShack data](#organization-of-qmapshack-data)
+    * [Workspace and database windows](#workspace-and-database-windows)
+    * [Summary projects and drop zones](#summary-projects-and-drop-zones)
+
+* * * * * * * * * *
+ 
 # Databases and projects
 
 ## Organization of QMapShack data

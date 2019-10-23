@@ -1,6 +1,25 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
+ 
+***Table of contents***
 
+* [Activity Brainstorming](#activity-brainstorming)
+    * [Foot     = 100](#foot------100)
+    * [Cycle    = 200](#cycle-----200)
+    * [Bike     = 300](#bike------300)
+    * [Car      = 400](#car-------400)
+    * [Cable    = 500](#cable-----500)
+    * [Swim     = 600](#swim------600)
+    * [Ship     = 700](#ship------700)
+    * [Aero     = 800](#aero------800)
+    * [Ski      = 900](#ski-------900)
+    * [Public Transport    = 1000    (formerly Train)](#public-transport-----1000----formerly-train)
+    * [REMARKS and REFERENCES](#remarks-and-references)
+        * [Hiking](#hiking)
+        * [Running ](#running)
+
+* * * * * * * * * *
+ 
 # Activity Brainstorming
 
 See [QMS #39](https://github.com/Maproom/qmapshack/issues/39)

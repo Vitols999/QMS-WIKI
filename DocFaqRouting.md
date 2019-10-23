@@ -1,6 +1,17 @@
 [Prev](DocFaqHandling) (Data handling) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maps) [Next](DocFaqMaps)
 - - -
+ 
+***Table of contents***
 
+* [Frequently Asked Questions - Routing with Routino router](#frequently-asked-questions---routing-with-routino-router)
+    * [Why do route instructions use different languages?](#why-do-route-instructions-use-different-languages)
+    * [Is there a possibility to choose the preferred road class when routing?](#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing)
+    * [Does QMapShack/Routino support cross-border routing?](#does-qmapshackroutino-support-cross-border-routing)
+    * [Does the Routino router support _fly-as-a-bird_ routing?](#does-the-routino-router-support-fly-as-a-bird-routing)
+    * [What can be the reason for unexpected Routino routing results?](#what-can-be-the-reason-for-unexpected-routino-routing-results)
+
+* * * * * * * * * *
+ 
 # Frequently Asked Questions - Routing with Routino router
 
 

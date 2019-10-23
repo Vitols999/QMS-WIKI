@@ -1,6 +1,12 @@
 [Prev](AdvSetup) (Overview of setup and configuration options) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Frequently Asked Questions) [Next](DocFaq)
 - - -
+ 
+***Table of contents***
 
+* [The QMapShack Toolbar](#the-qmapshack-toolbar)
+
+* * * * * * * * * *
+ 
 # The QMapShack Toolbar
 
 This page lists all actions that can be started with the help of the QMS main toolbar. Using the toolbar is an easy way to start an action that should be started otherwise via the main menu.
