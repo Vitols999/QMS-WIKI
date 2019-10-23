@@ -28,9 +28,12 @@ right-key  | Move the map focus east, moving the map west
 | +         | Zoom into the map
 | -         | Zoom out of the map
 __Routing__ |
-CTRL-A | Use routing algorithm with options selected in the routing window when creating route or track. Choice can be modified during routing. No map data required.
-CTRL-O | Use straight lines for routing when creating route or track. Choice can be modified during routing.
-CTRL-V | If available use polyline from map for routing from one point to the next one (_snap to line_), otherwise use straight lines. Choice can be modified during routing. No routing data required
+A | Use routing algorithm with options selected in the routing window when creating route or track. Choice can be modified during routing. No map data required.
+O | Use straight lines for routing when creating route or track. Choice can be modified during routing.
+T | Connect points with a line from a loaded track if possible.
+V | If available use polyline from map for routing from one point to the next one (_snap to line_), otherwise use straight lines. Choice can be modified during routing. No routing data required
+
+
 __Track edit mode__ |
 CTRL-+ | Add trackpoints to track.
 CTRL-- | Delete trackpoints.

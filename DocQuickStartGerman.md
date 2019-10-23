@@ -289,7 +289,7 @@ _Weitere Informationen:_
   vorhandenen Routingdatenbanken (im Beispiel `BE`) aus.
 * Verschiebe die Maus zum Anfangspunkt des Tracks im Kartenfenster.
 * Öffne mit Rechtsklick das Kontextmenü und wähle `Track hinzufügen`.
-* Drücke `Strg-A` auf der Tastatur (dies wählt den automatischen Routingmodus aus).
+* Drücke `A` auf der Tastatur (dies wählt den automatischen Routingmodus aus).
 * Bewege die Maus zum nächsten gewünschten Zwischenpunkt des Tracks und fixiere diesen mit einem Linksklick. Zwischen den zwei zuletzt
   gewählten Punkten wird automatisch in Übereinstimmung mit den gewählten Routingoptionen eine Zwischenstrecke ermittelt und angezeigt.
 * Wiederhole den vorhergehenden Schritt solange, bis das Ende des Tracks erreicht ist.

@@ -44,11 +44,12 @@ Points and sub-points are stored different depending on the GIS item:
 When creating a track or a route different routing modes can be used and selected by the next buttons. The modes are described in the following table. If auto-routing is used then a properly configured offline router must be selected before the start of track/route creation process. The selected router (routing database)
 should have the routing information for the region used in the map.
 
-| | |
-|-|-|
-|**0**| `CTRL+O` No routing selected. Points are connected by a straight line.|
-|**A**| `CTRL+A` Auto-routing. The points are connected by sublines derived by the router.|
-|**V**| `CTRL+V` Vector-routing. To use vector-routing a vector map must be active for the area. The points are connected by the points of a polyline in the vector map. It is important that the first and the second line is part of the polygon. Else a straight line is used.|
+|Button | Description |
+|--|:--|
+|**O**| Hotkey: `O`. No routing selected. Points are connected by a straight line.|
+|**A**| Hotkey: `A`. Auto-routing. The points are connected by sublines derived by the router.|
+|**T**| Hotkey: `T`. Connect points with a line from a loaded track if possible.|
+|**V**| Hotkey: `V`. Vector-routing. To use vector routing a vector map must be active for the given area. The points are connected by the points of a polyline in the vector map. It is important that the first and the second line is part of the polygon. Else a straight line is used.|
 
 The routing mode can be changed during the track/route creation by pressing the keys described.
 

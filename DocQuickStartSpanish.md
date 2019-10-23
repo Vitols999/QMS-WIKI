@@ -357,7 +357,7 @@ _En este ejemplo vamos a dibujar un nuevo track circular con inicio y final en S
     * `V`  Vectorial: Calca en el track las lineas de un mapa con solo pasar el cursor sobre ellas.
     * `T`  Track: Calca los puntos de otros tracks visibles con solo pasar el cursor sobre ellos.
 
-* Pulsa `Ctrl+A`para probar ahora el modo Auto-enrutamiento. (Para que funcione es necesario haber instalado los datos de enrutamiento como se ha explicado previamente. Asegúrate de que en el panel `Enrutamiento`  tienes marcado el perfil `A pie` )
+* Pulsa `A` para probar ahora el modo Auto-enrutamiento. (Para que funcione es necesario haber instalado los datos de enrutamiento como se ha explicado previamente. Asegúrate de que en el panel `Enrutamiento`  tienes marcado el perfil `A pie` )
 * Coloca el cursor sobre el punto de destino (puede ser el punto final o un punto de paso).
 QMS calcula el itinerario de acuerdo a la configuración que has elegido en el panel `Enrutamiento`y lo presenta en el mapa. Para validar pulsa el botón izquierdo y los puntos quedan incorporados al track. 
 
@@ -366,7 +366,7 @@ QMS calcula el itinerario de acuerdo a la configuración que has elegido en el p
 * El modo Vectorial es muy similar pero se apoya en las lineas de un mapa cargado. Pulsa `V`,y coloca el cursor sobre el camino del mapa que quieres seguir. Este se mostrará en amarillo. El dibujo del track se ajustará al trazado de ese camino copiando todos los vértices hasta el punto en el que hagas click. El modo Tracks funciona de forma identica.
 * Lo más practico suele ser empezar con el modo _Auto_, pasar ocasionalmente al modo _Vectorial_  o _Tracks_ para dibujar sobre un camino que aun no esta en la base de datos de enrutamiento pero sí esta en un mapa vectorial, o sobre otros tracks visibles, y en muy pocas ocasiones pasar al modo _O_ para dibujar punto a punto sobre un mapa raster o una ortofoto. 
 * Además en cualquier momento, y sin que se interrumpa el trazado, puedes: 
-    * _Alternar entre los modos de dibujo con las teclas `Ctrl+O` , `Ctrl+A` , `Ctrl+V`, `Ctrl+T`, o bien pinchando su correspondiente botón._
+    * _Alternar entre los modos de dibujo con las teclas `O` , `A` , `V`, `T`, o bien pinchando su correspondiente botón._
     * _Variar los parámetros de auto-ruteo e incluso cambiar de base de datos._
     * _Utilizar las herramientas del menú flotante para mover, añadir o borrar puntos de paso, y el trazado completo se adaptará en función del método de dibujo que tengas activo (O,A,V,T). El punto a mover tiene que ser uno de los que tú dibujaste, que se representa en pantalla con un cuadrado negro mas grande que el resto. Los puntos que QMS dibuja automáticamente se ven en pantalla con un puntito mas pequeño._ 
 

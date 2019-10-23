@@ -279,7 +279,7 @@ _Further information:_
   existing Routing databases (in the example `BE`).
 * Move the mouse to the starting point of the track in the map window.
 * Open the context  menu with a right click and select `Add Track`.
-* Press `Ctrl-A` on the keyboard (this selects the automatic routing mode).
+* Press `A` on the keyboard (this selects the automatic routing mode).
 * Move the mouse to the wanted next intermediate point of the track and fix it with a left click. An intermediate track segment is 
   automatically calculated in accordance with the selected routing options between the last two
   selected points. This segment is displayed in the map window.

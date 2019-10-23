@@ -70,7 +70,7 @@ Autorouting is the default routing setting in QMS.
 If by some reason autorouting might not be active, then proceed as follows:
 
 1. Right click in a map view and select `Add route` from context menu
-1. Press `CTRL-A` (this switches autorouting on)
+1. Press `A` (this switches autorouting on)
 1. Press twice `Esc` 
 
 ### Use list of routing points
@@ -96,7 +96,7 @@ If by some reason autorouting might not be active, then proceed as follows:
 1. Move the mouse pointer to the first waypoint of the route in the map view.
 1. Right-click the mouse and select `Add route` from the context menu which pops-up. A toolbox appears on the top of the map
    view.
-1. Press `CTRL-A` (autorouting), `CTRL-O` (off-road routing) or `CTRL-V` (vector routing) to select a routing method
+1. Press `A` (autorouting), `O` (off-road routing) or `V` (vector routing) to select a routing method
    (described in detail [here](#description-of-routing-methods-in-qmapshack)).
 1. Move the mouse pointer to the next waypoint of the route in the map view and left-click the mouse. After a
    short moment, the route connecting the selected waypoints is shown (maybe in form of a straight line). _Remark:_ The first waypoint is shown with a yellow border,
@@ -302,13 +302,13 @@ _Remark:_ These methods work in the same way for track and for route creation.
 
 * _Method 1:_ Off-road routing:
 
-    Select this method by clicking on the toolbar icon `O` or by pressing `CTRL-O` (easier!) after having defined the first routing point.
+    Select this method by clicking on the toolbar icon `O` or by pressing `O` (easier!) after having defined the first routing point.
 
     Selected waypoints are connected by straight line segments. Selections in the docked routing window are not used.
 
 * _Method 2:_ Auto(-matic) routing:
 
-    Select this method by clicking on the toolbar icon `A` or by pressing `CTRL-A` (easier!) after having defined the first routing point.
+    Select this method by clicking on the toolbar icon `A` or by pressing `A` (easier!) after having defined the first routing point.
 
     This method can be used only after special preparation of an offline router as described in the section
     [Routes](AdvSetup). The map is used only to locate the waypoints properly. Thus, raster maps (e.g.
@@ -323,7 +323,7 @@ _Remark:_ These methods work in the same way for track and for route creation.
 
 * _Method 3:_ Routing with vector map data (vector routing):
 
-    Select this method by clicking on the toolbar icon `V` or by pressing `CTRL-V` (easier!) after having defined the first routing point.
+    Select this method by clicking on the toolbar icon `V` or by pressing `V` (easier!) after having defined the first routing point.
     
     This method can be used only with a vector map. A routing database as described in method 2 is not required.
     As soon as 2 consecutive waypoints can be connected by a
@@ -347,7 +347,7 @@ _Remark:_ These methods work in the same way for track and for route creation.
 
     (_valid starting with commit 8c034c733bc4 (Tue Apr 10 13:32:45 2018 +0200)_)
     
-    Select this method by clicking on the toolbar icon `T` after having defined the first routing point.
+    Select this method by clicking on the toolbar icon `T` or by pressing `T` after having defined the first routing point.
     
     As soon as 2 consecutive waypoints can be connected by an existing part of a track contained in the map this track part is selected as part of the new route. If such a track part is not found in the map, then a straight line segment will be used to connect the waypoints.
     
