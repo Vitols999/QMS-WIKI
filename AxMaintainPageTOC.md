@@ -106,5 +106,7 @@ Markdown files (Wiki pages) can be rendered using various rendering engines: Git
 
 These rendering engines are using different rules for link/anchor building in the case of non-ASCII header lines. The given script creates TOC's for rendering in GitHub. TOC links for header lines with non-ASCII characters might be broken when using different rendering engines. 
 
+[Here](https://johnmacfarlane.net/babelmark2/?text=%5BGo+to+the+anchor%5D(%23i-have-an-anchor)%0A%0A%23+%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5+%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8+QMS) you can see some of the rendering differences.
+
 - - -
 [Prev](AxMaintainIndex) (Maintaining the QMS Wiki Index) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Playground - start your new Wiki page) [Next](DocPlayground)
