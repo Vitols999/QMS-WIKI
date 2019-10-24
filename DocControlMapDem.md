@@ -62,7 +62,7 @@ Not really map related but workspace related:
 * **Flip Mouse Wheel** This will change the zoom in and zoom out direction.
 * **Ext. Profile** Switch on the extended profile view in an own window.
 * **Setup Map Font** This will change the font used for any text drawn on the map.
-* **Setup Units** Change the unit system to metric, imperial or nautical
+* **Setup Units** Change the unit system to metric, imperial, nautical, or aviation.
 * **Setup Grid** Setup the projection of the grid overlay.
 * **Setup Map Workspace** Setup the projection of the current workspace. The default is Mercator/WGS84.
 * **Setup Time Zone** Setup the current timezone or automatic time zone selection.

@@ -136,7 +136,7 @@ The following setup options change the layout of all map windows:
 
 * Menu `View - Setup map font`: In the pop-up window select the font and its properties used for text in map objects
 * Menu `View - Setup map background`: In the pop-up window select the color of the map background
-* Menu `View - Setup units`: In the pop-up window select the length unit (nautical, imperial, metric) and the slope unit (% or °). 
+* Menu `View - Setup units`: In the pop-up window select the length unit (nautical, imperial, metric, aviation) and the slope unit (% or °). 
   _Hint:_ Changes may take effect only after a QMS restart
 * Menu `View - Setup grid`: 
     * Select the color of the map grid with the help of the palette icon
