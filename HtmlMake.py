@@ -95,9 +95,15 @@ class AddHtmlExt(Preprocessor):
                                              # python-markdown doesn't use this character in the ID
                                              # Thus, it is dropped from TOC links
         
+        ReQMT = re.compile(r'\]\(QMTDocMain "QMapTool documentation"') # Github finds pages in subdirectories
+                                             # without explicit addressing the subdirectory, HTML version needs it.
+                                             
+        
         for line in InLines:                 # Process whole input file.
             
             line = ReImg.sub("](#", line)    # drop leading "-" in TOC link
+               
+            line = ReQMT.sub('](QMapTool/QMTDocMain "QMapTool documentation"', line) # Insert subdirectory name
                
             OutLines.append(ReExt.sub(r'\1\3', ReUrl.sub(r'\1.html\3',line)))
 
