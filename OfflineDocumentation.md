@@ -6,7 +6,7 @@
 * [Using Offline Documentation](#using-offline-documentation)
     * [Prerequisites](#prerequisites)
     * [Building the `*.html` files](#building-the-html-files)
-* [!bash](#bash)
+    * [QMapTool documentation](#qmaptool-documentation)
 
 * * * * * * * * * *
  
