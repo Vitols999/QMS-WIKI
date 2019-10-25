@@ -72,12 +72,11 @@ variable assignment we are used from normal programming languages, while
 
 ## Building the `*.html` files
 
-Change into the `QMapShack-doc` directory containing the offline documentation
+Open a bash shell window, change into the `QMapShack-doc` directory containing the offline documentation
 and issue the commands
 
 
 ```
-#!bash
 cd QMapShack-doc
 make doc
 _YourBrowser_ DocMain.html
@@ -96,7 +95,9 @@ creating a command alias from the last command line above by executing
 
 because in that case the argument passed to your browser must be interpretable as a Windows path.
 
+## QMapTool documentation
 
+The offline QMapTool documentation is located in the `QMapShack-doc/QMapTool` directory. To create navigation bars and HTML files for the files in this subdirectory change to this subdirectory and proceed as described above for QMS. 
 
 
 ///Footnotes Go Here///
