@@ -1,6 +1,6 @@
 [Prev](DocGettingStarted) (Getting started) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Install Maps & DEM Data) [Next](DocInstallMapDem)
 - - -
- 
+
 ***Table of contents***
 
 * [List of options](#list-of-options)

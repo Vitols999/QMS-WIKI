@@ -1,6 +1,6 @@
 [Prev](DocFaqMaps) (Maps) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Reporting a bug) [Next](ReportBugs)
 - - -
- 
+
 ***Table of contents***
 
 * [Troubleshooting](#troubleshooting)

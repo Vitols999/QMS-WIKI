@@ -1,6 +1,6 @@
 [Prev](AxMaintainPageTOC) (Maintaining TOC's on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Hotkeys) [Next](AxHotkeys)
 - - -
- 
+
 ***Table of contents***
 
 * [The Playground](#the-playground)

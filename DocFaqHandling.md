@@ -1,6 +1,6 @@
 [Prev](DocFaqData) (Databases and projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Routing) [Next](DocFaqRouting)
 - - -
- 
+
 ***Table of contents***
 
 * [Frequently Asked Questions - Data handling](#frequently-asked-questions---data-handling)

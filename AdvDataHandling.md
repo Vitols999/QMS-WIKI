@@ -1,6 +1,6 @@
 [Prev](DocMapsTipsRasterDEM) (Tips & tricks for raster maps, vector maps, and elevation data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Tracks) [Next](AdvTracks)
 - - -
- 
+
 ***Table of contents***
 
 * [Data handling](#data-handling)

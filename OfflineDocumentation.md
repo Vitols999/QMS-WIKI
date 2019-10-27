@@ -1,6 +1,6 @@
-[Prev](Ubuntu-18-HowTo) (Compile Instructions for Ubuntu-18) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Getting started) [Next](DocGettingStarted)
+[Prev](BuildOSX) (Compile Instructions for OSX) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Getting started) [Next](DocGettingStarted)
 - - -
- 
+
 ***Table of contents***
 
 * [Using Offline Documentation](#using-offline-documentation)
@@ -102,4 +102,4 @@ The offline QMapTool documentation is located in the `QMapShack-doc/QMapTool` di
 
 ///Footnotes Go Here///
 - - -
-[Prev](Ubuntu-18-HowTo) (Compile Instructions for Ubuntu-18) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Getting started) [Next](DocGettingStarted)
+[Prev](BuildOSX) (Compile Instructions for OSX) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Getting started) [Next](DocGettingStarted)

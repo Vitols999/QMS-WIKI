@@ -1,6 +1,6 @@
 [Prev](AdvProjActions) (General Actions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Tips & tricks for online maps) [Next](DocMapsTipsOnline)
 - - -
- 
+
 ***Table of contents***
 
 * [Details of map use](#details-of-map-use)

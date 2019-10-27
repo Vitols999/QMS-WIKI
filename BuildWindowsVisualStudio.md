@@ -1,6 +1,6 @@
 [Prev](BuildWindowsVisualStudio2013) (Compile Instructions for Windows with VisualStudio 2013) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Ubuntu-14.04) [Next](Ubuntu-14.04-HowTo)
 - - -
- 
+
 ***Table of contents***
 
 * [Compiling and Building QMapShack for Windows](#compiling-and-building-qmapshack-for-windows)

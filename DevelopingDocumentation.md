@@ -1,6 +1,6 @@
 [Prev](DeveloperTranslate) (Add translations) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Recommendations for editing QMS Wiki pages) [Next](AxMaintainAutoPages)
 - - -
- 
+
 ***Table of contents***
 
 * [Developing Documentation](#developing-documentation)

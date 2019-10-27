@@ -1,6 +1,6 @@
 [Prev](DocMapsTipsOnline) (Tips & tricks for online maps) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Data handling) [Next](AdvDataHandling)
 - - -
- 
+
 ***Table of contents***
 
 * [Tips & tricks for raster maps, vector maps, and elevation data](#tips--tricks-for-raster-maps-vector-maps-and-elevation-data)

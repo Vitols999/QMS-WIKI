@@ -1,6 +1,6 @@
 [Prev](DocFaqConfig) (Configuring and running) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Data handling) [Next](DocFaqHandling)
 - - -
- 
+
 ***Table of contents***
 
 * [Frequently Asked Questions - Databases and projects](#frequently-asked-questions---databases-and-projects)

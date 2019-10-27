@@ -113,13 +113,19 @@ ___Basic usage___
       * [Start QMapShack](Ubuntu-18-HowTo#start-qmapshack)
         
         
+    * [Compile Instructions for OSX](BuildOSX)  
+         1. Compilation|OSX
+         1. Mac OSX|compilation         
+    
     * [Create Offline Documentation](OfflineDocumentation)
          1. Documentation|create off-line version
     
         * [Prerequisites](OfflineDocumentation#prerequisites)
         * [Building the `*.html` files](OfflineDocumentation#building-the-html-files)
         * Building HTML files
-            1. Documentation|building HTML off-line version     
+            1. Documentation|building HTML off-line version 
+        * [QMapTool documentation](OfflineDocumentation#qmaptool-documentation) 
+                    
         
 * [Using QMapShack](Don'tInsertIndexEntriesHere)
     * [Getting started](DocGettingStarted)

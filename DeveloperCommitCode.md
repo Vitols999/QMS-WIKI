@@ -1,6 +1,6 @@
 [Prev](DeveloperCodingGuideline) (Coding Guideline) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Add translations) [Next](DeveloperTranslate)
 - - -
- 
+
 ***Table of contents***
 
 * [Commit Code](#commit-code)

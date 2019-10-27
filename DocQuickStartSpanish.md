@@ -1,6 +1,6 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
- 
+
 ***Table of contents***
 
 * [Guía de inicio](#guía-de-inicio)

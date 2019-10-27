@@ -26,6 +26,7 @@ Users can find short quickstart help here:
     * [Compile Instructions for Windows with VisualStudio 2017](BuildWindowsVisualStudio)
     * [Compile Instructions for Ubuntu-14.04](Ubuntu-14.04-HowTo)
     * [Compile Instructions for Ubuntu-18](Ubuntu-18-HowTo)
+    * [Compile Instructions for OSX](BuildOSX)
     * [Create Offline Documentation](OfflineDocumentation)
 
 * Using QMapShack

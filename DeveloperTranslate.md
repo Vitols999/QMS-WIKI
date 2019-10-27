@@ -1,6 +1,6 @@
 [Prev](DeveloperCommitCode) (Commit Code) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Developing Documentation) [Next](DevelopingDocumentation)
 - - -
- 
+
 ***Table of contents***
 
 * [HOWTO enable/disable source translations extraction](#howto-enabledisable-source-translations-extraction)

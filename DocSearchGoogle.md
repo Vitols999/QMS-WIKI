@@ -1,6 +1,6 @@
 [Prev](DocHandleGpxFiles) (Handle GPX and QMS files) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Tracks, Waypoints & Co) [Next](DocGisItems)
 - - -
- 
+
 ***Table of contents***
 
 * [Geosearch](#geosearch)

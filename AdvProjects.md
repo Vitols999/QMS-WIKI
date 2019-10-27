@@ -1,6 +1,6 @@
 [Prev](DocGisTemplates) (Text Editor Templates) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (General Actions) [Next](AdvProjActions)
 - - -
- 
+
 ***Table of contents***
 
 * [Databases and projects](#databases-and-projects)

@@ -1,6 +1,6 @@
 [Prev](DocGetQMapShack) (Install QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Windows with VisualStudio 2017) [Next](BuildWindowsVisualStudio)
 - - -
- 
+
 ***Table of contents***
 
 * [Compiling and Building QMapShack for Windows](#compiling-and-building-qmapshack-for-windows)

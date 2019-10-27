@@ -1,6 +1,6 @@
 [Prev](DocGisDevices) (GPS Devices) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Databases and projects) [Next](AdvProjects)
 - - -
- 
+
 ***Table of contents***
 
 * [Text Editor Templates](#text-editor-templates)

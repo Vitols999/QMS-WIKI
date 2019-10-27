@@ -1,6 +1,6 @@
 [Prev](DocFaq) (Frequently Asked Questions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Databases and projects) [Next](DocFaqData)
 - - -
- 
+
 ***Table of contents***
 
 * [Frequently Asked Questions - Configuring and running QMapShack](#frequently-asked-questions---configuring-and-running-qmapshack)

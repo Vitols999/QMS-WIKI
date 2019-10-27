@@ -46,9 +46,11 @@ ___Do not edit - automatically created from DocMain!___
         * [Initial build of Routino](Ubuntu-18-HowTo#initial-build-of-routino)
         * [Initial build of QMapShack](Ubuntu-18-HowTo#initial-build-of-qmapshack)
         * [Start QMapShack](Ubuntu-18-HowTo#start-qmapshack)
+    * [Compile Instructions for OSX](BuildOSX)
     * [Create Offline Documentation](OfflineDocumentation)
         * [Prerequisites](OfflineDocumentation#prerequisites)
         * [Building the `*.html` files](OfflineDocumentation#building-the-html-files)
+        * [QMapTool documentation](OfflineDocumentation#qmaptool-documentation)
 * Using QMapShack
     * [Getting started](DocGettingStarted)
         * [Add maps](DocGettingStarted#add-maps)

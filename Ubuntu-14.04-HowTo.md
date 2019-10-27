@@ -1,6 +1,6 @@
 [Prev](BuildWindowsVisualStudio) (Compile Instructions for Windows with VisualStudio 2017) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Ubuntu-18) [Next](Ubuntu-18-HowTo)
 - - -
- 
+
 ***Table of contents***
 
 * [Build](#build)

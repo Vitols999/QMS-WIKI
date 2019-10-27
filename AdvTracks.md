@@ -1,6 +1,6 @@
 [Prev](AdvDataHandling) (Data handling) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (General information about tracks) [Next](AdvTrkGeneral)
 - - -
- 
+
 ***Table of contents***
 
 * [Tracks](#tracks)

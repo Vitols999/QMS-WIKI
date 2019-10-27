@@ -1,6 +1,6 @@
 [Prev](AdvProjects) (Databases and projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Details of map use) [Next](AdvMapDetails)
 - - -
- 
+
 ***Table of contents***
 
 * [General actions](#general-actions)

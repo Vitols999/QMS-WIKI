@@ -1,6 +1,6 @@
 [Prev](DocGisItemsRte) (Routes) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Areas) [Next](DocGisItemsArea)
 - - -
- 
+
 ***Table of contents***
 
 * [Waypoints](#waypoints)

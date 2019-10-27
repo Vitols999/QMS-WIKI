@@ -1,6 +1,6 @@
 [Prev](AdvRoutes) (Routes and Routing) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Overview of setup and configuration options) [Next](AdvSetup)
 - - -
- 
+
 ***Table of contents***
 
 * [Realtime applications](#realtime-applications)

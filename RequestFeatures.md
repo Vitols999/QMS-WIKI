@@ -1,6 +1,6 @@
 [Prev](ReportBugs) (Reporting a bug) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Coding Guideline) [Next](DeveloperCodingGuideline)
 - - -
- 
+
 ***Table of contents***
 
 * [Preface](#preface)

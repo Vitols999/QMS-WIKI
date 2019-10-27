@@ -1,6 +1,6 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
- 
+
 ***Table of contents***
 
 * [Activity Brainstorming](#activity-brainstorming)

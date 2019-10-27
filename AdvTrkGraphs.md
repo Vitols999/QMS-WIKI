@@ -1,6 +1,6 @@
 [Prev](AdvTrkFilters) (Track filters) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Editing elevation data) [Next](AdvTrkElevation)
 - - -
- 
+
 ***Table of contents***
 
 * [Working with track graphs](#working-with-track-graphs)

@@ -1,6 +1,6 @@
 [Prev](DocMapDemSources) (Sources of QMapShack-compatible maps and elevation data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Handle GPX and QMS files) [Next](DocHandleGpxFiles)
 - - -
- 
+
 ***Table of contents***
 
 * [Working with Projects](#working-with-projects)

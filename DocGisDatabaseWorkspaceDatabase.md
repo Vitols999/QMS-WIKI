@@ -1,6 +1,6 @@
 [Prev](DocGisDatabase) (Database) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Add/Remove/Synchronize/Search a Database) [Next](DocGisDatabaseAddRemove)
 - - -
- 
+
 ***Table of contents***
 
 * [The Workspace and the Database](#the-workspace-and-the-database)

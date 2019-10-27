@@ -1,6 +1,6 @@
 [Prev](AdvRealtime) (Realtime data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Overview of toolbar actions) [Next](AdvToolbarAct)
 - - -
- 
+
 ***Table of contents***
 
 * [Overview of setup and configuration options](#overview-of-setup-and-configuration-options)

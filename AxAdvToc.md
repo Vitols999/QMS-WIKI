@@ -93,9 +93,11 @@ ___Do not edit - automatically created from DocMain!___
         * [Initial build of QMapShack](Ubuntu-18-HowTo#initial-build-of-qmapshack)
             * [Update of QMapShack when something has changed in future](Ubuntu-18-HowTo#update-of-qmapshack-when-something-has-changed-in-future)
         * [Start QMapShack](Ubuntu-18-HowTo#start-qmapshack)
+    * [Compile Instructions for OSX](BuildOSX)
     * [Create Offline Documentation](OfflineDocumentation)
         * [Prerequisites](OfflineDocumentation#prerequisites)
         * [Building the `*.html` files](OfflineDocumentation#building-the-html-files)
+        * [QMapTool documentation](OfflineDocumentation#qmaptool-documentation)
 * Using QMapShack
     * [Getting started](DocGettingStarted)
         * [Add maps](DocGettingStarted#add-maps)

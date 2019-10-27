@@ -1,6 +1,6 @@
 [Prev](DocGisItemsNew) (Create new tracks, waypoints etc.) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Routes) [Next](DocGisItemsRte)
 - - -
- 
+
 ***Table of contents***
 
 * [Tracks](#tracks)

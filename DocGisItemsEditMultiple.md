@@ -1,6 +1,6 @@
 [Prev](DocGisItemsArea) (Areas) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Database) [Next](DocGisDatabase)
 - - -
- 
+
 ***Table of contents***
 
 * [Edit items with multiple points (tracks, routes, areas)(valid from version 1.3.0 or later)](#edit-items-with-multiple-points-tracks-routes-areasvalid-from-version-130-or-later)

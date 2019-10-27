@@ -1,6 +1,6 @@
 [Prev](DocControlMapDem) (Control maps and DEM files) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Working with Projects) [Next](DocWorkingWithProjects)
 - - -
- 
+
 ***Table of contents***
 
 * [Sources of QMapShack-compatible maps and elevation data](#sources-of-qmapshack-compatible-maps-and-elevation-data)

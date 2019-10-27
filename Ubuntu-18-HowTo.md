@@ -1,6 +1,6 @@
-[Prev](Ubuntu-14.04-HowTo) (Compile Instructions for Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Create Offline Documentation) [Next](OfflineDocumentation)
+[Prev](Ubuntu-14.04-HowTo) (Compile Instructions for Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for OSX) [Next](BuildOSX)
 - - -
- 
+
 ***Table of contents***
 
 * [Initial build Routino and QMapShack](#initial-build-routino-and-qmapshack)
@@ -109,4 +109,4 @@ More information about developing of QMapShack will be found in chapter "Develop
 
 
 - - -
-[Prev](Ubuntu-14.04-HowTo) (Compile Instructions for Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Create Offline Documentation) [Next](OfflineDocumentation)
+[Prev](Ubuntu-14.04-HowTo) (Compile Instructions for Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Compile Instructions for OSX) [Next](BuildOSX)

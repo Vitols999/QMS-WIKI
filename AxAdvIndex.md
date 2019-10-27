@@ -81,6 +81,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Compilation, Linux**
 :  [Compiling and Installing](DocGetQMapShack#compiling-and-installing "Compiling and Installing")
 
+**Compilation, OSX**
+:  [Compile Instructions for OSX](BuildOSX "Compile Instructions for OSX")
+
 **Compilation, Ubuntu-18.04**
 :  [Compile Instructions for Ubuntu-18](Ubuntu-18-HowTo "Compile Instructions for Ubuntu-18")
 
@@ -320,11 +323,11 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Elevation, edit**
 :  [Edit track elevation](AdvTrkElevation#manually-edit-elevation-of-a-track-point "Edit track elevation")
 
-**Elevation, Filter**
-:  [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
-
 **Elevation, filter**
 :  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
+
+**Elevation, Filter**
+:  [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
 
 **Elevation, invalid data**
 :  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
@@ -580,6 +583,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 ## M
 
+
+**Mac OSX, compilation**
+:  [Compile Instructions for OSX](BuildOSX "Compile Instructions for OSX")
 
 **Main window, layout**
 :  [Getting started](DocGettingStarted "Getting started")

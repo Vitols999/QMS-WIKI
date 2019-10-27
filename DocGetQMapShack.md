@@ -1,6 +1,6 @@
 [Prev](DocMain) (Manual) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Windows with VisualStudio 2013) [Next](BuildWindowsVisualStudio2013)
 - - -
- 
+
 ***Table of contents***
 
 * [Install QMapShack](#install-qmapshack)
