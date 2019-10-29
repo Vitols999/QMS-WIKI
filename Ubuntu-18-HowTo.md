@@ -29,7 +29,7 @@ cd ~/GPS
 
 ## Installation of needed build packages
 ```
-sudo apt-get install cmake build-essential subversion mercurial qt5-default qttools5-dev libqt5webkit5-dev qtscript5-dev qttools5-dev-tools libgdal-dev libproj-dev libghc-bzlib-dev libgraphics-magick-perl libquazip5-dev libqt5sql5-mysql gdal-bin qtwebengine5-dev
+sudo apt-get install cmake build-essential subversion git qt5-default qttools5-dev libqt5webkit5-dev qtscript5-dev qttools5-dev-tools libgdal-dev libproj-dev libghc-bzlib-dev libgraphics-magick-perl libquazip5-dev libqt5sql5-mysql gdal-bin qtwebengine5-dev
 ```
 
 **Remark:**
@@ -72,7 +72,7 @@ cd
 
 ## Initial build of QMapShack
 ```
-hgit clone https://github.com/Maproom/qmapshack.git QMapShack
+git clone https://github.com/Maproom/qmapshack.git QMapShack
 mkdir build_QMapShack
 cd build_QMapShack
 cmake ../QMapShack
