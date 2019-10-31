@@ -1,3 +1,6 @@
+#! python3
+# -*- coding: utf-8 -*-
+
 
 # Add or update TOC to all Wiki pages
 

@@ -1,3 +1,6 @@
+#! python3
+# -*- coding: utf-8 -*-
+
 # Prepare abbreviated table of contents for use in Wiki sidebar
 
 # Procedure:
