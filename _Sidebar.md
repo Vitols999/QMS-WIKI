@@ -3,7 +3,7 @@
 
 
 
-* [Latest QMapShack release](https://github.com/Maproom/qmapshack/releases/tag/V_1.13.2)
+* [Latest QMapShack release](https://github.com/Maproom/qmapshack/releases)
 * [QMapShack Wiki homepage](https://github.com/Maproom/qmapshack/wiki)
 * [QMapShack Quickstart German](https://github.com/Maproom/qmapshack/wiki/DocQuickStartGerman)
 * [QMapShack Quickstart English](https://github.com/Maproom/qmapshack/wiki/DocQuickStartEnglish)
