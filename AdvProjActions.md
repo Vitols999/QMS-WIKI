@@ -11,6 +11,7 @@
         * [Merge projects](#merge-projects)
         * [Copy project](#copy-project)
         * [Save project](#save-project)
+        * [Active projects](#active-projects)
         * [Edit project metadata](#edit-project-metadata)
     * [Working with project roadbook    ](#working-with-project-roadbook)
 
@@ -112,6 +113,19 @@ To move a project from the workspace into a group in a database and keep the wor
 * _Save (export) project as part of a database:_
 
     See section ["Export database to GPX file"](AdvProjActions#export-database-to-gpx-file)!
+
+
+### Active projects
+
+When creating a new GIS object (waypoint, track, route, area) it must be assigned to an existing or new project in the workspace. 
+
+With the help of the context menu `Active project` of a project in the workspace one and only one project can be selected as the target of new GIS objects. This makes the creation of a bigger number of GIS objects (especially waypoints) much faster.
+
+An active project in the workspace is labeled with a yellow star in front of the project name.
+
+If a different project should be made active, then simply select the context menu `Active project` of that project.
+
+Selecting again the context menu `Active project` for an already active project removes this feature from the project. When after that creating a new GIS object the target project is again queried during the creation process.
 
 
 ### Edit project metadata

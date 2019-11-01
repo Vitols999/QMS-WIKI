@@ -605,6 +605,10 @@ ___Basic usage___
                 1. GPX|save project as GPX
                 1. Menu|File - Save all GIS data
                 
+            * [Active projects](AdvProjActions#active-projects)    
+                1. Project|active
+                1. Active project|create new data
+                
             * [Edit project metadata](AdvProjActions#edit-project-metadata)
                 1. Project|edit metadata
 

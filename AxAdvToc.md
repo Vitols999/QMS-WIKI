@@ -224,6 +224,7 @@ ___Do not edit - automatically created from DocMain!___
             * [Merge projects](AdvProjActions#merge-projects)
             * [Copy project](AdvProjActions#copy-project)
             * [Save project](AdvProjActions#save-project)
+            * [Active projects](AdvProjActions#active-projects)
             * [Edit project metadata](AdvProjActions#edit-project-metadata)
         * [Working with project roadbook    ](AdvProjActions#working-with-project-roadbook)
 * [Details of map use](AdvMapDetails)

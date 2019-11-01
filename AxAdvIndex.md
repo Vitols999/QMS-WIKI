@@ -31,6 +31,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 ## A
 
 
+**Active project, create new data**
+:  [Active projects](AdvProjActions#active-projects "Active projects")
+
 **Activity, assign color to**
 :  [Assign colors to track activities](AdvTrkGeneral#assign-colors-to-track-activities "Assign colors to track activities") ⊞ [Track activity](DocGisItemsTrk2#activity "Track details, activity tab")
 
@@ -859,6 +862,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **POI, use as waypoint**
 :  [Create waypoint from POI](DocFaqHandling#how-to-create-waypoint-from-poi-point-of-interest-in-map "Create waypoint from POI")
+
+**Project, active**
+:  [Active projects](AdvProjActions#active-projects "Active projects")
 
 **Project, copy**
 :  [Copy project](AdvProjActions#copy-project "Copy project")

@@ -6,6 +6,9 @@
 **Activity**
 : Means of motion (pedestrian, bicycle, car, ...) for part (range) of a track.
 
+**Active project**
+: A single project in the workspace into which newly created GIS objects are saved.
+
 **BRouter**
 : Router application for finding a route between two points using the topographical data from OpenStreetMap. The router can
 
