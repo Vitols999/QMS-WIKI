@@ -11,8 +11,6 @@
         * [C0.) Install Microsoft Visual Studio 2017 (short: VS2017)](#c0-install-microsoft-visual-studio-2017-short-vs2017)
         * [C1.) Compile the GDAL library, http://www.gdal.org/](#c1-compile-the-gdal-library-httpwwwgdalorg)
         * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](#c2-compile-the-proj-library-httptracosgeoorgproj)
-            * [C2.1.) - for QMapShack before version 1.13.0](#c21---for-qmapshack-before-version-1130)
-            * [C2.2.) - for QMapShack from version V1.13.0](#c22---for-qmapshack-from-version-v1130)
         * [C3.) Compile the routino library http://www.routino.org](#c3-compile-the-routino-library-httpwwwroutinoorg)
         * [C4.) Install Qt5.11 or above http://qt-project.org](#c4-install-qt511-or-above-httpqt-projectorg)
         * [C5.) Compile the QuaZip library https://stachenov.github.io/quazip/](#c5-compile-the-quazip-library-httpsstachenovgithubioquazip)
@@ -143,30 +141,6 @@ If you need support for formats such as WCS, WMS, WMTS, MBTiles: see
 ~~~~
 
 ### C2.) Compile the PROJ library http://trac.osgeo.org/proj/
-
-#### C2.1.) - for QMapShack before version 1.13.0
-
-(_compare_ [https://bitbucket.org/maproom/qmapshack/commits/c3f51f1bb46c8ec25b3ec02daa4b21251df01b76](https://bitbucket.org/maproom/qmapshack/commits/c3f51f1bb46c8ec25b3ec02daa4b21251df01b76))
-
-- Download the source code of the version 5.1 (or latest)
-  from http://trac.osgeo.org/proj/ and unzip it
-- In nmake.opt, adapt the following lines,
-  according to your build environment [my settings are given as example]
-~~~~
-  INSTDIR=M:\lib2017\PROJ
-~~~~
-- On the Windows Desktop:
-  select Start | All Programs | Visual Studio 2017 | VS 2017 x64 Native Tools Command Prompt.
-- in the command prompt:
-  change directory to the extracted PROJ4 source code root folder:
-~~~~
-  nmake /f makefile.vc
-  nmake /f makefile.vc install-all
-~~~~
-
-#### C2.2.) - for QMapShack from version V1.13.0
-
-(_compare_ [https://bitbucket.org/maproom/qmapshack/commits/c3f51f1bb46c8ec25b3ec02daa4b21251df01b76](https://bitbucket.org/maproom/qmapshack/commits/c3f51f1bb46c8ec25b3ec02daa4b21251df01b76))
 
 - Download the source code of the version 6.0 (or latest)
   from https://proj4.org/ and unzip it
