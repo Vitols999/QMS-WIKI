@@ -3,6 +3,7 @@
 
 ***Table of contents***
 
+* [Process for Contributing Code](#process-for-contributing-code)
 * [Commit Code](#commit-code)
     * [Fork the repository](#fork-the-repository)
     * [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
@@ -15,20 +16,40 @@
     * [Rebase your branch](#rebase-your-branch)
 
 * * * * * * * * * *
- 
-- [Commit Code](#commit-code)
-  - [Fork the repository](#fork-the-repository)
-  - [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
-  - [Configure Git to sync your fork with the original QMapShack repository](#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
-  - [Keep your fork synced](#keep-your-fork-synced)
-  - [Open a new branch](#open-a-new-branch)
-  - [Commit changes locally](#commit-changes-locally)
-    - [Change commits](#change-commits)
-  - [Push your commits](#push-your-commits)
-  - [Rebase your branch](#rebase-your-branch)
+# Process for Contributing Code
 
+* Create a ticket
+* Use the ticket template even if you intend to work on the ticket. 
+  And also if it is just a small fix. Violating that rule will encourage 
+  others to do it as well. In the end fundamental information and 
+  documentation is missing. A ticket that does not stick to that rule
+  might be closed without further notice.
+* Add the ticket number `QMS-XX` to each of your commits at the start
+  of the short headline. And a meaningful description of what the commit 
+  does.
+* It's ok to have several commits if they form logical groups that 
+  are kind of independent from each other. If not squash your commits.
+* Open a pull request. Add the ticket number and the ticket headline
+  as pull request headline.
+* Use the template questionnaire to describe your pull request and to 
+  check if you did not forget anything basic. Any pull request ignoring 
+  this will be closed asap.
+* From that point on the usual review procedure will take place. 
 
 # Commit Code
+
+- [Fork the repository](#fork-the-repository)
+- [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
+- [Configure Git to sync your fork with the original QMapShack repository](#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
+- [Keep your fork synced](#keep-your-fork-synced)
+- [Open a new branch](#open-a-new-branch)
+- [Commit changes locally](#commit-changes-locally)
+  - [Change commits](#change-commits)
+- [Push your commits](#push-your-commits)
+- [Rebase your branch](#rebase-your-branch)
+
+
+
 
 **Fundamental rules:**
 * **You need a GitHub account**
