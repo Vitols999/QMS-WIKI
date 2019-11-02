@@ -18,38 +18,51 @@
 * * * * * * * * * *
 # Process for Contributing Code
 
+**Naming:**
+
+* ticket = issue 
+* bug = issue = ticket
+* enhancement = feature = issue = ticket
+
+Yeah, I know. It's confusing.
+
+**Process:**
+
 * Create a ticket
 * Use the ticket template even if you intend to work on the ticket. 
   And also if it is just a small fix. Violating that rule will encourage 
   others to do it as well. In the end fundamental information and 
   documentation is missing. A ticket that does not stick to that rule
   might be closed without further notice.
-* Add the ticket number `QMS-XX` to each of your commits at the start
+* Use the ticket number `QMS-XX` as name for your branch. See also: 
+  [Open a new branch](#open-a-new-branch)
+* Add the ticket number `[QMS-XX]` to each of your commits at the start
   of the short headline. And a meaningful description of what the commit 
-  does.
+  does, e.g:
+  ```
+        [QMS-8] Incorrect elevation for fit files from GPSMAP 66s
+    
+        Couldn't really determine the root cause. However the fields
+        `eRecordEnhancedSpeed` and `eRecordEnhancedAltitude`
+        seemed to be decoded twice in each trackpoint record. Can't tell if
+        this is a bug in QMS or the device. Anyway, if the code ignores the
+        second set everything seems to be fine.
+  ```
+
 * It's ok to have several commits if they form logical groups that 
   are kind of independent from each other. If not squash your commits.
+
+  What is meant by `logical group`? Ask yourself if the commit could 
+  be cherry picked from another branch without breaking anything. If 
+  it could, it's worth a single commit.
 * Open a pull request. Add the ticket number and the ticket headline
-  as pull request headline.
+  as pull request headline. e.g: `[QMS-8] Incorrect elevation for fit files from GPSMAP 66s`
 * Use the template questionnaire to describe your pull request and to 
   check if you did not forget anything basic. Any pull request ignoring 
-  this will be closed asap.
+  this will be closed ASAP.
 * From that point on the usual review procedure will take place. 
 
 # Commit Code
-
-- [Fork the repository](#fork-the-repository)
-- [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
-- [Configure Git to sync your fork with the original QMapShack repository](#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
-- [Keep your fork synced](#keep-your-fork-synced)
-- [Open a new branch](#open-a-new-branch)
-- [Commit changes locally](#commit-changes-locally)
-  - [Change commits](#change-commits)
-- [Push your commits](#push-your-commits)
-- [Rebase your branch](#rebase-your-branch)
-
-
-
 
 **Fundamental rules:**
 * **You need a GitHub account**
