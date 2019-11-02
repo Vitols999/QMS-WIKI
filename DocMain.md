@@ -90,7 +90,7 @@ Users can find short quickstart help here:
 ## Developing QMapShack
 
 * [Coding Guideline](DeveloperCodingGuideline)
-* [Commit Code](DeveloperCommitCode)
+* [Contribute Code](DeveloperCommitCode)
 * [Add translations](DeveloperTranslate)
 * [Developing Documentation](DevelopingDocumentation)
     * [Recommendations for editing QMS Wiki pages](AxMaintainAutoPages)
