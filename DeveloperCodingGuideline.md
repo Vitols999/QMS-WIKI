@@ -1,4 +1,4 @@
-[Prev](RequestFeatures) (Requesting a feature) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Commit Code) [Next](DeveloperCommitCode)
+[Prev](RequestFeatures) (Requesting a feature) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Contribute Code) [Next](DeveloperCommitCode)
 - - -
 
 ***Table of contents***
@@ -97,4 +97,4 @@ No one likes them but it helps to read and maintain the code. Thus please stick 
 
 
 - - -
-[Prev](RequestFeatures) (Requesting a feature) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Commit Code) [Next](DeveloperCommitCode)
+[Prev](RequestFeatures) (Requesting a feature) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Contribute Code) [Next](DeveloperCommitCode)

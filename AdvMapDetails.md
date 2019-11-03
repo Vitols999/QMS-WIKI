@@ -58,17 +58,29 @@ _Comments:_
 After activating elevation data (DEM data), some properties that control the display of this data in a map view
 can be adjusted.
 
-The following image shows the layout of the various selection possibilities:
+The following image shows the layout of the various selection possibilities in the DEM window:
 
 ![DEM properties selection](images/DocAdv/DemProperties.jpg "Elevation data properties selection")
 
+*List of properties (from top to bottom):*
+
+* Filter to find your DEM data set in the list of loaded DEM data sets (type the name of the DEM data into the edit field)
+* Name of DEM data. A small triangle in front of the name indicates that the DEM data is active, i.e. used by QMS. Clicking the triangle opens the adjustable properties for this DEM data:
+    * Opacity
+    * Visibility range
+    * Hill shading intensity
+    * Slope selection
+    * Slope colors and custom slope settings
+    * Elevation limit
+
 _Comments:_
 
-* The opacity slider controls the visibility of hill shading and slope on a map.
-* The visibility range controls the zoom levels for which hill shading and slope are displayed.
-* The level of hill shading controls the intensity used for the display of hill shading.
+* The opacity slider controls the visibility (opacity of the hill shading, slope and elevation limit layers on a map.
+* The visibility range controls the zoom levels for which hill shading, slope and elevation limit layers are displayed.
+* The hill shading slider controls the intensity used for the display of hill shading.
 * The slope selection allows to choose one of the predefined slope models. In the case of the "__custom__" model
-  the user can define 5 slope levels.
+  the user can define 5 personal slope levels (click on a value and adjust it).
+* If the elevation limit property is selected, then an extra magenta-colored layer is drawn on the map showing areas above the given limit. This is of special interest when planning aviation routes.
 
 
 ## Map scale type

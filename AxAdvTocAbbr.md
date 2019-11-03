@@ -228,7 +228,7 @@ ___Do not edit - automatically created from DocMain!___
 
 
 * [Coding Guideline](DeveloperCodingGuideline)
-* [Commit Code](DeveloperCommitCode)
+* [Contribute Code](DeveloperCommitCode)
     * [Fork the repository](DeveloperCommitCode#fork-the-repository)
     * [Create a local clone of your fork](DeveloperCommitCode#create-a-local-clone-of-your-fork)
     * [Configure Git to sync your fork with the original QMapShack repository](DeveloperCommitCode#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)

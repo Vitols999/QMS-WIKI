@@ -57,8 +57,6 @@ ___Do not edit - automatically created from DocMain!___
             * [C0.) Install Microsoft Visual Studio 2017 (short: VS2017)](BuildWindowsVisualStudio#c0-install-microsoft-visual-studio-2017-short-vs2017)
             * [C1.) Compile the GDAL library, http://www.gdal.org/](BuildWindowsVisualStudio#c1-compile-the-gdal-library-httpwwwgdalorg)
             * [C2.) Compile the PROJ library http://trac.osgeo.org/proj/](BuildWindowsVisualStudio#c2-compile-the-proj-library-httptracosgeoorgproj)
-                * [C2.1.) - for QMapShack before version 1.13.0](BuildWindowsVisualStudio#c21---for-qmapshack-before-version-1130)
-                * [C2.2.) - for QMapShack from version V1.13.0](BuildWindowsVisualStudio#c22---for-qmapshack-from-version-v1130)
             * [C3.) Compile the routino library http://www.routino.org](BuildWindowsVisualStudio#c3-compile-the-routino-library-httpwwwroutinoorg)
             * [C4.) Install Qt5.11 or above http://qt-project.org](BuildWindowsVisualStudio#c4-install-qt511-or-above-httpqt-projectorg)
             * [C5.) Compile the QuaZip library https://stachenov.github.io/quazip/](BuildWindowsVisualStudio#c5-compile-the-quazip-library-httpsstachenovgithubioquazip)
@@ -455,7 +453,7 @@ ___Do not edit - automatically created from DocMain!___
 
 
 * [Coding Guideline](DeveloperCodingGuideline)
-* [Commit Code](DeveloperCommitCode)
+* [Contribute Code](DeveloperCommitCode)
     * [Fork the repository](DeveloperCommitCode#fork-the-repository)
     * [Create a local clone of your fork](DeveloperCommitCode#create-a-local-clone-of-your-fork)
     * [Configure Git to sync your fork with the original QMapShack repository](DeveloperCommitCode#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
