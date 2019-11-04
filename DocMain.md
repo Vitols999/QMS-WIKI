@@ -79,6 +79,7 @@ Users can find short quickstart help here:
 
 * [Frequently Asked Questions](DocFaq)
     * [Configuring and running](DocFaqConfig)
+    * [Use of issue templates](DocFaqProjectSite)
     * [Databases and projects](DocFaqData)
     * [Data handling](DocFaqHandling)
     * [Routing](DocFaqRouting)

@@ -1163,21 +1163,26 @@ ___Basic usage___
             1. GUI|language selection and change
             1. QMapShack|supported languages
             1. Logfile|find used locale and language file
+
+    * [Use of issue templates](DocFaqProjectSite)
+        * [Why do you insist on using templates for issues?](DocFaqProjectSite#why-do-you-insist-on-using-templates-for-issues)
+        * [But I always write decent descriptions in issues and hate templates?](DocFaqProjectSite#but-i-always-write-decent-descriptions-in-issues-and-hate-templates)
+
               
-        * [Databases and projects](DocFaqData)
-            * [Why does QMapShack use a separate workspace.db to save data?](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data)
-            + QMS workspace database
-                1. Workspace|project in
-                1. Project|in workspace
+    * [Databases and projects](DocFaqData)
+        * [Why does QMapShack use a separate workspace.db to save data?](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data)
+        + QMS workspace database
+            1. Workspace|project in
+            1. Project|in workspace
             
-            * [Why are there no checkboxes for data in workspace projects?](DocFaqData#why-are-there-no-checkboxes-for-data-in-workspace-projects)
-            + QMS data selection
-                1. Workspace|purpose of
-                1. Database|purpose of
+        * [Why are there no checkboxes for data in workspace projects?](DocFaqData#why-are-there-no-checkboxes-for-data-in-workspace-projects)
+        + QMS data selection
+            1. Workspace|purpose of
+            1. Database|purpose of
             
-            * [How to edit quickly the name of a project?](DocFaqData#how-to-edit-quickly-the-name-of-a-project)
-            + Edit project name
-                1. Project|edit
+        * [How to edit quickly the name of a project?](DocFaqData#how-to-edit-quickly-the-name-of-a-project)
+        + Edit project name
+            1. Project|edit
             
             * [How to find the location of a database file used in QMapShack?](DocFaqData#how-to-find-the-location-of-a-database-file-used-in-qmapshack)
             + Find location of database file

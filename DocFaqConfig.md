@@ -1,4 +1,4 @@
-[Prev](DocFaq) (Frequently Asked Questions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Databases and projects) [Next](DocFaqData)
+[Prev](DocFaq) (Frequently Asked Questions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Use of issue templates) [Next](DocFaqProjectSite)
 - - -
 
 ***Table of contents***
@@ -72,4 +72,4 @@ The language used in the QMapShack user interface (GUI) is defined using the fol
 
 
 - - -
-[Prev](DocFaq) (Frequently Asked Questions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Databases and projects) [Next](DocFaqData)
+[Prev](DocFaq) (Frequently Asked Questions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Use of issue templates) [Next](DocFaqProjectSite)

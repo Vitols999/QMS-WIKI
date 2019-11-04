@@ -1,4 +1,4 @@
-[Prev](DocFaqConfig) (Configuring and running) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Data handling) [Next](DocFaqHandling)
+[Prev](DocFaqProjectSite) (Use of issue templates) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Data handling) [Next](DocFaqHandling)
 - - -
 
 ***Table of contents***
@@ -108,4 +108,4 @@ There can be several reasons for this error:
 * Check if your database exists in MySQL. If not, create it.
         
 - - -
-[Prev](DocFaqConfig) (Configuring and running) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Data handling) [Next](DocFaqHandling)
+[Prev](DocFaqProjectSite) (Use of issue templates) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Data handling) [Next](DocFaqHandling)
