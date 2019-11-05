@@ -1,4 +1,4 @@
-[Prev](BuildWindowsVisualStudio2013) (Compile Instructions for Windows with VisualStudio 2013) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Ubuntu-14.04) [Next](Ubuntu-14.04-HowTo)
+[Prev](BuildWindowsVisualStudio2013) (Windows with VisualStudio 2013) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Ubuntu-14.04) [Next](Ubuntu-14.04-HowTo)
 - - -
 
 ***Table of contents***
@@ -404,4 +404,4 @@ Now you can _really_ start debugging!
 Right click on "qmapshack" project and select Debug -> Start new instance
 
 - - -
-[Prev](BuildWindowsVisualStudio2013) (Compile Instructions for Windows with VisualStudio 2013) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Compile Instructions for Ubuntu-14.04) [Next](Ubuntu-14.04-HowTo)
+[Prev](BuildWindowsVisualStudio2013) (Windows with VisualStudio 2013) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Ubuntu-14.04) [Next](Ubuntu-14.04-HowTo)

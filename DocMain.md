@@ -22,11 +22,13 @@ Users can find short quickstart help here:
 * Installing QMapShack
 
     * [Install QMapShack](DocGetQMapShack)
-    * [Compile Instructions for Windows with VisualStudio 2013](BuildWindowsVisualStudio2013)
-    * [Compile Instructions for Windows with VisualStudio 2017](BuildWindowsVisualStudio)
-    * [Compile Instructions for Ubuntu-14.04](Ubuntu-14.04-HowTo)
-    * [Compile Instructions for Ubuntu-18](Ubuntu-18-HowTo)
-    * [Compile Instructions for OSX](BuildOSX)
+    * Compile instructions
+        * [Windows with VisualStudio 2013](BuildWindowsVisualStudio2013)
+        * [Windows with VisualStudio 2017](BuildWindowsVisualStudio)
+        * [Ubuntu-14.04](Ubuntu-14.04-HowTo)
+        * [Ubuntu-18](Ubuntu-18-HowTo)
+        * [Linux Mint 19.x](BuildLinuxMint19)
+        * [OSX](BuildOSX)
     * [Create Offline Documentation](OfflineDocumentation)
 
 * Using QMapShack

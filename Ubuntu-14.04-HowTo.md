@@ -1,4 +1,4 @@
-[Prev](BuildWindowsVisualStudio) (Compile Instructions for Windows with VisualStudio 2017) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Ubuntu-18) [Next](Ubuntu-18-HowTo)
+[Prev](BuildWindowsVisualStudio) (Windows with VisualStudio 2017) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Ubuntu-18) [Next](Ubuntu-18-HowTo)
 - - -
 
 ***Table of contents***
@@ -70,4 +70,4 @@ Maybe there is a better way to use Qt 5.4
 
 
 - - -
-[Prev](BuildWindowsVisualStudio) (Compile Instructions for Windows with VisualStudio 2017) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Compile Instructions for Ubuntu-18) [Next](Ubuntu-18-HowTo)
+[Prev](BuildWindowsVisualStudio) (Windows with VisualStudio 2017) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Ubuntu-18) [Next](Ubuntu-18-HowTo)

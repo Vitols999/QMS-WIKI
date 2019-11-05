@@ -24,7 +24,7 @@ ___Basic usage___
                 * [Compiling and Installing](DocGetQMapShack#compiling-and-installing)
                     1. Compilation|Linux
                     
-    * [Compile Instructions for Windows with VisualStudio 2013](BuildWindowsVisualStudio2013)
+    * [Windows with VisualStudio 2013](BuildWindowsVisualStudio2013)
         * [Foreword](BuildWindowsVisualStudio2013#foreword)
         * [General remarks](BuildWindowsVisualStudio2013#general-remarks)
             
@@ -54,7 +54,7 @@ ___Basic usage___
             * [D4.) Run/Debug preparations](BuildWindowsVisualStudio2013#d4-rundebug-preparations)
             * [D5.) Run/Debug](BuildWindowsVisualStudio2013#d5-rundebug)
 
-    * [Compile Instructions for Windows with VisualStudio 2017](BuildWindowsVisualStudio) 
+    * [Windows with VisualStudio 2017](BuildWindowsVisualStudio)
          1. Compilation|Windows VS 2017
          1. Installation|Windows
 
@@ -86,11 +86,8 @@ ___Basic usage___
       * [D3.) Compile](BuildWindowsVisualStudio#d3-compile)
       * [D4.) Run/Debug preparations](BuildWindowsVisualStudio#d4-rundebug-preparations)
       * [D5.) Run/Debug](BuildWindowsVisualStudio#d5-rundebug)
-        
          
-         
-         
-    * [Compile Instructions for Ubuntu-14.04](Ubuntu-14.04-HowTo)
+    * [Ubuntu-14.04](Ubuntu-14.04-HowTo)
 
       * [cmake 3](Ubuntu-14.04-HowTo#cmake-3)
       * [Qt 5.4](Ubuntu-14.04-HowTo#qt-54)
@@ -98,7 +95,7 @@ ___Basic usage___
       * [QuaZip](Ubuntu-14.04-HowTo#quazip)
       * [Use Qt 5.4 instead of 5.2 (it's only temporary and for the current terminal)](Ubuntu-14.04-HowTo#use-qt-54-instead-of-52-its-only-temporary-and-for-the-current-terminal)
     
-    * [Compile Instructions for Ubuntu-18](Ubuntu-18-HowTo)
+    * [Ubuntu-18](Ubuntu-18-HowTo)
         1. Compilation|Ubuntu-18.04
         1. Ubuntu-18.04|compilation
         
@@ -110,8 +107,22 @@ ___Basic usage___
       * [Update of QMapShack when something has changed in future](Ubuntu-18-HowTo#update-of-qmapshack-when-something-has-changed-in-future)
       * [Start QMapShack](Ubuntu-18-HowTo#start-qmapshack)
         
+    * [Linux Mint 19.x](BuildLinuxMint19)
+        1. Compilation|Linux Mint
+        1. Linux Mint|compilation
         
-    * [Compile Instructions for OSX](BuildOSX)  
+        * [Install cmake and g++](BuildLinuxMint19#install-cmake-and-g)
+        * [Install Qt 5.9.5](BuildLinuxMint19#install-qt-595)
+        * [Install Git and Subversion](BuildLinuxMint19#install-git-and-subversion)
+        * [Install C-Compiler, Make and other necessary packages](BuildLinuxMint19#install-c-compiler-make-and-other-necessary-packages)
+        * [Install OpenGL](BuildLinuxMint19#install-opengl)
+        * [Install GDAL and Proj4](BuildLinuxMint19#install-gdal-and-proj4)
+        * [Install QuaZip](BuildLinuxMint19#install-quazip)
+        * [Download and install Routino](BuildLinuxMint19#download-and-install-routino)
+        * [Download and install QMapShack](BuildLinuxMint19#download-and-install-qmapshack)
+        * [Run QMapShack](BuildLinuxMint19#run-qmapshack)
+     
+    * [OSX](BuildOSX)  
          1. Compilation|OSX
          1. Mac OSX|compilation         
     

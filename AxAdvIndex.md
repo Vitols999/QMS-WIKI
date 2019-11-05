@@ -81,17 +81,20 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **CompeGPS, map**
 :  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
 
+**Compilation, Linux Mint**
+:  [Linux Mint 19.x](BuildLinuxMint19 "Linux Mint 19.x")
+
 **Compilation, Linux**
 :  [Compiling and Installing](DocGetQMapShack#compiling-and-installing "Compiling and Installing")
 
 **Compilation, OSX**
-:  [Compile Instructions for OSX](BuildOSX "Compile Instructions for OSX")
+:  [OSX](BuildOSX "OSX")
 
 **Compilation, Ubuntu-18.04**
-:  [Compile Instructions for Ubuntu-18](Ubuntu-18-HowTo "Compile Instructions for Ubuntu-18")
+:  [Ubuntu-18](Ubuntu-18-HowTo "Ubuntu-18")
 
 **Compilation, Windows VS 2017**
-:  [Compile Instructions for Windows with VisualStudio 2017](BuildWindowsVisualStudio "Compile Instructions for Windows with VisualStudio 2017")
+:  [Windows with VisualStudio 2017](BuildWindowsVisualStudio "Windows with VisualStudio 2017")
 
 **Configuration, overview of options**
 :  [Setup options](AdvSetup "Setup options")
@@ -571,11 +574,14 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data")
 
 **Installation, Windows**
-:  [Compile Instructions for Windows with VisualStudio 2017](BuildWindowsVisualStudio "Compile Instructions for Windows with VisualStudio 2017") ⊞ [Windows installation](DocGetQMapShack#windows "Windows installation")
+:  [Windows installation](DocGetQMapShack#windows "Windows installation") ⊞ [Windows with VisualStudio 2017](BuildWindowsVisualStudio "Windows with VisualStudio 2017")
 
 
 ## L
 
+
+**Linux Mint, compilation**
+:  [Linux Mint 19.x](BuildLinuxMint19 "Linux Mint 19.x")
 
 **Logfile, enable debug output**
 :  [Command line options](DocCmdOptions "Command line options")
@@ -591,7 +597,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **Mac OSX, compilation**
-:  [Compile Instructions for OSX](BuildOSX "Compile Instructions for OSX")
+:  [OSX](BuildOSX "OSX")
 
 **Main window, layout**
 :  [Getting started](DocGettingStarted "Getting started")
@@ -1472,7 +1478,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **Ubuntu-18.04, compilation**
-:  [Compile Instructions for Ubuntu-18](Ubuntu-18-HowTo "Compile Instructions for Ubuntu-18")
+:  [Ubuntu-18](Ubuntu-18-HowTo "Ubuntu-18")
 
 **Undo, edit**
 :  [Undo/Redo](DocGisItemsEditMultiple#undoredo "Undo/Redo")

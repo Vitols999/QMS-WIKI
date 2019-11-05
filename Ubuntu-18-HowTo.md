@@ -1,4 +1,4 @@
-[Prev](Ubuntu-14.04-HowTo) (Compile Instructions for Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for OSX) [Next](BuildOSX)
+[Prev](Ubuntu-14.04-HowTo) (Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Linux Mint 19.x) [Next](BuildLinuxMint19)
 - - -
 
 ***Table of contents***
@@ -109,4 +109,4 @@ More information about developing of QMapShack will be found in chapter "Develop
 
 
 - - -
-[Prev](Ubuntu-14.04-HowTo) (Compile Instructions for Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Compile Instructions for OSX) [Next](BuildOSX)
+[Prev](Ubuntu-14.04-HowTo) (Ubuntu-14.04) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Linux Mint 19.x) [Next](BuildLinuxMint19)

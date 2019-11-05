@@ -1,4 +1,4 @@
-[Prev](Ubuntu-18-HowTo) (Compile Instructions for Ubuntu-18) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Create Offline Documentation) [Next](OfflineDocumentation)
+[Prev](BuildLinuxMint19) (Linux Mint 19.x) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Create Offline Documentation) [Next](OfflineDocumentation)
 - - -
 
 ***Table of contents***
@@ -12,4 +12,4 @@
 ***For information about building QMapSack on OSX refer to the file `MacOSX/HowtoBuildOSX.txt`in the QMapShack sources.***
 
 - - -
-[Prev](Ubuntu-18-HowTo) (Compile Instructions for Ubuntu-18) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Create Offline Documentation) [Next](OfflineDocumentation)
+[Prev](BuildLinuxMint19) (Linux Mint 19.x) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Create Offline Documentation) [Next](OfflineDocumentation)

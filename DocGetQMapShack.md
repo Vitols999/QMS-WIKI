@@ -1,4 +1,4 @@
-[Prev](DocMain) (Manual) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Windows with VisualStudio 2013) [Next](BuildWindowsVisualStudio2013)
+[Prev](DocMain) (Manual) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Windows with VisualStudio 2013) [Next](BuildWindowsVisualStudio2013)
 - - -
 
 ***Table of contents***
@@ -117,4 +117,4 @@ And install the application with:
     sudo make install
 
 - - -
-[Prev](DocMain) (Manual) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Compile Instructions for Windows with VisualStudio 2013) [Next](BuildWindowsVisualStudio2013)
+[Prev](DocMain) (Manual) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Windows with VisualStudio 2013) [Next](BuildWindowsVisualStudio2013)

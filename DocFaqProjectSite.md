@@ -1,6 +1,6 @@
 [Prev](DocFaqConfig) (Configuring and running) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Databases and projects) [Next](DocFaqData)
 - - -
- 
+
 ***Table of contents***
 
 * [Frequently Asked Questions - Use of issue templates](#frequently-asked-questions---use-of-issue-templates)

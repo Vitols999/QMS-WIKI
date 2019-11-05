@@ -1,4 +1,4 @@
-[Prev](DocGetQMapShack) (Install QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Compile Instructions for Windows with VisualStudio 2017) [Next](BuildWindowsVisualStudio)
+[Prev](DocGetQMapShack) (Install QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Windows with VisualStudio 2017) [Next](BuildWindowsVisualStudio)
 - - -
 
 ***Table of contents***
@@ -320,4 +320,4 @@ Now you can _really_ start debugging!
 Right click on "qmapshack" project and select Debug -> Start new instance
 
 - - -
-[Prev](DocGetQMapShack) (Install QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Compile Instructions for Windows with VisualStudio 2017) [Next](BuildWindowsVisualStudio)
+[Prev](DocGetQMapShack) (Install QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Windows with VisualStudio 2017) [Next](BuildWindowsVisualStudio)

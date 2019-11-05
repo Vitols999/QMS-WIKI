@@ -1,4 +1,4 @@
-[Prev](BuildOSX) (Compile Instructions for OSX) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Getting started) [Next](DocGettingStarted)
+[Prev](BuildOSX) (OSX) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Getting started) [Next](DocGettingStarted)
 - - -
 
 ***Table of contents***
@@ -102,4 +102,4 @@ The offline QMapTool documentation is located in the `QMapShack-doc/QMapTool` di
 
 ///Footnotes Go Here///
 - - -
-[Prev](BuildOSX) (Compile Instructions for OSX) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Getting started) [Next](DocGettingStarted)
+[Prev](BuildOSX) (OSX) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Getting started) [Next](DocGettingStarted)
