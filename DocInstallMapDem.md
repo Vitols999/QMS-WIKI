@@ -5,7 +5,6 @@
 
 * [Install Maps & DEM](#install-maps--dem)
     * [Organization of Maps & DEM](#organization-of-maps--dem)
-* [!bash](#bash)
     * [Installing Maps](#installing-maps)
     * [Installing Raster Maps or DEM Data](#installing-raster-maps-or-dem-data)
     * [Sources of Maps and DEM files](#sources-of-maps-and-dem-files)

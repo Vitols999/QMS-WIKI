@@ -12,9 +12,11 @@
 # ---------------------------
 
 # - a TOC is added only to pages with a navbar
+# - only atx-like headers are handled (those with one or more "#" at the begin of a line)
 # - a header line should have its "#" prefixes starting in column 1
 # - header lines should be unique within a Wiki page
 # - header lines should be on 1 line
+# - code blocks can be delimited by ```or by ~~~. No mixture of both allowed
 # - the TOC starts with the special line "***Table of contents***"
 # - the TOC ends with the special line "* * * * * * * * * *"
 # - the TOC should be located immediately after the navbar
@@ -49,7 +51,9 @@ r4 = re.compile(r"\!\[[^]]*\]\([^)]*\)\s+")   # include spaces at the end of the
 r1 = re.compile("[A-Z]+")                     # matches ASCII uppercase
 r2 = re.compile("[А-ЯÁÄÉÍÑÓÖÚÜ]")             # matches non-ASCII uppercase - don't change them
 
-WIKIDIR = ".."                               # script is located in Tools subdirectory!
+r3 = re.compile("\s*(```)|(~~~)")            # matches begin and end of code block             
+
+WIKIDIR = ".."                                # script is located in Tools subdirectory!
 filemask = "*.md"
 
 MAXHDRLVL = 6                                 # maximum header level used in TOC
@@ -99,7 +103,7 @@ def FindTOC4Page(mdfile):                          # find existing TOC in file
     inpf = open(mdfile, "r", encoding="utf-8")
 
     toc = []
-
+    
     lines = inpf.readlines()
     
     if (lines[0].startswith("[Prev]") or lines[0].startswith("Prev")) and \
@@ -137,7 +141,21 @@ def BuildTOC4Page(mdfile):                        # build actual TOC for given f
 
     toc = ["***Table of contents***", "", ]       # TOC header
 
+    code = False                                  # if True: we are inside a code block
+
     for lne in inpf:                              # try to find TOC in file
+    
+        if r3.match(lne):                         # code block delimiter found
+            if not code:                          # start of code block
+                code= True
+                continue
+                
+            else:                                 # end of code block
+                code = False
+                continue
+                
+        if code:                                  # inside code block - no contribution to TOC
+            continue
 
         rr = rheader.match(lne)
    

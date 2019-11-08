@@ -4,12 +4,6 @@
 ***Table of contents***
 
 * [Coding Guideline](#coding-guideline)
-* [!c++](#c)
-* [!c++](#c)
-* [!c++](#c)
-* [!c++](#c)
-* [!c++](#c)
-* [!c++](#c)
 
 * * * * * * * * * *
  

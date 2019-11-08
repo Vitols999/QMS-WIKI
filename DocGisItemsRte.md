@@ -7,7 +7,6 @@
     * [Create route](#create-route)
     * [Routing Engines](#routing-engines)
         * [Routino](#routino)
-* [!text](#text)
             * [Create Own Routino database](#create-own-routino-database)
         * [MapQuest](#mapquest)
 

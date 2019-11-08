@@ -5,9 +5,6 @@
 
 * [Troubleshooting](#troubleshooting)
 * [Create a backtrace of a crash on Linux](#create-a-backtrace-of-a-crash-on-linux)
-* [!bash](#bash)
-* [!bash](#bash)
-* [!bash](#bash)
 * [Limitations of QMapShack for Windows (short: QMS)](#limitations-of-qmapshack-for-windows-short-qms)
     * [Qt comes without SSL support](#qt-comes-without-ssl-support)
     * [GDAL comes without curl support](#gdal-comes-without-curl-support)

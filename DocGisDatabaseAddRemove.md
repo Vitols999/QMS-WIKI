@@ -7,10 +7,6 @@
     * [Add/Remove a database](#addremove-a-database)
         * [SQLite](#sqlite)
         * [MySQL (>= 5.6.5)](#mysql--565)
-* [!bash](#bash)
-* [!mysql](#mysql)
-* [!mysql](#mysql)
-* [!mysql](#mysql)
     * [Multi-user access](#multi-user-access)
     * [Search the database](#search-the-database)
 

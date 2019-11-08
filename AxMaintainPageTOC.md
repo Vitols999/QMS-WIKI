@@ -66,9 +66,11 @@ The following limitations hold true for the script and the handled MD files:
 * Supported Wiki languages are English, German, Spanish, and Russian. If other languages than the mentioned ones are included into the Wiki, then the list of non-ASCII alphabetic characters has to be updated in the the script.
 * Filenames in the complete Wiki including QMapTool should be unique
 * Restrictions for header lines in Wiki pages:
+    * only atx-like headers are handled (those with one or more "#" at the begin of a line)
     * a header line should have its "#" prefixes starting in column 1
     * header lines should be unique within a Wiki page
     * header lines should be on 1 line
+* Code blocks can be delimited by **```** or by **~~~**. No mixture of both allowed    
 * Supported and tested header line formats include the following ones:
     * `C1.) Compile the GDAL library, http://www.gdal.org/` (special characters and link)
     * `The _Markdown_ Language` (italics)

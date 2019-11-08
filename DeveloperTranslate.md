@@ -4,10 +4,7 @@
 ***Table of contents***
 
 * [HOWTO enable/disable source translations extraction](#howto-enabledisable-source-translations-extraction)
-* [!cmake](#cmake)
-* [!cmake](#cmake)
 * [HOWTO translate qmapshack.desktop (UNIX like only)](#howto-translate-qmapshackdesktop-unix-like-only)
-* [Translations](#translations)
 
 * * * * * * * * * *
  
@@ -34,7 +31,7 @@ cmake -DUPDATE_TRANSLATIONS=OFF ..
 # HOWTO translate qmapshack.desktop (UNIX like only) #
 The qmapshack.desktop file contains the info that appears in the panel menus. It can also be translated. The process is different from the .ts files tough. Let's say we want to localize it to German (de):
 
-* Create an `qmapashack_de.desktop` in the src/locale directory with the following contents:
+* Create an `qmapshack_de.desktop` in the src/locale directory with the following contents:
 
 ```
 #Translations

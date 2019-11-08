@@ -13,9 +13,6 @@
     * [GDAL *.vrt Maps](#gdal-vrt-maps)
     * [WMTS Maps](#wmts-maps)
     * [TMS Maps](#tms-maps)
-* [!xml](#xml)
-* [!xml](#xml)
-* [!xml](#xml)
 
 * * * * * * * * * *
  

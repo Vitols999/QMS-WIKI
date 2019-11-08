@@ -15,18 +15,12 @@
         * [Contour lines](#contour-lines)
             * [Contour line vector map in Garmin IMG format](#contour-line-vector-map-in-garmin-img-format)
             * [Raster contour line layer](#raster-contour-line-layer)
-* [!xml](#xml)
         * [Online DEM data](#online-dem-data)
             * [DEM data from WCS (Web Coverage Service) servers](#dem-data-from-wcs-web-coverage-service-servers)
             * [European DEM data ](#european-dem-data)
     * [Vector maps for Linux systems](#vector-maps-for-linux-systems)
-* [!sh](#sh)
         * [Script](#script)
         * [Configuration](#configuration)
-* [!sh](#sh)
-* [! /bin/sh](#-binsh)
-* [configuration](#configuration)
-* [code starts here, no changes below here required](#code-starts-here-no-changes-below-here-required)
 
 * * * * * * * * * *
  
