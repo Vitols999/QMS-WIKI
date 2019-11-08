@@ -263,12 +263,9 @@ The folder should now contain all map tiles, the contour lines, the layout file 
 Now start your console, browse to your folder and copy the following code: 
 
 
-```
-#!sh
-
+```bash
 java  -Xmx2048M -jar mkgmap.jar --index --family-id=6528 --description="openmtbmap_alps" --series-name="openmtbmap_alps" --family-name="openmtbmap_alps" --product-id=1 --gmapsupp 6*.img 7*.img widealp.TYP
 ```
-
 
 Then press <Enter> and a gmapsupp.img will be created, which you can easily rename to opentmtbmap_alps.img. Now copy this file onto your GPS unit and in your QMapShack maps folder as well.
 
@@ -309,8 +306,7 @@ If this does not match your requirements, you will need to adopt the values *FIL
 Depending on your system's configuration you will need to change *MKGMAP* to allow proper execution of `mkgmap` (see section above).
 
 
-```
-#!sh
+```bash
 #! /bin/sh
 
 # configuration
@@ -383,7 +379,6 @@ error_check $?
 echo -n " * Cleanup... "
 rm -rf "${TMP}" "${TMP}_"
 error_check $?
-
 ```
 
 - - -

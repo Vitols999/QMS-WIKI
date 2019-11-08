@@ -31,29 +31,20 @@ To create a backtrace you have to compile QMapShack as debug version yourself. H
 When you do the step:
 
 
-```
-#!bash
+```bash
 ccmake ../QMapShack
-
-
 ```
 
 Change the variable CMAKE_BUILD_TYPE to *Debug*. Now start the build process with
 
-```
-#!bash
+```bash
 make
-
-
 ```
 
 No need to do a "make install". To create a backtrace you have to start QMapShack with the GDB debugger:
 
-```
-#!bash
+```bash
 gdb bin/qmapshack
-
-
 ```
 At gdb's command line prompt enter 'r' to run QMapShack. Now you can provoke the crash. After the crash enter 'bt' on gdb's command line. This will output the backtrace. Copy the lines and attach them to your bug report.
 

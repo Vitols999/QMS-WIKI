@@ -73,7 +73,7 @@ If you have a lot of files you can use wildcards:
 If you use the wacky console of Windows you have to do this in two steps:
 
     for %f in (*.tif) DO echo %f >> hgt_list.txt
-    gdalbuildvrtMy_Map_Name.vrt -input_file_list hgt_list.txt
+    gdalbuildvrt My_Map_Name.vrt -input_file_list hgt_list.txt
 
 You can define a no data value, too. This is quite useful for DEM data that does not cover a complete rectangular area:
 
@@ -110,7 +110,7 @@ For some servers, the "capabilities" XML sheet may need some hand tuning (compar
 
 If your WMTS provider needs some custom HTTP headers you can specify them in the XML file :
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 ...
 <Capabilities>
@@ -129,8 +129,7 @@ If your WMTS provider needs some custom HTTP headers you can specify them in the
 
 To access TMS servers you have to define a few properties via XML file.  This is an example for definition file with two layers.
 
-```
-#!xml
+```xml
 <TMS>
  <Title>OSM D-Land TK 50</Title>
  <MinZoomLevel>3</MinZoomLevel>
@@ -153,6 +152,7 @@ To access TMS servers you have to define a few properties via XML file.  This is
  <Copyright>Map data: (c) OpenStreetMap contributors, ODbL | Rendering: (c) OpenTopoMap, CC-BY-SA | Trails by tile.waymarkedtrails.org </Copyright>
 </TMS>
 ```
+
 **<Title>** This tag is currently of no use and just for backward compatibility to QLandkarte
 
 **<Copyright>** A copyright notice for the maps displayed.
@@ -160,13 +160,10 @@ To access TMS servers you have to define a few properties via XML file.  This is
 **<RawHeader>** An optional list of name/value pairs to be inserted into the HTTP header of the request. Some servers want to see special value here.
 Example:
 
-```
-#!xml
-
+```xml
 <RawHeader>
 <Value name="User-Agent">Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</Value>
 </RawHeader>
-
 ```
 
 **<MinZoomLevel>** Can be 0..17. 0 is the most detailed level. Below this level tiles from the specified level will be taken and scaled.
@@ -189,8 +186,7 @@ On each layer you can define:
 
 Next to the normal TMS naming scheme for URLs the URL can be formed by a bit of JavaScript. Here is an example for Microsoft's Bing:
 
-```
-#!xml
+```xml
 <TMS>
 <Title>Bing</Title>
 <Layer idx="0">
@@ -220,6 +216,7 @@ function convert(z1, x1, y1)
 <Copyright>Microsoft - Bing</Copyright>
 </TMS>
 ```
+
 Instead of a **<ServerUrl>** the layer has a **<Script>** tag with JavaScript code.
 
 

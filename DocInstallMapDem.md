@@ -21,11 +21,11 @@ QMapShack is not a commercial software, providing installable, ready made maps a
 
 Maps & DEM data should be organized in folders on your system. One for maps and one for the DEM data. For example:
 
-```
-#!bash
+```bash
 <myglobal_path>/QMapShackData/Maps
 <myglobal_path>/QMapShackData/DEM
 ```
+
 You have to register these paths with ***File->Setup Map Paths*** and ***File->Setup DEM Paths*** in QMapShack. QMapShack will scan these paths for map and DEM files and lists them in the two list boxes for maps and DEM data. The filename will be the entry name. Underscores get replaced by a space.
 
 ## Installing Maps

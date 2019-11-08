@@ -46,18 +46,14 @@ The provided name must be unique.
 To use MySQL as database you need to enter some commands on the server first. To enter the MySQL console from the command line you do:
 
 
-```
-#!bash
-
+```bash
 mysql -u root -p
 ```
 
 You need at least one user with full access rights, as QMapShack will create the database structure on the first start.
 
 
-```
-#!mysql
-
+```mysql
 create user 'django'@'172.16.1.5' identified by '1234';
 grant all privileges on *.* to 'django'@'172.16.1.5' with grant option;
 ```
@@ -69,18 +65,14 @@ Keep in mind that every time QMapShack tells you that it has to migrate the data
 Next you want to create a database, e.g. MyData:
 
 
-```
-#!mysql
-
+```mysql
 create database MyData;
 ```
 
 You can remove a database, e.g. if something went wrong during the first start:
 
 
-```
-#!mysql
-
+```mysql
 drop database MyData;
 ```
 
