@@ -49,7 +49,6 @@ Currently Routino is supported as offline router and MapQuest as online routing 
 Routino is an offline router written by Andrew M. Bishop. See the project's [homepage](http://routino.org/) for more details. As it is working without an Internet connection it needs routing data locally installed. A database needs 4 files:
 
 ```
-#!text
 *-nodes.mem
 *-relations.mem
 *-segments.mem

@@ -143,9 +143,7 @@ Here is a sample TMS file for the contour line layer from [OpenSnowMap](http://w
 (download from [here](Downloads/OpenSnow_Contours.tms)):
 
 
-```
-#!xml
-
+```xml
 <TMS>
  <Title>OpenSnowMap Contour Lines</Title>
  <MinZoomLevel>1</MinZoomLevel>

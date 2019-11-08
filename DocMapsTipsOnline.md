@@ -118,8 +118,7 @@ QMapShack's TMS file specification allows Java Script to build URLs. This can be
 
 This is an example how to do it for the WMS server of North Rhine-Westphalia, Germany (download from [here](Downloads/NRW.tms)):
 
-```
-#!XML
+```XML
 <TMS>
 <Layer idx="0">
 <Title>NRW DTK Sammeldienst</Title>
@@ -147,8 +146,7 @@ The official documentation of WMS standard can be found on [http://www.opengeosp
 
 The following version loads the French BRGM (Bureau de Recherches Géologiques et Minières) WMS map tiles (download from [here](Downloads/BRGM.tms)):
 
-```
-#!XML
+```XML
 <TMS>
 <Layer idx="0">
 <Title>IGN BRGM France</Title>
@@ -170,8 +168,7 @@ function convert(z1,x1,y1)
 
 The approach for accessing a WMTS server via TMS is similar to the one described in the previous section for WMS servers. Here is an example for Spanish IGN raster maps (download from [here](Downloads/ESP_IGN_Topografico.tms)):
  
-```
-#!XML
+```XML
 <TMS>
 <Layer idx="0">
 <Title>IGN topografico</Title>
