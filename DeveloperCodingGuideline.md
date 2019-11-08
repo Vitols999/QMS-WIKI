@@ -14,8 +14,7 @@ No one likes them but it helps to read and maintain the code. Thus please stick 
 * Indentation is 4 spaces
 * Brackets are on a new line each:
  
-```
-#!c++
+```c++
   ...
     if(item == nullptr)
     {
@@ -25,8 +24,7 @@ No one likes them but it helps to read and maintain the code. Thus please stick 
 ```
 * Use camel case with first character lower case on variables.
 
-```
-#!c++
+```c++
 
     int n;
     int maxBrownFoxes;
@@ -38,15 +36,13 @@ No one likes them but it helps to read and maintain the code. Thus please stick 
 
 * Classes start with a capital 'C'
 
-```
-#!c++
+```c++
 
     class CMyClass
 ```
 * Base (interface) classes start with a capital 'I'
 
-```
-#!c++
+```c++
 
     class IItem
     {
@@ -61,8 +57,7 @@ No one likes them but it helps to read and maintain the code. Thus please stick 
 
 * Structures are lowercase and have a trailing '_t'
 
-```
-#!c++
+```c++
    struct my_funny_data_t
    {
        ....
@@ -70,8 +65,7 @@ No one likes them but it helps to read and maintain the code. Thus please stick 
 ```
 
 * Enumerations are lowercase and have a trailing '_e'. Enumeration items start with a 'e' and are camel case. It helps if the enumeration name is repeated in the item.
-```
-#!c++
+```c++
    enum my_enum_e
    {
         eMyEnumThing1
