@@ -72,6 +72,14 @@ No one likes them but it helps to read and maintain the code. Thus please stick 
        ,eMyEnumThing2
    };
 ```
+With introduction of c++11 it's also fine to use `enum stuct|class`. In that case the naming is:
+```c++
+    enum class MyEnum
+    {
+        eThing1
+       ,eThing2
+    };
+```
 
 * Use the `override` keyword where ever appropriate. When using GCC 5.1 and more recent the compiler will throw a warning. This is important because it prevents us from producing some nasty bugs.
 
