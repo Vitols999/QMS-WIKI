@@ -54,7 +54,7 @@ Aqui tienes una lista con los enlaces para descargar el programa y una serie de 
 
 **QMapShack:**
 
-* [Instalador QMS](https://bitbucket.org/maproom/qmapshack/downloads "Descarga Instalador QMS"). Es el ejecutable para instalar QMS en tu PC que se descarga desde la pagina oficial del proyecto en Bitbucket. Para Windows elige el fichero `QMapShack_Install_Windows64bit__1.10.0.exe` (50 Mb aprox.) El numero de versión puede ser diferente.
+* [Instalador QMS](https://github.com/Maproom/qmapshack/releases "Descarga Instalador QMS"). En esta pagina se muestra el histórico de versiones de QMS, siendo la que aparece arriba la mas reciente.  A continuación del nombre de la versión se muestra una lista con su historial de cambios y debajo  el apartado **Assets**, donde  aparecen todas las descargas disponibles.  Para Windows elige el fichero `QMapShack_Win64bit_1.14.0.exe` (99 Mb aprox.) El numero de versión puede ser diferente.
 
 __Mapas:__
 
@@ -542,7 +542,7 @@ Recuerda:
 
 ## Para saber más
 
-* En la web del Proyecto tienes [este manual](DocMain "QMS Wiki") bastante completo (en inglés)
+* En la web del Proyecto tienes [este manual](https://github.com/Maproom/qmapshack/wiki/DocMain "QMS Wiki") bastante completo (en inglés)
 * En este [hilo de mendiak](https://www.mendiak.net/viewtopic.php?t=56948 "hilo de mendiak") tienes información en castellano, algunos tutoriales, y se comparten buenos mapas y datos.
 
 - - -
