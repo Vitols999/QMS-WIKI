@@ -91,7 +91,7 @@ The following links are recommendations for files which allow comfortable work w
       
 ## Installation
 * All downloaded files are saved in the user's download directory.
-* Find the file `QMapShack_Install_Windows64bit__1.9.1.exe` in the download directory.
+* Find the file `QMapShack_Install_Windows64bit__1.13.2.exe` in the download directory.
 * Start this installation file by double-clicking the filename.
 * Confirm the information in the first installation windows.
 * In the `Select Components window`, select `MSVC ++ 2013 SP1 runtime` (this can be omitted if 
@@ -99,6 +99,7 @@ The following links are recommendations for files which allow comfortable work w
 * Confirm starting the installation of the runtime environment. _Hint:_ The installation may take a few minutes!
 * At the end of the installation of the runtime environment, finish this installation with the `Close` button. 
   The QMS installation is then continued and QMS is installed completely.
+* **Hint:** *Never use non-ASCII characters in installation directory names!*  
 * QMS can already now be started from the Start menu. However, it is recommended to perform still the following steps.
 * Create a directory where the user has write permission. In the following discussion
   this directory is called `QMS`. _Note:_ The user has no

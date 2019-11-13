@@ -22,6 +22,8 @@
 For 64 bit Windows there is a binary installer available [in the download section](https://github.com/Maproom/qmapshack/releases).
 There is also an outdated version for 32 bit Windows. To get up-to-date 32 bit binaries it needs someone maintaining it.
 
+**Hint:** *Never use non-ASCII characters in installation directory names (limitation due to external packages used by QMapShack)!*
+
 If you want to compile QMapShack for Windows have a look at ["Compiling and Building QMapShack for Windows"](BuildWindowsVisualStudio) in the source tree.
 
 ## OS X
@@ -42,6 +44,8 @@ Installing QMapShack (latest provided version):
 Update QMapShack to the latest version:
 
     brew cask install qmapshack --force
+    
+Additional instructions about how to install can be found [here](BuildOSX)    
 
 ## Linux
 
@@ -80,7 +84,11 @@ To compile QMapShack, you need to have installed:
 Prefer installing those dependencies via the distribution's package system.
 You also need to **install the development packages** in order to build QMapShack
 
-[Click here](Ubuntu-14.04-HowTo) for additional instructions about how to install on Ubuntu 14.04.
+[Click here](Ubuntu-14.04-HowTo) for a
+Additional instructions about how to install can be found
+* [here](Ubuntu-14.04-HowTo) for Ubuntu-14-04,
+* [here](Ubuntu-18-HowTo) for Ubuntu-18,
+* [here](BuildLinuxMint19) for Linux Mint 19.
 
 #### Obtaining the Source
 

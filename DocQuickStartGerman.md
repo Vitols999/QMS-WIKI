@@ -95,7 +95,7 @@ heruntergeladen werden können.
     
 ## Installation
 * Alle heruntergeladenen Dateien sind im Download-Verzeichnis des Nutzers zu finden.
-* Finde die Datei `QMapShack_Install_Windows64bit__1.9.1.exe` im Download-Verzeichnis.
+* Finde die Datei `QMapShack_Install_Windows64bit__1.13.2.exe` im Download-Verzeichnis.
 * Starte diese Installationsdatei durch einen Doppelklick auf den Dateinamen.
 * Bestätige die Informationen in den ersten Installationsfenstern.
 * Im Fenster `Komponenten auswählen` muss der Punkt `MSVC++ 2013 SP1 runtime` ausgewählt werden (dies kann unterbleiben, wenn auf dem
@@ -103,6 +103,7 @@ heruntergeladen werden können.
 * Bestätige das Starten der Installation der Laufzeitumgebung. _Hinweis:_ Die Installation kann einige Minuten dauern!
 * Am Ende der Installation der Laufzeitumgebung muss mit `Close` diese Installation beendet werden. Die QMS Installation wird daraufhin fortgesetzt
   und QMS wird vollständig installiert. 
+* **Achtung:** *Nicht-ASCII-Zeichen dürfen in den Namen von Installationsverzeichnissen nicht benutzt werden!*  
 * Bereits jetzt kann QMS über das Startmenü gestartet werden. Es wird aber empfohlen, vorher 
   noch die folgenden Schritte auszuführen.
 * Lege ein Verzeichnis an, in dem der Nutzer Schreibrechte hat. In der folgenden Diskussion wird 
