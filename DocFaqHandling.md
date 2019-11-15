@@ -106,7 +106,7 @@ A similar data field is `gpxtpx:course`. This field contains an angle measured i
 (the _course_).
 
 Compare also section 
-[Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data").
+[Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data).
 
 
 ![Recorded gpxtpx:speed vs. speed graphs](images/DocFaq/FaqGpxTpxSpeed.jpg "Recorded gpxtpx:speed vs. speed graphs")
