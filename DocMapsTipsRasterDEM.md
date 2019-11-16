@@ -37,7 +37,7 @@ but also maps of the U.S. army map service.
 Some of the maps are georeferenced with reference information in various formats. Quite often the `OziExplorer map file` format is used to keep the reference information.
 A major disadvantage of such maps is a border that overlaps neighboring maps. 
 
-To make raster maps from this source available in QMapShack the [QMapTool](https://bitbucket.org/maproom/qmaptool) can be used to reference and to cut unreferenced 
+To make raster maps from this source available in QMapShack the [QMapTool](https://github.com/Maproom/qmapshack/releases) can be used to reference and to cut unreferenced 
 raster maps.
 
 Referenced maps in the OziExplorer format can be prepared for QMS as follows:
@@ -49,7 +49,7 @@ Referenced maps in the OziExplorer format can be prepared for QMS as follows:
         gdalwarp rastermap.map rastermap.tif
     
 * Open QMapTool (if `qmaptool.exe` is on the `PATH`, then it can be opened from QMS by choosing the menu entry `Tool - Start QMapTool`).
-* Use the QMapTool to cut the map to the necessary shape. For details compare the [QMapTool documentation](https://bitbucket.org/maproom/qmaptool/wiki/CutTool).
+* Use the QMapTool to cut the map to the necessary shape. For details compare the [QMapTool documentation](CutTool).
   The result is a new file `rastermap_cut.tif` in the QMS map directory.
 * Open QMapShack and select the menu entry `Tool - VRT Builder`.  
 * Insert `rastermap_cut.tif` as source file name, insert a target file name and select the creation of overviews for better rendering of the map. 
