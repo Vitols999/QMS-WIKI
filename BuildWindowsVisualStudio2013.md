@@ -36,7 +36,7 @@
 
 ## Foreword
 
-The following description explains how the QMapShack windows binaries provided for download at https://bitbucket.org/maproom/qmapshack/downloads are created.
+The following description explains how the QMapShack windows binaries provided for download at [Github](https://github.com/Maproom/qmapshack/releases) are created.
 
 I try to keep a balance between providing a complete but still reasonably compact description.
 So, depending on the setup of your development machine (e.g. language settings) you might have to make some adaptations which may not be described here in full detail.
@@ -196,10 +196,16 @@ Note: libjpeg is needed for qmt_map2jnx. Other parts of QMapshack may use the jp
   - copy the file jpeg.lib to the lib directory
 
 ### C7.) Get the QMapShack source from the repository, e.g.
+
 ~~~~
-   hg clone https://bitbucket.org/maproom/qmapshack QMapShack
+git clone https://github.com/Maproom/qmapshack.git QMapShack
 ~~~~
-Note: you might have to install TortoiseHG or any other mercurial client
+
+Note: you might have to install 
+[git for Windows](https://git-scm.com/download/win), 
+[TortoiseGit](https://tortoisegit.org/)
+or any other [git client](https://git-scm.com/downloads).
+ 
 
 ### C8.) Start the CMake GUI (you did install CMake before, didn't you)
 - Enter the path to the source directory (which has been created by cloning the hg repository in the previous step)

@@ -17,26 +17,26 @@
 ## Prerequisites
 
 If you want to contribute to the _QMapShack_ documentation wiki at
-Bitbucket, the following conditions must be met:
+Github, the following conditions must be met:
 
 *   **Most important:** You should have sufficient knowledge of the
     _Markdown_ language!
 
 *   You have registered at
-    [Bitbucket](https://bitbucket.org/account/signup/) and know your
+    [Github](https://github.com/) and know your
     password.
 
 *   If you want to do more than just correcting a typo (which can also be
     done directly on the
-    [Bitbucket server](https://bitbucket.org/maproom/qmapshack/wiki), see
+    [Github server](https://github.com/Maproom/qmapshack/wiki), see
     [below](#online-editing)), you should be working on a
     local clone of the _Mercurial_ repository of the _QMapShack_ wiki at
-    Bitbucket.
+    Github.
 
     If you have [_Mercurial_](https://www.mercurial-scm.org/) installed,
     you can clone the _QMapShack_ wiki by issuing the command
 
-            hg clone https://bitbucket.org/maproom/qmapshack/wiki qmapshack-doc
+            hg clone https://github.com/Maproom/qmapshack/wiki qmapshack-doc
 
 *   You are editing an existing or creating a new `*.md` file.  **Never
     touch any `*.html` files**, because these only exist in your local
@@ -55,18 +55,18 @@ Bitbucket, the following conditions must be met:
     *   The [differences](https://python-markdown.github.io/#differences)
         between John Gruber's original _Markdown_ syntax and the _Markdown_
         syntax implemented by the _Python_ _Markdown_ module used by
-        Bitbucket.
+        Github.
 
     *   [Documentation](https://python-markdown.github.io/extensions/)
         of the _Markdown_ syntax understood by every _Markdown_ extension
-        used by Bitbucket[^1] (see
+        used by Github[^1] (see
         [_Python_ requirements](OfflineDocumentation#prerequisites))
         as well as the HTML code produced from it.
 
     *   Finally, you can look into any of the `*.md` files in this
         repository and at the same time point your browser to the
         corresponding web page at the
-        [Bitbucket server](https://bitbucket.org/maproom/qmapshack/wiki)
+        [Github server](https://github.com/Maproom/qmapshack/wiki)
         to see the effect of a particular _Markdown_ clause.  And if you
         want to see the HTML source of the current page in your browser,
         and your browser happens to be _Firefox_, just type `Ctrl-u`
@@ -140,7 +140,7 @@ Bitbucket, the following conditions must be met:
         will be labeled "`markdown-header-example-header-url-httpxyzcom`".
 
 [^1]:
-    Apart from using these _Markdown_ extensions the Bitbucket
+    Apart from using these _Markdown_ extensions the Github
     _Markdown_ dialect also accepts the clause "`~~xxx~~`" which is
     rendered to "~~xxx~~" ("strike through").  This clause is also
     accepted when locally rendering _Markdown_ files to HTML using
@@ -207,12 +207,12 @@ Bitbucket, the following conditions must be met:
     be used for minor changes like correcting a typo!**
 
     One reason for discouraging online editing is that it causes the
-    Bitbucket server to use a stereotype "`Edited online`" commit
+    Github server to use a stereotype "`Edited online`" commit
     message which doesn't convey any real information as to **why** a
     particular change was made to the wiki repository.  But keeping
     track of why a change was introduced is one of the benefits of
     maintaining the wiki as a _Mercurial_ repository at all.  Another
-    reason for discouraging online editing is that the Bitbucket server
+    reason for discouraging online editing is that the Github server
     does neither check the contents of your file nor update its
     navigation bars.  So either don't use online editing at all or only
     use it for really trivial changes.
@@ -233,7 +233,7 @@ Bitbucket, the following conditions must be met:
     >    \[_Text_]\(../_File_)
 
     or they will not be resolvable while you inspect your work online on
-    the Bitbucket server or offline by manually converting it to HTML.
+    the Github server or offline by manually converting it to HTML.
 
 ## Online Editing
 
@@ -241,10 +241,10 @@ Bitbucket, the following conditions must be met:
 
     |   |   |
     |---|---|
-    | ![UnderConstruction](images/UnderConstruction.png) | **Help please! This section is still under construction:** The author is not at all familiar with online editing via the Bitbucket server, so the gory details should be inserted here by someone who is.  The following topics sould be covered by the description: |
+    | ![UnderConstruction](images/UnderConstruction.png) | **Help please! This section is still under construction:** The author is not at all familiar with online editing via the Github server, so the gory details should be inserted here by someone who is.  The following topics sould be covered by the description: |
 
     *   **_Where to point your browser to in order to enter your
-        Bitbucket password._**
+        Github password._**
 
     *   **_How to select the existing file you want to edit._**
 
@@ -271,7 +271,7 @@ Bitbucket, the following conditions must be met:
         >    \* \[_Topic_]\(playground/_YourNewFileName_) - _YourName_
 
         Mind that "_YourNewFileName_" must neither end in a `.md` nor in
-        a `.html` extension.  Finally click the link, and Bitbucket will
+        a `.html` extension.  Finally click the link, and Github will
         create the new file which you can then edit as described above.
 
     *   The final steps of moving your file one directory level up,
@@ -297,7 +297,7 @@ Bitbucket, the following conditions must be met:
         encoded files.**
 
         This is required because the _Markdown_ language implemented on
-        the Bitbucket server does not pass any HTML entities like for
+        the Github server does not pass any HTML entities like for
         instance "`&amp;`", "`&ecirc;`", or the equivalent forms for the
         latter, "`&#234;`" and "`&#x000EA;`", on to the HTML code.
         Rather it renders "`&amp;`" into "`&amp;amp;`" which will then
@@ -333,7 +333,7 @@ Bitbucket, the following conditions must be met:
 
     **Mind that the `.md` extension is mandatory when creating a new
     _Markdown_ file offline!**  If you omit the `.md` extension, neither
-    the local scripts nor the Bitbucket server will recognize your file
+    the local scripts nor the Github server will recognize your file
     as a _Markdown_ file.
 
 *   If you want to see the outcome of rendering your file to HTML, just
@@ -355,7 +355,7 @@ Bitbucket, the following conditions must be met:
 
     pointing to your new file to make it easier for others to find it
     online.  Mind that "_YourNewFileName_" must neither end with a `.md`
-    nor with a `.html` extension.  Then keep your Bitbucket password
+    nor with a `.html` extension.  Then keep your Github password
     ready for pushing the repository upstream and run the commands
 
             hg commit -A
@@ -437,7 +437,7 @@ Bitbucket, the following conditions must be met:
     problems found by `make check` and introduced by your own recent
     work are in the final section "Uncommitted changes".
 
-*   If you have reached that point, keep your Bitbucket password ready
+*   If you have reached that point, keep your Github password ready
     for pushing the repository upstream and run the commands
 
             hg commit

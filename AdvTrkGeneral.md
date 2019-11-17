@@ -155,7 +155,6 @@ A track can be cut (split) into 2 parts. To do this use the following procedure:
 
 ## Attach waypoints to a track to get additional track information
 
-(_inspired by_ [QMS issues list](https://bitbucket.org/maproom/qmapshack/issues/169/distance-between-waypoints-popup-window))
 
 Waypoints can be attached to tracks or more precisely to trackpoints of a given track.
 

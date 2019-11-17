@@ -43,7 +43,7 @@ This page describes how to maintain (edit) the index of the QMS Wiki.
   cases described later it is recommended to contact a user who can run the tools to help you.
 
 * _Remember:_
-    * The (on-line) manual is maintained with the help of the Bitbucket version control system. Any change you make can
+    * The (on-line) manual is maintained with the help of the Github version control system. Any change you make can
       be undone. _You can never make irreversible changes to the (on-line) manual!
       You never can destroy manual pages forever!_
     * The editor used for editing some text in a manual page must use UTF-8 encoding (without BOM). Other encodings
@@ -58,7 +58,7 @@ _raw index_). The preferred procedure for editing the index is
 
 * to make the required changes in the raw index,
 * to run the Python script,
-* to publish the edited index (push it into the Bitbucket repository).
+* to publish the edited index (push it into the Github repository).
 
 This procedure guarantees consistency between the raw index and the index.
 
@@ -263,7 +263,7 @@ page.
 
 This is a recommended sequence of steps when editing the index in a local copy of the manual:
 
-1. Update your local copy of the manual using your preferred Bitbucket version control tool.
+1. Update your local copy of the manual using your preferred Github version control tool.
 1. Open a command-line window and change the working directory to `my_path_to_manual\doc\Tools`. Run all Python scripts
    mentioned from this working directory!
 1. Copy the `AxAdvToc.md` to the `Tools` subfolder (overwrite an existing one!). This copy is used for the consistency check.
@@ -278,7 +278,7 @@ This is a recommended sequence of steps when editing the index in a local copy o
 1. Run `BuildIndex.py` to rebuild the index.
 1. Run the navbar tool `make nav` to insert navigation bars into the index page
    compare [Developing Documentation](DevelopingDocumentation)).
-1. Upload the modified files to the Bitbucket server using your preferred Bitbucket version control tool.
+1. Upload the modified files to the Github server using your preferred Github version control tool.
 
 ## Further remarks
 
@@ -290,13 +290,13 @@ This is a recommended sequence of steps when editing the index in a local copy o
 * The editor used for making index changes must use UTF-8 encoding (without BOM).
 
 * Editing Wiki pages is recommended on a local copy of the Wiki on your computer. Try to install the necessary
-  Bitbucket version control tools on your computer so that you
+  Github version control tools on your computer so that you
 
-    * can download (pull) the Wiki from the Bitbucket server and
-    * can upload (push) edited manual pages to the Bitbucket server.
+    * can download (pull) the Wiki from the Github server and
+    * can upload (push) edited manual pages to the Github server.
 
 * _Not recommended but possible:_ If a local copy of the manual can't be made available, then make your changes
-  on-line in the Bitbucket Wiki. Other users editing the manual will see your changes and carry out the
+  on-line in the Github Wiki. Other users editing the manual will see your changes and carry out the
   maintenance steps described on this page.
 
 * No index entries are inserted for the following manual pages:

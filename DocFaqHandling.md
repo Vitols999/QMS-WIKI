@@ -25,8 +25,6 @@ If the mouse pointer is moved on a POI in a vector map, a small blue circle arou
 
 ## How to find distance between waypoints
 
-(_inspired by and partially copied from_ [QMS issues list](https://bitbucket.org/maproom/qmapshack/issues/169/distance-between-waypoints-popup-window))
-
 * _Find the direct distance from a waypoint to some other point:_ set a waypoint and move it to the other point.
   This will give you the distance and the course (direction) to the other point. When done abort the operation (right mouse click) and remove the waypoint.
 

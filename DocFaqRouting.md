@@ -125,9 +125,7 @@ _Explanation:_
       that is on a road segment for routing. After getting the final route calculated by the Routino router, QMS inserts again the original waypoints into the route.
       This can imply some data inconsistency in the route (length of the route, route instructions). It is up to the user to accept or remove in this case the routing 
       result.
-      
-      
-Some more information about this Routino router issue can be found in the [QMS issue tracker](https://bitbucket.org/maproom/qmapshack/issues/234/wrong-route-length).      
+            
 
 - - -
 [Prev](DocFaqHandling) (Data handling) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Maps) [Next](DocFaqMaps)

@@ -62,7 +62,7 @@ the preface section of that page.
     * The _longer_image_description_ can be used for a more detailed image description. It is displayed as
       image caption.
 
-* As a Windows user you should edit normal Wiki pages (not automatically created ones!) and upload them to the Bitbucket repository even if you can't run
+* As a Windows user you should edit normal Wiki pages (not automatically created ones!) and upload them to the Github repository even if you can't run
   the tools for maintaining the navigation bars of pages (the so-called _Navbar_ tools) or other tools for
   creating Wiki pages.
 
@@ -74,7 +74,7 @@ the preface section of that page.
 ## More recommendations
 
 * Files edited in Windows have Windows line ends. Thus, on the server side MD files might have both Unix- and Windows-like
-  line ends. This is tolerated by the Navbar tools. Bitbucket can handle MD files with both types of
+  line ends. This is tolerated by the Navbar tools. Github can handle MD files with both types of
   line ends. There is no need for special line end configurations in your editor.
 
 * New pages can only be created by users being capable of running the Navbar tools. If you can't run these tools,
@@ -126,7 +126,7 @@ This section describes the necessary workflow after making some special changes 
 * You should run the navbar tool `make nav` to update navigation bars after changing the table of contents,
   the image links, or the index page. Automatically (re-)created pages don't have navigation bars.
 
-* Upload to Bitbucket
+* Upload to Github
 
 
 ## Formatting rules:
@@ -165,7 +165,7 @@ the navigation bars you have to run the navbar tools!
 * The script displays in a console window a list of used and unused images in the `doc\images\FAQ` and `doc\images\DocAdv`
   folders.
 * Don't use the local Markdown variant of the file - it doesn't have the correct link form. Correct links can be found
-  either in the on-line Bitbucket Wiki or in the off-line HTML form of the page!
+  either in the on-line Github Wiki or in the off-line HTML form of the page!
 
 ### BuildToc.py and AxAdvToc.md
 

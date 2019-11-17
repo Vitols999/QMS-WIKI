@@ -93,7 +93,6 @@ clone (a copy) of the data item.
 
 ## Workspace and database windows
 
-_(inspired by [QMS issue 200 discussion](https://bitbucket.org/maproom/qmapshack/issues/200 "QMS issue 200"))_
 
 QMS data items can be found in the workspace and database windows (if closed, then open it with the menu entries `Window - Workspace` resp. `Window - Database`). 
 

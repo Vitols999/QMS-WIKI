@@ -39,8 +39,6 @@ is considered as temporary and therefore not part of the configuration.
 
 ## Why are there no checkboxes for data in workspace projects?
 
-_(taken from discussion on [QMS issue 246](https://bitbucket.org/maproom/qmapshack/issues/246/feature-request-add-hide-and-show#comment-39109722))_
-
 This question is directly related to the design philosophy of QMS and in particular its workspace.
 
 There are 2 locations for GIS data in QMS with different purpose:
@@ -62,8 +60,6 @@ Loading all data objects into the workspace and then selecting the ones to work 
 
 
 ## How to edit quickly the name of a project?
-
-**Compare:** [QMS issues list](https://bitbucket.org/maproom/qmapshack/issues/160/update-of-diary-after-adding-a-waypoint)
 
 Depending on the number of data objects (tracks, routes, waypoints) in a project in the workspace it may take a relatively long time
 to open the project edit window (right click on the project name in the workspace and select `Edit` menu item).
