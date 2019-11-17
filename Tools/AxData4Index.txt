@@ -86,6 +86,12 @@ ___Basic usage___
       * [D3.) Compile](BuildWindowsVisualStudio#d3-compile)
       * [D4.) Run/Debug preparations](BuildWindowsVisualStudio#d4-rundebug-preparations)
       * [D5.) Run/Debug](BuildWindowsVisualStudio#d5-rundebug)
+      
+    * [GDAL support for additional map formats](BuildWindowsGdalWithAdditionalFormats)
+        * [zlib ](BuildWindowsGdalWithAdditionalFormats#zlib)
+        * [cURL ](BuildWindowsGdalWithAdditionalFormats#curl)
+        * [sqlite ](BuildWindowsGdalWithAdditionalFormats#sqlite)
+        * [Additional binaries needed to compile PROJ.4 version 6](BuildWindowsGdalWithAdditionalFormats#additional-binaries-needed-to-compile-proj4-version-6)  
          
     * [Ubuntu-14.04](Ubuntu-14.04-HowTo)
 

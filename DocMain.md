@@ -25,6 +25,7 @@ Users can find short quickstart help here:
     * Compile instructions
         * [Windows with VisualStudio 2013](BuildWindowsVisualStudio2013)
         * [Windows with VisualStudio 2017](BuildWindowsVisualStudio)
+            * [GDAL support for additional map formats](BuildWindowsGdalWithAdditionalFormats)
         * [Ubuntu-14.04](Ubuntu-14.04-HowTo)
         * [Ubuntu-18](Ubuntu-18-HowTo)
         * [Linux Mint 19.x](BuildLinuxMint19)
