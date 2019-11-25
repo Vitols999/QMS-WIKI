@@ -104,6 +104,7 @@ ___Do not edit - automatically created from DocMain!___
         * [Object types for properties](AdvDataHandling#object-types-for-properties)
         * [More details and remarks](AdvDataHandling#more-details-and-remarks)
         * [Examples](AdvDataHandling#examples)
+    * [Searching in projects](AdvDataHandling#searching-in-projects)
     * [Tracks](AdvTracks)    
         * [General information about tracks](AdvTrkGeneral)
         * [Track information](AdvTrkInfo)

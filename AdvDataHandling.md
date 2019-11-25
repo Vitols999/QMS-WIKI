@@ -13,6 +13,7 @@
             * [Waypoint](#waypoint)
             * [Track](#track)
             * [Geocache](#geocache)
+    * [Searching in projects](#searching-in-projects)
 
 * * * * * * * * * *
  
@@ -264,6 +265,16 @@ This geocache has the following 9 attributes (same order  as shown icons): Strol
 | `size equals Micro` | Geocache GC848MV satisfies condition |
 | `description contains tzvikas, Unknown Cache (2.5/1.5)` | *Meaning:* The geocache description (data of the `<descr>` tag in the GPX file in which the geocache is saved) contains `tzvikas ...`. Geocache GC848MV satisfies condition |
 |  `date before 02.03.2019` | *Meaning for geocache:* Date hidden strictly before 02.03.2019. Geocache GC848MV doesn't satisfy condition: date hidden is 02.03.2019. |
+
+
+## Searching in projects
+
+In addition to the global search of data in the whole workspace there is a possibility to restrict the search to some project in the workspace. To do this, open the project context menu and click the menu entry `Filter project`. An edit window appears below the project header which can be used in the same way as the global one. 
+Clicking the menu entry again closes the edit window.
+
+Different searches in different projects can be carried out simultaneously.
+
+If a global search is active, then the project search criterion is added to the global one (with an `and` operation). I.e the project displays those data objects satisfying both search criteria.
 
 
 - - -

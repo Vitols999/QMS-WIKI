@@ -299,6 +299,7 @@ ___Do not edit - automatically created from DocMain!___
             * [Waypoint](AdvDataHandling#waypoint)
             * [Track](AdvDataHandling#track)
             * [Geocache](AdvDataHandling#geocache)
+    * [Searching in projects](AdvDataHandling#searching-in-projects)
     * [Tracks](AdvTracks)    
         * [General information about tracks](AdvTrkGeneral)
             * [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints)

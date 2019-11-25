@@ -902,6 +902,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Project, save**
 :  [Save project](AdvProjActions#save-project "Save project")
 
+**Project, search data**
+:  [Project search](AdvDataHandling#searching-in-projects "Project search")
+
 **Project, sources**
 :  [Working with Projects](DocWorkingWithProjects "Working with Projects")
 
@@ -1147,6 +1150,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Search, data in workspace**
 :  [Search workspace](AdvDataHandling#searching-data-in-the-workspace "Search workspace")
+
+**Search, in project only**
+:  [Project search](AdvDataHandling#searching-in-projects "Project search")
 
 **Setup, automatic backup**
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
