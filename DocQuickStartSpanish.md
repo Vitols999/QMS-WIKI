@@ -153,7 +153,7 @@ Es muy conveniente que guardes este tipo de ficheros agrupados en subcarpetas se
 
 * Descomprime `QMS_datos_ejemplo.zip`. El fichero `leeme.txt` contiene información sobre el origen y propósito de los archivos de ejemplo
 	* Mueve `Sallent.gpx` a la carpeta `CARTO/GPX`
-	* Mueve `ES-AL-M4.typ` a `CARTO/MAPAS/GARMIN-IMG`
+	* Mueve `ES-AL-M8.typ` a `CARTO/Maps/GARMIN-IMG`
 	* Mueve `Pirineos.db` a `CARTO/Databases`
 
 ## Instalación del programa
@@ -291,7 +291,7 @@ El mapa se colocara en la parte de arriba de la lista en segunda posición. En l
        ![QMS Controles Mapa Vectorial](images/DocAdv/InstallMapControls2Es.jpg "Panel Mapas - Controles Mapa Vectorial")
 * Desmarca la casilla `Areas`, de esta forma las areas no se dibujan. Ahora ya tienes el mapa online como base y el mapa Garmin con lineas y puntos superpuesto al anterior. Siempre puedes activar/desactivar areas , lineas, o puntos con un solo click.
 * También puedes controlar la densidad de elementos que muestra el mapa aumentando o disminuyendo el valor indicado en `Detalle`  (en este ejemplo lo dejamos en 2)
-* Además puedes modificar el grafismo del mapa aplicando un fichero TYP personalizado.  Como ejemplo vamos a probar un TYP modificado a partir del original de alternativaslibres.org:  Pincha en el icono de la carpeta azul y selecciona el archivo `ES-AL-M4.typ` que has copiado antes en la carpeta `/CARTO/GARMIN-IMG`.
+* Además puedes modificar el grafismo del mapa aplicando un fichero TYP personalizado.  Como ejemplo vamos a probar un TYP modificado a partir del original de alternativaslibres.org:  Pincha en el icono de la carpeta azul y selecciona el archivo `ES-AL-M8.typ` que has copiado antes en la carpeta `/CARTO/GARMIN-IMG`.
 
 * El aspecto del mapa vectorial cambia al instante, los senderos se ven ahora en rojo y las pistas y carreteras algo mas gruesas. Si quieres restaurar su aspecto original pincha el botón ' X' .
     
