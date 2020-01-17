@@ -66,7 +66,7 @@ Next you want to create a database, e.g. MyData:
 
 
 ```mysql
-create database MyData;
+create database MyData CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 You can remove a database, e.g. if something went wrong during the first start:
