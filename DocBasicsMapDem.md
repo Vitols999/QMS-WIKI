@@ -13,6 +13,7 @@
     * [GDAL *.vrt Maps](#gdal-vrt-maps)
     * [WMTS Maps](#wmts-maps)
     * [TMS Maps](#tms-maps)
+    * [Mapsforge Maps](#mapsforge-maps)
 
 * * * * * * * * * *
  
@@ -218,6 +219,60 @@ function convert(z1, x1, y1)
 ```
 
 Instead of a **<ServerUrl>** the layer has a **<Script>** tag with JavaScript code.
+
+## Mapsforge Maps
+
+Whilst QMapShack doesn't support Mapsforge maps (i.e. from [openandromaps.org](openandromaps.org)), you can use a local tileserver and a tms file to display the maps nevertheless.
+
+To set up the tileserver, you have to download (or clone) the [mapsforgesrv with gradle repository](https://github.com/telemaxx/mapsforgesrv_with_gradle) and copy the contents of the jars_ready2use folder to an easily accesible path. You can delete the rest.
+
+Now download some map of interest into any folder that suits you. To conveniently start the tileserver create a .cmd file where you copied the contents of jars_ready2use and add this as contents:
+
+```cmd
+java -jar MapsforgeSrv.jar -m \path\to\map
+pause
+```
+
+Double-click the .cmd file to start tileserver, you should get something like this as output:
+
+```
+MapsforgeSrv - a mapsforge tile server
+no port given, using 8080
+Map file: baden-wuerttemberg_ML.map
+Theme: OSMARENDER
+preferredLanguage, using null
+2020-01-28 18:50:16.171:INFO::main: Logging initialized @531ms to org.eclipse.je
+tty.util.log.StdErrLog
+listening on localhost port:8080
+2020-01-28 18:50:17.766:INFO:oejs.Server:main: jetty-9.4.25.v20191220; built: 20
+19-12-20T17:00:00.294Z; git: a9729c7e7f33a459d2616a8f9e9ba8a90f432e95; jvm 1.8.0
+_241-b07
+2020-01-28 18:50:17.906:INFO:oejs.AbstractConnector:main: Started ServerConnecto
+r@4387b79e{HTTP/1.1,[http/1.1]}{localhost:8080}
+2020-01-28 18:50:17.911:INFO:oejs.Server:main: Started @2297ms
+```
+
+If this is successful, you can add a TMS file to your QMS map folder with following contents:
+
+```xml
+<TMS>
+<Layer idx="0">
+<Title>Mapname</Title>
+<MinZoomLevel>3</MinZoomLevel>
+<MaxZoomLevel>15</MaxZoomLevel>
+<ServerUrl>http://localhost:8080/%1/%2/%3.png?textScale=1.2&amp;userScale=0.8</ServerUrl>
+</Layer>
+</TMS>
+```
+
+textScale scales the size of the text, the userScale scales the size of symbols (it should, it probably only does for svg symbols). Further options are explained on the [git site of the tile server](https://github.com/telemaxx/mapsforgesrv_with_gradle).
+
+If you want to use a different style for the map, you can download any style that does not use stylemenus. This is since the tileserver (as of 28.01.2020) does not support stylemenus. From openandromaps.org you can download the `Elevate 2 (Mapsforge 0.3)` style. Again, save this file to some convenient folder and edit the contents fo your .cmd file to following:
+
+```cmd
+java -jar MapsforgeSrv.jar -m \path\to\map -t \path\to\style
+pause
+```
 
 
 
