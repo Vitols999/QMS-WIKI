@@ -179,7 +179,7 @@ On each layer you can define:
 
 **<Title>** A name for the layer. If no title is given, "Layer" with the index number is used.
 
-**<ServerUrl>** This is the servers URL with placeholders. %1 is for the map level (z), %2 for the column (x) and %3 for the row (y). If the URL contains special characters, you have to escape them according to the HTML specification, e.g. & becomes &amp;
+**<ServerUrl>** This is the servers URL with placeholders. %1 is for the map level (z), %2 for the column (x) and %3 for the row (y). If the URL contains special characters, you have to escape them according to the HTML specification, e.g. `&` becomes `&amp;`
 
 **<MinZoomLevel>** Override the default MinZoomLevel for this layer. Can be 0..17. 0 is the most detailed level. Below this level tiles from the specified level will be taken and scaled.
 
@@ -218,7 +218,7 @@ function convert(z1, x1, y1)
 </TMS>
 ```
 
-Instead of a **<ServerUrl>** the layer has a **<Script>** tag with JavaScript code.
+Instead of a **\<ServerUrl>** the layer has a **<Script>** tag with JavaScript code.
 
 ## Mapsforge Maps
 
