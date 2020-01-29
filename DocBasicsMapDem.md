@@ -224,7 +224,7 @@ Instead of a `<ServerUrl>`: the layer has a `<Script>`: tag with JavaScript code
 
 Whilst QMapShack doesn't support Mapsforge maps (i.e. from [openandromaps.org](https://www.openandromaps.org/)), you can use a local tile server and a TMS file to display the maps nevertheless.
 
-To set up the tile server, you have to download (or clone) the [mapsforgesrv with gradle repository](https://github.com/telemaxx/mapsforgesrv_with_gradle) and copy the contents of the jars_ready2use folder to an easily accessible path. You can delete the rest.
+To set up the tile server, you have to download (or clone) the [mapsforgesrv with gradle repository](https://github.com/telemaxx/mapsforgesrv_with_gradle) and copy the contents of the `jars_ready2use` folder to an easily accessible path. You can delete the rest.
 
 Now download some map of interest into any folder that suits you. To conveniently start the tile server create a .cmd file where you copied the contents of `jars_ready2use` and add this as contents:
 
