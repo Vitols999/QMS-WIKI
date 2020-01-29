@@ -154,11 +154,11 @@ To access TMS servers you have to define a few properties via XML file.  This is
 </TMS>
 ```
 
-**<Title>** This tag is currently of no use and just for backward compatibility to QLandkarte
+`<Title>`: This tag is currently of no use and just for backward compatibility to QLandkarte
 
-**<Copyright>** A copyright notice for the maps displayed.
+`<Copyright>`: A copyright notice for the maps displayed.
 
-**<RawHeader>** An optional list of name/value pairs to be inserted into the HTTP header of the request. Some servers want to see special value here.
+`<RawHeader>`: An optional list of name/value pairs to be inserted into the HTTP header of the request. Some servers want to see special value here.
 Example:
 
 ```xml
@@ -167,23 +167,23 @@ Example:
 </RawHeader>
 ```
 
-**<MinZoomLevel>** Can be 0..17. 0 is the most detailed level. Below this level tiles from the specified level will be taken and scaled.
+`<MinZoomLevel>`: Can be 0..17. 0 is the most detailed level. Below this level tiles from the specified level will be taken and scaled.
 
-**<MaxZoomLevel>** Can be 1..18. 1 is the most detailed level. Above this level the map will not be drawn.
+`<MaxZoomLevel>`: Can be 1..18. 1 is the most detailed level. Above this level the map will not be drawn.
 
 MinZoomLevel and MaxZoomLevel will be taken as default for the layers. _Note_: zoom level = 18 - map level
 
-**<Layer idx="0">** Specifies a layer. **idx** gives the order to display layers. 0 is first.
+`<Layer idx="0">`: Specifies a layer. **idx** gives the order to display layers. 0 is first.
 
 On each layer you can define:
 
-**<Title>** A name for the layer. If no title is given, "Layer" with the index number is used.
+`<Title>`: A name for the layer. If no title is given, "Layer" with the index number is used.
 
-**<ServerUrl>** This is the servers URL with placeholders. %1 is for the map level (z), %2 for the column (x) and %3 for the row (y). If the URL contains special characters, you have to escape them according to the HTML specification, e.g. `&` becomes `&amp;`
+`<ServerUrl>`: This is the servers URL with placeholders. %1 is for the map level (z), %2 for the column (x) and %3 for the row (y). If the URL contains special characters, you have to escape them according to the HTML specification, e.g. `&` becomes `&amp;`
 
-**<MinZoomLevel>** Override the default MinZoomLevel for this layer. Can be 0..17. 0 is the most detailed level. Below this level tiles from the specified level will be taken and scaled.
+`<MinZoomLevel>`: Override the default MinZoomLevel for this layer. Can be 0..17. 0 is the most detailed level. Below this level tiles from the specified level will be taken and scaled.
 
-**<MaxZoomLevel>** Override the default MaxZoomLevel for this layer. Can be 1..18. 1 is the most detailed level. Above this level the map will not be drawn.
+`<MaxZoomLevel>`: Override the default MaxZoomLevel for this layer. Can be 1..18. 1 is the most detailed level. Above this level the map will not be drawn.
 
 Next to the normal TMS naming scheme for URLs the URL can be formed by a bit of JavaScript. Here is an example for Microsoft's Bing:
 
@@ -218,15 +218,15 @@ function convert(z1, x1, y1)
 </TMS>
 ```
 
-Instead of a **\<ServerUrl>** the layer has a **<Script>** tag with JavaScript code.
+Instead of a `<ServerUrl>`: the layer has a `<Script>`: tag with JavaScript code.
 
 ## Mapsforge Maps
 
-Whilst QMapShack doesn't support Mapsforge maps (i.e. from [openandromaps.org](openandromaps.org)), you can use a local tileserver and a tms file to display the maps nevertheless.
+Whilst QMapShack doesn't support Mapsforge maps (i.e. from [openandromaps.org](https://www.openandromaps.org/)), you can use a local tile server and a TMS file to display the maps nevertheless.
 
-To set up the tileserver, you have to download (or clone) the [mapsforgesrv with gradle repository](https://github.com/telemaxx/mapsforgesrv_with_gradle) and copy the contents of the jars_ready2use folder to an easily accesible path. You can delete the rest.
+To set up the tile server, you have to download (or clone) the [mapsforgesrv with gradle repository](https://github.com/telemaxx/mapsforgesrv_with_gradle) and copy the contents of the jars_ready2use folder to an easily accessible path. You can delete the rest.
 
-Now download some map of interest into any folder that suits you. To conveniently start the tileserver create a .cmd file where you copied the contents of jars_ready2use and add this as contents:
+Now download some map of interest into any folder that suits you. To conveniently start the tile server create a .cmd file where you copied the contents of `jars_ready2use` and add this as contents:
 
 ```cmd
 java -jar MapsforgeSrv.jar -m \path\to\map
@@ -265,9 +265,9 @@ If this is successful, you can add a TMS file to your QMS map folder with follow
 </TMS>
 ```
 
-textScale scales the size of the text, the userScale scales the size of symbols (it should, it probably only does for svg symbols). Further options are explained on the [git site of the tile server](https://github.com/telemaxx/mapsforgesrv_with_gradle).
+`textScale` scales the size of the text, the `userScale` scales the size of symbols (it should, it probably only does for SVG symbols). Further options are explained on the [git site of the tile server](https://github.com/telemaxx/mapsforgesrv_with_gradle).
 
-If you want to use a different style for the map, you can download any style that does not use stylemenus. This is since the tileserver (as of 28.01.2020) does not support stylemenus. From openandromaps.org you can download the `Elevate 2 (Mapsforge 0.3)` style. Again, save this file to some convenient folder and edit the contents fo your .cmd file to following:
+If you want to use a different style for the map, you can download any style that does not use style menus. This is since the tile server (as of 28.01.2020) does not support style menus. From openandromaps.org you can download the `Elevate 2 (Mapsforge 0.3)` style. Again, save this file to some convenient folder and edit the contents for your .cmd file to:
 
 ```cmd
 java -jar MapsforgeSrv.jar -m \path\to\map -t \path\to\style
