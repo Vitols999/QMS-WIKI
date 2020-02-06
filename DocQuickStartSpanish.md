@@ -162,7 +162,7 @@ Es muy conveniente que guardes este tipo de ficheros agrupados en subcarpetas se
 * Confirma la información que muestra la ventana de instalación.
 * En el apartado `Select Components`, marca `MSVC ++ 2013 SP1 runtime` (Esto ultimo podría omitirse si ya tuvieras instalado dicho entorno de ejecución previamente, por ejemplo, al instalar una nueva versión de QMS).
 * En caso de elegir la instalación de `MSVC ++ 2013 SP1 runtime` se abrirá una nueva ventana con su propio instalador. Confirma los pasos que aparecen en esa ventana, y una vez terminada te devolvera al instalador de QMS _Aviso:_ La instalación puede llevar unos minutos.
-* Opcional: Instalar soporte para formatos MBTiles y ECW. Sigue los pasos indicados en [este enlace](https://www.mendiak.net/viewtopic.php?t=56948&f=25#p712273)
+* Opcional y Recomendado: Instalar soporte para formato ECW. Sigue los pasos indicados en [este enlace](https://www.mendiak.net/viewtopic.php?t=56948&f=25#p712273)
 
 ## Primeros pasos tras el primer arranque de QMS
 
