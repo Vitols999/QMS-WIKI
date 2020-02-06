@@ -300,7 +300,8 @@ El mapa se colocara en la parte de arriba de la lista en segunda posición. En l
 * Puedes superponer cuantos mapas raster o vectoriales quieras. Los mapas activados aparecen siempre arriba del todo en la lista de mapas y se dibujan en orden, comenzando por el primero de la lista, después se superpone el segundo, y así sucesivamente. Sabremos que un mapa está activado porque aparece un triángulo junto al nombre del mapa. 
 * Pulsando este triángulo se despliegan los controles de transparencia, detalle, y rango de zoom en el que se muestra el mapa. Los controles y opciones son diferentes según se trate de mapas online, raster, o vectoriales.
 * Cada mapa puede configurarse independientemente para conseguir una composición adecuada. Además tb puedes variar la transparencia de tracks y waypoints con el control deslizante situado en la parte superior del panel `Espacio de trabajo` 
-![QMS Controles Mapas](images/DocAdv/InstallMapControls1Es.jpg "Panel Mapas y Espacio de Trabajo - Controles de visualización")
+
+ ![QMS Controles Mapas](images/DocAdv/InstallMapControls1Es.jpg "Panel Mapas y Espacio de Trabajo - Controles de visualización")
 
 ### Trabajar con varias Vistas de Mapa
 * Es posible tener varias Vistas de mapas abiertas simultáneamente. Puedes alternar entre una y otra , pero las vistas no se sincronizan al desplazar el mapa. Esto es especialmente útil cuando estás trabajando en proyectos de zonas diferentes (una vista guardada para Alpes, otra para Pirineos,etc).
@@ -334,12 +335,12 @@ _Este paso requiere haber configurado previamente las carpetas DEM como se ha ex
 * El uso de DEMs online es complementario al de los DEMs descargados en tu PC
 
     * Son mejores los DEMS locales descargados en tu PC:
-     * Para las zonas que mas usas
-     * Cuando haces un uso intensivo de sombreado de relieve y coloreado de pendientes en zonas amplias
+         * Para las zonas que mas usas
+         * Cuando haces un uso intensivo de sombreado de relieve y coloreado de pendientes en zonas amplias
 
     * Son prácticos los DEMS online:
-     * Para consultar algo fuera de tu zona habitual si no tienes su DEM descargado en el PC
-     * Para dibujar un track con mayor precision sin haberte bajado Gb y Gb de un DEM de toda la Peninsula a 5x5m
+         * Para consultar algo fuera de tu zona habitual si no tienes su DEM descargado en el PC
+         * Para dibujar un track con mayor precision sin haberte bajado Gb y Gb de un DEM de toda la Peninsula a 5x5m
      
 
 ### Ejemplo de uso de Vistas con mapas y DEMs
@@ -371,8 +372,9 @@ Vamos con un ejemplo que nos sirve de repaso de lo visto hasta ahora:
 	* Las teclas de dirección mueven el mapa
 
 * Además prueba estas combinaciones de teclas:
-	* `Ctrl + D` para ocultar / mostrar los paneles. 
-        * `F11`  para entrar /salir en el modo de pantalla completa
+    *  `Ctrl + D` para ocultar / mostrar los paneles.
+    *  `F11`  para entrar /salir en el modo de pantalla completa.
+	       
 * Puedes utilizar cualquiera de esas opciones en todo momento  sin que se interrumpa la tarea en curso, por ejemplo, mientras dibujas un track.
 
 ### Dibujar un track nuevo     
