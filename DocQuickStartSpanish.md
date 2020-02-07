@@ -67,18 +67,15 @@ __Ficheros OSM__
 ( son la base para el calculo automático de rutas y tracks)
 
 * [Archivo Routino-Iberia.zip](https://drive.google.com/open?id=1ZfKtU0RnRIaHh7mxGN11yRIiGbtits_B "Routino-Iberia.zip") (390 Mb aprox.) (RECOMENDADO para seguir esta guía) Este fichero no se actualiza diariamente, sin embargo ofrece la ventaja de traer los datos de enrutamiento ya cocinados y listos para usar en QMS directamente. Cubre Portugal, España, Andorra, y sur de Francia.
-
-* [Datos OSM desde Geofabrik](http://download.geofabrik.de/europe.html "Load Routino data").(OPCIONAL) Estos ficheros contienen la version más actual de los datos OSM, pero deberemos procesarlos en QMS antes de poder usarlos. En la página busca la linea `Spain` y haz click en `.osm.pbf`. Se descargará el fichero `Spain-latest.osm.pbf`.(619 Mb aprox.) Puedes descargar otras regiones, elige siempre la version `.osm.pbf` 
-
-
-    
+   
    
 __Datos de elevación DEM / MDT:__ 
 (Recomendado para asignar alturas a los tracks y calcular pendientes y desniveles)
  
-* [Viewfinderpanoramas. Resolución 3 arc second ](http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm "Load DEM data for region"). En el mapa haz click sobre la región que quieres descargar. Se descarga un fichero `.zip`, que se corresponde con una zona UTM. Puedes descargar mas de una zona.
-* [Viewfinderpanoramas. Resolución 1 arc second ](http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org1.htm "Load DEM data for region"). Estos datos son más precisos que los del enlace anterior pero solo están disponibles para algunas zonas de montaña. En esta guía vamos a usar como ejemplo los correspondientes al Pirineo. Haz click sobre el mapa para descargarlos, son dos ficheros `.zip`. (180 Mb aprox)
-* [MDT del IGN. Varias resoluciones ](http://centrodedescargas.cnig.es "MDT del IGN") No existe un enlace de descarga directa , por lo que debes seguir las instrucciones guiadas de la web del IGN para descargar los archivos DEM de la zona que te interese.
+* [IGN-MDT25_Peninsula](https://mega.nz/#F!ZAllxSbB!oNvvLiR0D4Cf1RuP8YLvRA?UEFFjA5K "IGN-MDT25_Peninsula"). (572 Mb) Un fichero ünico para toda la Península con los datos del MDT25 (25x25m).
+
+* [Viewfinderpanoramas. Resolución 1 arc second ](http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org1.htm "Load DEM data for region"). Estos datos solo están disponibles para algunas zonas de montaña. En esta guía vamos a usar como ejemplo los correspondientes al Pirineo. Haz click sobre el mapa para descargarlos, son dos ficheros `.zip`. (180 Mb aprox)
+
 
 __Datos de ejemplo__
 
@@ -105,7 +102,7 @@ Es muy recomendable crear una estructura de carpetas para almacenar de forma org
     * `ECW`
     * `JNX`
     * `RMAP`
-* Dentro del directorio `DEM` también se crean subcarpetas para guardar ordenados tus ficheros DEM según su origen y resolución, y sin mezclarlos. Inicialmente crea las siguientes: 
+* Dentro del directorio `DEM` también se crean subcarpetas para guardar ordenados tus ficheros DEM según su origen y resolución, y sin mezclarlos. Inicialmente podemos crear las siguientes: 
     * `Viewfinder3` para los ficheros de resolucion 3 arc sec de _Viefinderpanoramas_
     * `Viewfinder1` para los ficheros de resolucion 1 arc sec de _Viefinderpanoramas_
     * `IGN-MDT05` para  los ficheros `.asc`correspondientes al  DEM de resolución 5m del IGN
@@ -137,17 +134,18 @@ Una vez creada la estructura vamos a poner los mapas y datos que hemos descargad
 **Datos para enrutamiento**
 
 
-* Si has descargado el fichero  `Routino-Iberia.zip` descomprímelo, y copia su contenido en la carpeta `Routino`. 
-
-* Si has descargado el fichero `Spain-latest.osm.pbf` puedes dejarlo en tu carpeta de descargas.
+* Si has descargado el fichero  `Routino_Iberia_201902.zip` descomprímelo, y copia su contenido en la carpeta `Routino`. 
 
 
 **Datos de elevación DEM / MDT**
 
-Es muy conveniente que guardes este tipo de ficheros agrupados en subcarpetas según su origen y resolución, y sin mezclarlos. Ejemplo para los ficheros DEM del Pirineo de *Viefinderpanormas resolucion 1 arc sec* : 
+* Cuando el DEM es un archivo único y facilmente reconocible podemos dejarlo directamente en la carpeta `DEM`: Copia el fichero `IGN-MDT25_Peninsula.tiff` a la carpeta `DEM`
 
-* Dentro de la carpeta `DEM/Viewfinder1` crea una subcarpeta `Pirineo` 
-* Los datos descargados vienen en dos ficheros `K30.zip` y `K31.zip` . Descomprímelos y copia su contenido en la carpeta `Pirineo` que acabas de crear.
+* Cuando el DEM se compone de varios ficheros, es muy conveniente que los guardes agrupados en subcarpetas según su origen y resolución, y sin mezclarlos. Ejemplo para los ficheros DEM del Pirineo de *Viefinderpanormas resolucion 1 arc sec* : 
+
+    * Dentro de la carpeta `DEM/Viewfinder1` crea una subcarpeta `Pirineo` 
+    * Los datos descargados vienen en dos ficheros `K30.zip` y `K31.zip` . Descomprímelos y copia su contenido en la carpeta `Pirineo` que acabas de crear.
+
 
 **Datos de ejemplo**
 
@@ -158,7 +156,7 @@ Es muy conveniente que guardes este tipo de ficheros agrupados en subcarpetas se
 
 ## Instalación del programa
 * Abre la carpeta en la que has descargado todos los ficheros anteriores.
-* Busca el fichero `QMapShack_Install_Windows64bit__1.10.0.exe` y haz doble click sobre el.
+* Busca el fichero `QMapShack_Install_Windows64bit__1.14.0.exe` y haz doble click sobre el.
 * Confirma la información que muestra la ventana de instalación.
 * En el apartado `Select Components`, marca `MSVC ++ 2013 SP1 runtime` (Esto ultimo podría omitirse si ya tuvieras instalado dicho entorno de ejecución previamente, por ejemplo, al instalar una nueva versión de QMS).
 * En caso de elegir la instalación de `MSVC ++ 2013 SP1 runtime` se abrirá una nueva ventana con su propio instalador. Confirma los pasos que aparecen en esa ventana, y una vez terminada te devolvera al instalador de QMS _Aviso:_ La instalación puede llevar unos minutos.
@@ -214,15 +212,18 @@ _En este paso vamos a indicarle a QMS en que carpetas guardamos los mapas y QMS 
     * Notas sobre .VRT: Este proceso lo realizamos una sola vez, y permite mostrar los mapas sin costuras sin necesidad de generar pesados mosaicos. De igual forma permitirá actualizarlos más adelante en cuestión de segundos. 
 
 ### Configurar carpetas DEM
-* El proceso es idéntico al de las carpetas de mapas.
+El proceso es idéntico al de las carpetas de mapas.
 * Sitúa el cursor sobre el espacio vacío en el panel `MDT (DEM)` y haz click con el botón derecho sobre el espacio vacío.
 * Se abre un menú:  elige "Configurar Rutas a los DEM"
 
-    * _Siguiendo la estructura de esta guía añadiríamos las carpetas:_ `Viewfinder3` , `Viewfinder1` , `IGN-MDT05` , y  `IGN-MDT25`
+* _Siguiendo la estructura de esta guía añadiríamos las carpetas:_ `DEM`,`Viewfinder3` , `Viewfinder1` , `IGN-MDT05` , y  `IGN-MDT25`
 
-* De igual forma QMS también carga los archivos DEM a través de un fichero virtual `.VRT`, y los ficheros de origen pueden ser uno o varios, pero siempre deben tener el mismo Sistema de Referencia (Proyección/Datum) y ser de la misma fuente (p. ej. no mezclar los del IGN con otros).
+De igual forma QMS también carga los archivos DEM a través de un fichero virtual `.VRT`
 
-* Estos ficheros pueden crearse con el Asistente VRT muy rápidamente. Aquí tienes un ejemplo paso a paso utilizando los ficheros de ViewfinderPanoramas de resolucion 1 arc sec correspondientes al Pirineo:
+* Abre en el _Menú Herramientas_ el _Asistente VRT_, elige como origen `IGN-MDT25_Peninsula.tiff` y crea su correspondiente `VRT`en la misma carpeta `DEM`.
+
+Una de las ventajas del `VRT`es que puedes agrupar virtualmente varios ficheros de origen en un `VRT` y luego se maneja ese`VRT` como un fichero único. Para poder agruparlos deben tener el mismo Sistema de Referencia (Proyección/Datum) y ser de la misma fuente (p. ej. no mezclar los del IGN con otros).
+Aquí tienes un ejemplo paso a paso utilizando los ficheros de ViewfinderPanoramas de resolucion 1 arc sec correspondientes al Pirineo:
 ![QMS DEM ASISTENTE](images/DocAdv/InstallDem2VrtEs.jpg "Asistente VRT - DEM")
 
 * Menu Herramientas - Asistente VRT
@@ -237,32 +238,19 @@ NOTAS sobre los DEM y su fichero .VRT:
 *  Para crear un `.vrt` con ficheros `.asc` como los descargados desde el IGN se requieren algunos pasos adicionales. Esta explicado con todo detalle [en este tutorial.](https://www.mendiak.net/viewtopic.php?f=529&t=58023) 
 
 
-### Configurar y Activar creación automática de rutas.(opcional)
-
-QMS utiliza la aplicación _Routino_ para calcular rutas automáticamente sobre un conjunto de datos de OpenStreetMap (OSM). Normalmente estos datos se descargan de la red en formato `osm.pbf` y hay  que importarlos al formato usado por _Routino_.  El proceso se hace una sola vez y QMS tiene un asistente para hacer esta tarea fácilmente.
+### Configurar y Activar creación automática de rutas.
 
 **Importar datos para routino**
+QMS utiliza la aplicación _Routino_ para calcular rutas automáticamente sobre un conjunto de datos de OpenStreetMap (OSM). Normalmente estos datos se descargan de la red en formato `osm.pbf` y hay  que importarlos al formato usado por _Routino_.  El proceso se hace una sola vez y QMS tiene un asistente para hacer esta tarea fácilmente.
  
-_Si has descargado el archivo [Iberia.zip](https://drive.google.com/open?id=1ZfKtU0RnRIaHh7mxGN11yRIiGbtits_B) y has copiado su contenido en la carpeta `Routino` puedes saltarte este primer paso, pues estos ficheros ya están importados y listos para usar._
+Si has descargado el archivo [Iberia.zip](https://drive.google.com/open?id=1ZfKtU0RnRIaHh7mxGN11yRIiGbtits_B) y has copiado su contenido en la carpeta `Routino` no es necesario hacerlo, pues estos ficheros ya están importados y listos para usar. Solamente nos falta decirle a QMS donde encontrar estos ficheros...
 
-Si has descargado datos desde Geofabrik (Ejemplo: `Spain-latest.osm.pbf`) debes importarlos al formato propio de Routino siguiendo estos pasos:
-
-* En el menú elije `Herramientas - Crear Base de datos Routino`. Se abrirá una nueva ventana.
-* Selecciona como fichero de origen `Spain-latest.osm.pbf` 
-* Selecciona como carpeta de destino`CARTO\Routino` , aqui se almacenará el conjunto de datos importados.
-* Rellena el campo `Prefijo del archivo` con el nombre `Spain`. Este será el nombre que mostrará QMS para identificar este conjunto de datos.
-* Click en `Comenzar` .
-* En la columna de la derecha aparece el progreso de la operación. Puede llevar bastante tiempo! El proceso está terminado cuando aparece la indicación Done! / Hecho!
-* Repite el proceso si has descargado otras zonas, puedes tener más de una base de datos disponible (Ej: Iberia, Alpes, etc).
-* También es posible combinar varios ficheros de origen en una única base de datos (por ejemplo, España+Andorra+Francia), esto tiene la ventaja de poder calcular rutas transfronterizas con solo dos clicks.
-
-**Elegir la base de datos activa**
+**Elegir la base de enrutamiento activa**
 
 * Vete al Panel `Enrutamiento`  y asegúrate de que esta elegida la opción `Routino (offline)`
 * Pincha el icono de la carpeta azul y elige la carpeta `CARTO\Routino` .
-* Abre la lista desplegables de Bases de datos disponibles y elige `Iberia`.
-* A partir de ahora ya se puede usar la opción  de ruteo Automático al crear/modificar tracks o rutas dentro del área cubierta por la base de datos `Iberia`.
-* Para usar otra base de otra zona  basta elegirla en la lista desplegable.
+* Abre la lista desplegables de Bases de datos disponibles y elige `Iberia_201902`.
+* A partir de ahora ya se puede usar la opción  de ruteo Automático al crear/modificar tracks o rutas dentro del área cubierta por la base de datos `Iberia_201902`.
 * El resto de desplegables sirve para indicar los criterios de enrutamiento. Para este ejemplo elige el perfil `A pie`y el modo  `Más corto`       
 
 Una vez realizados estos pasos ya tienes listo QMS para comenzar la parte más divertida.
