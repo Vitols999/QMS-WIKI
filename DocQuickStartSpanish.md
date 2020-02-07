@@ -240,7 +240,8 @@ NOTAS sobre los DEM y su fichero .VRT:
 
 ### Configurar y Activar creación automática de rutas.
 
-**Importar datos para routino**
+**Importar datos para Routino**
+
 QMS utiliza la aplicación _Routino_ para calcular rutas automáticamente sobre un conjunto de datos de OpenStreetMap (OSM). Normalmente estos datos se descargan de la red en formato `osm.pbf` y hay  que importarlos al formato usado por _Routino_.  El proceso se hace una sola vez y QMS tiene un asistente para hacer esta tarea fácilmente.
  
 Si has descargado el archivo [Iberia.zip](https://drive.google.com/open?id=1ZfKtU0RnRIaHh7mxGN11yRIiGbtits_B) y has copiado su contenido en la carpeta `Routino` no es necesario hacerlo, pues estos ficheros ya están importados y listos para usar. Solamente nos falta decirle a QMS donde encontrar estos ficheros...
