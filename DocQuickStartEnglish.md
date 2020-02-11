@@ -58,8 +58,8 @@ The following links are recommendations for files which allow comfortable work w
 
 * _QMapShack_:
 
-    * [Load QMS from server](https://github.com/Maproom/qmapshack/releases "Load QMS installation file").
-      Download the file `QMapShack_Win64bit_1.13.2.exe` from this site (approximately 100 MB, version number can be different).
+    * [Load QMS installation file from server](https://github.com/Maproom/qmapshack/releases "Load QMS installation file").
+      Download the file `QMapShack_Win64bit_1.14.0.exe` from this site (approximately 100 MB, version number can be different).
 
 * _Use of maps (recommended)_:
 
@@ -90,8 +90,8 @@ The following links are recommendations for files which allow comfortable work w
     _Hint:_ Download as many files as needed for your region!  
       
 ## Installation
-* All downloaded files are saved in the user's download directory.
-* Find the file `QMapShack_Install_Windows64bit__1.13.2.exe` in the download directory.
+* All downloaded files are normally saved in the user's download directory.
+* Find the file `QMapShack_Install_Windows64bit__1.14.0.exe` in the download directory.
 * Start this installation file by double-clicking the filename.
 * Confirm the information in the first installation windows.
 * In the `Select Components window`, select `MSVC ++ 2013 SP1 runtime` (this can be omitted if 

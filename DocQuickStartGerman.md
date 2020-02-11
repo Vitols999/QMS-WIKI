@@ -63,8 +63,8 @@ heruntergeladen werden können.
 
 * _QMapShack_:
 
-    * [QMS vom Server laden](https://github.com/Maproom/qmapshack/releases "QMS Installationsdatei laden").
-      Von dieser Seite Datei `QMapShack_Win64bit_1.13.2.exe	` laden (etwa 100 MB, Versionsnummer kann verschieden sein).
+    * [QMS Installationsdatei vom Server laden](https://github.com/Maproom/qmapshack/releases "QMS Installationsdatei laden").
+      Von dieser Seite Datei `QMapShack_Win64bit_1.14.0.exe	` laden (etwa 100 MB, Versionsnummer kann verschieden sein).
 
 * _Kartenunterstützung (empfohlen)_:
 
@@ -94,8 +94,8 @@ heruntergeladen werden können.
     _Hinweis:_ Es sollten alle für die gewählte Region erforderlichen Dateien heruntergeladen werden!
     
 ## Installation
-* Alle heruntergeladenen Dateien sind im Download-Verzeichnis des Nutzers zu finden.
-* Finde die Datei `QMapShack_Install_Windows64bit__1.13.2.exe` im Download-Verzeichnis.
+* Alle heruntergeladenen Dateien sind normalerweise im Download-Verzeichnis des Nutzers zu finden.
+* Finde die Datei `QMapShack_Install_Windows64bit__1.14.0.exe` im Download-Verzeichnis.
 * Starte diese Installationsdatei durch einen Doppelklick auf den Dateinamen.
 * Bestätige die Informationen in den ersten Installationsfenstern.
 * Im Fenster `Komponenten auswählen` muss der Punkt `MSVC++ 2013 SP1 runtime` ausgewählt werden (dies kann unterbleiben, wenn auf dem
