@@ -329,11 +329,11 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Elevation, edit**
 :  [Edit track elevation](AdvTrkElevation#manually-edit-elevation-of-a-track-point "Edit track elevation")
 
-**Elevation, filter**
-:  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
-
 **Elevation, Filter**
 :  [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
+
+**Elevation, filter**
+:  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
 
 **Elevation, invalid data**
 :  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
@@ -665,6 +665,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Map, list of online maps**
 :  [Overview of map regions mentioned on this page](DocMapsTipsOnline#overview-of-map-regions-mentioned-on-this-page "Overview of map regions mentioned on this page")
 
+**Map, Mapsforge**
+:  [Mapsforge Maps](DocBasicsMapDem#mapsforge-maps "Mapsforge Maps")
+
 **Map, Norway topo online**
 :  [TMS configuration for Norwegian topo maps](DocMapsTipsOnline#tms-configuration-for-norwegian-topo-maps "TMS configuration for Norwegian topo maps")
 
@@ -772,6 +775,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Mapsforge map, convert to raster map**
 :  [Supported raster maps](DocFaqMaps#which-raster-map-formats-are-supported "Supported raster maps")
+
+**Mapsforge, map**
+:  [Mapsforge Maps](DocBasicsMapDem#mapsforge-maps "Mapsforge Maps")
 
 **MBTILES, use for maps**
 :  [ECW, MBTILES and MrSID maps](DocMapsTipsRasterDEM#ecw-mbtiles-and-mrsid-maps "ECW, MBTILES and MrSID maps")

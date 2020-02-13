@@ -242,6 +242,10 @@ ___Basic usage___
                 1. TMS|map
                 1. Map|TMS
                 
+            * [Mapsforge Maps](DocBasicsMapDem#mapsforge-maps)
+                1. Mapsforge|map
+                1. Map|Mapsforge
+                
         * [Control maps and DEM files](DocControlMapDem)
             * [Draw Order](DocControlMapDem#draw-order)
                 1. Map|draw order
