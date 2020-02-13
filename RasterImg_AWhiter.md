@@ -1,3 +1,6 @@
+Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
+- - -
+
 # Raster IMG
 
 __This is a translation of the Russian [original](http://whiter.brinkster.net/raster_img.shtml) written by (late) Alex Whiter.__
@@ -265,3 +268,6 @@ _Translator's notes:_
 * Some of the links on this page (and its Russian original) are broken.
 * Some internal links on this page had to be removed due to Markdown formatting limitations. If  necessary, compare with [original page](http://whiter.brinkster.net/raster_img.shtml).
 * More information about the author can be found [here](https://www.naviboard.de/thread/64138-alex-whiter-gestorben/?postID=517042#post517042) (in German) and [here](https://www.gpspower.net/forum-announcements/359499-vale-alexwhiter.html).
+
+- - -
+Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | () Next

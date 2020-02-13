@@ -115,7 +115,7 @@ def gen_output(lines):
 
 # open output file - start with new name, rename at the end - otherwise a file is read and written at the same time!
 outpf = open("%s.tmp" % outf, "w", encoding="utf-8")
-outpf.write("# Complete table of contents\n\n___Do not edit - automatically created from DocMain!___\n" )
+outpf.write("# Complete table of contents\n\n___Do not edit - automatically created from DocMain!___\n\n" )
 
 # open DocMain 
 docmain = open(docmainfile, encoding="utf-8")   

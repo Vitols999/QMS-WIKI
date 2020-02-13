@@ -4,6 +4,7 @@
 # Complete table of contents
 
 ___Do not edit - automatically created from DocMain!___
+
 * ![UK flag](images/DocGettingStarted/FlagUk.jpg)  [__Quick start__](DocQuickStartEnglish "English quickstart description")
 * ![German flag](images/DocGettingStarted/FlagDe.jpg)  [__Schnellstartanleitung__](DocQuickStartGerman "German quickstart description")
 * ![Russian flag](images/DocGettingStarted/FlagRu.jpg)  [__Быстрый старт__](DocQuickStartRussian "Russian quickstart description")
@@ -135,6 +136,7 @@ ___Do not edit - automatically created from DocMain!___
             * [GDAL *.vrt Maps](DocBasicsMapDem#gdal-vrt-maps)
             * [WMTS Maps](DocBasicsMapDem#wmts-maps)
             * [TMS Maps](DocBasicsMapDem#tms-maps)
+            * [Mapsforge Maps](DocBasicsMapDem#mapsforge-maps)
         * [Control maps and DEM files](DocControlMapDem)   
             * [Draw Order](DocControlMapDem#draw-order)
             * [Map Properties](DocControlMapDem#map-properties)
