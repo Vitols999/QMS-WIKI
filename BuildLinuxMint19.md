@@ -80,6 +80,10 @@ Run:
 
 Run:
  
+`sudo apt-get install python3-dev`
+
+Run:
+ 
 `svn co http://routino.org/svn/trunk routino`
 
 `cd routino`
