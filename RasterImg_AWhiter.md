@@ -1,6 +1,12 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
 
+***Table of contents***
+
+* [Raster IMG](#raster-img)
+
+* * * * * * * * * *
+ 
 # Raster IMG
 
 __This is a translation of the Russian [original](http://whiter.brinkster.net/raster_img.shtml) written by (late) Alex Whiter.__
