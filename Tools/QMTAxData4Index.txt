@@ -1,0 +1,73 @@
+# Data for wiki index creation
+
+___Basic usage___
+
+* [Installation and setup](InstallSetup)
+ 
+    * [Installation ](InstallSetup#installation)
+        1. QMapTool|installation
+           
+        * [Windows](InstallSetup#windows)
+        * [Linux ](InstallSetup#linux)
+        
+    * [Running](InstallSetup#running)
+        * [List of command-line options](InstallSetup#list-of-command-line-options)
+                1. QMapTool|commandline parameters
+                1. Command line|QMapTool
+                
+    * [Setup](InstallSetup#setup)
+        1. QMapTool|setup
+        1. Setup|QMapTool
+
+* [Overview tool](OverviewTool)
+    1. Overview tool|description
+    1. Raster map|add overview map
+    
+    * [Basic information](OverviewTool#basic-information)
+    * [More details   ](OverviewTool#more-details)
+
+* [Cut tool](CutTool)
+    1. Cut tool|description
+    1. Raster map|cut with QMapTool
+    
+    * [Basic information](CutTool#basic-information)
+        * [More details   ](CutTool#more-details)
+    * [Example: Cutting of Russian military maps](CutTool#example-cutting-of-russian-military-maps)
+
+* [Reference tool](ReferenceTool)
+    1. Reference tool|description
+    1. Map|georeference raster map
+    1. Raster map|georeference with QMapTool
+
+    * [Reference tool](ReferenceTool#reference-tool)
+        * [Basic information](ReferenceTool#basic-information)
+        * [More details   ](ReferenceTool#more-details)
+    * [Example: Referencing of Russian military maps](ReferenceTool#example-referencing-of-russian-military-maps)
+
+* [Grid tool](GridTool)
+    1. Grid tool|description
+    
+    * [Basic information](GridTool#basic-information)
+    * [More details](GridTool#more-details)
+    * [Examples of referencing a map with the grid tool](GridTool#examples-of-referencing-a-map-with-the-grid-tool)
+        * [Example 1](GridTool#example-1)
+        * [Example 2](GridTool#example-2)
+
+* [Color palette tool](PaletteTool)
+    1. Color palette tool|description
+    1. Raster map|add color palette
+    
+    * [Basic information](PaletteTool#basic-information)
+    * [More details   ](PaletteTool#more-details)
+
+* [Properties of some commonly used coordinate systems](EpsgOverview)
+    1. Coordinate systems|commonly used
+    1. EPSG|description of some systems
+    
+* [Main menu overview](QMTAxMenuStructure)
+* [Complete table of contents](QMTAxAdvToc)
+    * [Basic usage](QMTAxAdvToc#basic-usage)
+    * [Appendix](QMTAxAdvToc#appendix)
+    * [Index](QMTAxAdvIndex)
+    
+ 

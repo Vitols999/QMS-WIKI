@@ -15,19 +15,38 @@
 # * Section headers with "#" at the end
 
 # W.Thämelt, 15.10.2019: script adjusted to GitHub Wiki needs
+#            17.02.2020: add creation of QMapTool TOC
 
 import os
 import fnmatch
 import re
 import unicodedata
 
+cfg = {"QMS": {}, "QMT": {}}
+
+# configuration for QMS part
+cfg["QMS"] = {
 # define folder to be considered
-filedir = r".."  
+"filedir": r"..", 
 
 # name of complete table of contents file
-outf = r"../AxAdvToc.md"
+"outf": r"../AxAdvToc.md",
+
 # name of DocMain page
-docmainfile = r"../DocMain.md"
+"docmainfile": r"../DocMain.md",
+}
+
+# configuration for QMT part
+cfg["QMT"] = {
+# define folder to be considered
+"filedir": r"..\QMapTool", 
+
+# name of complete table of contents file
+"outf": r"../QMapTool/QMTAxAdvToc.md",
+
+# name of DocMain page
+"docmainfile": r"../QMapTool/QMTDocMain.md",
+}
 
 # find [..](..) link expression in DocMain TOC line
 # matches:   * [Create Offline Documentation](OfflineDocumentation)          
@@ -113,30 +132,35 @@ def gen_output(lines):
 
 #-------------------------------------------------------------------------
 
-# open output file - start with new name, rename at the end - otherwise a file is read and written at the same time!
-outpf = open("%s.tmp" % outf, "w", encoding="utf-8")
-outpf.write("# Complete table of contents\n\n___Do not edit - automatically created from DocMain!___\n\n" )
+for pkg in cfg.keys():
+    outf = cfg[pkg]["outf"]
+    filedir = cfg[pkg]["filedir"]
+    docmainfile = cfg[pkg]["docmainfile"]
+    
+    # open output file - start with new name, rename at the end - otherwise a file is read and written at the same time!
+    outpf = open("%s.tmp" % outf, "w", encoding="utf-8")
+    outpf.write("# Complete table of contents\n\n___Do not edit - automatically created from DocMain!___\n\n" )
 
-# open DocMain 
-docmain = open(docmainfile, encoding="utf-8")   
-  
-# get entries from TOC of DocMain
-toc_entries = gen_pageorder(docmain, outpf) 
+    # open DocMain 
+    docmain = open(docmainfile, encoding="utf-8")   
+      
+    # get entries from TOC of DocMain
+    toc_entries = gen_pageorder(docmain, outpf) 
 
-# open all referenced MD file in the order given by DocMain
-openmdfiles = gen_open(toc_entries)
-  
-# join all referenced MD files (Linux cat!)
-catopenmdfiles = gen_cat(openmdfiles)
+    # open all referenced MD file in the order given by DocMain
+    openmdfiles = gen_open(toc_entries)
+      
+    # join all referenced MD files (Linux cat!)
+    catopenmdfiles = gen_cat(openmdfiles)
 
-# get necessary output lines = lines with links from TOC and prepare output for printing
-lnklines = gen_output(catopenmdfiles)
+    # get necessary output lines = lines with links from TOC and prepare output for printing
+    lnklines = gen_output(catopenmdfiles)
 
-for l in lnklines:
-  outpf.write(l)  
+    for l in lnklines:
+      outpf.write(l)  
 
-docmain.close()                             # don't close to early - generators must work first!  
-outpf.close()    
+    docmain.close()                             # don't close to early - generators must work first!  
+    outpf.close()    
 
-os.replace("%s.tmp" % outf, outf)
+    os.replace("%s.tmp" % outf, outf)
 
