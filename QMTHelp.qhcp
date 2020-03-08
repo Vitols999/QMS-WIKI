@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QHelpCollectionProject version="1.0">
+    <assistant>
+        <title>QMapTool Offline Help</title>
+        <startPage>qthelp://QMT/doc/QMTHome.html</startPage>
+        <currentFilter>QMTApplication 1.0</currentFilter>
+        <homePage>qthelp://QMT/doc/QMTDocMain.html</homePage>
+        <enableFilterFunctionality visible="true">true</enableFilterFunctionality>
+        <enableFullTextSearchFallback>true</enableFullTextSearchFallback>
+        <applicationIcon>QMapShack.png</applicationIcon>
+        <cacheDirectory base="collection">cache</cacheDirectory>
+        <aboutMenuText>
+            <text>About QMT</text>
+            <text language="de">Über QMT</text>
+        </aboutMenuText>
+        <aboutDialog>
+            <file>about.txt</file>
+            <file language="de">about_de.txt</file>
+            <icon>A.png</icon>
+        </aboutDialog>
+        
+    </assistant>
+
+    <docFiles>
+      <generate>
+        <file>
+            <input>QMapTool/QMTHelp.qhp</input>
+            <output>QMTHelp.qch</output>
+        </file>            
+      </generate>
+      <register>
+            <file>QMTHelp.qch</file>
+           
+      </register>
+    </docFiles>
+</QHelpCollectionProject>

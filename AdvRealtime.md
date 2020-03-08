@@ -210,7 +210,7 @@ Start the TCP server on a command line with a sequence of commands as follows:
 
     GPSBabel.exe -t -i gpx -f RecordedTrack.gpx -o nmea,gpgga=1,gprmc=0,gpvtg=0,gpgsa=0,pause=3 -F - | nmeahandler.py | ncat.exe  -v -l 1234
 
-Here, GPSBabel converts the GPX data of the input file to NMEA `GGA` sentences only and streams them to the `nmeahandler.py` script which carries out the described data update and forwards the updated data to the TCP server. Each NMEA data sentence is sent by GPSBabel after a 3 seconds pause. `Ncat` is used in the example as TCP server. The next image shows the result of such a procedure in QMS. 
+Here, GPSBabel converts the GPX data of the input file to NMEA `GGA` sentences only and streams them to the [`nmeahandler.py`](Downloads/nmeahandler.py) script which carries out the described data update and forwards the updated data to the TCP server. Each NMEA data sentence is sent by GPSBabel after a 3 seconds pause. `Ncat` is used in the example as TCP server. The next image shows the result of such a procedure in QMS. 
 
 NMEA `GGA` sentences have only a time but no date information. The timestamp displayed in the realtime window is composed of the date of the replay and the UTC time of recording!
     
