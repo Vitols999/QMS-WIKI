@@ -1,5 +1,0 @@
-QMapShack offline help
-
-This offline help was created from the Github Wiki for QMapShack.
-
-QMapShack Wiki URL: https://github.com/Maproom/qmapshack/wiki

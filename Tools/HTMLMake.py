@@ -48,8 +48,10 @@ MAXWIDTH = 1300                  # if image width > MAXWIDTH, then image is resi
 DIRNAME = os.path.abspath(".")   # folder in which all QMS MD files can be found. Subfolders: QMapTools, Downloads, Tools
                                  # setting depends on current working directory = location of Makefile.make!
 
+HTMLDIR = "doc/html"             # relative path to subdirectory with .html files (root: Wiki root directory)
+
 FILES2CONVERT = (sys.argv[1], )  # convert MD file given on command line
-SINGLEFILE = True                # convert just 1 file
+SINGLEFILE = True                # convert just 1 file - don't change or remove, used in another script variant!
 
 # ## HTML header and footer definitions
 
@@ -164,16 +166,14 @@ class AddHtmlExt(Preprocessor):
                                              # insert the width info (extended MD syntax!) into markdown link
                         line = ReWholeImg.sub(r'\1{{: width="{}"}}'.format(MAXWIDTH), line)
 
-            # adjust links to images - Github Wiki assumes that image links in MD files
-            # are relative to the root directory. Thus, there appears the QMapTool folder
-            # in the links. This folder is dropped in orsder to get working links in HTML files.
-
-            if r"(QMapTool/images/" in line:          # adjust Github caused link folder for images
-                line = line.replace("(QMapTool/images/", "(images/")
-
-            elif "](Downloads/" in line:              # adjust link in case of WMTS;TMS, ... file
+            if "](Downloads/" in line:       # adjust link in case of WMTS;TMS, ... file
                 line = ReDownloads.sub(r"\2)", line)  # remove .wmts, .tms, ... extensions
 
+            if "(images/" in line:           # adjust links to images
+                line = line.replace("(images/", "(../../images/")
+            elif "(QMapTool/images/" in line:
+                line = line.replace("(QMapTool/images/", "(../../../QMapTool/images/")
+                
             line = ReImg.sub("](#", line)             # drop leading "-" in TOC link
 
             line = ReQMT.sub('](QMapTool/QMTDocMain "QMapTool documentation"', line)  # Insert subdirectory name
@@ -190,13 +190,13 @@ class AddHtmlExt(Preprocessor):
 # * Add header with page title and footer (closing tags) to HTML output
 
 class HeaderFooterPostprocessor(Postprocessor):
-    TITLE = "My title"                                                       # dummies - overwritten in DoIt
-    RELDIR = ""                                    
+    TITLE = "My title"                                               # dummies - overwritten in DoIt
+    RELDIR = ""
 
-    def run(self, text):                                                     # text = HTML conversion result
-        text = text.replace('<table>', '<table border="1"')                  # add table borders
+    def run(self, text):                                             # text = HTML conversion result
+        text = text.replace('<table>', '<table border="1"')          # add table borders
 
-                                                                             # add HTML header and footer to page
+                                                                     # add HTML header and footer to page
         return "{}\n{}\n{}".format(header.format(reldir=self.RELDIR, title=self.TITLE), text, footer)
 
 # ### class FixHtml
@@ -299,11 +299,9 @@ def DoIt():
         # set HTML page title to filename
         HeaderFooterPostprocessor.TITLE = os.path.splitext(os.path.basename(mdfile))[0]
 
-        HeaderFooterPostprocessor.RELDIR = "./QMapTool"  # used for adjusting reference to .css file
-        if "Downloads" in mdfile:
-            HeaderFooterPostprocessor.RELDIR = "../QMapTool"
-        elif "QMapTool" in mdfile:
-            HeaderFooterPostprocessor.RELDIR = "."
+        HeaderFooterPostprocessor.RELDIR = "css"        # adjust reference to .css file
+        if "Downloads" in mdfile or "QMapTool" in mdfile:
+            HeaderFooterPostprocessor.RELDIR = "../css"
 
         mdinpf = open(mdfile, "r", encoding="utf-8")    # read whole input file
         mdinput = mdinpf.read()
@@ -315,7 +313,7 @@ def DoIt():
         converted = md.convert(mdinput)                 # convert whole file content to HTML
         md.reset()
 
-        output = "{}.html".format(os.path.splitext(mdfile)[0])  # filename of HTML output
+        output = "{}/{}.html".format(HTMLDIR, os.path.splitext(mdfile)[0])  # filename of HTML output
 
         outf = open(output, "w", encoding="utf-8")
         outf.write(converted)                           # save HTML file

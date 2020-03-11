@@ -11,18 +11,18 @@
 # ## Workflow for preparing Qt help for QMS/QMT
 # 
 # 1. Be sure, local copy of QMS wiki is up-to-date (including the TOC and index files, git should work on this copy)
-# 1. Be sure, files for preparing Qt help (Makefile.make, HTMLMake.py, QMSQtHelp.py, qmsstyle.css, QMS/THelp.qhcp) are up-to-date
-#    and at correct location (qmsstyle.css in QMapTool subfolder!).
+# 1. Be sure, files for preparing Qt help (Makefile.make, HTMLMake.py, QMSQtHelp.py, qmsstyle.css, QMS/THelp.qhcp) 
+#    are up-to-date and at correct location.
 # 1. Be sure, configuration in Makefile.make is up-to date. Check it with
 #    `make VERBOSE=YES -f Makefile.make check`.
 # 1. In case of changes in the Wiki directory structure check and update the configuration files    
 #    QMSHelp.qhcp, QMTHelp.qhcp.
 # 1. Run `make -f Makefile.make build` 
 # 1. Check the new help packages using Qt assistant or QMS 
-#    (run `assistant.exe -collectionFile QMSHelp.qhc`, pay attention to the contents of the 
-#    cache used by assistant)
+#    (run `make -f Makefile.make show` or `assistant.exe -collectionFile path_to/QMSHelp.qhc`, 
+#    pay attention to the contents of the cache used by assistant - layout and content at start depends on cache!)
 # 
-# __Schematic flow of operations in Makefile.make:__
+# * __Schematic flow of operations in Makefile.make:__
 # 
 # ~~~                                          
 # 
@@ -50,8 +50,34 @@
 #                                        ||
 #                                        ||
 #                                        \/
-#         assistant --------------- show help ------ run                               
-# ~~~                               
+#         assistant --------------- show help ------ show             
+# ~~~
+# 
+# * __Used additional directory structure in local Wiki copy:__
+# 
+# ~~~
+# 
+# root (*.qhcp, *.qhp, Makefile.make) 
+#       |
+#       --- doc (some general files used) 
+#            |
+#            --- qms (QMSHelp.qhc/qch)                                 
+#            |
+#            --- qmt (QMTHelp.qhc/qch)
+#            |
+#            --- html (.html)
+#                 |
+#                 --- css (CSS file)
+#                 |
+#                 --- QMapTool (.html for QMT)
+#                 |
+#                 --- Downloads (.html for Downloads/*.wmts, ...)                
+# ~~~  
+# 
+# * The intermediate .html files are included in the global `.gitignore` file. 
+#   Thus, they are not pushed to the server.
+# 
+# 
 
 # ## Prerequisites and some bottlenecks
 # 
@@ -66,9 +92,9 @@
 #   located in the root directory of the wiki.
 # * Large images in HTML/MD files are automatically scaled by some browsers ("responsive images"). 
 #   This doesn't hold true for the Qt help `assistant` coming with Qt5.14.0 for Windows. 
-#   Therefore, images having a width exceeding a certain 
-#   threshold get an additional width attribute to force the Qt help browser to resize the image. 
-# * The TOC (index) part of a Qt help page is built with the help of the TOC extension in the 
+#   Therefore, images having a width exceeding a certain  threshold get an additional 
+#   width attribute to force the Qt help browser to resize the image. 
+# * The TOC of a Qt help page is built with the help of the TOC extension in the 
 #   markdown package when converting .md to .html files.
 # * The contents tree of Qt help is built from `AxAdvToc.md` and `QMapTool/QMTAxAdvToc.md`.
 # * The index part of Qt help is built from `AxAdvIndex.md` and `QMapTool/QMTAxAdvIndex.md`. 
@@ -99,6 +125,8 @@ TOCDEPTH = 8
 
 QMSBASEDIR = os.getcwd()                      # location of local copy of QMS wiki
 
+HTMLDIR = "doc/html"                          # branch in the Wiki for .html files
+
 # Wiki TOC and Index files used for preparing Qt help
 QMSTOCFILE = r"AxAdvToc.md"
 QMSIDXFILE = r"AxAdvIndex.md"
@@ -128,9 +156,9 @@ QHP = """<?xml version="1.0" encoding="UTF-8"?>
         <keywords></keywords>
         <files>
             <file>{cssdir}/qmsstyle.css</file>
-            <file>*.html</file>
+            <file>{htmldir}/{qmtswtch}*.html</file>
             {extrafiles}
-            <file>images/*.*</file>
+            <file>{qmtswtch}images/*.*</file>
         </files>
     </filterSection>
 </QtHelpProject>
@@ -168,8 +196,7 @@ r6 = re.compile("(:|⊞)\s+\[[^\]]+\]\(([^ ]+)")
 class QHPMaker():
 
     # these subdirectories are only used in QMS - drop them for QMT
-    ExtraFiles = """<file>*.png</file>
-            <file>Downloads/*.html</file>"""
+    ExtraFiles = """<file>{}/Downloads/*.html</file>""".format(HTMLDIR)
 
     def __init__(self,
                  pkg="QMS",                    # used package: QMS or QMT
@@ -180,24 +207,28 @@ class QHPMaker():
                  ):
 
         self.basedir = basedir
+        self.pkg = pkg
 
-        self.CSSDir = "./QMapTool"
+        self.CSSDir = "{}/css".format(HTMLDIR)
+        self.QMTSWTCH = ""
+
         if pkg != "QMS":                       # QMT: remove extra file directories used for QMS
             self.ExtraFiles = ""
-            self.CSSDir = "."                  # adjust path to css file
+            self.QMTSWTCH = "QMapTool/"
 
         # read TOC file
-        inpf = open("{}/{}".format(basedir, tocfile), "r", encoding="utf-8")
+        inpf = open("{}/{}".format(self.basedir, tocfile), "r", encoding="utf-8")
         self.toclnes = inpf.readlines()
         inpf.close()
 
         # read index file
-        inpf = open("{}/{}".format(basedir, idxfile), "r", encoding="utf-8")
+        inpf = open("{}/{}".format(self.basedir, idxfile), "r", encoding="utf-8")
         self.idxlnes = inpf.readlines()
         inpf.close()
 
         # open QHP file template for further handling, insert first QMS/QMT parameters
-        self.root = ET.fromstring(QHP.format(pkg=pkg, toptitle=toptitle, extrafiles=self.ExtraFiles, cssdir=self.CSSDir))
+        self.root = ET.fromstring(QHP.format(pkg=pkg, toptitle=toptitle, extrafiles=self.ExtraFiles,
+                                             cssdir=self.CSSDir, htmldir=HTMLDIR, qmtswtch=self.QMTSWTCH))
 
         self.FindXMLTOC()    # find TOC entries for qhp file
         self.FindXMLIDX()    # find keyword/index entries for qhp file (none for QMT)
@@ -205,7 +236,7 @@ class QHPMaker():
                              # QMT part needs special adjustments!
 
         # save qhp file
-        ET.ElementTree(element=self.root).write("{}/{}Help.qhp".format(basedir, pkg),
+        ET.ElementTree(element=self.root).write("{}Help.qhp".format(pkg),
                                                 encoding="utf-8",
                                                 xml_declaration=True)
 
@@ -269,7 +300,7 @@ def FindXMLTOC(self):         # build TOC entries for Qt help (= section part in
             newsect.set("title", title)
             if rr.group(4):                         # some TOC entries are without a reference to a file
                 splits = rr.group(4).split("#")
-                ref = "{}.html".format(splits[0])   # insert the html extension at the correct location
+                ref = "{}/{}{}.html".format(HTMLDIR, self.QMTSWTCH, splits[0])   # insert the html extension at the correct location
                 if len(splits) == 2:
                     ref = "{}#{}".format(ref, splits[1])
                 newsect.set("ref", ref)
@@ -304,14 +335,13 @@ def FindXMLIDX(self):     # build index entries for Qt help (= keywords part)
             newkwd.set("id", kwdname)    # if set, then keyword doesn't appear in the index
 
             splits = lnk.split("#")      # insert the html extension at the correct location
-            ref = "{}.html".format(splits[0])
+            ref = "{}/{}{}.html".format(HTMLDIR, self.QMTSWTCH, splits[0])
             if len(splits) == 2:
                 ref = "{}#{}".format(ref, splits[1])
 
             newkwd.set("ref", ref)
 
             continue
-
     return
 
 QHPMaker.FindXMLIDX = FindXMLIDX

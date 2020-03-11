@@ -2,20 +2,20 @@
 <QHelpCollectionProject version="1.0">
     <assistant>
         <title>QMapShack&amp;QMapTool Offline Help</title>
-        <startPage>qthelp://QMS/doc/Home.html</startPage>
-        <homePage>qthelp://QMS/doc/DocMain.html</homePage>
+        <startPage>qthelp://QMS/doc/doc/html/Home.html</startPage>
+        <homePage>qthelp://QMS/doc/doc/html/DocMain.html</homePage>
         <enableFilterFunctionality visible="true">true</enableFilterFunctionality>
         <enableFullTextSearchFallback>true</enableFullTextSearchFallback>
-        <applicationIcon>QMapShack.png</applicationIcon>
-        <cacheDirectory base="collection">cache</cacheDirectory>
+        <applicationIcon>doc/QMapShack.png</applicationIcon>
+        <cacheDirectory base="collection">.</cacheDirectory>
         <aboutMenuText>
             <text>About QMS</text>
             <text language="de">Über QMS</text>
         </aboutMenuText>
         <aboutDialog>
-            <file>about.txt</file>
-            <file language="de">about_de.txt</file>
-            <icon>A.png</icon>
+            <file>doc/about.txt</file>
+            <file language="de">doc/about_de.txt</file>
+            <icon>doc/A.png</icon>
         </aboutDialog>
         
     </assistant>
@@ -24,16 +24,16 @@
       <generate>
         <file>
             <input>QMSHelp.qhp</input>
-            <output>QMSHelp.qch</output>
+            <output>doc/qms/QMSHelp.qch</output>
         </file>            
         <file>            
-            <input>QMapTool/QMTHelp.qhp</input>
-            <output>QMTHelp.qch</output>
+            <input>QMTHelp.qhp</input>
+            <output>doc/qmt/QMTHelp.qch</output>
         </file>
       </generate>
       <register>
-            <file>QMSHelp.qch</file>
-             <file>QMTHelp.qch</file>
+            <file>doc/qms/QMSHelp.qch</file>
+             <file>doc/qmt/QMTHelp.qch</file>
            
       </register>
     </docFiles>
