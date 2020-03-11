@@ -10,7 +10,7 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
     * [Primeros pasos tras el primer arranque de QMS](#primeros-pasos-tras-el-primer-arranque-de-qms)
         * [Configurar carpetas de mapas](#configurar-carpetas-de-mapas)
         * [Configurar carpetas DEM](#configurar-carpetas-dem)
-        * [Configurar y Activar creación automática de rutas.(opcional)](#configurar-y-activar-creación-automática-de-rutasopcional)
+        * [Configurar y Activar creación automática de rutas](#configurar-y-activar-creación-automática-de-rutas)
     * [Manejo básico de QMS](#manejo-básico-de-qms)
         * [Cargar un archivo GPX y mostrar su contenido](#cargar-un-archivo-gpx-y-mostrar-su-contenido)
         * [Activar mapas](#activar-mapas)
@@ -43,7 +43,7 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 
 ## Descargar lo necesario desde Internet
 
-Aqui tienes una lista con los enlaces para descargar el programa y una serie de mapas y datos muy útiles  para empezar a usar QMS de forma practica. De momento puedes ir dejando todo en tu carpeta de descargas, más adelante se indica donde hay que poner y que hay hacer con cada cosa. 
+Aqui tienes una lista con los enlaces para descargar el programa y una serie de mapas y datos muy útiles  para empezar a usar QMS de forma práctica. De momento puedes ir dejando todo en tu carpeta de descargas, más adelante se indica donde hay que poner y que hay hacer con cada cosa. 
 
 
 * _Los números de versión indicados pueden cambiar. Siempre se debería elegir la versión mas reciente disponible._
@@ -66,13 +66,13 @@ __Mapas:__
 __Ficheros OSM__ 
 ( son la base para el calculo automático de rutas y tracks)
 
-* [Archivo Routino-Iberia.zip](https://drive.google.com/open?id=1ZfKtU0RnRIaHh7mxGN11yRIiGbtits_B "Routino-Iberia.zip") (390 Mb aprox.) (RECOMENDADO para seguir esta guía) Este fichero no se actualiza diariamente, sin embargo ofrece la ventaja de traer los datos de enrutamiento ya cocinados y listos para usar en QMS directamente. Cubre Portugal, España, Andorra, y sur de Francia.
+* [Routino_IBERIA_202003.zip](https://mega.nz/#!YBFHlSCY!BS_CP-MCnHzlpyA__ML-p4h9u4krpYcLRaQc4Vx0ZEg "Routino_Iberia_fecha.zip") (500 Mb aprox.) (RECOMENDADO para seguir esta guía) Este fichero no se actualiza diariamente, sin embargo ofrece la ventaja de traer los datos de enrutamiento ya cocinados y listos para usar en QMS directamente y ahorrarás mucho tiempo. Cubre Portugal, España, Andorra, y sur de Francia.
    
    
 __Datos de elevación DEM / MDT:__ 
 (Recomendado para asignar alturas a los tracks y calcular pendientes y desniveles)
  
-* [IGN-MDT25_Peninsula](https://mega.nz/#F!ZAllxSbB!oNvvLiR0D4Cf1RuP8YLvRA?UEFFjA5K "IGN-MDT25_Peninsula"). (572 Mb) Un fichero ünico para toda la Península con los datos del MDT25 (25x25m).
+* [IGN-MDT25_Peninsula](https://mega.nz/#!lRNQmCKT!ssCQBzkjp5tDYHfhXr71atNxINiswigov2U148Reln4 "IGN-MDT25_Peninsula"). (572 Mb) Un fichero ünico para toda la Península con los datos del MDT25 (25x25m).
 
 * [Viewfinderpanoramas. Resolución 1 arc second ](http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org1.htm "Load DEM data for region"). Estos datos solo están disponibles para algunas zonas de montaña. En esta guía vamos a usar como ejemplo los correspondientes al Pirineo. Haz click sobre el mapa para descargarlos, son dos ficheros `.zip`. (180 Mb aprox)
 
@@ -134,7 +134,7 @@ Una vez creada la estructura vamos a poner los mapas y datos que hemos descargad
 **Datos para enrutamiento**
 
 
-* Si has descargado el fichero  `Routino_Iberia_201902.zip` descomprímelo, y copia su contenido en la carpeta `Routino`. 
+* Si has descargado el fichero  `Routino_Iberia_*.zip` descomprímelo, y copia su contenido en la carpeta `Routino`. 
 
 
 **Datos de elevación DEM / MDT**
@@ -204,7 +204,7 @@ _En este paso vamos a indicarle a QMS en que carpetas guardamos los mapas y QMS 
 * En el panel de mapas aparecen ahora los mapas disponibles, acompañados de un icono que indica el tipo de mapa.
 * Los mapas raster en formatos tales como `.MBTILES`   `.TIFF` `.ECW` no aparecen en la lista directamente sino que lo hacen a través de un fichero raster virtual `.VRT`. No te asustes, un fichero .VRT es básicamente una lista de mapas, ocupa muy pocos Kb, y QMS tiene un asistente para generar estos ficheros fácilmente:
     * Abrimos en el _Menú Herramientas_ el _Asistente VRT_ y se abre una nueva ventana
-    * Pinchando en la carpeta VERDE seleccionamos los ficheros de origen. Puedes probar con algún ecw o tiff que tengas por ahí. 
+    * Pinchando en la carpeta VERDE seleccionamos los ficheros de origen. Puedes probar con algún `.MBTILES`   `.TIFF` o `.ECW` que tengas por ahí. 
     * Pinchando en el icono de la carpeta AZUL le indicamos la ruta al fichero `VRT`que vamos a crear y su nombre (la extensión `.vrt` se añade automáticamente). Habitualmente querremos guardarlo en la misma carpeta que los mapas que lo forman.
     * El apartado de `opciones avanzadas` es para casos especiales y normalmente se deja en blanco. 
     * Pulsamos en `Comenzar` y la ventana muestra el progreso. El proceso es muy rápido y en segundos tendremos creado el nuevo .VRT .
@@ -238,13 +238,13 @@ NOTAS sobre los DEM y su fichero .VRT:
 *  Para crear un `.vrt` con ficheros `.asc` como los descargados desde el IGN se requieren algunos pasos adicionales. Esta explicado con todo detalle [en este tutorial.](https://www.mendiak.net/viewtopic.php?f=529&t=58023) 
 
 
-### Configurar y Activar creación automática de rutas.
+### Configurar y Activar creación automática de rutas
 
 **Importar datos para Routino**
 
-QMS utiliza la aplicación _Routino_ para calcular rutas automáticamente sobre un conjunto de datos de OpenStreetMap (OSM). Normalmente estos datos se descargan de la red en formato `osm.pbf` y hay  que importarlos al formato usado por _Routino_.  El proceso se hace una sola vez y QMS tiene un asistente para hacer esta tarea fácilmente.
+QMS utiliza la aplicación _Routino_ para calcular rutas automáticamente sobre un conjunto de datos de OpenStreetMap (OSM). Normalmente estos datos se descargan de la red en formato `osm.pbf` y despues hay  que importarlos al formato usado por _Routino_.  El proceso se hace una sola vez y QMS tiene un asistente para hacer la importación fácilmente, pero consume mucho tiempo.
  
-Si has descargado el archivo [Iberia.zip](https://drive.google.com/open?id=1ZfKtU0RnRIaHh7mxGN11yRIiGbtits_B) y has copiado su contenido en la carpeta `Routino` no es necesario hacerlo, pues estos ficheros ya están importados y listos para usar. Solamente nos falta decirle a QMS donde encontrar estos ficheros...
+Sin embargo si ya has descargado el archivo [Routino_IBERIA_202003.zip](https://mega.nz/#!YBFHlSCY!BS_CP-MCnHzlpyA__ML-p4h9u4krpYcLRaQc4Vx0ZEg "Routino_Iberia_fecha.zip") y has copiado su contenido en la carpeta `Routino`, te ahorras ese trabajo, pues estos ficheros ya están importados y listos para usar. Solamente nos falta decirle a QMS donde encontrar estos ficheros...
 
 **Elegir la base de enrutamiento activa**
 
