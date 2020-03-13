@@ -50,8 +50,11 @@ def gen_output(lines):
     lnk = lne[0]                            # line with a link
     rr = r1.findall(lnk)                    # find all image links
     for rrr in rr:
+      #print(rrr)
+      #print(rr.groups())
+      #xxx
       f = lne[1].split(os.sep)[-1][:-3]            # get filename without folder 
-      yield "%s | [%s](%s)\n" % (rrr[0][1:], f, f) # line for MD output   
+      yield ("%s | [%s](%s)\n" % (rrr[1], f, f), "%s | [%s](%s)\n" % (rrr[0][1:], f, f)) # line for MD output   
 
 #-------------------------------------------------------------------------
       
@@ -83,8 +86,10 @@ usedimages = []                            # list of images mentioned in links
 r2 = re.compile("/([^/]+?/[^/]+?) ")       # mask for getting image name
 
 for l in lnklines:
-  outpf.write(l)  
-  usedimages.append(r2.search(l).group(1)) # add image name to list
+  outpf.write(l[0])  
+  #print(l)
+  #xxx
+  usedimages.append(r2.search(l[1]).group(1)) # add image name to list
   
 outpf.close()    
 

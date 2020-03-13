@@ -792,7 +792,14 @@ ___Basic usage___
     + Data handling in views  
         1. Data selection|in map views
         1. Map view|data selection in view
-        
+
+    * [Tagging data](AdvDataHandling#tagging-data) 
+        1. GIS data|tagging
+        1. GIS data|keywords and rating
+        1. Keywords|assign to data
+        1. Rating|assign to data
+        1. Workspace|display ratings and keywords        
+    
     * [Searching data in the workspace](AdvDataHandling#searching-data-in-the-workspace)
     + Search workspace
         1. Search|data in workspace
@@ -1132,6 +1139,8 @@ ___Basic usage___
             1. Setup|multi-user version
             1. GPS device|setup
             1. Setup|GPS device
+            1. Setup|workspace
+            1. Workspace|setup
             
         * [Waypoint icons setup](AdvSetup#waypoint-icons-setup)
         * [Toolbar setup](AdvSetup#toolbar-setup)

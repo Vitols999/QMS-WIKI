@@ -84,6 +84,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Hide from Map | - | - | - | - |
  | Sort by Time | - | true | true | - |
  | Sort by Name | - | true | true | - |
+ | Sort by Rating | - | true | true | - |
  | Filter Project | - | true | - | - |
  | Autom. Save | - | true | - | - |
  | Active Project | - | true | - | - |
@@ -106,6 +107,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Close | - | - | - | - |
 **Single Waypoint** | . | . | . | . | . |  
  | Edit... | - | - | - | - |
+ | Set Tags | - | - | - | - |
  | Copy to... | - | - | - | - |
  | Show Bubble | - | true | - | - |
  | Move Waypoint | - | - | - | - |
@@ -119,6 +121,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Delete | - | - | - | - |
 **Single Track** | . | . | . | . | . |  
  | Edit... | - | - | - | - |
+ | Set Tags | - | - | - | - |
  | Copy to... | - | - | - | - |
  | Track Information | - | true | - | - |
  | Select Range | - | - | - | - |
@@ -133,6 +136,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Delete | - | - | - | - |
 **Single Route** | . | . | . | . | . |  
  | Edit... | - | - | - | - |
+ | Set Tags | - | - | - | - |
  | Copy to... | - | - | - | - |
  | Route Instructions | - | true | - | - |
  | Calculate Route | - | - | - | - |
@@ -144,11 +148,13 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Delete | - | - | - | - |
 **Single Area** | . | . | . | . | . |  
  | Edit... | - | - | - | - |
+ | Set Tags | - | - | - | - |
  | Copy to... | - | - | - | - |
  | Edit Area Points | - | - | - | - |
  | Toggle Nogo-Area | - | true | - | - |
  | Delete | - | - | - | - |
 **Several selected workspace objects** | . | . | . | . | . |  
+ | Set Tags | - | - | - | - |
  | Copy to... | - | - | - | - |
  | Create Route... | - | - | - | - |
  | Change Proximity... | - | - | - | - |
@@ -237,7 +243,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 
 
 
-(_Overview derived from commit 91415d0f - 2019-11-19 15:58:41 +0100)_ 
+(_Overview derived from commit ad96ca78 - 2020-03-12 08:05:47 +0100)_ 
 
 
 

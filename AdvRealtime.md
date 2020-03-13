@@ -69,14 +69,14 @@ As soon as the computer is connected to the Internet, the QMS map window shows s
 The flight of an aircraft can be recorded by 
 
 * finding the flight key in the aircraft info window and inserting it into the `Record by key` edit field of the realtime window and
-* pressing the record icon ![](images/DocAdv/Record.png) in the toolbar. 
+* pressing the record icon ![Record icon](images/DocAdv/Record.png "Record icon") in the toolbar. 
 
 The flight track of the aircraft is then shown in the map window as animated line.
 
 ![Flight track](images/DocAdv/RealtimeFlightTrack.png "Flight track")
 
 
-Use the pause button ![](images/DocAdv/Pause.png) to pause or stop recording. The record can be converted into a proper QMS track contained in a workspace project by clicking the track button ![](images/DocAdv/Track.png).
+Use the pause button ![Pause button](images/DocAdv/Pause.png "Pause button") to pause or stop recording. The record can be converted into a proper QMS track contained in a workspace project by clicking the track button ![Track button](images/DocAdv/Track.png "Track button").
 
 
 

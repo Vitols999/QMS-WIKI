@@ -396,15 +396,15 @@ To use this filter proceed as follows:
 
 This filter is slightly different from the other track filters. Instead of modifying a recorded cycling track it calculates the energy use for the cycling tour taking into account various parameters.
 
-To calculate the energy use for a recorded cycling track open the track edit window and then click the filter icon !["Energy use"](images/DocAdv/EnergyCycling.png "Energy use") in the lower right corner of the track summary. A window pops-up where the user can set all necessary parameters:
+To calculate the energy use for a recorded cycling track open the track edit window and then click the filter icon ![Energy use](images/DocAdv/EnergyCycling.png "Energy use") in the lower right corner of the track summary. A window pops-up where the user can set all necessary parameters:
 
-!["Energy use - parameters"](images/DocAdv/EnergyCyclingParameters.png "Energy use - parameters")
+![Energy use - parameters](images/DocAdv/EnergyCyclingParameters.png "Energy use - parameters")
 
 After setting the parameters properly (some default values are shown after opening the window) the right part of the pop-up window displays various information on which the energy use is based and, finally, in the lower right part the used energy is shown with the units `kJ`(oule) and `kcal`.
 
 Clicking on the question mark in the header line of the window opens a help window giving some insight in the procedure used for calculating the energy use.
 
-!["Energy use - help"](images/DocAdv/EnergyCyclingHelp.png "Energy use - help")
+![Energy use - help](images/DocAdv/EnergyCyclingHelp.png "Energy use - help")
 
 
 - - -

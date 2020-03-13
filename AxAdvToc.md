@@ -293,6 +293,7 @@ ___Do not edit - automatically created from DocMain!___
             * [Configuration](DocMapsTipsRasterDEM#configuration)
 * [Data handling](AdvDataHandling)    
     * [Data selection and handling in map views](AdvDataHandling#data-selection-and-handling-in-map-views)
+    * [Tagging data](AdvDataHandling#tagging-data)
     * [Searching data in the workspace](AdvDataHandling#searching-data-in-the-workspace)
         * [General description](AdvDataHandling#general-description)
         * [Object types for properties](AdvDataHandling#object-types-for-properties)

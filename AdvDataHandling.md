@@ -77,6 +77,30 @@ _Comments:_
 * Next click one of the actions that can't be checked. The corresponding action is carried out immediately.
 * Close the selection rectangle with a right click.
 
+## Tagging data
+
+Data objects can be tagged with a rating and with keywords for easier search.  To use this feature proceed as follows:
+
+* Goto the [workspace setup](AdvSetup#workspace-setup) window be clicking the menu entries `Workspace - Setup workspace`.
+* Select the option `Show tags in workspace tree`. Having done this a new column "Rating" is shown in the workspace window.
+* Select one or more data objects in the workspace.
+* Right-click on one of the selected data objects to open the context menu and click the menu entry `Set tags`.
+* In the windows that pops-up select a rating between 1 and 5 (stars) and insert a semicolon separated list of keywords.
+
+    ![Set data tags](images/DocAdvSearch/DataSetTags.png  "Set data tags")
+    
+* Close the window by clicking the `Ok` button.
+
+The column "Rating" shows for tagged objects their rating (a number between 1 and 5) and an additional icon as indicator for keywords belonging to the object.
+When moving the mouse pointer on the icon a bubble box displays the keywords. Keywords and rating are also displayed when moving the mouse pointer on the name field of data object.
+
+![Tagged data objects](images/DocAdvSearch/DataTags.png  "Tagged data objects")
+
+Data in workspace projects in the can be sorted by their ratings using the context menu entry `Sort by rating` of the project.
+
+Keywords and ratings can also be used in [extended searches](#general-description) in the workspace
+
+*Warning:* Tags of data objects can't be saved into GPX files. They can be saved only in QMS files or databases.
 
 ## Searching data in the workspace
 
@@ -102,7 +126,7 @@ For the **name-only** and the **complete-text search** set the proper option in 
 
 Here is an example for a case-insensitive complete-text search:
 
-![complete-text search](images/DocAdvSearch/SearchComplTxt.png "complete-text search")
+![Complete-text search](images/DocAdvSearch/SearchComplTxt.png "Complete-text search")
 
 An **extended search** is used automatically as soon as the input has the special structure
 
@@ -170,6 +194,7 @@ Each property has a specific set of GIS object types for which it can be used. T
 * When trying a search with the comparison term `equals`, then you have to type the complete value to search for before you get the correct result. 
 * When trying a search with a comparison `regex`, then follow the regular expression syntax used for [Pearl](https://perldoc.perl.org/perlre.html).
 * When using units then only the ones listed in the search help window are supported.
+* The search keywords `keywords` and `rating` can be used to find [tagged GIS data objects]().
 * Geocaches from different sources may have significant differences in their formal description (in GPX files). For correct search results it is assumed, that geocaches are defined using the rules applied in [geocaching.com](https://www.geocaching.com/play).
 * The properties `T` resp. `D` are convenient abbreviations for the properties `terrain` resp. `difficulty`.
 * When searching for geocache attributes use the comparison term `contains`.

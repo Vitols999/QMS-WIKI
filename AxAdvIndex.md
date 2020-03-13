@@ -20,7 +20,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 
-[A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w)
+[A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w)
 
 ------
 
@@ -472,6 +472,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **GIS data, import to database**
 :  [Import of GIS data](AdvProjActions#import-of-gis-data "Import of GIS data")
 
+**GIS data, keywords and rating**
+:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
+
 **GIS data, locked**
 :  [Tracks, Waypoints & Co](DocGisItems "Tracks, Waypoints & Co")
 
@@ -480,6 +483,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **GIS data, select cluttered**
 :  [Cluttered items](DocGisItems#cluttered-items "Cluttered items")
+
+**GIS data, tagging**
+:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
 
 **GIS data, undo & redo**
 :  [History of Changes & Undo/Redo](DocGisItems#history-of-changes--undoredo "History of Changes & Undo/Redo")
@@ -575,6 +581,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Installation, Windows**
 :  [Windows installation](DocGetQMapShack#windows "Windows installation") ⊞ [Windows with VisualStudio 2017](BuildWindowsVisualStudio "Windows with VisualStudio 2017")
+
+
+## K
+
+
+**Keywords, assign to data**
+:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
 
 
 ## L
@@ -1018,6 +1031,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Raster map, VRT file for**
 :  [Find raster map location](DocFaqMaps#how-to-find-the-location-of-a-raster-map "Find raster map location with gdalinfo") ⊞ [Use of raster maps](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "Use of Russian military raster maps")
 
+**Rating, assign to data**
+:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
+
 **Realtime data, Garmin devices**
 :  [Using Garmin devices with Windows 10](AdvRealtime#using-garmin-devices-with-windows-10 "Using Garmin devices with Windows 10")
 
@@ -1174,6 +1190,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Setup, overview of options**
 :  [Setup options](AdvSetup "Setup options")
+
+**Setup, workspace**
+:  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
 
 **SLF, load file**
 :  [Load GPX Files](DocHandleGpxFiles#load-gpx-files "Load GPX Files")
@@ -1623,6 +1642,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Workspace, delete data**
 :  [Workspace and database windows](AdvProjects#workspace-and-database-windows "Workspace and database windows")
 
+**Workspace, display ratings and keywords**
+:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
+
 **Workspace, project in**
 :  [QMS workspace database](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data "QMS workspace database")
 
@@ -1634,6 +1656,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Workspace, search data**
 :  [Search workspace](AdvDataHandling#searching-data-in-the-workspace "Search workspace")
+
+**Workspace, setup**
+:  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
 
 - - -
 [Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (List of images (Advanced usage and FAQ parts only)) [Next](AxWikiImages)

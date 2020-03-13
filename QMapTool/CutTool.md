@@ -1,12 +1,12 @@
 [Prev](OverviewTool) (Overview tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Reference tool) [Next](ReferenceTool)
 - - -
- 
+
 ***Table of contents***
 
-* [Cutting maps](#cutting-maps)
-    * [Basic information](#basic-information)
-        * [More details   ](#more-details)
-    * [Example: Cutting of Russian military maps](#example-cutting-of-russian-military-maps)
+* [Cutting maps](#markdown-header-cutting-maps)
+    * [Basic information](#markdown-header-basic-information)
+        * [More details   ](#markdown-header-more-details)
+    * [Example: Cutting of Russian military maps](#markdown-header-example-cutting-of-russian-military-maps)
 
 * * * * * * * * * *
  

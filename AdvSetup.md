@@ -44,7 +44,8 @@ More details of the topics mentioned on this page can be found elsewhere in this
     * a time interval for automatic project data backup,
     * a listening port for a QMS multi-user environment,
     * how GPS devices should be handled by QMS. If this option is not checked, then GPS devices can't be seen in QMS. Otherwise GPS devices plugged in to the PC can be seen in QMS. For details compare section ["Working with GPS Devices"](DocGisDevices).
-
+    * whether [tags (ratings and keywords)](AdvDataHandling#tagging-data) are shown in the workspace window for GIS data objects.
+    
 * To control the visibility of parts of the workspace goto menu `Window`
     * `Toggle docks:` change visibility of all docked window parts at once.
     * `Toolbar:` change visibility of toolbar.

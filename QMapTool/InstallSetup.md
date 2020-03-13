@@ -1,15 +1,15 @@
 [Prev](QMTDocMain) (Manual) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Overview tool) [Next](OverviewTool)
 - - -
- 
+
 ***Table of contents***
 
-* [Installation and Setup](#installation-and-setup)
-    * [Installation ](#installation)
-        * [Windows](#windows)
-        * [Linux ](#linux)
-    * [Running](#running)
-        * [List of command-line options](#list-of-command-line-options)
-    * [Setup](#setup)
+* [Installation and Setup](#markdown-header-installation-and-setup)
+    * [Installation ](#markdown-header-installation)
+        * [Windows](#markdown-header-windows)
+        * [Linux ](#markdown-header-linux)
+    * [Running](#markdown-header-running)
+        * [List of command-line options](#markdown-header-list-of-command-line-options)
+    * [Setup](#markdown-header-setup)
 
 * * * * * * * * * *
  

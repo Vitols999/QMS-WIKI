@@ -1,11 +1,11 @@
 [Prev](InstallSetup) (Installation and setup) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Cut tool) [Next](CutTool)
 - - -
- 
+
 ***Table of contents***
 
-* [The overview tool](#the-overview-tool)
-    * [Basic information](#basic-information)
-    * [More details   ](#more-details)
+* [The overview tool](#markdown-header-the-overview-tool)
+    * [Basic information](#markdown-header-basic-information)
+    * [More details   ](#markdown-header-more-details)
 
 * * * * * * * * * *
  

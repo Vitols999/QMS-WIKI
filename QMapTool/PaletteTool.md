@@ -1,11 +1,11 @@
 [Prev](GridTool) (Grid tool) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Properties of some commonly used coordinate systems) [Next](EpsgOverview)
 - - -
- 
+
 ***Table of contents***
 
-* [Add color palette](#add-color-palette)
-    * [Basic information](#basic-information)
-    * [More details   ](#more-details)
+* [Add color palette](#markdown-header-add-color-palette)
+    * [Basic information](#markdown-header-basic-information)
+    * [More details   ](#markdown-header-more-details)
 
 * * * * * * * * * *
  
