@@ -12,6 +12,9 @@
 # If configuration parameters are set on command line run
 #   `make PYTHON=name_of_python_executable ... -f Makefile.make ...` 
 
+# To remove intermediate files run as last step
+#   `make ... -f Makefile.make clean` 
+
 # Prerequisites:
 
 # - local copy of QMS Wiki (git should work in this copy!)
