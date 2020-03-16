@@ -85,7 +85,7 @@ Data objects can be tagged with a rating and with keywords for easier search.  T
 * Select the option `Show tags in workspace tree`. Having done this a new column "Rating" is shown in the workspace window.
 * Select one or more data objects in the workspace.
 * Right-click on one of the selected data objects to open the context menu and click the menu entry `Set tags`.
-* In the windows that pops-up select a rating between 1 and 5 (stars) and insert a semicolon separated list of keywords.
+* In the windows that pops-up select a rating between 1 and 5 (stars) and insert a colon separated list of keywords.
 
     ![Set data tags](images/DocAdvSearch/DataSetTags.png  "Set data tags")
     

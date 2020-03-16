@@ -67,6 +67,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 **? (Main menu)** | . | . | . | . | . |  
  | About | - | - | - | - |
  | Help | F1 | - | - | - |
+ | Online Wiki | - | - | - | - |
  | Quickstart Help | - | - | - | - |
 **>>>View->Track Info submenu** | . | . | . | . | . |  
  | Track Highlight | - | true | - | Mark the highlighted track with a red border. |
@@ -243,7 +244,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 
 
 
-(_Overview derived from commit ad96ca78 - 2020-03-12 08:05:47 +0100)_ 
+(_Overview derived from commit 3b2176d5 - 2020-03-15 16:55:14 +0100)_ 
 
 
 

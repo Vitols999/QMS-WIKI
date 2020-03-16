@@ -21,7 +21,9 @@
 **View**| | | |
  |Flip Mouse Wheel| |True|Flip Mouse Wheel
 **Window**| | | |
+ |Shell|.|True|.|
 **?**| | | |
+ |Help|F1|.|
  |About| | | 
 
 
