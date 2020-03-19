@@ -448,6 +448,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Geocache, as waypoint**
 :  [Geocaches](DocGisItemsWpt#geocaches "Geocaches")
 
+**Geocache, status**
+:  [Geocaches](DocGisItemsWpt#geocaches "Geocaches")
+
 **Geonames, search**
 :  [Geosearch](DocSearchGoogle "Geosearch")
 

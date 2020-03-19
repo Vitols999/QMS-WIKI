@@ -178,12 +178,13 @@ Each property has a specific set of GIS object types for which it can be used. T
 
 | Property | Track | Route | Area | Waypoint | Geocache |
 | ---------|-------|-------|------|----------|----------|
-| description, full text, name, comment | x | x | x | x | x |
+| description, full text, name, comment, keywords, rating | x | x | x | x | x |
 | activity, max(imal)/min(imal) speed, time moving, total time, average speed, duration| x | - | - | - | - |
 | length, ascent, descent, elevation gain, distance, max(imal)/min(imal) elevation | x | x | - | - | - |
+| date | x | - | - | x | x |
 | elevation | **?** | **?** | - | x | - |
 | area | - | - | x | - | - |
-| D, T, GCCode, GCName, difficulty, terrain, negated/non-negated/positive attributes, size,| - | - | - | - | x |
+| D, T, GCCode, GCName, difficulty, terrain, negated/non-negated/positive attributes, size, status| - | - | - | - | x |
 
 
 
@@ -195,6 +196,7 @@ Each property has a specific set of GIS object types for which it can be used. T
 * When trying a search with a comparison `regex`, then follow the regular expression syntax used for [Pearl](https://perldoc.perl.org/perlre.html).
 * When using units then only the ones listed in the search help window are supported.
 * The search keywords `keywords` and `rating` can be used to find [tagged GIS data objects]().
+* The search keyword `status` can be used to find geocaches with a certain status (`available, not available, archived`).
 * Geocaches from different sources may have significant differences in their formal description (in GPX files). For correct search results it is assumed, that geocaches are defined using the rules applied in [geocaching.com](https://www.geocaching.com/play).
 * The properties `T` resp. `D` are convenient abbreviations for the properties `terrain` resp. `difficulty`.
 * When searching for geocache attributes use the comparison term `contains`.

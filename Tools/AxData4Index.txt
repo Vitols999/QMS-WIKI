@@ -467,6 +467,7 @@ ___Basic usage___
                 
             * [Geocaches](DocGisItemsWpt#geocaches)    
                 1. Geocache|as waypoint
+                1. Geocache|status
                 
         * [Areas](DocGisItemsArea)
             1. Area|as map overlay

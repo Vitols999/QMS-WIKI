@@ -3,9 +3,9 @@
 
 ***Table of contents***
 
-* [The overview tool](#markdown-header-the-overview-tool)
-    * [Basic information](#markdown-header-basic-information)
-    * [More details   ](#markdown-header-more-details)
+* [The overview tool](#the-overview-tool)
+    * [Basic information](#basic-information)
+    * [More details   ](#more-details)
 
 * * * * * * * * * *
  

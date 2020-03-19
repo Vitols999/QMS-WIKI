@@ -3,9 +3,9 @@
 
 ***Table of contents***
 
-* [Add color palette](#markdown-header-add-color-palette)
-    * [Basic information](#markdown-header-basic-information)
-    * [More details   ](#markdown-header-more-details)
+* [Add color palette](#add-color-palette)
+    * [Basic information](#basic-information)
+    * [More details   ](#more-details)
 
 * * * * * * * * * *
  

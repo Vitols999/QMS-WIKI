@@ -3,7 +3,7 @@
 
 ***Table of contents***
 
-* [Main menu overview](#markdown-header-main-menu-overview)
+* [Main menu overview](#main-menu-overview)
 
 * * * * * * * * * *
  

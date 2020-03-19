@@ -3,7 +3,7 @@
 
 ***Table of contents***
 
-* [Properties of some commonly used coordinate systems](#markdown-header-properties-of-some-commonly-used-coordinate-systems)
+* [Properties of some commonly used coordinate systems](#properties-of-some-commonly-used-coordinate-systems)
 
 * * * * * * * * * *
  

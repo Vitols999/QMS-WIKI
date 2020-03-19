@@ -58,8 +58,8 @@ files=$(ls "${@-}")            # Determine the list of files to process.
 
 if [ -n "${n-}" ]       # Update navigation bars in the files specified.
 then for f in $files
-     do echo ./NavBar.sh DocMain.md $f
-             ./NavBar.sh DocMain.md $f
+     do echo ./QMTNavBar.sh QMTDocMain.md $f
+             ./QMTNavBar.sh QMTDocMain.md $f
      done
 fi                                              # End if [ -n "${n-}" ].
 

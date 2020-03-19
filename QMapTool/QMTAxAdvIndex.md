@@ -20,7 +20,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 
-[C](#markdown-header-c) [E](#markdown-header-e) [G](#markdown-header-g) [M](#markdown-header-m) [O](#markdown-header-o) [Q](#markdown-header-q) [R](#markdown-header-r) [S](#markdown-header-s)
+[C](#c) [E](#e) [G](#g) [M](#m) [O](#o) [Q](#q) [R](#r) [S](#s)
 
 ------
 
@@ -35,7 +35,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Color palette tool](PaletteTool "Color palette tool")
 
 **Command line, QMapTool**
-:  [List of command-line options](InstallSetup#markdown-header-list-of-command-line-options "List of command-line options")
+:  [List of command-line options](InstallSetup#list-of-command-line-options "List of command-line options")
 
 **Coordinate systems, commonly used**
 :  [Properties of some commonly used coordinate systems](EpsgOverview "Properties of some commonly used coordinate systems")
@@ -76,13 +76,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **QMapTool, commandline parameters**
-:  [List of command-line options](InstallSetup#markdown-header-list-of-command-line-options "List of command-line options")
+:  [List of command-line options](InstallSetup#list-of-command-line-options "List of command-line options")
 
 **QMapTool, installation**
-:  [Installation](InstallSetup#markdown-header-installation "Installation")
+:  [Installation](InstallSetup#installation "Installation")
 
 **QMapTool, setup**
-:  [Setup](InstallSetup#markdown-header-setup "Setup")
+:  [Setup](InstallSetup#setup "Setup")
 
 
 ## R
@@ -108,7 +108,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **Setup, QMapTool**
-:  [Setup](InstallSetup#markdown-header-setup "Setup")
+:  [Setup](InstallSetup#setup "Setup")
 
 - - -
 [Prev](QMTAxAdvToc) (Complete table of contents) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | () Next
