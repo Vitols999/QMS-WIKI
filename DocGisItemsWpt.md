@@ -55,15 +55,22 @@ These can be changed by clicking on the blue, underlined labels.
 ### Custom Icons
 QMapShack ships with a bunch of default icons, which are likely to be displayed correctly on the most GPS devices.
 
-If you want to use your own icons, you need to add them to
+If you want to use your own icons, then there are 2 ways to do this:
 
-* `~/.config/QLandkarte/WaypointIcons` (*nix-type systems)
-* `c:\Users\my_user_name\.config\QLandkarte\WaypointIcons` (Windows)
-* `???` (OSX)
-
+* _Use default icon directory:_
+    * Add icon files to
+        * `~/.config/QLandkarte/WaypointIcons` (*nix-type systems)
+        * `c:\Users\my_user_name\.config\QLandkarte\WaypointIcons` (Windows)
+        * `???` (OSX)
+* _Use other icon directory:_
+    * Start QMapShack.
+    * Goto menu entry  `Workspace - Setup waypoint icons`.
+    * In the pop-up windows click the `Open` icon and define a path where QMapShack can find additional user-defined waypoint icons.
+    * _Remark:_ As soon as a path is defined in this way, the default directory mentioned in the previous point isn't used anymore for loading icons.
+    
 Icon files must be in PNG or BMP format with size 22x22. 
 
-When adding an icon *Photo.png*, the icon will be listed as *Photo* in QMapShack.
+When adding an icon `Photo.png`, the icon will be listed as `Photo` in QMapShack.
 
 ### The Photo Album
 
