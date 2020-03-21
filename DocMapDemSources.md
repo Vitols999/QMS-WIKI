@@ -75,9 +75,9 @@ Some more maps can be found in the [package online.zip](http://www.mtb-touring.n
 | Poland | [Hike routes](http://mapaszlakow.eu/Gdynia.html/wmts) | online, raster | download file in link and change extension of downloaded file to `wmts`. Hike routes in Poland | |
 | Norway | file `Norway Topo 50.tms` in [package online.zip](http://www.mtb-touring.net/?ddownload=5012) | online, raster created from vector data| Norway topo map |   |
 | **Spain** |
-| . | file `ESP_IGN_Topografico.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!5dMAzSyD!RJ1FDTxYC9jUxHEQ73jHmXm_S1dc6Jt0UUfYBgfN41o) | online, raster | Spain topo map | |
-| . | file `ESP_IGN_Ortofoto.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!5dMAzSyD!RJ1FDTxYC9jUxHEQ73jHmXm_S1dc6Jt0UUfYBgfN41o) | online, raster | Spain orthofotos |  | 
-| . | file `ESP\_IGN\_MDT25.wcs` in [package QMS\_onlineDEM\_WCS.zip](https://drive.google.com/open?id=1CLzw4SH62BtgLJ7ZeUgT9SFQh1lh3Dbn) | online DEM| place the `.wcs` file in your DEM path and activate it  | [here](DocMapsTipsRasterDEM#online-dem-data)  |
+| . | file `ESP_IGN_Topografico.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!gJ0TgB7D!BSFixTvffJ6IcWLUlR0wNxHxhVDFMPW1AHzjZQpl4L0) | online, raster | Spain topo map | |
+| . | file `ESP_IGN_Ortofoto.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!gJ0TgB7D!BSFixTvffJ6IcWLUlR0wNxHxhVDFMPW1AHzjZQpl4L0) | online, raster | Spain orthofotos |  | 
+| . | file `ESP\_IGN\_MDT25.wcs` in [package QMS\_onlineDEM\_WCS.zip](https://mega.nz/#!tY8XkAiS!WBMPVFnvBrpyekST1_iGQ-UGYBLy6GS-dvi_6Ewqj5o) | online DEM| place the `.wcs` file in your DEM path and activate it  | [here](DocMapsTipsRasterDEM#online-dem-data)  |
 
 
 _Remarks:_
