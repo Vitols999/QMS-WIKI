@@ -60,7 +60,7 @@ __Mapas:__
 
 * [Mapa alternativaslibres.org](http://alternativaslibres.org/es/downloads.php "Alternativas Libres Garmin").  Busca en la lista la fila España y elige la opción  "Topográfico" en su versión "Archivo para copiar en el GPS". Esto bajara un archivo `.zip`  Para España aproximadamente unos 750 Mb
 
-* [Mapas y ortofoto online (IGN_España)](https://drive.google.com/file/d/1XS08JTLtU1qenv8nOPJbmX0csxiOFBDL/view?usp=sharing "ESP On-line maps"). Desde este enlace se descarga el fichero `ESP_IGN-online.zip`.
+* [Mapas y ortofoto online (IGN_España y otros)](https://mega.nz/#!gJ0TgB7D!BSFixTvffJ6IcWLUlR0wNxHxhVDFMPW1AHzjZQpl4L0 "ESP_QMS_onlinemaps"). Desde este enlace se descarga el fichero `ESP_QMS_onlinemaps.zip`.
 * [Mapas y ortofoto online (mundo)](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "On-line maps"). En esta pagina, pincha`Download online maps`, y se descarga el fichero `Onlinemaps.zip`.
     
 __Ficheros OSM__ 
@@ -79,9 +79,10 @@ __Datos de elevación DEM / MDT:__
 
 __Datos de ejemplo__
 
-* [QMS-datos-ejemplo.zip](https://drive.google.com/open?id=1lqOcDbKtZjIgIMqPzPRT3a9azFNIB5mq "QMS-datos-ejemplo.zip") (2 Mb aprox) (RECOMENDADO) Contiene varios archivos que facilitan seguir esta guía paso a paso.
+* [QMS-datos-ejemplo.zip](https://mega.nz/#!xEl1wT7D!p8eFAUt7UKs2NuuAvWHGXnnTAnD4EEwUf5qJqwFORqI "QMS-datos-ejemplo.zip") (2 Mb aprox) (RECOMENDADO) Contiene varios archivos que facilitan seguir esta guía paso a paso.
+
 ## Organización de las carpetas de datos y mapas
-Es muy recomendable crear una estructura de carpetas para almacenar de forma organizada nuestros mapas y datos siguiendo el esquema que se explica a continuación. Para ahorrarte trabajo puedes [descargar este fichero .zip](https://drive.google.com/open?id=1QyeOqebY7DOZEgkIbziiFe8D3gMZaAw-) que ya contiene la estructura de carpetas recomendada y copiarla en tu PC.
+Es muy recomendable crear una estructura de carpetas para almacenar de forma organizada nuestros mapas y datos siguiendo el esquema que se explica a continuación. Para ahorrarte trabajo puedes [descargar este fichero .zip](https://mega.nz/#!0N0wjQ4C!B2rxoZSUuuBodYw2WbFIwdDUVR1-542kQp7B0A82pAU) que ya contiene la estructura de carpetas recomendada y copiarla en tu PC.
 
 
 **Estructura de carpetas recomendada**
