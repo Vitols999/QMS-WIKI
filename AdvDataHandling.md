@@ -66,7 +66,7 @@ The following table lists all actions of the toolbar:
 
 
 
-(_Overview derived from commit f3dbcb2119e8 (Tue Apr 23 09:39:43 2019 +0200))_ 
+(_Overview derived from commit 89511685 - 2020-03-21 17:11:30 +0100_) 
 
 _Comments:_
 

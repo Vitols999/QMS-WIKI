@@ -72,6 +72,7 @@ The next table shows all actions that can be triggered from the toolbar.
 *Action*|*Icon*|*Checkable*|
 ----|----|----|
  View details and edit properties of track. | ![img](images/DocAdv/EditDetails.png "img") | - |   
+ Set tags and rating. | ![img](images/DocAdv/Tag.png "img") | - |   
  Copy track into another project. | ![img](images/DocAdv/Copy.png "img") | - |   
  Delete track from project. | ![img](images/DocAdv/DeleteOne.png "img") | - |   
  Show on-screen profile and detailed information about points. | ![img](images/DocAdv/TrkProfile.png "img") | true |   
@@ -89,7 +90,7 @@ The next table shows all actions that can be triggered from the toolbar.
 
 
 
-(_Overview derived from commit f3dbcb2119e8 (Tue Apr 23 09:39:43 2019 +0200))_ 
+(_Overview derived from commit 89511685 - 2020-03-21 17:11:30 +0100_) 
 
 _Comment:_ `true` in the column `Checkable` marks an action which has an on/off state (`checked/selected` or 
   `not checked/not selected`). 

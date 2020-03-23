@@ -45,6 +45,7 @@ The user can select the actions shown in the toolbar with the help of the mein m
  ![Min./Max Summary](images/DocIcons/LabelInfo.png) | Min./Max Summary | Show the minimum and the maximum values of the track properties in a table. | true |  
  ![Min./Max. Labels](images/DocIcons/Label.png) | Min./Max. Labels | Show the minimum and maximum values of the track properties along the track in the map view. | true |  
  ![Night / Day](images/DocIcons/NightDay.png) | Night / Day | Night / Day | true |  
+ ![Online Wiki](images/DocIcons/Help.png) | Online Wiki | Online Wiki | - |  
  ![POI Text](images/DocIcons/POIText.png) | POI Text | POI Text | true |  
  ![Quickstart Help](images/DocIcons/Help.png) | Quickstart Help | Quickstart Help | - |  
  ![Realtime](images/DocIcons/ToggleRealTime.png) | Realtime | Realtime | true |  
@@ -82,7 +83,7 @@ The user can select the actions shown in the toolbar with the help of the mein m
 
 
 
-(_Overview derived from commit 7c045f8965e6 (Fri May 10 06:08:06 2019 +0000))_ 
+(_Overview derived from commit 89511685 - 2020-03-21 17:11:30 +0100_) 
 
 _Remarks:_
 
