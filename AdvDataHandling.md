@@ -5,6 +5,7 @@
 
 * [Data handling](#data-handling)
     * [Data selection and handling in map views](#data-selection-and-handling-in-map-views)
+    * [Tagging data](#tagging-data)
     * [Searching data in the workspace](#searching-data-in-the-workspace)
         * [General description](#general-description)
         * [Object types for properties](#object-types-for-properties)
