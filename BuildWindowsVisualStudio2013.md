@@ -19,7 +19,7 @@
         * [C9.) Open the generated  build\QMapShack.sln with VS2013](#c9-open-the-generated--buildqmapshacksln-with-vs2013)
     * [Creating a Windows binary installer](#creating-a-windows-binary-installer)
         * [I1.) Download the VC redistributable installer](#i1-download-the-vc-redistributable-installer)
-        * [I2.) [Optional] Download libmysql.dll from mariadb](#i2-optional-download-libmysqldll-from-mariadb)
+        * [I2.) (Optional) Download libmysql.dll from mariadb](#i2-optional-download-libmysqldll-from-mariadb)
         * [I3.) Copy all required files to intermediate directory](#i3-copy-all-required-files-to-intermediate-directory)
         * [I4.) Create the installer with NSIS(3.0b1)](#i4-create-the-installer-with-nsis30b1)
     * [TroubleShooting](#troubleshooting)
@@ -234,7 +234,7 @@ or any other [git client](https://git-scm.com/downloads).
 Note: in case the redistributable files are already installed in your system,
 this step is not necessary.
 
-### I2.) [Optional] Download libmysql.dll from mariadb
+### I2.) (Optional) Download libmysql.dll from mariadb
   Download mariadb-10.1.11-winx64.zip (large file - ca 260MB) from
   https://downloads.mariadb.org/mariadb/10.1.11/ and extract libmysql.dll.
   Or copy libmysql.dll from an existing QMS installation

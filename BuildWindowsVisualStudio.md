@@ -20,8 +20,8 @@
         * [C9.) Open the generated build\QMapShack.sln with VS2017](#c9-open-the-generated-buildqmapshacksln-with-vs2017)
     * [Creating a Windows binary installer](#creating-a-windows-binary-installer)
         * [I1.) Download the VC redistributable installer](#i1-download-the-vc-redistributable-installer)
-        * [I2.) [Optional] Download libmysql.dll from mariadb](#i2-optional-download-libmysqldll-from-mariadb)
-        * [I3.) [Optional] Build libraries libeay32.dll and ssleay32.dll](#i3-optional-build-libraries-libeay32dll-and-ssleay32dll)
+        * [I2.) (Optional) Download libmysql.dll from mariadb](#i2-optional-download-libmysqldll-from-mariadb)
+        * [I3.) (Optional) Build libraries libeay32.dll and ssleay32.dll](#i3-optional-build-libraries-libeay32dll-and-ssleay32dll)
         * [I4.) Copy all required files to intermediate directory](#i4-copy-all-required-files-to-intermediate-directory)
         * [I5.) Create the installer with NSIS(3.0b1)](#i5-create-the-installer-with-nsis30b1)
     * [TroubleShooting](#troubleshooting)
@@ -293,7 +293,7 @@ Hint: Click on the "Open Project" button in the CMake GUI or double-click on the
 Note: in case the redistributable files are already installed in your system,
 this step is not necessary.
 
-### I2.) [Optional] Download libmysql.dll from mariadb
+### I2.) (Optional) Download libmysql.dll from mariadb
   Download mariadb-10.1.34-winx64.zip (large file - ca 260MB) from
   https://downloads.mariadb.org/mariadb/10.1.34/ and extract libmysql.dll.
   Or copy libmysql.dll from an existing QMS installation
@@ -303,7 +303,7 @@ this step is not necessary.
   lines in the copyfiles.bat and QMapShack_Installer.nsi scripts which are described
   in the next steps.
 
-### I3.) [Optional] Build libraries libeay32.dll and ssleay32.dll
+### I3.) (Optional) Build libraries libeay32.dll and ssleay32.dll
 
 (For OpenSSL source look [here](https://www.openssl.org/source/)).
 
