@@ -379,8 +379,6 @@ You will be prompted to select which layers you want. Although the same procedur
 
 Note that you will also need to provide your IP address (external IP: that is the IP of your Internet router) during the application process. Usually you can easily find this IP in your router status page, or alternatively you can visit websites such as 
 
-[www.howtofindmyipaddress.com](http://www.howtofindmyipaddress.com/) or
-
 [ip4.me](http://ip4.me/)
 
 The WMTS access may be denied, if you try to connect from another IP address (and this may be a problem if your ISP keeps changing your IP address). This problem can be diagnosed by trying to access a map tile directly from a web browser (use the sample URL below). In case of IP address mismatch you will obtain an error message saying "wrong IP address" instead of the map tile. The registered IP address can be modified on the "IGN Espace Pro" website, under your account, you should click on "mes commandes" and then "modifier mon contrat". Note that they say it can take up to 12h 
@@ -417,7 +415,7 @@ You can find some more complete WMTS and TMS files for IGN here :
 
 (again, don't forget to replace **all** the occurrences of **[YOUR_ID]** with your actual 24 character personal key)
 
-Note that this file was working as of Jully 28, 2018 but may stop working in the future in case IGN changes its WMTS or WMS server configuration.
+Note that this file was working as of July 28, 2018 but may stop working in the future in case IGN changes its WMTS or WMS server configuration.
 
 See [IGN Online Ressources](https://geoservices.ign.fr/documentation/ressources.html) if you want more information about IGN WMTS ans WMS layers. 
 
