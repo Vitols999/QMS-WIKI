@@ -196,7 +196,7 @@ Each property has a specific set of GIS object types for which it can be used. T
 * When trying a search with the comparison term `equals`, then you have to type the complete value to search for before you get the correct result. 
 * When trying a search with a comparison `regex`, then follow the regular expression syntax used for [Pearl](https://perldoc.perl.org/perlre.html).
 * When using units then only the ones listed in the search help window are supported.
-* The search keywords `keywords` and `rating` can be used to find [tagged GIS data objects]().
+* The search keywords `keywords` and `rating` can be used to find [tagged GIS data objects](#tagging-data).
 * The search keyword `status` can be used to find geocaches with a certain status (`available, not available, archived`).
 * Geocaches from different sources may have significant differences in their formal description (in GPX files). For correct search results it is assumed, that geocaches are defined using the rules applied in [geocaching.com](https://www.geocaching.com/play).
 * The properties `T` resp. `D` are convenient abbreviations for the properties `terrain` resp. `difficulty`.
