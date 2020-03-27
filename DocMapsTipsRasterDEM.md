@@ -49,7 +49,7 @@ Referenced maps in the OziExplorer format can be prepared for QMS as follows:
         gdalwarp rastermap.map rastermap.tif
     
 * Open QMapTool (if `qmaptool.exe` is on the `PATH`, then it can be opened from QMS by choosing the menu entry `Tool - Start QMapTool`).
-* Use the QMapTool to cut the map to the necessary shape. For details compare the [QMapTool documentation](CutTool).
+* Use the QMapTool to cut the map to the necessary shape. For details compare the [QMapTool documentation](https://github.com/Maproom/qmapshack/wiki/CutTool).
   The result is a new file `rastermap_cut.tif` in the QMS map directory.
 * Open QMapShack and select the menu entry `Tool - VRT Builder`.  
 * Insert `rastermap_cut.tif` as source file name, insert a target file name and select the creation of overviews for better rendering of the map. 
@@ -129,7 +129,7 @@ Some maps for Garmin devices provide a separate `gmapsupp.img` file with contour
 Some sources for vector contour line maps in this format are:
 
 * [OpenTopoMap](http://garmin.opentopomap.org/#download): Select your region and download the file in the Garmin format. The downloaded file contains both a base map and a contour line map in the `gmapsupp.img` format.
-* [BBBike](http://extract.bbbike.org/?lang=en): allows to create a contour line file for a custom area.
+* [BBBike](https://extract.bbbike.org/?lang=en): allows to create a contour line file for a custom area.
     * Follow the instructions shown on the linked page,
     * select as output format `SRTM World Contours Garmin (40m)`,
     * after rendering the map in QMS, use the slider of the map in the QMS maps window to change transparency (opacity).

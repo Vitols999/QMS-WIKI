@@ -1568,13 +1568,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Custom icons](DocGisItemsWpt#custom-icons "Custom icons")
 
 **Waypoint, details window**
-:  [View/edit waypoint](DocGisItemsWpt#-view--edit-details "View/edit waypoint")
+:  [View/edit waypoint](DocGisItemsWpt#view--edit-details "View/edit waypoint")
 
 **Waypoint, distance**
 :  [Find waypoint distance](DocFaqHandling#how-to-find-distance-between-waypoints "Find waypoint distance")
 
 **Waypoint, edit window**
-:  [View/edit waypoint](DocGisItemsWpt#-view--edit-details "View/edit waypoint")
+:  [View/edit waypoint](DocGisItemsWpt#view--edit-details "View/edit waypoint")
 
 **Waypoint, find info in web**
 :  [How to find information about a position (a POI) in the Web?](DocFaqMaps#how-to-find-information-about-a-position-a-poi-in-the-web "-")
@@ -1583,7 +1583,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Waypoints](DocGisItemsWpt "Waypoints")
 
 **Waypoint, move**
-:  [Move Waypoint](DocGisItemsWpt#-move-waypoint "Move Waypoint")
+:  [Move Waypoint](DocGisItemsWpt#move-waypoint "Move Waypoint")
 
 **Waypoint, options**
 :  [Waypoints](DocGisItemsWpt "Waypoints")
@@ -1592,7 +1592,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Photo album](DocGisItemsWpt#the-photo-album "Photo album")
 
 **Waypoint, project (clone)**
-:  [Project Waypoint](DocGisItemsWpt#-project-waypoint "Project Waypoint")
+:  [Project Waypoint](DocGisItemsWpt#project-waypoint "Project Waypoint")
 
 **Waypoint, proximity**
 :  [Find waypoint distance](DocFaqHandling#how-to-find-distance-between-waypoints "Find waypoint distance")

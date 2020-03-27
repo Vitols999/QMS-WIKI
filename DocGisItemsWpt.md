@@ -39,7 +39,9 @@ If you click on the highlighted waypoint you get a short on-screen-summary of th
 | ![Search web](images/DocGisItemsWpt/SearchWeb.png)        | Search web       | [Search for information about the waypoint position on selected websites](DocFaqMaps#how-to-find-information-about-a-position-a-poi-in-the-web) |
 
 
-## ![EditDetails](images/DocGisItemsWpt/EditDetails.png) View / Edit Details
+## View / Edit Details
+
+_Use ![EditDetails](images/DocGisItemsWpt/EditDetails.png) icon._
 
 ![Waypoint Details](images/DocGisItemsWpt/WptDetails.png)
 
@@ -84,7 +86,9 @@ This functionality comes with several limitations, as it is primarily meant to p
 
 **Photos are not exported to GPX.** Use either a Database or the QMS format for saving photos along with waypoints.
 
-## ![WptMove](images/DocGisItemsWpt/WptMove.png) Move Waypoint
+## Move Waypoint
+
+_Use ![WptMove](images/DocGisItemsWpt/WptMove.png) icon._
 
 (_valid starting with QMS patch version  676511d9ba16 (2016-12-22)_)
 
@@ -106,7 +110,10 @@ To move a waypoint to a new location
 ![Move Waypoint](images/DocGisItemsWpt/Move.png)
 
 
-## ![WptProj](images/DocGisItemsWpt/WptProj.png) Project Waypoint
+## Project Waypoint
+
+_Use ![WptProj](images/DocGisItemsWpt/WptProj.png) icon._
+
 
 Different to moving the waypoint this will create a clone of the waypoint. You have to give an explicit distance and bearing the waypoint is moved. You might want to change the icon and the name.
 

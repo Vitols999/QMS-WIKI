@@ -1,6 +1,3 @@
-[Prev](QMTAxMenuStructure) (Main menu overview) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | (Index) [Next](QMTAxAdvIndex)
-- - -
-
 # Complete table of contents
 
 ___Do not edit - automatically created from DocMain!___
@@ -58,6 +55,3 @@ ___Do not edit - automatically created from DocMain!___
     * [Q](QMTAxAdvIndex#q)
     * [R](QMTAxAdvIndex#r)
     * [S](QMTAxAdvIndex#s)
-
-- - -
-[Prev](QMTAxMenuStructure) (Main menu overview) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Index) [Next](QMTAxAdvIndex)

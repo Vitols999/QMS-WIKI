@@ -43,7 +43,7 @@ ___Basic usage___
             
         * [Creating a Windows binary installer](BuildWindowsVisualStudio2013#creating-a-windows-binary-installer)
             * [I1.) Download the VC redistributable installer](BuildWindowsVisualStudio2013#i1-download-the-vc-redistributable-installer)
-            * [I2.) [Optional] Download libmysql.dll from mariadb](BuildWindowsVisualStudio2013#i2-optional-download-libmysqldll-from-mariadb)
+            * [I2.) (Optional) Download libmysql.dll from mariadb](BuildWindowsVisualStudio2013#i2-optional-download-libmysqldll-from-mariadb)
             * [I3.) Copy all required files to intermediate directory](BuildWindowsVisualStudio2013#i3-copy-all-required-files-to-intermediate-directory)
             * [I4.) Create the installer with NSIS(3.0b1)](BuildWindowsVisualStudio2013#i4-create-the-installer-with-nsis30b1)
         * [TroubleShooting](BuildWindowsVisualStudio2013#troubleshooting)
@@ -75,8 +75,8 @@ ___Basic usage___
       * [C9.) Open the generated build\QMapShack.sln with VS2017](BuildWindowsVisualStudio#c9-open-the-generated-buildqmapshacksln-with-vs2017)
       * [Creating a Windows binary installer](BuildWindowsVisualStudio#creating-a-windows-binary-installer)
       * [I1.) Download the VC redistributable installer](BuildWindowsVisualStudio#i1-download-the-vc-redistributable-installer)
-      * [I2.) [Optional] Download libmysql.dll from mariadb](BuildWindowsVisualStudio#i2-optional-download-libmysqldll-from-mariadb)
-      * [I3.) [Optional] Build libraries libeay32.dll and ssleay32.dll](BuildWindowsVisualStudio#i3-optional-build-libraries-libeay32dll-and-ssleay32dll)
+      * [I2.) (Optional) Download libmysql.dll from mariadb](BuildWindowsVisualStudio#i2-optional-download-libmysqldll-from-mariadb)
+      * [I3.) (Optional) Build libraries libeay32.dll and ssleay32.dll](BuildWindowsVisualStudio#i3-optional-build-libraries-libeay32dll-and-ssleay32dll)
       * [I4.) Copy all required files to intermediate directory](BuildWindowsVisualStudio#i4-copy-all-required-files-to-intermediate-directory)
       * [I5.) Create the installer with NSIS(3.0b1)](BuildWindowsVisualStudio#i5-create-the-installer-with-nsis30b1)
       * [TroubleShooting](BuildWindowsVisualStudio#troubleshooting)
@@ -446,7 +446,7 @@ ___Basic usage___
             1. Waypoint|get info
             1. Waypoint|options
             
-            * [View / Edit Details](DocGisItemsWpt#-view--edit-details)
+            * [View / Edit Details](DocGisItemsWpt#view--edit-details)
             + View/edit waypoint
                 1. Waypoint|details window
                 1. Waypoint|edit window
@@ -459,10 +459,10 @@ ___Basic usage___
                 + Photo album
                     1. Waypoint|photo album
                     
-            * [Move Waypoint](DocGisItemsWpt#-move-waypoint)
+            * [Move Waypoint](DocGisItemsWpt#move-waypoint)
                 1. Waypoint|move
                 
-            * [Project Waypoint](DocGisItemsWpt#-project-waypoint)
+            * [Project Waypoint](DocGisItemsWpt#project-waypoint)
                 1. Waypoint|project (clone)
                 
             * [Geocaches](DocGisItemsWpt#geocaches)    

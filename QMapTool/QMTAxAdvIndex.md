@@ -1,5 +1,3 @@
-[Prev](QMTAxAdvToc) (Complete table of contents) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | () Next
-- - -
 
 # Index
 
@@ -109,6 +107,3 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Setup, QMapTool**
 :  [Setup](InstallSetup#setup "Setup")
-
-- - -
-[Prev](QMTAxAdvToc) (Complete table of contents) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | () Next

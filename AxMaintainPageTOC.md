@@ -81,8 +81,8 @@ The following limitations hold true for the script and the handled MD files:
     * `Spanish and German characters: Äáäéíñóöúü` (works in GitHub, not with Chrome)
     * `Загрузка файлов из Интернета`  (doesn't work with Chrome)
     * `Cyrillic text Mixed with Other text: Загрузка файлов из Интернета` (doesn't work with Chrome)
-* The TOC in a Wiki page starts with the special line `***Table of contents***`
-* The TOC in a Wiki page ends with the special line `* * * * * * * * * *`
+* The TOC in a Wiki page starts with a special line that consists of the word `Table of contents` included into the label `***`.
+* The TOC in a Wiki page ends with a special line that consist of 10 `*` characters separated by spaces.
 * The TOC in a Wiki page is located immediately after the navbar on top of the Wiki page
 * The TOC shouldn't be changed manually
 * A TOC is inserted into a Wiki page only 

@@ -21,7 +21,7 @@ Here are the main ones:
 
 * [http://wiki.opensTREetmap.org/wiki/OSM_Map_On_Garmin/Format](http://wiki.opensTREetmap.org/wiki/OSM_Map_On_Garmin/Format)
 * [http://www.pinns.co.uk/osm/RGN.html](http://www.pinns.co.uk/osm/RGN.html)
-* [exploring_img.pdf](exploring_img.pdf)
+* [exploring_img.pdf](http://www.pinns.co.uk/osm/docs/exploring_img.pdf "exploring_img.pdf")
 * `imgformat-1.0.pdf`, which can be downloaded, for example, [here](http://sourceforge.net/projects/garmin-img/files/). 
 
 Unfortunately, these sources do not contain any information about saving raster maps in IMG maps.
@@ -264,7 +264,7 @@ Further, `2693E900 FCE8F400 2693CB00 FCE81B00` are, obviously, the coordinates o
 `00000350` - the size of the block with the image.
 
 That's all for now. I hope that this file will be updated with information on not yet explored areas.
-If you have comments or additions, please write to the [(late) author](a.whiter@yandex.ru).
+If you have comments or additions, please write to the (late) author (a.whiter@yandex.ru).
 
 Last modification: 15 Mar 2017
 

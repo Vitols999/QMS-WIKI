@@ -4,6 +4,7 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 # Table of contents (abbreviated)
 
 ___Do not edit - automatically created from DocMain!___
+
 * ![UK flag](images/DocGettingStarted/FlagUk.jpg)  [__Quick start__](DocQuickStartEnglish "English quickstart description")
 * ![German flag](images/DocGettingStarted/FlagDe.jpg)  [__Schnellstartanleitung__](DocQuickStartGerman "German quickstart description")
 * ![Russian flag](images/DocGettingStarted/FlagRu.jpg)  [__Быстрый старт__](DocQuickStartRussian "Russian quickstart description")
@@ -99,6 +100,7 @@ ___Do not edit - automatically created from DocMain!___
         * [Vector maps for Linux systems](DocMapsTipsRasterDEM#vector-maps-for-linux-systems)
 * [Data handling](AdvDataHandling)    
     * [Data selection and handling in map views](AdvDataHandling#data-selection-and-handling-in-map-views)
+    * [Tagging data](AdvDataHandling#tagging-data)
     * [Searching data in the workspace](AdvDataHandling#searching-data-in-the-workspace)
         * [General description](AdvDataHandling#general-description)
         * [Object types for properties](AdvDataHandling#object-types-for-properties)

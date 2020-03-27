@@ -357,7 +357,7 @@ installation directory. Thus, a change of the `GDAL` related environment variabl
 * Calibrated Russian military and other raster maps can be downloaded from various locations.
 Some servers are
   * [loadmap.net](http://loadmap.net)
-  * [http://gpska.yapl.ru](http://gpska.yapl.ru)
+  * [https://gpska.yapl.ru](https://gpska.yapl.ru)
   * [http://satmaps.info/us/map-detector.php](http://satmaps.info/us/map-detector.php)
 
   When downloading a map tile 2 files are created:
