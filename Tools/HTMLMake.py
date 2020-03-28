@@ -194,8 +194,11 @@ class HeaderFooterPostprocessor(Postprocessor):
     RELDIR = ""
 
     def run(self, text):                                             # text = HTML conversion result
-        text = text.replace('<table>', '<table border="1"')          # add table borders
+        text = text.replace('<table>', '<table border="1">')         # add table borders
 
+        rpng_jpg = re.compile('\.(jpg|png)\.html')                   # remove extra .html extension after .jpg/.png extension
+                                                                     # source of this extra extension unknown
+        text = rpng_jpg.sub(".\\1", text)
                                                                      # add HTML header and footer to page
         return "{}\n{}\n{}".format(header.format(reldir=self.RELDIR, title=self.TITLE), text, footer)
 
@@ -314,7 +317,6 @@ def DoIt():
         md.reset()
 
         output = "{}/{}.html".format(HTMLDIR, os.path.splitext(mdfile)[0])  # filename of HTML output
-
         outf = open(output, "w", encoding="utf-8")
         outf.write(converted)                           # save HTML file
         outf.close()
