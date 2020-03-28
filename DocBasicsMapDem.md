@@ -441,14 +441,12 @@ if {[llength $maps_list] == 0} {
 }
 
 # Get list of available Mapsforge themes
+# and add (empty) Mapsforge built-in default theme
 
 cd $themes_folder
 set themes_list [find_files "" "*.xml"]
+lappend themes_list ""
 cd $cwd
-
-if {[llength $themes_list] == 0} {
-  error_message "No Mapsforge theme found" exit
-}
 
 # Remember previous Mapsforge map and theme from file Mapsforge.ini
 
@@ -608,12 +606,14 @@ proc server_start {} {
 
   lappend command $::java_exe -jar [file normalize $::server_jar]
   lappend command -p $::tcp_port
-  set map "[file normalize $::maps_folder]/"
-  append map [lindex $::maps_list [.maps_list_combo current]]
+  set map [lindex $::maps_list [.maps_list_combo current]]
+  set map "[file normalize $::maps_folder]/$map"
   lappend command -m $map
-  set theme "[file normalize $::themes_folder]/"
-  append theme [lindex $::themes_list [.themes_list_combo current]]
-  lappend command -t $theme
+  set theme [lindex $::themes_list [.themes_list_combo current]]
+  if {$theme != ""} {
+    set theme "[file normalize $::themes_folder]/$theme"
+    lappend command -t $theme
+  }
   if {$::language != ""} {lappend command -l $::language}
 
   process_start $command server
