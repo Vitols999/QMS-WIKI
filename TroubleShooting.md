@@ -4,11 +4,11 @@
 ***Table of contents***
 
 * [Troubleshooting](#troubleshooting)
-* [Create a backtrace of a crash on Linux](#create-a-backtrace-of-a-crash-on-linux)
-* [Limitations of QMapShack for Windows (short: QMS)](#limitations-of-qmapshack-for-windows-short-qms)
-    * [Qt comes without SSL support](#qt-comes-without-ssl-support)
-    * [GDAL comes without curl support](#gdal-comes-without-curl-support)
-    * [GDAL comes without support for exotic formats](#gdal-comes-without-support-for-exotic-formats)
+    * [Create a backtrace of a crash on Linux](#create-a-backtrace-of-a-crash-on-linux)
+    * [Limitations of QMapShack for Windows, short: QMS](#limitations-of-qmapshack-for-windows-short-qms)
+        * [Qt comes without SSL support](#qt-comes-without-ssl-support)
+        * [GDAL comes without curl support](#gdal-comes-without-curl-support)
+        * [GDAL comes without support for exotic formats](#gdal-comes-without-support-for-exotic-formats)
 
 * * * * * * * * * *
  
@@ -22,7 +22,7 @@ On a Windows 7 installation this temporary folder seems to be
 C:\Users\your user name\AppData\Local\Temp.
 That log file may give additional insight to the root cause.
 
-# Create a backtrace of a crash on Linux
+## Create a backtrace of a crash on Linux
 
 If QMapShack crashes on Linux the best you can do to help development is to send a backtrace. A backtrace is a log of the last code lines executed before the crash. Usually this contains enough hints to fix the problem fast.
 
@@ -50,9 +50,7 @@ At gdb's command line prompt enter 'r' to run QMapShack. Now you can provoke the
 
 
 
-
-
-# Limitations of QMapShack for Windows (short: QMS)
+## Limitations of QMapShack for Windows, short: QMS
 
 To limit the build and maintenance effort, the Windows binary packages
 for QMS come with a restricted set of 3rd party libraries.
@@ -68,10 +66,10 @@ described. Please be aware that those workarounds are on the sole risk
 of the users - I cannot take responsibility in which situations they work
 or not.
 
-## Qt comes without SSL support
+### Qt comes without SSL support
 
 Qt5 binaries are delivered without SSL support due to legal restrictions in
-some countries. See [qt-5-ssl](http://doc.qt.io/qt-5/ssl.html).
+some countries. See [qt-5-ssl](https://doc.qt.io/qt-5/ssl.html).
 This may hinder some kinds of web maps (TMS, WMTS) to be downloaded properly.
 As a workaround you could download the and compatible Windows SSL package
 and copy the 2 DLLs libeay32.dll and ssleay32.dll to QMS home directory.
@@ -81,7 +79,7 @@ The DLLs from the following 2 sources have been reported to work:
 Please judge by yourself whether those sources are trustable for you and
 whether they fit to your actual installation.
 
-## GDAL comes without curl support
+### GDAL comes without curl support
 
 The default GDAL libraries come without curl support.
 This may hinder some kinds of web maps to be downloaded properly.
@@ -90,7 +88,7 @@ As a workaround you could download GDAL binaries from
 and then brute-force-copy the complete "bin" subdirectory including
 subdirectories to the QMS home directory.
 
-## GDAL comes without support for exotic formats
+### GDAL comes without support for exotic formats
 
 Some raster map formats (e.g. wavelet based) are not supported by the default
 GDAL installation. The reasons may be various (licenses, dependencies, ...).

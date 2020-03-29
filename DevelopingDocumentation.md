@@ -49,7 +49,7 @@ Github, the following conditions must be met:
     various places:
 
     *   John Gruber's original
-        [_Markdown_ syntax definition](http://daringfireball.net/projects/markdown/syntax)
+        [_Markdown_ syntax definition](https://daringfireball.net/projects/markdown/syntax)
         dating back to 2004.
 
     *   The [differences](https://python-markdown.github.io/#differences)

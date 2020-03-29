@@ -1,4 +1,4 @@
-[Prev](AxMaintainPageTOC) (Maintaining TOC's on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Hotkeys) [Next](AxHotkeys)
+[Prev](DocActivityPlanning) (Discussion of extended activity system) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Hotkeys) [Next](AxHotkeys)
 - - -
 
 ***Table of contents***
@@ -22,4 +22,4 @@ Articles currenly being developed:
 None
 
 - - -
-[Prev](AxMaintainPageTOC) (Maintaining TOC's on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Hotkeys) [Next](AxHotkeys)
+[Prev](DocActivityPlanning) (Discussion of extended activity system) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Hotkeys) [Next](AxHotkeys)

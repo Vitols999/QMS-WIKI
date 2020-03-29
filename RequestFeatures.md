@@ -3,21 +3,24 @@
 
 ***Table of contents***
 
-* [Preface](#preface)
-* [Things to include in your request](#things-to-include-in-your-request)
-    * [Implement it yourself](#implement-it-yourself)
+* [Feature requests](#feature-requests)
+    * [Preface](#preface)
+    * [Things to include in your request](#things-to-include-in-your-request)
+        * [Implement it yourself](#implement-it-yourself)
 
 * * * * * * * * * *
  
 [Read this if you want to **report a bug**](ReportBugs).
 
-# Preface
+# Feature requests
+
+## Preface
 
 Feature requests are [managed using the GitHub Issue page](https://github.com/Maproom/qmapshack/issues).
 
 Keep in mind that you are asking a stranger to spend time/work for you - be kind and try to support him/her as good as you can.
 
-# Things to include in your request
+## Things to include in your request
 
 Try to be as accurate as possible; don't assume we'll just "know".
 
@@ -30,7 +33,7 @@ The request should be **self-contained**, avoid untraceable references (such as 
 **Do not assign the feature request to anyone!** It will be assigned when someone volunteers to implement it.
 
 
-## Implement it yourself
+### Implement it yourself
 
 Your **best chance** to get a new feature is to **implement it on your own** (see section [Developing QMapShack](DeveloperCodingGuideline)).
 

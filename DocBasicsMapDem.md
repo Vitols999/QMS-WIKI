@@ -37,7 +37,7 @@ QMapShack supports the following map formats:
 *.vrt   | GDAL Virtual File. This is a wrapper format for all files supported by GDAL. (see details below)
 *.jnx   | Garmin Birds Eye.
 *.rmap  | CompeGPS Map Container. Just a very reduced feature set is supported. The tile format must be JPEG. The projection can be Mercator or Gauss Krueger 4/3
-*.gemf  | [Map file format](http://www.cgtk.co.uk/gemf "Description of GEMF file format") that is mainly used with the mobile phone [Osmdroid app](https://github.com/osmdroid/osmdroid "Osmdroid homepage").
+*.gemf  | [Map file format](https://www.cgtk.co.uk/gemf "Description of GEMF file format") that is mainly used with the mobile phone [Osmdroid app](https://github.com/osmdroid/osmdroid "Osmdroid homepage").
 
 ### Online Maps
 
@@ -288,7 +288,7 @@ Select map and theme, press wrapper's _QMapShack_ button to start QMapShack and 
 
 Screenshot:
 
-![Mapsforge_for_QMapShack](https://user-images.githubusercontent.com/62614244/77847030-53159300-71ba-11ea-88d6-2fe68c2d6037.png)
+![Mapsforge_for_QMapShack](images/DocBasicsMapDem/Mapsforge4QMS.png "Mapsforge for QMapShack")
 
 Code of script _Mapsforge_for_QMapShack.tcl_:
 

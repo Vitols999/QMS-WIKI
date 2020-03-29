@@ -3,22 +3,26 @@
 
 ***Table of contents***
 
-* [Process for Contributing Code](#process-for-contributing-code)
-* [Commit Code](#commit-code)
-    * [Fork the repository](#fork-the-repository)
-    * [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
-    * [Configure Git to sync your fork with the original QMapShack repository](#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
-    * [Keep your fork synced](#keep-your-fork-synced)
-    * [Open a new branch](#open-a-new-branch)
-    * [Commit changes locally](#commit-changes-locally)
-        * [Change commits](#change-commits)
-    * [Push your commits](#push-your-commits)
-    * [Rebase your branch](#rebase-your-branch)
+* [Contributing Code](#contributing-code)
+    * [Process for Contributing Code](#process-for-contributing-code)
+    * [Commit Code](#commit-code)
+        * [Fork the repository](#fork-the-repository)
+        * [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
+        * [Configure Git to sync your fork with the original QMapShack repository](#configure-git-to-sync-your-fork-with-the-original-qmapshack-repository)
+        * [Keep your fork synced](#keep-your-fork-synced)
+        * [Open a new branch](#open-a-new-branch)
+        * [Commit changes locally](#commit-changes-locally)
+            * [Change commits](#change-commits)
+        * [Push your commits](#push-your-commits)
+        * [Rebase your branch](#rebase-your-branch)
 
 * * * * * * * * * *
-# Process for Contributing Code
 
-**Naming:**
+# Contributing Code
+
+## Process for Contributing Code
+
+**Naming conventions:**
 
 * ticket = issue 
 * bug = issue = ticket
@@ -62,7 +66,7 @@ Yeah, I know. It's confusing.
   this will be closed ASAP.
 * From that point on the usual review procedure will take place. 
 
-# Commit Code
+## Commit Code
 
 **Fundamental rules:**
 * **You need a GitHub account**
@@ -74,16 +78,16 @@ Yeah, I know. It's confusing.
 
 This page will summarize the necessary steps.
 
-## Fork the repository
+### Fork the repository
 
-based on [Fork a repo](https://help.github.com/en/articles/fork-a-repo)
+based on [Fork a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 1. Go to QMapShack's [code repository page](https://github.com/Maproom/qmapshack).
 2. In the top-right corner of the page, click Fork.
 
   ![Fork](images/DeveloperCommitCode/ForkRepo.png "Fork")
 
-## Create a local clone of your fork
+### Create a local clone of your fork
 
 Right now, you have a fork of the QMapShack repository, but you don't have the files in that repository on your computer. Let's create a clone of your fork locally on your computer.
 
@@ -118,7 +122,7 @@ Right now, you have a fork of the QMapShack repository, but you don't have the f
 
 Now, you have a local copy of your fork of the QMapShack repository!
 
-## Configure Git to sync your fork with the original QMapShack repository
+### Configure Git to sync your fork with the original QMapShack repository
 
 When you fork a project in order to propose changes to the original repository, you can configure Git to pull changes from the original, or upstream, repository into the local clone of your fork.
 
@@ -163,9 +167,9 @@ When you fork a project in order to propose changes to the original repository, 
     ```
 
 
-## Keep your fork synced
+### Keep your fork synced
 
-You might fork a project in order to propose changes to the upstream, or original, repository. In this case, it's good practice to regularly sync your fork with the upstream repository. To do this, you'll need to use Git on the command line. You can practice setting the upstream repository using the same Maproom/qmapshack repository you just forked! Based on [Syncing a fork](https://help.github.com/en/articles/syncing-a-fork)
+You might fork a project in order to propose changes to the upstream, or original, repository. In this case, it's good practice to regularly sync your fork with the upstream repository. To do this, you'll need to use Git on the command line. You can practice setting the upstream repository using the same Maproom/qmapshack repository you just forked! Based on [Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 
 1. Open Terminal.
 
@@ -211,7 +215,7 @@ You might fork a project in order to propose changes to the upstream, or origina
     >  1 file changed, 3 insertions(+), 2 deletions(-)
     ```
 
-## Open a new branch
+### Open a new branch
 
 **Never work on the branches `dev` or `master`.** These are reserved. `dev` is the branch that digests all _pull request_. Unless you have administration rights you are not entitled to commit to `dev` directly. You have to start a _pull request_ with your own branch. `master` is the branch that digests all releases. It will be updated with all the changes in `dev` on a release.
 
@@ -236,7 +240,7 @@ $ git branch
 >   dev
 ```
 
-## Commit changes locally
+### Commit changes locally
 
 Depending on your changes you might want to do one or several commits. Always consider several commits if your work can be grouped into several functional/logical groups. e.g. changes in the backend, changes in the GUI
 
@@ -290,7 +294,7 @@ Please limit your line width to 50 characters each.
 ```
 And yes, please obey the line limit of 50 characters for readability's sake.
 
-### Change commits
+#### Change commits
 
 You can easily amend the last commit by doing another commit with `--amend`:
 
@@ -352,7 +356,7 @@ $ git rebase -i HEAD~2
 
 The help text says it all. In my case I will change `pick` of commit `8291d32` into `f`. This will remove the commit and amend it's changes to the previous `a2d7bd6` one. This is a very powerful command to reorganize your commits and it will help you to keep your commit history clean.
 
-## Push your commits
+### Push your commits
 
 If you push your new branch the first time you have to do:
 
@@ -376,7 +380,7 @@ $ git push --force
 
 It is ok to use `--force` as this is your branch and you do not have to care about breaking the history for someone else.
 
-## Rebase your branch
+### Rebase your branch
 
 To get the latest changes of `dev` into your branch you do not merge them into your branch. You `rebase` on latest `dev`
 

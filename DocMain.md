@@ -100,6 +100,7 @@ Users can find short quickstart help here:
     * [Recommendations for editing QMS Wiki pages](AxMaintainAutoPages)
     * [Maintaining the QMS Wiki Index](AxMaintainIndex)
     * [Maintaining TOC's on Wiki pages](AxMaintainPageTOC)
+* [Discussion of extended activity system](DocActivityPlanning)    
 * [Playground - start your new Wiki page](DocPlayground)
 
 ## Appendix

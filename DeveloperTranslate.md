@@ -3,12 +3,15 @@
 
 ***Table of contents***
 
-* [HOWTO enable/disable source translations extraction](#howto-enabledisable-source-translations-extraction)
-* [HOWTO translate qmapshack.desktop (UNIX like only)](#howto-translate-qmapshackdesktop-unix-like-only)
+* [Handle source translations](#handle-source-translations)
+    * [HOWTO enable/disable source translations extraction](#howto-enabledisable-source-translations-extraction)
+    * [HOWTO translate qmapshack.desktop (UNIX like only)](#howto-translate-qmapshackdesktop-unix-like-only)
 
 * * * * * * * * * *
  
-# HOWTO enable/disable source translations extraction #
+# Handle source translations 
+ 
+## HOWTO enable/disable source translations extraction #
 We now have the ability to choose when to update (extract) the
 translations from the sources files within CMake. It's controlled by the `UPDATE_TRANSLATIONS` CMake command line option. It defaults to `OFF`. Translations are always compiled (.ts to .qm)
 
@@ -26,7 +29,7 @@ cmake -DUPDATE_TRANSLATIONS=OFF ..
 
 **Warning**: For all other generators than Makefile: When `UPDATE_TRANSLATIONS` is enabled a clean command will also clean the generated .ts files. So, after extracting the translations sources it's advisable to set `UPDATE_TRANSLATIOS` to `OFF` right away.
 
-# HOWTO translate qmapshack.desktop (UNIX like only) #
+## HOWTO translate qmapshack.desktop (UNIX like only) #
 The qmapshack.desktop file contains the info that appears in the panel menus. It can also be translated. The process is different from the .ts files tough. Let's say we want to localize it to German (de):
 
 * Create an `qmapshack_de.desktop` in the src/locale directory with the following contents:
