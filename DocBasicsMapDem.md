@@ -286,6 +286,10 @@ wish Mapsforge_for_QMapShack.tcl
 
 Select map and theme, press wrapper's _QMapShack_ button to start QMapShack and activate selected map by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map or theme, first press _QMapShack_ button, then right click QMapShack's maps list and force QMapShack to reload maps.
 
+Screenshot:
+
+![Mapsforge_for_QMapShack](https://user-images.githubusercontent.com/62614244/77847030-53159300-71ba-11ea-88d6-2fe68c2d6037.png)
+
 Code of script _Mapsforge_for_QMapShack.tcl_:
 
 ```tcl
@@ -315,15 +319,15 @@ Code of script _Mapsforge_for_QMapShack.tcl_:
 #   Either full qualified path of Java executable
 #   or name of Java executable if resolved by PATH variable
 # server_jar
-#   Full qualified path of local Mapsforge tiles server jar file
+#   Full qualified path of local Mapsforge tile server jar file
 #   MapsforgeSrv.jar contained in downloaded folder jars_ready2use
 # tcp_port
-#   TCP port for communication between Mapsforge tiles server and QMapShack
+#   TCP port for communication between Mapsforge tile server and QMapShack
 #   (49152 <= port <= 65535)
 # user_scale
-#   Resizes the symbols on the map rendered by tiles server
+#   Resizes the symbols on the map rendered by tile server
 # text_scale
-#   Resizes the labels on the map rendered by tiles server
+#   Resizes the labels on the map rendered by tile server
 # tile_size
 #   Pixels per direction on map, will be resized to 256 pixels on output
 #   (Default: 256, i.e. no pixel resizing required)
@@ -600,7 +604,7 @@ proc process_stop {process} {
 
 }
 
-# Mapsforge tiles server start procedure
+# Mapsforge tile server start procedure
 
 proc server_start {} {
 
@@ -630,7 +634,7 @@ proc qms_start {} {
 
 }
 
-# Start Mapsforge tiles server
+# Start Mapsforge tile server
 
 server_start
 
@@ -644,7 +648,7 @@ update idletasks
 vwait action
 
 # After changing Mapsforge map or theme:
-# Stop tiles server, clear tiles cache folder, restart tiles server
+# Stop tile server, clear tiles cache folder, restart tile server
 
 while {$action == 1} {
   unset action
@@ -657,7 +661,7 @@ while {$action == 1} {
 }
 unset action
 
-# Stop Mapsforge tiles server
+# Stop Mapsforge tile server
 
 process_stop server
 
