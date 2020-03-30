@@ -3,103 +3,84 @@
 
 ***Table of contents***
 
-* [Using Offline Documentation](#using-offline-documentation)
-    * [Prerequisites](#prerequisites)
-    * [Building the `*.html` files](#building-the-html-files)
-    * [QMapTool documentation](#qmaptool-documentation)
+* [Using offline documentation](#using-offline-documentation)
+    * [Introduction](#introduction)
+    * [Installing and using QMS help browser](#installing-and-using-qms-help-browser)
+    * [Installing and using local QMS Wiki copy](#installing-and-using-local-qms-wiki-copy)
 
 * * * * * * * * * *
  
-***Attention: This page describes features tested only with the Bitbucket Wiki!***
 
-# Using Offline Documentation
+_(Valid as of QMapShack version 1.14.1)_
 
-The online _QMapShack_ documentation (which you are probably just reading)
-is also available as offline documentation in the [QMSgithub wiki](https://github.com/Maproom/qmapshack)  If you
-have _GIT_ installed, you can clone the _QMapShack_ wiki by issuing
-the command
+# Using offline documentation
+
+## Introduction
+
+The official source of help for QMapShack (QMS) is the [online QMapShack Wiki on GitHub][QMSWiki]. This Wiki includes help for QMapTool (QMT), too.
+The online documentation is also available offline as
+
+* a QMapShack help browser or as
+* a local copy (clone) of the QMS Wiki.
+
+The QMS offline help needs access to the Internet only for following links to pages not being part of the QMS Wiki (external links).
+
+Both forms of the offline help have their specific advantages and disadvantages:
+
+| Advantages | Disadvantages |
+|------------|---------------|
+| __QMS help browser__ | . |
+| easy access to table of contents, index, and full-text search | . |
+| no extra viewer/browser required for rendering | . |
+| installed with QMS but can be downloaded and used without QMS installation | . |
+| open with `F1` click from within QMS | . |
+| separate comfortable viewer | . | 
+| . | no possibility to edit pages |
+| __Local Wiki copy__ | . |
+| available without QMS installation | . |
+| possibility to edit pages | . |
+| . | special Markdown viewer or Markdown Internet browser plugin required for rendering pages|
+| . | rendering quality depends on Markdown variant used in viewer or browser |
+| . | `git` is required for the installation of a local Wiki copy |
+
+_Remark:_ Everything described for QMS is analogously valid for QMapTool (QMT). Some differences are mentioned later on this page.
+
+
+## Installing and using QMS help browser
+
+* QMS is installed on the computer (preferred way to use the offline help):
+    1. Start QMS.
+    1. Press `F1` on the keyboard. The QMS help browser pops-up. Use the contents, index, or search tabs to find the help topic of interest.
+* QMS can't be installed on the computer:
+    1. Goto the [QMS source code repository][HelpSource] and download the files `QMSHelp.qch` and `QMSHelp.qhc` (when having a QMS installation these 2 files can be found in the `doc/html` subdirectory of the QMS installation directory).
+    1. Be sure [Qt assistant][QtAssistant] is installed together with Qt and on your path.
+    1. To open QMS help run the following command in a console window:
+    
+           assistant -collectionFile path_to_qmshelp.qhc/QMSHelp.qhc
+* For QMapTool help replace `qmapshack` in the download link with `qmaptool` and replace `QMS` in the file names with `QMT`.
+
+## Installing and using local QMS Wiki copy
+
+To install and use a local copy of the QMS Wiki carry out the following steps:
+
+1. If not yet available, install [git (tool for access to GitHub revision control system)][GitInstall] and make sure that `git` is found on your path.
+1. Create a local directory, say `QMapShack-doc`.
+1. Run the following command in a console window to download the Wiki pages to the local computer:
 
         git clone https://github.com/Maproom/qmapshack.wiki.git QMapShack-doc
 
-The wiki consists of _Markdown_ (`*.md`) files, and to read
-them you will either need some _Markdown_ plugin for your browser or
-you'll need to create `*.html` input files for your browser from the
-`*.md` files as described below.
+1. The Wiki consists of _Markdown_ (`*.md`) and some other files, and to read them you will need some _Markdown_ plugin to your browser. When looking for a Markdown plugin select one that supports _GitHub Flavored Markdown_ (GFM).
 
-## Prerequisites
+     _Example of a plugin for Google Chrome browser:_ [Markdown viewer/Browser extension][MDPlugin].
+   
+1. Open a Markdown (`MD`) file in the browser with activated Markdown plugin. Good starting pages are `Home.md` and `DocMain.md`. From these pages other help pages can be accessed.
+1. The QMapTool part of the Wiki can be found in the `QMapTool` subdirectory. Starting pages are `QMTHome.md` and `QMTDocMain`.
 
-To create the `*.html` files from the corresponding `*.md` files you
-will need:
+[QMSWiki]: https://github.com/Maproom/qmapshack/wiki "QMS Wiki"
+[QtAssistant]: https://doc.qt.io/qt-5/qtassistant-index.html "Qt assistant help"
+[GitInstall]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git "Git installation"
+[MDPlugin]: https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk "Chrome Markdown plugin"
+[HelpSource]: https://github.com/Maproom/qmapshack/tree/dev/src/qmapshack/doc "QMS help source"
 
-* _Python_ 2.7 or better.
-
-* _Python_'s _Markdown_ module version 2.6.6 or better plus the
-  following standard _Markdown_ extensions:
-
-     * _Abbreviations_[^1]
-     * _Definition Lists_[^1]
-     * _Fenced Code Blocks_[^1]
-     * _Footnotes_[^1]
-     * _Sane Lists_
-     * _Table of Contents_
-     * _Tables_[^1]
-     * _WikiLinks_
-
-    Installation instructions for _Markdown_ and its aforementioned
-    extensions are for instance available
-    [here](https://python-markdown.github.io/install/).
-
-* _GNU_ `make`.  The makefile provided for maintaining the offline
-  documentation uses "simply expanded variables" (defined via "`::=`",
-  as introduced by the Posix standard in 2012)[^2]
-
-[^1]: These extensions are sub-extensions included in _Python_'s
-_Markdown_ _Extra_ extension.  Since these are the only sub-extensions
-of the _Extra_ extension which are supported by the Bitbucket server,
-these are also the only extensions of the _Extra_ extension used by the
-conversion script.
-
-[^2]: If your version of `make` can't handle "`::=`" and you can't find
-or install another one, simply replace all occurrences of "`::=`" in file
-`Makefile` in the documentation directory with "`=`".  In this makefile
-using "simply expanded variables" (defined via the "`::=`" assignment)
-rather than "recursively expanded variables" (defined via the normal
-"`=`" assignment) is just a matter of efficiency: referencing variables
-assigned with "`::=`" will burn less CPU cycles but in the case at hand
-will not produce different results in any way ("`::=`" is the type of
-variable assignment we are used from normal programming languages, while
-"`=`" behaves more like a function definition).
-
-## Building the `*.html` files
-
-Open a bash shell window, change into the `QMapShack-doc` directory containing the offline documentation
-and issue the commands
-
-
-```
-cd QMapShack-doc
-make doc
-_YourBrowser_ DocMain.html
-```
-
-This will create any new and update all outdated `*.html` files before
-it opens your browser at the main documentation page.  If you plan to
-frequently reference the offline documentation, you might consider
-creating a command alias from the last command line above by executing
-
->    alias qms-doc='_YourBrowser_ /_absolute_/_path_/_to_/doc/DocMain.html'[^3]
-
-[^3]:  Under _Cygwin_ you should instead use
-
->    alias qms-doc="_YourBrowser_ $(cygpath -w /_absolute_/_path_/_to_/doc/DocMain.html)"
-
-because in that case the argument passed to your browser must be interpretable as a Windows path.
-
-## QMapTool documentation
-
-The offline QMapTool documentation is located in the `QMapShack-doc/QMapTool` directory. To create navigation bars and HTML files for the files in this subdirectory change to this subdirectory and proceed as described above for QMS. 
-
-
-///Footnotes Go Here///
 - - -
 [Prev](BuildOSX) (OSX) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Getting started) [Next](DocGettingStarted)

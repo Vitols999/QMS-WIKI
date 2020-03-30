@@ -115,9 +115,9 @@ ___Do not edit - automatically created from DocMain!___
             * [Run QMapShack](BuildLinuxMint19#run-qmapshack)
         * [OSX](BuildOSX)
     * [Create Offline Documentation](OfflineDocumentation)
-        * [Prerequisites](OfflineDocumentation#prerequisites)
-        * [Building the `*.html` files](OfflineDocumentation#building-the-html-files)
-        * [QMapTool documentation](OfflineDocumentation#qmaptool-documentation)
+        * [Introduction](OfflineDocumentation#introduction)
+        * [Installing and using QMS help browser](OfflineDocumentation#installing-and-using-qms-help-browser)
+        * [Installing and using local QMS Wiki copy](OfflineDocumentation#installing-and-using-local-qms-wiki-copy)
 * Using QMapShack
     * [Getting started](DocGettingStarted)
         * [Add maps](DocGettingStarted#add-maps)

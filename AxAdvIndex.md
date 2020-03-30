@@ -274,10 +274,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Distance measurement, with ruler tool**
 :  [Distance ruler](AdvMapDetails#distance-ruler "Distance ruler")
 
-**Documentation, building HTML off-line version**
-:  [Building the `*.html` files](OfflineDocumentation#building-the-html-files "Building the `*.html` files")
-
-**Documentation, create off-line version**
+**Documentation, use offline version**
 :  [Create Offline Documentation](OfflineDocumentation "Create Offline Documentation")
 
 **Douglas-Peuker, filter**
@@ -553,6 +550,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 ## H
 
+
+**Help, install and use**
+:  [Installing and using QMS help browser](OfflineDocumentation#installing-and-using-qms-help-browser "Installing and using QMS help browser")
 
 **Hill shading, DEM**
 :  [DEM Files](DocControlMapDem#dem-files "DEM Files")
