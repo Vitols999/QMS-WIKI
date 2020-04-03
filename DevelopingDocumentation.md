@@ -60,7 +60,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
     
 *   Use an editor that supports UTF-8 encoded files. Any editing must be done with this encoding. Never use Latin-1 or other encodings!
 
-    This is required because the Markdown language implemented on the GitHub server does not pass any HTML entities like for instance `&amp;`, `&ecirc;`, or the equivalent forms for the latter, `&#234;` and `&#x000EA;`, on to the HTML code. Rather it renders `&amp;` into `&amp;amp;` which will then again be displayed literally as `&amp;` by your browser.  This is not a problem as long as you are only typing English text using 7-bit ASCII characters, even using any of the characters `&<>[]{}`.  But as soon as you are using German umlauts, French accented characters, or even more exotic glyphs, you cannot just use their standard HTML entities but rather **you have to make sure your editor correctly encodes these characters as UTF-8** or they will not be displayed properly.  And of course you'll have to know how to tell your editor to insert an UTF-8 character, say `Ê`,  directly into your file.
+    This is required because the Markdown language implemented on the GitHub server does not pass any HTML entities like for instance `&amp;`, `&ecirc;`, or the equivalent forms for the latter, `&#234;` and `&#x000EA;`, on to the HTML code. Rather, it renders `&amp;` into `&amp;amp;` which will then again be displayed literally as `&amp;` by your browser.  This is not a problem as long as you are only typing English text using 7-bit ASCII characters, even using any of the characters `&<>[]{}`.  But as soon as you are using German umlauts, French accented characters, or even more exotic glyphs, you cannot just use their standard HTML entities but rather **you have to make sure your editor correctly encodes these characters as UTF-8** or they will not be displayed properly.  And of course you'll have to know how to tell your editor to insert an UTF-8 character, say `Ê`,  directly into your file.
 
 ## Remarks about the Markdown language
 
@@ -125,7 +125,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
     * Remove anything that is not a letter, number, space, underscore, or space.
     * Replace each space with a hyphen `-`.
        
-    Thus the header line
+    Thus, the header line
 
         ## Example Header
 
@@ -178,7 +178,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
             - - -
             [Prev](... | [Home](... | [Manual](... | ...
 
-    *   Do not use the Markdown directive `- - -` to insert a horizontal rule, that is, a horizontal line running from the left edge of the browser window to the right edge.  This special way of coding a horizontal rule is regarded as part of the navigation bars and will be removed anywhere else in the file when the navigation bars are automatically inserted or updated.  Rather use the Markdown variants `---` or `***`, if you need a horizontal rule somewhere in your Markdown file.
+    *   Do not use the Markdown directive `- - -` to insert a horizontal rule, that is, a horizontal line running from the left edge of the browser window to the right edge.  This special way of coding a horizontal rule is regarded as part of the navigation bars and will be removed anywhere else in the file when the navigation bars are automatically inserted or updated.  Rather, use the Markdown variants `---` or `***`, if you need a horizontal rule somewhere in your Markdown file.
     
     *   Leave the header and footer line of the table of contents (TOC) at the top of the page unchanged. These lines look like
     
@@ -213,7 +213,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
 
     And finally, being able to use your favorite editor at home will
     presumably make life more easy for you, should the editing involve
-    major searching, mass changes, or cut and paste operations.
+    major searching, mass changes, or cut-and-paste operations.
 
 *   Thoroughly check your edits, in particular make sure **you don't
     introduce broken links**.  This checking can of course be done
@@ -231,7 +231,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
 
         # Header_of_page
         
-    Other sections of the page should be subsections of the top level header (section) and form a tree structure. 
+    Other sections of the page should be subsections of the top-level header (section) and form a tree structure. 
       
 * Use a header text only once on a page (i.e. headers on a page must be unique).
 * Don't use extra formatting in headers (images, emphasis, links, ...).
@@ -243,7 +243,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
     `text1` and `text2` must be meaningful non-empty strings.
     
 * The table of contents of a page must have an entry for each header in the page. The entry must be a link to the header. Edit the table of contents of the page properly and with correct links.
-* Save snapshots or images used in Wiki pages in the Wiki itself and not in the cloud or somewhere else in the Internet.
+* Save snapshots or images used in Wiki pages in the Wiki itself and not in the cloud or somewhere else on the Internet.
 * Limit the size (especially the width) of images. Large images in MD/HTML files are automatically scaled by some browsers (so-called "responsive images"). 
   This doesn't hold true for some versions of the Qt help browser used to display the offline QMS help. 
  
@@ -322,7 +322,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
 
       (some backslashes added to avoid misinterpretation!)  and add a link to each header line in the page between the header and the footer (compare with an existing Markdown file!).
 
-    The TOC should be followed by the top level header line.
+    The TOC should be followed by the top-level header line.
 
 
 ## Offline editing workflow
@@ -353,7 +353,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
 
             make nav
             
-        from the top level directory of your Wiki repository.    
+        from the top-level directory of your Wiki repository.    
 
         This will update or add the top and bottom navigation bars of each `*.md` file affected.  
         
@@ -365,11 +365,11 @@ GitHub, you should have sufficient knowledge of the installation and use of
             
         The result of the conversion will be a file `doc/HTML/your_markdown_file.html`. This file is used in the [QMS offline help][HelpOffline].
         
-    * Now your edited files are ready for upload (push) to the GitHub server. For this run the following `git` commands from the top level directory of your Wiki repository:
+    * Now your edited files are ready for upload (push) to the GitHub server. For this run the following `git` commands from the top-level directory of your Wiki repository:
 
         * `git status`
 
-            Check the list of file changes to be send to the server. All your changes must be listed there with their correct locations.
+            Check the list of file changes to be sent to the server. All your changes must be listed there with their correct locations.
 
         *  `git commit -a -m "your commit message here"` 
         
