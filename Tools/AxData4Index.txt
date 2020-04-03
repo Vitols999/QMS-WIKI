@@ -1447,10 +1447,16 @@ ___Developing QMapShack___
 
 * [Developing Documentation](DevelopingDocumentation)
     * [Prerequisites](DevelopingDocumentation#prerequisites)
-    * [The _Markdown_ Language](DevelopingDocumentation#the-markdown-language)
-    * [Dos and Don'ts](DevelopingDocumentation#dos-and-donts)
-    * [Online Editing](DevelopingDocumentation#online-editing)
-    * [Offline Editing](DevelopingDocumentation#offline-editing)
+    * [Remarks about the Markdown language](DevelopingDocumentation#remarks-about-the-markdown-language)
+    * [General recommendations for editing QMS Wiki pages](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages)
+    + Recommendations for editing
+        1. Edit|QMS documentation
+        1. QMS documentation|edit
+
+    * [QMapShack-specific rules for Markdown use](DevelopingDocumentation#qmapshack-specific-rules-for-markdown-use)
+    * [Further recommendations for editing Wiki pages](DevelopingDocumentation#further-recommendations-for-editing-wiki-pages)
+    * [Rules for new pages](DevelopingDocumentation#rules-for-new-pages)
+    * [Offline editing workflow](DevelopingDocumentation#offline-editing-workflow)
 
     * [Recommendations for editing QMS Wiki pages](AxMaintainAutoPages)
         * [General recommendations for editing the manual](AxMaintainAutoPages#general-recommendations-for-editing-the-manual)

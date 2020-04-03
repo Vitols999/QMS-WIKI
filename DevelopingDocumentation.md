@@ -5,77 +5,87 @@
 
 * [Developing Documentation](#developing-documentation)
     * [Prerequisites](#prerequisites)
-    * [The _Markdown_ Language](#the-markdown-language)
-    * [Dos and Don'ts](#dos-and-donts)
-    * [Online Editing](#online-editing)
-    * [Offline Editing](#offline-editing)
+    * [Remarks about the Markdown language](#remarks-about-the-markdown-language)
+    * [General recommendations for editing QMS Wiki pages](#general-recommendations-for-editing-qms-wiki-pages)
+    * [QMapShack-specific rules for Markdown use](#qmapshack-specific-rules-for-markdown-use)
+    * [Further recommendations for editing Wiki pages](#further-recommendations-for-editing-wiki-pages)
+    * [Rules for new pages](#rules-for-new-pages)
+    * [Offline editing workflow](#offline-editing-workflow)
 
 * * * * * * * * * *
+
+
+_(Valid as of QMapShack version 1.14.1)_
+
  
 # Developing Documentation
 
 ## Prerequisites
 
-If you want to contribute to the _QMapShack_ documentation wiki at
-Github, the following conditions must be met:
+* If you want to contribute to existing pages of the QMapShack (QMS) documentation Wiki at
+GitHub, you should have sufficient knowledge of the installation and use of
 
-*   **Most important:** You should have sufficient knowledge of the
-    _Markdown_ language!
+    * the Markdown language,
+    * the `git` tool for accessing the GitHub version control system and for keeping consistent a local copy and the QMS repository on the server.
+  
+*   If you want to create new Wiki pages or contribute to the index, then you need some more tools must on your PC:
+    * the `make` tool for adding some content to Wiki pages and for creating some files,
+    * Python (version > 3.5) which is required by some `make` scripts,
+    * `awk/gawk` and the `bash` shell which are required by some `make` scripts,
+    * a Markdown browser extension.
+    
+    Windows users may install the [MSYS][MSYS] package which includes `make, awk/gawk` and a bash shell.
 
-*   You have registered at
-    [Github](https://github.com/) and know your
-    password.
-
+    It is not in the scope of this page to describe in detail the use of the tools mentioned.
+    
+*   You should be registered at
+    [GitHub](https://GitHub.com/ "GitHub registration") and should be logged in when working with the GitHub server.
+    
 *   If you want to do more than just correcting a typo (which can also be
     done directly on the
-    [Github server](https://github.com/Maproom/qmapshack/wiki), see
-    [below](#online-editing)), you should be working on a
-    local clone of the _Mercurial_ repository of the _QMapShack_ wiki at
-    Github.
+    [GitHub server][WIKI]), you should be working on a
+    local copy (clone) of the QMS GitHub Wiki repository.  
 
-    If you have [_Mercurial_](https://www.mercurial-scm.org/) installed,
-    you can clone the _QMapShack_ wiki by issuing the command
+    If you have [git (tool for access to GitHub revision control system)][GitInstall] installed,
+    you can clone the QMapShack Wiki by issuing the command
 
-            hg clone https://github.com/Maproom/qmapshack/wiki qmapshack-doc
+           git clone https://GitHub.com/Maproom/qmapshack.Wiki.git QMapShack-doc
+          
+    This command copies all Wiki repository files from the GitHub server to the `QMapShack-doc` directory on your PC. Contributing to the QMS Wiki now means that you have 
+    
+    * to edit one or more of the existing `*.md` files (Markdown files) or to create new ones,
+    * to upload (push) the modified files to the QMS Wiki on the GitHub server.
+    
+    _Remember:_ the language used in the QMS Wiki is English.
+    
+*   Use an editor that supports UTF-8 encoded files. Any editing must be done with this encoding. Never use Latin-1 or other encodings!
 
-*   You are editing an existing or creating a new `*.md` file.  **Never
-    touch any `*.html` files**, because these only exist in your local
-    wiki clone, are not version controlled, and are always created from
-    the `*.md` files.
+    This is required because the Markdown language implemented on the GitHub server does not pass any HTML entities like for instance `&amp;`, `&ecirc;`, or the equivalent forms for the latter, `&#234;` and `&#x000EA;`, on to the HTML code. Rather it renders `&amp;` into `&amp;amp;` which will then again be displayed literally as `&amp;` by your browser.  This is not a problem as long as you are only typing English text using 7-bit ASCII characters, even using any of the characters `&<>[]{}`.  But as soon as you are using German umlauts, French accented characters, or even more exotic glyphs, you cannot just use their standard HTML entities but rather **you have to make sure your editor correctly encodes these characters as UTF-8** or they will not be displayed properly.  And of course you'll have to know how to tell your editor to insert an UTF-8 character, say `Ê`,  directly into your file.
 
-## The _Markdown_ Language
+## Remarks about the Markdown language
 
-*   **Documentation** regarding the _Markdown_ language can be found at
+*   **Documentation** regarding the Markdown language can be found at
     various places:
 
     *   John Gruber's original
-        [_Markdown_ syntax definition](https://daringfireball.net/projects/markdown/syntax)
+        [Markdown syntax definition](https://daringfireball.net/projects/markdown/syntax "Markdown syntax")
         dating back to 2004.
 
-    *   The [differences](https://python-markdown.github.io/#differences)
-        between John Gruber's original _Markdown_ syntax and the _Markdown_
-        syntax implemented by the _Python_ _Markdown_ module used by
-        Github.
+    *   [GitHub Flavored Markdown Specification][GFM]
 
-    *   [Documentation](https://python-markdown.github.io/extensions/)
-        of the _Markdown_ syntax understood by every _Markdown_ extension
-        used by Github[^1] (see
-        [_Python_ requirements](OfflineDocumentation#prerequisites))
-        as well as the HTML code produced from it.
-
-    *   Finally, you can look into any of the `*.md` files in this
+    *   Finally, you can look into any of the `*.md` files in the QMS
         repository and at the same time point your browser to the
         corresponding web page at the
-        [Github server](https://github.com/Maproom/qmapshack/wiki)
-        to see the effect of a particular _Markdown_ clause.  And if you
+        [GitHub server][WIKI]
+        to see the effect of a particular Markdown clause.  And if you
         want to see the HTML source of the current page in your browser,
-        and your browser happens to be _Firefox_, just type `Ctrl-u`
+        and your browser happens to be Firefox, just type `Ctrl-u`
         (other browsers may or may not need different handling, but most
         decent browsers will be able to display the HTML source of the
         current page one way or the other).
 
-*   **Important note:** Mind that a _Markdown_ file isn't just a text
-    file you're looking at using a browser.  For instance, a _Markdown_
+*   **Important note:** Mind that a Markdown file isn't just a text
+    file you're looking at using a browser.  For instance, a Markdown
     file containing the line
 
             For more information see here: http://x.y.z.com
@@ -85,136 +95,120 @@ Github, the following conditions must be met:
 
             For more information see [here](http://x.y.z.com).
 
-    in _Markdown_.  In this case the word "`here`" will be clickable in
-    your browser, taking you to "`http://x.y.z.com`".
+    in Markdown.  In this case the word `here` will be clickable in
+    your browser, taking you to `http://x.y.z.com`.
 
 *   **Fragment identifiers:** This term refers to the optional last part
-    of a URL which is separated from the rest using a _hash sign_ ("`#`"),
-    as in "`http://x.y.z.com#chapter_1`".  When you click such a URL, the
-    part to the left of the hash sign ("`http://x.y.z.com`") specifies the
-    HTML file to be opened, while the fragment identifier to the right
-    of the hash sign ("`chapter_1`") specifies a label defined somewhere
+    of a URL which is separated from the rest using a _hash sign_ (`#`),
+    as in `http://x.y.z.com#chapter_1`.  When you click such a URL, the
+    part to the left of the hash sign (`http://x.y.z.com`) specifies the
+    HTML file to open, while the fragment identifier to the right
+    of the hash sign (`chapter_1`) specifies a label defined somewhere
     in the HTML code itself to which your browser then is pointed.
 
-    Using _Markdown_ you cannot directly define your own fragment
-    identifiers but _Markdown_ implicitly defines several fragment
-    identifiers which you can then use in URLs, provided you know their
-    names.  To refer to a fragment identifier defined in the current
+    Using Markdown you cannot directly define your own fragment
+    identifiers but Markdown implicitly defines several fragment
+    identifiers which you can use in URLs, provided you know them.
+    To refer to a fragment identifier defined in the current
     file use something like
 
-    >    \[_Text_]\(#_identifier_)
+        [Text](#identifier)
 
     and to refer to a fragment identifier in another file in the same
     directory use
 
-    >    \[_Text_]\(_File_#_identifier_)
+        [Text](File#identifier)
 
-    _Markdown_ implicitly defines the following fragment identifiers:
+    Markdown automatically defines fragment identifiers for headers by applying the following rules:
 
-    *   "`fn:`_id_": This fragment identifier will take you to the text
-        containing your footnote named "_id_".
+    * Convert the header text to lowercase.
+    * Remove anything that is not a letter, number, space, underscore, or space.
+    * Replace each space with a hyphen `-`.
+       
+    Thus the header line
 
-    *   "`fnref:`_id_": This fragment identifier will take you to the
-        first location where you referred to your footnote named "_id_".
+        ## Example Header
 
-    *   Header identifiers: Whenever you define a _Markdown_ header line
-        starting with 1 to 6 hash signs ("`#`"), this header line will
-        be labeled with an identifier derived the following way:
+    will lead to the automatically created fragment identifier
+    
+        example-header
 
-        *   First, an image URL ("`![....png)`"), if specified, is
-            removed from the header line, white space and hash signs are
-            stripped off of both ends of it, the remaining header line
-            is converted to lowercase, and is then prefixed with
-            "`markdown-header-`".
+    * __Important remarks:__ 
+        * The above mentioned rules hold true only in the case that the text in the header line consists solely of ASCII characters.
+          For text with non-ASCII characters the construction rules for fragment identifiers are more complicated and may depend on the Markdown implementation used.
+        * Valid fragment identifiers working in the GitHub Wiki may not work when using them in other browsers and vice versa.
+        * A reliable way to find a fragment identifier for a header is as follows:       
+            * Upload the page to the GitHub Wiki and open it there.
+            * Goto the HTML source text of the Wiki page (try `CTRL-U` or use context menu!).
+            * Find the header text in the HTML source text.
+            * Take the value of the HTML `id` attribute as fragment identifier.
+            * _Example of source code and fragment identifier for a header with non-ASCII characters:_
+            
+                Markdown header line with cyrillic (i.e. non-ASCII) characters:
+               
+                    ## Cyrillic_text: Загрузка файлов из Интернета
+                   
+                HTML source code with this text found in GitHub:
+               
+                    <h2>
+                    <a id="user-content-cyrillic_text-Загрузка-файлов-из-Интернета" class="anchor" 
+                      href="#cyrillic_text-..."    <=== (...: url-encoded cyrillic text)
+                      aria-hidden="true">
+                      ...
+                    </a>
+                    Cyrillic_text: Загрузка файлов из Интернета
+                    </h2>
 
-        *   Next, any non-alphanumeric characters other than white
-            space, underscore ("`_`") and minus ("`-`") are removed.
+                GitHub-specific fragment identifier for given header:  
 
-        *   Finally, every longest possible sequence of white space and
-            minus signs is replaced with a single minus sign.
+                    user-content-cyrillic_text-Загрузка-файлов-из-Интернета         
 
-        Thus the header line
+                _Remark:_ the identifier shown is different to the one used e.g. in Google chrome for the same header.                    
+          
+## General recommendations for editing QMS Wiki pages
 
-                ## --Example Header (-/-) URL: http://x.y.z.com
-
-        will be labeled "`markdown-header-example-header-url-httpxyzcom`".
-
-[^1]:
-    Apart from using these _Markdown_ extensions the Github
-    _Markdown_ dialect also accepts the clause "`~~xxx~~`" which is
-    rendered to "~~xxx~~" ("strike through").  This clause is also
-    accepted when locally rendering _Markdown_ files to HTML using
-    script `Make.sh` or using `make doc`.
-
-## Dos and Don'ts
-
-*   If the file you want to edit does **not yet exist**, select a
-    **blank-free** name for it which **only** consists of **plain upper-
-    and lowercase characters** (no accented characters, no umlauts!),
-    **digits**, as well as the **characters `underscore` ("`_`"),
-    `period` ("`.`"), `plus` ("`+`"), and `minus`
-    ("`-`")**.  Do your best to mimic the naming scheme used by the files
-    already existing.
-
-*   If the file you want to edit does **not yet exist**, create it in
-    sub-directory `playground/`[^2].  This way your new file does
-    neither disturb others running `make nav` against the repsository
-    while you are developing the contents of your file nor do other
-    people's `make nav` operations add currently unwanted changes to
-    your file which is still in the making (after all, `make nav` does
-    more than just adding navigation bars).  And you can develop your
-    file at your own pace over a longer period of time or also ask
-    others to have a look at it before it is _really_ added to the wiki.
-
-*   If the file you want to edit does **not yet exist**, do not try to
-    manually add to it the navigation bars you see in all the other wiki
-    files because this could cause confusion when running `make nav`
-    later.  Just start your file with its first header line.
-
-*   If you are editing an **already existing** `*.md` file, leave the
-    navigation bars at the top and bottom of it alone.  The top
-    navigation bar looks like
+*   If you are editing an **already existing** `*.md` file:
+    * Leave the navigation bars at the top and bottom of it unchanged.  The top navigation bar looks like
 
             [Prev](... | [Home](... | [Manual](... | ...
             - - -
-            [TOC]
-            - - -
 
-    while the bottom navigation bar looks like
+        while the bottom navigation bar looks like
 
             - - -
             [Prev](... | [Home](... | [Manual](... | ...
 
-    When running `make nav` later, these lines will be updated
-    automatically (and if they don't yet exist, they will be created).
+    *   Do not use the Markdown directive `- - -` to insert a horizontal rule, that is, a horizontal line running from the left edge of the browser window to the right edge.  This special way of coding a horizontal rule is regarded as part of the navigation bars and will be removed anywhere else in the file when the navigation bars are automatically inserted or updated.  Rather use the Markdown variants `---` or `***`, if you need a horizontal rule somewhere in your Markdown file.
+    
+    *   Leave the header and footer line of the table of contents (TOC) at the top of the page unchanged. These lines look like
+    
+             \*\*\*Table of contents***
+            
+             ...
 
-*   Do not use the _Markdown_ directive "`- - -`" to insert a horizontal
-    rule, that is, a horizontal line running from the left edge of the
-    browser window to the right edge.  This special way of coding a
-    horizontal rule is regarded part of the navigation bars and will be
-    removed anywhere else in the file when the navigation bars are
-    automatically inserted or updated.  Rather use the _Markdown_
-    variants "`---`" or "`***`", if you need a horizontal rule somewhere
-    in your _Markdown_ file.
+             \* \* \* * * * * * * *  
 
+        (Some backslashes added to avoid misinterpretation!)           
+
+    * If necessary, update the links in the table of contents after changes in the page headers.
 *   Be conservative: try to maintain the general look of the original
     file.
 
 *   You can edit an existing or create a new `*.md` file either
-    [online](#online-editing) or
-    [offline](#offline-editing), the latter being the
-    preferred method.  **Online editing is discouraged and should only
+    online or
+    [offline][EditOffline], the latter being the
+    preferred method. **Online editing is discouraged and should only
     be used for minor changes like correcting a typo!**
 
     One reason for discouraging online editing is that it causes the
-    Github server to use a stereotype "`Edited online`" commit
+    GitHub server to use a stereotype `Edited online` commit
     message which doesn't convey any real information as to **why** a
-    particular change was made to the wiki repository.  But keeping
+    particular change was made to the Wiki repository.  But keeping
     track of why a change was introduced is one of the benefits of
-    maintaining the wiki as a _Mercurial_ repository at all.  Another
-    reason for discouraging online editing is that the Github server
+    maintaining the Wiki as a GitHub repository.  Another
+    reason for discouraging online editing is that the GitHub server
     does neither check the contents of your file nor update its
-    navigation bars.  So either don't use online editing at all or only
+    navigation bars. So either don't use online editing at all or only
     use it for really trivial changes.
 
     And finally, being able to use your favorite editor at home will
@@ -222,257 +216,185 @@ Github, the following conditions must be met:
     major searching, mass changes, or cut and paste operations.
 
 *   Thoroughly check your edits, in particular make sure **you don't
-    introduce unresolvable links**.  This checking can of course be done
+    introduce broken links**.  This checking can of course be done
     more easily and more thoroughly offline and thus this is just
     another reason for discouraging online editing.
 
-[^2]:
-    Mind however that links in your new file which point to other wiki
-    files now have to be temporarily prefixed with "`../`" as in
+## QMapShack-specific rules for Markdown use
 
-    >    \[_Text_]\(../_File_)
+* Use [FM-compatible Markdown][GFM].
+* New files/pages must have ASCII-only filenames.
+* All extensions in filenames (`.md` and some others used in the Wiki) must be lowercase.
+* The encoding of Wiki pages must be UTF-8. Don't use other encodings like Latin-1! Don't use editors not supporting UTF-8!
+* Use only `ATX`-type section headers, i.e. those initialized by one or more hashes `#`. Don't use setext-type section headers (those with underlining in next line).
+* Each page must have exactly one top-level header, i.e. a line of the form 
+
+        # Header_of_page
+        
+    Other sections of the page should be subsections of the top level header (section) and form a tree structure. 
+      
+* Use a header text only once on a page (i.e. headers on a page must be unique).
+* Don't use extra formatting in headers (images, emphasis, links, ...).
+* Don't use footnotes (not supported in GitHub Wiki).
+* Add a title to each link, i.e. in a link of the form (backslashes are added to avoid misinterpretation as link!)
+
+         !\[text1\]\(some_url "text2")
+
+    `text1` and `text2` must be meaningful non-empty strings.
+    
+* The table of contents of a page must have an entry for each header in the page. The entry must be a link to the header. Edit the table of contents of the page properly and with correct links.
+* Save snapshots or images used in Wiki pages in the Wiki itself and not in the cloud or somewhere else in the Internet.
+* Limit the size (especially the width) of images. Large images in MD/HTML files are automatically scaled by some browsers (so-called "responsive images"). 
+  This doesn't hold true for some versions of the Qt help browser used to display the offline QMS help. 
+ 
+## Further recommendations for editing Wiki pages
+
+* Spell-check the text.
+* Be aware that the formatting of a Wiki page as seen on the GitHub server and the one seen in some local Markdown browser may be different. Thus, always check formatting on the server as the last editing step.
+*   Test carefully, if formatting is correct. If any possible, check the layout with 
+    * some Markdown viewer (browser or editor with Markdown extension) _and with_
+    * HTML files derived from the modified Markdown files (procedure is described [later][EditOffline] on this page).
+    
+    Pay special attention to
+    
+    * correct indentation (lists, images, code, ...),
+    * correct use of empty lines,
+    * correct rendering of images.
+    
+* Test if links work correctly. Repeat the test after uploading the page to the QMS repository on the server. When using non-ASCII characters in a header then check carefully, if links to this header work correctly.
+
+* Images for the QMS part of the Wiki are located in child directories of the `images` subdirectory. Those for QMT are located in the `QMapTool\images` subdirectory (without further subdirectories).
+* The QMapTool (QMT) Wiki part is located in the `QMapTool` subdirectory of the QMS local Wiki directory. 
+* Links to images in pages of the QMT Wiki must have the form required by GitHub (the relative path to the image should be `QMapTool/images/`).
+
+    _Example (backslashes are added to avoid misinterpretation as link!):_
+  
+        !\[Input of ...\]\(\QMapTool/images/RefToolCoord.jpg "Input of ...") 
+      
+* `QMapTool` is the only subfolder with Markdown files. All QMS Markdown files of the Wiki should be 
+  located in the root directory (in the example used on this page: `QMapShack-doc`) of the Wiki.
+* The GitHub Wiki merges the QMS and QMT part filenames into one large list of filenames without path. 
+  This implies, that filenames in the complete Wiki (QMS and QMT) must be unique. To achieve this, some 
+  filenames start with a `QMT` prefix. 
+* [Offline help for QMS and QMT][HelpOffline] is split into 2 separate packages. In links from the QMS part of the Wiki to the QMT part or vice versa the target address must be an external link to the Wiki on the server (i.e. a link to `https://GitHub.com/Maproom/qmapshack/Wiki/...`. Otherwise, the offline help can't handle the link correctly.
+* Only files in the root directory and the `QMapTool`, `images`, and `Downloads` subdirectories are used when preparing QMS and QMT offline help. If using additional subdirectories, then the generation of the offline help must be adjusted.
+
+## Rules for new pages
+
+*   If the file you want to edit does **not yet exist**, select a
+    **blank-free** name for it which **only** consists of **plain upper-
+    and lowercase ASCII characters**,
+    **digits**, and **underscores** (`_`). Accented characters, umlauts, or other non-ASCII characters are not allowed in filenames for Markdown and other QMS Wiki files. Do your best to mimic the naming scheme used by already existing files.
+    
+    **Mind that the `.md` extension is mandatory when creating a new  Markdown file offline!**  If you omit the `.md` extension, neither the local scripts nor the GitHub server will recognize your file as a Markdown file.
+
+
+*   If the file you want to edit does **not yet exist**, create it in the
+    sub-directory `playground` of the local Wiki copy.  This way your new file does
+    neither disturb others 
+    while you are developing the contents of your file nor do other
+    people's operations add currently unwanted changes to
+    your file which is still in the making.  And you can develop your
+    file at your own pace over a longer period of time or also ask
+    others to have a look at it before it is _really_ added to the Wiki.
+    
+    Mind that links in a new QMS Markdown file which point to other QMS Wiki
+    files have to be temporarily prefixed with `../` as in
+
+        [Text](../File)
 
     or they will not be resolvable while you inspect your work online on
-    the Github server or offline by manually converting it to HTML.
+    the GitHub server or offline by manually [converting Markdown files to HTML][EditOffline].
+    
+    For new QMapTool Markdown files the prefix should be `../QMapTool/`.
+    
+    Having finished editing move your file to its final location in the Wiki (root directory of local Wiki copy for QMS files, `QMapTool` subdirectory of the root directory for QMT files) and don't forget to remove the extra `../` or `../QMapTool/` link prefix and commit and push your changes to the server repository using the `git` tool.
 
-## Online Editing
+*   If the file you want to edit does **not yet exist**, do not try to
+    manually add to it the navigation bars you see in all the other Wiki
+    files because this could cause confusion. Navigation bars will be created [later][Workflow]. Just add the following header and footer lines for a table of contents at the top of the page:
+    
+        \*\*\*Table of contents***
+            
+        ...
+ 
+        \* \* \* * * * * * * *           
 
-*   If the file you want to edit is **already existing**,
+      (some backslashes added to avoid misinterpretation!)  and add a link to each header line in the page between the header and the footer (compare with an existing Markdown file!).
 
-    |   |   |
-    |---|---|
-    | ![UnderConstruction](images/UnderConstruction.png) | **Help please! This section is still under construction:** The author is not at all familiar with online editing via the Github server, so the gory details should be inserted here by someone who is.  The following topics sould be covered by the description: |
+    The TOC should be followed by the top level header line.
 
-    *   **_Where to point your browser to in order to enter your
-        Github password._**
 
-    *   **_How to select the existing file you want to edit._**
+## Offline editing workflow
 
-    *   **_How to enter edit mode, if not done automatically._**
+* Just open an existing `*.md` file or create a new one as described [above][NewMD] in your favorite UTF-8 capable editor and edit it to your heart's content.
 
-    *   **_How to perform basic editing tasks like searching, mass
-        changes, or cut and paste, if possible at all._**
-
-    *   **_How to save or discard your changes._**
-
-    *   **_How to inspect the HTML code rendered from your file without
-        quitting edit mode._**
-
-    *   **_How to exit edit mode so the changes are finally
-        committed._**
-
-*   If the file you want to edit does **not yet exist**,
-
-    *   create it for the [reasons already given](#fnref:2) in
-        sub-directory `playground/` by editing existing file
-        `DocPlayground` as described above and creating a new link there
-        pointing to your not yet existing file:
-
-        >    \* \[_Topic_]\(playground/_YourNewFileName_) - _YourName_
-
-        Mind that "_YourNewFileName_" must neither end in a `.md` nor in
-        a `.html` extension.  Finally click the link, and Github will
-        create the new file which you can then edit as described above.
-
-    *   The final steps of moving your file one directory level up,
-        creating at least one link to it in one of the other wiki files,
-        and then running `make nav` against the wiki repository have to
-        be done offline anyway.
-
-## Offline Editing
-
-*   Additional Prerequisites:
-
-    *   You have the software tools described
-        [here](OfflineDocumentation#prerequisites) to
-        manually convert your `*.md` file to HTML so you can locally
-        inspect it using your browser.
-
-    *   You have _GNU_ `gawk` to run `make nav` against the repository.
-        The script `NavBar.sh` uses some `gawk` specific features, like
-        a function `match()` which takes three arguments, function
-        `gensub()`, and perhaps a few others.
-
-    *   **You are using an editor which is capable of producing UTF-8
-        encoded files.**
-
-        This is required because the _Markdown_ language implemented on
-        the Github server does not pass any HTML entities like for
-        instance "`&amp;`", "`&ecirc;`", or the equivalent forms for the
-        latter, "`&#234;`" and "`&#x000EA;`", on to the HTML code.
-        Rather it renders "`&amp;`" into "`&amp;amp;`" which will then
-        again be displayed literally as "`&amp;`" by your browser.  This
-        is not a problem as long as you are only typing English text
-        using 7-bit ASCII characters, even using any of the characters
-        "`&<>[]{}`".  But as soon as you are using German umlauts,
-        French accented characters, or even more exotic glyphs, you
-        cannot just use their standard HTML entities but rather **you
-        have to make sure your editor correctly encodes these characters
-        as _UTF-8_** or they will not be displayed properly.  And of
-        course you'll have to know how to tell your editor to insert an
-        UTF-8 "`Ê`" character directly into your file (the author would
-        recommend the _Mule_ package of
-        [GNU _Emacs_](https://www.gnu.org/software/emacs/) for editing
-        UTF-8 files, but your milage may vary).
-
-*   Before you really start working, `cd` to the top level of the wiki
-    repository and execute the following command
-
-            make check | tee /tmp/initial-repo-state
-
-    which saves a report in file `/tmp/initial-repo-state` containing
-    the problems already existing in the wiki.  These are clearly
-    somebody else's problems, and this file will later help you to nail
-    down those problems freshly introduced by your recent work.  More on
-    that later.
-
-*   Just open an existing `*.md` file you want to edit or create a new
-    one (**in sub-directory `playground/`, as recommended
-    [above](#fnref:2)!**) in your favorite, **UTF-8 capable** editor and
-    edit it to your heart's content.
-
-    **Mind that the `.md` extension is mandatory when creating a new
-    _Markdown_ file offline!**  If you omit the `.md` extension, neither
-    the local scripts nor the Github server will recognize your file
-    as a _Markdown_ file.
-
-*   If you want to see the outcome of rendering your file to HTML, just
-    save the edited file to disk, `cd` to the top level of the wiki
-    repository, if necessary, and then run the commands
-
-    >    ./Make.sh _YourFilePath_.md	
-    >    _YourBrowser_ _YourFilePath_.html
-
-    where _YourFilePath_ has to start with `playground/`, if you created
-    the file there.  This will open your freshly created HTML file in
-    your browser for inspection.
-
-*   If you reach a point where you want others to review your work and
-    if you created a new `*.md` file, you should insert a link into file
-    `DocPlayground.md`
-
-    >    \* \[_Topic_]\(playground/_YourNewFileName_) - _YourName_
-
-    pointing to your new file to make it easier for others to find it
-    online.  Mind that "_YourNewFileName_" must neither end with a `.md`
-    nor with a `.html` extension.  Then keep your Github password
-    ready for pushing the repository upstream and run the commands
-
-            hg commit -A
-            hg push
-
-*   If you finally decide to really include your new file into the wiki,
+*   If you finally decide to really include your new contributions into the Wiki,
     some more steps are necessary:
 
-    *   If your file contains _Markdown_ inline links
-        "\[...]\(../_TargetFile_)" to link to other wiki files, edit it
-        one last time and change all strings "]\(../" to just "]\(" or
-        else these links will no longer be resolvable from the new file
-        location.  Likewise, if your file contains _Markdown_
-        reference-style links "\[...]: ...", replace all matches of the
-        regular expression "(\\]:[ \t]+)\\.\\./" with just "\1", the
-        part matching the parenthesized sub-expression.
+    *   Ensure that the GNU tools `make` and `gawk` (implicitly called from `make`) and the Python interpreter can be used.
+    *   If your file is saved in the `playground` subdirectory and you followed the recommendations in section ["Rules for new pages"][NewMD] about prefixing links, then remove all these prefixes, i.e. for QMS files change all strings of the form `]\(\.\./`  to just  `]\(` (inline links, backslashes added to avoid misinterpretation) or from the form `]: ../xxx` to `]: xxx` (reference links)
+        else these links will no longer be resolvable after moving the file to its final
+        location.
 
-    *   Move your file one directory level up by issuing the commands
+    *   Move your file from the `playground` subdirectory one directory level up in case of a QMS file and to the sibling subdirectory `QMapTool` in case of a QMT file.
 
-        >    cd /_YourPathTo_/playground	
-        >    mv _YourNewFileName_.md ..
-
-    *   If your file isn't reachable via some link occurring in one of
-        the other `*.md` files, it is dead.  Or at least as good as
+    *   If your new file isn't reachable via some link occurring in one of
+        the other Wiki files, it is dead.  Or at least as good as
         dead.  There is a good chance that nobody ever reads your text.
         So there should always be at least one link to it in the other
-        `*.md` files.  There are two categories of files:
+        Markdown files. The recommended way is to add a link to the new page at a proper location in the global TOC maintained at the end of the file `DocMain.md`. This will also ensure the correct construction of navigation bars on the page in a later step.
+    
+    * If you changed the content of the TOC in one of the edited files, then update the global TOC of the Wiki. To do this follow the instructions described [here][TC]. Running the Python script `Tools/CompareIdxToc.py` in the `Tools` directory helps to identify inconsistencies between the global Wiki TOC and the source file `Tools/(QMT)AxData4Index.txt` for the global index.
+    
+    * Having added new content to the Wiki it is good practice to add some additional index entries to the global Wiki index. To do this follow the instructions described [here][IDX]. Rebuild the global index by running the Python script `Tools/BuildIndex.py` in the `Tools` directory.  
 
-        *   **The general case:** your file covers some self-contained
-            topic.  Most of the existing `*.md` files belong to that
-            category.  In this case it's sufficient to insert the link
-            to your new file at a suitable place in file `DocMain.md`.
-
-        *   **The special case:** the contents of your file is more like
-            an appendix or a lengthy footnote dealing with a special
-            case.  File `Ubuntu-14.04-HowTo.md` is an example of a file
-            in this category, it is only mentioned as a special case of
-            Linux installation in file `DocGetQMapShack.md`.  In this
-            case you should insert the appropriate link to your new file
-            into the file needing the appendix or lengthy footnote,
-            while your new file should contain a link `Continue here`,
-            `Back to ...`, or the like at its end which takes you back
-            to or at least near the point where you left off earlier.
-            Alternatively you can also end your new file with a remark
-            like
-
-                    Use your Browser's "Back" button to return.
-
-*   If you are done with editing, `cd` to the top level directory of
-    your wiki repository, if necessary, and issue the command
+    *   If you are done with editing, run the command
 
             make nav
+            
+        from the top level directory of your Wiki repository.    
 
-    to ensure all your changed `*.md` files are in a consistent state
-    which is usable both, locally and online.  This includes fixing some
-    URLs as well as adding or updating both, the top and bottom
-    navigation bars and the table of contents of each `*.md` file
-    affected[^3].  Then run
+        This will update or add the top and bottom navigation bars of each `*.md` file affected.  
+        
+        Under some circumstances (in particular when running it for the very first time) the command `make nav` might process more than just the files you changed. However, it should normally not introduce any real changes (not even changes to file modification dates) which aren't caused by your own work.
+        
+    *   _Optional, but recommended:_ Convert the edited Markdown files to HTML files and check again the formatting with the help of the HTML file. Conversion is done by running the command
 
-            hg addremove
-            make check | diff -U99 /tmp/initial-repo-state -
+            ./Tools/HTMLMake.py your_markdown_file.md
+            
+        The result of the conversion will be a file `doc/HTML/your_markdown_file.html`. This file is used in the [QMS offline help][HelpOffline].
+        
+    * Now your edited files are ready for upload (push) to the GitHub server. For this run the following `git` commands from the top level directory of your Wiki repository:
 
-    The first command will mark any added or removed files accordingly
-    for both, _Mercurial_ and the `make check` command, while the latter
-    command will report unreferenced or undefined _Markdown_ links,
-    unreferenced files, but allso uncommitted changes (which surely are
-    there, currently).
+        * `git status`
 
-    Mind however that the `make check` command does not just check the
-    files containing your current changes, but rather checks the whole
-    wiki repository[^4].  That's why we are comparing the current output
-    of `make check` in such a way to the output saved in file
-    `/tmp/initial-repo-state` that any problem lines introduced by your
-    own recent work are marked with a `+` sign in column 1.  For the
-    time being leave any problems not introduced by your own recent work
-    alone (if you want to resolve them at all, resolve them in a
-    separate changeset later).  Correct the problems just introduced by
-    you and run `make check` again.  Repeat that process until the only
-    problems found by `make check` and introduced by your own recent
-    work are in the final section "Uncommitted changes".
+            Check the list of file changes to be send to the server. All your changes must be listed there with their correct locations.
 
-*   If you have reached that point, keep your Github password ready
-    for pushing the repository upstream and run the commands
+        *  `git commit -a -m "your commit message here"` 
+        
+            and then 
+           
+            `git push`
+        
+            If you don't know the correct usage or the purpose of these commands just run `git commit --help` resp. `git push --help`.
 
-            hg commit
-            hg push
-            rm /tmp/initial-repo-state
+            The last command pushes all changes in Wiki files to the Wiki repository on the server. You might need your GitHub password for this step.
+            
 
-[^3]:
-    Under some circumstances (in particular when running it for the very
-    first time) the command `make nav` might process more than just the
-    files you changed.  However, it should normally not introduce any
-    real changes (not even changes to file modification dates) which
-    aren't caused by your own work.
+[GitInstall]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git "Git installation"
+[GFM]:        https://GitHub.GitHub.com/gfm/ "GitHub Flavored Markdown Specification"
+[WIKI]:       https://github.com/Maproom/qmapshack/wiki "QMS Wiki on GitHub"
+[MSYS]:       https://www.msys2.org/ "MSYS installation"
 
-[^4]:
-    To be precise, `make check` solely operates on the set of all
-    _tracked_ files in the wiki repository which are _not marked for
-    removal_ (via `hg remove`), plus all new files _marked for addition_
-    (via `hg add`), minus a few exceptions like scripts, the makefile,
-    and some others.  Within this set `make check` tests all set members
-    for being referenced in at least one _toplevel_ `*.md` set member
-    (recording violations under the headline `Unreferenced files:`), all
-    local _Markdown_ links without a fragment identifier in all
-    _toplevel_ `*.md` set members for pointing to another set member,
-    and finally all local _Markdown_ links with a fragment identifier in
-    all _toplevel_ `*.md` set members for being defined in the
-    corresponding _toplevel_ `*.md` set member (recording both
-    violations under the headline `Broken links:`).  And a third output
-    section, `Uncommitted changes:`, is just meant as a reminder that
-    you have yet to commit your work.
+[EditOffline]: #offline-editing-workflow "Offline editing"
+[General]:     #general-recommendations-for-editing-qms-wiki-pages "General recommendations"
+[NewMD]:       #rules-for-new-pages "Rules for new pages"
+[Workflow]:    #offline-editing-workflow "Offline editing - workflow"
+[IDX]:         AxMaintainIndex "Maintain QMS index"
+[TC]:          AxMaintainPageTOC "Maintain QMS TOC"
+[HelpOffline]: OfflineDocumentation  "Offline help"
 
-    Thus the way `make check` works implies that it can neither find
-    undefined _Markdown_ links in `playground/*.md` files nor correctly
-    check local _Markdown_ links pointing to or into _untracked_ files
-    not (yet) _marked for addition_.
 
-///Footnotes Go Here///
 - - -
 [Prev](DeveloperTranslate) (Add translations) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Recommendations for editing QMS Wiki pages) [Next](AxMaintainAutoPages)

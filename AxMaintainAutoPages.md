@@ -62,7 +62,7 @@ the preface section of that page.
     * The _longer_image_description_ can be used for a more detailed image description. It is displayed as
       image caption.
 
-* As a Windows user you should edit normal Wiki pages (not automatically created ones!) and upload them to the Github repository even if you can't run
+* As a Windows user you should edit normal Wiki pages (not automatically created ones!) and upload them to the GitHub repository even if you can't run
   the tools for maintaining the navigation bars of pages (the so-called _Navbar_ tools) or other tools for
   creating Wiki pages.
 
@@ -74,7 +74,7 @@ the preface section of that page.
 ## More recommendations
 
 * Files edited in Windows have Windows line ends. Thus, on the server side MD files might have both Unix- and Windows-like
-  line ends. This is tolerated by the Navbar tools. Github can handle MD files with both types of
+  line ends. This is tolerated by the Navbar tools. GitHub can handle MD files with both types of
   line ends. There is no need for special line end configurations in your editor.
 
 * New pages can only be created by users being capable of running the Navbar tools. If you can't run these tools,
@@ -92,41 +92,36 @@ This section describes the necessary workflow after making some special changes 
 * In the case that you have to run a script mentioned in this section carry out the following steps:
 
     * Open a command line window.
-    * Change to the `doc\Tools` folder and run the Python scripts from this folder.
-    * If you want to run the navbar tools, then change to the `doc` folder and run the scripts from this folder.
+    * Change to the `./Tools` folder and run the Python scripts from this folder.
+    * If you want to run the navbar tools, then change to the root folder and run the scripts from this folder.
 
-* Change of a section header, new section, or change in the table of contents of the manual main page
-  `DocMain`:
+*   Change of a section header, new section, or change in the table of contents of the manual main page `DocMain`:
 
-  This leads to a change in the automatically created complete table of contents. Run the Python script
-  `BuildToc.py` to update the complete table of contents.
+    This leads to a change in the automatically created complete table of contents. Run the Python script `BuildToc.py` to update the complete table of contents.
 
-* Change of a link to another manual page (some basic knowledge of HTML required):
+*   Change of a link to another manual page (some basic knowledge of HTML required):
 
-  Subsections of the manual can be used as targets for links. A special marker is added by the Markdown processor
-  to each section header. This marker can be found as follows:
+    Subsections of the manual can be used as targets for links. A special marker is added by the Markdown processor to each section header. This marker can be found as follows:
 
-  * Open the on-line Wiki page in your browser.
-  * Open the source text of this page.
-  * Find the wanted section header in the source text.
-  * The `<a href="#markdown-header-some_text">` string in front of the section header shows the quoted marker.
+    * Open the on-line Wiki page in your browser.
+    * Open the source text of this page.
+    * Find the wanted section header in the source text.
+    * The `<a href="#markdown-header-some_text">` string in front of the section header shows the quoted marker.
 
-* Change of an image link:
+*   Change of an image link:
 
-  If the change is in the "_Advanced_" resp. "_FAQ_" parts of the manual, then you should run  the Python script
-  `BuildImgLink.py` which updates the list of used images in the manual.
+    If the change is in the "_Advanced_" resp. "_FAQ_" parts of the manual, then you should run  the Python script `BuildImgLink.py` which updates the list of used images in the manual.
 
-  Be sure the updated image is under version control.
+    Be sure the updated image is under version control.
 
-* Change of index entries:
+*   Change of index entries:
 
-  Refer to this  [page](AxMaintainIndex "Maintaining the QMS Wiki Index") for details.
-
+    Refer to this  [page](AxMaintainIndex "Maintaining the QMS Wiki Index") for details.
 
 * You should run the navbar tool `make nav` to update navigation bars after changing the table of contents,
   the image links, or the index page. Automatically (re-)created pages don't have navigation bars.
 
-* Upload to Github
+* Upload to GitHub
 
 
 ## Formatting rules:
@@ -165,7 +160,7 @@ the navigation bars you have to run the navbar tools!
 * The script displays in a console window a list of used and unused images in the `doc\images\FAQ` and `doc\images\DocAdv`
   folders.
 * Don't use the local Markdown variant of the file - it doesn't have the correct link form. Correct links can be found
-  either in the on-line Github Wiki or in the off-line HTML form of the page!
+  either in the on-line GitHub Wiki or in the off-line HTML form of the page!
 
 ### BuildToc.py and AxAdvToc.md
 

@@ -77,7 +77,7 @@ The following links are recommendations for files which allow comfortable work w
     
 * _Elevation data (recommended, if elevations should be assigned to new tracks)_:     
 
-    * [Load tiles with elevation data](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia "Load elevation tiles"). 
+    * [Load tiles with elevation data](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia/ "Load elevation tiles"). 
       Use coordinates to choose necessary file(s), e.g. `N51E012.hgt.zip`. The coordinates in the file name describe the south-western 
       corner of a tile. 
     

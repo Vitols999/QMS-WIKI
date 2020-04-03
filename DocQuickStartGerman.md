@@ -81,7 +81,7 @@ heruntergeladen werden können.
     
 * _Höhendaten (empfohlen, falls Höhenangaben für neue Strecken erforderlich sind)_:     
 
-    * [Kacheln für Höhendaten laden](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia "Einzelne Kacheln"). Über die Koordinaten passende
+    * [Kacheln für Höhendaten laden](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia/ "Einzelne Kacheln"). Über die Koordinaten passende
       Datei(en) auswählen, z.B. `N51E012.hgt.zip`. Die angegebenen Koordinaten beschreiben die südwestliche Ecke einer Kachel.
     
         _Oder:_

@@ -76,6 +76,16 @@ To install and use a local copy of the QMS Wiki carry out the following steps:
 1. Open a Markdown (`MD`) file in the browser with activated Markdown plugin. Good starting pages are `Home.md` and `DocMain.md`. From these pages other help pages can be accessed.
 1. The QMapTool part of the Wiki can be found in the `QMapTool` subdirectory. Starting pages are `QMTHome.md` and `QMTDocMain`.
 
+_Remark:_ The files necessary for the QMS/QMT offline help can be created locally when having a local copy of the QMS Wiki. To do so 
+
+* read the information at the top of the file `Makefile.make`,
+* install the tools mentioned in this information,
+* run the command 
+
+        make VERBOSE=YES -f Makefile.make show
+        
+  This will create and open the QMS help browser.      
+
 [QMSWiki]: https://github.com/Maproom/qmapshack/wiki "QMS Wiki"
 [QtAssistant]: https://doc.qt.io/qt-5/qtassistant-index.html "Qt assistant help"
 [GitInstall]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git "Git installation"

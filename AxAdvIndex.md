@@ -302,6 +302,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Edit window, of track**
 :  [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data")
 
+**Edit, QMS documentation**
+:  [Recommendations for editing](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages "Recommendations for editing")
+
 **Edit, redo**
 :  [Undo/Redo](DocGisItemsEditMultiple#undoredo "Undo/Redo")
 
@@ -966,6 +969,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **QMapShack, used directories**
 :  [User-relevant directories (Windows)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "User-relevant directories (Windows)")
+
+**QMS documentation, edit**
+:  [Recommendations for editing](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages "Recommendations for editing")
 
 **QMS, load file**
 :  [Load GPX Files](DocHandleGpxFiles#load-gpx-files "Load GPX Files")
