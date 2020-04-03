@@ -19,6 +19,9 @@
 ##        <http://www.gnu.org/licenses/>                              ##
 ##                                                                    ##
 ########################################################################
+
+# W. Thämelt, 03.04.2020: leave only target nav active, all other targets are now obsolete
+
 ########################################################################
 #
 # Makefile for managing  creation of the "*.html" files  from their cor-
@@ -68,36 +71,33 @@ select = $(if $(shell test $(2) -ot $(1) && test $(3) -ot $(1) && echo 1),$?,$(s
 # acter!):
 
 help:
-	@echo '	make check  # Check for dead files and broken links.'     ; \
-	 echo '	make clean  # Discard all "*.html" and time stamp files.' ; \
-	 echo '	make doc    # Update all outdated "*.html" files.'        ; \
-	 echo '	make [help] # Display this text.'                         ; \
+	 @echo '	make [help] # Display this text.'                         ; \
 	 echo '	make nav    # Sanitize all changed "*.md" files.'         ; \
 
 #
 # Rule to check for unreferenced local files,  undefined local links, as
 # well as for self references:
 
-check:
+xcheck:
 	@./LinkCheck.py
 
 #
 # Rule to remove all "*.html" files as well as any time stamp files:
 
-clean:
+xclean:
 	rm -f $(tgt) $(nvt)
 
 #
 # Rule to update all outdated "*.html" files:
 
-doc: $(tgt)
+xdoc: $(tgt)
 
 #
 # Rule to create  a single  "*.html" file from its  Markdown source file
 # "*.md" (we also have  to re-create the "*.html" file,  should the con-
 # version script change):
 
-%.html: %.md $(htm)
+x%.html: %.md $(htm)
 	$(htm) $< > $@
 
 #
