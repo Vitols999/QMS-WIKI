@@ -60,7 +60,7 @@ Installing via official repository is the preferred way of installing QMapShack.
 Below a (non-exhaustive) list of Linux Distributions shipping QMapShack:
 
 * [Debian](https://packages.debian.org/testing/qmapshack)
-* [Ubuntu](http://packages.ubuntu.com/xenial/qmapshack)
+* [Ubuntu](https://packages.ubuntu.com/xenial/qmapshack)
 * [OpenSUSE](https://software.opensuse.org/package/qmapshack)
 * [Arch](https://aur.archlinux.org/packages/qmapshack-hg/)
 * [Fedora](https://admin.fedoraproject.org/pkgdb/package/rpms/qmapshack/)
@@ -74,8 +74,8 @@ Refer to your distribution's manual on how to install packages using the package
 To compile QMapShack, you need to have installed:
 
 * [Qt5](https://www.qt.io/) (at least 5.8)
-* [GDAL](http://www.gdal.org/)
-* [Proj4](https://github.com/OSGeo/proj.4/wiki)
+* [GDAL](https://gdal.org/)
+* [Proj4](https://github.com/OSGeo/PROJ/wiki)
 * [Routino](http://www.routino.org/) (at least 3.1)
 * [QuaZip](http://quazip.sourceforge.net/index.html)
 * CMake/Make

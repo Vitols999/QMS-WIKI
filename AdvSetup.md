@@ -77,9 +77,9 @@ QMS can render vector maps in the Garmin format and various types of raster and 
     * must have the `gmapsupp.img` container format,
     * only unlocked ones can be used,
     * typical sources:
-        * [http://download.freizeitkarte-osm.de/garmin/latest](http://download.freizeitkarte-osm.de/garmin/latest) - select region and correct format.
+        * [http://download.freizeitkarte-osm.de/garmin/latest/](http://download.freizeitkarte-osm.de/garmin/latest/) - select region and correct format.
         * [http://raumbezug.eu/osm-garmin_en.htm](http://raumbezug.eu/osm-garmin_en.htm) - select region and format.
-        * an overview of available free vector maps can be found [here](http://wiki.openstreetmap.org/wiki/OSM_Map_On_Garmin/Download).
+        * an overview of available free vector maps can be found [here](https://wiki.openstreetmap.org/wiki/OSM_Map_On_Garmin/Download).
     * download (and unzip if necessary) the map and save it in some map directory.
 * _Raster maps:_ for details see [here](DocFaqMaps).
 * _Online maps:_ 
@@ -89,7 +89,7 @@ QMS can render vector maps in the Garmin format and various types of raster and 
     
 QMS can use digital elevation data (`DEM` data). Necessary files can be downloaded from
 
-* [https://dds.cr.usgs.gov/srtm/version2_1/SRTM3](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3) or
+* [https://dds.cr.usgs.gov/srtm/version2_1/SRTM3](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/) or
 * [http://viewfinderpanoramas.org/dem3.html](http://viewfinderpanoramas.org/dem3.html).
 
 For more details about the installation of maps and DEM data compare also the [Quick start guide](DocQuickStartEnglish).

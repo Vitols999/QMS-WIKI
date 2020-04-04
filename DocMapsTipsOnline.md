@@ -96,7 +96,7 @@ QMS does support TMS.
 
 Some ready made WMTS and TMS files for different regions and for different purposes can be downloaded from the Internet (unpack the ZIP files and copy all files to a QMS map path):
 
-* [Package 1 (contributed by Emi):](http://www.mtb-touring.net/qms/onlinekarten-einbinden) Most of the offered maps are based on OpenStreetMap data. They reflect different areas of interest and use different map servers.
+* [Package 1 (contributed by Emi):](http://www.mtb-touring.net/qms/onlinekarten-einbinden/) Most of the offered maps are based on OpenStreetMap data. They reflect different areas of interest and use different map servers.
     * OSM Base: hikebikemap, humanitarian, landscape, openstreetmap (Mapnik, German & French style), opencyclemap, oepnvkarte (German public transport), outdoors, skobbler, OSM Topo, World Topo (Esri), Alpenkarte (alps map), 4UMaps.eu, MTBMap.cz (Czech mountain bike map), Reit- und Wanderkarte (hike and horse ride map for Germany), Maptoolkit, maps.refuge.info
     * Waymarkedtrails: Inlineskating, mountain biking, cycling, horse riding, hiking, wintersports
     * Overlay: Hillshading, openrailwaymap, openseamap
@@ -142,7 +142,7 @@ You have to replace the URL in front of the string
 
 with whatever is needed for the WMS server. This might be a bit tricky.
 
-The official documentation of WMS standard can be found on [http://www.opengeospatial.org/standards/wms](http://www.opengeospatial.org/standards/wms).
+The official documentation of WMS standard can be found on [http://www.opengeospatial.org/standards/wms](https://www.ogc.org/standards/wms).
 
 The following version loads the French BRGM (Bureau de Recherches Géologiques et Minières) WMS map tiles (download from [here](Downloads/BRGM.tms)):
 
@@ -218,7 +218,7 @@ function convert(z1,x1,y1)
 In most cases the request will work as expected, even though the native projection wouldn't be epsg:3857 (Web Mercator).
 
 For documentation of the `export` command refer to the
-[ArcGis Export map service reference](http://resources.arcgis.com/en/help/arcgis-rest-api/index.html#/Export_Map/02r3000000v7000000/).
+[ArcGis Export map service reference](https://developers.arcgis.com/rest/redirect/?page=#/Export_Map/02r3000000v7000000/).
 
 
 ### Use MapProxy to access many maps as TMS
@@ -365,16 +365,15 @@ globals:
 
 As an individual, you can apply for a free non-commercial access to the French IGN WMTS servers (for example through their "Géoportail API", but also works with other WMTS clients like QGIS and QMapShack). Lots of thanks to them for this free access because their maps are truly awesome. The original source of information about this is at the following URL (in French):
 
-[https://dogeo.fr/wmts_ign/](https://dogeo.fr/wmts_ign/)
+[https://dogeo.fr/wmts_ign/](https://blog.dogeo.fr/)
 
 The terms of use enforce a few restrictions listed at the following URL:
 
-[http://professionnels.ign.fr/conditions](http://professionnels.ign.fr/conditions)
+[http://professionnels.ign.fr/conditions](https://geoservices.ign.fr/documentation/diffusion/index.html)
 
 You can register for this free "licence géoservices IGN pour usage grand public" at the following URL (_hint:_ the content of the linked page seems to change frequently, look for a link similar to "_Commander une clé de géoservices_"):
 
-[http://professionnels.ign.fr/user/register](http://professionnels.ign.fr/user/register)
-
+[http://professionnels.ign.fr/user/register](https://geoservices.ign.fr/documentation/diffusion/index.html
 You will be prompted to select which layers you want. Although the same procedure probably applies to any of the available layers, the process described here has only been tried with the map layer called "cartes IGN" (or "GEOGRAPHICALGRIDSYSTEMS.MAPS" on the WMTS server).
 
 Note that you will also need to provide your IP address (external IP: that is the IP of your Internet router) during the application process. Usually you can easily find this IP in your router status page, or alternatively you can visit websites such as 
@@ -440,7 +439,7 @@ The following TMS file allows loading New Zealand topo maps into QMS (download f
 	</Layer>
 </TMS>
 ```
-The script inside the TMS file prepares the correct URL form in accordance with [OSGEO TMS](http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/)
+The script inside the TMS file prepares the correct URL form in accordance with [OSGEO TMS](https://www.maptiler.com/google-maps-coordinates-tile-bounds-projection/)
 (Optimized by KartenFreak).
 
 ### TMS configuration for Norwegian topo maps

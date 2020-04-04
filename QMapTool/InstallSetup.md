@@ -36,8 +36,8 @@ Download, unpack and compile the [latest stable release from the download page](
 To compile QMapTool, you need to have installed:
 
 * [Qt5](https://www.qt.io/) (at least 5.4)
-* [GDAL](http://www.gdal.org/)
-* [Proj4](https://github.com/OSGeo/proj.4/wiki)
+* [GDAL](https://gdal.org/)
+* [Proj4](https://github.com/OSGeo/PROJ/wiki)
 * CMake/Make
 * a C++ compiler (supporting C++11)
 

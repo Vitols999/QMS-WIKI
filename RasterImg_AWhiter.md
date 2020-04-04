@@ -19,14 +19,14 @@ The web has several very good sources of information about the IMG format and it
 
 Here are the main ones:
 
-* [http://wiki.opensTREetmap.org/wiki/OSM_Map_On_Garmin/Format](http://wiki.opensTREetmap.org/wiki/OSM_Map_On_Garmin/Format)
+* [http://wiki.opensTREetmap.org/wiki/OSM_Map_On_Garmin/Format](https://wiki.opensTREetmap.org/wiki/OSM_Map_On_Garmin/Format)
 * [http://www.pinns.co.uk/osm/RGN.html](http://www.pinns.co.uk/osm/RGN.html)
 * [exploring_img.pdf](http://www.pinns.co.uk/osm/docs/exploring_img.pdf "exploring_img.pdf")
-* `imgformat-1.0.pdf`, which can be downloaded, for example, [here](http://sourceforge.net/projects/garmin-img/files/). 
+* `imgformat-1.0.pdf`, which can be downloaded, for example, [here](https://sourceforge.net/projects/garmin-img/files/). 
 
 Unfortunately, these sources do not contain any information about saving raster maps in IMG maps.
 
-Let's try to parse the main header fields of a map using the example file `00355951.GMP`, the smallest map file in terms of volume and number of images of the map of the Isle of Man which is freely available for [download](http://www.garmin.com/uk/maps/isle-of-man-map).
+Let's try to parse the main header fields of a map using the example file `00355951.GMP`, the smallest map file in terms of volume and number of images of the map of the Isle of Man which is freely available for [download](https://www.garmin.com/uk/maps/isle-of-man-map).
 
 ~~~
 Offset from     Offset from 

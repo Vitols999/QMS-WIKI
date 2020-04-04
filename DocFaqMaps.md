@@ -314,7 +314,7 @@ built for the given vector map. As a result, even the motorway is not displayed 
 
 [Google maps](https://www.google.com/maps) offers different map layers as overlays to some basic map. Among the overlay layers is a *Terrain* layer. 
 
-Using various [TMS files](http://www.mtb-touring.net/qms/onlinekarten-einbinden) these maps and their layers can be visualized in QMS. The next image shows in its upper part a map of some mountainous area without any overlays.
+Using various [TMS files](http://www.mtb-touring.net/qms/onlinekarten-einbinden/) these maps and their layers can be visualized in QMS. The next image shows in its upper part a map of some mountainous area without any overlays.
 
 In the middle of this image the Google terrain overlay is activated and shows the same area as the upper part. This overlay isn't a map in the proper sense of the word. It is used to show hillshading on some base map. The white/grey spots in this layer indicate hillshading.
 
@@ -334,16 +334,16 @@ QMS supports raster formats that are
 
 An advantage of the GEMF format is that reading the tiles from the map file is very fast.
 
-The [MOBAC Mobile Atlas Creator](http://mobac.sourceforge.net/ "MOBAC main page") can be used as a source of raster maps. 
+The [MOBAC Mobile Atlas Creator](https://mobac.sourceforge.net/ "MOBAC main page") can be used as a source of raster maps. 
 With the help of this application
 the user can load tiles of on-line maps as well as some other map formats and save them as raster maps. Use GEMF or RMAP as output formats.
-For details check the [MOBAC Wiki](http://mobac.sourceforge.net/wiki/index.php/Main_Page "MOBAC wiki main page").
+For details check the [MOBAC Wiki](https://mobac.sourceforge.net/wiki/index.php/Main_Page "MOBAC wiki main page").
 
 The proprietary Mapsforge vector map format, which is rather popular on mobile phones, can be read by the latest version of MOBAC.
 After converting a mapsforge map to a GEMF map with MOBAC, the GEMF map can be loaded with QMS. _Remark:_ This conversion can take
 some time depending on the size and the structure of the map!
 
-The [MAPC2MAPC64 map converter](http://mapc2mapc64.software.informer.com/5.1/ "MAPC2MAC64 map converter") is designed as a 
+The [MAPC2MAPC64 map converter](https://mapc2mapc64.software.informer.com/5.1/ "MAPC2MAC64 map converter") is designed as a 
 converter between various raster map formats.
 
 **Remark about the QMS Windows version:** Many applications handling geodata use the `GDAL` package. Thus, it may happen that several different versions of this package
@@ -358,7 +358,7 @@ installation directory. Thus, a change of the `GDAL` related environment variabl
 Some servers are
   * [loadmap.net](http://loadmap.net)
   * [https://gpska.yapl.ru](https://gpska.yapl.ru)
-  * [http://satmaps.info/us/map-detector.php](http://satmaps.info/us/map-detector.php)
+  * [http://satmaps.info/us/map-detector.php](https://satmaps.info/us/map-detector.php)
 
   When downloading a map tile 2 files are created:
 a GIF file (or other image file) with the raster map and an `OZIExplorer` MAP file with geodetic calibration data.

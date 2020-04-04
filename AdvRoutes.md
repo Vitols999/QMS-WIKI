@@ -79,7 +79,7 @@ The following routing engines (routers) are available in QMS:
 
 Offline routers use special routing databases. The preparation of these databases is part of the router configuration/setup (compare page 
 [Overview of setup and configuration options](AdvSetup)).  Typically, the data source for a routing database
-is [OpenStreetMap](http://www.openstreetmap.org) data.
+is [OpenStreetMap](https://www.openstreetmap.org/) data.
 
 
 ## Create a route
@@ -407,7 +407,7 @@ _Remark:_ These methods work in the same way for track and for route creation.
     
 ## Comparison of routing engines
 
-(for a general comparison of routers in general see also [OSM router comparison matrix](http://wiki.openstreetmap.org/wiki/Routing/online_routers))
+(for a general comparison of routers in general see also [OSM router comparison matrix](https://wiki.openstreetmap.org/wiki/Routing/online_routers))
 
 _Feature_| _BRouter_ | _Routino_ | _MapQuest_ | _Off-road_ | _Vector_ |
 ---------|-----------|-----------|------------|----------|:----------:|
@@ -456,7 +456,7 @@ on-the-fly routing | online: no, offline: yes, if switched on | yes | no | no | 
       routing window. Normally, the server starts automatically.
     * The BRouter stand-alone version is automatically 
       installed when the BRouter engine is set up in QMS. If the offline server is started in QMS, then this server can also be used for a BRouter standalone version.
-      Just open [brouter-web](http://brouter.de/brouter-web) in a browser and proceed as described in the browser window.  
+      Just open [brouter-web](http://brouter.de/brouter-web/) in a browser and proceed as described in the browser window.  
       
 * _Recommendation on choice of router profiles:_
     * The BRouter and Routino routers offer different routing profiles with different routing results.

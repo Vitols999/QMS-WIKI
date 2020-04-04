@@ -84,7 +84,7 @@ given points. Tracks, routes, and area boundaries are polylines.
 
 **Routino**
 : Offline router application for finding a route between two points using the topographical data from
-[OpenStreetMap](http://www.OpenStreetMap.org). To optimize the routing a custom database format is used.
+[OpenStreetMap](https://www.OpenStreetMap.org/). To optimize the routing a custom database format is used.
 
 **Slope at geographical location**
 : Value of the steepest ascent or descent at a given geographical location calculated from DEM data. It informs about the steepest ascent resp. descent in the terrain
