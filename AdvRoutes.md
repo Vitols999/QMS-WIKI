@@ -173,7 +173,8 @@ An existing route in a project __selected__ in the workspace can be modified and
     
          ![Add routing point](images/DocAdv/RouteAddPt.jpg "Add new routing point")
        
-       The info box below the toolbar gives some information about possible actions.
+         The info box below the toolbar gives some information about possible actions.
+       
     1. Click on the route at a location where a new routing point should be added and move the mouse to the location of the new routing point.  
  
          ![Add routing point](images/DocAdv/RouteAddPt1.jpg "Choose new routing point location")
@@ -281,7 +282,7 @@ Several no-go areas and lines can be active at the same time.
 * Clicking on the circle surrounding a no-go area opens a toolbox. The text in the toolbox shows the proximity radius. Using the toolbox icons the user can
     * change the radius of the no-go area with the mouse (click icon, move mouse to new size of no-go area, old radius size is still shown, left click to confirm new size).
     * remove the proximity radius and thus the no-go area.
-    * switch the no-go area property on or off,    
+    * switch the no-go area property on or off.   
  
     These actions can also be triggered in the waypoint context menu (menu entries `Change radius`, `Toggle no-go area`, `Delete radius`).
   

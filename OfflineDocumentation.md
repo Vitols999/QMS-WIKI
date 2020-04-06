@@ -56,7 +56,8 @@ _Remark:_ Everything described for QMS is analogously valid for QMapTool (QMT). 
     1. Be sure [Qt assistant][QtAssistant] is installed together with Qt and on your path.
     1. To open QMS help run the following command in a console window:
     
-           assistant -collectionFile path_to_qmshelp.qhc/QMSHelp.qhc
+             assistant -collectionFile path_to_qmshelp.qhc/QMSHelp.qhc
+           
 * For QMapTool help replace `qmapshack` in the download link with `qmaptool` and replace `QMS` in the file names with `QMT`.
 
 ## Installing and using local QMS Wiki copy

@@ -191,6 +191,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
         (Some backslashes added to avoid misinterpretation!)           
 
     * If necessary, update the links in the table of contents after changes in the page headers.
+    
 *   Be conservative: try to maintain the general look of the original
     file.
 
