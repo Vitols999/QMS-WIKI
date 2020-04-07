@@ -96,11 +96,11 @@ QMapTool needs some setup to run properly. The user should carry out the followi
 
     ![Setup of external tools](QMapTool/images/SetupExternals.jpg "Setup of external tools")
     
-   _Remarks:_
+    _Remarks:_
 
-   * The first 4 settings are related to GDAL tools used in QMT.
-   * The last setting points to an auxiliary executable created in the QMT compiler run.
-   * All the executables used in this setup are distributed with the Windows installer and are located in the QMT installation path.
+    * The first 4 settings are related to GDAL tools used in QMT.
+    * The last setting points to an auxiliary executable created in the QMT compiler run.
+    * All the executables used in this setup are distributed with the Windows installer and are located in the QMT installation path.
     
 1. Select the menu item `Setup - Setup units` and select your unit (Nautical, imperial, or metric).
 1. Select the menu item `Setup - Setup coord.format` and select your favorite coordinate format.

@@ -151,9 +151,9 @@ Una vez creada la estructura vamos a poner los mapas y datos que hemos descargad
 **Datos de ejemplo**
 
 * Descomprime `QMS_datos_ejemplo.zip`. El fichero `leeme.txt` contiene información sobre el origen y propósito de los archivos de ejemplo
-	* Mueve `Sallent.gpx` a la carpeta `CARTO/GPX`
-	* Mueve `ES-AL-M8.typ` a `CARTO/Maps/GARMIN-IMG`
-	* Mueve `Pirineos.db` a `CARTO/Databases`
+    * Mueve `Sallent.gpx` a la carpeta `CARTO/GPX`
+    * Mueve `ES-AL-M8.typ` a `CARTO/Maps/GARMIN-IMG`
+    * Mueve `Pirineos.db` a `CARTO/Databases`
 
 ## Instalación del programa
 * Abre la carpeta en la que has descargado todos los ficheros anteriores.
@@ -214,6 +214,7 @@ _En este paso vamos a indicarle a QMS en que carpetas guardamos los mapas y QMS 
 
 ### Configurar carpetas DEM
 El proceso es idéntico al de las carpetas de mapas.
+
 * Sitúa el cursor sobre el espacio vacío en el panel `MDT (DEM)` y haz click con el botón derecho sobre el espacio vacío.
 * Se abre un menú:  elige "Configurar Rutas a los DEM"
 
@@ -315,9 +316,9 @@ _Este paso requiere haber configurado previamente las carpetas DEM como se ha ex
 * Cuando dibujas un nuevo track este tomará los datos de elevación del DEM que tengas activo.
 * Sabremos que un DEM está activado porque aparece un triángulo junto a su nombre. 
 * Pulsando este triángulo se despliegan los controles de visualización del DEM que permiten:
-	* Aplicar un sombrado de relieve.
-	* Colorear las pendientes [(+ info)](https://www.mendiak.net/viewtopic.php?f=33&t=45214#p604256 "Colorea las pendientes para evaluar el riesgo de alud").
-	* Limitar en que rangos de zoom se aplican estos sombreados. 
+    * Aplicar un sombrado de relieve.
+    * Colorear las pendientes [(+ info)](https://www.mendiak.net/viewtopic.php?f=33&t=45214#p604256 "Colorea las pendientes para evaluar el riesgo de alud").
+    * Limitar en que rangos de zoom se aplican estos sombreados. 
 	
 #### Uso de un MDT (DEM) online
 
@@ -339,12 +340,12 @@ Vamos con un ejemplo que nos sirve de repaso de lo visto hasta ahora:
 
 * Abre una nueva Vista de Mapa vacía (Menu Ver - Añadir Vista de Mapa)
 * Abre la pestaña `Mapas` y activa el mapa `ESP-alternativaslibres`	
-	* Es posible que no veas nada, es por que no estás en el ámbito que cubre el mapa.
-	* Para situarte haz doble click sobre el track *Vuelta-Pacino*. La Vista de Mapa ya muestra el área geográfica de este track.
+    * Es posible que no veas nada, es por que no estás en el ámbito que cubre el mapa.
+    * Para situarte haz doble click sobre el track *Vuelta-Pacino*. La Vista de Mapa ya muestra el área geográfica de este track.
 * Haz doble click sobre el nombre del mapa `ESP-alternativaslibres`. Se muestran sus opciones de visualización.
-	* Pon el detalle en 2.
-	* Pincha en el icono de la carpeta azul para aplicare un TYP y selecciona el archivo `ES-AL-M4.typ` . El aspecto del mapa vectorial cambia al instante.
-	* Abre el Menú `Ver`y asegúrate de que `Texto del POI`y `Mostrar descripción emergente...` estén activados.
+    * Pon el detalle en 2.
+    * Pincha en el icono de la carpeta azul para aplicare un TYP y selecciona el archivo `ES-AL-M4.typ` . El aspecto del mapa vectorial cambia al instante.
+    * Abre el Menú `Ver`y asegúrate de que `Texto del POI`y `Mostrar descripción emergente...` estén activados.
 * Abre la pestaña `DEM(MDT)` y activa `VF1-Pirineo` (click derecho - Activar)
 * Una vez activado haz doble click sobre su nombre. Se muestran las opciones de visualización.
 * Marca la casilla `Sombreado`. Se activa el sombreado de relieve. Puedes controlar su intensidad con la barra deslizante.
@@ -355,11 +356,11 @@ Vamos con un ejemplo que nos sirve de repaso de lo visto hasta ahora:
 ### Hacer zoom y mover el mapa
 
 * Con el ratón:
-	* Usa la rueda del ratón para hacer zoom + / -
-	* Para mover el mapa pincha y sin soltar arrastra a la posición deseada. 
+    * Usa la rueda del ratón para hacer zoom + / -
+    * Para mover el mapa pincha y sin soltar arrastra a la posición deseada. 
 * Con el teclado:    
-	* Las teclas `+` y `-` aumentan y disminuyen la escala del mapa (zoom)
-	* Las teclas de dirección mueven el mapa
+    * Las teclas `+` y `-` aumentan y disminuyen la escala del mapa (zoom)
+    * Las teclas de dirección mueven el mapa
 
 * Además prueba estas combinaciones de teclas:
     *  `Ctrl + D` para ocultar / mostrar los paneles.
@@ -478,13 +479,13 @@ Vamos con un ejemplo práctico (_se asume que tienes activadas en el espacio de 
 
 * Prueba además a añadir un wp desde la `Vista de Mapa`:
 
-	* Haz click sobre el wp de uno de los _Lagos azules_  y aparece un menú flotante.
-	* Pincha el icono copiar y cuando te pregunte donde copiar elige _Bachimaña_
+    * Haz click sobre el wp de uno de los _Lagos azules_  y aparece un menú flotante.
+    * Pincha el icono copiar y cuando te pregunte donde copiar elige _Bachimaña_
 
 * También puedes hacer una selección múltiple:
-	* Sobre el mapa haz click con el botón derecho y elige `Seleccionar elementos del mapa`
-	* Pincha y arrastra para dibujar un marco que contenga los elementos a copiar
-	* En el menú flotante, a la derecha del marco, pincha el icono copiar y cuando te pregunte donde copiar elige _Bachimaña_
+    * Sobre el mapa haz click con el botón derecho y elige `Seleccionar elementos del mapa`
+    * Pincha y arrastra para dibujar un marco que contenga los elementos a copiar
+    * En el menú flotante, a la derecha del marco, pincha el icono copiar y cuando te pregunte donde copiar elige _Bachimaña_
 
 _Si los elementos a copiar ya existen en el Proyecto o DB de destino QMS nos preguntará si queremos Omitir, Duplicar, o Sobrescribir. En nuestro ejemplo elegimos `Omitir`._
 

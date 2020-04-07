@@ -146,10 +146,10 @@ The following links are recommendations for files which allow comfortable work w
     * Open the context menu with a right click on the map name and select `Activate`.
     * Move the map to a position that is contained in the map. The map should be visible.
     * A double-click on the name of an activated vector map opens the display of configurable map properties:
-      * Opacity of the map (slider).
-      * Display of areas, lines and points.
-      * Level of map details display (between -5 and 5).
-      * Layout of map objects (selection of a `TYP` file).
+        * Opacity of the map (slider).
+        * Display of areas, lines and points.
+        * Level of map details display (between -5 and 5).
+        * Layout of map objects (selection of a `TYP` file).
     * _Remark:_ Open more map windows and configure them independently of each other with the help of the menu entry `View - Add map view`.  
       
 * _Optional: Activate on-line maps: (requires selection of the map folder in the previous step!)_

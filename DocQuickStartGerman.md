@@ -151,10 +151,10 @@ heruntergeladen werden können.
     * Öffne mit Rechtsklick auf den Kartennamen das Kontextmenü und wähle `Aktivieren`.
     * Verschiebe Karte zu einer Position, die in der Karte enthalten ist. Die Karte sollte zu sehen sein.
     * Ein Doppelklick auf den Namen einer aktivierten Vektorkarte öffnet die Anzeige einzustellender Karteneigenschaften:
-      * Transparenz der Karte (Schieberegler).
-      * Anzeige von Gebieten, Linien und Punkten.
-      * Anzeige von Kartendetails (einstellbar zwischen -5 und 5).
-      * Form der Darstellung von Kartenobjekten (Auswahl einer `TYP`-Datei).
+        * Transparenz der Karte (Schieberegler).
+        * Anzeige von Gebieten, Linien und Punkten.
+        * Anzeige von Kartendetails (einstellbar zwischen -5 und 5).
+        * Form der Darstellung von Kartenobjekten (Auswahl einer `TYP`-Datei).
     * _Bemerkung:_ Mittels des Menüpunkts `Ansicht - Kartenansicht hinzufügen` können weitere Kartenfenster geöffnet und unabhängig voneinander nach Nutzerwünschen eingerichtet werden.
     
 * _Optional: Online-Karten aktivieren: (setzt Wahl des Kartenverzeichnisses in vorhergehenden Schritt voraus!)_

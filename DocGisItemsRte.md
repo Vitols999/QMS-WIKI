@@ -49,13 +49,13 @@ Currently Routino is supported as offline router and MapQuest as online routing 
 Routino is an offline router written by Andrew M. Bishop. See the project's [homepage](http://routino.org/) for more details. As it is working without an Internet connection it needs routing data locally installed. A database needs 4 files:
 
 ```
-*-nodes.mem
-*-relations.mem
-*-segments.mem
-*-ways.mem
+?-nodes.mem
+?-relations.mem
+?-segments.mem
+?-ways.mem
 ```
 
-Replace the "*" with a name of the database, e.g. "Europe" or "North_America". This will be the name displayed on the GUI. The "_" will be replaced by " ".
+Replace the "?" with a name of the database, e.g. "Europe" or "North_America". This will be the name displayed on the GUI. The "_" will be replaced by " ".
 
 To create a database use planetsplitter from the Routino package. Currently this is installed with the QMapShack installation. Please refer to the [online documentation](http://routino.org/documentation/usage.html) on how to use planetsplitter.
 
