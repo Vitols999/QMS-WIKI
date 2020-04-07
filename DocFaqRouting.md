@@ -35,9 +35,9 @@ The language for the routing algorithm was set by the user to Russian within QMS
 
 **Source:**
 
- * [www.naviboard.de](http://www.naviboard.de/vb/showthread.php?t=59418)
- * [www.naviboard.de](https://www.naviboard.de/showthread.php?t=61373)
- * [gmane.comp.gis.qlandkartegt.user](http://article.gmane.org/gmane.comp.gis.qlandkartegt.user/2626)
+* [www.naviboard.de](http://www.naviboard.de/vb/showthread.php?t=59418)
+* [www.naviboard.de](https://www.naviboard.de/showthread.php?t=61373)
+* [gmane.comp.gis.qlandkartegt.user](http://article.gmane.org/gmane.comp.gis.qlandkartegt.user/2626)
 
 The Routino router in QMapShack depends on the [Routino](http://routino.org) package and this package does not offer an option to select a preferred road type.
 
@@ -113,7 +113,7 @@ _Explanation:_
   excluded from routing by a rule in the Routino configuration file. Changing this rule and recreating the Routino database removes the described Routino routing
   problem).  
   
- _Recommendations:_
+_Recommendations:_
 
 * If the Routino router doesn't give the wanted or expected result, try one of the other routers offered by QMS.
 * If the route is created with the help of the map context menu entry `Add route`, then the router works on-the-fly. The routing result can be checked immediately

@@ -255,8 +255,8 @@ In Linux, please check, if the package `p7zip-full` is installed – we need it 
 [Mkgmap](http://www.mkgmap.org.uk/), too. Also Java is required.
 
 1. Download openmtbmap-ALPS and the latest version of mkgmap
-2. Create a folder like ~/openmtbmap_alps and unzip your downloaded version
-3. Open the .exe file and extract all files called 6528xxxx.img (maptiles) and 7528xxxx (contour lines), and a typ file (the layout of the map). For this sample we choose *widealp.TYP* 
+1. Create a folder like ~/openmtbmap_alps and unzip your downloaded version
+1. Open the .exe file and extract all files called 6528xxxx.img (maptiles) and 7528xxxx (contour lines), and a typ file (the layout of the map). For this sample we choose *widealp.TYP* 
 
 The folder should now contain all map tiles, the contour lines, the layout file and the extracted files from mkgmap.
 
@@ -287,9 +287,9 @@ Links (with further information and some tutorials):
 If you want to update your maps regularly, you might consider using the script below.
 The script requires the following tools to be installed:
 
- * `wget` (downloading)
- * `7z` (extraction)
- * `mkgmap` (creation of gmapsupp.img)
+* `wget` (downloading)
+* `7z` (extraction)
+* `mkgmap` (creation of gmapsupp.img)
 
 ### Configuration
 

@@ -221,11 +221,10 @@ The user can select in several ways a range of a track, that is a sequence of tr
      * Move the mouse to the wanted end of the range and left-click.
      * Select the necessary range operation (hide/show points, assign activity/copy) from the info window that pops-up.
 
-     _Remarks:_
+         _Remarks:_
 
-       * When selecting the start and end points of the range any trackpoint (ordinary trackpoints as well as subpoints
-         created by a routing engine) can be selected.
-       * This procedure is recommended for recorded tracks.
+         * When selecting the start and end points of the range any trackpoint (ordinary trackpoints as well as subpoints created by a routing engine) can be selected.
+         * This procedure is recommended for recorded tracks.
 
          ![Track range selection](images/DocFaq/RangeSelection.png "Track range selection")
 

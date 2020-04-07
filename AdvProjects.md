@@ -166,6 +166,7 @@ The definition and the use of drop zones is described with the help of an exampl
     * all tours (hike as well as bike) made with a sport club.
 
 Thus, in addition to the _All tours_ database project define 3 more projects in the database:
+
 * _Bike tours_,
 * _Hike tours_,
 * _All sport club tours_.

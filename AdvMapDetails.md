@@ -140,7 +140,7 @@ Some properties of coordinate systems are illustrated in the following images us
 
     ![Lon/lat for map and grid](images/DocAdv/MapGrid1.jpg "Lon/lat for map and grid")
 
-* _ Map setting changed to UTM, zone 32, grid settings unchanged:_
+* _Map setting changed to UTM, zone 32, grid settings unchanged:_
     * new map setting:
     
             +proj=utm +zone=32  +a=6378137.0000 +b=6356752.3142 +towgs84=0,0,0,0,0,0,0,0 +units=m  +no_defs
@@ -156,7 +156,7 @@ Some properties of coordinate systems are illustrated in the following images us
     
     ![UTM for map, lon/lat for grid](images/DocAdv/MapGrid2.jpg "UTM for map, lon/lat for grid")
   
-* _ Map setting changed to UTM, zone 32, grid changed to UTM, zone 32:_  
+* _Map setting changed to UTM, zone 32, grid changed to UTM, zone 32:_  
     * new grid setting:
     
             +proj=utm +zone=32  +a=6378137.0000 +b=6356752.3142 +towgs84=0,0,0,0,0,0,0,0 +units=m  +no_defs
@@ -187,7 +187,7 @@ _Remarks:_
   with unknown coordinate system (can happen with coordinates from printed raster maps). Trying different grid settings can help
   to identify the coordinate system which was used when describing a waypoint.
   
-  ![Different lon/lat coordinates](images/DocAdv/MapGrid4.jpg "Different lon/lat coordinates")
+    ![Different lon/lat coordinates](images/DocAdv/MapGrid4.jpg "Different lon/lat coordinates")
   
 
 ## Full-screen display
@@ -198,6 +198,7 @@ Map windows (and other windows as well) can be displayed in full-screen mode. A 
 Pressing `F11` again switches the window back to the standard mode.
 
 _Remarks:_
+
 * If the QMS toolbar is active, then it is also shown in the full-screen window.
 * Pressing `CTRL-D` in the full-screen mode activates the docked windows. Pressing this key again closes the docked windows in the full-screen mode.
 

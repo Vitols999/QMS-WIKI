@@ -266,8 +266,8 @@ Users reported about the following ways to improve the visibility of small roads
 
 * Choose the menu item `View - Setup Map View - Projections&Datum`
 * Append to the given configuration string one of the following strings:
-  * `+lat_ts=60` This sets the *latitude of true scale* for a Mercator projection. The closer you get to the polar regions the more the map will be skewed horizontally in comparison to the vertical scale. At the *latitude of true scale* (usually 0 for the equator) the scales are equal.
-  * `+k_0=0.3` (**Source:** [gmane.comp.gis.qlandkartegt](http://article.gmane.org/gmane.comp.gis.qlandkartegt.user/2688))  This is an additional scale factor on the normal scale. A value of 1.0 will have no effect. Try to increase or decrease the given value to get the wanted result
+    * `+lat_ts=60` This sets the *latitude of true scale* for a Mercator projection. The closer you get to the polar regions the more the map will be skewed horizontally in comparison to the vertical scale. At the *latitude of true scale* (usually 0 for the equator) the scales are equal.
+    * `+k_0=0.3` (**Source:** [gmane.comp.gis.qlandkartegt](http://article.gmane.org/gmane.comp.gis.qlandkartegt.user/2688))  This is an additional scale factor on the normal scale. A value of 1.0 will have no effect. Try to increase or decrease the given value to get the wanted result
 
 ## Does QMS support the use of single Garmin-style map tiles?
 
@@ -356,9 +356,9 @@ installation directory. Thus, a change of the `GDAL` related environment variabl
 
 * Calibrated Russian military and other raster maps can be downloaded from various locations.
 Some servers are
-  * [loadmap.net](http://loadmap.net)
-  * [https://gpska.yapl.ru](https://gpska.yapl.ru)
-  * [http://satmaps.info/us/map-detector.php](https://satmaps.info/us/map-detector.php)
+    * [loadmap.net](http://loadmap.net)
+    * [https://gpska.yapl.ru](https://gpska.yapl.ru)
+    * [http://satmaps.info/us/map-detector.php](https://satmaps.info/us/map-detector.php)
 
   When downloading a map tile 2 files are created:
 a GIF file (or other image file) with the raster map and an `OZIExplorer` MAP file with geodetic calibration data.
@@ -377,7 +377,7 @@ georeference data can't be found within the MAP files.
     these files are located to your QMapShack map paths.
     * Run
 
-    `gdalwarp -of VRT full_path_to_your_raster_map.map full_path_to_your_raster_map.vrt`
+        `gdalwarp -of VRT full_path_to_your_raster_map.map full_path_to_your_raster_map.vrt`
 
     * _Remarks:_
 
@@ -397,27 +397,21 @@ Consider the following hints:
   is just an XML wrapper around your
   real raster map file. It stores a path to that file. If the path changes,
   the VRT file has to be created again.
-* If the map is loaded correctly, QMS may suppress drawing the map because it
-  would take too long. In this case the map boundary is still visible as a black frame as shown on the left of
-  the following images.
+* If the map is loaded correctly, QMS may suppress drawing the map because it would take too long. In this case the map boundary is still visible as a black frame as shown on the left of the following images.
 
-  To force drawing of the map zoom in into the map.
+    To force drawing of the map zoom in into the map.
 
-  Raster map not displayed | Raster map displayed
-  --------|---------
-  ![Raster map boundary](images/DocFaq/RasterMap1.jpg "Raster map boundary") | ![Raster map](images/DocFaq/RasterMap2.jpg "Raster map")
+    Raster map not displayed | Raster map displayed
+    --------|---------
+    ![Raster map boundary](images/DocFaq/RasterMap1.jpg "Raster map boundary") | ![Raster map](images/DocFaq/RasterMap2.jpg "Raster map")
 
-  If overview maps are supported (compare section [Basic knowledge about maps and DEM files](DocBasicsMapDem))
-  then the raster map is displayed with lower
-  level of detail when zooming out.
+    If overview maps are supported (compare section [Basic knowledge about maps and DEM files](DocBasicsMapDem)) then the raster map is displayed with lower level of detail when zooming out.
 
-  ![Overview raster map](images/DocFaq/RasterMap4.jpg "Overview raster map")
+    ![Overview raster map](images/DocFaq/RasterMap4.jpg "Overview raster map")
 
-  Data of raster maps may be outdated. To assess the data quality use the possibility to overlay the raster map
-  with a map providing recent data (e.g. on-line Google map) in QMS. The following example reveals that the
-  German motorway A4 was reconstructed and avoids now some mountain area.
+    Data of raster maps may be outdated. To assess the data quality use the possibility to overlay the raster map with a map providing recent data (e.g. on-line Google map) in QMS. The following example reveals that the German motorway A4 was reconstructed and avoids now some mountain area.
 
-  ![Raster map with overlay](images/DocFaq/RasterMap3.jpg "Raster map with overlay")
+    ![Raster map with overlay](images/DocFaq/RasterMap3.jpg "Raster map with overlay")
 
 * If you have a layer of raster maps reading the files and scaling the content to an upper zoom level is
   getting more and more resource intensive the more you zoom out. To avoid endless map loading, QMS will

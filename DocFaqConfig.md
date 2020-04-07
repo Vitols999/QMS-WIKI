@@ -43,12 +43,15 @@ The language used in the QMapShack user interface (GUI) is defined using the fol
 * If the language of the operating system is a language supported by QMS, then this language is used as the default GUI language.
 * Languages available in QMS are:
     * English 
+    * Catalan (ca)    
+    * Czech  (cs)    
+    * Dutch (nl)    
+    * French (fr)    
     * German (de)
-    * French (fr)
-    * Czech  (cs)
+    * Italian (it) 
     * Russian (ru)
     * Spanish (es)
-    * Dutch (nl)
+ 
 * If the language of the operating system is not supported by QMS, then English is used as the QMS GUI language.
 * The user can change the GUI language with the help of these steps:
     * Find the abbreviation of the operating system language (the so-called locale, e.g. `hu` for Hungarian).
@@ -58,17 +61,16 @@ The language used in the QMapShack user interface (GUI) is defined using the fol
     * Copy the file `qmapshack_de.qm` to `qmapshack_hu.qm`.
     * After the next start of QMS the GUI language will be the selected language (German in the example).
     * _Remarks:_ 
-       * The (default) English language file is `qmapshack.qm`, not `qmapshack_en.qm`! 
-       * Both the locale (en, de, fr, ...) and the language file used with its full path can be 
-         found in the [QMS logfile (debug output)](DocCmdOptions "Use of QMS logfile"). Check for lines of the form
+        * The (default) English language file is `qmapshack.qm`, not `qmapshack_en.qm`! 
+        * Both the locale (en, de, fr, ...) and the language file used with its full path can be  found in the [QMS logfile (debug output)](DocCmdOptions "Use of QMS logfile"). Check for lines of the form
     
-             2017-01-31 13:24:30.594 [debug] locale "de"    
-             2017-01-31 13:24:30.594 [debug] "using file 'c:...\\translations/qmapshack_de.qm' for translations."
+                 2017-01-31 13:24:30.594 [debug] locale "de"    
+                 2017-01-31 13:24:30.594 [debug] "using file 'c:...\\translations/qmapshack_de.qm' for translations."
      
-         If the language of the operating system is not supported by QMS than these lines have the form
+            If the language of the operating system is not supported by QMS than these lines have the form
      
-             2017-01-31 13:26:00.785 [debug] locale "de"
-             2017-01-31 13:26:00.785 [warning] "no file found for translations 'c:...\\translations/qmapshack_de' (using default)."
+                 2017-01-31 13:26:00.785 [debug] locale "de"
+                 2017-01-31 13:26:00.785 [warning] "no file found for translations 'c:...\\translations/qmapshack_de' (using default)."
 
 
 - - -

@@ -75,7 +75,7 @@ If you expand a map or DEM item you can see the  property setup of this item for
 
 1. The slider on the top controls the opacity.
 
-2. With the bar and the two buttons you can control the range of scale the map is visible. The blue square on the bar indicates the actual scale. Zoom to the minimum scale you want to see the map and press the left button. Now zoom to the maximum scale to display the map and press the right button. The green bar will indicate the range of visibility now.
+1. With the bar and the two buttons you can control the range of scale the map is visible. The blue square on the bar indicates the actual scale. Zoom to the minimum scale you want to see the map and press the left button. Now zoom to the maximum scale to display the map and press the right button. The green bar will indicate the range of visibility now.
 
 ### Vector Maps
 
@@ -90,9 +90,9 @@ Use the check boxes to control what major map elements are displayed. For exampl
 ![Alt text](images/DocControlMapDem/maproom8.png)
 
 1. The path to the tile cache. Each map has it's own path. The default is  _"<home_dir>/.QMapShack/<map_file_name>"_
-2. The maximum tile cache size.
-3. The maximum age of the tiles in the cache
-4. If the map has more than one layer you can enable/disable the layers
+1. The maximum tile cache size.
+1. The maximum age of the tiles in the cache
+1. If the map has more than one layer you can enable/disable the layers
 
 ### DEM Files
 

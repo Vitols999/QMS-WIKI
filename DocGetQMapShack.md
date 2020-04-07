@@ -84,8 +84,8 @@ To compile QMapShack, you need to have installed:
 Prefer installing those dependencies via the distribution's package system.
 You also need to **install the development packages** in order to build QMapShack
 
-[Click here](Ubuntu-14.04-HowTo) for a
 Additional instructions about how to install can be found
+
 * [here](Ubuntu-14.04-HowTo) for Ubuntu-14-04,
 * [here](Ubuntu-18-HowTo) for Ubuntu-18,
 * [here](BuildLinuxMint19) for Linux Mint 19.

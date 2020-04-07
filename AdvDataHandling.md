@@ -205,6 +205,7 @@ Each property has a specific set of GIS object types for which it can be used. T
     The query `positive attributes contains attr` means: find all geocaches that have an attribute `attr`, where `attr` is a positive value (e.g. `dogs`). `non-negated` is a synonym for `positive`.
     
     The query `negated attributes contains attr` means: find all geocaches that have an attribute which is the negation of the positive attribute `attr` (e.g. if `attr`= `dogs`, then find geocaches having the attribute `no dogs`).
+    
 * A list of all supported attributes can be found on the [geocaching.com server](https://www.geocaching.com/about/icons.aspx) (attributes together with their symbols, switch language if necessary!) and [here](https://forums.geocaching.com/GC/index.php?/topic/282652-groundspeak-gpx) (attributes together with their codes). 
 * If an extended search string is syntactically wrong, then a red background indicates this fact. Additionally, a tooltip pops-up to inform about this fact. In this case the input string is used for a name-only or complete-text search depending on the setup options. *Attention:* The background is red, too, if the search string is still incomplete!
 * Dates and times must have the structure described in the search help window. The parts that appear in this description have the following meaning (compare ["Custom date and time strings"](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings)):
@@ -229,6 +230,7 @@ Each property has a specific set of GIS object types for which it can be used. T
     * 17.07.2019 13:08
     * Wednesday, 17 July 2019 13:09:11 P
     * 17 Jan 2019 13:09:11
+    
 * If using a search string of the form `date equals xx`, then the following rules apply:
     * If `xx` is without a time part, then `00:00` is added as the time part.
     * The timezone for `xx` is the local timezone of the operating system. **Attention:** Depending on the QMS setup timestamps in QMS could be displayed in a timezone different from the local timezone!

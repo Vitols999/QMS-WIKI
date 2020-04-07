@@ -50,32 +50,32 @@ Here is a screenshot with all features enabled:
 
 The numbers mark the different features that can be selected.
 
- 1. This is the highlighted track itself. It has a solid red border to mark it as highlighted. This is useful  for every days work but you might prefer a borderless track when you create screenshots to document your track. You can toggle the red border with the main menu entry `View - Track Info - Track Highlight` or with the main toolbar icon ![Track highlight](images/DocAdv/TrackHighlight.png "Track highlight").
+1. This is the highlighted track itself. It has a solid red border to mark it as highlighted. This is useful  for every days work but you might prefer a borderless track when you create screenshots to document your track. You can toggle the red border with the main menu entry `View - Track Info - Track Highlight` or with the main toolbar icon ![Track highlight](images/DocAdv/TrackHighlight.png "Track highlight").
 
- 2. For a highlighted track the track profile can be shown. You can toggle visibility of the track profile with the `View - Track Info - Track Profile` main menu entry or with the main toolbar icon ![Track profile](images/DocAdv/Profile.png "Track profile"). The profile has two modes: the on-screen mode as shown in the screenshot and the window mode. You can switch between these modes with `CTRL-E`, with the menu entry `View - Track Info - Track Profile as Window` or with the main toolbar icon ![Track profile as window](images/DocAdv/ProfileToWindow.png "Track profile as window").
+1. For a highlighted track the track profile can be shown. You can toggle visibility of the track profile with the `View - Track Info - Track Profile` main menu entry or with the main toolbar icon ![Track profile](images/DocAdv/Profile.png "Track profile"). The profile has two modes: the on-screen mode as shown in the screenshot and the window mode. You can switch between these modes with `CTRL-E`, with the menu entry `View - Track Info - Track Profile as Window` or with the main toolbar icon ![Track profile as window](images/DocAdv/ProfileToWindow.png "Track profile as window").
  
-    If you click on the on-screen profile you will jump directly into the edit/details dialog of the track. 
+      If you click on the on-screen profile you will jump directly into the edit/details dialog of the track. 
     
-    If you need to see more details in the profile graph you switch to the window version (_CTRL-E_) and adjust the window size to your liking. 
+      If you need to see more details in the profile graph you switch to the window version (_CTRL-E_) and adjust the window size to your liking. 
 
- 3. These are trackpoints with additional text information. They are marked with auto-numbered black bullets. You can create such points by two methods:
+1. These are trackpoints with additional text information. They are marked with auto-numbered black bullets. You can create such points by two methods:
 
-    * Click on the track and the track options menu will open at the clicked point. Select the toolbar button ![Track point info](images/DocAdv/PointInfo.png "Track point info") to open a dialog where you can enter a short text. 
-    * Right-click on a profile plot (either the on-screen one, the one in a separate window or the one in the track edit/details dialog and select the `Add Track Point Info` menu entry to open a dialog where you can enter a short text.
+     * Click on the track and the track options menu will open at the clicked point. Select the toolbar button ![Track point info](images/DocAdv/PointInfo.png "Track point info") to open a dialog where you can enter a short text. 
+     * Right-click on a profile plot (either the on-screen one, the one in a separate window or the one in the track edit/details dialog and select the `Add Track Point Info` menu entry to open a dialog where you can enter a short text.
 
-    You can toggle visibility of the bullets with the `View - Track Info - Track Point Info` main menu entry or with the main toolbar icon ![Track point info](images/DocAdv/PointInfo.png "Track point info").
+     You can toggle visibility of the bullets with the `View - Track Info - Track Point Info` main menu entry or with the main toolbar icon ![Track point info](images/DocAdv/PointInfo.png "Track point info").
 
-    More details about trackpoint information can be found in section [Adding trackpoint information](#adding-trackpoint-information).
+     More details about trackpoint information can be found in section [Adding trackpoint information](#adding-trackpoint-information).
     
- 4. These are labels for the minimum and maximum values of track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Labels` main menu entry, via keyboard hotkey `CTRL-N`, or with the main toolbar icon ![Min max labels](images/DocAdv/Label.png "Min max labels").
+1. These are labels for the minimum and maximum values of track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Labels` main menu entry, via keyboard hotkey `CTRL-N`, or with the main toolbar icon ![Min max labels](images/DocAdv/Label.png "Min max labels").
 
- 5. This is a list of all trackpoints with additional text (some kind of legend). You can toggle visibility with the `View - Track Info - Track Point Info Table` main menu entry or with the main toolbar icon ![Min max labels](images/DocAdv/PointInfoTable.png "Min max labels").
+1. This is a list of all trackpoints with additional text (some kind of legend). You can toggle visibility with the `View - Track Info - Track Point Info Table` main menu entry or with the main toolbar icon ![Min max labels](images/DocAdv/PointInfoTable.png "Min max labels").
 
- 6. The track summary. You will get the same as tool tip for the track in the workspace list or in the edit/details dialog. You can toggle visibility with the `View - Track Info - Track Summary` main menu entry or with the main toolbar icon ![Min max labels](images/DocAdv/Summary.png "Min max labels").
+1. The track summary. You will get the same as tool tip for the track in the workspace list or in the edit/details dialog. You can toggle visibility with the `View - Track Info - Track Summary` main menu entry or with the main toolbar icon ![Min max labels](images/DocAdv/Summary.png "Min max labels").
 
- 7. The summary of the minimum and maximum values of the track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Summary` main menu entry or with the main toolbar icon ![Min max labels](images/DocAdv/LabelInfo.png "Min max labels").
+1. The summary of the minimum and maximum values of the track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Summary` main menu entry or with the main toolbar icon ![Min max labels](images/DocAdv/LabelInfo.png "Min max labels").
 
- 8. The color bar for track coloring. The color bar has to be enabled in the track's edit/details dialog. Use the track options toolbar icon ![Track details](images/DocAdv/EditDetails.png "Track details") to open this dialog. Select the `Style` tab in the edit window and select one of the track properties as source, e.g. elevation or slope. 
+1. The color bar for track coloring. The color bar has to be enabled in the track's edit/details dialog. Use the track options toolbar icon ![Track details](images/DocAdv/EditDetails.png "Track details") to open this dialog. Select the `Style` tab in the edit window and select one of the track properties as source, e.g. elevation or slope. 
 
 Compare section [Select display of track information in main menu](#select-display-of-track-information-in-main-menu) for a list of all menu entries described in this section.
 

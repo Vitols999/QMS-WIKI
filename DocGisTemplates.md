@@ -79,20 +79,20 @@ On the left you will see the "Widget Box". The elements that interest you most a
 ![Designer Widget Box2](images/DocGisTemplates/DesignerWidgetBox2.png "Designer Widget Box2") 
 ![Designer Widget Box3](images/DocGisTemplates/DesignerWidgetBox3.png "Designer Widget Box3")
 
-- The layouts:
+* The layouts:
   Layouts are used to dynamically align widgets on a size change. The grid layout will be the most important for our templates.
   
-- The spacers:
+* The spacers:
   They look like springs. They are like springs. Spacers will use as much unused space as possible and move all other items nicely together.
   
-- The buttons:
+* The buttons:
   You can use 2 different kinds: The radio button and the check box. All other buttons are of no use for our templates. 
   Radio buttons are mutual exclusive in a group. In other words: Only one can be checked at a time.
   
-- The group box:
+* The group box:
   It's ok to use the other containers, too. But the group box is very important as only widgets in a group box will be used to create the text.
   
-- Input widgets:
+* Input widgets:
   The only input widgets you can use are the combo box, the line edit and the text edit. All other widgets are useless for your template.
 
 ### Basic Concept

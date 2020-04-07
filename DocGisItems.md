@@ -37,8 +37,8 @@ Sometimes several items have the same coordinate or are very close by. That make
 All GIS items are grouped by projects. Currently a project equals to a GPX file. Within a project the items are grouped by their type:
 
 1. Tracks
-2. Routes
-3. Waypoints
+1. Routes
+1. Waypoints
 
 This order can't be changed. However you can change the order of items within a group. Items are drawn top most item first, bottom item last. Use drag-n-drop to change that order. For example you want to move a track. Left click on the item keeping the mouse button pressed and move the item. An indicator line will show you where the item will be inserted:
 

@@ -28,20 +28,20 @@ If the mouse pointer is moved on a POI in a vector map, a small blue circle arou
 * _Find the direct distance from a waypoint to some other point:_ set a waypoint and move it to the other point.
   This will give you the distance and the course (direction) to the other point. When done abort the operation (right mouse click) and remove the waypoint.
 
-![Distance between waypoints](images/DocFaq/WPTDistance.jpg "Distance between waypoints")
+    ![Distance between waypoints](images/DocFaq/WPTDistance.jpg "Distance between waypoints")
 
 * _Find a defined distance from several waypoints:_ add the distance as proximity to the waypoints.
 
-![Set waypoint proximity](images/DocFaq/WPTProximity.jpg "Set waypoint proximity")
+    ![Set waypoint proximity](images/DocFaq/WPTProximity.jpg "Set waypoint proximity")
 
-![Waypoint distances](images/DocFaq/WPTDistances.jpg "Waypoint distances")
+    ![Waypoint distances](images/DocFaq/WPTDistances.jpg "Waypoint distances")
 
 
 * _Find the street distance or the direct distance between several points:_ start to create a track with or without routing.
 
-![Direct track distance](images/DocFaq/Directtrack.jpg "Direct track distance")
+    ![Direct track distance](images/DocFaq/Directtrack.jpg "Direct track distance")
 
-![Routed track distance](images/DocFaq/Routedtrack.jpg "Routed track distance")
+    ![Routed track distance](images/DocFaq/Routedtrack.jpg "Routed track distance")
 
 ## Which track data is saved in GPX files?
 
@@ -166,10 +166,10 @@ QMS offers the following track editing methods:
 
     By that the selected trackpoints are hidden and do not add to the statistics. If you want to remove them permanently:
   
-      * goto the track edit window of the track,
-      * click the `Filter` tab,
-      * open the `Reduce visible points` filter group,
-      * run the `Remove trackpoints` filter.
+    * goto the track edit window of the track,
+    * click the `Filter` tab,
+    * open the `Reduce visible points` filter group,
+    * run the `Remove trackpoints` filter.
 
     This procedure removes the selected range of trackpoints from the track without losing information from other trackpoints.
 
