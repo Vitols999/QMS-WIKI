@@ -43,7 +43,7 @@ Yeah, I know. It's confusing.
 * Add the ticket number `[QMS-XX]` to each of your commits at the start
   of the short headline. And a meaningful description of what the commit 
   does, e.g:
-  ```
+  
         [QMS-8] Incorrect elevation for fit files from GPSMAP 66s
     
         Couldn't really determine the root cause. However the fields
@@ -51,14 +51,12 @@ Yeah, I know. It's confusing.
         seemed to be decoded twice in each trackpoint record. Can't tell if
         this is a bug in QMS or the device. Anyway, if the code ignores the
         second set everything seems to be fine.
-  ```
 
 * It's ok to have several commits if they form logical groups that 
   are kind of independent from each other. If not squash your commits.
 
-  What is meant by `logical group`? Ask yourself if the commit could 
-  be cherry picked from another branch without breaking anything. If 
-  it could, it's worth a single commit.
+    What is meant by `logical group`? Ask yourself if the commit could  be cherry picked from another branch without breaking anything. If  it could, it's worth a single commit.
+    
 * Open a pull request. Add the ticket number and the ticket headline
   as pull request headline. e.g: `[QMS-8] Incorrect elevation for fit files from GPSMAP 66s`
 * Use the template questionnaire to describe your pull request and to 
@@ -69,6 +67,7 @@ Yeah, I know. It's confusing.
 ## Commit Code
 
 **Fundamental rules:**
+
 * **You need a GitHub account**
 * **Please do not send patches! Use a pull request**
 * **Each pull request needs a ticket**
@@ -106,19 +105,17 @@ Right now, you have a fork of the QMapShack repository, but you don't have the f
 
     Type `git clone`, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of `YOUR-USERNAME`:
 
-    ```sh
-    $ git clone https://github.com/YOUR-USERNAME/qmapshack.git
-    ```
+        $ git clone https://github.com/YOUR-USERNAME/qmapshack.git
 
-    Press Enter. Your local clone will be created.
-    ```sh
-    $ git clone https://github.com/YOUR-USERNAME/qmapshack.git
-    > Cloning into `qmapshack`...
-    > remote: Counting objects: 10, done.
-    > remote: Compressing objects: 100% (8/8), done.
-    > remove: Total 10 (delta 1), reused 10 (delta 1)
-    > Unpacking objects: 100% (10/10), done.
-    ```
+
+    Press Enter. Your local clone will be created:
+    
+        $ git clone https://github.com/YOUR-USERNAME/qmapshack.git
+        > Cloning into `qmapshack`...
+        > remote: Counting objects: 10, done.
+        > remote: Compressing objects: 100% (8/8), done.
+        > remove: Total 10 (delta 1), reused 10 (delta 1)
+        > Unpacking objects: 100% (10/10), done.
 
 Now, you have a local copy of your fork of the QMapShack repository!
 

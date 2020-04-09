@@ -144,12 +144,12 @@ Note: QMS should compile with Qt5.4 as well but Qt5.4 has a nasty bug in list sc
 - Enter the path where you want to build the quazip-library (should be a new directory)
 - Select "Visual Studio 12 2013 Win64" and "Use default native compilers"
 - add these two entries before running configure:
-~~~~
-CMAKE_PREFIX_PATH C:/Qt5/5.5/msvc2013_64    <-- this path has to match the actuall Qt-installation
-ZLIB_INCLUDE_DIRS C:/Qt5/5.5/msvc2013_64/include/QtZlib
-~~~~
+
+        CMAKE_PREFIX_PATH C:/Qt5/5.5/msvc2013_64    <-- this path has to match the actuall Qt-installation
+        ZLIB_INCLUDE_DIRS C:/Qt5/5.5/msvc2013_64/include/QtZlib
+
 - click 'configure'
-  - verify no 'NOTFOUND' entries remain
+    - verify no 'NOTFOUND' entries remain
 - click 'generate'
 - click 'open project' --> this opens the configured project in Visual studio
 
@@ -158,18 +158,18 @@ ZLIB_INCLUDE_DIRS C:/Qt5/5.5/msvc2013_64/include/QtZlib
 - the last step created subdirectories 'Release' resp. 'RelWithDebInfo' in the quazip-build-directory. Within this directory the new build quazip5.dll and lib are to be found.
 - quazip-headerfiles are to be found in quazip-source-directory, subdirectory 'quazip'
 - create a new directory to collect quazip binaries and includes, e.g.
-~~~~
-  M:\lib\QUAZIP
-~~~~
+
+        M:\lib\QUAZIP
+
 - In that directory, create a sub-directory 'include' and there copy the quazip header files 
 - In that directory, create a sub-directory 'lib' and there copy the quazip5.dll and lib files 
 
 ### C6.) Compile the jpeg library http://www.ijg.org/
 Note: libjpeg is needed for qmt_map2jnx. Other parts of QMapshack may use the jpeg libraries included in Qt or GDAL.
+
 - Get the latest version of the source code as .zip file from http://www.ijg.org/
-~~~~
-  http://www.ijg.org/files/jpegsr9c.zip
-~~~~
+
+        http://www.ijg.org/files/jpegsr9c.zip
 
 - Unzip the source. You will get the directory jpeg-9c
 - Read file install.txt concerning the build instructions for "Microsoft Windows, Visual Studio 2017 (v15):"
@@ -180,20 +180,20 @@ Note: libjpeg is needed for qmt_map2jnx. Other parts of QMapshack may use the jp
   select Start | All Programs | Microsoft Visual Studio 2013 | Visual Studio Tools | VS 2013 x64 Native Tools Command Prompt.
 - in the command prompt:
   change directory to the extracted jpeg source code root folder:
-~~~~
-  NMAKE /f makefile.vs  setup-v15
-~~~~
+
+        NMAKE /f makefile.vs  setup-v15
+
 - Open the solution file jpeg.sln
 - Open the configuration manager (click on the list box filled with "Win32"
 - create a new project platform x64 by clining from Win32
 - now build the project for x64 - Release
 - create a directory structure for the header files and the resulting library, e.g.
-~
-  M:\lib\JPEG\include
-  M:\lib\JPEG\lib
-~
-  - copy the files jconfig.h, jmorecfg.h, jpeglib.h to the include directory
-  - copy the file jpeg.lib to the lib directory
+
+        M:\lib\JPEG\include
+        M:\lib\JPEG\lib
+
+- copy the files jconfig.h, jmorecfg.h, jpeglib.h to the include directory
+- copy the file jpeg.lib to the lib directory
 
 ### C7.) Get the QMapShack source from the repository, e.g.
 
@@ -206,7 +206,6 @@ Note: you might have to install
 [TortoiseGit](https://tortoisegit.org/)
 or any other [git client](https://git-scm.com/downloads).
  
-
 ### C8.) Start the CMake GUI (you did install CMake before, didn't you)
 - Enter the path to the source directory (which has been created by cloning the hg repository in the previous step)
 - Enter the path where you want to build the binaries (should be a new directory)
@@ -293,9 +292,7 @@ The reason for this problem is currently unknown. Any help is welcome.
   (see http://stackoverflow.com/questions/2119539/visual-studio-how-to-set-path-to-dll)
   The path depends on where you have installed/compiled Qt5, gdal, proj.4, routino
   In my case this is
-~~~~
-  PATH=%PATH%;M:\lib\gdal\bin;M:\lib\PROJ\bin;M:\src\routino_pkg\lib;C:\Qt5\5.5\msvc2013_64\bin
-~~~~
+    PATH=%PATH%;M:\lib\gdal\bin;M:\lib\PROJ\bin;M:\src\routino_pkg\lib;C:\Qt5\5.5\msvc2013_64\bin
 
 ### D3.) Compile
 - Right-Click on the ALL_BUILD project and select build to start the compilation

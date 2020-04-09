@@ -11,7 +11,7 @@
     * [Further recommendations for editing Wiki pages](#further-recommendations-for-editing-wiki-pages)
     * [Rules for new pages](#rules-for-new-pages)
     * [Offline editing workflow](#offline-editing-workflow)
-
+    
 * * * * * * * * * *
 
 
@@ -88,12 +88,12 @@ GitHub, you should have sufficient knowledge of the installation and use of
     file you're looking at using a browser.  For instance, a Markdown
     file containing the line
 
-            For more information see here: http://x.y.z.com
-
+         For more information see here: http://x.y.z.com
+          
     will result in an HTML file where you cannot even click the URL in
     your browser!  Instead, this line should be written as
 
-            For more information see [here](http://x.y.z.com).
+         For more information see [here](http://x.y.z.com).
 
     in Markdown.  In this case the word `here` will be clickable in
     your browser, taking you to `http://x.y.z.com`.
@@ -167,7 +167,8 @@ GitHub, you should have sufficient knowledge of the installation and use of
           
 ## General recommendations for editing QMS Wiki pages
 
-*   If you are editing an **already existing** `*.md` file:
+* If you are editing an **already existing** `*.md` file:
+
     * Leave the navigation bars at the top and bottom of it unchanged.  The top navigation bar looks like
 
             [Prev](... | [Home](... | [Manual](... | ...
@@ -177,8 +178,8 @@ GitHub, you should have sufficient knowledge of the installation and use of
 
             - - -
             [Prev](... | [Home](... | [Manual](... | ...
-
-    *   Do not use the Markdown directive `- - -` to insert a horizontal rule, that is, a horizontal line running from the left edge of the browser window to the right edge.  This special way of coding a horizontal rule is regarded as part of the navigation bars and will be removed anywhere else in the file when the navigation bars are automatically inserted or updated.  Rather, use the Markdown variants `---` or `***`, if you need a horizontal rule somewhere in your Markdown file.
+            
+    * Do not use the Markdown directive `\- \- \-` (Some backslashes added to avoid misinterpretation!) to insert a horizontal rule, that is, a horizontal line running from the left edge of the browser window to the right edge.  This special way of coding a horizontal rule is regarded as part of the navigation bars and will be removed anywhere else in the file when the navigation bars are automatically inserted or updated.  Rather, use the Markdown variants `---` or `***`, if you need a horizontal rule somewhere in your Markdown file.
     
     *   Leave the header and footer line of the table of contents (TOC) at the top of the page unchanged. These lines look like
     
@@ -189,17 +190,11 @@ GitHub, you should have sufficient knowledge of the installation and use of
              \* \* \* * * * * * * *  
 
         (Some backslashes added to avoid misinterpretation!)           
-
+  
     * If necessary, update the links in the table of contents after changes in the page headers.
-    
-*   Be conservative: try to maintain the general look of the original
-    file.
 
-*   You can edit an existing or create a new `*.md` file either
-    online or
-    [offline][EditOffline], the latter being the
-    preferred method. **Online editing is discouraged and should only
-    be used for minor changes like correcting a typo!**
+* Be conservative: try to maintain the general look of the original file.
+* You can edit an existing or create a new `*.md` file either online or [offline][EditOffline], the latter being the preferred method. **Online editing is discouraged and should only be used for minor changes like correcting a typo!**
 
     One reason for discouraging online editing is that it causes the
     GitHub server to use a stereotype `Edited online` commit
@@ -237,6 +232,8 @@ GitHub, you should have sufficient knowledge of the installation and use of
 * Use a header text only once on a page (i.e. headers on a page must be unique).
 * Don't use extra formatting in headers (images, emphasis, links, ...).
 * Don't use footnotes (not supported in GitHub Wiki).
+* Unordered lists should be labeled with `*` or `-` and not with another character.
+* Lists on the top level must have their label in the leftmost column (no indentation of the label).
 * Add a title to each link, i.e. in a link of the form (backslashes are added to avoid misinterpretation as link!)
 
          !\[text1\]\(some_url "text2")

@@ -308,7 +308,7 @@ sources:
     # resolutions we allowed for it.
 
 layers:
-  - name: base
+    name: base
     title: base
     sources: [output_cache]
 

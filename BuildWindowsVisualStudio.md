@@ -82,8 +82,8 @@ The free-of-charge Visual Studio 2017 Community-Edition is sufficient.
 
 Install at least the "workload" packages for
 
-  - Desktop Development with C++
-  - Universal Windows Platform including?! the latest Windows 10 SDK (e.g. 10.0.16299.0)
+- Desktop Development with C++
+- Universal Windows Platform including?! the latest Windows 10 SDK (e.g. 10.0.16299.0)
 
 
 
@@ -161,7 +161,6 @@ CMAKE configuration:
     - SQLITE3_INCLUDE_DIR must be the path to the sqlite files folder
     - SQLITE3_LIBRARY must be the full file path to sqlite3.lib
 
-
 - Configure
 - Generate
 - Open Project
@@ -198,12 +197,12 @@ Notes:
 - Enter the path where you want to build the quazip-library (should be a new directory)
 - Select "Visual Studio 15 2017 Win64" and "Use default native compilers"
 - add these two entries before running configure:
-~~~~
-CMAKE_PREFIX_PATH C:/Qt5/5.12.1/msvc2017_64    <-- this path has to match the actual Qt-installation
-ZLIB_INCLUDE_DIRS C:/Qt5/5.12.1/msvc2017_64/include/QtZlib 
-~~~~
+
+         CMAKE_PREFIX_PATH C:/Qt5/5.12.1/msvc2017_64    <-- this path has to match the actual Qt-installation
+         ZLIB_INCLUDE_DIRS C:/Qt5/5.12.1/msvc2017_64/include/QtZlib 
+
 - click 'configure'
-  - verify no 'NOTFOUND' entries remain
+     - verify no 'NOTFOUND' entries remain
 - click 'generate'
 - click 'open project' --> this opens the configured project in Visual studio
 
@@ -220,10 +219,10 @@ ZLIB_INCLUDE_DIRS C:/Qt5/5.12.1/msvc2017_64/include/QtZlib
 
 ### C6.) Compile the jpeg library http://www.ijg.org/
 Note: libjpeg is needed for qmt_map2jnx. Other parts of QMapshack may use the jpeg libraries included in Qt or GDAL.
+
 - Get the latest version of the source code as .zip file from http://www.ijg.org/
-~~~~
-  http://www.ijg.org/files/jpegsr9c.zip
-~~~~
+
+        http://www.ijg.org/files/jpegsr9c.zip
 
 - Unzip the source. You will get the directory jpeg-9c
 - Read file install.txt concerning the build instructions for "Microsoft Windows, Visual Studio 2017 (v15):"
@@ -234,25 +233,27 @@ Note: libjpeg is needed for qmt_map2jnx. Other parts of QMapshack may use the jp
   select Start | All Programs | Visual Studio 2017 | VS 2017 x64 Native Tools Command Prompt.
 - in the command prompt:
   change directory to the extracted jpeg source code root folder:
-~~~~
-  NMAKE /f makefile.vs  setup-v15
-~~~~
+
+        NMAKE /f makefile.vs  setup-v15
+
 - Open the solution file jpeg.sln
 - Open the configuration manager (click on the list box filled with "Win32"
 - create a new project platform x64 by cloning from Win32
 - now build the project for x64 - Release
 - create a directory structure for the header files and the resulting library, e.g.
-~
-  M:\lib2017\JPEG\include
-  M:\lib2017\JPEG\lib
-~
-  - copy the files jconfig.h, jmorecfg.h, jpeglib.h to the include directory
-  - copy the file jpeg.lib to the lib directory
+
+        M:\lib2017\JPEG\include
+        M:\lib2017\JPEG\lib
+
+- copy the files jconfig.h, jmorecfg.h, jpeglib.h to the include directory
+- copy the file jpeg.lib to the lib directory
 
 ### C7.) Get the QMapShack source from the repository, e.g.
+
 ~~~~
    git clone https://github.com/Maproom/qmapshack.git
 ~~~~
+
 Note: you might have to install 
 [git for Windows](https://git-scm.com/download/win), 
 [TortoiseGit](https://tortoisegit.org/)
@@ -274,7 +275,6 @@ If you want to develop for QMapshack, have a look at [DeveloperCommitCode](https
     - Notes: 
         - In case that you only get some warnings, you anyway can try to GENERATE.
         - There appears an `ALGLIB` branch in the CMake GUI configuration data (easily visible if `grouped` checkbox is selected). This branch may have red background and shows the 2 entries `ALGLIB_INCLUDE_DIR` and `ALGLIB_LIBRARY`. Don't insert values here. After configuration there pops-up the message `Could not find ALGLIB using internal code.` When using this configuration a project `alg` is added to the project list in VisualStudio. Building the `ALL_BUILD` project compiles the project `alg`, too. If proper values are assigned to the 2 `ALGLIB` configuration entries, then there is no such `alg` project in the VS project list and `alglib` should be compiled separately.
-
 
 - Generate
 

@@ -20,9 +20,12 @@
 
 * * * * * * * * * *
  
-_Attention: This page contains examples for formatting links. The anchors of these links don't exist. To avoid that these
+_Attention:_ 
+
+* _This page contains examples for formatting links. The anchors of these links don't exist. To avoid that these
 links cause problems with the scripts `LinkCheck.sh` and `HtmlMake.py` a point is added in the middle of some file names and 3 points are added
 at the end of a reference!_
+* _To avoid misinterpretation some example lines are prefixed with a backslash `\`. Don't use this backslash in the files discussed!_
 
 # Maintaining the QMS Wiki Index
 
@@ -78,19 +81,19 @@ This page is not part of the manual. It is not referenced from the manual main p
 
 Index entries in the raw index should be defined on a per-section basis as follows:
 
-    * [Test](Test.Page#label...)   <-------- link taken from section headers - don't change
+    \* [Test](Test.Page#label...)   <-------- link taken from section headers - don't change
     + Short Linktext           <-------- insert short but concise link text (optional)
     ++ Longer Linkcaption      <-------- insert longer link description, appears as caption text of the link (optional)
-        1. MainIndex|subindex  <-------- MainIndex must be sortable!
-        1. MainIndex2          <-------- subindex part missing (optional)
-        1. MainIndex3|         <-------- possible variant of previous line
-        1. MainIndex
+        \1. MainIndex|subindex  <-------- MainIndex must be sortable!
+        \1. MainIndex2          <-------- subindex part missing (optional)
+        \1. MainIndex3|         <-------- possible variant of previous line
+        \1. MainIndex
 
-    * [Test1](Test.Page1#label...)
+    \* [Test1](Test.Page1#label...)
     + Short Linktext1
     ++ longer Linkcaption1
-        1. MainIndex|subindex  <-------- MainIndex with uppercase first character, subindex lowercase as a rule
-        1. MainIndex1|subindex1
+        \1. MainIndex|subindex  <-------- MainIndex with uppercase first character, subindex lowercase as a rule
+        \1. MainIndex1|subindex1
 
 The lines with the "__*__" marker are subsection header lines from the manual pages. __Remark:__ Be careful to
 get the correct label part - it has a special form for subsections! You can find it by comparing the HTML
@@ -190,7 +193,7 @@ of the raw index.
 * The result is in a Diff-like form and shows the differences between the complete table of contents and the
   lines marked with a "__*__" in the raw index as follows:
 
-        - * [Test1](Test.Page1#label...)
+        \- * [Test1](Test.Page1#label...)
 
     Here the "**-**"" means that there is a line in the raw index that doesn't appear in the table of contents.
 
@@ -204,7 +207,7 @@ Use the script results to manually adjust/edit the raw index in order to remove 
     * Find this parent section in `AxData4Index.txt`.
     * Insert
 
-            * [Test1](Test.Page1#label...)
+            \* [Test1](Test.Page1#label...)
 
          into `AxData4Index.txt` after the parent header block.
 
@@ -233,8 +236,8 @@ These steps are required to remove inconsistencies of this type:
   to manually adjust/edit the raw index in order to remove the inconsistencies.
 * _Example of script output:_
 
-         + Track, select range in edit mode ---> [Select a range...](AdvTrk.General#select-a-range...)
-         - Track, select range in edit mode ---> [Select a range...](AdvTrk.General#select-a-range...)
+         \+ Track, select range in edit mode ---> [Select a range...](AdvTrk.General#select-a-range...)
+         \- Track, select range in edit mode ---> [Select a range...](AdvTrk.General#select-a-range...)
 
 
      These lines mean
