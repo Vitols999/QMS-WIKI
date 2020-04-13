@@ -307,14 +307,30 @@ Depending on your system's configuration you will need to change *MKGMAP* to all
 
 
 ```bash
-#! /bin/sh
+#! /bin/bash
+
+# set -vx
 
 # configuration
 
+# Bavaria
 FILESRC="http://ftp5.gwdg.de/pub/misc/openstreetmap/openmtbmap/odbl/germany/mtbbayern.exe"
-IMGFMT="OpenMTBMap_%Y-%m-%d.img"
-QMSMAPDIR="${HOME}/.qmapshack_maps/"
-TYPE="traddby.TYP"
+
+# Baden Württemberg
+# FILESRC="http://ftp5.gwdg.de/pub/misc/openstreetmap/openmtbmap/odbl/germany/mtbbaden-wuerttemberg.exe"
+
+# Germany
+# for whatever reason 7z does not finish extracting mtbgermany.exe, but there is a linux version for germany
+# FILESRC="http://ftp5.gwdg.de/pub/misc/openstreetmap/openmtbmap/odbl/mtbgermanylinux.7z"
+
+# Alps
+# FILESRC="http://ftp5.gwdg.de/pub/misc/openstreetmap/openmtbmap/odbl/mtbalps.exe"
+
+# Bremen (small, good for testing)
+# FILESRC="http://ftp5.gwdg.de/pub/misc/openstreetmap/openmtbmap/odbl/germany/mtbbremen.exe"
+
+TYPE="trad"
+QMSMAPDIR="${HOME}/.QMapShack/Karten/IMG"
 MKGMAP="mkgmap"
 
 # code starts here, no changes below here required
@@ -361,15 +377,23 @@ error_check $?
 
 echo -n " * Decompressing... "
 7z e -o"${TMP}_" ${TMP} >/dev/null
+
+# This is needed to extract the map code (e.g. by for Bavaria or bw for baden-wuerttemberg)
+TYPE_FILE=$(basename ${TMP}_/trad*.TYP)
+tmp=${TYPE_FILE#${TYPE}}
+REGION=${tmp%\.TYP}
+IMGFMT="%Y-%m-%d__${REGION}_OpenMTBMap.img"
+
 error_check $?
 
 FILETIME=`stat -c %Y ${TMP}`
+echo $FILETIME
 IMGFILE=`date -d@${FILETIME} +"${IMGFMT}"`
 
 echo -n " * Building ${IMGFILE}... "
 cd "${TMP}_"
-FID=`ls -x 7*.img | cut -c1-4`
-${MKGMAP} --show-profiles=1 --product-id=1 --family-id=${FID} --index --gmapsupp 6*.img 7*.img ${TYPE} >/dev/null
+FID=`ls -x 7*.img | head -1 | cut -c1-4`
+${MKGMAP} --show-profiles=1 --product-id=1 --family-id=${FID} --index --gmapsupp 6*.img 7*.img ${TYPE_FILE} >/dev/null
 error_check $?
 
 echo -n " * Moving gmapsupp.img to ${QMSMAPDIR}... "
