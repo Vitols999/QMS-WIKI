@@ -396,7 +396,6 @@ REGION=${tmp%\.TYP}
 IMGFMT="%Y-%m-%d__${REGION}_OpenMTBMap.img"
 
 FILETIME=`stat -c %Y ${TMP}`
-echo $FILETIME
 IMGFILE=`date -d@${FILETIME} +"${IMGFMT}"`
 
 echo -n " * Building ${IMGFILE}... "
