@@ -329,7 +329,17 @@ FILESRC="http://ftp5.gwdg.de/pub/misc/openstreetmap/openmtbmap/odbl/germany/mtbb
 # Bremen (small, good for testing)
 # FILESRC="http://ftp5.gwdg.de/pub/misc/openstreetmap/openmtbmap/odbl/germany/mtbbremen.exe"
 
+# Possible options for TYPE
+# clas
+# easy
+# hike
+# thin
+# trad -- desktop
+# wide
+# wint
+# see also https://openmtbmap.org/about-2/map-legend/
 TYPE="trad"
+
 QMSMAPDIR="${HOME}/.QMapShack/Karten/IMG"
 MKGMAP="mkgmap"
 
