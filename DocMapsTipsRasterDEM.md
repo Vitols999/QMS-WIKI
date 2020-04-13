@@ -377,14 +377,13 @@ error_check $?
 
 echo -n " * Decompressing... "
 7z e -o"${TMP}_" ${TMP} >/dev/null
+error_check $?
 
 # This is needed to extract the map code (e.g. by for Bavaria or bw for baden-wuerttemberg)
 TYPE_FILE=$(basename ${TMP}_/${TYPE}*.TYP)
 tmp=${TYPE_FILE#${TYPE}}
 REGION=${tmp%\.TYP}
 IMGFMT="%Y-%m-%d__${REGION}_OpenMTBMap.img"
-
-error_check $?
 
 FILETIME=`stat -c %Y ${TMP}`
 echo $FILETIME
