@@ -307,7 +307,7 @@ Depending on your system's configuration you will need to change *MKGMAP* to all
 
 
 ```bash
-#! /bin/bash
+#! /bin/sh
 
 # set -vx
 
