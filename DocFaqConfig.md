@@ -5,10 +5,12 @@
 
 * [Frequently Asked Questions - Configuring and running QMapShack](#frequently-asked-questions---configuring-and-running-qmapshack)
     * [Can I run several QMS instances at the same time?](#can-i-run-several-qms-instances-at-the-same-time)
+    * [Why does QMS ask for authorization on start-up (Ubuntu version)](#why-does-qms-ask-for-authorization-on-start-up-ubuntu-version)
     * [User-relevant QMapShack directories (Windows version)](#user-relevant-qmapshack-directories-windows-version)
     * [How to change the GUI language?](#how-to-change-the-gui-language)
 
 * * * * * * * * * *
+ 
  
 # Frequently Asked Questions - Configuring and running QMapShack
 
@@ -23,6 +25,12 @@ QMS workspace data behavior would be unpredictable.
 
 If an attempt is made to start a second QMS instance, then the file parameters of this call are transferred to the first QMS instance
 and the files are loaded there silently.
+
+## Why does QMS ask for authorization on start-up (Ubuntu version)
+
+When starting QMS with Ubuntu 18.04 it may happen that a user authorization is required.
+
+The reason for this is, that QMapShack probes all block devices for GPS devices by mounting them, analyzing their file structure and unmounting them again. This is also done for devices containing the system, as there is no known way to distinguish them from a GPS device. Usually, the unmount for system drives is expected to fail. Most likely, some Ubuntu window managers interfere and ask for authorization.  
 
 
 ## User-relevant QMapShack directories (Windows version)
