@@ -102,6 +102,7 @@ Users can find short quickstart help here:
     * [Maintaining TOC's on Wiki pages](AxMaintainPageTOC)
 * [Discussion of extended activity system](DocActivityPlanning)    
 * [Playground - start your new Wiki page](DocPlayground)
+* [How to piss off open source developers](DocPissOffDevelopers)
 
 ## Appendix
 
