@@ -68,7 +68,7 @@ Run:
 
 Run:
 
-`sudo apt-get install gdal-bin libgdal-dev python-gdal libgeo-proj4-perl libproj-dev`
+`sudo apt-get install gdal-bin libgdal-dev python3-gdal libgeo-proj4-perl libproj-dev`
 
 ## Install QuaZip
 
