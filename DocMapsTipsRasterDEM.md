@@ -214,33 +214,7 @@ _Remarks:_
 * The first time you use a basic WCS file GDAL will query the WCS server and then it will re-write your basic WCS file converting it into a longer one with more parameters. Advanced users can edit and tune this longer WCS file to choose some parameters when available (e.g. the DEM format: ASCII, Geotiff,... or the SRS).
 * A complete example WCS file can be downloaded [here](Downloads/ESP_IGN-MDT25.wcs).
 
-#### European DEM data 
 
-Online DEM data for Europe can be obtained with the help of the following VRT file (download from [here](Downloads/Europe_Online_DEM25.vrt)):
-
-~~~
-<VRTDataset rasterXSize="288000" rasterYSize="180000">
-  <SRS>GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]]</SRS>
-  <GeoTransform> -3.5000000000000000e+01,  2.7777777777777734e-04,  0.0000000000000000e+00,  7.5000000000000000e+01,  0.0000000000000000e+00, -2.7777777777777734e-04</GeoTransform>
-  <VRTRasterBand dataType="Float32" band="1">
-    <NoDataValue>nan</NoDataValue>
-    <ColorInterp>Gray</ColorInterp>
-    <ComplexSource>
-      <SourceFilename relativeToVRT="0">/vsicurl/http://published-files.eea.europa.eu/eudem/entr_r_4258_1_arcsec_gsgrda-eudem-dem-europe_2012_rev1/eudem_dem_4258_europe.tif</SourceFilename>
-      <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="288000" RasterYSize="180000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
-      <SrcRect xOff="0" yOff="0" xSize="288000" ySize="180000" />
-      <DstRect xOff="0" yOff="0" xSize="288000" ySize="180000" />
-      <NODATA>nan</NODATA>
-    </ComplexSource>
-  </VRTRasterBand>
-</VRTDataset> 
-~~~
-
-_Usage:_
-
-Place the downloaded `Europe_Online_DEM25.vrt` file in the QMS DEM path and activate it at the docked DEM window.
-Take in mind that this is a DSM ([Digital Surface Model](https://en.wikipedia.org/wiki/Digital_elevation_model)).
 
 ## Vector maps for Linux systems
 
