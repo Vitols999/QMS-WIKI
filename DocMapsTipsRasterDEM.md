@@ -17,7 +17,6 @@
             * [Raster contour line layer](#raster-contour-line-layer)
         * [Online DEM data](#online-dem-data)
             * [DEM data from WCS (Web Coverage Service) servers](#dem-data-from-wcs-web-coverage-service-servers)
-            * [European DEM data ](#european-dem-data)
     * [Vector maps for Linux systems](#vector-maps-for-linux-systems)
         * [Script](#script)
         * [Configuration](#configuration)
