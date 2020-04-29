@@ -35,51 +35,60 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Active projects](AdvProjActions#active-projects "Active projects")
 
 **Activity, assign color to**
-:  [Assign colors to track activities](AdvTrkGeneral#assign-colors-to-track-activities "Assign colors to track activities") ⊞ [Track activity](DocGisItemsTrk2#activity "Track details, activity tab")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
+
+**Activity, assign to track range**
+:  [Assign activity to range](DocGisItemsTrkRange#assign-activity-to-range "Assign activity to range")
 
 **Activity, of track**
-:  [Assign colors to track activities](AdvTrkGeneral#assign-colors-to-track-activities "Assign colors to track activities") ⊞ [Track activity](DocGisItemsTrk2#activity "Track details, activity tab")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **ArcGIS, accessed with TMS**
 :  [Use ArcGIS server as TMS server](DocMapsTipsOnline#use-arcgis-server-as-tms-server "Use ArcGIS server as TMS server")
 
-**Area, as map overlay**
+**Area, create**
+:  [Create area](DocGisItemsArea#create-area "Create area")
+
+**Area, definition**
 :  [Areas](DocGisItemsArea "Areas")
 
-**Area, create**
-:  [Area](DocGisItemsNew#area "Area")
-
 **Area, details view**
-:  [View / Edit Details](DocGisItemsArea#view--edit-details "View / Edit Details")
+:  [View & edit details](DocGisItemsArea#view--edit-details "View & edit details")
 
 **Area, edit**
-:  [Edit items with multiple points](DocGisItemsEditMultiple "Edit items with multiple points") ⊞ [Edit line](DocGisItemsEditMultiple#edit-line "Edit line") ⊞ [View / Edit Details](DocGisItemsArea#view--edit-details "View / Edit Details")
+:  [View & edit details](DocGisItemsArea#view--edit-details "View & edit details")
 
-**Area, save**
-:  [Saving data](DocGisItemsEditMultiple#saving-data "Saving data")
+**Authorization, of Ubuntu user**
+:  [Why does QMS ask for authorization on start-up (Ubuntu version)](DocFaqConfig#why-does-qms-ask-for-authorization-on-start-up-ubuntu-version "-")
 
 **Automatic backup, setup**
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
 
+**Autorouting, with a route**
+:  [Select autorouting](DocGisItemsRte#select-autorouting "Select autorouting")
+
 **Avoid area, routing**
-:  [No-go areas/lines](AdvRoutes#using-no-go-areas-and-lines "No-go areas/lines")
+:  [Using no-go areas and lines](DocGisItemsRouting#using-no-go-areas-and-lines "Using no-go areas and lines")
 
 
 ## B
 
 
-**BRouter, routing engine**
-:  [Routing engines](AdvRoutes#routing-engines "Routing engines")
+**BRouter, configuration**
+:  [BRouter](DocGisItemsRouting#brouter "BRouter")
 
 
 ## C
 
 
+**Calculated data, of track**
+:  [Recorded and calculated tracks](DocGisItemsTrk#recorded-and-calculated-tracks "Recorded and calculated tracks")
+
 **Command line, options**
-:  [Command line options](DocCmdOptions "Command line options")
+:  [Command line parameters](DocCmdOptions "Command line parameters")
 
 **CompeGPS, map**
-:  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
+:  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
 
 **Compilation, Linux Mint**
 :  [Linux Mint 19.x](BuildLinuxMint19 "Linux Mint 19.x")
@@ -96,11 +105,20 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Compilation, Windows VS 2017**
 :  [Windows with VisualStudio 2017](BuildWindowsVisualStudio "Windows with VisualStudio 2017")
 
+**Configuration, BRouter**
+:  [BRouter](DocGisItemsRouting#brouter "BRouter")
+
+**Configuration, MapQuest**
+:  [MapQuest](DocGisItemsRouting#mapquest "MapQuest")
+
+**Configuration, of routers**
+:  [Configuration of routing engines](DocGisItemsRouting#configuration-of-routing-engines "Configuration of routing engines")
+
 **Configuration, overview of options**
-:  [Setup options](AdvSetup "Setup options")
+:  [Overview of setup and configuration options](AdvSetup "Overview of setup and configuration options")
 
 **Configuration, Routino**
-:  [Choose preferred routing road class](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Choose preferred routing road class") ⊞ [Routing setup](AdvSetup#routing-setup "Routing setup") ⊞ [User-relevant directories (Windows)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "User-relevant directories (Windows)")
+:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?") ⊞ [Routing setup](AdvSetup#routing-setup "Routing setup") ⊞ [Routino](DocGisItemsRouting#routino "Routino") ⊞ [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-")
 
 **Contour lines, from Garmin IMG**
 :  [Contour line vector map in Garmin IMG format](DocMapsTipsRasterDEM#contour-line-vector-map-in-garmin-img-format "Contour line vector map in Garmin IMG format")
@@ -109,47 +127,80 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Raster contour line layer](DocMapsTipsRasterDEM#raster-contour-line-layer "Raster contour line layer")
 
 **Coordinate system, setup with EPSG code**
-:  [Use of EPSG code](DocFaqMaps#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup "Use of EPSG code")
+:  [Is it possible to use EPSG codes for the coordinate system setup?](DocFaqMaps#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup "Is it possible to use EPSG codes for the coordinate system setup?")
 
 **Course, as trackpoint extension**
-:  [GPXTPX track extension](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed "Speed in GPXTPX track extension")
+:  [What is the difference between speed and gpxtpx:speed?](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed "What is the difference between speed and gpxtpx:speed?")
 
 **Cycling energy, calculate use**
-:  [Cycling energy use](AdvTrkFilters#cycling-energy-use "Cycling energy use")
+:  [Cycling energy use](DocGisItemsTrkFilters#cycling-energy-use "Cycling energy use")
 
 
 ## D
 
 
 **Data organization, data items**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Data organization, databases**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Data organization, groups in database**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Data organization, lost & found folder**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Data organization, projects**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Data organization, qms files**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Data organization, workspace in**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Data replay, GPX**
-:  [Track replay](AdvRealtime#track-replay "Track replay")
+:  [Track replay](DocRealtime#track-replay "Track replay")
 
 **Data selection, in map views**
-:  [Data handling in views](AdvDataHandling#data-selection-and-handling-in-map-views "Data handling in views")
+:  [Data handling in views](DocDataSearch#data-selection-and-handling-in-map-views "Data handling in views")
+
+**Data, add keyword & rating**
+:  [Tagging data](DocDataSearch#tagging-data "Tagging data")
+
+**Data, add tag**
+:  [Tagging data](DocDataSearch#tagging-data "Tagging data")
+
+**Data, create**
+:  [Create data](DocGisItems#create-data "Create data")
+
+**Data, general actions**
+:  [General actions](DocGisItems#general-actions "General actions")
+
+**Data, history of changes**
+:  [Undo & redo](DocGisItems#undo--redo "Undo & redo")
+
+**Data, history**
+:  [Undo & redo](DocGisItems#undo--redo "Undo & redo")
 
 **Data, opacity selection**
-:  [Adjust map properties](AdvMapDetails#adjustable-map-properties "Adjust map properties")
+:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties")
+
+**Data, save**
+:  [Save data](DocGisItems#save-data "Save data")
+
+**Data, search for data**
+:  [General description](DocDataSearch#general-description "General description")
+
+**Data, select cluttered**
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
+
+**Data, sources of data**
+:  [Sources of data](DocGisItems#sources-of-data "Sources of data")
+
+**Data, undo & redo**
+:  [Undo & redo](DocGisItems#undo--redo "Undo & redo") ⊞ [Undo/redo](DocGisItemsEditMultiple#undoredo "Undo/redo")
 
 **Database window, drop zone**
 :  [Summary projects and drop zones](AdvProjects#summary-projects-and-drop-zones "Summary projects and drop zones")
@@ -158,7 +209,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Database](DocGisDatabase "Database")
 
 **Database, add folder**
-:  [Database folders and items](DocGisDatabaseFoldersItems "Database folders and items")
+:  [Folders and Items](DocGisDatabaseFoldersItems "Folders and Items")
 
 **Database, add**
 :  [Add/Remove a database](DocGisDatabaseAddRemove#addremove-a-database "Add/Remove a database")
@@ -170,16 +221,16 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Export database to GPX file](AdvProjActions#export-database-to-gpx-file "Export database to GPX file")
 
 **Database, group in**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Database, import GIS data**
 :  [Import of GIS data](AdvProjActions#import-of-gis-data "Import of GIS data")
 
 **Database, location**
-:  [Find location of database file](DocFaqData#how-to-find-the-location-of-a-database-file-used-in-qmapshack "Find location of database file")
+:  [How to find the location of a database file used in QMapShack?](DocFaqData#how-to-find-the-location-of-a-database-file-used-in-qmapshack "How to find the location of a database file used in QMapShack?")
 
 **Database, lost & found folder**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization") ⊞ [Lost&found folder](DocGisDatabaseLostFound "Purpose of lost and found folder")
+:  ['Lost & Found' Folder](DocGisDatabaseLostFound "'Lost & Found' Folder") ⊞ [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Database, multi-user access**
 :  [Multi-user access](DocGisDatabaseAddRemove#multi-user-access "Multi-user access")
@@ -188,13 +239,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Why does a database not allow creating new folders?](DocFaqData#why-does-a-database-not-allow-creating-new-folders "Why does a database not allow creating new folders?")
 
 **Database, MySQL**
-:  [MySQL database](DocGisDatabaseAddRemove#mysql--565 "MySQL database")
+:  [MySQL (>= 5.6.5)](DocGisDatabaseAddRemove#mysql--565 "-")
 
 **Database, project in**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization")
+:  [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Database, purpose of**
-:  [QMS data selection](DocFaqData#why-are-there-no-checkboxes-for-data-in-workspace-projects "QMS data selection")
+:  [Why are there no checkboxes for data in workspace projects?](DocFaqData#why-are-there-no-checkboxes-for-data-in-workspace-projects "Why are there no checkboxes for data in workspace projects?")
 
 **Database, relation between database and workspace**
 :  [Workspace and Database](DocGisDatabaseWorkspaceDatabase "Workspace and Database") ⊞ [Workspace and database windows](AdvProjects#workspace-and-database-windows "Workspace and database windows")
@@ -209,7 +260,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Search the database](DocGisDatabaseAddRemove#search-the-database "Search the database")
 
 **Database, SQLite**
-:  [SQLite database](DocGisDatabaseAddRemove#sqlite "SQLite database")
+:  [SQLite](DocGisDatabaseAddRemove#sqlite "SQLite")
 
 **Database, synchronize**
 :  [Multi-user access](DocGisDatabaseAddRemove#multi-user-access "Multi-user access")
@@ -233,22 +284,25 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Add digital elevation model](DocGettingStarted#add-digital-elevation-model "Add digital elevation model")
 
 **DEM, display properties**
-:  [Adjust elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjust elevation properties")
+:  [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjustable elevation properties")
 
 **DEM, draw order**
 :  [Draw Order](DocControlMapDem#draw-order "Draw Order")
 
 **DEM, elevation**
-:  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
+:  [Handle invalid elevation data](DocGisItemsTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
 
 **DEM, folder organization**
 :  [Organization of Maps & DEM](DocInstallMapDem#organization-of-maps--dem "Organization of Maps & DEM")
 
 **DEM, hill shading**
-:  [Adjust elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjust elevation properties") ⊞ [DEM Files](DocControlMapDem#dem-files "DEM Files")
+:  [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjustable elevation properties") ⊞ [DEM Files](DocControlMapDem#dem-files "DEM Files")
 
 **DEM, installation**
 :  [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data")
+
+**DEM, invalid elevation**
+:  [Invalid track data](DocGisItemsTrk#avoid-and-remove-invalid-data-in-a-track "Invalid track data")
 
 **DEM, overview of setup**
 :  [Map and DEM setup](AdvSetup#map-and-dem-setup "Map and DEM setup")
@@ -257,7 +311,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [DEM Files](DocControlMapDem#dem-files "DEM Files")
 
 **DEM, slope**
-:  [Adjust elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjust elevation properties")
+:  [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjustable elevation properties")
 
 **DEM, sources**
 :  [DEM](DocInstallMapDem#dem "DEM") ⊞ [Sources of QMapShack-compatible maps and elevation data](DocMapDemSources "Sources of QMapShack-compatible maps and elevation data")
@@ -266,10 +320,10 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Online DEM data](DocMapsTipsRasterDEM#online-dem-data "Online DEM data")
 
 **DEM, VRT file for**
-:  [DEM Files](DocBasicsMapDem#dem-files "DEM Files") ⊞ [Use of VRT files](DocFaqMaps#is-it-possible-to-use-several-vrt-files "Use of several VRT files")
+:  [DEM Files](DocBasicsMapDem#dem-files "DEM Files") ⊞ [Is it possible to use several VRT files?](DocFaqMaps#is-it-possible-to-use-several-vrt-files "Is it possible to use several VRT files?")
 
 **Directories, used**
-:  [User-relevant directories (Windows)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "User-relevant directories (Windows)")
+:  [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-")
 
 **Distance measurement, with ruler tool**
 :  [Distance ruler](AdvMapDetails#distance-ruler "Distance ruler")
@@ -278,7 +332,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Create Offline Documentation](OfflineDocumentation "Create Offline Documentation")
 
 **Douglas-Peuker, filter**
-:  [Track points filter](DocGisItemsTrk2#visible-points "Track points filter")
+:  [Douglas-Peuker filter](DocGisItemsTrkFilters#douglas-peuker-filter "Douglas-Peuker filter")
 
 **Drop zone, definition and use**
 :  [Summary projects and drop zones](AdvProjects#summary-projects-and-drop-zones "Summary projects and drop zones")
@@ -294,22 +348,22 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [ECW, MBTILES and MrSID maps](DocMapsTipsRasterDEM#ecw-mbtiles-and-mrsid-maps "ECW, MBTILES and MrSID maps")
 
 **Edit mode, for items with multiple points**
-:  [Edit items with multiple points](DocGisItemsEditMultiple "Edit items with multiple points")
+:  [Line edit mode](DocGisItemsEditMultiple#line-edit-mode "Line edit mode")
 
 **Edit window, of project**
-:  [Attach waypoint to track](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to a track to get additional track information")
+:  [Attach waypoints to track](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to track")
 
-**Edit window, of track**
-:  [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data")
+**Edit, points of lines**
+:  [Edit line points](DocGisItemsEditMultiple#edit-line-points "Edit line points")
 
 **Edit, QMS documentation**
-:  [Recommendations for editing](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages "Recommendations for editing")
+:  [General recommendations for editing QMS Wiki pages](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages "General recommendations for editing QMS Wiki pages")
 
 **Edit, redo**
-:  [Undo/Redo](DocGisItemsEditMultiple#undoredo "Undo/Redo")
+:  [Undo/redo](DocGisItemsEditMultiple#undoredo "Undo/redo")
 
 **Edit, undo**
-:  [Undo/Redo](DocGisItemsEditMultiple#undoredo "Undo/Redo")
+:  [Undo/redo](DocGisItemsEditMultiple#undoredo "Undo/redo")
 
 **Editor templates, purpose of**
 :  [Text Editor Templates](DocGisTemplates "Text Editor Templates")
@@ -321,28 +375,25 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Online DEM data](DocMapsTipsRasterDEM#online-dem-data "Online DEM data")
 
 **Elevation, DEM data**
-:  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
+:  [Handle invalid elevation data](DocGisItemsTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
 
 **Elevation, DEM**
 :  [DEM Files](DocBasicsMapDem#dem-files "DEM Files")
 
 **Elevation, edit**
-:  [Edit track elevation](AdvTrkElevation#manually-edit-elevation-of-a-track-point "Edit track elevation")
-
-**Elevation, Filter**
-:  [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
+:  [Manually edit elevation of a track point](DocGisItemsTrkElevation#manually-edit-elevation-of-a-track-point "Manually edit elevation of a track point")
 
 **Elevation, filter**
-:  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
+:  [Handle invalid elevation data](DocGisItemsTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
 
 **Elevation, invalid data**
-:  [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
+:  [Handle invalid elevation data](DocGisItemsTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
 
 **Elevation, limit**
-:  [Adjust elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjust elevation properties")
+:  [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjustable elevation properties")
 
 **EPSG, use for coordinate system setup**
-:  [Use of EPSG code](DocFaqMaps#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup "Use of EPSG code")
+:  [Is it possible to use EPSG codes for the coordinate system setup?](DocFaqMaps#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup "Is it possible to use EPSG codes for the coordinate system setup?")
 
 **Export as GPX file, database**
 :  [Export database to GPX file](AdvProjActions#export-database-to-gpx-file "Export database to GPX file")
@@ -355,61 +406,46 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **Filter, change speed**
-:  [Change speed](AdvTrkFilters#change-speed "Change speed")
+:  [Change speed](DocGisItemsTrkFilters#change-speed "Change speed")
 
 **Filter, change track start time**
-:  [Change time](AdvTrkFilters#change-time "Change time")
+:  [Change time](DocGisItemsTrkFilters#change-time "Change time")
 
 **Filter, change track start**
-:  [Start point filter](AdvTrkFilters#change-start-point "Start point filter")
+:  [Change start point](DocGisItemsTrkFilters#change-start-point "Change start point")
 
 **Filter, Douglas-Peuker**
-:  [Douglas-Peuker filter](AdvTrkFilters#douglas-peuker-filter "Douglas-Peuker filter") ⊞ [Track points filter](DocGisItemsTrk2#visible-points "Track points filter")
+:  [Douglas-Peuker filter](DocGisItemsTrkFilters#douglas-peuker-filter "Douglas-Peuker filter")
 
 **Filter, elevation**
-:  [Description of track elevation filters](AdvTrkFilters#elevation-filters "Description of track elevation filters") ⊞ [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data") ⊞ [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
-
-**Filter, extensions**
-:  [Track extensions filter](DocGisItemsTrk2#extensions "Track extensions filter")
+:  [Elevation filters](DocGisItemsTrkFilters#elevation-filters "Elevation filters") ⊞ [Handle invalid elevation data](DocGisItemsTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
 
 **Filter, interpolation**
-:  [Interpolation filter](AdvTrkFilters#interpolation-filter "Interpolation filter")
+:  [Interpolation filter](DocGisItemsTrkFilters#interpolation-filter "Interpolation filter")
 
 **Filter, median**
-:  [Median filter](AdvTrkFilters#median-filter "Median filter")
+:  [Median filter](DocGisItemsTrkFilters#median-filter "Median filter")
 
 **Filter, obscure timestamps**
-:  [Obscure timestamps](AdvTrkFilters#obscure-timestamps "Obscure timestamps")
+:  [Obscure timestamps](DocGisItemsTrkFilters#obscure-timestamps "Obscure timestamps")
 
 **Filter, offset elevation**
-:  [Offset elevation](AdvTrkFilters#offset-elevation "Offset elevation")
+:  [Offset elevation](DocGisItemsTrkFilters#offset-elevation "Offset elevation")
 
 **Filter, remove extension**
-:  [Remove extension from all trackpoints](AdvTrkFilters#remove-extension-from-all-trackpoints "Remove extension from all trackpoints")
+:  [Remove extension from all trackpoints](DocGisItemsTrkFilters#remove-extension-from-all-trackpoints "Remove extension from all trackpoints")
 
 **Filter, replace elevation**
-:  [Replace elevation data](AdvTrkFilters#replace-elevation-data "Replace elevation data")
+:  [Replace elevation data](DocGisItemsTrkFilters#replace-elevation-data "Replace elevation data")
 
 **Filter, split segments**
-:  [Split segments into tracks](AdvTrkFilters#split-segments-into-tracks "Split segments into tracks")
-
-**Filter, split track**
-:  [Split Track](DocGisItemsTrk2#split-track "Split Track")
+:  [Split segments into tracks](DocGisItemsTrkFilters#split-segments-into-tracks "Split segments into tracks")
 
 **Filter, timestamp**
-:  [Timestamps filters](AdvTrkFilters#timestamps-filters "Timestamps filters")
-
-**Filter, timestamps**
-:  [Track timestamps filter](DocGisItemsTrk2#timestamps "Track timestamps filter")
-
-**Filter, track points**
-:  [Track points filter](DocGisItemsTrk2#visible-points "Track points filter")
-
-**Filter, track**
-:  [Avoid and remove invalid data in a track](AdvTrkGeneral#avoid-and-remove-invalid-data-in-a-track "Avoid and remove invalid data in a track") ⊞ [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data")
+:  [Timestamps filters](DocGisItemsTrkFilters#timestamps-filters "Timestamps filters")
 
 **Filter, zero speed knot**
-:  [Zero speed drift knot filter](AdvTrkFilters#zero-speed-drift-knot-filter "Zero speed drift knot filter")
+:  [Zero speed drift knot filter](DocGisItemsTrkFilters#zero-speed-drift-knot-filter "Zero speed drift knot filter")
 
 **FIT, load file**
 :  [Load GPX Files](DocHandleGpxFiles#load-gpx-files "Load GPX Files")
@@ -422,28 +458,28 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **Garmin Birds Eye, map**
-:  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
+:  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
 
 **Garmin, map images**
-:  [Supported vector maps](DocBasicsMapDem#vector-maps "Supported vector maps")
+:  [Vector Maps](DocBasicsMapDem#vector-maps "Vector Maps")
 
 **Garmin, realtime data**
-:  [Using Garmin devices with Windows 10](AdvRealtime#using-garmin-devices-with-windows-10 "Using Garmin devices with Windows 10")
+:  [Using Garmin devices with Windows 10](DocRealtime#using-garmin-devices-with-windows-10 "Using Garmin devices with Windows 10")
 
 **Garmin, use of legacy device**
-:  [Data on legacy devices](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices "Data on legacy devices")
+:  [How to access data from legacy Garmin devices?](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices "How to access data from legacy Garmin devices?")
 
 **GDAL, supported version**
-:  [Supported raster maps](DocFaqMaps#which-raster-map-formats-are-supported "Supported raster maps")
+:  [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported "Which raster map formats are supported?")
 
 **GDAL, VRT**
-:  [Maps in GDAL VRT format](DocBasicsMapDem#gdal-vrt-maps "Maps in GDAL VRT format") ⊞ [Supported raster maps](DocFaqMaps#which-raster-map-formats-are-supported "Supported raster maps")
+:  [GDAL *.vrt Maps](DocBasicsMapDem#gdal-vrt-maps "GDAL *.vrt Maps") ⊞ [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported "Which raster map formats are supported?")
 
 **gdalinfo, get VRT file info**
-:  [Find raster map location](DocFaqMaps#how-to-find-the-location-of-a-raster-map "Find raster map location with gdalinfo")
+:  [How to find the location of a raster map?](DocFaqMaps#how-to-find-the-location-of-a-raster-map "How to find the location of a raster map?")
 
 **GDALWarp, for VRT creation**
-:  [Use of GDALWarp](DocFaqMaps#when-to-use-gdalwarp-to-get-vrt-file "Use of GDALWarp")
+:  [When to use GDALWarp to get VRT file?](DocFaqMaps#when-to-use-gdalwarp-to-get-vrt-file "When to use GDALWarp to get VRT file?")
 
 **Geocache, as waypoint**
 :  [Geocaches](DocGisItemsWpt#geocaches "Geocaches")
@@ -458,46 +494,22 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Geosearch](DocSearchGoogle "Geosearch")
 
 **GIS data, create**
-:  [Create new tracks, waypoints etc.](DocGisItemsNew "Create new tracks, waypoints etc.")
-
-**GIS data, draw order**
-:  [Draw Order & Copy Items](DocGisItems#draw-order--copy-items "Draw Order & Copy Items")
+:  [Create data](DocGisItems#create-data "Create data")
 
 **GIS data, general remarks**
-:  [Tracks, Waypoints & Co](DocGisItems "Tracks, Waypoints & Co")
-
-**GIS data, history of changes**
-:  [History of Changes & Undo/Redo](DocGisItems#history-of-changes--undoredo "History of Changes & Undo/Redo")
-
-**GIS data, history**
-:  [Tracks, Waypoints & Co](DocGisItems "Tracks, Waypoints & Co")
+:  [Introduction](DocGisItems#introduction "Introduction")
 
 **GIS data, import to database**
 :  [Import of GIS data](AdvProjActions#import-of-gis-data "Import of GIS data")
 
-**GIS data, keywords and rating**
-:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
-
-**GIS data, locked**
-:  [Tracks, Waypoints & Co](DocGisItems "Tracks, Waypoints & Co")
-
-**GIS data, recorded**
-:  [Tracks, Waypoints & Co](DocGisItems "Tracks, Waypoints & Co")
-
-**GIS data, select cluttered**
-:  [Cluttered items](DocGisItems#cluttered-items "Cluttered items")
-
-**GIS data, tagging**
-:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
-
-**GIS data, undo & redo**
-:  [History of Changes & Undo/Redo](DocGisItems#history-of-changes--undoredo "History of Changes & Undo/Redo")
-
 **gmapsupp.img, map**
-:  [Use of Garmin map tiles](DocFaqMaps#does-qms-support-the-use-of-single-garmin-style-map-tiles "Use of single Garmin-style map tiles")
+:  [Does QMS support the use of single Garmin-style map tiles?](DocFaqMaps#does-qms-support-the-use-of-single-garmin-style-map-tiles "Does QMS support the use of single Garmin-style map tiles?")
 
 **Google maps, search**
 :  [Geosearch](DocSearchGoogle "Geosearch")
+
+**GPS device, as data source**
+:  [GPS devices](DocGisItems#gps-devices "GPS devices")
 
 **GPS device, copy from/to**
 :  [General description](DocGisDevices#general-description "General description")
@@ -506,25 +518,31 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
 
 **GPS device, use of legacy Garmin device**
-:  [Data on legacy devices](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices "Data on legacy devices") ⊞ [Use of legacy GPS devices](DocGisDevices#remark-about-garmin-gpsmap-60csx-and-similar-devices "Use of Garmin GPSmap 60CSx and similar devices")
+:  [How to access data from legacy Garmin devices?](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices "How to access data from legacy Garmin devices?") ⊞ [Remark about Garmin GPSmap 60CSx and similar devices](DocGisDevices#remark-about-garmin-gpsmap-60csx-and-similar-devices "Remark about Garmin GPSmap 60CSx and similar devices")
 
 **GPS device, use of**
 :  [General description](DocGisDevices#general-description "General description")
 
 **GPS tether, realtime data**
-:  [GPS Tether on Android smartphones](AdvRealtime#gps-tether-on-android-smartphones "GPS Tether on Android smartphones")
+:  [GPS Tether on Android smartphones](DocRealtime#gps-tether-on-android-smartphones "GPS Tether on Android smartphones")
 
 **GPSBabel, use for data download**
-:  [Data on legacy devices](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices "Data on legacy devices")
+:  [How to access data from legacy Garmin devices?](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices "How to access data from legacy Garmin devices?")
+
+**GPX file, as data source**
+:  [File sources](DocGisItems#file-sources "File sources")
+
+**GPX file, save route**
+:  [Save route in GPX file](DocGisItemsRte#save-route-in-gpx-file "Save route in GPX file")
 
 **GPX, data replay**
-:  [Track replay](AdvRealtime#track-replay "Track replay")
+:  [Track replay](DocRealtime#track-replay "Track replay")
 
 **GPX, database saved as GPX**
 :  [Export database to GPX file](AdvProjActions#export-database-to-gpx-file "Export database to GPX file")
 
 **GPX, extensions**
-:  [GPXTPX track extension](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed "Speed in GPXTPX track extension") ⊞ [Terrain slope filter](AdvTrkFilters#calculate-terrain-slope "Terrain slope filter") ⊞ [Track data in GPX file](DocFaqHandling#which-track-data-is-saved-in-gpx-files "Which track data is saved in GPX file?")
+:  [Calculate terrain slope](DocGisItemsTrkFilters#calculate-terrain-slope "Calculate terrain slope") ⊞ [What is the difference between speed and gpxtpx:speed?](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed "What is the difference between speed and gpxtpx:speed?") ⊞ [Which track data is saved in GPX files?](DocFaqHandling#which-track-data-is-saved-in-gpx-files "Which track data is saved in GPX files?")
 
 **GPX, general remark**
 :  [Handle GPX and QMS files](DocHandleGpxFiles "Handle GPX and QMS files")
@@ -539,16 +557,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Save project](AdvProjActions#save-project "Save project")
 
 **GPX, subpoint handling in**
-:  [Track data in GPX file](DocFaqHandling#which-track-data-is-saved-in-gpx-files "Which track data is saved in GPX file?")
-
-**GPX, track history handling**
-:  [Track history](AdvTrkHist "Track history")
+:  [Which track data is saved in GPX files?](DocFaqHandling#which-track-data-is-saved-in-gpx-files "Which track data is saved in GPX files?")
 
 **Grid, projection and datum**
 :  [Projection and datum](AdvMapDetails#projection-and-datum "Projection and datum")
 
 **GUI, language selection and change**
-:  [Change GUI language](DocFaqConfig#how-to-change-the-gui-language "Change GUI language")
+:  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
 
 
 ## H
@@ -561,55 +576,70 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [DEM Files](DocControlMapDem#dem-files "DEM Files")
 
 **Hill shading, visualization**
-:  [Adjust elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjust elevation properties")
+:  [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjustable elevation properties")
+
+**History, cut history list**
+:  [Undo & redo](DocGisItems#undo--redo "Undo & redo")
+
+**History, of data changes**
+:  [Undo & redo](DocGisItems#undo--redo "Undo & redo")
 
 
 ## I
 
 
 **IGN map, accessed with WMTS**
-:  [WMTS for French IGN maps](DocMapsTipsOnline#wmts-configuration-for-french-ign-maps "WMTS configuration for French IGN maps")
+:  [WMTS configuration for French IGN maps](DocMapsTipsOnline#wmts-configuration-for-french-ign-maps "WMTS configuration for French IGN maps")
 
 **Installation, language selection and change**
-:  [Change GUI language](DocFaqConfig#how-to-change-the-gui-language "Change GUI language")
+:  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
 
 **Installation, Linux**
-:  [Linux installation](DocGetQMapShack#linux "Linux installation")
+:  [Linux](DocGetQMapShack#linux "Linux")
 
 **Installation, map**
 :  [Installing Maps](DocInstallMapDem#installing-maps "Installing Maps")
 
 **Installation, OS X**
-:  [OS X installation](DocGetQMapShack#os-x "OS X installation")
+:  [OS X](DocGetQMapShack#os-x "OS X")
 
 **Installation, raster map**
 :  [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data")
 
 **Installation, Windows**
-:  [Windows installation](DocGetQMapShack#windows "Windows installation") ⊞ [Windows with VisualStudio 2017](BuildWindowsVisualStudio "Windows with VisualStudio 2017")
+:  [Windows with VisualStudio 2017](BuildWindowsVisualStudio "Windows with VisualStudio 2017") ⊞ [Windows](DocGetQMapShack#windows "Windows")
 
 
 ## K
 
 
-**Keywords, assign to data**
-:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
+**Keyword, add to data**
+:  [Tagging data](DocDataSearch#tagging-data "Tagging data")
+
+**Keyword, of data item**
+:  [Tagging data](DocDataSearch#tagging-data "Tagging data")
 
 
 ## L
 
 
+**Line edit mode, for multi-point data**
+:  [Line edit mode](DocGisItemsEditMultiple#line-edit-mode "Line edit mode")
+
+**Line edit mode, routing options**
+:  [Routing options](DocGisItemsEditMultiple#routing-options "Routing options")
+
 **Linux Mint, compilation**
 :  [Linux Mint 19.x](BuildLinuxMint19 "Linux Mint 19.x")
 
 **Logfile, enable debug output**
-:  [Command line options](DocCmdOptions "Command line options")
+:  [Command line parameters](DocCmdOptions "Command line parameters")
 
 **Logfile, find used locale and language file**
-:  [Change GUI language](DocFaqConfig#how-to-change-the-gui-language "Change GUI language")
+:  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
 
 **Logfile, location**
-:  [User-relevant directories (Windows)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "User-relevant directories (Windows)")
+:  [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-")
 
 
 ## M
@@ -631,31 +661,31 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Workspace](DocControlMapDem#workspace "Workspace")
 
 **Map view, data selection in view**
-:  [Data handling in views](AdvDataHandling#data-selection-and-handling-in-map-views "Data handling in views")
+:  [Data handling in views](DocDataSearch#data-selection-and-handling-in-map-views "Data handling in views")
 
 **Map, add and activate**
 :  [Add maps](DocGettingStarted#add-maps "Add maps")
 
 **Map, cache**
-:  [Adjust map properties](AdvMapDetails#adjustable-map-properties "Adjust map properties") ⊞ [User-relevant directories (Windows)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "User-relevant directories (Windows)")
+:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties") ⊞ [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-")
 
 **Map, change layout**
-:  [Change vector map layout](DocFaqMaps#how-to-change-the-layout-of-vector-maps "Change vector map layout")
+:  [How to change the layout of vector maps?](DocFaqMaps#how-to-change-the-layout-of-vector-maps "How to change the layout of vector maps?")
 
 **Map, CompeGPS (rmap)**
-:  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
+:  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
 
 **Map, copy position**
-:  [Position in map](DocFaqMaps#what-is-the-difference-between-copy-position-and-copy-position-grid "What is the difference between map position and map grid position?")
+:  [What is the difference between `Copy position` and `Copy position (Grid)`?](DocFaqMaps#what-is-the-difference-between-copy-position-and-copy-position-grid "-")
 
 **Map, datum**
 :  [Projection and Scaling](DocBasicsMapDem#projection-and-scaling "Projection and Scaling")
 
 **Map, details level**
-:  [Adjust map properties](AdvMapDetails#adjustable-map-properties "Adjust map properties")
+:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties")
 
 **Map, display properties**
-:  [Adjust map properties](AdvMapDetails#adjustable-map-properties "Adjust map properties")
+:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties")
 
 **Map, draw order**
 :  [Draw Order](DocControlMapDem#draw-order "Draw Order")
@@ -667,16 +697,16 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Full-screen display](AdvMapDetails#full-screen-display "Full-screen display")
 
 **Map, Garmin Birds Eye (JNX)**
-:  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
+:  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
 
 **Map, Garmin map image**
-:  [Supported vector maps](DocBasicsMapDem#vector-maps "Supported vector maps")
+:  [Vector Maps](DocBasicsMapDem#vector-maps "Vector Maps")
 
 **Map, Garmin**
-:  [Use of Garmin map tiles](DocFaqMaps#does-qms-support-the-use-of-single-garmin-style-map-tiles "Use of single Garmin-style map tiles")
+:  [Does QMS support the use of single Garmin-style map tiles?](DocFaqMaps#does-qms-support-the-use-of-single-garmin-style-map-tiles "Does QMS support the use of single Garmin-style map tiles?")
 
 **Map, GEMF**
-:  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
+:  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
 
 **Map, installation**
 :  [Installing Maps](DocInstallMapDem#installing-maps "Installing Maps")
@@ -694,7 +724,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [TMS configuration for New Zealand topo maps](DocMapsTipsOnline#tms-configuration-for-new-zealand-topo-maps "TMS configuration for New Zealand topo maps")
 
 **Map, on-line**
-:  [Supported on-line maps](DocBasicsMapDem#online-maps "Supported on-line maps")
+:  [Online Maps](DocBasicsMapDem#online-maps "Online Maps")
 
 **Map, opacity**
 :  [Map and DEM](DocControlMapDem#map-and-dem "Map and DEM")
@@ -703,7 +733,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Vector maps for Linux systems](DocMapsTipsRasterDEM#vector-maps-for-linux-systems "Vector maps for Linux systems")
 
 **Map, overlay layer**
-:  [Google terrain map](DocFaqMaps#why-is-google-terrain-map-a-black-and-white-map "Google terrain map")
+:  [Why is Google Terrain map a black-and-white map?](DocFaqMaps#why-is-google-terrain-map-a-black-and-white-map "Why is Google Terrain map a black-and-white map?")
 
 **Map, overview of setup**
 :  [Map and DEM setup](AdvSetup#map-and-dem-setup "Map and DEM setup")
@@ -724,13 +754,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Map Properties](DocControlMapDem#map-properties "Map Properties")
 
 **Map, raster map**
-:  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
+:  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
 
 **Map, Russian military map**
 :  [Russian army maps](DocMapsTipsRasterDEM#russian-army-maps "Russian army maps")
 
 **Map, scale (logarithmic/quadratic)**
-:  [Change scale type](AdvMapDetails#map-scale-type "Change scale type (logarithmic/square)")
+:  [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
 **Map, sources of vector maps**
 :  [Maps](DocInstallMapDem#maps "Maps")
@@ -748,40 +778,40 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Online Maps](DocControlMapDem#online-maps "Online Maps")
 
 **Map, tile**
-:  [Use of Garmin map tiles](DocFaqMaps#does-qms-support-the-use-of-single-garmin-style-map-tiles "Use of single Garmin-style map tiles")
+:  [Does QMS support the use of single Garmin-style map tiles?](DocFaqMaps#does-qms-support-the-use-of-single-garmin-style-map-tiles "Does QMS support the use of single Garmin-style map tiles?")
 
 **Map, TMS**
-:  [Supported on-line maps](DocBasicsMapDem#online-maps "Supported on-line maps") ⊞ [TMS Maps](DocBasicsMapDem#tms-maps "TMS Maps")
+:  [Online Maps](DocBasicsMapDem#online-maps "Online Maps") ⊞ [TMS Maps](DocBasicsMapDem#tms-maps "TMS Maps")
 
 **Map, vector map**
-:  [Supported vector maps](DocBasicsMapDem#vector-maps "Supported vector maps")
+:  [Vector Maps](DocBasicsMapDem#vector-maps "Vector Maps")
 
 **Map, velomap (Linux)**
 :  [Vector maps for Linux systems](DocMapsTipsRasterDEM#vector-maps-for-linux-systems "Vector maps for Linux systems")
 
 **Map, visibility of data**
-:  [POI visibility](DocFaqMaps#how-to-control-visibility-of-poi-info "POI visibility")
+:  [How to control visibility of POI info?](DocFaqMaps#how-to-control-visibility-of-poi-info "How to control visibility of POI info?")
 
 **Map, visibility range**
-:  [Adjust map properties](AdvMapDetails#adjustable-map-properties "Adjust map properties")
+:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties")
 
 **Map, visibility**
 :  [Map and DEM](DocControlMapDem#map-and-dem "Map and DEM")
 
 **Map, VRT**
-:  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
+:  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
 
 **Map, WMTS**
-:  [Supported on-line maps](DocBasicsMapDem#online-maps "Supported on-line maps") ⊞ [WMTS Maps](DocBasicsMapDem#wmts-maps "WMTS Maps")
+:  [Online Maps](DocBasicsMapDem#online-maps "Online Maps") ⊞ [WMTS Maps](DocBasicsMapDem#wmts-maps "WMTS Maps")
 
 **Map, zoom**
-:  [Change scale type](AdvMapDetails#map-scale-type "Change scale type (logarithmic/square)") ⊞ [Zooming maps](DocFaqMaps#is-there-a-possibility-to-display-small-roadstracks-in-a-vector-map-without-zooming-in-too-much "Display of small roads/tracks in a vector map and zooming")
+:  [Is there a possibility to display small roads/tracks in a vector map without zooming in too much?](DocFaqMaps#is-there-a-possibility-to-display-small-roadstracks-in-a-vector-map-without-zooming-in-too-much "Is there a possibility to display small roads/tracks in a vector map without zooming in too much?") ⊞ [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
 **MapProxy, Configuration**
-:  [MapProxy configuration](DocMapsTipsOnline#configuration-template "MapProxy configuration")
+:  [Configuration template](DocMapsTipsOnline#configuration-template "Configuration template")
 
 **MapProxy, Troubleshooting**
-:  [MapProxy troubleshooting](DocMapsTipsOnline#troubleshooting "MapProxy troubleshooting")
+:  [Troubleshooting](DocMapsTipsOnline#troubleshooting "Troubleshooting")
 
 **MapProxy, Usage**
 :  [MapProxy basic usage](DocMapsTipsOnline#mapproxy-basic-usage "MapProxy basic usage")
@@ -789,11 +819,14 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **MapProxy, Use to access online maps**
 :  [Use MapProxy to access many maps as TMS](DocMapsTipsOnline#use-mapproxy-to-access-many-maps-as-tms "Use MapProxy to access many maps as TMS")
 
-**MapQuest, routing engine**
-:  [MapQuest router](DocGisItemsRte#mapquest "MapQuest router") ⊞ [Routing engines](AdvRoutes#routing-engines "Routing engines")
+**MapQuest, configuration**
+:  [MapQuest](DocGisItemsRouting#mapquest "MapQuest")
+
+**MapQuest, router**
+:  [MapQuest](DocGisItemsRouting#mapquest "MapQuest")
 
 **Mapsforge map, convert to raster map**
-:  [Supported raster maps](DocFaqMaps#which-raster-map-formats-are-supported "Supported raster maps")
+:  [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported "Which raster map formats are supported?")
 
 **Mapsforge, map**
 :  [Mapsforge Maps](DocBasicsMapDem#mapsforge-maps "Mapsforge Maps")
@@ -807,26 +840,23 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Menu, File - Save all GIS data**
 :  [Save project](AdvProjActions#save-project "Save project")
 
-**Menu, Tool - Create Routino Database**
-:  [Create Routino database](DocGisItemsRte#create-own-routino-database "Create Routino database using planetsplitter")
-
 **Menu, Tool - VRT Builder**
 :  [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data")
 
 **Menu, View - Setup Coord. Format**
-:  [Position in map](DocFaqMaps#what-is-the-difference-between-copy-position-and-copy-position-grid "What is the difference between map position and map grid position?")
+:  [What is the difference between `Copy position` and `Copy position (Grid)`?](DocFaqMaps#what-is-the-difference-between-copy-position-and-copy-position-grid "-")
 
 **Menu, View - Setup Map View - Projections&Datum**
-:  [Zooming maps](DocFaqMaps#is-there-a-possibility-to-display-small-roadstracks-in-a-vector-map-without-zooming-in-too-much "Display of small roads/tracks in a vector map and zooming")
+:  [Is there a possibility to display small roads/tracks in a vector map without zooming in too much?](DocFaqMaps#is-there-a-possibility-to-display-small-roadstracks-in-a-vector-map-without-zooming-in-too-much "Is there a possibility to display small roads/tracks in a vector map without zooming in too much?")
 
 **Menu, View - Setup Map View**
-:  [Change scale type](AdvMapDetails#map-scale-type "Change scale type (logarithmic/square)")
+:  [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
 **Menu, View**
 :  [Workspace](DocControlMapDem#workspace "Workspace")
 
 **Menu, Workspace - Setup Workspace**
-:  [Data organization](AdvProjects#organization-of-qmapshack-data "Data organization") ⊞ [Multi-user access](DocGisDatabaseAddRemove#multi-user-access "Multi-user access")
+:  [Multi-user access](DocGisDatabaseAddRemove#multi-user-access "Multi-user access") ⊞ [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data "Organization of QMapShack data")
 
 **Menu, Workspace**
 :  [Working with Projects](DocWorkingWithProjects "Working with Projects")
@@ -834,68 +864,89 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **MrSID, use for maps**
 :  [ECW, MBTILES and MrSID maps](DocMapsTipsRasterDEM#ecw-mbtiles-and-mrsid-maps "ECW, MBTILES and MrSID maps")
 
+**Multi-point data, create**
+:  [Create new data](DocGisItemsEditMultiple#create-new-data "Create new data")
+
+**Multi-point data, line edit mode**
+:  [Line edit mode](DocGisItemsEditMultiple#line-edit-mode "Line edit mode")
+
 **Multi-user version, setup**
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
+
+**Multi.point data, edit**
+:  [Edit line points](DocGisItemsEditMultiple#edit-line-points "Edit line points")
 
 **MySQL, database errors**
 :  [Why does a database not allow creating new folders?](DocFaqData#why-does-a-database-not-allow-creating-new-folders "Why does a database not allow creating new folders?")
 
 **MySQL, database**
-:  [MySQL database](DocGisDatabaseAddRemove#mysql--565 "MySQL database")
+:  [MySQL (>= 5.6.5)](DocGisDatabaseAddRemove#mysql--565 "-")
 
 
 ## N
 
 
 **NMEA, QMS restrictions**
-:  [NMEA and other restrictions](AdvRealtime#nmea-and-other-restrictions "NMEA and other restrictions")
+:  [NMEA and other restrictions](DocRealtime#nmea-and-other-restrictions "NMEA and other restrictions")
 
 **NMEA, realtime data**
-:  [General remarks](AdvRealtime#general-remarks "General remarks")
+:  [General remarks](DocRealtime#general-remarks "General remarks")
+
+**No-go area, (de-)activate**
+:  [Activate no-go areas/lines](DocGisItemsRouting#activate-no-go-areaslines "Activate no-go areas/lines")
+
+**No-go area, define**
+:  [Defining no-go areas/lines](DocGisItemsRouting#defining-no-go-areaslines "Defining no-go areas/lines")
+
+**No-go area, routing**
+:  [Routing with no-go areas/lines](DocGisItemsRouting#routing-with-no-go-areaslines "Routing with no-go areas/lines")
 
 **No-go area/line, routing**
-:  [No-go areas/lines](AdvRoutes#using-no-go-areas-and-lines "No-go areas/lines")
+:  [Using no-go areas and lines](DocGisItemsRouting#using-no-go-areas-and-lines "Using no-go areas and lines")
+
+**No-go, use track**
+:  [Tracks and no-go areas](DocGisItemsTrk#tracks-and-no-go-areas "Tracks and no-go areas")
 
 
 ## O
 
 
 **Off-line routing, Routino**
-:  [Routino router](DocGisItemsRte#routino "Routino router")
+:  [Routino](DocGisItemsRouting#routino "Routino")
 
 **On-line routing, MapQuest**
-:  [MapQuest router](DocGisItemsRte#mapquest "MapQuest router")
+:  [MapQuest](DocGisItemsRouting#mapquest "MapQuest")
 
 **Online maps, Access with MapProxy**
 :  [Use MapProxy to access many maps as TMS](DocMapsTipsOnline#use-mapproxy-to-access-many-maps-as-tms "Use MapProxy to access many maps as TMS")
 
 **OpenSky, realtime data**
-:  [OpenSky flight data](AdvRealtime#opensky-flight-data "OpenSky flight data")
+:  [OpenSky flight data](DocRealtime#opensky-flight-data "OpenSky flight data")
 
 **OSM Nomatim, search**
 :  [Geosearch](DocSearchGoogle "Geosearch")
 
 **OziExplorer, use of map**
-:  [Use of raster maps](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "Use of Russian military raster maps")
+:  [How to use Russian military and similar raster maps with QMapShack?](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "How to use Russian military and similar raster maps with QMapShack?")
 
 
 ## P
 
 
 **PBF, Routino**
-:  [Create Routino database](DocGisItemsRte#create-own-routino-database "Create Routino database using planetsplitter")
+:  [Create Routino database](DocGisItemsRouting#create-routino-database "Create Routino database")
 
 **Planetsplitter, create routing database**
-:  [Create Routino database](DocGisItemsRte#create-own-routino-database "Create Routino database using planetsplitter")
+:  [Create Routino database](DocGisItemsRouting#create-routino-database "Create Routino database")
 
 **Planetsplitter, Routino**
-:  [Routino cross-border routing](DocFaqRouting#does-qmapshackroutino-support-cross-border-routing "Routino cross-border routing")
+:  [Does QMapShack/Routino support cross-border routing?](DocFaqRouting#does-qmapshackroutino-support-cross-border-routing "Does QMapShack/Routino support cross-border routing?")
 
 **POI, control of visibility**
-:  [POI visibility](DocFaqMaps#how-to-control-visibility-of-poi-info "POI visibility")
+:  [How to control visibility of POI info?](DocFaqMaps#how-to-control-visibility-of-poi-info "How to control visibility of POI info?")
 
 **POI, use as waypoint**
-:  [Create waypoint from POI](DocFaqHandling#how-to-create-waypoint-from-poi-point-of-interest-in-map "Create waypoint from POI")
+:  [How to create waypoint from POI (point of interest) in map?](DocFaqHandling#how-to-create-waypoint-from-poi-point-of-interest-in-map "-")
 
 **Project, active**
 :  [Active projects](AdvProjActions#active-projects "Active projects")
@@ -907,28 +958,25 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Edit project metadata](AdvProjActions#edit-project-metadata "Edit project metadata")
 
 **Project, edit window**
-:  [Attach waypoint to track](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to a track to get additional track information")
+:  [Attach waypoints to track](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to track")
 
 **Project, edit**
-:  [Edit project name](DocFaqData#how-to-edit-quickly-the-name-of-a-project "Edit project name")
+:  [How to edit quickly the name of a project?](DocFaqData#how-to-edit-quickly-the-name-of-a-project "How to edit quickly the name of a project?")
 
 **Project, in database**
-:  [Find database for project](DocFaqData#how-to-find-database-to-which-a-project-belongs "Find database for project")
+:  [How to find database to which a project belongs?](DocFaqData#how-to-find-database-to-which-a-project-belongs "How to find database to which a project belongs?")
 
 **Project, in workspace**
-:  [QMS workspace database](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data "QMS workspace database")
+:  [Why does QMapShack use a separate workspace.db to save data?](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data "Why does QMapShack use a separate workspace.db to save data?")
 
 **Project, merge**
 :  [Merge projects](AdvProjActions#merge-projects "Merge projects")
 
 **Project, roadbook**
-:  [Attach waypoint to track](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to a track to get additional track information") ⊞ [Working with project roadbook](AdvProjActions#working-with-project-roadbook "Working with project roadbook")
+:  [Attach waypoints to track](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to track") ⊞ [Working with project roadbook](AdvProjActions#working-with-project-roadbook "Working with project roadbook")
 
 **Project, save**
 :  [Save project](AdvProjActions#save-project "Save project")
-
-**Project, search data**
-:  [Project search](AdvDataHandling#searching-in-projects "Project search")
 
 **Project, sources**
 :  [Working with Projects](DocWorkingWithProjects "Working with Projects")
@@ -950,34 +998,34 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **QMapShack, INI file**
-:  [Command line options](DocCmdOptions "Command line options")
+:  [Command line parameters](DocCmdOptions "Command line parameters")
 
 **QMapShack, language selection and change**
-:  [Change GUI language](DocFaqConfig#how-to-change-the-gui-language "Change GUI language")
+:  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
 
 **QMapShack, logfile**
-:  [Command line options](DocCmdOptions "Command line options")
+:  [Command line parameters](DocCmdOptions "Command line parameters")
 
 **QMapShack, running**
-:  [Running several QMS instances](DocFaqConfig#can-i-run-several-qms-instances-at-the-same-time "Running several QMS instances")
+:  [Can I run several QMS instances at the same time?](DocFaqConfig#can-i-run-several-qms-instances-at-the-same-time "Can I run several QMS instances at the same time?")
 
 **QMapShack, supported languages**
-:  [Change GUI language](DocFaqConfig#how-to-change-the-gui-language "Change GUI language")
+:  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
+
+**QMapShack, Ubuntu authorization**
+:  [Why does QMS ask for authorization on start-up (Ubuntu version)](DocFaqConfig#why-does-qms-ask-for-authorization-on-start-up-ubuntu-version "-")
 
 **QMapShack, use of Windows registry**
-:  [Command line options](DocCmdOptions "Command line options")
+:  [Command line parameters](DocCmdOptions "Command line parameters")
 
 **QMapShack, used directories**
-:  [User-relevant directories (Windows)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "User-relevant directories (Windows)")
+:  [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-")
 
 **QMS documentation, edit**
-:  [Recommendations for editing](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages "Recommendations for editing")
+:  [General recommendations for editing QMS Wiki pages](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages "General recommendations for editing QMS Wiki pages")
 
 **QMS, load file**
 :  [Load GPX Files](DocHandleGpxFiles#load-gpx-files "Load GPX Files")
-
-**QMS, track history handling**
-:  [Track history](AdvTrkHist "Track history")
 
 **Quickstart help, English**
 :  [Quickstart English](DocQuickStartEnglish "Quickstart English")
@@ -995,179 +1043,191 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 ## R
 
 
-**Range, find length**
-:  [Find the length of a track interval](AdvTrkGeneral#find-the-length-of-a-track-interval "Find the length of a track interval")
-
-**Range, of track in edit mode**
-:  [Select a range of a track in edit mode](AdvTrkGeneral#select-a-range-of-a-track-in-edit-mode "Select a range of a track in edit mode")
-
 **Range, of track**
-:  [Lossless track editing](DocFaqHandling#how-to-edit-tracks-without-losing-track-data "Lossless track editing") ⊞ [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track "Select a range of a track")
+:  [How to edit tracks without losing track data?](DocFaqHandling#how-to-edit-tracks-without-losing-track-data "How to edit tracks without losing track data?") ⊞ [Select track range in map view](DocGisItemsTrkRange#select-track-range-in-map-view "Select track range in map view")
 
 **Raster map, cache handling**
-:  [Adjust map properties](AdvMapDetails#adjustable-map-properties "Adjust map properties")
+:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties")
 
 **Raster map, convert to other format**
-:  [Supported raster maps](DocFaqMaps#which-raster-map-formats-are-supported "Supported raster maps")
+:  [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported "Which raster map formats are supported?")
 
 **Raster map, display**
-:  [Display of raster maps](DocFaqMaps#why-is-a-raster-map-not-displayed "Why is a raster map not displayed?")
+:  [Why is a raster map not displayed?](DocFaqMaps#why-is-a-raster-map-not-displayed "Why is a raster map not displayed?")
 
 **Raster map, find location**
-:  [Find raster map location](DocFaqMaps#how-to-find-the-location-of-a-raster-map "Find raster map location with gdalinfo")
+:  [How to find the location of a raster map?](DocFaqMaps#how-to-find-the-location-of-a-raster-map "How to find the location of a raster map?")
 
 **Raster map, from on-line map**
-:  [Supported raster maps](DocFaqMaps#which-raster-map-formats-are-supported "Supported raster maps")
+:  [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported "Which raster map formats are supported?")
 
 **Raster map, installation**
 :  [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data")
 
 **Raster map, layer selection**
-:  [Adjust map properties](AdvMapDetails#adjustable-map-properties "Adjust map properties")
+:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties")
 
 **Raster map, overview map of**
-:  [Display of raster maps](DocFaqMaps#why-is-a-raster-map-not-displayed "Why is a raster map not displayed?")
+:  [Why is a raster map not displayed?](DocFaqMaps#why-is-a-raster-map-not-displayed "Why is a raster map not displayed?")
 
 **Raster map, sources**
-:  [Supported raster maps](DocFaqMaps#which-raster-map-formats-are-supported "Supported raster maps") ⊞ [Use of raster maps](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "Use of Russian military raster maps")
+:  [How to use Russian military and similar raster maps with QMapShack?](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "How to use Russian military and similar raster maps with QMapShack?") ⊞ [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported "Which raster map formats are supported?")
 
 **Raster map, supported formats**
-:  [Supported raster maps](DocFaqMaps#which-raster-map-formats-are-supported "Supported raster maps")
+:  [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported "Which raster map formats are supported?")
 
 **Raster map, use of Russian military map**
-:  [Use of raster maps](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "Use of Russian military raster maps")
+:  [How to use Russian military and similar raster maps with QMapShack?](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "How to use Russian military and similar raster maps with QMapShack?")
 
 **Raster map, VRT file for**
-:  [Find raster map location](DocFaqMaps#how-to-find-the-location-of-a-raster-map "Find raster map location with gdalinfo") ⊞ [Use of raster maps](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "Use of Russian military raster maps")
+:  [How to find the location of a raster map?](DocFaqMaps#how-to-find-the-location-of-a-raster-map "How to find the location of a raster map?") ⊞ [How to use Russian military and similar raster maps with QMapShack?](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "How to use Russian military and similar raster maps with QMapShack?")
 
-**Rating, assign to data**
-:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
+**Rating, add to data**
+:  [Tagging data](DocDataSearch#tagging-data "Tagging data")
 
 **Realtime data, Garmin devices**
-:  [Using Garmin devices with Windows 10](AdvRealtime#using-garmin-devices-with-windows-10 "Using Garmin devices with Windows 10")
+:  [Using Garmin devices with Windows 10](DocRealtime#using-garmin-devices-with-windows-10 "Using Garmin devices with Windows 10")
 
 **Realtime data, GPS tether**
-:  [GPS Tether on Android smartphones](AdvRealtime#gps-tether-on-android-smartphones "GPS Tether on Android smartphones")
+:  [GPS Tether on Android smartphones](DocRealtime#gps-tether-on-android-smartphones "GPS Tether on Android smartphones")
 
 **Realtime data, OpenSky**
-:  [OpenSky flight data](AdvRealtime#opensky-flight-data "OpenSky flight data")
+:  [OpenSky flight data](DocRealtime#opensky-flight-data "OpenSky flight data")
 
 **Realtime data, use in QMS**
-:  [Realtime data](AdvRealtime "Realtime data")
+:  [Realtime data](DocRealtime "Realtime data")
+
+**Recorded data, of track**
+:  [Recorded and calculated tracks](DocGisItemsTrk#recorded-and-calculated-tracks "Recorded and calculated tracks")
 
 **Redo, edit**
-:  [Undo/Redo](DocGisItemsEditMultiple#undoredo "Undo/Redo")
+:  [Undo/redo](DocGisItemsEditMultiple#undoredo "Undo/redo")
 
-**Route instruction, get**
-:  [Get route instructions](AdvRoutes#get-route-instructions "Get route instructions")
+**Redo, of data changes**
+:  [Undo & redo](DocGisItems#undo--redo "Undo & redo")
 
 **Route instruction, used language**
-:  [Language in route instruction](DocFaqRouting#why-do-route-instructions-use-different-languages "Why do route instructions use different languages?")
+:  [Why do route instructions use different languages?](DocFaqRouting#why-do-route-instructions-use-different-languages "Why do route instructions use different languages?")
 
-**Route, add point**
-:  [Edit a route](AdvRoutes#edit-a-route "Edit a route")
+**Route, autorouting**
+:  [Select autorouting](DocGisItemsRte#select-autorouting "Select autorouting")
+
+**Route, calculate**
+:  [Other actions](DocGisItemsRte#other-actions "Other actions")
+
+**Route, compared with track**
+:  [Tracks vs. routes](DocGisItemsTrk#tracks-vs-routes "Tracks vs. routes")
+
+**Route, convert to track**
+:  [Other actions](DocGisItemsRte#other-actions "Other actions")
+
+**Route, create from waypoints**
+:  [Use list of routing points](DocGisItemsRte#use-list-of-routing-points "Use list of routing points")
+
+**Route, create in map window**
+:  [Use map window](DocGisItemsRte#use-map-window "Use map window")
 
 **Route, create**
-:  [Create a route](AdvRoutes#create-a-route "Create a route") ⊞ [Create route](DocGisItemsRte#create-route "Create route")
+:  [Create route](DocGisItemsRte#create-route "Create route")
+
+**Route, definition**
+:  [Introduction](DocGisItemsRte#introduction "Introduction")
 
 **Route, edit**
-:  [Edit a route](AdvRoutes#edit-a-route "Edit a route") ⊞ [Edit items with multiple points](DocGisItemsEditMultiple "Edit items with multiple points") ⊞ [Edit line](DocGisItemsEditMultiple#edit-line "Edit line")
+:  [View & edit details](DocGisItemsRte#view--edit-details "View & edit details")
 
-**Route, recalculate**
-:  [Edit a route](AdvRoutes#edit-a-route "Edit a route")
+**Route, instructions**
+:  [Get route instructions](DocGisItemsRte#get-route-instructions "Get route instructions")
+
+**Route, optimize**
+:  [Optimize route](DocGisItemsRte#optimize-route "Optimize route")
+
+**Route, reset**
+:  [Other actions](DocGisItemsRte#other-actions "Other actions")
 
 **Route, route instructions**
-:  [Get route instructions](AdvRoutes#get-route-instructions "Get route instructions") ⊞ [Language in route instruction](DocFaqRouting#why-do-route-instructions-use-different-languages "Why do route instructions use different languages?")
+:  [Why do route instructions use different languages?](DocFaqRouting#why-do-route-instructions-use-different-languages "Why do route instructions use different languages?")
 
-**Route, routing engine**
-:  [Create a route](AdvRoutes#create-a-route "Create a route")
+**Route, save in GPX file**
+:  [Save route in GPX file](DocGisItemsRte#save-route-in-gpx-file "Save route in GPX file")
 
-**Route, routing strategy**
-:  [Create a route](AdvRoutes#create-a-route "Create a route")
+**Route, traveling sales man problem**
+:  [Optimize route](DocGisItemsRte#optimize-route "Optimize route")
 
-**Route, save**
-:  [Save route in GPX file](AdvRoutes#save-route-in-gpx-file "Save route in GPX file") ⊞ [Saving data](DocGisItemsEditMultiple#saving-data "Saving data")
+**Route, view details**
+:  [View & edit details](DocGisItemsRte#view--edit-details "View & edit details")
 
-**Routing engine, BRouter**
-:  [Routing engines](AdvRoutes#routing-engines "Routing engines")
+**Router, compare properties**
+:  [Comparison of routing engines](DocGisItemsRouting#comparison-of-routing-engines "Comparison of routing engines")
 
-**Routing engine, compare**
-:  [Comparison of routing engines](AdvRoutes#comparison-of-routing-engines "Comparison of routing engines")
+**Router, configuration**
+:  [Configuration of routing engines](DocGisItemsRouting#configuration-of-routing-engines "Configuration of routing engines")
 
-**Routing engine, MapQuest**
-:  [MapQuest router](DocGisItemsRte#mapquest "MapQuest router") ⊞ [Routing engines](AdvRoutes#routing-engines "Routing engines")
+**Router, MapQuest**
+:  [MapQuest](DocGisItemsRouting#mapquest "MapQuest")
 
-**Routing engine, Routino**
-:  [Routing engines](AdvRoutes#routing-engines "Routing engines") ⊞ [Routino router](DocGisItemsRte#routino "Routino router")
-
-**Routing method, automatic routing**
-:  [Description of routing methods in QMapShack](AdvRoutes#description-of-routing-methods-in-qmapshack "Description of routing methods in QMapShack")
-
-**Routing method, off-road routing**
-:  [Description of routing methods in QMapShack](AdvRoutes#description-of-routing-methods-in-qmapshack "Description of routing methods in QMapShack")
-
-**Routing method, track routing**
-:  [Description of routing methods in QMapShack](AdvRoutes#description-of-routing-methods-in-qmapshack "Description of routing methods in QMapShack")
-
-**Routing method, using vector map**
-:  [Description of routing methods in QMapShack](AdvRoutes#description-of-routing-methods-in-qmapshack "Description of routing methods in QMapShack")
+**Routing options, in line edit mode**
+:  [Routing options](DocGisItemsEditMultiple#routing-options "Routing options")
 
 **Routing setup, overview of options**
 :  [Routing setup](AdvSetup#routing-setup "Routing setup")
 
+**Routing, automatic routing**
+:  [Routing methods](DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing methods")
+
 **Routing, methods**
-:  [Routing](DocGisItemsEditMultiple#routing "Routing")
+:  [Routing methods](DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing methods")
+
+**Routing, off-road routing**
+:  [Routing methods](DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing methods")
 
 **Routing, road class preference**
-:  [Choose preferred routing road class](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Choose preferred routing road class")
-
-**Routing, routing strategy**
-:  [Create a route](AdvRoutes#create-a-route "Create a route")
+:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?")
 
 **Routing, Routino**
-:  [Choose preferred routing road class](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Choose preferred routing road class")
+:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?")
 
 **Routing, setup**
 :  [Routing setup](AdvSetup#routing-setup "Routing setup")
 
+**Routing, track routing**
+:  [Routing methods](DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing methods")
+
+**Routing, using vector map**
+:  [Routing methods](DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing methods")
+
 **Routing, with no-go areas/lines**
-:  [No-go areas/lines](AdvRoutes#using-no-go-areas-and-lines "No-go areas/lines")
+:  [Using no-go areas and lines](DocGisItemsRouting#using-no-go-areas-and-lines "Using no-go areas and lines")
 
 **Routino, configuration**
-:  [Choose preferred routing road class](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Choose preferred routing road class") ⊞ [Routing setup](AdvSetup#routing-setup "Routing setup") ⊞ [Unexpected Routino results](DocFaqRouting#what-can-be-the-reason-for-unexpected-routino-routing-results "Unexpected Routino results") ⊞ [User-relevant directories (Windows)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "User-relevant directories (Windows)")
+:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?") ⊞ [Routing setup](AdvSetup#routing-setup "Routing setup") ⊞ [Routino](DocGisItemsRouting#routino "Routino") ⊞ [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-") ⊞ [What can be the reason for unexpected Routino routing results?](DocFaqRouting#what-can-be-the-reason-for-unexpected-routino-routing-results "What can be the reason for unexpected Routino routing results?")
 
-**Routino, create database**
-:  [Create Routino database](DocGisItemsRte#create-own-routino-database "Create Routino database using planetsplitter")
+**Routino, create routing database**
+:  [Create Routino database](DocGisItemsRouting#create-routino-database "Create Routino database")
 
 **Routino, cross-border routing**
-:  [Routino cross-border routing](DocFaqRouting#does-qmapshackroutino-support-cross-border-routing "Routino cross-border routing")
+:  [Does QMapShack/Routino support cross-border routing?](DocFaqRouting#does-qmapshackroutino-support-cross-border-routing "Does QMapShack/Routino support cross-border routing?")
 
 **Routino, edit routing profile**
-:  [Choose preferred routing road class](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Choose preferred routing road class")
+:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?")
 
 **Routino, fly-as-bird routing**
-:  [Routino fly-as-bird routing](DocFaqRouting#does-the-routino-router-support-fly-as-a-bird-routing "Routino fly-as-bird routing")
+:  [Does the Routino router support _fly-as-a-bird_ routing?](DocFaqRouting#does-the-routino-router-support-fly-as-a-bird-routing "Does the Routino router support _fly-as-a-bird_ routing?")
 
 **Routino, PBF file**
-:  [Create Routino database](DocGisItemsRte#create-own-routino-database "Create Routino database using planetsplitter")
+:  [Create Routino database](DocGisItemsRouting#create-routino-database "Create Routino database")
 
 **Routino, planetsplitter**
-:  [Routino cross-border routing](DocFaqRouting#does-qmapshackroutino-support-cross-border-routing "Routino cross-border routing")
+:  [Does QMapShack/Routino support cross-border routing?](DocFaqRouting#does-qmapshackroutino-support-cross-border-routing "Does QMapShack/Routino support cross-border routing?")
 
 **Routino, road class preference**
-:  [Choose preferred routing road class](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Choose preferred routing road class")
+:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?")
 
 **Routino, routing database**
-:  [Routino router](DocGisItemsRte#routino "Routino router")
-
-**Routino, routing engine**
-:  [Routing engines](AdvRoutes#routing-engines "Routing engines") ⊞ [Routino router](DocGisItemsRte#routino "Routino router")
-
-**Routino, routing method**
-:  [Description of routing methods in QMapShack](AdvRoutes#description-of-routing-methods-in-qmapshack "Description of routing methods in QMapShack")
+:  [Routino](DocGisItemsRouting#routino "Routino")
 
 **Routino, unexpected routing**
-:  [Unexpected Routino results](DocFaqRouting#what-can-be-the-reason-for-unexpected-routino-routing-results "Unexpected Routino results")
+:  [What can be the reason for unexpected Routino routing results?](DocFaqRouting#what-can-be-the-reason-for-unexpected-routino-routing-results "What can be the reason for unexpected Routino routing results?")
 
 **Ruler, for distance measurement**
 :  [Distance ruler](AdvMapDetails#distance-ruler "Distance ruler")
@@ -1177,19 +1237,22 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **Scale, of map**
-:  [Change scale type](AdvMapDetails#map-scale-type "Change scale type (logarithmic/square)")
+:  [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
-**Search, data in workspace**
-:  [Search workspace](AdvDataHandling#searching-data-in-the-workspace "Search workspace")
+**Search data, examples**
+:  [Examples](DocDataSearch#examples "Examples")
 
-**Search, in project only**
-:  [Project search](AdvDataHandling#searching-in-projects "Project search")
+**Search data, general description**
+:  [General description](DocDataSearch#general-description "General description")
+
+**Segments, of track**
+:  [Handling of track segments](DocGisItemsTrk#handling-of-track-segments "Handling of track segments")
 
 **Setup, automatic backup**
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
 
 **Setup, coordinate system**
-:  [Use of EPSG code](DocFaqMaps#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup "Use of EPSG code")
+:  [Is it possible to use EPSG codes for the coordinate system setup?](DocFaqMaps#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup "Is it possible to use EPSG codes for the coordinate system setup?")
 
 **Setup, GPS device**
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
@@ -1198,7 +1261,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
 
 **Setup, overview of options**
-:  [Setup options](AdvSetup "Setup options")
+:  [Overview of setup and configuration options](AdvSetup "Overview of setup and configuration options")
 
 **Setup, workspace**
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
@@ -1207,16 +1270,16 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Load GPX Files](DocHandleGpxFiles#load-gpx-files "Load GPX Files")
 
 **Slope, calculate terrain slope**
-:  [Terrain slope filter](AdvTrkFilters#calculate-terrain-slope "Terrain slope filter")
+:  [Calculate terrain slope](DocGisItemsTrkFilters#calculate-terrain-slope "Calculate terrain slope")
 
 **Slope, visualization**
-:  [Adjust elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjust elevation properties")
+:  [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjustable elevation properties")
 
 **SQLite, database**
-:  [SQLite database](DocGisDatabaseAddRemove#sqlite "SQLite database")
+:  [SQLite](DocGisDatabaseAddRemove#sqlite "SQLite")
 
 **Subpoint, convert subpoint filter**
-:  [Convert track subpoints to points](AdvTrkFilters#convert-track-subpoints-to-points "Convert track subpoints to points")
+:  [Convert track subpoints to points](DocGisItemsTrkFilters#convert-track-subpoints-to-points "Convert track subpoints to points")
 
 **Summary project, definition and use**
 :  [Summary projects and drop zones](AdvProjects#summary-projects-and-drop-zones "Summary projects and drop zones")
@@ -1224,6 +1287,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 ## T
 
+
+**Tag, of data item**
+:  [Tagging data](DocDataSearch#tagging-data "Tagging data")
 
 **TCX, load file**
 :  [Load GPX Files](DocHandleGpxFiles#load-gpx-files "Load GPX Files")
@@ -1238,7 +1304,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Use a Template](DocGisTemplates#use-a-template "Use a Template")
 
 **Terrain slope, calculate**
-:  [Terrain slope filter](AdvTrkFilters#calculate-terrain-slope "Terrain slope filter")
+:  [Calculate terrain slope](DocGisItemsTrkFilters#calculate-terrain-slope "Calculate terrain slope")
 
 **Text editor, templates for**
 :  [Text Editor Templates](DocGisTemplates "Text Editor Templates")
@@ -1253,13 +1319,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [TMS for Spanish orthophoto maps](DocMapsTipsOnline#tms-for-spanish-orthophoto-maps "TMS for Spanish orthophoto maps")
 
 **TMS, map**
-:  [Supported on-line maps](DocBasicsMapDem#online-maps "Supported on-line maps") ⊞ [TMS Maps](DocBasicsMapDem#tms-maps "TMS Maps")
+:  [Online Maps](DocBasicsMapDem#online-maps "Online Maps") ⊞ [TMS Maps](DocBasicsMapDem#tms-maps "TMS Maps")
 
 **TMS, NZ topo configuration**
 :  [TMS configuration for New Zealand topo maps](DocMapsTipsOnline#tms-configuration-for-new-zealand-topo-maps "TMS configuration for New Zealand topo maps")
 
 **TMS, recommended map scale**
-:  [Change scale type](AdvMapDetails#map-scale-type "Change scale type (logarithmic/square)")
+:  [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
 **TMS, Server list**
 :  [Sources of WMTS and TMS map files](DocMapsTipsOnline#sources-of-wmts-and-tms-map-files "Sources of WMTS and TMS map files")
@@ -1274,244 +1340,202 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Use MapProxy to access many maps as TMS](DocMapsTipsOnline#use-mapproxy-to-access-many-maps-as-tms "Use MapProxy to access many maps as TMS")
 
 **Toolbar, supported actions**
-:  [Toolbar](AdvToolbarAct "Toolbar")
+:  [Overview of toolbar actions](AdvToolbarAct "Overview of toolbar actions")
 
-**Track graph, activity handling**
-:  [Assign colors to track activities](AdvTrkGeneral#assign-colors-to-track-activities "Assign colors to track activities")
+**Track activity, assign color**
+:  [Assign colors to track activities](DocGisItemsTrk#assign-colors-to-track-activities "Assign colors to track activities")
 
 **Track graph, scales**
-:  [Select a scale range for track data display](AdvTrkGraphs#select-a-scale-range-for-track-data-display "Select a scale range for track data display")
-
-**Track graph, track range in**
-:  [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track "Select a range of a track")
+:  [Select a scale range for track data display](DocGisItemsTrkGraphs#select-a-scale-range-for-track-data-display "Select a scale range for track data display")
 
 **Track graph, zoom**
-:  [Zoom track graphs](AdvTrkGraphs#zoom-track-graphs "Zoom track graphs")
-
-**Track history, cut history list**
-:  [Track history](AdvTrkHist "Track history")
-
-**Track history, save history**
-:  [Track history](AdvTrkHist "Track history")
+:  [Zoom track graphs](DocGisItemsTrkGraphs#zoom-track-graphs "Zoom track graphs")
 
 **Track profile, remove DEM data**
-:  [Track profile without DEM info](DocFaqHandling#how-to-remove-dem-info-from-elevation-graph "Track profile without DEM info")
+:  [How to remove DEM info from elevation graph?](DocFaqHandling#how-to-remove-dem-info-from-elevation-graph "How to remove DEM info from elevation graph?")
+
+**Track range, assign activity**
+:  [Assign activity to range](DocGisItemsTrkRange#assign-activity-to-range "Assign activity to range")
+
+**Track range, show/hide points**
+:  [Hide or show trackpoints in range](DocGisItemsTrkRange#hide-or-show-trackpoints-in-range "Hide or show trackpoints in range") ⊞ [Select track range in map view](DocGisItemsTrkRange#select-track-range-in-map-view "Select track range in map view")
 
 **Track segment, split segments to tracks**
-:  [Split segments into tracks](AdvTrkFilters#split-segments-into-tracks "Split segments into tracks")
+:  [Split segments into tracks](DocGisItemsTrkFilters#split-segments-into-tracks "Split segments into tracks")
 
-**Track, actions toolbar**
-:  [Track actions](AdvTrkGeneral#track-actions "Track actions")
+**Track segments, handling of**
+:  [Handling of track segments](DocGisItemsTrk#handling-of-track-segments "Handling of track segments")
 
 **Track, activity tab**
-:  [Track activity](DocGisItemsTrk2#activity "Track details, activity tab")
-
-**Track, activity**
-:  [Assign colors to track activities](AdvTrkGeneral#assign-colors-to-track-activities "Assign colors to track activities")
-
-**Track, add new trackpoint**
-:  [Add point to track](AdvTrkGeneral#add-point-to-track "Add point to track")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, assign activity**
-:  [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track "Select a range of a track") ⊞ [Track activity](DocGisItemsTrk2#activity "Track details, activity tab")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, assign DEM elevation**
-:  [Assign DEM elevation](AdvTrkElevation#assign-elevation-using-dem-data "Assign DEM elevation")
+:  [Assign elevation using DEM data](DocGisItemsTrkElevation#assign-elevation-using-dem-data "Assign elevation using DEM data")
 
 **Track, attach waypoint**
-:  [Attach waypoint to track](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to a track to get additional track information")
+:  [Attach waypoints to track](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to track")
 
-**Track, calculated**
-:  [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data")
+**Track, calculated data**
+:  [Recorded and calculated tracks](DocGisItemsTrk#recorded-and-calculated-tracks "Recorded and calculated tracks")
 
 **Track, change speed filter**
-:  [Change speed](AdvTrkFilters#change-speed "Change speed")
+:  [Change speed](DocGisItemsTrkFilters#change-speed "Change speed")
 
 **Track, change start time**
-:  [Change time](AdvTrkFilters#change-time "Change time")
+:  [Change time](DocGisItemsTrkFilters#change-time "Change time")
 
 **Track, change start**
-:  [Start point filter](AdvTrkFilters#change-start-point "Start point filter")
+:  [Change start point](DocGisItemsTrkFilters#change-start-point "Change start point")
+
+**Track, combine several**
+:  [Combine tracks](DocGisItemsTrk#combine-tracks "Combine tracks")
 
 **Track, combine tracks**
-:  [Split segments into tracks](AdvTrkFilters#split-segments-into-tracks "Split segments into tracks")
+:  [Split segments into tracks](DocGisItemsTrkFilters#split-segments-into-tracks "Split segments into tracks")
+
+**Track, compared with route**
+:  [Tracks vs. routes](DocGisItemsTrk#tracks-vs-routes "Tracks vs. routes")
 
 **Track, convert subpoint filter**
-:  [Convert track subpoints to points](AdvTrkFilters#convert-track-subpoints-to-points "Convert track subpoints to points")
+:  [Convert track subpoints to points](DocGisItemsTrkFilters#convert-track-subpoints-to-points "Convert track subpoints to points")
 
 **Track, create**
-:  [Track](DocGisItemsNew#track "Track")
+:  [Create track](DocGisItemsTrk#create-track "Create track")
 
-**Track, cut into parts**
-:  [Cut track](AdvTrkGeneral#cut-track "Cut track")
+**Track, cut**
+:  [Cut track](DocGisItemsTrk#cut-track "Cut track")
 
 **Track, cycling energy use**
-:  [Cycling energy use](AdvTrkFilters#cycling-energy-use "Cycling energy use")
+:  [Cycling energy use](DocGisItemsTrkFilters#cycling-energy-use "Cycling energy use")
 
-**Track, delete points in range**
-:  [Select a range of a track in edit mode](AdvTrkGeneral#select-a-range-of-a-track-in-edit-mode "Select a range of a track in edit mode")
+**Track, data sources**
+:  [Sources of tracks](DocGisItemsTrk#sources-of-tracks "Sources of tracks")
 
-**Track, details dialog**
-:  [Track Details Dialog](DocGisItemsTrk2#track-details-dialog "Track Details Dialog")
-
-**Track, Douglas-Peuker filter**
-:  [Douglas-Peuker filter](AdvTrkFilters#douglas-peuker-filter "Douglas-Peuker filter")
-
-**Track, edit window**
-:  [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data") ⊞ [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track "Select a range of a track")
+**Track, definition**
+:  [Definition of a track](DocGisItemsTrk#definition-of-a-track "Definition of a track")
 
 **Track, edit**
-:  [Edit items with multiple points](DocGisItemsEditMultiple "Edit items with multiple points") ⊞ [Edit line](DocGisItemsEditMultiple#edit-line "Edit line") ⊞ [Lossless track editing](DocFaqHandling#how-to-edit-tracks-without-losing-track-data "Lossless track editing") ⊞ [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints "Symbols for trackpoints")
+:  [How to edit tracks without losing track data?](DocFaqHandling#how-to-edit-tracks-without-losing-track-data "How to edit tracks without losing track data?") ⊞ [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, elevation filter**
-:  [Description of track elevation filters](AdvTrkFilters#elevation-filters "Description of track elevation filters") ⊞ [Track elevation filter](DocGisItemsTrk2#elevation "Track elevation filter")
-
-**Track, extensions filter**
-:  [Track extensions filter](DocGisItemsTrk2#extensions "Track extensions filter")
-
-**Track, filter**
-:  [Avoid and remove invalid data in a track](AdvTrkGeneral#avoid-and-remove-invalid-data-in-a-track "Avoid and remove invalid data in a track") ⊞ [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data")
+:  [Elevation filters](DocGisItemsTrkFilters#elevation-filters "Elevation filters")
 
 **Track, filters tab**
-:  [Track filter tab](DocGisItemsTrk2#filter "Track details, filter tab")
-
-**Track, find length of range**
-:  [Find the length of a track interval](AdvTrkGeneral#find-the-length-of-a-track-interval "Find the length of a track interval")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, get information**
-:  [Track information](AdvTrkInfo "Track information")
+:  [Track information](DocGisItemsTrkInfo "Track information")
 
 **Track, graphs tab**
-:  [Graphs](DocGisItemsTrk2#graphs "Graphs")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, graphs**
-:  [Graph Area](DocGisItemsTrk2#graph-area "Graph Area")
-
-**Track, hidden trackpoints**
-:  [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track "Select a range of a track")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, history tab**
-:  [Track history tab](DocGisItemsTrk2#history "Track details, history tab")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, info tab**
-:  [Track info window](DocGisItemsTrk2#info "Track info window")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
+
+**Track, info window**
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, interpolation filter**
-:  [Interpolation filter](AdvTrkFilters#interpolation-filter "Interpolation filter")
+:  [Interpolation filter](DocGisItemsTrkFilters#interpolation-filter "Interpolation filter")
 
 **Track, invalid data**
-:  [Avoid and remove invalid data in a track](AdvTrkGeneral#avoid-and-remove-invalid-data-in-a-track "Avoid and remove invalid data in a track")
+:  [Invalid track data](DocGisItemsTrk#avoid-and-remove-invalid-data-in-a-track "Invalid track data")
 
 **Track, median filter**
-:  [Median filter](AdvTrkFilters#median-filter "Median filter")
+:  [Median filter](DocGisItemsTrkFilters#median-filter "Median filter")
 
-**Track, move range to new location**
-:  [Move track range to new location](AdvTrkGeneral#move-track-range-to-new-location "Move track range to new location")
+**Track, move range**
+:  [Move track range to new location](DocGisItemsTrkRange#move-track-range-to-new-location "Move track range to new location")
 
 **Track, obscure timestamps**
-:  [Obscure timestamps](AdvTrkFilters#obscure-timestamps "Obscure timestamps")
+:  [Obscure timestamps](DocGisItemsTrkFilters#obscure-timestamps "Obscure timestamps")
 
 **Track, offset elevation filter**
-:  [Offset elevation](AdvTrkFilters#offset-elevation "Offset elevation")
-
-**Track, options**
-:  [Tracks](DocGisItemsTrk2 "Tracks")
+:  [Offset elevation](DocGisItemsTrkFilters#offset-elevation "Offset elevation")
 
 **Track, points tab**
-:  [Track points tab](DocGisItemsTrk2#points "Track details, points tab")
-
-**Track, range in edit mode**
-:  [Select a range of a track in edit mode](AdvTrkGeneral#select-a-range-of-a-track-in-edit-mode "Select a range of a track in edit mode")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, range**
-:  [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track "Select a range of a track") ⊞ [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints "Symbols for trackpoints")
+:  [Select track range in map view](DocGisItemsTrkRange#select-track-range-in-map-view "Select track range in map view")
 
-**Track, recorded**
-:  [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data")
+**Track, recorded data**
+:  [Recorded and calculated tracks](DocGisItemsTrk#recorded-and-calculated-tracks "Recorded and calculated tracks")
 
 **Track, remove extension filter**
-:  [Remove extension from all trackpoints](AdvTrkFilters#remove-extension-from-all-trackpoints "Remove extension from all trackpoints")
+:  [Remove extension from all trackpoints](DocGisItemsTrkFilters#remove-extension-from-all-trackpoints "Remove extension from all trackpoints")
 
 **Track, replace elevation filter**
-:  [Replace elevation data](AdvTrkFilters#replace-elevation-data "Replace elevation data")
-
-**Track, save**
-:  [Saving data](DocGisItemsEditMultiple#saving-data "Saving data")
+:  [Replace elevation data](DocGisItemsTrkFilters#replace-elevation-data "Replace elevation data")
 
 **Track, saved in GPX**
-:  [Track data in GPX file](DocFaqHandling#which-track-data-is-saved-in-gpx-files "Which track data is saved in GPX file?")
+:  [Which track data is saved in GPX files?](DocFaqHandling#which-track-data-is-saved-in-gpx-files "Which track data is saved in GPX files?")
 
 **Track, selected/highlighted**
-:  [Track states](AdvTrkInfo#track-states "Track states")
-
-**Track, split filter**
-:  [Split Track](DocGisItemsTrk2#split-track "Split Track")
+:  [Track states](DocGisItemsTrkInfo#track-states "Track states")
 
 **Track, split segments filter**
-:  [Split segments into tracks](AdvTrkFilters#split-segments-into-tracks "Split segments into tracks")
+:  [Split segments into tracks](DocGisItemsTrkFilters#split-segments-into-tracks "Split segments into tracks")
 
 **Track, style tab**
-:  [Style](DocGisItemsTrk2#style "Style")
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, subpoint**
-:  [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints "Symbols for trackpoints") ⊞ [Track data in GPX file](DocFaqHandling#which-track-data-is-saved-in-gpx-files "Which track data is saved in GPX file?")
+:  [Which track data is saved in GPX files?](DocFaqHandling#which-track-data-is-saved-in-gpx-files "Which track data is saved in GPX files?")
 
 **Track, summary information**
-:  [Select display of track information in main menu](AdvTrkInfo#select-display-of-track-information-in-main-menu "Select display of track information in main menu")
+:  [Select display of track information in main menu](DocGisItemsTrkInfo#select-display-of-track-information-in-main-menu "Select display of track information in main menu")
 
 **Track, summary**
 :  [Working with project roadbook](AdvProjActions#working-with-project-roadbook "Working with project roadbook")
 
 **Track, timestamps filter**
-:  [Timestamps filters](AdvTrkFilters#timestamps-filters "Timestamps filters") ⊞ [Track timestamps filter](DocGisItemsTrk2#timestamps "Track timestamps filter")
-
-**Track, track points filter**
-:  [Track points filter](DocGisItemsTrk2#visible-points "Track points filter")
+:  [Timestamps filters](DocGisItemsTrkFilters#timestamps-filters "Timestamps filters")
 
 **Track, trackpoint description list**
-:  [Select display of track information in main menu](AdvTrkInfo#select-display-of-track-information-in-main-menu "Select display of track information in main menu")
+:  [Select display of track information in main menu](DocGisItemsTrkInfo#select-display-of-track-information-in-main-menu "Select display of track information in main menu")
 
-**Track, use of no-go areas**
-:  [Tracks and no-go areas](AdvTrkGeneral#tracks-and-no-go-areas "Tracks and no-go areas")
+**Track, used as no-go line**
+:  [Tracks and no-go areas](DocGisItemsTrk#tracks-and-no-go-areas "Tracks and no-go areas")
 
-**Track, used trackpoint symbols**
-:  [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints "Symbols for trackpoints")
+**Track, view details**
+:  [View & edit details](DocGisItemsTrk#view--edit-details "View & edit details")
 
 **Track, zero speed knot filter**
-:  [Zero speed drift knot filter](AdvTrkFilters#zero-speed-drift-knot-filter "Zero speed drift knot filter")
-
-**Trackpoint, add new to track**
-:  [Add point to track](AdvTrkGeneral#add-point-to-track "Add point to track")
+:  [Zero speed drift knot filter](DocGisItemsTrkFilters#zero-speed-drift-knot-filter "Zero speed drift knot filter")
 
 **Trackpoint, additional description**
-:  [Overview](AdvTrkInfo#overview "Overview")
+:  [Overview](DocGisItemsTrkInfo#overview "Overview")
 
 **Trackpoint, course in track extension**
-:  [GPXTPX track extension](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed "Speed in GPXTPX track extension")
+:  [What is the difference between speed and gpxtpx:speed?](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed "What is the difference between speed and gpxtpx:speed?")
 
 **Trackpoint, edit/delete description**
-:  [Using the track edit/info window](AdvTrkInfo#using-the-track-editinfo-window "Using the track edit/info window")
+:  [Using the track edit/info window](DocGisItemsTrkInfo#using-the-track-editinfo-window "Using the track edit/info window")
 
 **Trackpoint, elevation**
-:  [Edit track elevation](AdvTrkElevation#manually-edit-elevation-of-a-track-point "Edit track elevation")
-
-**Trackpoint, hidden**
-:  [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track "Select a range of a track") ⊞ [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints "Symbols for trackpoints")
-
-**Trackpoint, properties**
-:  [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data "Recorded and calculated track data")
+:  [Manually edit elevation of a track point](DocGisItemsTrkElevation#manually-edit-elevation-of-a-track-point "Manually edit elevation of a track point")
 
 **Trackpoint, remove extension**
-:  [Remove extension from all trackpoints](AdvTrkFilters#remove-extension-from-all-trackpoints "Remove extension from all trackpoints")
+:  [Remove extension from all trackpoints](DocGisItemsTrkFilters#remove-extension-from-all-trackpoints "Remove extension from all trackpoints")
 
 **Trackpoint, speed in track extension**
-:  [GPXTPX track extension](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed "Speed in GPXTPX track extension")
+:  [What is the difference between speed and gpxtpx:speed?](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed "What is the difference between speed and gpxtpx:speed?")
 
-**Trackpoint, used symbols/icons**
-:  [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints "Symbols for trackpoints")
+**Traveling salesman problem**
+:  [Optimize route](DocGisItemsRte#optimize-route "Optimize route")
 
 **Type file, change map layout**
-:  [Change vector map layout](DocFaqMaps#how-to-change-the-layout-of-vector-maps "Change vector map layout")
+:  [How to change the layout of vector maps?](DocFaqMaps#how-to-change-the-layout-of-vector-maps "How to change the layout of vector maps?")
 
 
 ## U
@@ -1521,7 +1545,10 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Ubuntu-18](Ubuntu-18-HowTo "Ubuntu-18")
 
 **Undo, edit**
-:  [Undo/Redo](DocGisItemsEditMultiple#undoredo "Undo/Redo")
+:  [Undo/redo](DocGisItemsEditMultiple#undoredo "Undo/redo")
+
+**Undo, of data changes**
+:  [Undo & redo](DocGisItems#undo--redo "Undo & redo")
 
 **UTM, coordinates**
 :  [Projection and datum](AdvMapDetails#projection-and-datum "Projection and datum")
@@ -1534,53 +1561,50 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [DEM Files](DocBasicsMapDem#dem-files "DEM Files") ⊞ [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data")
 
 **VRT, for DEM file**
-:  [Use of VRT files](DocFaqMaps#is-it-possible-to-use-several-vrt-files "Use of several VRT files")
+:  [Is it possible to use several VRT files?](DocFaqMaps#is-it-possible-to-use-several-vrt-files "Is it possible to use several VRT files?")
 
 **VRT, for raster map**
-:  [Find raster map location](DocFaqMaps#how-to-find-the-location-of-a-raster-map "Find raster map location with gdalinfo") ⊞ [Use of raster maps](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "Use of Russian military raster maps")
+:  [How to find the location of a raster map?](DocFaqMaps#how-to-find-the-location-of-a-raster-map "How to find the location of a raster map?") ⊞ [How to use Russian military and similar raster maps with QMapShack?](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack "How to use Russian military and similar raster maps with QMapShack?")
 
 **VRT, get file info with gdalinfo**
-:  [Find raster map location](DocFaqMaps#how-to-find-the-location-of-a-raster-map "Find raster map location with gdalinfo")
+:  [How to find the location of a raster map?](DocFaqMaps#how-to-find-the-location-of-a-raster-map "How to find the location of a raster map?")
 
 **VRT, map**
-:  [Supported raster maps](DocBasicsMapDem#raster-maps "Supported raster maps")
+:  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
 
 **VRT, raster map**
-:  [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data") ⊞ [Maps in GDAL VRT format](DocBasicsMapDem#gdal-vrt-maps "Maps in GDAL VRT format")
+:  [GDAL *.vrt Maps](DocBasicsMapDem#gdal-vrt-maps "GDAL *.vrt Maps") ⊞ [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data")
 
 **VRT, use of GDALWarp vs. GDALBuildVRT**
-:  [Use of GDALWarp](DocFaqMaps#when-to-use-gdalwarp-to-get-vrt-file "Use of GDALWarp")
+:  [When to use GDALWarp to get VRT file?](DocFaqMaps#when-to-use-gdalwarp-to-get-vrt-file "When to use GDALWarp to get VRT file?")
 
 **VRT, use of several files**
-:  [Use of VRT files](DocFaqMaps#is-it-possible-to-use-several-vrt-files "Use of several VRT files")
+:  [Is it possible to use several VRT files?](DocFaqMaps#is-it-possible-to-use-several-vrt-files "Is it possible to use several VRT files?")
 
 
 ## W
 
 
 **Waypoint, assign DEM elevation**
-:  [Assign DEM elevation](AdvTrkElevation#assign-elevation-using-dem-data "Assign DEM elevation")
+:  [Assign elevation using DEM data](DocGisItemsTrkElevation#assign-elevation-using-dem-data "Assign elevation using DEM data")
 
 **Waypoint, attached to track**
-:  [Attach waypoint to track](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to a track to get additional track information")
+:  [Attach waypoints to track](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to track")
 
 **Waypoint, create from POI**
-:  [Create waypoint from POI](DocFaqHandling#how-to-create-waypoint-from-poi-point-of-interest-in-map "Create waypoint from POI")
-
-**Waypoint, create**
-:  [Waypoint](DocGisItemsNew#waypoint "Waypoint")
+:  [How to create waypoint from POI (point of interest) in map?](DocFaqHandling#how-to-create-waypoint-from-poi-point-of-interest-in-map "-")
 
 **Waypoint, custom icons**
 :  [Custom icons](DocGisItemsWpt#custom-icons "Custom icons")
 
 **Waypoint, details window**
-:  [View/edit waypoint](DocGisItemsWpt#view--edit-details "View/edit waypoint")
+:  [View & edit details](DocGisItemsWpt#view--edit-details "View & edit details")
 
 **Waypoint, distance**
-:  [Find waypoint distance](DocFaqHandling#how-to-find-distance-between-waypoints "Find waypoint distance")
+:  [How to find distance between waypoints](DocFaqHandling#how-to-find-distance-between-waypoints "How to find distance between waypoints")
 
 **Waypoint, edit window**
-:  [View/edit waypoint](DocGisItemsWpt#view--edit-details "View/edit waypoint")
+:  [View & edit details](DocGisItemsWpt#view--edit-details "View & edit details")
 
 **Waypoint, find info in web**
 :  [How to find information about a position (a POI) in the Web?](DocFaqMaps#how-to-find-information-about-a-position-a-poi-in-the-web "-")
@@ -1589,22 +1613,22 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Waypoints](DocGisItemsWpt "Waypoints")
 
 **Waypoint, move**
-:  [Move Waypoint](DocGisItemsWpt#move-waypoint "Move Waypoint")
+:  [Move waypoint](DocGisItemsWpt#move-waypoint "Move waypoint")
 
 **Waypoint, options**
 :  [Waypoints](DocGisItemsWpt "Waypoints")
 
 **Waypoint, photo album**
-:  [Photo album](DocGisItemsWpt#the-photo-album "Photo album")
+:  [The photo album](DocGisItemsWpt#the-photo-album "The photo album")
 
 **Waypoint, project (clone)**
-:  [Project Waypoint](DocGisItemsWpt#project-waypoint "Project Waypoint")
+:  [Project waypoint](DocGisItemsWpt#project-waypoint "Project waypoint")
 
 **Waypoint, proximity**
-:  [Find waypoint distance](DocFaqHandling#how-to-find-distance-between-waypoints "Find waypoint distance")
+:  [How to find distance between waypoints](DocFaqHandling#how-to-find-distance-between-waypoints "How to find distance between waypoints")
 
 **Waypoint, with blue icon**
-:  [Blue dot waypoint icons](DocFaqMaps#why-are-waypoints-shown-with-a-blue-dot-icon "Blue dot waypoint icons")
+:  [Why are waypoints shown with a blue dot icon?](DocFaqMaps#why-are-waypoints-shown-with-a-blue-dot-icon "Why are waypoints shown with a blue dot icon?")
 
 **Web search, find location info**
 :  [How to find information about a position (a POI) in the Web?](DocFaqMaps#how-to-find-information-about-a-position-a-poi-in-the-web "-")
@@ -1622,7 +1646,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Projection and datum](AdvMapDetails#projection-and-datum "Projection and datum")
 
 **Windows registry, use**
-:  [Command line options](DocCmdOptions "Command line options")
+:  [Command line parameters](DocCmdOptions "Command line parameters")
 
 **WMS, accessed with TMS**
 :  [Use WMS server as TMS server](DocMapsTipsOnline#use-wms-server-as-tms-server "Use WMS server as TMS server")
@@ -1631,13 +1655,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Use WMTS server as TMS server](DocMapsTipsOnline#use-wmts-server-as-tms-server "Use WMTS server as TMS server")
 
 **WMTS, for French IGN maps**
-:  [WMTS for French IGN maps](DocMapsTipsOnline#wmts-configuration-for-french-ign-maps "WMTS configuration for French IGN maps")
+:  [WMTS configuration for French IGN maps](DocMapsTipsOnline#wmts-configuration-for-french-ign-maps "WMTS configuration for French IGN maps")
 
 **WMTS, map**
-:  [Supported on-line maps](DocBasicsMapDem#online-maps "Supported on-line maps") ⊞ [WMTS Maps](DocBasicsMapDem#wmts-maps "WMTS Maps")
+:  [Online Maps](DocBasicsMapDem#online-maps "Online Maps") ⊞ [WMTS Maps](DocBasicsMapDem#wmts-maps "WMTS Maps")
 
 **WMTS, recommended map scale**
-:  [Change scale type](AdvMapDetails#map-scale-type "Change scale type (logarithmic/square)")
+:  [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
 **WMTS, server list**
 :  [Sources of WMTS and TMS map files](DocMapsTipsOnline#sources-of-wmts-and-tms-map-files "Sources of WMTS and TMS map files")
@@ -1652,19 +1676,16 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Workspace and database windows](AdvProjects#workspace-and-database-windows "Workspace and database windows")
 
 **Workspace, display ratings and keywords**
-:  [Tagging data](AdvDataHandling#tagging-data "Tagging data")
+:  [Tagging data](DocDataSearch#tagging-data "Tagging data")
 
 **Workspace, project in**
-:  [QMS workspace database](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data "QMS workspace database")
+:  [Why does QMapShack use a separate workspace.db to save data?](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data "Why does QMapShack use a separate workspace.db to save data?")
 
 **Workspace, purpose of**
-:  [QMS data selection](DocFaqData#why-are-there-no-checkboxes-for-data-in-workspace-projects "QMS data selection")
+:  [Why are there no checkboxes for data in workspace projects?](DocFaqData#why-are-there-no-checkboxes-for-data-in-workspace-projects "Why are there no checkboxes for data in workspace projects?")
 
 **Workspace, relation between database and workspace**
 :  [Workspace and Database](DocGisDatabaseWorkspaceDatabase "Workspace and Database") ⊞ [Workspace and database windows](AdvProjects#workspace-and-database-windows "Workspace and database windows")
-
-**Workspace, search data**
-:  [Search workspace](AdvDataHandling#searching-data-in-the-workspace "Search workspace")
 
 **Workspace, setup**
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")

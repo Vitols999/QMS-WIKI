@@ -1,4 +1,4 @@
-[Prev](DocActivityPlanning) (Discussion of extended activity system) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Hotkeys) [Next](AxHotkeys)
+[Prev](DocActivityPlanning) (Discussion of extended activity system) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (How to piss off open source developers) [Next](DocPissOffDevelopers)
 - - -
 
 ***Table of contents***
@@ -22,4 +22,4 @@ Articles currenly being developed:
 None
 
 - - -
-[Prev](DocActivityPlanning) (Discussion of extended activity system) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Hotkeys) [Next](AxHotkeys)
+[Prev](DocActivityPlanning) (Discussion of extended activity system) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (How to piss off open source developers) [Next](DocPissOffDevelopers)

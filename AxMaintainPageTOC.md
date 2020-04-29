@@ -75,7 +75,7 @@ The following limitations hold true for the script and the handled MD files:
     * `C1.) Compile the GDAL library, http://www.gdal.org/` (special characters and link)
     * `The _Markdown_ Language` (italics)
     * `The ``markdown`` language in action` (code)
-    * `![EditDetails](images/DocGisItemsWpt/EditDetails.png) View / Edit Details` (image link)  
+    * `![EditDetails](images/icons/EditDetails.png) View / Edit Details` (image link)  
      *Remark:* If `EditDetails` appears in front of `View / Edit Details`, then referenced image file is not found and instead of the image there appears the supplied image title.
     * `Only lowercase German non-ASCII: Lüdenscheid` (works with Google Chrome browser, too)
     * `Spanish and German characters: Äáäéíñóöúü` (works in GitHub, not with Chrome)

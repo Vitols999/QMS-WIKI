@@ -94,6 +94,9 @@
 #   This doesn't hold true for the Qt help `assistant` coming with Qt5.14.0 for Windows. 
 #   Therefore, images having a width exceeding a certain  threshold get an additional 
 #   width attribute to force the Qt help browser to resize the image. 
+# * `AxWikiImages.md/.html`: Table format change: in the first column now no more link to an 
+#   image file - Qt Help assitant does display image (binary) content instead of image (different 
+#   to behavior in Firefox).
 # * The TOC of a Qt help page is built with the help of the TOC extension in the 
 #   markdown package when converting .md to .html files.
 # * The contents tree of Qt help is built from `AxAdvToc.md` and `QMapTool/QMTAxAdvToc.md`.
@@ -107,6 +110,8 @@
 # * The Github wiki merges the QMS and QMT part filenames into one large list of filenames. 
 #   This implies, that filenames in the complete Wiki must be unique. To achieve this, some 
 #   filenames start with a `QMT` prefix.
+# * Qt help for QMS and QMT is split into 2 separate packages. References/links from one part 
+#   to the other should use a reference to `https://github.com/Maproom/qmapshack/wiki/...`.
 # * Images for the QMS part are located in child folders of the `images` folder.
 # * Only files in the root directory and the `QMapTool`, `images`, and `Downloads` are used when preparing Qt help.
 
@@ -121,7 +126,7 @@ import xml.etree.ElementTree as ET
 # ## Configuration
 
 # define maximum number of levels in TOC (= TOCDEPTH//4)
-TOCDEPTH = 8
+TOCDEPTH = 12
 
 QMSBASEDIR = os.getcwd()                      # location of local copy of QMS wiki
 

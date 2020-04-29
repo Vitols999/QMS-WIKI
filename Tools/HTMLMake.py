@@ -142,6 +142,9 @@ class AddHtmlExt(Preprocessor):
 
         ReDownloads = re.compile('((\]\(Downloads/[^\.]+)\.[^\)]+)\)')
                                              # matches link to Downloads folder
+            
+        ReRefLnk = re.compile('''^(\[[^\]]+\]:)\s+(images/)''')   # matches start of link reference for image
+        ReRefLnkQMT = re.compile('''^(\[[^\]]+\]:)\s+(QMapTool/images/)''')   # QMT: matches start of link reference for image
 
         ReWholeImg = re.compile('(!\\[[^\\]]+\\]\\(([^ \)]+)[^\\)]*\\))')
         # matches img link in: 'aaa ![Grid tool](QMapTool/images/ETH_GridTool.jpg "Grid tool EPSG") ccc'
@@ -166,6 +169,14 @@ class AddHtmlExt(Preprocessor):
                                              # insert the width info (extended MD syntax!) into markdown link
                         line = ReWholeImg.sub(r'\1{{: width="{}"}}'.format(MAXWIDTH), line)
 
+            rr = ReRefLnk.search(line)
+            if rr:
+                line = ReRefLnk.sub(r"\1 ../../\2", line)  # adjust reference to link
+
+            rr = ReRefLnkQMT.search(line)                   # adjust reference to link for QMT
+            if rr:
+                line = ReRefLnk.sub(r"\1 ../../../\2", line)
+                
             if "](Downloads/" in line:       # adjust link in case of WMTS;TMS, ... file
                 line = ReDownloads.sub(r"\2)", line)  # remove .wmts, .tms, ... extensions
 

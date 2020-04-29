@@ -1,4 +1,4 @@
-[Prev](DocHandleGpxFiles) (Handle GPX and QMS files) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Tracks, Waypoints & Co) [Next](DocGisItems)
+[Prev](DocDataSearch) (Search data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Data in QMapShack) [Next](DocGisItems)
 - - -
 
 ***Table of contents***
@@ -58,4 +58,4 @@ The search results are displayed as child items (waypoints) of the search projec
 
 
 - - -
-[Prev](DocHandleGpxFiles) (Handle GPX and QMS files) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Tracks, Waypoints & Co) [Next](DocGisItems)
+[Prev](DocDataSearch) (Search data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Data in QMapShack) [Next](DocGisItems)

@@ -36,7 +36,7 @@ The provided name must be unique.
 
 | | |
 |-|-|
-|![Create new database](images/DocGisDatabaseAddRemove/Add.png "Create new database")| Create a new database file|
+|![Create new database](images/icons/Add.png "Create new database")| Create a new database file|
 |![Add existing DB](images/DocGisDatabaseAddRemove/PathBlue.png "Add existing DB")| Add an existing database file|
 
 

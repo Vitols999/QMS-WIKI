@@ -1,4 +1,4 @@
-[Prev](DocPlayground) (Playground - start your new Wiki page) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Main and context menu overview) [Next](AxMenuStructure)
+[Prev](DocPissOffDevelopers) (How to piss off open source developers) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Main and context menu overview) [Next](AxMenuStructure)
 - - -
 
 # Hotkeys used in QMapShack
@@ -43,4 +43,4 @@ CTRL-R | Select range of track points.
 When in text edit fields the usual hotkeys can be used.
 
 - - -
-[Prev](DocPlayground) (Playground - start your new Wiki page) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Main and context menu overview) [Next](AxMenuStructure)
+[Prev](DocPissOffDevelopers) (How to piss off open source developers) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Main and context menu overview) [Next](AxMenuStructure)

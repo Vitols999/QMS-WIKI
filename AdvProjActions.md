@@ -169,7 +169,7 @@ The layout of the information displayed in the lower part of the roadbook depend
     
 * `Sort along track (multiple)`
 
-    Show a list of all tracks together with the waypoints/geocaches [attached to the track](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information). This list shows also all [trackpoints with additional information](AdvTrkInfo#trackpoint-information-for-highlighted-tracks)). If a track passes several times through a point (i.e. if the track has loops), then the point is shown repeatedly. For each point its distance, ascent and descent
+    Show a list of all tracks together with the waypoints/geocaches [attached to the trackDocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information). This list shows also all [trackpoints with additional information](DocGisItemsTrkInfo#trackpoint-information-for-highlighted-tracks)). If a track passes several times through a point (i.e. if the track has loops), then the point is shown repeatedly. For each point its distance, ascent and descent
 
     * from the start of the track,
     * to the next point, and

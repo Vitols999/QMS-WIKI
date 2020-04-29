@@ -28,10 +28,36 @@ and the files are loaded there silently.
 
 ## Why does QMS ask for authorization on start-up (Ubuntu version)
 
-When starting QMS with Ubuntu 18.04 it may happen that a user authorization is required.
+When starting QMS with Ubuntu 18.04 it may happen that a user authorization/authentication is required.
 
 The reason for this is, that QMapShack probes all block devices for GPS devices by mounting them, analyzing their file structure and unmounting them again. This is also done for devices containing the system, as there is no known way to distinguish them from a GPS device. Usually, the unmount for system drives is expected to fail. Most likely, some Ubuntu window managers interfere and ask for authorization.  
 
+The following approach for avoiding this authorization was recommended in the [QMS issue tracker](https://github.com/Maproom/qmapshack/issues/156):
+
+* Open the file 
+
+        /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy
+      
+    in an editor.
+    
+* Locate the definition of the action 
+
+        org.freedesktop.udisks2.filesystem-unmount-others
+      
+    which starts with the line 
+
+        <action id="org.freedesktop.udisks2.filesystem-unmount-others">
+    
+* Locate the end of this action at the line `</action>`.
+* Replace the line 
+
+        <allow_active>auth_admin_keep</allow_active> 
+    
+    located 2 lines before the end of the action by the line 
+  
+        <allow_active>yes</allow_active> 
+
+* Do not forget to backup original file!
 
 ## User-relevant QMapShack directories (Windows version)
 

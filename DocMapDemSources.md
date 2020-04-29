@@ -60,7 +60,6 @@ Some more maps can be found in the [package online.zip](http://www.mtb-touring.n
 |:-------------|:--------|:------|:---------|:--------------|
 | **Europe** | 
 | Leisure map | [Leisure map](http://download.freizeitkarte-osm.de/garmin/latest/) | offline, vector | select country or region and use `gmapsupp.img` format |  |
-| OpenTopoMap contour line overlay | [European online DEM](Downloads/Europe_Online_DEM25.vrt) | online | save the VRT file shown in the link and activate it | [here](DocMapsTipsRasterDEM#european-dem-data) |
 | European online DEM | [OpenTopoMap contour line overlay](http://garmin.opentopomap.org/#download) | offline, vector | select your region and download the file in the Garmin format. The downloaded file contains both a base map and a contour line overlay map in the `gmapsupp.img` format. |  |
 | Alps| file `Alpenkarte.tms` in [package online.zip](http://www.mtb-touring.net/wordpress/wp-content/uploads/Onlinemaps.zip) | online, raster created from vector data | covers the whole Alps region, 2 layers for summer and winter |   |
 | Austria | file `BasemapAT.wmts` in [package online.zip](http://www.mtb-touring.net/wordpress/wp-content/uploads/Onlinemaps.zip) | online, raster | 5 different layers including street map and orthofotos |  |

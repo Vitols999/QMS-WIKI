@@ -1,4 +1,4 @@
-[Prev](DocWorkingWithProjects) (Working with Projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Geosearch) [Next](DocSearchGoogle)
+[Prev](DocWorkingWithProjects) (Working with Projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Search data) [Next](DocDataSearch)
 - - -
 
 ***Table of contents***
@@ -52,4 +52,4 @@ You can either save all files in the workspace via _Save All GIS Data_. Or you c
 ![Alt text](images/DocHandleGpxFiles/maproom4.png)
 
 - - -
-[Prev](DocWorkingWithProjects) (Working with Projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Geosearch) [Next](DocSearchGoogle)
+[Prev](DocWorkingWithProjects) (Working with Projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Search data) [Next](DocDataSearch)

@@ -1,4 +1,4 @@
-[Prev](DocMapsTipsOnline) (Tips & tricks for online maps) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Data handling) [Next](AdvDataHandling)
+[Prev](DocMapsTipsOnline) (Tips & tricks for online maps) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Overview of setup and configuration options) [Next](AdvSetup)
 - - -
 
 ***Table of contents***
@@ -387,4 +387,4 @@ error_check $?
 ```
 
 - - -
-[Prev](DocMapsTipsOnline) (Tips & tricks for online maps) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Data handling) [Next](AdvDataHandling)
+[Prev](DocMapsTipsOnline) (Tips & tricks for online maps) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Overview of setup and configuration options) [Next](AdvSetup)

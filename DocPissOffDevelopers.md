@@ -1,3 +1,13 @@
+[Prev](DocPlayground) (Playground - start your new Wiki page) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Hotkeys) [Next](AxHotkeys)
+- - -
+
+***Table of contents***
+
+* [How to piss off open source developers](#how-to-piss-off-open-source-developers)
+
+
+* * * * * * * * * *
+
 # How to piss off open source developers
 
 ...ah let me explain this a bit first. This "list" was a result of a very 
@@ -55,3 +65,7 @@ in one sentence. That text of conduct you get when creating a bug is
 really meant seriously.
 
 Now, go and give hell to your favorite open source developer! :wink: 
+
+
+- - -
+[Prev](DocPlayground) (Playground - start your new Wiki page) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Hotkeys) [Next](AxHotkeys)

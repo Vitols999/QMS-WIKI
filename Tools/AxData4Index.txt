@@ -6,15 +6,15 @@ ___Basic usage___
 * [Installing QMapShack](Don'tInsertIndexEntriesHere)
     * [Install QMapShack](DocGetQMapShack)
         * [Windows](DocGetQMapShack#windows)
-        + Windows installation
+        Windows installation
             1. Installation|Windows
             
         * [OS X](DocGetQMapShack#os-x)
-        + OS X installation
+        OS X installation
             1. Installation|OS X
             
         * [Linux](DocGetQMapShack#linux)
-        + Linux installation
+        Linux installation
             1. Installation|Linux
         
             * [From distribution's package system](DocGetQMapShack#from-distributions-package-system)
@@ -155,7 +155,7 @@ ___Basic usage___
             1. DEM|add elevation data
         
     * [Command line parameters](DocCmdOptions)
-    + Command line options
+    Command line options
         1. Command line|options
         1. QMapShack|logfile
         1. QMapShack|INI file    
@@ -192,13 +192,13 @@ ___Basic usage___
             
             * [Map formats](DocBasicsMapDem#map-formats)
                 * [Vector Maps](DocBasicsMapDem#vector-maps)
-                + Supported vector maps
+                Supported vector maps
                     1. Map|Garmin map image
                     1. Garmin|map images
                     1. Map|vector map
                     
                 * [Raster Maps](DocBasicsMapDem#raster-maps)
-                + Supported raster maps
+                Supported raster maps
                     1. Map|raster map
                     1. Map|VRT
                     1. VRT|map
@@ -210,7 +210,7 @@ ___Basic usage___
                     
                     
                 * [Online Maps](DocBasicsMapDem#online-maps)
-                + Supported on-line maps
+                Supported on-line maps
                     1. WMTS|map
                     1. Map|WMTS
                     1. TMS|map
@@ -231,7 +231,7 @@ ___Basic usage___
                 1. Projection|Mercator                
                 
             * [GDAL *.vrt Maps](DocBasicsMapDem#gdal-vrt-maps)
-            + Maps in GDAL VRT format
+            Maps in GDAL VRT format
                 1. GDAL|VRT 
                 1. VRT|raster map
  
@@ -310,198 +310,502 @@ ___Basic usage___
             * [Save GPX Files](DocHandleGpxFiles#save-gpx-files)
                 1. GPX|save as
                 
-        
+        * [Search data](DocDataSearch)
+            * [Data selection and handling in map views](DocDataSearch#data-selection-and-handling-in-map-views)
+            + Data handling in views  
+                1. Data selection|in map views
+                1. Map view|data selection in view
+
+            
+            * [Tagging data](DocDataSearch#tagging-data)
+                1. Tag|of data item
+                1. Keyword|of data item
+                1. Data|add tag
+                1. Data|add keyword & rating
+                1. Keyword|add to data
+                1. Rating|add to data
+                1. Workspace|display ratings and keywords        
+                
+                
+            * [Searching data in the workspace](DocDataSearch#searching-data-in-the-workspace)
+                * [General description](DocDataSearch#general-description)
+                    1. Search data|general description
+                    1. Data|search for data
+                    
+                * [Object types for properties](DocDataSearch#object-types-for-properties)
+                * [More details and remarks](DocDataSearch#more-details-and-remarks)
+                * [Examples](DocDataSearch#examples)
+                    1. Search data|examples
+                    
+                    * [Waypoint](DocDataSearch#waypoint)
+                    * [Track](DocDataSearch#track)
+                    * [Geocache](DocDataSearch#geocache)
+            * [Searching in projects](DocDataSearch#searching-in-projects)
+
+
         * [Geosearch](DocSearchGoogle)
             1. Google maps|search
             1. OSM Nomatim|search
             1. Geonames|search
             1. Geosearch| with Google, Geonames, Nomatim
             
-    * [Tracks, Waypoints & Co](DocGisItems)
-        1. GIS data|general remarks
-        1. GIS data|history
-        1. GIS data|locked
-        1. GIS data|recorded
-        
-        * [Cluttered items](DocGisItems#cluttered-items)
-            1. GIS data|select cluttered
             
-        * [Draw Order & Copy Items](DocGisItems#draw-order--copy-items)
-            1. GIS data|draw order
-             
-        * [History of Changes & Undo/Redo](DocGisItems#history-of-changes--undoredo)
-            1. GIS data|history of changes
-            1. GIS data|undo & redo            
-            
-        * [Create new tracks, waypoints etc.](DocGisItemsNew)
-            1. GIS data|create
-            
-            * [Waypoint](DocGisItemsNew#waypoint)
-                1. Waypoint|create
-                
-            * [Track](DocGisItemsNew#track)
-                1. Track|create
-                
-            * [Area](DocGisItemsNew#area)
-                1. Area|create
-                
-        * [Tracks](DocGisItemsTrk2)
-            1. Track|options
-            
-            * [Track Details Dialog](DocGisItemsTrk2#track-details-dialog)
-                1. Track|details dialog
-                
-                * [Graph Area](DocGisItemsTrk2#graph-area)
-                    1. Track|graphs
-                    
-                * [Info](DocGisItemsTrk2#info)
-                + Track info window
-                    1. Track|info tab
-                    
-                * [Style](DocGisItemsTrk2#style)
-                    1. Track|style tab
-                    
-                * [Graphs](DocGisItemsTrk2#graphs)
-                    1. Track|graphs tab
-                    
-                * [Activity](DocGisItemsTrk2#activity)
-                + Track activity
-                ++ Track details, activity tab
-                    1. Track|activity tab 
-                    1. Track|assign activity
-                    1. Activity|of track
-                    1. Activity|assign color to
+    * [Data in QMapShack](DocGisItems)
+        * [Introduction](DocGisItems#introduction)
+            1. GIS data|general remarks
 
-                * [Points](DocGisItemsTrk2#points)
-                + Track points tab
-                ++ Track details, points tab
-                    1. Track|points tab
-                    
-                * [Filter](DocGisItemsTrk2#filter)
-                + Track filter tab
-                ++ Track details, filter tab
-                    1. Track|filters tab
-                    
-                * [History](DocGisItemsTrk2#history)
-                + Track history tab
-                ++ Track details, history tab
-                    1. Track|history tab
-                    
-            * [Track Filter](DocGisItemsTrk2#track-filter)
-                * [Visible Points](DocGisItemsTrk2#visible-points)
-                + Track points filter
-                    1. Filter|track points
-                    1. Track|track points filter
-                    1. Douglas-Peuker|filter
-                    1. Filter|Douglas-Peuker
-                    
-                * [Elevation](DocGisItemsTrk2#elevation)
-                + Track elevation filter
-                    1. Filter|elevation
-                    1. Elevation|Filter
-                    1. Track|elevation filter                    
-                    
-                * [Timestamps](DocGisItemsTrk2#timestamps)
-                + Track timestamps filter
-                    1. Filter|timestamps
-                    1. Track|timestamps filter
-                    
-                * [Extensions](DocGisItemsTrk2#extensions)
-                + Track extensions filter
-                    1. Filter|extensions
-                    1. Track|extensions filter
-                    
-                * [Split Track](DocGisItemsTrk2#split-track)
-                    1. Filter|split track
-                    1. Track|split filter
-                    
-        * [Routes](DocGisItemsRte)
-            * [Create route](DocGisItemsRte#create-route)
-                1. Route|create
+        * [Sources of data](DocGisItems#sources-of-data)
+            1. Data|sources of data
+ 
+            
+            * [File sources](DocGisItems#file-sources)
+                1. GPX file|as data source  
                 
-            * [Routing Engines](DocGisItemsRte#routing-engines)        
-                * [Routino](DocGisItemsRte#routino)
-                + Routino router
-                    1. Routing engine|Routino
-                    1. Routino|routing engine
+            * [GPS devices](DocGisItems#gps-devices)
+                1. GPS device|as data source
+                
+            * [Databases](DocGisItems#databases)
+        * [Save data](DocGisItems#save-data)
+            1. Data|save
+            
+        * [Data actions](DocGisItems#data-actions)
+            * [General actions](DocGisItems#general-actions)
+                1. Data|general actions
+                
+            * [Create data](DocGisItems#create-data)
+                1. GIS data|create
+                1. Data|create
+                
+            * [Undo & redo](DocGisItems#undo--redo)
+                1. Data|history of changes
+                1. Data|undo & redo            
+                1. Undo|of data changes
+                1. Redo|of data changes
+                1. Data|history
+                1. History|of data changes
+                1. History|cut history list
+
+
+            * [Other actions](DocGisItems#other-actions)
+            
+    * [Create and edit multi-point data)](DocGisItemsEditMultiple)
+        * [Create new data](DocGisItemsEditMultiple#create-new-data)
+            1. Multi-point data|create
+            
+        * [Line edit mode](DocGisItemsEditMultiple#line-edit-mode)
+            1. Line edit mode|for multi-point data
+            1. Multi-point data|line edit mode
+            1. Edit mode|for items with multiple points
+            
+        * [Line edit toolbar](DocGisItemsEditMultiple#line-edit-toolbar)
+        * [Save data](DocGisItemsEditMultiple#save-data)
+        * [Edit line points](DocGisItemsEditMultiple#edit-line-points)
+            1. Edit|points of lines
+            1. Multi.point data|edit
+            
+        * [Routing options](DocGisItemsEditMultiple#routing-options)
+            1. Line edit mode|routing options
+            1. Routing options|in line edit mode
+            
+        * [Undo/redo](DocGisItemsEditMultiple#undoredo)
+            1. Data|undo & redo            
+            1. Undo|edit
+            1. Redo|edit
+            1. Edit|undo
+            1. Edit|redo                
+            
+
+    * [Tracks](DocGisItemsTrk)
+        * [General information about tracks](DocGisItemsTrk#general-information-about-tracks)
+            * [Definition of a track](DocGisItemsTrk#definition-of-a-track)
+                1. Track|definition
+                
+            * [Tracks vs. routes](DocGisItemsTrk#tracks-vs-routes)
+                1. Track|compared with route
+                1. Route|compared with track
+                
+            * [Recorded and calculated tracks](DocGisItemsTrk#recorded-and-calculated-tracks)
+                1. Track|recorded data
+                1. Track|calculated data
+                1. Recorded data|of track
+                1. Calculated data|of track
+                
+        * [Sources of tracks](DocGisItemsTrk#sources-of-tracks)
+            1. Track|data sources
+            
+        * [Create track](DocGisItemsTrk#create-track)
+            1. Track|create
+            
+        * [View & edit details](DocGisItemsTrk#view--edit-details)
+            1. Track|view details
+            1. Track|edit
+            1. Data|select cluttered
+            1. Track|info window
+            1. Track|graphs
+            1. Track|info tab
+            1. Track|style tab
+            1. Track|graphs tab
+            1. Track|activity tab 
+            1. Track|assign activity
+            1. Activity|of track
+            1. Activity|assign color to
+            1. Track|points tab
+            1. Track|filters tab
+            1. Track|history tab
+
+            
+        * [Handling of track segments ](DocGisItemsTrk#handling-of-track-segments)
+            1. Track segments|handling of
+            1. Segments|of track
+            
+        * [Avoid and remove invalid data in a track](DocGisItemsTrk#avoid-and-remove-invalid-data-in-a-track)
+        + Invalid track data
+            1. Track|invalid data        
+            1. DEM|invalid elevation
+            
+        * [Other actions](DocGisItemsTrk#other-actions)
+            * [Cut track](DocGisItemsTrk#cut-track)
+                1. Track|cut
+                
+            * [Combine tracks](DocGisItemsTrk#combine-tracks)
+                1. Track|combine several
+           
+            * [Attach waypoints to a track to get additional track information](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information)
+            + Attach waypoints to track
+                1. Track|attach waypoint
+                1. Waypoint|attached to track
+                1. Project|roadbook
+                1. Project|edit window
+                1. Edit window|of project
+                
+            * [Assign colors to track activities](DocGisItemsTrk#assign-colors-to-track-activities)
+                1. Track activity|assign color
+                
+            
+        * [Tracks and no-go areas](DocGisItemsTrk#tracks-and-no-go-areas)
+            1. Track|used as no-go line
+            1. No-go|use track
+        
+    * [Track information](DocGisItemsTrkInfo)
+            1. Track|get information
+    
+        * [Track states](DocGisItemsTrkInfo#track-states)
+                1. Track|selected/highlighted
+        
+        * [Trackpoint information for highlighted tracks](DocGisItemsTrkInfo#trackpoint-information-for-highlighted-tracks)
+            * [Overview](DocGisItemsTrkInfo#overview)
+                    1. Trackpoint|additional description
+            
+            * [Adding trackpoint information](DocGisItemsTrkInfo#adding-trackpoint-information)
+            * [Get additional track information in highlighted state](DocGisItemsTrkInfo#get-additional-track-information-in-highlighted-state)
+            * [Select display of track information in main menu](DocGisItemsTrkInfo#select-display-of-track-information-in-main-menu)
+                    1. Track|summary information
+                    1. Track|trackpoint description list
+            
+        * [Additional sources of track information](DocGisItemsTrkInfo#additional-sources-of-track-information)
+            * [Track information in normal state](DocGisItemsTrkInfo#track-information-in-normal-state)
+                * [Using the workspace window](DocGisItemsTrkInfo#using-the-workspace-window)
+                * [Using the track edit/info window](DocGisItemsTrkInfo#using-the-track-editinfo-window)
+                        1. Trackpoint|edit/delete description
+                
+            * [Track information in selected state](DocGisItemsTrkInfo#track-information-in-selected-state)
+
+    * [Working with track graphs](DocGisItemsTrkGraphs)
+        * [Zoom track graphs](DocGisItemsTrkGraphs#zoom-track-graphs)
+                1. Track graph|zoom
+        
+        * [Select a scale range for track data display](DocGisItemsTrkGraphs#select-a-scale-range-for-track-data-display)
+                1. Track graph|scales
+                
+    * [Editing elevation data](DocGisItemsTrkElevation)
+        * [Manually edit elevation of a track point](DocGisItemsTrkElevation#manually-edit-elevation-of-a-track-point)
+                1. Trackpoint|elevation
+                1. Elevation|edit
+        
+        * [Assign elevation using DEM data](DocGisItemsTrkElevation#assign-elevation-using-dem-data)
+                1. Track|assign DEM elevation
+                1. Waypoint|assign DEM elevation
+        
+        * [Handle invalid elevation data](DocGisItemsTrkElevation#handle-invalid-elevation-data)
+                1. Elevation|invalid data
+                1. Elevation|filter
+                1. Filter|elevation
+                1. DEM|elevation
+                1. Elevation|DEM data
+
+    * [Track ranges](DocGisItemsTrkRange)
+        * [Select track range in map view](DocGisItemsTrkRange#select-track-range-in-map-view)
+            1. Track|range
+            1. Range|of track
+            1. Track range|show/hide points
+           
+        * [Select track range in edit window](DocGisItemsTrkRange#select-track-range-in-edit-window)
+        * [Actions for a track range](DocGisItemsTrkRange#actions-for-a-track-range)
+            * [Hide or show trackpoints in range](DocGisItemsTrkRange#hide-or-show-trackpoints-in-range)
+                1. Track range|show/hide points
+
+            * [Assign activity to range](DocGisItemsTrkRange#assign-activity-to-range)
+                1. Activity|assign to track range
+                1. Track range|assign activity
+
+            * [Copy or delete trackpoints in range](DocGisItemsTrkRange#copy-or-delete-trackpoints-in-range)
+        * [Select a range of a track in edit mode](DocGisItemsTrkRange#select-a-range-of-a-track-in-edit-mode)
+            * [Move track range to new location](DocGisItemsTrkRange#move-track-range-to-new-location)
+                1. Track|move range 
+
+
+
+    * [Track filters](DocGisItemsTrkFilters)
+        * [Point filters](DocGisItemsTrkFilters#point-filters)
+            * [Douglas-Peuker filter](DocGisItemsTrkFilters#douglas-peuker-filter)
+                1. Douglas-Peuker|filter
+                1. Filter|Douglas-Peuker
+
+            * [Zero speed drift knot filter](DocGisItemsTrkFilters#zero-speed-drift-knot-filter)
+                1. Track|zero speed knot filter
+                1. Filter|zero speed knot
+            
+        * [Elevation filters](DocGisItemsTrkFilters#elevation-filters)
+                1. Filter|elevation
+                1. Track|elevation filter                
+        
+            * [Median filter](DocGisItemsTrkFilters#median-filter)
+                    1. Track|median filter
+                    1. Filter|median
+            
+            * [Interpolation filter](DocGisItemsTrkFilters#interpolation-filter)
+                    1. Track|interpolation filter
+                    1. Filter|interpolation
+            
+            * [Replace elevation data](DocGisItemsTrkFilters#replace-elevation-data)
+                    1. Filter|replace elevation
+                    1. Track|replace elevation filter
+            
+            * [Offset elevation](DocGisItemsTrkFilters#offset-elevation)
+                    1. Filter|offset elevation
+                    1. Track|offset elevation filter
+            
+        * [Timestamps filters](DocGisItemsTrkFilters#timestamps-filters)
+                1. Filter|timestamp
+                1. Track|timestamps filter
+        
+            * [Change time](DocGisItemsTrkFilters#change-time)
+                    1. Track|change start time
+                    1. Filter|change track start time
+            
+            * [Obscure timestamps](DocGisItemsTrkFilters#obscure-timestamps)
+                    1. Track|obscure timestamps
+                    1. Filter|obscure timestamps
+            
+            * [Change speed](DocGisItemsTrkFilters#change-speed)
+                    1. Track|change speed filter
+                    1. Filter|change speed        
+            
+                * [Constant](DocGisItemsTrkFilters#constant)
+                * [Cycling](DocGisItemsTrkFilters#cycling)
+                * [Hiking](DocGisItemsTrkFilters#hiking)
+        * [Miscellaneous filters](DocGisItemsTrkFilters#miscellaneous-filters)
+            * [Remove extension from all trackpoints](DocGisItemsTrkFilters#remove-extension-from-all-trackpoints)
+                    1. Filter|remove extension
+                    1. Track|remove extension filter
+                    1. Trackpoint|remove extension
+            
+            * [Split segments into tracks](DocGisItemsTrkFilters#split-segments-into-tracks)
+                    1. Filter|split segments
+                    1. Track|split segments filter
+                    1. Track segment|split segments to tracks
+                    1. Track|combine tracks
+            
+            * [Convert track subpoints to points](DocGisItemsTrkFilters#convert-track-subpoints-to-points)
+                    1. Subpoint|convert subpoint filter
+                    1. Track|convert subpoint filter
+            
+            * [Calculate terrain slope](DocGisItemsTrkFilters#calculate-terrain-slope)
+                    1. Slope|calculate terrain slope
+                    1. Terrain slope|calculate
+                    1. GPX|extensions
+            
+            * [Change start point](DocGisItemsTrkFilters#change-start-point)
+                    1. Track|change start
+                    1. Filter|change track start
+            
+            * [Cycling energy use](DocGisItemsTrkFilters#cycling-energy-use)
+                    1. Track|cycling energy use
+                    1. Cycling energy|calculate use
+
+
+    * [Routes and routing](DocGisItemsRte)
+        * [Introduction](DocGisItemsRte#introduction)
+            1. Route|definition
+            
+        * [Create route](DocGisItemsRte#create-route)
+            1. Route|create
+
+            * [Select autorouting](DocGisItemsRte#select-autorouting)
+                1. Route|autorouting
+                1. Autorouting|with a route
+                
+            * [Use list of routing points](DocGisItemsRte#use-list-of-routing-points)
+                1. Route|create from waypoints
+                
+            * [Use map window](DocGisItemsRte#use-map-window)
+                1. Route|create in map window
+                
+        * [View & edit details](DocGisItemsRte#view--edit-details)
+            1. Route|view details
+            1. Route|edit
+            
+        * [Get route instructions](DocGisItemsRte#get-route-instructions)
+            1. Route|instructions
+            
+        * [Save route in GPX file](DocGisItemsRte#save-route-in-gpx-file)
+            1. Route|save in GPX file
+            1. GPX file|save route
+            
+        * [Other actions](DocGisItemsRte#other-actions)
+            1. Route|reset
+            1. Route|calculate
+            1. Route|convert to track
+            
+        * [Optimize route](DocGisItemsRte#optimize-route)
+            1. Route|optimize
+            1. Route|traveling sales man problem
+            1. Traveling salesman problem
+
+    * [Routing in QMapShack](DocGisItemsRouting)
+        * [Description of routing methods in QMapShack](DocGisItemsRouting#description-of-routing-methods-in-qmapshack)
+        + Routing methods        
+            1. Routing|off-road routing
+            1. Routing|automatic routing
+            1. Routing|using vector map            
+            1. Routing|track routing
+            1. Routing|methods
+            
+        * [Configuration of routing engines](DocGisItemsRouting#configuration-of-routing-engines)
+            1. Router|configuration
+            1. Configuration|of routers
+            
+            * [BRouter](DocGisItemsRouting#brouter)
+                1. BRouter|configuration
+                1. Configuration|BRouter
+               
+            * [Routino](DocGisItemsRouting#routino)
+                1. Routino|configuration
+                1. Configuration|Routino
                     1. Off-line routing|Routino
                     1. Routino|routing database                    
-                    
-                    * [Create Own Routino database](DocGisItemsRte#create-own-routino-database)
-                    + Create Routino database
-                    ++ Create Routino database using planetsplitter
-                        1. Routino|create database
+                
+                
+                * [Create Routino database](DocGisItemsRouting#create-routino-database)
+                        1. Routino|create routing database
                         1. Routino|PBF file
                         1. PBF|Routino
-                        1. Menu|Tool - Create Routino Database
                         1. Planetsplitter|create routing database
-                        
-                * [MapQuest](DocGisItemsRte#mapquest)
-                + MapQuest router
-                    1. Routing engine|MapQuest
-                    1. MapQuest|routing engine
+                    
+                    
+            * [MapQuest](DocGisItemsRouting#mapquest)
+                    1. MapQuest|configuration
+                    1. Configuration|MapQuest
+                    1. Router|MapQuest
+                    1. MapQuest|router
                     1. On-line routing|MapQuest
                     
-                    
+        * [Comparison of routing engines](DocGisItemsRouting#comparison-of-routing-engines)
+            1. Router|compare properties
+            
+        * [Other routing information](DocGisItemsRouting#other-routing-information)
+        * [Using no-go areas and lines](DocGisItemsRouting#using-no-go-areas-and-lines)
+            1. No-go area/line|routing
+            1. Routing|with no-go areas/lines
+            1. Avoid area|routing
+
+            * [Purpose of no-go areas and lines](DocGisItemsRouting#purpose-of-no-go-areas-and-lines)
+            * [Defining no-go areas/lines](DocGisItemsRouting#defining-no-go-areaslines)
+                1. No-go area|define
+                
+                * [Disc-shaped no-go areas](DocGisItemsRouting#disc-shaped-no-go-areas)
+                * [Polygon-shaped no-go areas  ](DocGisItemsRouting#polygon-shaped-no-go-areas)
+                * [No-go lines](DocGisItemsRouting#no-go-lines)
+            * [Activate no-go areas/lines](DocGisItemsRouting#activate-no-go-areaslines)
+                1. No-go area|(de-)activate
+                
+                * [Routing with no-go areas/lines](DocGisItemsRouting#routing-with-no-go-areaslines)
+                    1. No-go area|routing
+         
         * [Waypoints](DocGisItemsWpt)
             1. Waypoint|get info
             1. Waypoint|options
             
-            * [View / Edit Details](DocGisItemsWpt#view--edit-details)
-            + View/edit waypoint
+
+            * [Create waypoint](DocGisItemsWpt#create-waypoint)
+            * [View & edit details](DocGisItemsWpt#view--edit-details)
                 1. Waypoint|details window
                 1. Waypoint|edit window
-                                
-                * [Custom Icons](DocGisItemsWpt#custom-icons)
-                + Custom icons
+                * [Custom icons](DocGisItemsWpt#custom-icons)
                     1. Waypoint|custom icons
                     
-                * [The Photo Album](DocGisItemsWpt#the-photo-album)
-                + Photo album
+                * [The photo album](DocGisItemsWpt#the-photo-album)
+                +Photo album
                     1. Waypoint|photo album
-                    
-            * [Move Waypoint](DocGisItemsWpt#move-waypoint)
-                1. Waypoint|move
-                
-            * [Project Waypoint](DocGisItemsWpt#project-waypoint)
-                1. Waypoint|project (clone)
-                
-            * [Geocaches](DocGisItemsWpt#geocaches)    
-                1. Geocache|as waypoint
-                1. Geocache|status
+    
+                * [Other actions](DocGisItemsWpt#other-actions)
+                    * [Move waypoint](DocGisItemsWpt#move-waypoint)
+                        1. Waypoint|move                    
+                    * [Project waypoint](DocGisItemsWpt#project-waypoint)
+                        1. Waypoint|project (clone)
+
+                    * [Remarks on other actions](DocGisItemsWpt#remarks-on-other-actions)
+                * [Geocaches](DocGisItemsWpt#geocaches)    
+                    1. Geocache|as waypoint
+                    1. Geocache|status
+
                 
         * [Areas](DocGisItemsArea)
-            1. Area|as map overlay
+            1. Area|definition
             
-            * [View / Edit Details](DocGisItemsArea#view--edit-details)
+            * [Create area](DocGisItemsArea#create-area)
+                1. Area|create
+            
+            * [View & edit details](DocGisItemsArea#view--edit-details)
                 1. Area|details view
                 1. Area|edit
                 
-        * [Edit items with multiple points (tracks, routes, areas)](DocGisItemsEditMultiple)
-        + Edit items with multiple points
-            1. Track|edit
-            1. Route|edit
-            1. Area|edit
-            1. Edit mode|for items with multiple points
+            * [Other actions](DocGisItemsArea#other-actions)
+
+
+    * [Realtime data](DocRealtime)
+        1. Realtime data|use in QMS
+        
+        * [General description](DocRealtime#general-description)
+
+        * [OpenSky flight data](DocRealtime#opensky-flight-data)
+            1. OpenSky|realtime data
+            1. Realtime data|OpenSky
             
-            * [Saving data](DocGisItemsEditMultiple#saving-data)
-                1. Track|save
-                1. Route|save
-                1. Area|save
+        * [GPS location data](DocRealtime#gps-location-data)    
+        
+            * [General remarks](DocRealtime#general-remarks)
+                1. NMEA|realtime data
                 
-            * [Edit line](DocGisItemsEditMultiple#edit-line)                
-                1. Track|edit
-                1. Route|edit
-                1. Area|edit
-                                
-            * [Routing](DocGisItemsEditMultiple#routing)
-                1. Routing|methods
+            * [GPS Tether on Android smartphones ](DocRealtime#gps-tether-on-android-smartphones)
+                1. GPS tether|realtime data
+                1. Realtime data|GPS tether
+
+            * [Using serial interface and Ncat (Windows OS)    ](DocRealtime#using-serial-interface-and-ncat-windows-os)
+            * [Python server for Linux-like OS](DocRealtime#python-server-for-linux-like-os)
+            * [Track replay](DocRealtime#track-replay)
+                1. GPX|data replay
+                1. Data replay|GPX
                 
-            * [Undo/Redo](DocGisItemsEditMultiple#undoredo)
-                1. Undo|edit
-                1. Redo|edit
-                1. Edit|undo
-                1. Edit|redo                
+            * [Using Garmin devices with Windows 10](DocRealtime#using-garmin-devices-with-windows-10) 
+                1. Garmin|realtime data   
+                1. Realtime data|Garmin devices                
+                
+            * [QMS as TCP client](DocRealtime#qms-as-tcp-client)
+            * [NMEA and other restrictions](DocRealtime#nmea-and-other-restrictions)  
+                1. NMEA|QMS restrictions
+        
+
             
     * [Database](DocGisDatabase)
         1. Database|
@@ -517,12 +821,12 @@ ___Basic usage___
                 1. Database|remove
             
                 * [SQLite](DocGisDatabaseAddRemove#sqlite)
-                + SQLite database
+                SQLite database
                     1. Database|SQLite
                     1. SQLite|database
                 
                 * [MySQL (>= 5.6.5)](DocGisDatabaseAddRemove#mysql--565)
-                + MySQL database
+                MySQL database
                     1. Database|MySQL
                     1. MySQL|database
 
@@ -535,12 +839,12 @@ ___Basic usage___
                 1. Database|search
                 
         * [Folders and Items](DocGisDatabaseFoldersItems)
-        + Database folders and items
+        Database folders and items
             1. Database|add folder
         
         * ['Lost & Found' Folder](DocGisDatabaseLostFound)
-        + Lost&found folder
-        ++ Purpose of lost and found folder
+        Lost&found folder
+        +Purpose of lost and found folder
             1. Database|lost & found folder
             
     * [GPS Devices](DocGisDevices)
@@ -549,8 +853,8 @@ ___Basic usage___
             1. GPS device|copy from/to
 
         * [Remark about Garmin GPSmap 60CSx and similar devices](DocGisDevices#remark-about-garmin-gpsmap-60csx-and-similar-devices)
-        + Use of legacy GPS devices
-        ++ Use of Garmin GPSmap 60CSx and similar devices
+        Use of legacy GPS devices
+        +Use of Garmin GPSmap 60CSx and similar devices
             1. GPS device|use of legacy Garmin device
             
     * [Text Editor Templates](DocGisTemplates)
@@ -575,7 +879,7 @@ ___Basic usage___
 
 * [Databases and projects](AdvProjects)
     * [Organization of QMapShack data](AdvProjects#organization-of-qmapshack-data)
-    + Data organization
+    Data organization
         1. Data organization|projects
         1. Data organization|data items
         1. Data organization|qms files
@@ -640,7 +944,7 @@ ___Basic usage___
                 
 * [Details of map use](AdvMapDetails)
     * [Adjustable map properties](AdvMapDetails#adjustable-map-properties)
-    + Adjust map properties  
+    Adjust map properties  
         1. Map|display properties
         1. Map|details level
         1. Map|visibility range
@@ -650,7 +954,7 @@ ___Basic usage___
         1. Map|cache
     
     * [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties)
-    + Adjust elevation properties 
+    Adjust elevation properties 
         1. DEM|hill shading
         1. DEM|slope
         1. Slope|visualization
@@ -659,8 +963,8 @@ ___Basic usage___
         1. Elevation|limit
     
     * [Map scale type](AdvMapDetails#map-scale-type)    
-    + Change scale type
-    ++ Change scale type (logarithmic/square)
+    Change scale type
+    +Change scale type (logarithmic/square)
         1. Map|zoom
         1. Map|scale (logarithmic/quadratic)
         1. Scale|of map
@@ -722,17 +1026,17 @@ ___Basic usage___
                     1. MapProxy|Usage
                 
                 * [Configuration template](DocMapsTipsOnline#configuration-template)
-		        + MapProxy configuration
+		        MapProxy configuration
 		            1. MapProxy|Configuration
 
                 * [Troubleshooting](DocMapsTipsOnline#troubleshooting)
-                + MapProxy troubleshooting
+                MapProxy troubleshooting
                     1. MapProxy|Troubleshooting
                                    
             * [Country-specific tips](DocMapsTipsOnline#country-specific-tips)
                 * [WMTS configuration for French IGN maps](DocMapsTipsOnline#wmts-configuration-for-french-ign-maps)
-                + WMTS for French IGN maps
-                ++ WMTS configuration for French IGN maps
+                WMTS for French IGN maps
+                +WMTS configuration for French IGN maps
                     1. WMTS|for French IGN maps
                     1. IGN map|accessed with WMTS
 
@@ -778,7 +1082,6 @@ ___Basic usage___
                 1. Elevation data|use of online data
                 
                 * [DEM data from WCS (Web Coverage Service) servers](DocMapsTipsRasterDEM#dem-data-from-wcs-web-coverage-service-servers)
-                * [European DEM data ](DocMapsTipsRasterDEM#european-dem-data)                
                 
         * [Vector maps for Linux systems](DocMapsTipsRasterDEM#vector-maps-for-linux-systems)
             1. Map|openmtbmap (Linux)
@@ -786,350 +1089,10 @@ ___Basic usage___
 
             * [Script](DocMapsTipsRasterDEM#script)
             * [Configuration](DocMapsTipsRasterDEM#configuration)
-    
-         
-* [Data handling](AdvDataHandling)    
+             
 
-    * [Data selection and handling in map views](AdvDataHandling#data-selection-and-handling-in-map-views)
-    + Data handling in views  
-        1. Data selection|in map views
-        1. Map view|data selection in view
-
-    * [Tagging data](AdvDataHandling#tagging-data) 
-        1. GIS data|tagging
-        1. GIS data|keywords and rating
-        1. Keywords|assign to data
-        1. Rating|assign to data
-        1. Workspace|display ratings and keywords        
-    
-    * [Searching data in the workspace](AdvDataHandling#searching-data-in-the-workspace)
-    + Search workspace
-        1. Search|data in workspace
-        1. Workspace|search data
-        
-        * [General description](AdvDataHandling#general-description)
-        * [Object types for properties](AdvDataHandling#object-types-for-properties)
-        * [More details and remarks](AdvDataHandling#more-details-and-remarks)
-        * [Examples](AdvDataHandling#examples)
-            * [Waypoint](AdvDataHandling#waypoint)
-            * [Track](AdvDataHandling#track)
-            * [Geocache](AdvDataHandling#geocache)        
-        * [Searching in projects](AdvDataHandling#searching-in-projects)
-        + Project search
-            1. Search|in project only
-            1. Project|search data
-            
-        
-    * [Tracks](AdvTracks)    
-    
-        * [General information about tracks](AdvTrkGeneral)
-                 
-            * [Symbols for trackpoints](AdvTrkGeneral#symbols-for-trackpoints)    
-                1. Track|used trackpoint symbols
-                1. Trackpoint|used symbols/icons
-                1. Trackpoint|hidden
-                1. Track|edit
-                1. Track|range
-                1. Track|subpoint
-                
-            * [Track actions](AdvTrkGeneral#track-actions) 
-                1. Track|actions toolbar            
-                
-            * [Add point to track](AdvTrkGeneral#add-point-to-track)
-                1. Track|add new trackpoint
-                1. Trackpoint|add new to track   
-                
-            * [Cut track](AdvTrkGeneral#cut-track)
-                1. Track|cut into parts
-                
-            * [Attach waypoints to a track to get additional track information](AdvTrkGeneral#attach-waypoints-to-a-track-to-get-additional-track-information)
-            + Attach waypoint to track
-            ++ Attach waypoints to a track to get additional track information
-                1. Track|attach waypoint
-                1. Waypoint|attached to track
-                1. Project|roadbook
-                1. Project|edit window
-                1. Edit window|of project
-                
-            * [Select a range of a track](AdvTrkGeneral#select-a-range-of-a-track)
-                1. Track|range
-                1. Track graph|track range in
-                1. Track|edit window
-                1. Track|hidden trackpoints
-                1. Trackpoint|hidden
-                1. Range|of track
-                1. Track|assign activity
-
-            * [Select a range of a track in edit mode](AdvTrkGeneral#select-a-range-of-a-track-in-edit-mode)               
-                1. Range|of track in edit mode
-                1. Track|range in edit mode
-                1. Track|delete points in range
-
-            * [Move track range to new location](AdvTrkGeneral#move-track-range-to-new-location)
-                1. Track|move range to new location 
-                                
-            * [Find the length of a track interval](AdvTrkGeneral#find-the-length-of-a-track-interval)
-                1. Track|find length of range
-                1. Range|find length                
-                                
-            * [Assign colors to track activities](AdvTrkGeneral#assign-colors-to-track-activities)
-                1. Activity|of track
-                1. Track|activity
-                1. Activity|assign color to
-                1. Track graph|activity handling
-
-            * [Recorded and calculated track data](AdvTrkGeneral#recorded-and-calculated-track-data)
-                1. Track|recorded
-                1. Track|calculated
-                1. Track|edit window
-                1. Trackpoint|properties
-                1. Track|filter
-                1. Edit window|of track
-                1. Filter|track
-                
-            * [Avoid and remove invalid data in a track](AdvTrkGeneral#avoid-and-remove-invalid-data-in-a-track)
-                1. Track|invalid data
-                1. Track|filter
-                1. Filter|track
-                
-            * [Tracks and no-go areas](AdvTrkGeneral#tracks-and-no-go-areas)
-                1. Track|use of no-go areas
-
-        * [Track information](AdvTrkInfo)
-            1. Track|get information
-            
-            * [Track states](AdvTrkInfo#track-states)
-                1. Track|selected/highlighted
-                
-            * [Trackpoint information for highlighted tracks](AdvTrkInfo#trackpoint-information-for-highlighted-tracks)
-                * [Overview](AdvTrkInfo#overview) 
-                    1. Trackpoint|additional description
-                    
-                * [Adding trackpoint information](AdvTrkInfo#adding-trackpoint-information)
-                * [Get additional track information in highlighted state](AdvTrkInfo#get-additional-track-information-in-highlighted-state)
-                * [Select display of track information in main menu](AdvTrkInfo#select-display-of-track-information-in-main-menu)
-                    1. Track|summary information
-                    1. Track|trackpoint description list
-                
-            * [Additional sources of track information](AdvTrkInfo#additional-sources-of-track-information)
-                
-                * [Track information in normal state](AdvTrkInfo#track-information-in-normal-state)
-                    * [Using the workspace window](AdvTrkInfo#using-the-workspace-window)
-                    * [Using the track edit/info window](AdvTrkInfo#using-the-track-editinfo-window)
-                        1. Trackpoint|edit/delete description
-                
-                * [Track information in selected state](AdvTrkInfo#track-information-in-selected-state)
-                
-   
-                   
-        * [Track filters](AdvTrkFilters)
-            * [Point filters](AdvTrkFilters#point-filters)
-                * [Douglas-Peuker filter](AdvTrkFilters#douglas-peuker-filter)
-                    1. Track|Douglas-Peuker filter
-                    1. Filter|Douglas-Peuker
-                * [Zero speed drift knot filter](AdvTrkFilters#zero-speed-drift-knot-filter)
-                    1. Track|zero speed knot filter
-                    1. Filter|zero speed knot
-        
-            * [Elevation filters](AdvTrkFilters#elevation-filters)    
-            + Description of track elevation filters            
-                1. Filter|elevation
-                1. Track|elevation filter                
-            
-                * [Median filter](AdvTrkFilters#median-filter)
-                    1. Track|median filter
-                    1. Filter|median
-                
-                * [Interpolation filter](AdvTrkFilters#interpolation-filter)
-                    1. Track|interpolation filter
-                    1. Filter|interpolation
-                    
-                * [Replace elevation data](AdvTrkFilters#replace-elevation-data)
-                    1. Filter|replace elevation
-                    1. Track|replace elevation filter
-                
-                * [Offset elevation](AdvTrkFilters#offset-elevation)
-                    1. Filter|offset elevation
-                    1. Track|offset elevation filter
-                    
-                    
-            * [Timestamps filters](AdvTrkFilters#timestamps-filters)
-                1. Filter|timestamp
-                1. Track|timestamps filter
-                
-                * [Change time](AdvTrkFilters#change-time)
-                    1. Track|change start time
-                    1. Filter|change track start time
-                    
-                * [Obscure timestamps](AdvTrkFilters#obscure-timestamps)
-                    1. Track|obscure timestamps
-                    1. Filter|obscure timestamps
-                    
-                * [Change speed](AdvTrkFilters#change-speed)    
-                    1. Track|change speed filter
-                    1. Filter|change speed        
-            
-                    * [Constant](AdvTrkFilters#constant)
-                    * [Cycling](AdvTrkFilters#cycling)
-                    * [Hiking](AdvTrkFilters#hiking)
-
-            * [Miscellaneous filters](AdvTrkFilters#miscellaneous-filters)
-                * [Remove extension from all trackpoints](AdvTrkFilters#remove-extension-from-all-trackpoints)
-                    1. Filter|remove extension
-                    1. Track|remove extension filter
-                    1. Trackpoint|remove extension
-                
-                * [Split segments into tracks](AdvTrkFilters#split-segments-into-tracks)
-                    1. Filter|split segments
-                    1. Track|split segments filter
-                    1. Track segment|split segments to tracks
-                    1. Track|combine tracks
-                    
-                * [Convert track subpoints to points](AdvTrkFilters#convert-track-subpoints-to-points)
-                    1. Subpoint|convert subpoint filter
-                    1. Track|convert subpoint filter
-                
-                * [Calculate terrain slope](AdvTrkFilters#calculate-terrain-slope)
-                + Terrain slope filter
-                    1. Slope|calculate terrain slope
-                    1. Terrain slope|calculate
-                    1. GPX|extensions
-                    
-                * [Change start point](AdvTrkFilters#change-start-point)
-                + Start point filter
-                    1. Track|change start
-                    1. Filter|change track start
-                    
-                * [Cycling energy use](AdvTrkFilters#cycling-energy-use)    
-                    1. Track|cycling energy use
-                    1. Cycling energy|calculate use
-                    
-                    
-        * [Working with track graphs](AdvTrkGraphs)
-            * [Zoom track graphs](AdvTrkGraphs#zoom-track-graphs)
-                1. Track graph|zoom
-                
-            * [Select a scale range for track data display](AdvTrkGraphs#select-a-scale-range-for-track-data-display)
-                1. Track graph|scales
-                
-        * [Editing elevation data](AdvTrkElevation)            
-            * [Manually edit elevation of a track point](AdvTrkElevation#manually-edit-elevation-of-a-track-point)
-            + Edit track elevation
-                1. Trackpoint|elevation
-                1. Elevation|edit
-                
-            * [Assign elevation using DEM data](AdvTrkElevation#assign-elevation-using-dem-data)
-            + Assign DEM elevation
-                1. Track|assign DEM elevation
-                1. Waypoint|assign DEM elevation
-                            
-            * [Handle invalid elevation data](AdvTrkElevation#handle-invalid-elevation-data)
-                1. Elevation|invalid data
-                1. Elevation|filter
-                1. Filter|elevation
-                1. DEM|elevation
-                1. Elevation|DEM data
-                
-        * [Track history and saving](AdvTrkHist)                
-        + Track history
-            1. Track history|cut history list
-            1. Track history|save history
-            1. GPX|track history handling
-            1. QMS|track history handling
-        
-    * [Routes and Routing](AdvRoutes)
-        * [Description of a route](AdvRoutes#description-of-a-route)
-        * [Routing engines](AdvRoutes#routing-engines)
-            1. Routing engine|Routino
-            1. Routing engine|BRouter
-            1. Routing engine|MapQuest
-            1. BRouter|routing engine
-            1. Routino|routing engine
-            1. MapQuest|routing engine
-
-
-        * [Create a route](AdvRoutes#create-a-route)
-            1. Route|create
-            1. Routing|routing strategy
-            1. Route|routing engine
-            1. Route|routing strategy
-           
-            * [Select autorouting](AdvRoutes#select-autorouting)
-            * [Use list of routing points](AdvRoutes#use-list-of-routing-points)
-            * [Use map window](AdvRoutes#use-map-window)
-            
-        * [Edit a route](AdvRoutes#edit-a-route)
-            1. Route|edit
-            1. Route|recalculate
-            1. Route|add point
-            
-        * [Get route instructions](AdvRoutes#get-route-instructions)
-            1. Route|route instructions
-            1. Route instruction|get
-            
-        * [Save route in GPX file](AdvRoutes#save-route-in-gpx-file)
-            1. Route|save
-            
-        * [Using no-go areas and lines](AdvRoutes#using-no-go-areas-and-lines)
-        + No-go areas/lines
-            1. No-go area/line|routing
-            1. Routing|with no-go areas/lines
-            1. Avoid area|routing
-            
-            * [Purpose of no-go areas and lines](AdvRoutes#purpose-of-no-go-areas-and-lines)
-            * [Defining no-go areas/lines](AdvRoutes#defining-no-go-areaslines)
-            * [Disc-shaped no-go areas](AdvRoutes#disc-shaped-no-go-areas)
-            * [Polygon-shaped no-go areas  ](AdvRoutes#polygon-shaped-no-go-areas)
-            * [No-go lines](AdvRoutes#no-go-lines)
-            * [Activate no-go areas/lines](AdvRoutes#activate-no-go-areaslines)
-            * [Routing with no-go areas/lines](AdvRoutes#routing-with-no-go-areaslines)
-        
-        * [Description of routing methods in QMapShack](AdvRoutes#description-of-routing-methods-in-qmapshack)
-            1. Routing method|off-road routing
-            1. Routing method|automatic routing
-            1. Routing method|using vector map            
-            1. Routing method|track routing
-            1. Routino|routing method
-            
-        * [Comparison of routing engines](AdvRoutes#comparison-of-routing-engines)
-            1. Routing engine|compare
-
-        * [Other information](AdvRoutes#other-information)    
-            
-    * [Realtime data](AdvRealtime)
-        1. Realtime data|use in QMS
-        
-        * [General description](AdvRealtime#general-description)
-
-        * [OpenSky flight data](AdvRealtime#opensky-flight-data)
-            1. OpenSky|realtime data
-            1. Realtime data|OpenSky
-            
-        * [GPS location data](AdvRealtime#gps-location-data)    
-        
-            * [General remarks](AdvRealtime#general-remarks)
-                1. NMEA|realtime data
-                
-            * [GPS Tether on Android smartphones ](AdvRealtime#gps-tether-on-android-smartphones)
-                1. GPS tether|realtime data
-                1. Realtime data|GPS tether
-
-            * [Using serial interface and Ncat (Windows OS)    ](AdvRealtime#using-serial-interface-and-ncat-windows-os)
-            * [Python server for Linux-like OS](AdvRealtime#python-server-for-linux-like-os)
-            * [Track replay](AdvRealtime#track-replay)
-                1. GPX|data replay
-                1. Data replay|GPX
-                
-            * [Using Garmin devices with Windows 10](AdvRealtime#using-garmin-devices-with-windows-10) 
-                1. Garmin|realtime data   
-                1. Realtime data|Garmin devices                
-                
-            * [QMS as TCP client](AdvRealtime#qms-as-tcp-client)
-            * [NMEA and other restrictions](AdvRealtime#nmea-and-other-restrictions)  
-                1. NMEA|QMS restrictions
-        
 * [Overview of setup and configuration options](AdvSetup)
-+ Setup options
+Setup options
     1. Setup|overview of options
     1. Configuration|overview of options
     
@@ -1175,17 +1138,22 @@ ___Basic usage___
     * [Further setup and configuration options](AdvSetup#further-setup-and-configuration-options)            
 
 * [Overview of toolbar actions](AdvToolbarAct)
-+ Toolbar
+Toolbar
     1. Toolbar|supported actions
 
 * [Frequently Asked Questions](DocFaq)
     * [Configuring and running](DocFaqConfig)
         * [Can I run several QMS instances at the same time?](DocFaqConfig#can-i-run-several-qms-instances-at-the-same-time)
-        + Running several QMS instances
+        Running several QMS instances
             1. QMapShack|running
                       
+        * [Why does QMS ask for authorization on start-up (Ubuntu version)](DocFaqConfig#why-does-qms-ask-for-authorization-on-start-up-ubuntu-version)
+        Ubuntu: Authorization of QMS 
+            1. Authorization|of Ubuntu user
+            1. QMapShack|Ubuntu authorization
+                      
         * [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version)
-        + User-relevant directories (Windows)
+        User-relevant directories (Windows)
             1. QMapShack|used directories
             1. Directories|used
             1. Logfile|location
@@ -1194,7 +1162,7 @@ ___Basic usage___
             1. Configuration|Routino
 
         * [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language)    
-        + Change GUI language
+        Change GUI language
             1. Installation|language selection and change
             1. QMapShack|language selection and change
             1. GUI|language selection and change
@@ -1208,25 +1176,25 @@ ___Basic usage___
               
     * [Databases and projects](DocFaqData)
         * [Why does QMapShack use a separate workspace.db to save data?](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data)
-        + QMS workspace database
+        QMS workspace database
             1. Workspace|project in
             1. Project|in workspace
             
         * [Why are there no checkboxes for data in workspace projects?](DocFaqData#why-are-there-no-checkboxes-for-data-in-workspace-projects)
-        + QMS data selection
+        QMS data selection
             1. Workspace|purpose of
             1. Database|purpose of
             
         * [How to edit quickly the name of a project?](DocFaqData#how-to-edit-quickly-the-name-of-a-project)
-        + Edit project name
+        Edit project name
             1. Project|edit
             
             * [How to find the location of a database file used in QMapShack?](DocFaqData#how-to-find-the-location-of-a-database-file-used-in-qmapshack)
-            + Find location of database file
+            Find location of database file
                 1. Database|location
             
             * [How to find database to which a project belongs?](DocFaqData#how-to-find-database-to-which-a-project-belongs)
-            + Find database for project
+            Find database for project
                 1. Project|in database 
                 
             * [Why does a database not allow creating new folders?](DocFaqData#why-does-a-database-not-allow-creating-new-folders)    
@@ -1235,55 +1203,55 @@ ___Basic usage___
             
         * [Data handling](DocFaqHandling)
             * [How to create waypoint from POI (point of interest) in map?](DocFaqHandling#how-to-create-waypoint-from-poi-point-of-interest-in-map)
-            + Create waypoint from POI
+            Create waypoint from POI
                 1. Waypoint|create from POI
                 1. POI|use as waypoint
                 
             * [How to find distance between waypoints](DocFaqHandling#how-to-find-distance-between-waypoints)
-            + Find waypoint distance
+            Find waypoint distance
                 1. Waypoint|distance
                 1. Waypoint|proximity
                           
             * [Which track data is saved in GPX files?](DocFaqHandling#which-track-data-is-saved-in-gpx-files)
-            + Track data in GPX file
-            ++ Which track data is saved in GPX file?
+            Track data in GPX file
+            +Which track data is saved in GPX file?
                 1. Track|saved in GPX
                 1. GPX|extensions
                 1. Track|subpoint
                 1. GPX|subpoint handling in
 
             * [How to access data from legacy Garmin devices?](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices)
-            + Data on legacy devices
+            Data on legacy devices
                 1. Garmin|use of legacy device
                 1. GPS device|use of legacy Garmin device 
                 1. GPSBabel|use for data download
                 
             * [What is the difference between speed and gpxtpx:speed?](DocFaqHandling#what-is-the-difference-between-speed-and-gpxtpxspeed)
-            + GPXTPX track extension
-            ++ Speed in GPXTPX track extension
+            GPXTPX track extension
+            +Speed in GPXTPX track extension
                 1. Trackpoint|speed in track extension
                 1. GPX|extensions
                 1. Course|as trackpoint extension
                 1. Trackpoint|course in track extension
             
             * [How to remove DEM info from elevation graph?](DocFaqHandling#how-to-remove-dem-info-from-elevation-graph)
-            + Track profile without DEM info
+            Track profile without DEM info
                 1. Track profile|remove DEM data
             
             * [How to edit tracks without losing track data?](DocFaqHandling#how-to-edit-tracks-without-losing-track-data)
-            + Lossless track editing
+            Lossless track editing
                 1. Track|edit
                 1. Range|of track
             
             * [Routing](DocFaqRouting)
             * [Why do route instructions use different languages?](DocFaqRouting#why-do-route-instructions-use-different-languages)
-            + Language in route instruction
-            ++ Why do route instructions use different languages?
+            Language in route instruction
+            +Why do route instructions use different languages?
                 1. Route|route instructions
                 1. Route instruction|used language
             
             * [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing)
-            + Choose preferred routing road class        
+            Choose preferred routing road class        
                 1. Routing|road class preference
                 1. Routing|Routino
                 1. Routino|road class preference
@@ -1293,28 +1261,28 @@ ___Basic usage___
             
             
             * [Does QMapShack/Routino support cross-border routing?](DocFaqRouting#does-qmapshackroutino-support-cross-border-routing)
-            + Routino cross-border routing
+            Routino cross-border routing
                 1. Routino|cross-border routing
                 1. Routino|planetsplitter
                 1. Planetsplitter|Routino
                 
             * [Does the Routino router support _fly-as-a-bird_ routing?](DocFaqRouting#does-the-routino-router-support-fly-as-a-bird-routing)
-            + Routino fly-as-bird routing
+            Routino fly-as-bird routing
                 1. Routino|fly-as-bird routing
             
             * [What can be the reason for unexpected Routino routing results?](DocFaqRouting#what-can-be-the-reason-for-unexpected-routino-routing-results)                
-            + Unexpected Routino results
+            Unexpected Routino results
                 1. Routino|unexpected routing
                 1. Routino|configuration
             
         * [Maps](DocFaqMaps)
             * [How to control visibility of POI info?](DocFaqMaps#how-to-control-visibility-of-poi-info)
-            + POI visibility
+            POI visibility
                 1. POI|control of visibility
                 1. Map|visibility of data
                 
             * [Why are waypoints shown with a blue dot icon?](DocFaqMaps#why-are-waypoints-shown-with-a-blue-dot-icon)
-            + Blue dot waypoint icons
+            Blue dot waypoint icons
                 1. Waypoint|with blue icon
             
             * [How to find information about a position (a POI) in the Web?](DocFaqMaps#how-to-find-information-about-a-position-a-poi-in-the-web)
@@ -1326,35 +1294,35 @@ ___Basic usage___
                 1. Web services|transportation, meteo
             
             * [What is the difference between `Copy position` and `Copy position (Grid)`?](DocFaqMaps#what-is-the-difference-between-copy-position-and-copy-position-grid)
-            + Position in map
-            ++ What is the difference between map position and map grid position?
+            Position in map
+            +What is the difference between map position and map grid position?
                 1. Map|copy position 
                 1. Menu|View - Setup Coord. Format
                            
             * [Is there a possibility to display small roads/tracks in a vector map without zooming in too much?](DocFaqMaps#is-there-a-possibility-to-display-small-roadstracks-in-a-vector-map-without-zooming-in-too-much)
-            + Zooming maps
-            ++ Display of small roads/tracks in a vector map and zooming
+            Zooming maps
+            +Display of small roads/tracks in a vector map and zooming
                 1. Map|zoom
                 1. Menu|View - Setup Map View - Projections&Datum
                 
             * [Does QMS support the use of single Garmin-style map tiles?](DocFaqMaps#does-qms-support-the-use-of-single-garmin-style-map-tiles)    
-            + Use of Garmin map tiles
-            ++ Use of single Garmin-style map tiles
+            Use of Garmin map tiles
+            +Use of single Garmin-style map tiles
                 1. Map|tile
                 1. gmapsupp.img|map
                 1. Map|Garmin                
                 
             * [How to change the layout of vector maps?](DocFaqMaps#how-to-change-the-layout-of-vector-maps)
-            + Change vector map layout
+            Change vector map layout
                 1. Map|change layout
                 1. Type file|change map layout
                 
             * [Why is Google Terrain map a black-and-white map?](DocFaqMaps#why-is-google-terrain-map-a-black-and-white-map)    
-            + Google terrain map
+            Google terrain map
                 1. Map|overlay layer            
              
             * [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported)
-            + Supported raster maps
+            Supported raster maps
                 1. Raster map|sources
                 1. Raster map|supported formats
                 1. Raster map|from on-line map
@@ -1364,8 +1332,8 @@ ___Basic usage___
                 1. GDAL|supported version
                 
             * [How to use Russian military and similar raster maps with QMapShack?](DocFaqMaps#how-to-use-russian-military-and-similar-raster-maps-with-qmapshack)
-            + Use of raster maps
-            ++ Use of Russian military raster maps            
+            Use of raster maps
+            +Use of Russian military raster maps            
                 1. Raster map|use of Russian military map    
                 1. Raster map|sources
                 1. Raster map|VRT file for
@@ -1373,14 +1341,14 @@ ___Basic usage___
                 1. OziExplorer|use of map
             
             * [Why is a raster map not displayed?](DocFaqMaps#why-is-a-raster-map-not-displayed)
-            + Display of raster maps
-            ++ Why is a raster map not displayed?
+            Display of raster maps
+            +Why is a raster map not displayed?
                 1. Raster map|display
                 1. Raster map|overview map of
             
             * [How to find the location of a raster map?](DocFaqMaps#how-to-find-the-location-of-a-raster-map)
-            + Find raster map location
-            ++ Find raster map location with gdalinfo
+            Find raster map location
+            +Find raster map location with gdalinfo
                 1. Raster map|find location
                 1. Raster map|VRT file for
                 1. VRT|for raster map 
@@ -1388,19 +1356,19 @@ ___Basic usage___
                 1. VRT|get file info with gdalinfo                
              
             * [Is it possible to use several VRT files?](DocFaqMaps#is-it-possible-to-use-several-vrt-files)
-            + Use of VRT files
-            ++ Use of several VRT files
+            Use of VRT files
+            +Use of several VRT files
                 1. VRT|use of several files
                 1. VRT|for DEM file
                 1. DEM|VRT file for
                 
             * [When to use GDALWarp to get VRT file?](DocFaqMaps#when-to-use-gdalwarp-to-get-vrt-file)
-            + Use of GDALWarp            
+            Use of GDALWarp            
                 1. VRT|use of GDALWarp vs. GDALBuildVRT       
                 1. GDALWarp|for VRT creation                
                 
             * [Is it possible to use EPSG codes for the coordinate system setup?](DocFaqMaps#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup)    
-            + Use of EPSG code
+            Use of EPSG code
                 1. EPSG|use for coordinate system setup
                 1. Setup|coordinate system
                 1. Coordinate system|setup with EPSG code
@@ -1449,7 +1417,7 @@ ___Developing QMapShack___
     * [Prerequisites](DevelopingDocumentation#prerequisites)
     * [Remarks about the Markdown language](DevelopingDocumentation#remarks-about-the-markdown-language)
     * [General recommendations for editing QMS Wiki pages](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages)
-    + Recommendations for editing
+    Recommendations for editing
         1. Edit|QMS documentation
         1. QMS documentation|edit
 
@@ -1525,6 +1493,7 @@ ___No indices maintained in the following sections:___
         * [Running ](DocActivityPlanning#running)
 
 * [Playground - start your new Wiki page](DocPlayground)
+* [How to piss off open source developers](DocPissOffDevelopers)
 * [Hotkeys](AxHotkeys)
 * [Main and context menu overview](AxMenuStructure)
 
