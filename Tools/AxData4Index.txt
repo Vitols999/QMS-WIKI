@@ -952,7 +952,11 @@ ___Basic usage___
         1. Raster map|cache handling
         1. Data|opacity selection
         1. Map|cache
-    
+        
+    * [Use of map visibility range](AdvMapDetails#use-of-map-visibility-range)
+        1. Map|visibility range
+        1. Visibility range|of maps
+        
     * [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties)
     Adjust elevation properties 
         1. DEM|hill shading

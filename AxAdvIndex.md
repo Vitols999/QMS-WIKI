@@ -793,7 +793,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [How to control visibility of POI info?](DocFaqMaps#how-to-control-visibility-of-poi-info "How to control visibility of POI info?")
 
 **Map, visibility range**
-:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties")
+:  [Adjustable map properties](AdvMapDetails#adjustable-map-properties "Adjustable map properties") ⊞ [Use of map visibility range](AdvMapDetails#use-of-map-visibility-range "Use of map visibility range")
 
 **Map, visibility**
 :  [Map and DEM](DocControlMapDem#map-and-dem "Map and DEM")
@@ -1556,6 +1556,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 ## V
 
+
+**Visibility range, of maps**
+:  [Use of map visibility range](AdvMapDetails#use-of-map-visibility-range "Use of map visibility range")
 
 **VRT, DEM**
 :  [DEM Files](DocBasicsMapDem#dem-files "DEM Files") ⊞ [Installing Raster Maps or DEM Data](DocInstallMapDem#installing-raster-maps-or-dem-data "Installing Raster Maps or DEM Data")

@@ -5,6 +5,7 @@
 
 * [Details of map use](#details-of-map-use)
     * [Adjustable map properties](#adjustable-map-properties)
+    * [Use of map visibility range](#use-of-map-visibility-range)
     * [Adjustable elevation properties](#adjustable-elevation-properties)
     * [Map scale type](#map-scale-type)
     * [Projection and datum](#projection-and-datum)
@@ -45,13 +46,44 @@ The following image shows the layout of the various selection possibilities in t
 
 _Comments:_
 
-* The map opacity controls the map visibility in a map overlay.
+* Each map view has its own set of activated map.
+* Re-order the activated maps with drag-and-drop.c
+* The map opacity slider controls the map visibility in a map overlay. Having several activated maps you can use this slider to look through a map to see the next one.
 * The visibility range controls the zoom levels for which the map is displayed.
 * The visibility of object types allows to suppress the display of some object types in the map.
 * The visibility of details controls how many map details are shown at a given zoom level.
 * The layout of map objects can be changed by using different type files for the map.
 * The data opacity (slider in the data and not in the map tab!) controls the opacity of the GIS data in the workspace.
 * Full-screen display of a map window is enabled by pressing `F11` (toggle!).
+
+## Use of map visibility range
+
+A map *visibility range* is the range between some maximum zoom level and some minimum zoom level at which the map is visible in a QMS map view.
+
+Vector and raster maps loaded into QMS have, in general, 2 visibility ranges:
+
+* A predefined visibility range defined with the map itself.
+* A user controlled visibility range.
+
+The user-defined visibility range of a map is controlled with the help of the visibility range slider in the docked map window. To define such a range
+
+* zoom in the map up to the wanted maximum zoom,
+* click the small icon at the left side of the slider,
+* zoom out the map up to the wanted minimum zoom,
+* click the small icon at the right side of the slider.
+
+A green line segment in the visibility slider now shows the user-defined visibility range for the map. When zooming the map a slider handle moves along the slider. As soon as it is in the green range the map is visible.
+
+
+This feature allows you to switch from one map to another one depending on the zoom level. Simply activate the maps to be used and define for the maps consecutive visibility ranges as shown in the following images. 
+
+![Map visibility range][MapScale1] ![Map visibility range][MapScale2]
+
+![Map visibility range][MapScale3] ![Map visibility range][MapScale4]
+
+In this example 4 different maps of different types with different levels of detail are activated. Each map has its own visibility range. The ranges are disjoint. The waypoint on the map (red diamond near the lower right corner) is shown on 4 different maps depending on the zoom level (check the slider handle positions). The details in the map decrease when decreasing the scale of the map (when zooming out).
+
+
 
 ## Adjustable elevation properties
 
@@ -240,6 +272,11 @@ To use the distance rule proceed as follows:
  
 * Finally, press the `Close` button in the toolbar to close the ruler tool.    
     
+[MapScale1]:  images/DocAdv/MapScale1.png  "Map visibility ranges"
+[MapScale2]:  images/DocAdv/MapScale2.png  "Map visibility ranges"
+[MapScale3]:  images/DocAdv/MapScale3.png  "Map visibility ranges"
+[MapScale4]:  images/DocAdv/MapScale4.png  "Map visibility ranges"
+
 
         
 

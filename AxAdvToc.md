@@ -359,6 +359,7 @@ ___Do not edit - automatically created from DocMain!___
         * [Working with project roadbook    ](AdvProjActions#working-with-project-roadbook)
 * [Details of map use](AdvMapDetails)
     * [Adjustable map properties](AdvMapDetails#adjustable-map-properties)
+    * [Use of map visibility range](AdvMapDetails#use-of-map-visibility-range)
     * [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties)
     * [Map scale type](AdvMapDetails#map-scale-type)
     * [Projection and datum](AdvMapDetails#projection-and-datum)
