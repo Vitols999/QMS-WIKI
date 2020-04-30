@@ -65,15 +65,19 @@ Vector and raster maps loaded into QMS have, in general, 2 visibility ranges:
 * A predefined visibility range defined with the map itself.
 * A user controlled visibility range.
 
-The user-defined visibility range of a map is controlled with the help of the visibility range slider in the docked map window. To define such a range
+The user-defined visibility range of a map is controlled with the help of the visibility range slider in the docked map window. To define such a range proceed as follows:
 
-* zoom in the map up to the wanted maximum zoom,
-* click the small icon at the left side of the slider,
-* zoom out the map up to the wanted minimum zoom,
-* click the small icon at the right side of the slider.
+* Check if the buttons on the left and on the right side of the slider are both green. If not, then click on each red button to change its color to green. If both bottoms are green, then the map is displayed on all zoom levels.
+* Zoom in the map up to the wanted maximum zoom.
+* Click the small icon at the left side of the slider. The button changes its color to red as an indication that a range limit is defined.
+* Zoom out the map up to the wanted minimum zoom.
+* Click the small icon at the right side of the slider. The button changes its color to red as an indication that a range limit is defined.
 
 A green line segment in the visibility slider now shows the user-defined visibility range for the map. When zooming the map a slider handle moves along the slider. As soon as it is in the green range the map is visible.
 
+To change a visibility range click the button on the side of the range you want to change. The button color changes to green. Select the new zoom level and click again the same button to define a new size of the range.
+
+A visibility range can be removed by clicks on the red buttons on the left and the right side of the slider.
 
 This feature allows you to switch from one map to another one depending on the zoom level. Simply activate the maps to be used and define for the maps consecutive visibility ranges as shown in the following images. 
 
