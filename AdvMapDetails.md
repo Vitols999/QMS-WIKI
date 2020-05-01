@@ -7,6 +7,7 @@
     * [Adjustable map properties](#adjustable-map-properties)
     * [Use of map visibility range](#use-of-map-visibility-range)
     * [Adjustable elevation properties](#adjustable-elevation-properties)
+    * [Range of use of elevation data](#range-of-use-of-elevation-data)
     * [Map scale type](#map-scale-type)
     * [Projection and datum](#projection-and-datum)
     * [Full-screen display](#full-screen-display)
@@ -69,11 +70,11 @@ The user-defined visibility range of a map is controlled with the help of the vi
 
 * Check if the buttons on the left and on the right side of the slider are both green. If not, then click on each red button to change its color to green. If both bottoms are green, then the map is displayed on all zoom levels.
 * Zoom in the map up to the wanted maximum zoom.
-* Click the small icon at the left side of the slider. The button changes its color to red as an indication that a range limit is defined.
+* Click the small icon on the left side of the slider. The button changes its color to red as an indication that a range limit is defined.
 * Zoom out the map up to the wanted minimum zoom.
-* Click the small icon at the right side of the slider. The button changes its color to red as an indication that a range limit is defined.
+* Click the small icon on the right side of the slider. The button changes its color to red as an indication that a range limit is defined.
 
-A green line segment in the visibility slider now shows the user-defined visibility range for the map. When zooming the map a slider handle moves along the slider. As soon as it is in the green range the map is visible.
+A green line segment in the visibility slider now shows the user-defined visibility range for the map. When zooming the map, a slider handle moves along the slider. As soon as it is in the green range, the map is visible.
 
 To change a visibility range click the button on the side of the range you want to change. The button color changes to green. Select the new zoom level and click again the same button to define a new size of the range.
 
@@ -81,11 +82,15 @@ A visibility range can be removed by clicks on the red buttons on the left and t
 
 This feature allows you to switch from one map to another one depending on the zoom level. Simply activate the maps to be used and define for the maps consecutive visibility ranges as shown in the following images. 
 
+If visibility ranges of activated maps overlap, then the lowest activated map in the maps list is drawn.
+
+
+In the following example 4 different maps of different types with different levels of detail are activated. Each map has its own visibility range. The ranges are disjoint. The waypoint on the map (red diamond near the lower right corner) is shown on 4 different maps depending on the zoom level (check the slider handle positions). The details in the map decrease when decreasing the scale of the map (when zooming out).
+
 ![Map visibility range][MapScale1] ![Map visibility range][MapScale2]
 
 ![Map visibility range][MapScale3] ![Map visibility range][MapScale4]
 
-In this example 4 different maps of different types with different levels of detail are activated. Each map has its own visibility range. The ranges are disjoint. The waypoint on the map (red diamond near the lower right corner) is shown on 4 different maps depending on the zoom level (check the slider handle positions). The details in the map decrease when decreasing the scale of the map (when zooming out).
 
 
 
@@ -103,7 +108,7 @@ The following image shows the layout of the various selection possibilities in t
 * Filter to find your DEM data set in the list of loaded DEM data sets (type the name of the DEM data into the edit field)
 * Name of DEM data. A small triangle in front of the name indicates that the DEM data is active, i.e. used by QMS. Clicking the triangle opens the adjustable properties for this DEM data:
     * Opacity
-    * Visibility range
+    * Visibility range (range of data use)
     * Hill shading intensity
     * Slope selection
     * Slope colors and custom slope settings
@@ -111,13 +116,45 @@ The following image shows the layout of the various selection possibilities in t
 
 _Comments:_
 
-* The opacity slider controls the visibility (opacity of the hill shading, slope and elevation limit layers on a map.
-* The visibility range controls the zoom levels for which hill shading, slope and elevation limit layers are displayed.
+* The opacity slider controls the visibility (opacity) of the hill shading, slope and elevation limit layers on a map.
+* The visibility range controls the zoom levels for which is used for hill shading, slope and elevation limit layers are displayed.
 * The hill shading slider controls the intensity used for the display of hill shading.
 * The slope selection allows to choose one of the predefined slope models. In the case of the "__custom__" model
   the user can define 5 personal slope levels (click on a value and adjust it).
 * If the elevation limit property is selected, then an extra magenta-colored layer is drawn on the map showing areas above the given limit. This is of special interest when planning aviation routes.
 
+
+## Range of use of elevation data
+
+A *range of use* of elevation data is the range between some maximum zoom level and some minimum zoom level at which the DEM is used in a QMS map view for creating data objects, for hill-shading, for showing slopes, and for some other purposes.
+
+Elevation data can b e considered as some kind of map (an elevation map). That is the reason why elevation range selection is done in the same way as for [visibility range selection][MapRange] of maps. Therefore, handling of the range selection slider is not repeated here.
+
+DEM files may consist of data with different precision. Defining (disjoint) use ranges for each DEM file makes it possible to use high precision elevation data when zoomed to a level with high detail of the map and to use less precise elevation data when working with an overview map.
+
+The red overlay in the next image shows the area where elevation data of the used DEM file `N51E010` is available. Here, a use range is not selected (both slider buttons are green). The QMS status line displays the elevation at the mouse pointer, if it is inside the data range of this DEM file. Elevation data from this DEM file is not available for locations outside the red area.
+
+![Extend of elevation tile][EleTile]
+
+Now, let's activate a second DEM file and let's define a use range for each of the files:
+
+![Elevation data from first DEM][EleRange1]  ![Elevation data from second DEM][EleRange2]
+
+The zoom in the left image is in the use range of the first DEM file (check the position of the slider handle!) but not in the use range of the second DEM file. In this situation the slope is activated and shown because elevation data is available at this zoom level from the first DEM file. A red elevation limit overlay is not displayed. It is only active for the second DEM file. Elevation data for this DEM file is not available at the given zoom level.
+
+The zoom level in the right image is in the use range of the second DEM file but not in the use range of the first DEM file. Here, the red elevation limit is active and shown. Slopes are not shown. They are not active for the second DEM file. Elevation data is not available at this zoom level for the first DEM file.
+
+This example demonstrates how slope, hill-shading and other elevation features can be made dependent on the zoom level.
+
+If use ranges of activated DEM files overlap, then all elevation-dependent features of all DEM files in the intersection of the use ranges are displayed as shown in the next image. Here, the slope is derived from the first DEM file and the elevation limit (the reddish colored part around the waypoint at the summit) from the second one. The reddish area is opaque due to the opacity setting for the second DEM file. Thus, in this area the slope below the red area is visible, too. 
+
+If no ranges are defined, then all features selected in all DEM files are drawn as well.
+
+![Overlapping elevation ranges][EleOverlap]
+
+If elevation data is required for a data object, the activated DEM files are searched starting with the top-most one for valid elevation data. Elevation data is taken from the first DEM file that can provide it regardless of the use ranges. As a consequence, activated DEM files should be arranged by the precision of the elevation data with the highest precision on top.
+
+The behavior of the elevation-related data under the mouse cursor (the ones shown in the status line of the QMS GUI) is slightly different. In this case, the use ranges are respected. Elevation and slope at the mouse cursor are taken from first DEM file with matching use range containing the elevation for the given position. If there is no matching range, then elevation is not shown in the status bar.
 
 ## Map scale type
 
@@ -216,10 +253,10 @@ _Remarks:_
 * A side effect of using coordinate systems with different features is the change of the map scale when 
   moving the map over long distances to the north or south (not zooming the map).
 * Many projections are defined for use within a certain region (e.g. an UTM zone). Using such a projection outside its area of definition (e.g. in a different UTM zone) may lead to weird screen results.
-* Quite often geographical lon/lat coordinates are given without mentioning the used coordinate system. A typical situation is the use of some national
+* Often geographical lon/lat coordinates are given without mentioning the used coordinate system. A typical situation is the use of some national
   coordinate system. The following image shows map and grid coordinates in lon/lat format. The map coordinate system is the international WGS84 one, the grid
   coordinate system is the German Potsdam datum. WPT2 is located at 50° North (WGS84/map coordinate), the corresponding grid coordinate is 50.001162° North (Potsdam datum).
-  WPT1 is a WPT located at 50° North (Potsdam datum). The distance between both waypoints is more than 100m. This demonstrates also the danger of using coordinates
+  WPT1 is a WPT located at 50° North (Potsdam datum). The distance between both waypoints is more than 100 m. This demonstrates also the danger of using coordinates
   with unknown coordinate system (can happen with coordinates from printed raster maps). Trying different grid settings can help
   to identify the coordinate system which was used when describing a waypoint.
   
@@ -275,14 +312,18 @@ To use the distance rule proceed as follows:
         ![Ruler with fixed distances and angles](images/DocAdv/Ruler5.png "Fixed distances/angles")
  
 * Finally, press the `Close` button in the toolbar to close the ruler tool.    
+
+[MapRange]: #use-of-map-visibility-range "Use of map visibility range"
     
 [MapScale1]:  images/DocAdv/MapScale1.png  "Map visibility ranges"
 [MapScale2]:  images/DocAdv/MapScale2.png  "Map visibility ranges"
 [MapScale3]:  images/DocAdv/MapScale3.png  "Map visibility ranges"
 [MapScale4]:  images/DocAdv/MapScale4.png  "Map visibility ranges"
 
-
-        
+[EleTile]:    images/DocAdv/EleTile.jpg    "Extend of elevation tile"
+[EleRange1]:  images/DocAdv/EleRange1.png  "Elevation data from first DEM"
+[EleRange2]:  images/DocAdv/EleRange2.png  "Elevation data from second DEM"
+[EleOverlap]: images/DocAdv/EleOverlap.jpg "Overlapping elevation ranges"        
 
 - - -
 [Prev](AdvProjActions) (General Actions) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Tips & tricks for online maps) [Next](DocMapsTipsOnline)

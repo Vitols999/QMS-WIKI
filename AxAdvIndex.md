@@ -277,6 +277,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Delete data, in workspace & database**
 :  [Workspace and database windows](AdvProjects#workspace-and-database-windows "Workspace and database windows")
 
+**DEM file, range of use**
+:  [Range of use of elevation data](AdvMapDetails#range-of-use-of-elevation-data "Range of use of elevation data")
+
 **DEM setup, overview of options**
 :  [Map and DEM setup](AdvSetup#map-and-dem-setup "Map and DEM setup")
 
@@ -370,6 +373,12 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Elevation data, add and activate**
 :  [Add digital elevation model](DocGettingStarted#add-digital-elevation-model "Add digital elevation model")
+
+**Elevation data, from several files**
+:  [Range of use of elevation data](AdvMapDetails#range-of-use-of-elevation-data "Range of use of elevation data")
+
+**Elevation data, range of use**
+:  [Range of use of elevation data](AdvMapDetails#range-of-use-of-elevation-data "Range of use of elevation data")
 
 **Elevation data, use of online data**
 :  [Online DEM data](DocMapsTipsRasterDEM#online-dem-data "Online DEM data")

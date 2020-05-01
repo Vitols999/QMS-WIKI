@@ -966,6 +966,11 @@ ___Basic usage___
         1. DEM|display properties
         1. Elevation|limit
     
+    * [Range of use of elevation data](AdvMapDetails#range-of-use-of-elevation-data)
+        1. DEM file|range of use
+        1. Elevation data|range of use
+        1. Elevation data|from several files
+        
     * [Map scale type](AdvMapDetails#map-scale-type)    
     Change scale type
     +Change scale type (logarithmic/square)
