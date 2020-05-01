@@ -138,7 +138,7 @@ The red overlay in the next image shows the area where elevation data of the use
 
 Now, let's activate a second DEM file and let's define a use range for each of the files:
 
-![Elevation data from first DEM][EleRange1]  ![Elevation data from second DEM][EleRange2]
+![Elevation data from DEM][EleRange1]
 
 The zoom in the left image is in the use range of the first DEM file (check the position of the slider handle!) but not in the use range of the second DEM file. In this situation the slope is activated and shown because elevation data is available at this zoom level from the first DEM file. A red elevation limit overlay is not displayed. It is only active for the second DEM file. Elevation data for this DEM file is not available at the given zoom level.
 
@@ -321,8 +321,8 @@ To use the distance rule proceed as follows:
 [MapScale4]:  images/DocAdv/MapScale4.png  "Map visibility ranges"
 
 [EleTile]:    images/DocAdv/EleTile.jpg    "Extend of elevation tile"
-[EleRange1]:  images/DocAdv/EleRange1.png  "Elevation data from first DEM"
-[EleRange2]:  images/DocAdv/EleRange2.png  "Elevation data from second DEM"
+[EleRange1]:  images/DocAdv/EleRange1.png  "Elevation data from DEM"
+
 [EleOverlap]: images/DocAdv/EleOverlap.jpg "Overlapping elevation ranges"        
 
 - - -

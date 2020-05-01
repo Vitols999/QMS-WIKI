@@ -195,7 +195,7 @@ tgtsrc ::= $(srcmd) $(down)
 # list of all required .html files (coming from .md and from ./Downloads)
 tgthtml ::= $(srchtml) $(downhtml)
 
-usedext ::= $(sort .py .wmts .tms .wcs .vrt)
+usedext ::= $(sort .py .wmts .tms .wcs)
 downext ::= $(sort $(suffix $(down)))
 
 # if next check fails, then this Makefile must be adjusted  in the targets part!
