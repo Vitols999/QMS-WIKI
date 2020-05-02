@@ -522,7 +522,6 @@ ___Do not edit - automatically created from DocMain!___
         * [Workflow after editing page](AxMaintainAutoPages#workflow-after-editing-page)
         * [Formatting rules:](AxMaintainAutoPages#formatting-rules)
         * [Comments on some script-created pages in the Appendix part](AxMaintainAutoPages#comments-on-some-script-created-pages-in-the-appendix-part)
-            * [BuildImgLink.py and AxWikiImages.md](AxMaintainAutoPages#buildimglinkpy-and-axwikiimagesmd)
             * [BuildToc.py and AxAdvToc.md](AxMaintainAutoPages#buildtocpy-and-axadvtocmd)
             * [SortGlossary.py and AxGlossary.md](AxMaintainAutoPages#sortglossarypy-and-axglossarymd)
     * [Maintaining the QMS Wiki Index](AxMaintainIndex)
@@ -600,7 +599,6 @@ ___Do not edit - automatically created from DocMain!___
     * [U](AxAdvIndex#u)
     * [V](AxAdvIndex#v)
     * [W](AxAdvIndex#w)
-* [List of images (Advanced usage and FAQ parts only)](AxWikiImages)
 
 - - -
 [Prev](AxMenuStructure) (Main and context menu overview) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Glossary) [Next](AxGlossary)

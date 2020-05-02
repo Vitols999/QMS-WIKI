@@ -9,7 +9,6 @@
     * [Workflow after editing page](#workflow-after-editing-page)
     * [Formatting rules:](#formatting-rules)
     * [Comments on some script-created pages in the Appendix part](#comments-on-some-script-created-pages-in-the-appendix-part)
-        * [BuildImgLink.py and AxWikiImages.md](#buildimglinkpy-and-axwikiimagesmd)
         * [BuildToc.py and AxAdvToc.md](#buildtocpy-and-axadvtocmd)
         * [SortGlossary.py and AxGlossary.md](#sortglossarypy-and-axglossarymd)
 
@@ -145,22 +144,6 @@ All Python scripts are written for Python 3.3 and use only modules from the stan
 __Attention:__ Manual pages created by one of the discussed Python scripts do not have navigation bars! To insert
 the navigation bars you have to run the navbar tools!
 
-### BuildImgLink.py and AxWikiImages.md
-
-* The Python script (re-)creates the mentioned manual page.
-* The page lists of all images used in the _Advanced usage_ and _FAQ_ parts of the manual in form of links and it
-  shows the source page of the image link. Other parts of the manual are not considered by various reasons.
-
-* It is assumed that all image files can be found in the `doc\images\FAQ` and `doc\images\DocAdv` folders.
-
-* If an image link in the page is clicked, the image is displayed in a browser window.
-
-* The page on which the image link is found is given next to the image as a link.
-* The Python script must be re-run if an image link has changed in one of the scanned pages.
-* The script displays in a console window a list of used and unused images in the `doc\images\FAQ` and `doc\images\DocAdv`
-  folders.
-* Don't use the local Markdown variant of the file - it doesn't have the correct link form. Correct links can be found
-  either in the on-line GitHub Wiki or in the off-line HTML form of the page!
 
 ### BuildToc.py and AxAdvToc.md
 

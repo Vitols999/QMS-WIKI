@@ -38,7 +38,7 @@ This page describes how to maintain (edit) the index of the QMS Wiki.
   following rules and recommendations when editing the manual. Look how others formulated and formatted manual pages!
 
 * Some manual pages are built automatically from the content of other pages. Some if these pages shouldn't be modified
-  because their contents are automatically created (`AxAdvToc`, `AxWikiImages`). Others (`AxAdvIndex`) can be changed
+  because their contents are automatically created (`AxAdvToc`). Others (`AxAdvIndex`) can be changed
   when complying with certain rules described in this page.
 
 * The use of some tools for completing or improving the contents of manual pages is mentioned throughout this page.
@@ -309,7 +309,6 @@ This is a recommended sequence of steps when editing the index in a local copy o
     * [Complete table of contents](AxAdvToc)
     * [Glossary](AxGlossary)
     * [Index](AxAdvIndex)
-    * [List of images (Advanced usage and FAQ parts only)](AxWikiImages)
 
 * Running the scripts mentioned on this page requires a local copy of the Wiki on your computer.
 

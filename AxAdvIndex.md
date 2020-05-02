@@ -1,4 +1,4 @@
-[Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (List of images (Advanced usage and FAQ parts only)) [Next](AxWikiImages)
+[Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
 
 # Index
@@ -1703,4 +1703,4 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
 
 - - -
-[Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (List of images (Advanced usage and FAQ parts only)) [Next](AxWikiImages)
+[Prev](AxGlossary) (Glossary) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | () Next

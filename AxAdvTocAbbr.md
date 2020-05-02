@@ -263,7 +263,6 @@ ___Do not edit - automatically created from DocMain!___
     * [Appendix](AxAdvToc#appendix)
 * [Glossary](AxGlossary)
 * [Index](AxAdvIndex)
-* [List of images (Advanced usage and FAQ parts only)](AxWikiImages)
 
 - - -
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | () Next

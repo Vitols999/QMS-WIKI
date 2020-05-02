@@ -94,9 +94,6 @@
 #   This doesn't hold true for the Qt help `assistant` coming with Qt5.14.0 for Windows. 
 #   Therefore, images having a width exceeding a certain  threshold get an additional 
 #   width attribute to force the Qt help browser to resize the image. 
-# * `AxWikiImages.md/.html`: Table format change: in the first column now no more link to an 
-#   image file - Qt Help assitant does display image (binary) content instead of image (different 
-#   to behavior in Firefox).
 # * The TOC of a Qt help page is built with the help of the TOC extension in the 
 #   markdown package when converting .md to .html files.
 # * The contents tree of Qt help is built from `AxAdvToc.md` and `QMapTool/QMTAxAdvToc.md`.
@@ -259,8 +256,8 @@ def FindXMLTOC(self):         # build TOC entries for Qt help (= section part in
 
     TOCSWTCH = True           # make changes depending on this switch only once
 
-    for lne in self.toclnes:  # don't include AxWikiImages in help file - doesn't make sense
-        if "AxWikiImages" in lne or "AxAdvToc#appendix" in lne:
+    for lne in self.toclnes:
+        if "AxAdvToc#appendix" in lne:
             continue
 
         rr = r1.search(lne)           # line with chapter/section definion in MD (## ...)

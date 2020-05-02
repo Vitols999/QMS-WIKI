@@ -60,7 +60,7 @@ MAXHDRLVL = 6                                 # maximum header level used in TOC
 
 # no TOC inserted into the following pages:
 MDWithoutTOC = ("DocMain.md", "AxAdvIndex.md", "AxAdvToc.md", "Home.md", "AxAdvTocAbbr.md",
-                "AxGlossary.md", "AxHotkeys.md", "AxWikiImages.md",
+                "AxGlossary.md", "AxHotkeys.md", 
                 "QMTDocMain.md", "QMTAxAdvIndex.md", "QMTAxAdvToc.md", "QMTHome.md",
                 )
 

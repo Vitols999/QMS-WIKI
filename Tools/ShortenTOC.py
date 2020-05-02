@@ -9,10 +9,9 @@
 #  - remove navbar and modify header line 
 
 
-empty = "         "                                                  # (9) drop lines starting with that many spaces
+empty = " " * 9                                                      # (9) drop lines starting with that many spaces
 title = "# Complete table of contents"                               # identify header line
 index = "* [Index](AxAdvIndex)"                                      # identify index line to drop subentries
-lastlne = "* [List of images (Advanced usage and FAQ parts only)](AxWikiImages)" # identify last line to drop navbar footer
 
 dontcopy = True                                                      # don't copy line if True (used to drop navbar)
 
@@ -38,10 +37,9 @@ for lne in inpf:
     elif lne.startswith(index):                                      # suppress subentries 
         empty = "    "
         outf.write(lne)
-        
-    elif lne.startswith(lastlne):                                    # suppress navbar footer
-        dontcopy = True
-        outf.write(lne)
+                
+    elif lne.startswith("- - -") or lne.startswith("[Prev]"):        # drop navbar lines 
+        continue
         
     else:                                                            # copy normal line
         outf.write(lne)    

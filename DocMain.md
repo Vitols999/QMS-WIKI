@@ -108,7 +108,6 @@ Users can find short quickstart help here:
 * [Complete table of contents](AxAdvToc)
 * [Glossary](AxGlossary)
 * [Index](AxAdvIndex)
-* [List of images (Advanced usage and FAQ parts only)](AxWikiImages)
     
 - - -
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Install QMapShack) [Next](DocGetQMapShack)
