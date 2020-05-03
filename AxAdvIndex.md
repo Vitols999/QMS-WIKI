@@ -1553,6 +1553,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Ubuntu-18.04, compilation**
 :  [Ubuntu-18](Ubuntu-18-HowTo "Ubuntu-18")
 
+**Ubuntu-20.04, compilation**
+:  [Ubuntu-18](Ubuntu-18-HowTo "Ubuntu-18")
+
 **Undo, edit**
 :  [Undo/redo](DocGisItemsEditMultiple#undoredo "Undo/redo")
 

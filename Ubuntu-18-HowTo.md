@@ -16,7 +16,7 @@
 
 * * * * * * * * * *
  
-This installation guide is based on a fresh new installation of Ubuntu 18.04.
+This installation guide is based on a fresh new installation of Ubuntu 18.04. It works with Ubuntu 20.04 LTS as well (tested with a virtual machine).
 
 # Ubuntu build process
 

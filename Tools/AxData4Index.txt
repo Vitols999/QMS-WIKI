@@ -105,6 +105,7 @@ ___Basic usage___
     * [Ubuntu-18](Ubuntu-18-HowTo)
         1. Compilation|Ubuntu-18.04
         1. Ubuntu-18.04|compilation
+        1. Ubuntu-20.04|compilation
         
         * [Initial build Routino and QMapShack](Ubuntu-18-HowTo#initial-build-routino-and-qmapshack)  
             * [Create installation folder](Ubuntu-18-HowTo#create-installation-folder)
