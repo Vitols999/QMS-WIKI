@@ -332,9 +332,8 @@ ___Basic usage___
                     1. Search data|general description
                     1. Data|search for data
                     
-                * [Object types for properties](DocDataSearch#object-types-for-properties)
                 * [More details and remarks](DocDataSearch#more-details-and-remarks)
-                * [Examples](DocDataSearch#examples)
+                * [More examples](DocDataSearch#more-examples)
                     1. Search data|examples
                     
                     * [Waypoint](DocDataSearch#waypoint)

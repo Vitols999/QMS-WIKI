@@ -1249,7 +1249,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
 **Search data, examples**
-:  [Examples](DocDataSearch#examples "Examples")
+:  [More examples](DocDataSearch#more-examples "More examples")
 
 **Search data, general description**
 :  [General description](DocDataSearch#general-description "General description")

@@ -8,9 +8,8 @@
     * [Tagging data](#tagging-data)
     * [Searching data in the workspace](#searching-data-in-the-workspace)
         * [General description](#general-description)
-        * [Object types for properties](#object-types-for-properties)
         * [More details and remarks](#more-details-and-remarks)
-        * [Examples](#examples)
+        * [More examples](#more-examples)
             * [Waypoint](#waypoint)
             * [Track](#track)
             * [Geocache](#geocache)
@@ -43,7 +42,7 @@ Example for intersect mode:
 ![Intersect mode](images/DocAdv/MapSelIntersect.jpg "Intersect mode")
 
 
-The toolbar at the right side of the selection rectangle gives access to the supported actions. A tooltip pops-up when locating the mouse on a toolbox icon.
+The toolbar on the right side of the selection rectangle gives access to the supported actions. A tooltip pops-up when locating the mouse on a toolbox icon.
 The following table lists all actions of the toolbar:
 
 
@@ -95,11 +94,11 @@ Data objects can be tagged with a rating and with keywords for easier search.  T
 * Close the window by clicking the `Ok` button.
 
 The column "Rating" shows for tagged objects their rating (a number between 1 and 5) and an additional icon as indicator for keywords belonging to the object.
-When moving the mouse pointer on the icon a bubble box displays the keywords. Keywords and rating are also displayed when moving the mouse pointer on the name field of data object.
+When moving the mouse pointer on the icon, a bubble box displays the keywords. Keywords and rating are also displayed, when moving the mouse pointer on the name field of data object.
 
 ![Tagged data objects](images/DocAdvSearch/DataTags.png  "Tagged data objects")
 
-Data in workspace projects in the can be sorted by their ratings using the context menu entry `Sort by rating` of the project.
+Data in workspace projects can be sorted by their ratings using the context menu entry `Sort by rating` of the project.
 
 Keywords and ratings can also be used in [extended searches](#general-description) in the workspace
 
@@ -119,13 +118,13 @@ In all 3 cases the search is carried out in all GIS objects in all projects in t
 
 ![Search edit field in workspace](images/DocAdvSearch/SearchEditField.png  "Search edit field in workspace")
 
-Clicking the setup wheel at the left border of the edit field opens a context menu. Here, name-only resp. complete-text search can be selected and it can be selected if the search is case-sensitive or not.
+Clicking the setup wheel at the left border of the edit field opens a context menu. Here, name-only resp. complete-text search can be selected and it can be selected, if the search is case-sensitive or not.
 
 At the right border of the edit field appears either a filter symbol (if edit field is empty) or an icon with a cross (if there is some text in the edit field). Click the cross to clear the complete edit field.
 
 Clicking the question mark near the right border of the edit field opens a help window that describes the structure of queries for an extended search.
 
-For the **name-only** and the **complete-text search** set the proper option in the setup context menu and then start typing the text string you are searching for. After typing some character the workspace opens those projects that have GIS objects satisfying the search criterion (the typed text is a substring of the name or the complete text). All other GIS objects are not visible anymore in the workspace. Only all project headers remain visible. *Remember:* The search is done for GIS objects and not for text in the enclosing projects!
+For the **name-only** and the **complete-text search** set the proper option in the setup context menu and then start typing the text string you are searching for. After typing some character the workspace opens those projects that have GIS objects satisfying the search criterion (the typed text is a substring of the name or the complete text). All other GIS objects are not visible anymore in the workspace. Only the project headers remain visible. *Remember:* The search is done for GIS objects and not for text in the enclosing projects!
 
 Here is an example for a case-insensitive complete-text search:
 
@@ -135,7 +134,89 @@ An **extended search** is used automatically as soon as the input has the specia
 
 `property comparison value` 
 
-where both the `property` and the `comparison` terms should be taken from the lists displayed in the extended search help window (left list: properties, right list: comparisons (operators):
+
+`property` must be taken from the list shown in the next table:
+
+| Property name | Tooltip |
+|---------------|---------|
+| **Properties for all objects** | | 
+| comment | searches the Comment |
+| date | searches the Date |
+| description | searches the Description |
+| elevation | searches the elevation. For items consisting of multiple points the minimum and the maximum is used |
+| full text | searches the full text |
+| keywords | searches the Keywords |
+| name | searches the name of the item. For Geocaches this is ''Name - GCCode''. |
+| rating | compares the Rating |
+| **Properties for tracks & routes** | | 
+| activity | searches the activity of a route or track |
+| ascent | searches the total ascent in a route or track |
+| average speed | searches the average speed in a track |
+| descent | searches the total descent in a route or track |
+| distance | searches the distance covered by a route or track |
+| duration | searches the total time spent on a route or track |
+| elevation gain | searches the total ascent in a route or track |
+| length | searches the distance covered by a route or track |
+| max elevation | searches the maximal elevation in a route or track |
+| max speed | searches the maximal speed in a track |
+| maximal elevation | searches the maximal elevation in a route or track |
+| maximal speed | searches the maximal speed in a track |
+| min elevation | searches the minimal elevation in a route or track |
+| min speed | searches the minimal speed in a track |
+| minimal elevation | searches the minimal elevation in a route or track |
+| minimal speed | searches the minimal speed in a track |
+| time moving | searches the time spent moving on a track |
+| total time | searches the total time spent on a route or track |
+| **Properties for areas** | | 
+| area | searches the area |
+| **Properties for geocaches** | | 
+| D | searches the difficulty rating of a geocache |
+| GCCode | searches the GCCode of a geocache. |
+| GCName | searches the Name of a geocache. |
+| T | searches the terrain rating of a geocache |
+| difficulty | searches the difficulty rating of a geocache |
+| negated attributes | searches the translated meanings of the negated attributes (those crossed out) |
+| non-negated attributes | searches the translated meanings of the non-negated attributes (those not crossed out) |
+| positive attributes | searches the translated meanings of the non-negated attributes (those not crossed out) |
+| size | searches the size of a geocache. (micro, small, regular, large) |
+| status | searches the status of a geocache. (available, not available, archived) |
+| terrain | searches the terrain rating of a geocache |
+
+
+
+`comparison` must be taken from the list shown in the next table:
+
+| Comparison operator | Example of use |
+|---------------------|----------------|
+| < | D < 3 |
+| = | size = micro |
+| > | T > 4 |
+| above | above 50m |
+| after | date after 2013 |
+| before | date before 10.05.2017 |
+| between | length between 20km and 20mi |
+| bigger than | area bigger than 50m² |
+| contain | keywords contain bike |
+| containing | name containing bike |
+| contains | name contains bike |
+| earlier than | date earlier than 2015 |
+| equals | activity equals bike |
+| greater than | descent greater than 3000ft |
+| higher than | terrain higher than 2 |
+| is | status is available |
+| later than | date later than 2015 |
+| less than | ascent less than 500m |
+| longer than | distance longer than 20mi |
+| lower than | lower than 500m |
+| over | elevation over 400m |
+| regex | size regex (regular\|large) |
+| shorter than | shorter than 5km |
+| smaller than | area smaller than 5m² |
+| under | elevation under 1000ft |
+| with | attributes with dog |
+| without | name without water |
+
+All `property` and the `comparison` terms are displayed in the extended search help window (left list: properties, right list: comparisons (operators)):
 
 ![Extended search help](images/DocAdvSearch/SearchHelp.png "Extended search help")
 
@@ -145,27 +226,26 @@ All property and comparison terms should be written exactly as shown.
 
 A warning icon near the right border of the edit field is an indicator that the structure required for an extended search is not (yet) recognized by the parser. In this case the input string is used for a name-only or complete-text search depending on the setup.
 
-Some of the properties and comparison terms are synonyms. Synonyms give more flexibility in formulating a search query:
+Some properties and comparison terms are synonyms. Synonyms give more flexibility in formulating a search query:
 
-* terrain, T
-* difficulty, D
-* positive attributes, non-negated attributes
-* ascent, elevation gain
-* distance, length
-* max elevation/speed, maximal elevation/speed
-* min elevation/speed, minimal elevation/speed
-* duration, total time
 
-* above, 
-  after, 
-  bigger than, 
-  greater than, 
-  higher than, later than, 
-  longer than, 
-  over, >
-* before, earlier than, less than, lower than, shorter than, smaller than, under, >
-* equals, =
-* containing, contains, with  
+* **Synonyms for properties:**
+    * 'D', 'difficulty'
+    * 'T', 'terrain'
+    * 'ascent', 'elevation gain'
+    * 'distance', 'length'
+    * 'duration', 'total time'
+    * 'max elevation', 'maximal elevation'
+    * 'max speed', 'maximal speed'
+    * 'min elevation', 'minimal elevation'
+    * 'min speed', 'minimal speed'
+    * 'non-negated attributes', 'positive attributes'
+    
+* **Synonyms for comparison operators:**
+    * '<', 'before', 'earlier than', 'less than', 'lower than', 'shorter than', 'smaller than', 'under'
+    * '=', 'equals', 'is'
+    * '>', 'above', 'after', 'bigger than', 'greater than', 'higher than', 'later than', 'longer than', 'over'
+    * 'contain', 'containing', 'contains', 'with'
 
 The `property` part of an extended search string can be dropped, if it can be deduced from the `value` part of the search string.  In this case, the following rules for the `property` part hold true:
 
@@ -175,21 +255,6 @@ The `property` part of an extended search string can be dropped, if it can be de
 * If the `value` part is a time, then the `property` is assumed to be `time moving`. *Example:* `less than 100 min` means `time moving less than 100 min`.
 * If the `value` part is a date, then the `property` is assumed to be `date`. *Example:* `after 01.01.2013` means `date after 01.01.2013`.
 
-### Object types for properties
-
-Each property has a specific set of GIS object types for which it can be used. The following table gives an overview:
-
-| Property | Track | Route | Area | Waypoint | Geocache |
-| ---------|-------|-------|------|----------|----------|
-| description, full text, name, comment, keywords, rating | x | x | x | x | x |
-| activity, max(imal)/min(imal) speed, time moving, total time, average speed, duration| x | - | - | - | - |
-| length, ascent, descent, elevation gain, distance, max(imal)/min(imal) elevation | x | x | - | - | - |
-| date | x | - | - | x | x |
-| elevation | **?** | **?** | - | x | - |
-| area | - | - | x | - | - |
-| D, T, GCCode, GCName, difficulty, terrain, negated/non-negated/positive attributes, size, status| - | - | - | - | x |
-
-
 
 ### More details and remarks
 
@@ -197,7 +262,7 @@ Each property has a specific set of GIS object types for which it can be used. T
 * All comparisons are exclusive, i.e. the bounds are not included
 * When trying a search with the comparison term `equals`, then you have to type the complete value to search for before you get the correct result. 
 * When trying a search with a comparison `regex`, then follow the regular expression syntax used for [Pearl](https://perldoc.perl.org/perlre.html).
-* When using units then only the ones listed in the search help window are supported.
+* When using units, then only the ones listed in the search help window are supported.
 * The search keywords `keywords` and `rating` can be used to find [tagged GIS data objects](#tagging-data).
 * The search keyword `status` can be used to find geocaches with a certain status (`available, not available, archived`).
 * Geocaches from different sources may have significant differences in their formal description (in GPX files). For correct search results it is assumed, that geocaches are defined using the rules applied in [geocaching.com](https://www.geocaching.com/play).
@@ -238,7 +303,7 @@ Each property has a specific set of GIS object types for which it can be used. T
     * The timezone for `xx` is the local timezone of the operating system. **Attention:** Depending on the QMS setup timestamps in QMS could be displayed in a timezone different from the local timezone!
     * The search result shows all QMS data objects with timestamps greater than the given date and time and less than this date and time plus 24 hours. For tracks the first and the last trackpoint should have timestamps within this interval.
 
-### Examples
+### More examples
 
 In this section details for a waypoint, a track and a geocache are shown together with some typical search queries having (among others) these GIS objects as a result.
 
@@ -273,7 +338,7 @@ In this section details for a waypoint, a track and a geocache are shown togethe
 | `max speed between 20 km/h and 40 km/h` | Track satisfies this condition. |
 | `max speed between 20 and 40` | No units given - QMS default unit is assumed (km/h) |
 | `elevation under 600m` | *Meaning:* Elevation of the whole track is below 600 m. Track satisfies this condition. |
-| `elevation between 180 and 520 m` | *Meaning:* Elevation of the whole track is getween 180 m and 520 m. Only 1 unit given, other one equals the given one. Track satisfies this condition. |
+| `elevation between 180 and 520 m` | *Meaning:* Elevation of the whole track is between 180 m and 520 m. Only 1 unit given, other one equals the given one. Track satisfies this condition. |
 | `elevation between 0.180 km and 520 m` | Both units given and different - unit conversion takes place. |
 | `activity contains motor bike`| Part Track has activity `Motor Bike` |
 | `activity without bicycle` | *Meaning:* Find tracks where no bicycles where used. Track satisfies condition |
