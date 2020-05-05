@@ -1254,6 +1254,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Scale, of map**
 :  [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
+**Search data, combine workspace & project search**
+:  [Searching in projects](DocDataSearch#searching-in-projects "Searching in projects")
+
 **Search data, comparison operators**
 :  [General description](DocDataSearch#general-description "General description")
 

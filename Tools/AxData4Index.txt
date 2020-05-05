@@ -348,6 +348,7 @@ ___Basic usage___
                 1. Search data|in projects
                 1. Data|search in projects
                 1. Data|combine workspace & project search
+                1. Search data|combine workspace & project search
 
         * [Geosearch](DocSearchGoogle)
             1. Google maps|search
