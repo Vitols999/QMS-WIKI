@@ -172,6 +172,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Data, add tag**
 :  [Tagging data](DocDataSearch#tagging-data "Tagging data")
 
+**Data, combine workspace & project search**
+:  [Searching in projects](DocDataSearch#searching-in-projects "Searching in projects")
+
 **Data, create**
 :  [Create data](DocGisItems#create-data "Create data")
 
@@ -190,7 +193,10 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Data, save**
 :  [Save data](DocGisItems#save-data "Save data")
 
-**Data, search for data**
+**Data, search in projects**
+:  [Searching in projects](DocDataSearch#searching-in-projects "Searching in projects")
+
+**Data, search in workspace**
 :  [General description](DocDataSearch#general-description "General description")
 
 **Data, select cluttered**
@@ -1248,10 +1254,22 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Scale, of map**
 :  [Map scale type](AdvMapDetails#map-scale-type "Map scale type")
 
+**Search data, comparison operators**
+:  [General description](DocDataSearch#general-description "General description")
+
 **Search data, examples**
 :  [More examples](DocDataSearch#more-examples "More examples")
 
 **Search data, general description**
+:  [Searching data in the workspace](DocDataSearch#searching-data-in-the-workspace "Searching data in the workspace")
+
+**Search data, in projects**
+:  [Searching in projects](DocDataSearch#searching-in-projects "Searching in projects")
+
+**Search data, in workspace**
+:  [General description](DocDataSearch#general-description "General description")
+
+**Search data, properties/keywords**
 :  [General description](DocDataSearch#general-description "General description")
 
 **Segments, of track**

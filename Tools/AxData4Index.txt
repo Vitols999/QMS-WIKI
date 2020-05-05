@@ -329,9 +329,13 @@ ___Basic usage___
                 
                 
             * [Searching data in the workspace](DocDataSearch#searching-data-in-the-workspace)
+                1. Search data|general description
+
                 * [General description](DocDataSearch#general-description)
-                    1. Search data|general description
-                    1. Data|search for data
+                    1. Search data|in workspace
+                    1. Data|search in workspace
+                    1. Search data|properties/keywords
+                    1. Search data|comparison operators
                     
                 * [More details and remarks](DocDataSearch#more-details-and-remarks)
                 * [More examples](DocDataSearch#more-examples)
@@ -341,7 +345,9 @@ ___Basic usage___
                     * [Track](DocDataSearch#track)
                     * [Geocache](DocDataSearch#geocache)
             * [Searching in projects](DocDataSearch#searching-in-projects)
-
+                1. Search data|in projects
+                1. Data|search in projects
+                1. Data|combine workspace & project search
 
         * [Geosearch](DocSearchGoogle)
             1. Google maps|search
