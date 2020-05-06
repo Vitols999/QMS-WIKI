@@ -8,7 +8,7 @@
         <enableFilterFunctionality visible="true">true</enableFilterFunctionality>
         <enableFullTextSearchFallback>true</enableFullTextSearchFallback>
         <applicationIcon>doc/QMapShack.png</applicationIcon>
-        <cacheDirectory base="collection">.</cacheDirectory>
+        <cacheDirectory base="collection">cache</cacheDirectory>
         <aboutMenuText>
             <text>About QMS</text>
             <text language="de">Über QMS</text>
