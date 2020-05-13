@@ -57,7 +57,7 @@ The following approach for avoiding this authorization was recommended in the [Q
   
         <allow_active>yes</allow_active> 
 
-* Do not forget to backup original file!
+* Do not forget to back up original file!
 
 ## User-relevant QMapShack directories (Windows version)
 
@@ -105,6 +105,15 @@ The language used in the QMapShack user interface (GUI) is defined using the fol
      
                  2017-01-31 13:26:00.785 [debug] locale "de"
                  2017-01-31 13:26:00.785 [warning] "no file found for translations 'c:...\\translations/qmapshack_de' (using default)."
+                 
+* When running QMS under Windows the GUI language can be changed by starting QMS with a batch file of the form:
+    
+        set LANG=de
+        qmapshack.exe
+      
+    In this example German will be used as GUI language even if the Windows system language is different.    
+    
+  
 
 
 - - -
