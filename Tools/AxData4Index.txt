@@ -1184,11 +1184,24 @@ Toolbar
             1. GUI|language selection and change
             1. QMapShack|supported languages
             1. Logfile|find used locale and language file
+            
+        * [Where does QMS save setup, configuration, and other information?](DocFaqConfig#where-does-qms-save-setup-configuration-and-other-information)
+            1. Logfile|location
+            1. Debug file|location
+            1. Configuration|used files for
+            1. Setup|used files for
+            1. Registry|location of QMS part
+            1. Windows registry|location of QMS part
+            
+        * [What to do if QMS doesn't start?](DocFaqConfig#what-to-do-if-qms-doesnt-start)
+            1. QMS start|failure
+            1. Restart|after failure
+           
 
     * [Use of issue templates](DocFaqProjectSite)
+        * [Why was my bug report, feature request or pull request closed without further notice?](DocFaqProjectSite#why-was-my-bug-report-feature-request-or-pull-request-closed-without-further-notice)    
         * [Why do you insist on using templates for issues?](DocFaqProjectSite#why-do-you-insist-on-using-templates-for-issues)
         * [But I always write decent descriptions in issues and hate templates?](DocFaqProjectSite#but-i-always-write-decent-descriptions-in-issues-and-hate-templates)
-
               
     * [Databases and projects](DocFaqData)
         * [Why does QMapShack use a separate workspace.db to save data?](DocFaqData#why-does-qmapshack-use-a-separate-workspacedb-to-save-data)

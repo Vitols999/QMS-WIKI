@@ -8,6 +8,9 @@
     * [Why does QMS ask for authorization on start-up (Ubuntu version)](#why-does-qms-ask-for-authorization-on-start-up-ubuntu-version)
     * [User-relevant QMapShack directories (Windows version)](#user-relevant-qmapshack-directories-windows-version)
     * [How to change the GUI language?](#how-to-change-the-gui-language)
+    * [Where does QMS save setup, configuration, and other information?](#where-does-qms-save-setup-configuration-and-other-information)
+    * [What to do if QMS doesn't start?](#what-to-do-if-qms-doesnt-start)
+
 
 * * * * * * * * * *
  
@@ -113,6 +116,61 @@ The language used in the QMapShack user interface (GUI) is defined using the fol
       
     In this example German will be used as GUI language even if the Windows system language is different.    
     
+## Where does QMS save setup, configuration, and other information?
+
+The following list gives an overview of the locations used for saving setup, configuration, and some other information.
+
+* **Logfile (`org.qlandkarte.QMapShack.log`)**
+    * *Purpose:* Provide various information about QMS run
+    * *Command line:* `qmapshack.exe -f`
+    * *Location (Windows):* `c:\Users\user_name\AppData\Local\Temp\`
+    * *Location (Linux):* `/tmp/`
+* **Console debug output (Linux only)**
+    * *Purpose:* Provide various information about QMS run (same information as in logfile)
+    * *Command line:* `qmapshack.exe -d`
+    * *Location (Linux):* output on console
+* **`workspace.db`**
+    * *Purpose:* Save various information for restoring QMS workspace at restart. Proprietary file structure.
+    * *Location (Windows):* `c:\Users\user_name\.config\QLandkarte\`
+    * *Location (Linux):* `~/.config/QLandkarte/` 
+* **INI file**
+    * *Purpose:* Save most of the QMS setup and configuration information in a usual INI file structure
+    * *Command line:* `qmapshack.exe -c my_inifile.ini`
+    * *Location (Windows):* defined with INI file name, if necessary, `my_inifile.ini` should include complete path
+    * *Location (Linux):* defined with INI file name, if necessary, `my_inifile.ini` should include complete path
+* **Registry (Windows only)** 
+    * *Purpose:* Save most of the QMS setup and configuration information in a structure similar to the one used in QMS INI file. Registry is used, if no INI file is given on command line.
+    * *Location (Windows):* `HKCU\Software\QLandkarte\QMapShack`
+* **`QMapShack.conf` (Linux only)**
+    * *Purpose:* Save most of the QMS setup and configuration information in a usual INI file structure. File is used, if no QMS INI file is given on command line.
+    * *Location (Linux):* `~/.config/QLandkarte/`
+* **User-defined waypoint icons**
+    * *Purpose:* Default path for adding user-defined waypoint icons (user can change this path!) 
+    * *Location (Windows):* `c:\Users\user_name\.config\QLandkarte\WaypointIcons\`
+    * *Location (Linux):* `~/.config/QLandkarte/WaypointIcons/` 
+    
+*Remark:*
+
+* The command line parameters `-f` and `-d` for Linux can be used simultaneously. In this case, debug output is written to the logfile and to the console.
+
+ 
+## What to do if QMS doesn't start?
+
+*(Find details and locations of files mentioned in this section [here][SetupFiles])*
+
+1. Search in the list of running processes (task manager!) for a still running QMS process. If yes, kill it. Restart QMS.
+1. Start QMS from command line using `qmapshack.exe -f`. A logfile is written. Check this logfile for error messages and try to avoid these errors.
+1. If no `qmapshack.exe` process is running: Back up  
+    * `workspace.db`, 
+    * INI file (if used), 
+    * QMS part of registry (Windows users only. Use text format!) or  `~/.config/QLandkarte/QMapShack.conf` (Linux users)
+1. Remove one after the other `workspace.db` (workspace isn't re-established), INI file **and also**  QMS part of registry resp. `QMapShack.conf` (QMS restarted without any previous setup and configuration data) and try to restart QMS after each step
+1. If QMS restart was successful, shutdown QMS and repeat step 3 with different filenames (saves new clean setup!)
+1. If QMS restart was successful: Restore `workspace.db` from first backup in step 3 and restart QMS again. In case of success: old QMS workspace is restored. If restart fails, `workspace.db` can be broken and workspace can't be recovered. Remove `workspace.db` again.
+1. If QMS was successfully restarted, redefine essential parts of setup and configuration. _Hint:_ Open the INI file, the registry or the `QMapShack.conf` file saved in step 3 to get some information about the last QMS setup and configuration.
+
+
+[SetupFiles]: #where-does-qms-save-setup-configuration-and-other-information "Save setup info"
   
 
 

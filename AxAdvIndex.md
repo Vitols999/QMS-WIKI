@@ -120,6 +120,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Configuration, Routino**
 :  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?") ⊞ [Routing setup](AdvSetup#routing-setup "Routing setup") ⊞ [Routino](DocGisItemsRouting#routino "Routino") ⊞ [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-")
 
+**Configuration, used files for**
+:  [Where does QMS save setup, configuration, and other information?](DocFaqConfig#where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")
+
 **Contour lines, from Garmin IMG**
 :  [Contour line vector map in Garmin IMG format](DocMapsTipsRasterDEM#contour-line-vector-map-in-garmin-img-format "Contour line vector map in Garmin IMG format")
 
@@ -279,6 +282,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Datum, WGS84**
 :  [Projection and Scaling](DocBasicsMapDem#projection-and-scaling "Projection and Scaling")
+
+**Debug file, location**
+:  [Where does QMS save setup, configuration, and other information?](DocFaqConfig#where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")
 
 **Delete data, in workspace & database**
 :  [Workspace and database windows](AdvProjects#workspace-and-database-windows "Workspace and database windows")
@@ -654,7 +660,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
 
 **Logfile, location**
-:  [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-")
+:  [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-") ⊞ [Where does QMS save setup, configuration, and other information?](DocFaqConfig#where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")
 
 
 ## M
@@ -1039,6 +1045,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **QMS documentation, edit**
 :  [General recommendations for editing QMS Wiki pages](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages "General recommendations for editing QMS Wiki pages")
 
+**QMS start, failure**
+:  [What to do if QMS doesn't start?](DocFaqConfig#what-to-do-if-qms-doesnt-start "What to do if QMS doesn't start?")
+
 **QMS, load file**
 :  [Load GPX Files](DocHandleGpxFiles#load-gpx-files "Load GPX Files")
 
@@ -1120,6 +1129,12 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Redo, of data changes**
 :  [Undo & redo](DocGisItems#undo--redo "Undo & redo")
+
+**Registry, location of QMS part**
+:  [Where does QMS save setup, configuration, and other information?](DocFaqConfig#where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")
+
+**Restart, after failure**
+:  [What to do if QMS doesn't start?](DocFaqConfig#what-to-do-if-qms-doesnt-start "What to do if QMS doesn't start?")
 
 **Route instruction, used language**
 :  [Why do route instructions use different languages?](DocFaqRouting#why-do-route-instructions-use-different-languages "Why do route instructions use different languages?")
@@ -1292,6 +1307,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Setup, overview of options**
 :  [Overview of setup and configuration options](AdvSetup "Overview of setup and configuration options")
+
+**Setup, used files for**
+:  [Where does QMS save setup, configuration, and other information?](DocFaqConfig#where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")
 
 **Setup, workspace**
 :  [Workspace setup](AdvSetup#workspace-setup "Workspace setup")
@@ -1680,6 +1698,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **WGS84, projection**
 :  [Projection and datum](AdvMapDetails#projection-and-datum "Projection and datum")
+
+**Windows registry, location of QMS part**
+:  [Where does QMS save setup, configuration, and other information?](DocFaqConfig#where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")
 
 **Windows registry, use**
 :  [Command line parameters](DocCmdOptions "Command line parameters")
