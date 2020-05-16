@@ -4,14 +4,21 @@
 ***Table of contents***
 
 * [Frequently Asked Questions - Use of issue templates](#frequently-asked-questions---use-of-issue-templates)
+    * [Why was my bug report, feature request or pull request closed without further notice?](#why-was-my-bug-report-feature-request-or-pull-request-closed-without-further-notice)
     * [Why do you insist on using templates for issues?](#why-do-you-insist-on-using-templates-for-issues)
     * [But I always write decent descriptions in issues and hate templates?](#but-i-always-write-decent-descriptions-in-issues-and-hate-templates)
+
 
 * * * * * * * * * *
  
 # Frequently Asked Questions - Use of issue templates
 
 *(compare Wiki pages [Contribute Code](DeveloperCommitCode), [Reporting a bug](ReportBugs), [Requesting a feature](RequestFeatures), too)*
+
+## Why was my bug report, feature request or pull request closed without further notice?
+
+Most likely because you ignored the templates provided or simply
+refused to fill them with content that makes sense.
 
 ## Why do you insist on using templates for issues?
 
