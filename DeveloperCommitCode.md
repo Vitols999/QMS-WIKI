@@ -24,7 +24,7 @@
 
 **Naming conventions:**
 
-* ticket = issue 
+* ticket = issue
 * bug = issue = ticket
 * enhancement = feature = issue = ticket
 
@@ -33,36 +33,36 @@ Yeah, I know. It's confusing.
 **Process:**
 
 * Create a ticket
-* Use the ticket template even if you intend to work on the ticket. 
-  And also if it is just a small fix. Violating that rule will encourage 
-  others to do it as well. In the end fundamental information and 
+* Use the ticket template even if you intend to work on the ticket.
+  And also if it is just a small fix. Violating that rule will encourage
+  others to do it as well. In the end fundamental information and
   documentation is missing. A ticket that does not stick to that rule
   might be closed without further notice.
-* Use the ticket number `QMS-XX` as name for your branch. See also: 
+* Use the ticket number `QMS-XX` as name for your branch. See also:
   [Open a new branch](#open-a-new-branch)
 * Add the ticket number `[QMS-XX]` to each of your commits at the start
-  of the short headline. And a meaningful description of what the commit 
+  of the short headline. And a meaningful description of what the commit
   does, e.g:
-  
+
         [QMS-8] Incorrect elevation for fit files from GPSMAP 66s
-    
+
         Couldn't really determine the root cause. However the fields
         `eRecordEnhancedSpeed` and `eRecordEnhancedAltitude`
         seemed to be decoded twice in each trackpoint record. Can't tell if
         this is a bug in QMS or the device. Anyway, if the code ignores the
         second set everything seems to be fine.
 
-* It's ok to have several commits if they form logical groups that 
+* It's ok to have several commits if they form logical groups that
   are kind of independent from each other. If not squash your commits.
 
     What is meant by `logical group`? Ask yourself if the commit could  be cherry picked from another branch without breaking anything. If  it could, it's worth a single commit.
-    
+
 * Open a pull request. Add the ticket number and the ticket headline
   as pull request headline. e.g: `[QMS-8] Incorrect elevation for fit files from GPSMAP 66s`
-* Use the template questionnaire to describe your pull request and to 
-  check if you did not forget anything basic. Any pull request ignoring 
+* Use the template questionnaire to describe your pull request and to
+  check if you did not forget anything basic. Any pull request ignoring
   this will be closed ASAP.
-* From that point on the usual review procedure will take place. 
+* From that point on the usual review procedure will take place.
 
 ## Commit Code
 
@@ -109,7 +109,7 @@ Right now, you have a fork of the QMapShack repository, but you don't have the f
 
 
     Press Enter. Your local clone will be created:
-    
+
         $ git clone https://github.com/YOUR-USERNAME/qmapshack.git
         > Cloning into `qmapshack`...
         > remote: Counting objects: 10, done.
@@ -126,10 +126,12 @@ When you fork a project in order to propose changes to the original repository, 
 1. On GitHub, navigate to the [Maproom/qmapshack](https://github.com/Maproom/qmapshack) repository.
 
 2. Under the repository name, click Clone or download.
-    Clone or download button
+
+    ![CloneRepoButton](images/DeveloperCommitCode/CloneRepoButton.png "CloneRepoButton")
 
 3. In the Clone with HTTPs section, click to copy the clone URL for the repository.
-    Clone URL button
+
+    ![CloneWithHttps](images/DeveloperCommitCode/CloneWithHttps.png "CloneWithHttps")
 
 4. Open Terminal.
 
