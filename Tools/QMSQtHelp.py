@@ -322,6 +322,12 @@ def FindXMLIDX(self):     # build index entries for Qt help (= keywords part)
     keyword = self.root.findall("./filterSection/keywords")
     keyword = keyword[0]
 
+    # add DocMain page with id only - doesn't appear in Index!
+    newkwd = ET.SubElement(keyword, "keyword")
+    newkwd.set("id", "MainPage")  # if only id and no name then keyword not in Index!
+    qmt = "QMT" if "QMapTool" in self.QMTSWTCH else ""
+    newkwd.set("ref", f"{HTMLDIR}/{self.QMTSWTCH}{qmt}DocMain.html")
+    
     for lne in self.idxlnes:
         rr = r5.search(lne)           # line with index entry
         if rr:
@@ -329,12 +335,14 @@ def FindXMLIDX(self):     # build index entries for Qt help (= keywords part)
             continue
 
         rlist = r6.findall(lne)       # get list of all links for index entry
-        for x, lnk in rlist:
+        for i, x in enumerate(rlist):
             # lnk = rr.group(1)
-
+            x, lnk = x
             newkwd = ET.SubElement(keyword, "keyword")
             newkwd.set("name", kwdname)  # add name and id attributes to keyword tag
-            newkwd.set("id", kwdname)    # if set, then keyword doesn't appear in the index
+
+            uniquesuffix = f"_{i}" if i > 0 else ""       # make id unique by adding this suffix
+            newkwd.set("id", f'{kwdname}{uniquesuffix}')  # if only id and no name then keyword not in Index!
 
             splits = lnk.split("#")      # insert the html extension at the correct location
             ref = "{}/{}{}.html".format(HTMLDIR, self.QMTSWTCH, splits[0])
@@ -342,6 +350,8 @@ def FindXMLIDX(self):     # build index entries for Qt help (= keywords part)
                 ref = "{}#{}".format(ref, splits[1])
 
             newkwd.set("ref", ref)
+
+            i +=1
 
             continue
     return
