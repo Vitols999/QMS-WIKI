@@ -29,29 +29,44 @@ mkdir ~/GPS
 cd ~/GPS
 ```
 
+
 ### Installation of needed build packages
+
 ```
 sudo apt-get install cmake build-essential subversion git qt5-default qttools5-dev libqt5webkit5-dev qtscript5-dev qttools5-dev-tools libgdal-dev libproj-dev libghc-bzlib-dev libgraphics-magick-perl libquazip5-dev libqt5sql5-mysql gdal-bin qtwebengine5-dev
 ```
 
-**Remark:**
 
-Starting with version 1.13.0 QMapShack requires PROJ.4 version 5.0.0 or newer. To check the PROJ.4 version installed with the above command run
 
-    pkg-config --modversion proj
+
+**Remarks:**
+
+* Starting with version 1.13.0 QMapShack requires PROJ.4 version 5.0.0 or newer. To check the installed PROJ.4 version with the above command run
+
+        pkg-config --modversion proj
     
-If necessary, an update of the PROJ.4 version can be done as follows:
+    If necessary, an update of the PROJ.4 version can be done as follows:
 
-* Ensure that SQLite3 is installed on your system.    
-* Download the source packages `proj-5.x.0.tar.gz`  (or even `proj-6.0.0.tar.gz`) and `proj-datumgrid-1.8.zip` from the [PROJ.4 download page](https://proj.org/download.html).
-* Follow the [general installation instructions](https://proj.org/install.html#compilation-and-installation-from-source-code) and the [Autotools installation instructions](https://proj.org/install.html#autotools).
-* To install PROJ.4 at the correct location change to the PROJ.4 source folder and call
+    * Ensure that SQLite3 is installed on your system.    
+    * Download the source packages `proj-5.x.0.tar.gz`  (or even `proj-6.0.0.tar.gz`) and `proj-datumgrid-1.8.zip` from the [PROJ.4 download page](https://proj.org/download.html).
+    * Follow the [general installation instructions](https://proj.org/install.html#compilation-and-installation-from-source-code) and the [Autotools installation instructions](https://proj.org/install.html#autotools).
+    * To install PROJ.4 at the correct location change to the PROJ.4 source folder and call
 
         ./configure --prefix=/usr
         make
         sudo make install
         
-    
+* Starting with version 1.15.0 QMapShack requires GDAL version 2.3 or newer. To check the installed GDAL installed run
+
+        gdalinfo --version
+
+    If necessary, an update of the GDAL version can be done as follows:
+ 
+        sudo add-apt-repository ppa:ubuntugis/ppa
+        sudo apt-get update
+        sudo apt-get install gdal-bin
+
+        
 
 ### Initial build of Routino
 ```
@@ -61,7 +76,7 @@ make
 sudo make install
 cd ..
 ```
-Note: If you see an error message when starting QMapShack stating something like " ... routino lib not found ..." maybe you have to modify Makefile.conf. Change line 48 from prefix=/usr/local to prefix=/usr and rerun the building steps of Routino.
+Note: If you see an error message when starting QMapShack stating something like `... routino lib not found ...` maybe you have to modify Makefile.conf. Change line 48 from `prefix=/usr/local` to `prefix=/usr` and rerun the building steps of Routino.
 
 #### Update of Routino when something has changed in future
 ```
@@ -105,7 +120,7 @@ sudo apt-get install qtcreator
 ```
 
 Note:
-In QtCreator you can add -jN in Project/Create/Steps/Details/Toolparammeter to speed up the compilation time. -jN specifies the number (N) of jobs to run simultaneously. You can start with -j2 and increase (-j3, -j4, ...) to the value of the optimal compilation speed depending on your CPU.
+In QtCreator you can add `-jN in Project/Create/Steps/Details/Toolparammeter` to speed up the compilation time. `-jN` specifies the number (N) of jobs to run simultaneously. You can start with `-j2` and increase (`-j3, -j4`, ...) to the value of the optimal compilation speed depending on your CPU.
 
 More information about developing of QMapShack will be found in chapter "Developing QMapShack" beginning [here](DeveloperCodingGuideline) and [here](DeveloperCommitCode).
 
