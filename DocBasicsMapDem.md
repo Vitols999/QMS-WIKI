@@ -276,6 +276,10 @@ pause
 
 Alternatively, a wrapper script based on above information can make Mapsforge maps available in QMapShack, amongst others OpenAndroMaps maps. In addition, it allows for initially selecting a Mapsforge map and theme and later on switching easily map and theme while QMapShack keeps running. Script _Mapsforge_for_QMapShack.tcl_ is written in Tcl/Tk command language and is executable on Microsoft Windows and Linux operating system. Execution requires Tcl/Tk 8.6 or newer command interpreter to be installed.
 
+Update June 20th, 2020:  
+• Recent version of Mapsforge tile server is able to serve multiple maps. Thus adjacent maps overlap seamlessly and allow for cross-regional planning. Script has been extended to allow selecting multiple map files.  
+• In addition, recent version of Mapsforge tile server now accepts Mapsforge rendertheme version 4 XML files containing styles and overlays. Unfortunately, tile server does not allow selecting a particular style nor enabling/disabling overlays. Instead of that, **all** styles and overlays contained in theme file are rendered. However, separation into different theme files, one file per style, can be derived by removing all unneeded style layers, overlay layers **and** rules from original theme file.
+
 Before using script, some script variables settings (folders, executables, ...) have to be modified to match local installation and environment. These variables are described and set at the beginning of script.
 
 Script gets executed by command:
@@ -284,13 +288,13 @@ Script gets executed by command:
 wish Mapsforge_for_QMapShack.tcl
 ```
 
-Select map and theme, press wrapper's _QMapShack_ button to start QMapShack and activate selected map by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map or theme, first press _QMapShack_ button, then right click QMapShack's maps list and force QMapShack to reload maps.
+Select map(s) and theme, press wrapper's _QMapShack_ button to start QMapShack and activate selected map by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map(s) or theme, first press _QMapShack_ button, then right click QMapShack's maps list and force QMapShack to reload maps.
 
 Screenshot:
 
 ![Mapsforge_for_QMapShack](images/DocBasicsMapDem/Mapsforge4QMS.png "Mapsforge for QMapShack")
 
-Code of script _Mapsforge_for_QMapShack.tcl_:
+Code of script _Mapsforge_for_QMapShack.tcl_ (as at June 20th, 2020):
 
 ```tcl
 # Wrapper to make Mapsforge maps and themes available to QMapShack
@@ -304,10 +308,12 @@ Code of script _Mapsforge_for_QMapShack.tcl_:
 #   or name of QMapShack executable if resolved by PATH variable
 # tms_folder
 #   Folder containing QMapShack (Tile Map Service) online maps with suffix .tms
+#   Get/Set folder path by "File -> Setup Map Paths"
 #   Map file Mapsforge.tms and preset file Mapsforge.ini get stored there.
 #   Hence, folder must be writable!
 # tiles_folder
-#   QMapShack's main folder containing tiles cache subfolders of online maps
+#   QMapShack's root path of tile cache for online maps
+#   Get/Set folder path by "File -> Setup Map Paths"
 #   QMapShack will cache Mapsforge map tiles in subfolder Mapsforge
 #   Subfolder has to get cleaned after changing Mapsforge map or theme
 # maps_folder
@@ -346,6 +352,7 @@ Code of script _Mapsforge_for_QMapShack.tcl_:
 # Operating system Microsoft Windows variables settings 
 
 if {$tcl_platform(os) == "Windows NT"} {
+	
   set qms_exe       "C:/Program Files/QMapShack/qmapshack.exe"
   set tms_folder    "D:/Data/QMapShack/Onlinemaps"
   set tiles_folder  "D:/Data/QMapShack/Tilescache"
@@ -455,6 +462,7 @@ cd $cwd
 # Remember previous Mapsforge map and theme from file Mapsforge.ini
 
 namespace eval setting {}
+set setting::maps {}
 set fd [open "$tms_folder/Mapsforge.ini" a+]
 fconfigure $fd -buffering full -buffersize 65536
 seek $fd 0
@@ -480,24 +488,31 @@ pack .title -expand 1 -fill x
 
 label .maps_folder_label -anchor w -text "Mapsforge maps folder:"
 entry .maps_folder_entry -textvariable maps_folder -state readonly -width 0
-label .maps_list_label -anchor w -text "Mapsforge map:"
-ttk::combobox .maps_list_combo -state readonly -takefocus 0 \
-	-textvariable setting::map \
-	-values [lmap index $maps_list {file rootname $index}]
-if {[.maps_list_combo current] < 0} {.maps_list_combo current 0}
-foreach widget {.maps_folder_label .maps_folder_entry \
-	.maps_list_label .maps_list_combo} {
+label .maps_list_label -anchor w -text "Mapsforge map(s):"
+foreach widget {.maps_folder_label .maps_folder_entry .maps_list_label} {
   pack $widget -expand 1 -fill x
 }
+frame .maps_frame -borderwidth 0
+pack .maps_frame -side top -expand 1 -fill both
+scrollbar .maps_frame.scroll -command ".maps_frame.list yview"
+listbox .maps_frame.list -selectmode extended -activestyle none \
+	-takefocus 1 -exportselection 0 \
+	-width 0 -height [::tcl::mathfunc::min [llength $maps_list] 10]
+foreach map $maps_list {
+  .maps_frame.list insert end $map
+  if {[lsearch -exact $setting::maps $map] != -1} {.maps_frame.list selection set end}
+}
+pack .maps_frame.scroll -side right -fill y
+pack .maps_frame.list -side left -expand 1 -fill both
 
 # Mapsforge theme selection
 
 label .themes_folder_label -anchor w -text "Mapsforge themes folder:"
 entry .themes_folder_entry -textvariable themes_folder -state readonly -width 0
 label .themes_list_label -anchor w -text "Mapsforge theme:"
-ttk::combobox .themes_list_combo -state readonly -takefocus 0 \
-	-textvariable setting::theme \
-	-values [lmap index $themes_list {file rootname $index}]
+option add *TCombobox*Listbox.selectBackground [.maps_frame.list cget -selectbackground]
+ttk::combobox .themes_list_combo -state readonly -takefocus 1 \
+	-textvariable setting::theme -values $themes_list
 if {[.themes_list_combo current] < 0} {.themes_list_combo current 0}
 foreach widget {.themes_folder_label .themes_folder_entry \
 	.themes_list_label .themes_list_combo} {
@@ -515,7 +530,7 @@ bind Button <Return> {%W invoke}
 
 # Hint
 
-append hint "Hint:\n"
+set    hint "Hint:\n"
 append hint "After changing Mapsforge map or theme\n"
 append hint "first press QMapShack button above\n"
 append hint "then right click QMapShack's maps list\n"
@@ -525,14 +540,24 @@ pack .hint
 
 # Display windows
 
+focus .buttons.continue  
 update idletasks
 wm state . normal
 
 # Wait for selection or finish
 
-vwait action
-if {$action == 0} {exit}
-unset action
+while { 1 } {
+  vwait action
+  if {$action == 0} {exit}
+  unset action
+  if {[llength [.maps_frame.list curselection]] < 1} {
+    error_message "No Mapsforge map(s) selected" return
+    continue
+  }
+  set setting::maps [lmap index [.maps_frame.list curselection] \
+	{.maps_frame.list get $index}]
+  break
+}
 
 # Hide toplevel window
 
@@ -547,7 +572,7 @@ puts $fd "<Layer idx=\"0\">"
 puts $fd "<Title>Mapsforge</Title>"
 puts $fd "<MinZoomLevel>3</MinZoomLevel>"
 puts $fd "<MaxZoomLevel>15</MaxZoomLevel>"
-append url "http://localhost:$tcp_port/%1/%2/%3.png"
+set    url "http://localhost:$tcp_port/%1/%2/%3.png"
 append url "?textScale=$text_scale"
 append url "&amp;userScale=$user_scale"
 append url "&amp;transparent=$transparent"
@@ -574,7 +599,7 @@ proc process_start {command process} {
   set fd $result
   fconfigure $fd -blocking 0 -buffering line -translation crlf
 
-  append script "if {\[gets $fd line\] >= 0} {puts \$line};"
+  set    script "if {\[gets $fd line\] >= 0} {puts \$line};"
   append script "if {\[eof $fd\]} {"
   append script "  close $fd;"
   append script "  namespace delete $process;"
@@ -610,10 +635,11 @@ proc server_start {} {
 
   lappend command $::java_exe -jar [file normalize $::server_jar]
   lappend command -p $::tcp_port
-  set map [lindex $::maps_list [.maps_list_combo current]]
-  set map "[file normalize $::maps_folder]/$map"
-  lappend command -m $map
-  set theme [lindex $::themes_list [.themes_list_combo current]]
+  foreach map $setting::maps {
+    lappend map_list "[file normalize $::maps_folder]/$map"
+  }
+  lappend command -m [join $map_list ","]
+  set theme $setting::theme
   if {$theme != ""} {
     set theme "[file normalize $::themes_folder]/$theme"
     lappend command -t $theme
@@ -647,11 +673,17 @@ qms_start
 update idletasks
 vwait action
 
-# After changing Mapsforge map or theme:
+# After changing Mapsforge map(s) or theme:
 # Stop tile server, clear tiles cache folder, restart tile server
 
 while {$action == 1} {
   unset action
+  if {[llength [.maps_frame.list curselection]] < 1} {
+    error_message "No Mapsforge map(s) selected" return
+    continue
+  }
+  set setting::maps [lmap index [.maps_frame.list curselection] \
+	{.maps_frame.list get $index}]
   process_stop server
   catch {file delete -force "$tiles_folder/Mapsforge"}
   server_start
@@ -673,7 +705,7 @@ process_stop qms
 
 catch {file delete -force "$tms_folder/Mapsforge.tms" "$tiles_folder/Mapsforge"}
 
-# Save current Mapsforge map and theme to file Mapsforge.ini
+# Save current Mapsforge map(s) and theme to file Mapsforge.ini
 
 set fd [open "$tms_folder/Mapsforge.ini" a+]
 fconfigure $fd -buffering full -buffersize 65536
@@ -706,6 +738,12 @@ destroy .
 
 exit
 ```
+
+Hint:  
+If QMapShack is showing rendered Mapsforge map a little blurred, it may help to  
+• first open “View -> Setup Map View” and set “Scale” to “Square”  
+• then hit “symbol grid” button at upper right corner above and set “Projection” to “World Mercator (OSM)”
+
 
 - - -
 [Prev](DocInstallMapDem) (Install Maps & DEM Data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Control maps and DEM files) [Next](DocControlMapDem)
