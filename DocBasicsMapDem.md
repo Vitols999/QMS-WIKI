@@ -531,7 +531,7 @@ bind Button <Return> {%W invoke}
 # Hint
 
 set    hint "Hint:\n"
-append hint "After changing Mapsforge map or theme\n"
+append hint "After changing Mapsforge map(s) or theme\n"
 append hint "first press QMapShack button above\n"
 append hint "then right click QMapShack's maps list\n"
 append hint "and force QMapShack to reload maps!\n"
