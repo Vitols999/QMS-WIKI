@@ -292,7 +292,7 @@ Select map(s) and theme, press wrapper's _QMapShack_ button to start QMapShack a
 
 Screenshot:
 
-![Mapsforge_for_QMapShack](images/DocBasicsMapDem/Mapsforge4QMS.png "Mapsforge for QMapShack")
+![Mapsforge_for_QMapShack](https://user-images.githubusercontent.com/62614244/85198324-156f6480-b2e8-11ea-8ad8-e69051ebe84f.png)
 
 Code of script _Mapsforge_for_QMapShack.tcl_ (as at June 20th, 2020):
 
