@@ -288,7 +288,7 @@ Script gets executed by command:
 wish Mapsforge_for_QMapShack.tcl
 ```
 
-Select map(s) and theme, press wrapper's _QMapShack_ button to start QMapShack and activate selected map by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map(s) or theme, first press _QMapShack_ button, then right click QMapShack's maps list and force QMapShack to reload maps.
+Select map(s) and theme, press wrapper's _QMapShack_ button to start QMapShack and activate selected map(s) by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map(s) or theme, first press _QMapShack_ button, then right click QMapShack's maps list and force QMapShack to reload maps.
 
 Screenshot:
 
