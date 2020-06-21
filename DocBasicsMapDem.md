@@ -277,8 +277,8 @@ pause
 Alternatively, a wrapper script based on above information can make Mapsforge maps available in QMapShack, amongst others OpenAndroMaps maps. In addition, it allows for initially selecting a Mapsforge map and theme and later on switching easily map and theme while QMapShack keeps running. Script _Mapsforge_for_QMapShack.tcl_ is written in Tcl/Tk command language and is executable on Microsoft Windows and Linux operating system. Execution requires Tcl/Tk 8.6 or newer command interpreter to be installed.
 
 Update June 20th, 2020:  
-• Recent version of Mapsforge tile server is able to serve multiple maps. Thus adjacent maps overlap seamlessly and allow for cross-regional planning. Script has been extended to allow selecting multiple map files.  
-• In addition, recent version of Mapsforge tile server now accepts Mapsforge rendertheme version 4 XML files containing styles and overlays. Unfortunately, tile server does not allow selecting a particular style nor enabling/disabling overlays. Instead of that, **all** styles and overlays contained in theme file are rendered. However, separation into different theme files, one file per style, can be derived by removing all unneeded style layers, overlay layers **and** rules from original theme file.
+* Recent version of Mapsforge tile server is able to serve multiple maps. Thus adjacent maps overlap seamlessly and allow for cross-regional planning. Script has been extended to allow selecting multiple map files.  
+* In addition, recent version of Mapsforge tile server now accepts Mapsforge rendertheme version 4 XML files containing styles and overlays. Unfortunately, tile server does not allow selecting a particular style nor enabling/disabling overlays. Instead of that, **all** styles and overlays contained in theme file are rendered. However, separation into different theme files, one file per style, can be derived by removing all unneeded style layers, overlay layers **and** rules from original theme file.
 
 Before using script, some script variables settings (folders, executables, ...) have to be modified to match local installation and environment. These variables are described and set at the beginning of script.
 
@@ -292,7 +292,9 @@ Select map(s) and theme, press wrapper's _QMapShack_ button to start QMapShack a
 
 Screenshot:
 
-![Mapsforge_for_QMapShack](https://user-images.githubusercontent.com/62614244/85198324-156f6480-b2e8-11ea-8ad8-e69051ebe84f.png)
+![Mapsforge_for_QMapShack](images/DocBasicsMapDem/Mapsforge4QMS.png "Mapsforge_for_QMapShack")
+
+(*original location of image:* https://user-images.githubusercontent.com/62614244/85198324-156f6480-b2e8-11ea-8ad8-e69051ebe84f.png)
 
 Code of script _Mapsforge_for_QMapShack.tcl_ (as at June 20th, 2020):
 
@@ -741,8 +743,8 @@ exit
 
 Hint:  
 If QMapShack is showing rendered Mapsforge map a little blurred, it may help to  
-• first open “View -> Setup Map View” and set “Scale” to “Square”  
-• then hit “symbol grid” button at upper right corner above and set “Projection” to “World Mercator (OSM)”
+* first open “View -> Setup Map View” and set “Scale” to “Square”  
+* then hit “symbol grid” button at upper right corner above and set “Projection” to “World Mercator (OSM)”
 
 
 - - -
