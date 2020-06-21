@@ -284,13 +284,30 @@ The purpose of the distance ruler is to find distances along straight line segme
 
 To use the distance rule proceed as follows:
 
-* Open a map view.
-* Right-click with the mouse in the map view to open the context menu and select the menu entry `Ruler`. The mouse icon will change to the ruler icon ![Ruler icon](images/DocAdv/cursorRuler.png "Ruler icon"). A ruler toolbar pops-up at the upper left corner of the map view. Bubble boxes explain the meaning of each toolbar icon when moving the mouse on it. The icons in the middle of the toolbar are selectable (pressed/selected or not pressed/selected).
+* Open a map view.  
+* Right-click with the mouse in the map view to open the context menu and select the menu entry `Ruler`. The mouse icon will change to the ruler icon ![Ruler icon](images/DocAdv/cursorRuler.png "Ruler icon"). A ruler toolbar pops-up at the upper left corner of the map view. Bubble boxes explain the meaning of each toolbar icon when moving the mouse on it. The icons in the middle of the toolbar have 2 states: "pressed/selected" or "not pressed/selected".
 
     ![Ruler toolbar](images/DocAdv/Ruler1.png "Ruler toolbar")
+    
+    The following table gives an overview of the toolbar:  
+    
+    | Default icon |  Tooltip |
+|---------|----------|
+|  ![FlagBlue.png](images/icons/FlagBlue.png) | Convert into a group of waypoints. |
+|  ![Track.png](images/icons/Track.png) | Convert into a track. |
+|  ![Route.png](images/icons/Route.png) | Convert into a route. |
+|  ![Area.png](images/icons/Area.png) | Convert into an area. |
+|  ![Table.png](images/icons/Table.png) | Show table. |
+|  ![CSrcCourse.png](images/icons/CSrcCourse.png) | Show course of each segment. |
+|  ![CSrcAscent.png](images/icons/CSrcAscent.png) | Show ascent or descent of each segment. |
+|  ![CSrcSlope.png](images/icons/CSrcSlope.png) | Show angle between line segments. |
+|  ![Precision.png](images/icons/Precision.png) | Show distances in high precision. |
+|  ![Reset.png](images/icons/Reset.png) | Reset ruler. |
+|  ![Undo.png](images/icons/Undo.png) | Undo |
+|  ![Redo.png](images/icons/Redo.png) | Redo |
 
 * Left-click in the map view at the first point of the wanted line segment.
-* Add more points with further left clicks.
+* Add points with more left clicks.
 * Right-click, if finished with adding points (line segments).
 * Assume all selectable toolbar icons are selected. Then a table shows information about the length (distance) and other information of each line segment. The same information is displayed on the line segments. In addition to this, the angle between adjacent line segments is shown.
 

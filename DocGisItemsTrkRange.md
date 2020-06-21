@@ -44,20 +44,21 @@ A track range can be selected either in a map view or in the edit window of the 
     
     | Icon  | Meaning   |
     |-------|-----------|
-    | ![Hide range][RngHide]                                   | Hide range| 
-    | ![Show hidden points][RngShow]                           | Show hidden points| 
-    | ![Select activity][RngAct]                               | Select activity| 
-    | ![Copy range][RngCopy]                                   | Copy range| 
-    | ![Delete range][RngDel]                                  | Delete range| 
-    | ![Range tool setup][RngSetup]                            | Range tool setup| 
-    | ![Move start of range towards start of track][RngSt2St]  | Move start of range towards start of track |
-    | ![Move start of range towards end of track][RngSt2End]   | Move start of range towards end of track |
-    | ![Start a new range at the end of the range][RngNewE]    | Start a new range at the end of the range |   
-    | ![Reset selected range][RngSelReset]                     | Reset selected range |
-    | ![Start a new range at the start of the range][RngNewS]  | Start a new range at the start of the range |    
-    | ![Move end of range towards start of track][RngEnd2St]   | Move end of range towards start of track |  
-    | ![Move end of range towards end of track][RngEnd2End]    | Move end of range towards end of track|
-   
+|  ![PointHide.png](images/icons/PointHide.png) | Hide selected track points. |
+|  ![PointShow.png](images/icons/PointShow.png) | Show selected track points. |
+|  ![Activity.png](images/icons/Activity.png) | Select activity for selected range. |
+|  ![Copy.png](images/icons/Copy.png) | Copy selected track points. |
+|  ![DeleteMultiple.png](images/icons/DeleteMultiple.png) | Delete selected track points. |
+|  ![Apply.png](images/icons/Apply.png) | Setup range tool behavior. |
+|  ![SelectStartNextPoint.png](images/icons/SelectStartNextPoint.png) | Move start of range toward start of track. If you keep the key pressed the action is repeated.  |
+|  ![SelectStartPrevPoint.png](images/icons/SelectStartPrevPoint.png) | Move start of range toward end of track. If you keep the key pressed the action is repeated.  |
+|  ![SelectEndPoint.png](images/icons/SelectEndPoint.png) | Start a new range right at the end of the selected range. |
+|  ![SelectReset.png](images/icons/SelectReset.png) | Reset selected range. |
+|  ![SelectStartPoint.png](images/icons/SelectStartPoint.png) | Start a new range right at the start of the selected range. |
+|  ![SelectEndPrevPoint.png](images/icons/SelectEndPrevPoint.png) | Move end of range toward start of track. If you keep the key pressed the action is repeated.  |
+|  ![SelectEndNextPoint.png](images/icons/SelectEndNextPoint.png) | Move end of range toward end of track. If you keep the key pressed the action is repeated.  |
+
+  
 
 * Click with the left mouse button at the location of the start of the range to be selected in the track and release the mouse button. The clicked trackpoint is shown as a green circle.
 * Move the mouse to the location of the end of the range to be selected.
@@ -96,7 +97,6 @@ A track range can be selected either in a map view or in the edit window of the 
 [RngSt2St]:    images/icons/SelectStartNextPoint.png   "Move start of range towards start of track"
 [RngSt2End]:   images/icons/SelectStartPrevPoint.png   "Move start of range towards end of track "
 [RngNewS]:     images/icons/SelectStartPoint.png       "Start a new range at the start of the range"
-[RngSelReset]: images/icons/SelectReset.png            "Reset selected range"
 [RngNewE]:     images/icons/SelectEndPoint.png         "Start a new range at the end of the range"
 [RngEnd2St]:   images/icons/SelectEndPrevPoint.png     "Move end of range towards start of track"
 [RngEnd2End]:  images/icons/SelectEndNextPoint.png     "Start a new range at the end of the range"

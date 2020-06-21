@@ -46,36 +46,31 @@ The toolbar on the right side of the selection rectangle gives access to the sup
 The following table lists all actions of the toolbar:
 
 
+| Default icon |  On/selected state | Tooltip |
+|---------|--------|----------|
+|  ![Copy.png](images/icons/Copy.png) | - | Copy all selected items to a project. |
+|  ![Route.png](images/icons/Route.png) | - | Create a route from selected waypoints. |
+|  ![WptEditProx.png](images/icons/WptEditProx.png) | - | Set proximity and no-go area option. |
+|  ![PinBlue.png](images/icons/PinBlue.png) | - | Change the icon of all selected waypoints. |
+|  ![SetEle.png](images/icons/SetEle.png) | - | Replace the elevation in all selected waypoints and tracks by values from the view's DEM data. |
+|  ![Combine.png](images/icons/Combine.png) | - | Combine all selected tracks to a new one. |
+|  ![Activity.png](images/icons/Activity.png) | - | Set an activity for all selected tracks. |
+|  ![SelectColor.png](images/icons/SelectColor.png) | - | Change the color of all selected tracks. |
+|  ![DeleteMultiple.png](images/icons/DeleteMultiple.png) | - | Delete all selected items. |
+|  ![SelectIntersectArea.png](images/icons/SelectIntersectArea.png) | ![SelectIntersectAreaOn.png](images/DocAdv/SelectIntersectAreaOn.png) | Select all items that intersect the selected area. |
+|  ![SelectExactArea.png](images/icons/SelectExactArea.png) | ![SelectExactAreaOn.png](images/DocAdv/SelectExactAreaOn.png) | Select all items that are completely inside the selected area. |
+|  ![Track.png](images/icons/Track.png) | ![TrackOn.png](images/icons/TrackOn.png) | Add tracks to selection. |
+|  ![FlagBlue.png](images/icons/FlagBlue.png) | ![WaypointOn.png](images/icons/WaypointOn.png) | Add waypoints to selection. |
+|  ![Route.png](images/icons/Route.png) | ![RouteOn.png](images/icons/RouteOn.png) | Add routes to selection. |
+|  ![Area.png](images/icons/Area.png) | ![AreaOn.png](images/icons/AreaOn.png) | Add areas to selection. |
 
-*Action*|*Icon (off state)*|*Icon (on state)*|*Checkable*|*Exclusive*|
-----|----|----|----|----|
- Copy all selected items to a project. | ![img](images/icons/Copy.png "img") | - | - | - |  
- Create a route from selected waypoints. | ![img](images/icons/Route.png "img") | - | - | - |  
- Set proximity and no-go area option. | ![img](images/icons/WptEditProx.png "img") | - | - | - |  
- Change the icon of all selected waypoints. | ![img](images/icons/PinBlue.png "img") | - | - | - |  
- Replace the elevation in all selected waypoints and tracks by values from the view's DEM data. | ![img](images/icons/SetEle.png "img") | - | - | - |  
- Combine all selected tracks to a new one. | ![img](images/icons/Combine.png "img") | - | - | - |  
- Set an activity for all selected tracks. | ![img](images/icons/Activity.png "img") | - | - | - |  
- Change the color of all selected tracks. | ![img](images/icons/SelectColor.png "img") | - | - | - |  
- Delete all selected items. | ![img](images/icons/DeleteMultiple.png "img") | - | - | - |  
- Select all items that intersect the selected area. | ![img](images/icons/SelectIntersectArea.png "img") | ![img](images/DocAdv/SelectIntersectAreaOn.png "img") | true | true |  
- Select all items that are completely inside the selected area. | ![img](images/icons/SelectExactArea.png "img") | ![img](images/DocAdv/SelectExactAreaOn.png "img") | true | true |  
- Add tracks to selection. | ![img](images/icons/Track.png "img") | ![img](images/icons/TrackOn.png "img") | true | - |  
- Add waypoints to selection. | ![img](images/icons/FlagBlue.png "img") | ![img](images/icons/WaypointOn.png "img") | true | - |  
- Add routes to selection. | ![img](images/icons/Route.png "img") | ![img](images/icons/RouteOn.png "img") | true | - |  
- Add areas to selection. | ![img](images/icons/Area.png "img") | ![img](images/icons/AreaOn.png "img") | true | - |  
-
-
-
-(_Overview derived from commit 89511685 - 2020-03-21 17:11:30 +0100_) 
 
 _Comments:_
 
-* `true` in the column `Exclusive` marks a group of actions where only one checkable action in the group can ever be active at any time. 
-  If the user chooses another checkable action in the group, the one chosen becomes active and the one that has been active becomes inactive.
-* `true` in the column `Checkable` marks an action which has an on/off state (`checked/selected` or 
+* The actions `Select all items that intersect the selected area` and `Select all items that are completely inside the selected area.` are exclusive, i.e. only one of them can be active at any time. If the user chooses another of these two actions, the one chosen becomes active and the one that has been active becomes inactive.
+* An icon in the column `On/selected state` marks an action which has an on and an off state (`checked/selected` or 
   `not checked/not selected`). A change of the state implies a change of the displayed toolbar icon.
-* Select first the necessary states of the checkable actions.
+* Select first the necessary states of the actions with on/off state.
 * Next click one of the actions that can't be checked. The corresponding action is carried out immediately.
 * Close the selection rectangle with a right click.
 

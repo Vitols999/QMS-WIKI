@@ -12,7 +12,7 @@
 This page gives an overview of all QMS actions that can be triggered via the main menu or various context menus.
 
 *Menu location*|*Menu entry*|*Shortcut*|*Checkable*|*Exclusive*|*Tooltip*|
-----|----|----|----|----|-----| 
+----|----|----|----|----|-----|
 **File (Main menu)** | . | . | . | . | . |  
  | Load GIS Data | Ctrl+L | - | - | Load projects from file |
  | Save All GIS Data | Ctrl+S | - | - | Save all projects in the workspace |
@@ -232,7 +232,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Configure Services | - | - | - | - |
 **Graphs in track edit window** | . | . | . | . | . |  
  | Reset Zoom | - | - | - | - |
- | Stop Range | - | - | - | - |
+ | Reset Range | - | - | - | - |
  | Save... | - | - | - | - |
  | Add Waypoint | - | - | - | - |
  | Add Trackpoint Info | - | - | - | - |
@@ -244,7 +244,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 
 
 
-(_Overview derived from commit 3b2176d5 - 2020-03-15 16:55:14 +0100)_ 
+(_Overview derived from commit c88f80f3 - 2020-06-14 19:08:46 +0200)_ 
 
 
 
