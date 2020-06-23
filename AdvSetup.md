@@ -181,6 +181,9 @@ section "[Adjustable map properties](AdvMapDetails#adjustable-map-properties)"
     
 ### User-defined Routino profiles
 
+*(valid from commit a0eda84 - 2020-06-23 08:10:57)*
+
+
 When QMS is using Routino for routing it reads in several Routino configuration files. By default, these files are located
 
 * for Windows in the `routino-xml` subdirectory of the QMS installation directory,
