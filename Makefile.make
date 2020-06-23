@@ -48,7 +48,7 @@
 #   Qt5.14.0
 #   Python 3.7.6
 #   Qt Help generator version 1.0 (Qt 5.14.0) (`qhelpgenerator`, if not available, use deprecated `qcollectiongenerator`)
-#   git 2.23.0.windows.1
+#   git 2.26.2.windows.1
 #   GNU bash, version 3.1.17(1)-release (i686-pc-msys)
 
 # Used files:
@@ -80,7 +80,7 @@
 #################### Configuration ################################
 
 # set necessary values for the variables PYTHON, HELPGENERATOR, ASSISTANT (names of the executables 
-# and path, if necessary, to qhelpgenerator/qcollectiongenerator)
+# and paths, if necessary, to qhelpgenerator/qcollectiongenerator)
 
 # all variables can be set on the command line
 
@@ -236,8 +236,8 @@ help:
 	$(info .   make [params] -f Makefile.make check  # Check if used script and project files can be found.)	
 	$(info .   make [params] -f Makefile.make clean  # Discard all "*.html" and ".q*" Qt help files.)
 	$(info .   make [params] -f Makefile.make doc    # Update all outdated "*.html" files from MD files.)
-	$(info .   make [params] -f Makefile.make build  # Sanitize all changed ".q*" Qt help project files)
-	$(info .   make [params] -f Makefile.make all    # Run clean and build (rebuild all))
+	$(info .   make [params] -f Makefile.make build  # Sanitize all changed ".q*" Qt help project files.)
+	$(info .   make [params] -f Makefile.make all    # Run clean and build (rebuild all).)
 	$(info .   make [params] -f Makefile.make show   # Open QMS help in Qt assistant.)  
 	$(info .     [params]:)
 	$(info .        VERBOSE=YES:                          show configuration info)
@@ -256,11 +256,12 @@ $(FILES2CHECK):
 	$(info )
 	$(error File not found: $@)
     
-# remove all HTML files belonging to MD files and all .qhp files
+# remove all HTML files belonging to MD files and remove all .qhp files
 clean:
 	$(info )
 	$(info Removing intermediate files ...)
-	@rm -f $(tgthtml) $(qtproj)
+	@rm -f $(tgthtml)
+
 
 # Rule to update all outdated "*.html" files:
 doc: $(tgthtml)
@@ -288,24 +289,31 @@ $(HTMLDIR)%.html: %.wmts $(htmmake)
 	
 $(HTMLDIR)%.html: %.py $(htmmake)    
 	$(PYTHON) $(htmmake) $<    
-    
-# generate Qt help project files
-%.qhp: $(tgthtml) $(qmshelp) $(IMGS)
-	 $(PYTHON) $(qmshelp)
- 
+     
 # avoid automatic deletion of help configuration files
 .SECONDARY: QMSHelp.qhp QMTHelp.qhp
 
+# There is no known way to detect, if MD or image files have been removed.
+# QHP files depend on this information.
+# Thus, for a safe procedure always create *.qhp files
+
+build: qhp build0
+
+# generate Qt help project files
+qhp: 
+	$(info Creating *.qhp ...)
+	$(PYTHON) $(qmshelp)
+
 # generate compressed Qt help files for QMS/QMT  
-build: doc/qms/QMSHelp.qhc doc/qmt/QMTHelp.qhc $(allshow)
+build0: doc/qms/QMSHelp.qhc doc/qmt/QMTHelp.qhc $(allshow)
      
-doc/qms/QMS%.qhc: QMS%.qhcp QMS%.qhp 
+doc/qms/QMS%.qhc: QMS%.qhcp  $(tgthtml) 
 	 $(HELPGENERATOR) $< -o $@
      
-doc/qmt/QMT%.qhc: QMT%.qhcp QMT%.qhp 
+doc/qmt/QMT%.qhc: QMT%.qhcp  $(tgthtml) 
 	 $(HELPGENERATOR) $< -o $@     
      
-doc/QMSAllHelp.qhc: QMSAllHelp.qhcp QMSHelp.qhp QMTHelp.qhp
+doc/QMSAllHelp.qhc: QMSAllHelp.qhcp $(tgthtml) 
 	 $(HELPGENERATOR) $< -o $@
      
 %Help.qhcp: ;
