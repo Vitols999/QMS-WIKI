@@ -94,7 +94,7 @@ Compare the GPSBabel documentation for more details.
 ## What is the difference between speed and gpxtpx:speed?
 
 Various GPS receivers record different data for trackpoints. Some Garmin navigators use for this purpose
-a special [GPX trackpoint extension](http://www8.garmin.com/xmlschemas/TrackPointExtensionv2.xsd "Garmin gpxtpx trackpoint extension")
+a special [GPX trackpoint extension](https://www8.garmin.com/xmlschemas/TrackPointExtensionv2.xsd "Garmin gpxtpx trackpoint extension")
 named `gpxtpx`. One of the data fields within this extension is `gpxtpx:speed`. It records the speed at the given trackpoint.
 This speed is measured in meters per second whereas the calculated speed at a trackpoint is measured in kilometers per hour.
 

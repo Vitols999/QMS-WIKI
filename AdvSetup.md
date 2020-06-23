@@ -18,7 +18,8 @@
         * [Single map display options](#single-map-display-options)
     * [Routing setup](#routing-setup)
         * [Routino database paths](#routino-database-paths)
-        * [Routino setup](#routino-setup)
+        * [Routino routing setup](#routino-routing-setup)
+        * [User-defined Routino profiles](#user-defined-routino-profiles)
         * [BRouter setup](#brouter-setup)
         * [MapQuest setup](#mapquest-setup)
     * [Further setup and configuration options](#further-setup-and-configuration-options)
@@ -163,20 +164,57 @@ section "[Adjustable map properties](AdvMapDetails#adjustable-map-properties)"
 
 ### Routino database paths
 
-* _Assumption:_ Routing databases have been downloaded and installed. For more details compare also the [Quick start guide](DocQuickStartEnglish).
-* Goto the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`)
-* In the combobox on the top of the window, select `Routino (offline)` 
-* In the pop-up window, add or remove paths for Routino databases
+* _Assumption:_ Routing databases have been downloaded and installed. For more details compare also the [Quick start guide](DocQuickStartEnglish#steps-after-the-first-start).
+* Goto the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`).
+* In the combobox on the top of the window, select `Routino (offline)`.
+* Click the ![Open folder selection](images/icons/PathBlue.png "Folder selection") icon. In the pop-up window, add or remove paths to Routino databases.
 
-### Routino setup
+### Routino routing setup
 
-* Goto the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`)
-* In the combobox on the top of the window, select `Routino (offline)` 
+* Goto the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`).
+* In the combobox on the top of the window, select `Routino (offline)`.
 * Select 
     * Profile (vehicle type)
     * Language (for routing instructions)
     * Mode (quickest/shortest)
-    * Routino database (should cover area under consideration)
+    * Routino database (should cover area under consideration, the names shown are the prefixes added to the routing databases when creating them).
+    
+### User-defined Routino profiles
+
+When QMS is using Routino for routing it reads in several Routino configuration files. By default, these files are located
+
+* for Windows in the `routino-xml` subdirectory of the QMS installation directory,
+* for Linux in `/usr/local/share/routino` folder.
+
+One of the configuration files is `profiles.xml`. The purpose of this XML configuration file is to allow easy modification of the routing parameters for the offered vehicle types. More details about Routino configuration files can be found [here](https://www.routino.org/documentation/configuration.html). The structure of the `profiles.xml` file is described [here]( https://www.routino.org/xml/routino-profiles.xsd).
+
+In addition to the default profiles file the user can define database-specific profiles files. To do this proceed as follows:
+
+* If you want to use an additional profiles file for some Routino database: Copy the `prefix-*.mem` files of the considered database to `prefix_xxx-*.mem` where `xxx` should describe the profile variant.
+* Copy the default `profiles.xml` file to `prefix_xxx-profiles.xml` in the folder where the `prefix_xxx-*.mem` database files are located.
+* Change the settings in `prefix_xxx-profiles.xml`.
+* **Warning:** Don't add new profiles to the profiles file and don't change the `name` or `transport` attributes of a `profile` tag!
+* Start QMS.
+* When selecting the `prefix_xxx` database in the database selection listbox the newly defined `prefix_xxx-profiles.xml` is used for routing.
+* If no user-defined profiles file is found for a Routino database, then the default profiles files is used for routing.
+
+Here is an example of the use of 3 different profiles files for one Routino database when creating a route/track through 3 waypoints (the area under consideration has lots of bridges, cycle routes and foot paths):
+
+![Routing with 3 profiles](images/DocGisItemsRte/RoutingProfiles.png "Use of routing profiles")
+
+The routing properties used for the 3 variants are
+
+| type | default (%) - red | bike routes & no bridges (%) - blue | foot & no bike routes (%) - green |
+|------|------:|---------:|------:|
+| bridge        | 50 |   0 | 100 |
+| footroute     | 50 |  50 | 100 |
+| bicycleroute  | 60 | 100 |  10 |   
+
+*Comments:*
+
+* The blue route with a high preference of cycle routes and which should avoid bridges follows mainly cycle routes. It is rather long because it avoids bridges.
+* The green route with has a high preference of bridges and foot paths. 
+* The red default route is a compromise between the extreme blue and green routes.
     
 ### BRouter setup
 

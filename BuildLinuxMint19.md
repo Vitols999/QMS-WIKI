@@ -19,7 +19,7 @@
  
 # Compiling and Building QMapShack on Linux Mint 19.x
 
-*This page is a translation of the German page [QMapShack & Linux Mint 19.x](https://www.mtb-touring.net/qms/qmapshack-linux-mint-19)*
+*This page is a translation of the German page [QMapShack & Linux Mint 19.x](https://www.mtb-touring.net/qms/qmapshack-linux-mint-19/ )*
 
 To compile and build QMS carry out the following steps:
 

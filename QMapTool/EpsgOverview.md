@@ -18,7 +18,7 @@ The information collected on this page is taken from the following sources:
 * [epsg.io](https://epsg.io)
 * [EPSG Geodetic Parameter Registry](http://www.epsg-registry.org)
 
-and from files in the `nad` subdirectory of the [Proj.4](http://proj4.org/download.html#current-release) source distribution.
+and from files in the `nad` subdirectory of the [Proj.4](https://proj4.org/download.html#current-release) source distribution.
 
 For a known EPSG code its features can be obtained by calling
 

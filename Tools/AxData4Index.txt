@@ -1142,12 +1142,16 @@ Setup options
         
     * [Routing setup](AdvSetup#routing-setup)
         1. Routing setup|overview of options
-        1. Configuration|Routino
-        1. Routino|configuration
         1. Routing|setup
         
         * [Routino database paths](AdvSetup#routino-database-paths)
-        * [Routino setup](AdvSetup#routino-setup)
+            1. Configuration|Routino
+            1. Routino|configuration
+
+        * [Routino routing setup](AdvSetup#routino-routing-setup)
+        * [User-defined Routino profiles](AdvSetup#user-defined-routino-profiles)
+            1. Routino|user profiles
+            
         * [BRouter setup](AdvSetup#brouter-setup)
         * [MapQuest setup](AdvSetup#mapquest-setup)
         
