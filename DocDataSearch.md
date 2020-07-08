@@ -101,6 +101,10 @@ Keywords and ratings can also be used in [extended searches](#general-descriptio
 
 ## Searching data in the workspace
 
+(_Valid from commit 8cf24be3 - 2020-07-08 12:06:11 +0200)_ 
+
+
+
 ### General description
 
 If the user opens many projects with many GIS objects in the workspace, then there emerges the need to search for a subset of these objects satisfying some given criterion. QMS offers 3 different ways to perform such a search:
@@ -143,6 +147,7 @@ An **extended search** is used automatically as soon as the input has the specia
 | keywords | searches the Keywords |
 | name | searches the name of the item. For Geocaches this is ''Name - GCCode''. |
 | rating | compares the Rating |
+| type | searches the type of the GisItem (Waypoint, Track, Route, Area) |
 | **Properties for tracks & routes** | | 
 | activity | searches the activity of a route or track |
 | ascent | searches the total ascent in a route or track |
@@ -168,8 +173,14 @@ An **extended search** is used automatically as soon as the input has the specia
 | D | searches the difficulty rating of a geocache |
 | GCCode | searches the GCCode of a geocache. |
 | GCName | searches the Name of a geocache. |
+| GCOwner | searches the username of the geocache owner |
+| GCType | searches the type of a geocache. (traditional, unknown, virtual...) |
 | T | searches the terrain rating of a geocache |
 | difficulty | searches the difficulty rating of a geocache |
+| latest log by | searches the username of the latest log |
+| latest log date | searches the date of the latest log |
+| latest log type | searches the type of the latest log (Found It, Didn't find it, Owner Maintenance, Write Note...) |
+| logged by | searches the available logs for a username |
 | negated attributes | searches the translated meanings of the negated attributes (those crossed out) |
 | non-negated attributes | searches the translated meanings of the non-negated attributes (those not crossed out) |
 | positive attributes | searches the translated meanings of the non-negated attributes (those not crossed out) |

@@ -79,7 +79,7 @@ This page will summarize the necessary steps.
 
 ### Fork the repository
 
-based on [Fork a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+based on [Fork a repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 1. Go to QMapShack's [code repository page](https://github.com/Maproom/qmapshack).
 2. In the top-right corner of the page, click Fork.
@@ -168,7 +168,7 @@ When you fork a project in order to propose changes to the original repository, 
 
 ### Keep your fork synced
 
-You might fork a project in order to propose changes to the upstream, or original, repository. In this case, it's good practice to regularly sync your fork with the upstream repository. To do this, you'll need to use Git on the command line. You can practice setting the upstream repository using the same Maproom/qmapshack repository you just forked! Based on [Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+You might fork a project in order to propose changes to the upstream, or original, repository. In this case, it's good practice to regularly sync your fork with the upstream repository. To do this, you'll need to use Git on the command line. You can practice setting the upstream repository using the same Maproom/qmapshack repository you just forked! Based on [Syncing a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 
 1. Open Terminal.
 

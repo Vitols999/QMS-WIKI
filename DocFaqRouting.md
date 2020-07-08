@@ -35,8 +35,8 @@ The language for the routing algorithm was set by the user to Russian within QMS
 
 **Source:**
 
-* [www.naviboard.de](http://www.naviboard.de/vb/showthread.php?t=59418)
-* [www.naviboard.de](https://www.naviboard.de/showthread.php?t=61373)
+* [www.naviboard.de](https://www.naviboard.de/thread/59418-qmapshack-und-tourenplanung/)
+* [www.naviboard.de](https://www.naviboard.de/thread/61373-neues-routino-profil-erstellen/)
 * [gmane.comp.gis.qlandkartegt.user](http://article.gmane.org/gmane.comp.gis.qlandkartegt.user/2626)
 
 The Routino router in QMapShack depends on the [Routino](http://routino.org) package and this package does not offer an option to select a preferred road type.

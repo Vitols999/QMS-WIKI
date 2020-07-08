@@ -26,7 +26,7 @@
 
 ## How to control visibility of POI info?
 
-(_Inspired by_ [newsgroup discussion](https://www.naviboard.de/showthread.php?t=61038))
+(_Inspired by_ [newsgroup discussion](https://www.naviboard.de/thread/61038-detailgrad-hier-freizeitkarte/))
 
 The possibility to control the POI visibility in QMS map windows depends on the type of the displayed map:
 
@@ -254,7 +254,7 @@ _Remark:_ The copied position is the position selected with the mouse pointer in
 
 ## Is there a possibility to display small roads/tracks in a vector map without zooming in too much?
 
-**Source:** [www.naviboard.de](http://www.naviboard.de/vb/showthread.php?t=59676)
+**Source:** [www.naviboard.de](https://www.naviboard.de/thread/59676-qmapshack-zeigt-kleinere-wege-nur-bei-relativ-gro%C3%9Fen-ma%C3%9Fst%C3%A4ben-an/)
 
 This problem appears with a vector map like [Freizeitkarte](http://www.freizeitkarte-osm.de/) where smaller
 roads/tracks are only visible at a zoom level where the overview gets lost.
@@ -453,7 +453,7 @@ waypoint. This centers the map in QMS to the waypoint and thus to the raster map
 
 ## Is it possible to use several VRT files?
 
-**Compare:** [naviboard.de newsgroup](http://www.naviboard.de/vb/showthread.php?t=60385)
+**Compare:** [naviboard.de newsgroup](https://www.naviboard.de/thread/60385-h%C3%B6hendaten-in-qmapshack-einbinden/)
 
 Raster maps and DEM (**D**igital **E**levation **M**odel) data are supported in QMS via corresponding VRT files.
 Several VRT files can be used. It is up to the user to organize the files properly.
