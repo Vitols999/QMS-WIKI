@@ -21,7 +21,7 @@ Here are the main ones:
 
 * [http://wiki.opensTREetmap.org/wiki/OSM_Map_On_Garmin/Format](https://wiki.opensTREetmap.org/wiki/OSM_Map_On_Garmin/Format)
 * [http://www.pinns.co.uk/osm/RGN.html](http://www.pinns.co.uk/osm/RGN.html)
-* [exploring_img.pdf](http://www.pinns.co.uk/osm/docs/exploring_img.pdf "exploring_img.pdf")
+* [exploring_img.pdf](http://www.pinns.co.uk/osm/docs/expl_img2015.pdf "exploring_img.pdf")
 * `imgformat-1.0.pdf`, which can be downloaded, for example, [here](https://sourceforge.net/projects/garmin-img/files/). 
 
 Unfortunately, these sources do not contain any information about saving raster maps in IMG maps.

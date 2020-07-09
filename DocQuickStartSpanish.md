@@ -58,7 +58,7 @@ Aqui tienes una lista con los enlaces para descargar el programa y una serie de 
 
 __Mapas:__
 
-* [Mapa alternativaslibres.org](http://alternativaslibres.org/es/downloads.php "Alternativas Libres Garmin").  Busca en la lista la fila España y elige la opción  "Topográfico" en su versión "Archivo para copiar en el GPS". Esto bajara un archivo `.zip`  Para España aproximadamente unos 750 Mb
+* [Mapa alternativaslibres.org](https://alternativaslibres.org/es/downloads.php "Alternativas Libres Garmin").  Busca en la lista la fila España y elige la opción  "Topográfico" en su versión "Archivo para copiar en el GPS". Esto bajara un archivo `.zip`  Para España aproximadamente unos 750 Mb
 
 * [Mapas y ortofoto online (IGN_España y otros)](https://mega.nz/#!gJ0TgB7D!BSFixTvffJ6IcWLUlR0wNxHxhVDFMPW1AHzjZQpl4L0 "ESP_QMS_onlinemaps"). Desde este enlace se descarga el fichero `ESP_QMS_onlinemaps.zip`.
 * [Mapas y ortofoto online (mundo)](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "On-line maps"). En esta pagina, pincha`Download online maps`, y se descarga el fichero `Onlinemaps.zip`.

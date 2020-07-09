@@ -66,8 +66,8 @@ LIB /DEF:sqlite3.def
 
 ## Additional binaries needed to compile PROJ.4 version 6
 
-To build [PROJ.4 version 6](https://proj4.org/news.html#release-notes), you need also 
-the sqlite executables. See [PROJ.4 Installation instructions](https://proj4.org/install.html?highlight=sqlite#compilation-and-installation-from-source-code)
+To build [PROJ.4 version 6](https://proj.org/news.html#release-notes), you need also 
+the sqlite executables. See [PROJ.4 Installation instructions](https://proj.org/install.html?highlight=sqlite#compilation-and-installation-from-source-code)
 
 * Download https://www.sqlite.org/2019/sqlite-tools-win32-x86-3270200.zip
 * Unzip the EXE files to the same directory where you placed the DLL and DEF files

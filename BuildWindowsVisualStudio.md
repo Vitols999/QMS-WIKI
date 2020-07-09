@@ -143,8 +143,8 @@ If you need support for formats such as WCS, WMS, WMTS, MBTiles: see
 ### C2.) Compile the PROJ library http://trac.osgeo.org/proj/
 
 - Download the source code of the version 6.0 (or latest)
-  from https://proj4.org/ and unzip it
-- Have a look at the [installation instructions](https://proj4.org/install.html#cmake)
+  from https://proj.org/ and unzip it
+- Have a look at the [installation instructions](https://proj.org/install.html#cmake)
 - Have a look at the README
     - It tells you that you have to use CMAKE to create the VS2017 solution files
     - And it tells you that you need sqlite3 *both during the build process and during runtime*
@@ -228,7 +228,7 @@ Note: libjpeg is needed for qmt_map2jnx. Other parts of QMapshack may use the jp
 - Read file install.txt concerning the build instructions for "Microsoft Windows, Visual Studio 2017 (v15):"
 - Adapt the file makejvcx.v15 for using VS2107 instead of VS2015 not needed:
   property PlatformToolset (line 80) is already correctly set to v141
-  See [PlatformToolset](https://blogs.msdn.microsoft.com/vcblog/2016/02/24/stuck-on-an-older-toolset-version-move-to-visual-studio-2015-without-upgrading-your-toolset/) for some background.
+  See [PlatformToolset](https://devblogs.microsoft.com/cppblog/stuck-on-an-older-toolset-version-move-to-visual-studio-2015-without-upgrading-your-toolset/) for some background.
 - On the Windows Desktop:
   select Start | All Programs | Visual Studio 2017 | VS 2017 x64 Native Tools Command Prompt.
 - in the command prompt:
@@ -308,7 +308,7 @@ this step is not necessary.
 (For OpenSSL source look [here](https://www.openssl.org/source/)).
 
 Qt5 binaries are delivered without SSL support due to legal restrictions in
-some countries. See [qt-5-ssl](http://doc.qt.io/qt-5/ssl.html).
+some countries. See [qt-5-ssl](https://doc.qt.io/qt-5/ssl.html).
 This may hinder some kinds of web maps (TMS, WMTS) to be downloaded properly.
 
 For SSL support, the 2 DLLs libeay32.dll and ssleay32.dll from [OpenSSL](https://www.openssl.org/source/) are needed.
