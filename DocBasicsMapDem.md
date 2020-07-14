@@ -297,7 +297,7 @@ Select map(s), theme, style and overlays, press wrapper's _QMapShack_ button to 
 
 Screenshot:
 
-![Mapsforge_for_QMapShack](https://user-images.githubusercontent.com/62614244/87225215-a38cb700-c38b-11ea-87f0-cf8c30972ad3.png)
+![Mapsforge_for_QMapShack](images/DocBasicsMapDem/Mapsforge4QMS.png "Mapsforge for QMS")
 
 Script _Mapsforge_for_QMapShack.tcl_ (as of July 11th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/4906862/Mapsforge_for_QMapShack.zip).
 
