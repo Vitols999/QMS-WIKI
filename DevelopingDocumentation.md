@@ -61,6 +61,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
 *   Use an editor that supports UTF-8 encoded files. Any editing must be done with this encoding. Never use Latin-1 or other encodings!
 
     This is required because the Markdown language implemented on the GitHub server does not pass any HTML entities like for instance `&amp;`, `&ecirc;`, or the equivalent forms for the latter, `&#234;` and `&#x000EA;`, on to the HTML code. Rather, it renders `&amp;` into `&amp;amp;` which will then again be displayed literally as `&amp;` by your browser.  This is not a problem as long as you are only typing English text using 7-bit ASCII characters, even using any of the characters `&<>[]{}`.  But as soon as you are using German umlauts, French accented characters, or even more exotic glyphs, you cannot just use their standard HTML entities but rather **you have to make sure your editor correctly encodes these characters as UTF-8** or they will not be displayed properly.  And of course you'll have to know how to tell your editor to insert an UTF-8 character, say `Ê`,  directly into your file.
+* Be aware that the Wiki pages are used to create a QMS offline help. If you include images in Wiki pages, save them in the Wiki and not elsewhere in the Internet.    
 
 ## Remarks about the Markdown language
 
@@ -304,7 +305,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
     or they will not be resolvable while you inspect your work online on
     the GitHub server or offline by manually [converting Markdown files to HTML][EditOffline].
     
-    For new QMapTool Markdown files the prefix should be `../QMapTool/`.
+    For new QMapTool Markdown files, the prefix should be `../QMapTool/`.
     
     Having finished editing move your file to its final location in the Wiki (root directory of local Wiki copy for QMS files, `QMapTool` subdirectory of the root directory for QMT files) and don't forget to remove the extra `../` or `../QMapTool/` link prefix and commit and push your changes to the server repository using the `git` tool.
 
