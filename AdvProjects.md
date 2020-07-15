@@ -16,7 +16,7 @@
 
 _(inspired by and partially copied from [QMS newsgroup](http://article.gmane.org/gmane.comp.gis.qlandkartegt.user/2744))_
 
-In the following **data item** means **waypoint**, **track**, **route**, or **area**.
+In the following, **data item** means **waypoint**, **track**, **route**, or **area**.
 
 There are 3 physical storage types used in QMS for saving data items:
 
@@ -54,7 +54,7 @@ There are 3 types of folders:
 * **Project** (displayed with a green icon),
 * **Other** (displayed with an orange icon)
 
-In addition to this there is a special **Lost & Found** folder. Deleted data items are kept in this folder.
+In addition to this, there is a special **Lost & Found** folder. Deleted data items are kept in this folder.
 Data can be restored from this folder or deleted. No recovery is possible anymore in the last case.
 
 Group folders cannot contain data items. Only folders can be child nodes of a group folder. Thus, group folders
@@ -62,7 +62,7 @@ can be used to group projects.
 
 _Project_ and _other_ folders can have folders and data items as child nodes.
 
-Folders of type _other_ have the same features like those of type _project_. Their main purpose is
+Folders of type _other_ have the same features as those of type _project_. Their main purpose is
 to distinguish visibly between basic data of a project and secondary data in it.
 
 If in the following discussion the term _project_ is used, then this includes also the term _other_.
@@ -72,15 +72,15 @@ with the help of a checkbox for display in the QMS workspace and in the map wind
 
 With this database organization several projects can be saved in one database.
 
-Data items are saved only once in database. They can be referenced in various projects within a given database.
+Data items are saved only once in a database. They can be referenced in various projects within a given database.
 
-To rename a _Group_ folder use the its context menu in the database window. The other 2 types of database folders can be renamed after opening them in the workspace and using the `Edit` context menu entry.
+To rename a _Group_ folder use its context menu in the database window. The other 2 types of database folders can be renamed after opening them in the workspace and using the `Edit` context menu entry.
 
 _Example of data organization:_
 
 A group folder (blue) with each hike track and its waypoints in a project folder (green).
 Additionally, a green _summary_ folder
-that contains again all tracks from the other green folders. As the tracks are just referenced by the
+that again contains all tracks from the other green folders. As the tracks are just referenced by the
 folders they are not stored several times as would have done with `GPX` or `QMS` files.
 
 Other advantages of the use of databases are the possibility
@@ -137,6 +137,11 @@ data item is removed from the workspace and from the map window but not from the
 
 If the user wants to delete a data item from the database, then he must use the context menu of this data item in the database window.
 
+**Essential remarks about data in the workspace and in databases:**
+
+* *The workspace is not the location for saving data permanently. Save data, if any possible, in databases.*
+* *Use the data selection checkboxes in databases for loading into the workspace only those data you want to work with.*
+* *Don't abuse the workspace as a database. The workspace is not the intended location for loading everything to it and then blend out again almost everything but a few items.*
 
 ## Summary projects and drop zones
 
@@ -152,7 +157,7 @@ To do so, the user can define up to 4 classifiers for database projects (called 
 drop zones, database projects can be assigned to these drop zones. Database projects in drop zones are called __summary projects__ because they are used
 quite often to get summary information for subsets of data items.
 
-The definition and the use of drop zones is described with the help of an example:
+The definition and the use of drop zones are described with the help of an example:
 
 * Assume there is a database project _All tours_ containing all recorded data from a GPS device.
 * The recorded data should be classified as follows:
