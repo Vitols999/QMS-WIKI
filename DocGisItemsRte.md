@@ -284,7 +284,7 @@ __Hints:__
 
 Here is an example of route optimization:
 
-* Given are randomly located waypoints on zhe Berlin A10 motorway ring road, the red ones are the start and the end points of the route:
+* Given are randomly located waypoints on the Berlin A10 motorway ring road, the red ones are the start and the end points of the route:
  
     ![A10 waypoints][A10_1]
     

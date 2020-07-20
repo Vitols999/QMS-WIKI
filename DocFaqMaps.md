@@ -316,7 +316,7 @@ built for the given vector map. As a result, even the motorway is not displayed 
 
 Using various [TMS files](http://www.mtb-touring.net/qms/onlinekarten-einbinden/) these maps and their layers can be visualized in QMS. The next image shows in its upper part a map of some mountainous area without any overlays.
 
-In the middle of this image the Google terrain overlay is activated and shows the same area as the upper part. This overlay isn't a map in the proper sense of the word. It is used to show hillshading on some base map. The white/grey spots in this layer indicate hillshading.
+In the middle of this image the Google terrain overlay is activated and shows the same area as the upper part. This overlay isn't a map in the proper sense of the word. It is used to show hillshading on some base map. The white/gray spots in this layer indicate hillshading.
 
 Changing the opacity of the terrain layer with the help of the opacity slider reveals the hillshading on the base map (compare lower part of the next image with its upper and middle parts).
 

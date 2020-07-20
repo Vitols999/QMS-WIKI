@@ -190,7 +190,7 @@ The edit window differs from the one of a normal waypoint. It displays additiona
 _Remarks:_ 
 
 * There are no fixed rules for defining attributes of geocaches. QMS supports only the handling of attributes defined in conformity with the rules used in [https://www.geocaching.com](https://www.geocaching.com/play). 
-* The status of a geocache (available, not available, archived) is appended to the name field of the geocache in the geocache edit window. If the status is ` available` then then geocache icon shown in the edit and in the map window are colored ones. Otherwise they are grey:
+* The status of a geocache (available, not available, archived) is appended to the name field of the geocache in the geocache edit window. If the status is ` available` then then geocache icon shown in the edit and in the map window are colored ones. Otherwise they are gray:
 
 ![Geocache icon with status](images/DocGisItemsWpt/GeocacheStatus.png "Geocache icon with status")
 

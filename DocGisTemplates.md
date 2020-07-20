@@ -116,7 +116,7 @@ You can edit the widget text either via the property editor or usually with a do
 
 ### Layout Management
 
-Your template will not show anything in QMapShack unless you use the layout management. Each widget that groups other widgets has to use a layout. By that the other widgets are placed relative to the grouping widget. To define a layout do a rightclick on the grouping widget and select "Layout" from the context menu. Another menu shows up:
+Your template will not show anything in QMapShack unless you use the layout management. Each widget that groups other widgets has to use a layout. By that the other widgets are placed relative to the grouping widget. To define a layout do a right click on the grouping widget and select "Layout" from the context menu. Another menu shows up:
 
 ![Designer Layout](images/DocGisTemplates/DesignerLayout.png "Designer Layout") 
 

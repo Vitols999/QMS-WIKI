@@ -98,12 +98,12 @@ Some ready made WMTS and TMS files for different regions and for different purpo
 
 * [Package 1 (contributed by Emi):](http://www.mtb-touring.net/qms/onlinekarten-einbinden/) Most of the offered maps are based on OpenStreetMap data. They reflect different areas of interest and use different map servers.
     * OSM Base: hikebikemap, humanitarian, landscape, openstreetmap (Mapnik, German & French style), opencyclemap, oepnvkarte (German public transport), outdoors, skobbler, OSM Topo, World Topo (Esri), Alpenkarte (alps map), 4UMaps.eu, MTBMap.cz (Czech mountain bike map), Reit- und Wanderkarte (hike and horse ride map for Germany), Maptoolkit, maps.refuge.info
-    * Waymarkedtrails: Inlineskating, mountain biking, cycling, horse riding, hiking, wintersports
+    * Waymarkedtrails: Inlineskating, mountain biking, cycling, horse riding, hiking, winter sports
     * Overlay: Hillshading, openrailwaymap, openseamap
     * Strava: Running & cycling heatmap, water & winter sports heatmap
     * Satellite: Bing, Esri
     * Google: Google Hybrid Maps, Google Maps, Google Sat Map, Google Terrain Map 
-    * Geoland.at: Basemap, Basemap Overlay, Basemap Grey, Basemap High DPI & Basemap Orthofoto (Austria)
+    * Geoland.at: Basemap, Basemap Overlay, Basemap Gray, Basemap High DPI & Basemap Orthophoto (Austria)
     * Kartverket.no: Kartverket N50 Topo4, Kartverket Toporaster3 (Norway)
 
 * [Package 2 (contributed by Mitxel):](https://www.dropbox.com/s/sfzxdehmdqfs784/ESP_IGN_QMS_onlinemaps.zip?dl=0) Maps using Spanish map servers.

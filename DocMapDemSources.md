@@ -62,20 +62,20 @@ Some more maps can be found in the [package online.zip](http://www.mtb-touring.n
 | Leisure map | [Leisure map](http://download.freizeitkarte-osm.de/garmin/latest/) | offline, vector | select country or region and use `gmapsupp.img` format |  |
 | European online DEM | [OpenTopoMap contour line overlay](http://garmin.opentopomap.org/#download) | offline, vector | select your region and download the file in the Garmin format. The downloaded file contains both a base map and a contour line overlay map in the `gmapsupp.img` format. |  |
 | Alps| file `Alpenkarte.tms` in [package online.zip](http://www.mtb-touring.net/wordpress/wp-content/uploads/Onlinemaps.zip) | online, raster created from vector data | covers the whole Alps region, 2 layers for summer and winter |   |
-| Austria | file `BasemapAT.wmts` in [package online.zip](http://www.mtb-touring.net/wordpress/wp-content/uploads/Onlinemaps.zip) | online, raster | 5 different layers including street map and orthofotos |  |
+| Austria | file `BasemapAT.wmts` in [package online.zip](http://www.mtb-touring.net/wordpress/wp-content/uploads/Onlinemaps.zip) | online, raster | 5 different layers including street map and orthophotos |  |
 | Czech Republic | file `MTBMapCZ.tms` in [package online.zip](http://www.mtb-touring.net/wordpress/wp-content/uploads/Onlinemaps.zip) | online, raster | mountain bike and cycle tracks for Czech Republic and large parts of __Europe__. | If map doesn't load, try to replace server URL with __http://tile.mtbmap.cz:81/mtbmap_tiles/%1/%2/%3.png__ |
 | France | [TMS file for France](Downloads/BRGM.tms) | online, raster | save the TMS file shown in the link and activate it. Street map from Bureau de Recherches Géologiques et Minières. Covers parts of neighboring countries. | [here](DocMapsTipsOnline#use-wms-server-as-tms-server)|
 | **Germany** |
 | TopPlus-Web-Open Germany | [TopPlus-Web-Open Germany](https://sgx.geodatenzentrum.de/wmts_topplus_open/1.0.0/WMTSCapabilities.xml) | online, raster | download the file in the link and change extension of downloaded file to `wmts`. Map of Germany, __includes worldwide overview map__ (available scales/details vary from region to region, house numbers for Germany)! | |
 | TMS file for North Rhine-Westphalia | [TMS file for North Rhine-Westphalia](Downloads/NRW.tms) | online, raster | save the TMS file shown in the link and activate it. North Rhine-Westphalia street map. | [here](DocMapsTipsOnline#use-wms-server-as-tms-server) |
-| eoportal Thuringia | [Geoportal Thuringia](https://www.geoportal-th.de:443/de-de/Downloadbereiche/Download-Offene-Geodaten-Th%c3%bcringen) | offline, raster | access to georeferenced topo maps and orthofotos | |
+| Geoportal Thuringia | [Geoportal Thuringia](https://www.geoportal-th.de:443/de-de/Downloadbereiche/Download-Offene-Geodaten-Th%c3%bcringen) | offline, raster | access to georeferenced topo maps and orthophotos | |
 | Great Britain | [OS Opendata](https://www.the-thorns.org.uk/mapping/help/ukgarmin.html) | offline, vector| save the link, unzip it, rename and activate the gmapsupp.img. Detailed topo map.  | [here](https://www.the-thorns.org.uk/mapping/help/ukgarmin.html) |
 | Italy | [TMS file for Italy](Downloads/ItalyGeoPortale.tms) | online, raster created from vector data| save the TMS file shown in the link and activate it. Italy topo map.  | [here](DocMapsTipsOnline#use-arcgis-server-as-tms-server) |
 | Poland | [Hike routes](http://mapaszlakow.eu/Gdynia.html/wmts) | online, raster | download file in link and change extension of downloaded file to `wmts`. Hike routes in Poland | |
 | Norway | file `Norway Topo 50.tms` in [package online.zip](http://www.mtb-touring.net/wordpress/wp-content/uploads/Onlinemaps.zip) | online, raster created from vector data| Norway topo map |   |
 | **Spain** |
 | . | file `ESP_IGN_Topografico.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!gJ0TgB7D!BSFixTvffJ6IcWLUlR0wNxHxhVDFMPW1AHzjZQpl4L0) | online, raster | Spain topo map | |
-| . | file `ESP_IGN_Ortofoto.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!gJ0TgB7D!BSFixTvffJ6IcWLUlR0wNxHxhVDFMPW1AHzjZQpl4L0) | online, raster | Spain orthofotos |  | 
+| . | file `ESP_IGN_Ortofoto.tms` in [package ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!gJ0TgB7D!BSFixTvffJ6IcWLUlR0wNxHxhVDFMPW1AHzjZQpl4L0) | online, raster | Spain orthophotos |  | 
 | . | file `ESP\_IGN\_MDT25.wcs` in [package QMS\_onlineDEM\_WCS.zip](https://mega.nz/#!tY8XkAiS!WBMPVFnvBrpyekST1_iGQ-UGYBLy6GS-dvi_6Ewqj5o) | online DEM| place the `.wcs` file in your DEM path and activate it  | [here](DocMapsTipsRasterDEM#online-dem-data)  |
 
 
@@ -90,7 +90,7 @@ _Remarks:_
 | Country/Region | Source | Type | Characteristics | More details |
 |:-------------|:--------|:------|:---------|:--------------|
 | New Zealand | [TMS file for New Zealand](Downloads/NZ.tms) | online, raster created from vector data| save the TMS file shown in the link and activate it. New Zealand topo map. | [here](DocMapsTipsOnline#tms-configuration-for-new-zealand-topo-maps) |
-| New Zealand | [TMS file for New Zealand](Downloads/NewZealand_Orho_Topo50.tms) | online, raster| save the TMS file shown in the link and activate it. New Zealand orthographic and topographic map (2 layers). |  |
+| New Zealand | [TMS file for New Zealand](Downloads/NewZealand_Ortho_Topo50.tms) | online, raster| save the TMS file shown in the link and activate it. New Zealand orthographic and topographic map (2 layers). |  |
 
 ## Short summary of map and DEM use
 

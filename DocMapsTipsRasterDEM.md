@@ -240,7 +240,7 @@ Now start your console, browse to your folder and copy the following code:
 java  -Xmx2048M -jar mkgmap.jar --index --family-id=6528 --description="openmtbmap_alps" --series-name="openmtbmap_alps" --family-name="openmtbmap_alps" --product-id=1 --gmapsupp 6*.img 7*.img widealp.TYP
 ```
 
-Then press <Enter> and a gmapsupp.img will be created, which you can easily rename to opentmtbmap_alps.img. Now copy this file onto your GPS unit and in your QMapShack maps folder as well.
+Then press <Enter> and a gmapsupp.img will be created, which you can easily rename to openmtbmap_alps.img. Now copy this file onto your GPS unit and in your QMapShack maps folder as well.
 
 If you would like do it with some other layout, simply replace the *.TYP (f.e. easyalps.TYP). 
 If you prefer another country, be careful: all 6x.img and 7x.img must be from the particular openmtbmap country file! Also don't forget to replace the --family-id with the one from your country.

@@ -86,7 +86,7 @@ A track range can be selected either in a map view or in the edit window of the 
 * Select the necessary action for the range operation from the left part of the range window toolbar.
 * Stop the range handling with a right click in the map window. The mouse cursor returns to its default icon.
 * Use the track history in the track edit window to undo any range action on the track.
-* If no trackpoint is selected for a range, then part of the icons in the toolbar can be inactive (grey) and the list of trackpoints can be empty. As soon as a range is selected all icons are active again and the list of trackpoints highlights the last range point selected.
+* If no trackpoint is selected for a range, then part of the icons in the toolbar can be inactive (gray) and the list of trackpoints can be empty. As soon as a range is selected all icons are active again and the list of trackpoints highlights the last range point selected.
 
 [NotPossible]: images/DocAdv/NotPossible.png     "Not possible"
 [RngIco]:      images/DocAdv/RangeIcon.jpg       "Range icon in track toolbar"
@@ -135,7 +135,7 @@ To finish the range selection click the menu entry `Reset range` in the context 
 ## Actions for a track range
 ### Hide or show trackpoints in range
 
-* Clicking the hide trackpoints icon ![Hide range][RngHide] replaces the part of the track between start and end of the range by a straight line. The hidden part of the track is shown as a grey track while in range selection mode. Hidden trackpoints are shown with grey color in the trackpoint list.
+* Clicking the hide trackpoints icon ![Hide range][RngHide] replaces the part of the track between start and end of the range by a straight line. The hidden part of the track is shown as a gray track while in range selection mode. Hidden trackpoints are shown with gray color in the trackpoint list.
 
     ![Hidden trackpoints][RngHidden]
 
@@ -147,8 +147,8 @@ in a map window as shown in the following image:
     Here, the index of the trackpoint shows a value for the visible and another one for the total amount of trackpoints. This means, that some part of the track in front of the selected trackpoint is hidden.
  
 * To show hidden trackpoints again
-    * select again a range including those hidden trackpoints that has be to be shown again (range selection follows the grey line!),
-    * click the show selected trackpoints icon ![Show hidden points][RngShow]. The hidden and grey part is shown again as part of the original track.
+    * select again a range including those hidden trackpoints that has be to be shown again (range selection follows the gray line!),
+    * click the show selected trackpoints icon ![Show hidden points][RngShow]. The hidden and gray part is shown again as part of the original track.
 
 ### Assign activity to range
 

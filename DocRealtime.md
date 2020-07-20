@@ -58,7 +58,7 @@ As soon as the connection is established between the data source and QMS and rea
 
 Activate the OpenSky data source as described in the [previous section](#general-description).
 
-The [OpenSky Network](https://opensky-network.org) provides realtime flight data (aircraft information). The given application uses this data and displays grapically information about a selected aircraft moving within the map area.
+The [OpenSky Network](https://opensky-network.org) provides realtime flight data (aircraft information). The given application uses this data and displays graphically information about a selected aircraft moving within the map area.
 
 As soon as the computer is connected to the Internet, the QMS map window shows small blue moving aircraft. Moving the mouse on an aircraft the available flight data is displayed in a pop-up window.
 

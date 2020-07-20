@@ -49,7 +49,7 @@ __EPSG 4178: Pulkovo 42/83 (Krassowski), geographic__
 * __Geodetic CRS:__ Pulkovo 1942(83)
 * __Datum:__ Pulkovo 1942(83)
 * __Prime meridian:__ Greenwich
-* __Ellipsoid:__ Krassowsky 1940
+* __Ellipsoid:__ Krassowski 1940
 * __Area:__ Onshore Bulgaria, Czech Republic, Germany (former GDR), Hungary and Slovakia
 * __Alias names:__ Pulkovo 1942(83)
 * __Comments:__ In Brandenburg replaced by ETRS89. In Sachsen and Thuringen replaced by RD83 and PD83 which for practical purposes may be considered to be the same as DHDN. 

@@ -58,7 +58,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
     
     _Remember:_ the language used in the QMS Wiki is English.
     
-*   Use an editor that supports UTF-8 encoded files. Any editing must be done with this encoding. Never use Latin-1 or other encodings!
+*   Use an editor that supports UTF-8 encoded files. Any editing must be done with this encoding. Never use Latin-1 or other encoding!
 
     This is required because the Markdown language implemented on the GitHub server does not pass any HTML entities like for instance `&amp;`, `&ecirc;`, or the equivalent forms for the latter, `&#234;` and `&#x000EA;`, on to the HTML code. Rather, it renders `&amp;` into `&amp;amp;` which will then again be displayed literally as `&amp;` by your browser.  This is not a problem as long as you are only typing English text using 7-bit ASCII characters, even using any of the characters `&<>[]{}`.  But as soon as you are using German umlauts, French accented characters, or even more exotic glyphs, you cannot just use their standard HTML entities but rather **you have to make sure your editor correctly encodes these characters as UTF-8** or they will not be displayed properly.  And of course you'll have to know how to tell your editor to insert an UTF-8 character, say `Ê`,  directly into your file. 
     
@@ -146,7 +146,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
             * Take the value of the HTML `id` attribute as fragment identifier.
             * _Example of source code and fragment identifier for a header with non-ASCII characters:_
             
-                Markdown header line with cyrillic (i.e. non-ASCII) characters:
+                Markdown header line with Cyrillic (i.e. non-ASCII) characters:
                
                     ## Cyrillic_text: Загрузка файлов из Интернета
                    
@@ -154,7 +154,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
                
                     <h2>
                     <a id="user-content-cyrillic_text-Загрузка-файлов-из-Интернета" class="anchor" 
-                      href="#cyrillic_text-..."    <=== (...: url-encoded cyrillic text)
+                      href="#cyrillic_text-..."    <=== (...: url-encoded Cyrillic text)
                       aria-hidden="true">
                       ...
                     </a>
@@ -223,7 +223,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
 * Use [FM-compatible Markdown][GFM].
 * New files/pages must have ASCII-only filenames.
 * All extensions in filenames (`.md` and some others used in the Wiki) must be lowercase.
-* The encoding of Wiki pages must be UTF-8. Don't use other encodings like Latin-1! Don't use editors not supporting UTF-8!
+* The encoding of Wiki pages must be UTF-8. Don't use a different encoding like Latin-1! Don't use editors not supporting UTF-8!
 * Use only `ATX`-type section headers, i.e. those initialized by one or more hashes `#`. Don't use setext-type section headers (those with underlining in next line).
 * Each page must have exactly one top-level header, i.e. a line of the form 
 

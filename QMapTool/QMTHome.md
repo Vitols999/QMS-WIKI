@@ -6,7 +6,7 @@ QMapTool is easier to use than many other similar tools.
 QMapTool can be considered as a front-end to the well-known [GDAL package](https://gdal.org/).
 
 If you want to download the QMapTool sources, visit the [**download page**](https://github.com/Maproom/qmapshack/releases)
-of QMapShack. The sources do not compile on their own and need to be part of QMapShacks build environment. (**Note:** This will be true for all releases after V 1.10.0. For 1.10.0 you have to checkout the code from the QMapShack repository.)
+of QMapShack. The sources do not compile on their own and need to be part of QMapShack's build environment. (**Note:** This will be true for all releases after V 1.10.0. For 1.10.0 you have to checkout the code from the QMapShack repository.)
 Windows 64 binaries are available on the download page.
 
 If you want to see screenshots or start with QMapTool, visit the [documentation page](QMTDocMain).

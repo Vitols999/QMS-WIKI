@@ -83,7 +83,7 @@ _Remark:_ In the 3 other QMT tools (cut tool, overview tool, reference tool) a `
     
     * An overview file `ETH_AA.png.ovr` is attached to the given input file `ETH_AA.png`.
     * The original image size is 1920 x 1080.
-    * There are 2 overview levels with image sizes 960 x 540 and 480 x 270 (used overwiew levels: 2 and 4).
+    * There are 2 overview levels with image sizes 960 x 540 and 480 x 270 (used overview levels: 2 and 4).
   
 - - -
 [Prev](InstallSetup) (Installation and setup) | [Home](QMTHome) | [Manual](QMTDocMain) | [Index](QMTAxAdvIndex) | [Top](#) | (Cut tool) [Next](CutTool)

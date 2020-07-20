@@ -310,7 +310,7 @@ _Some background information about the filter:_
 |__Steep Downhill__| up to -25%| _Descending_ value is applied|
 |__Moderate Downhill__| from -25% to -5%| A combination of _Flat speed_ and _Descending_ values are applied according to a mathematical formula.|
 |__Flat Terrain__| from -5% to 0%| Flat speed is applied|
-|__Moderate Uphill__| from 0% to +20%| A combination of _Flat speed_ and _Asceding_ values are applied according to a mathematical formula.|
+|__Moderate Uphill__| from 0% to +20%| A combination of _Flat speed_ and _Ascending_ values are applied according to a mathematical formula.|
 |__Steep Uphill__| more than +20%| _Ascending_ value is applied|
 
 * The following graphs show an overview of the  predefined types:

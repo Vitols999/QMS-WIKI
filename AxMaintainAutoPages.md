@@ -30,8 +30,8 @@ the preface section of that page.
 
 ## General recommendations for editing the manual
 
-* The editor used for editing some text in the manual must use UTF-8 encoding (without BOM). Other encodings
-  (such as Latin1) are not allowed even when using ASCII characters only! Others might have used non-ASCII
+* The editor used for editing some text in the manual must use UTF-8 encoding (without BOM). A different encoding
+  (such as Latin1) is not allowed even when using ASCII characters only! Others might have used non-ASCII
   characters!
 
 * An MD page should have __exactly one__ top-level section, i.e. a line of the form

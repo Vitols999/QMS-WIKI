@@ -49,8 +49,8 @@ This page describes how to maintain (edit) the index of the QMS Wiki.
     * The (on-line) manual is maintained with the help of the Github version control system. Any change you make can
       be undone. _You can never make irreversible changes to the (on-line) manual!
       You never can destroy manual pages forever!_
-    * The editor used for editing some text in a manual page must use UTF-8 encoding (without BOM). Other encodings
-      (such as Latin1) are not allowed even when using ASCII characters only! Others might have used non-ASCII
+    * The editor used for editing some text in a manual page must use UTF-8 encoding (without BOM). A different encoding
+      (such as Latin1) is not allowed even when using ASCII characters only! Others might have used non-ASCII
       characters!
 
 ## Short description of index maintenance
