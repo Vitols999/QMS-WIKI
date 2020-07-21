@@ -20,7 +20,7 @@ QMS is QMapShack's own binary format. You will never loose information using it,
 
 There are two ways to load GPX or QMS files. 
 
-1) When you start QMapShack from the command line you can add a list of GPX and QMS files
+1) When you start QMapShack from the commandline you can add a list of GPX and QMS files
 
     qmapshack file1.gpx file2.qms
     
@@ -40,14 +40,14 @@ If you expand the item you can see the elements like waypoints, tracks, routes a
 Mind that checking the `Show on Map` checkbox to the left of the GIS
 item in the data view's workspace list does **not** move the map to
 where the objects of your GIS file are located on the globe!  To achieve
-this expand the GIS item and then double click on one of its tracks,
+this expand the GIS item and then double-click on one of its tracks,
 routes, or waypoints.
 
 ![Alt text](images/DocHandleGpxFiles/maproom3.png)
 
 ## Save GPX Files
 
-You can either save all files in the workspace via _Save All GIS Data_. Or you can save a single file by a right click on the item in the data view's workspace list.
+You can either save all files in the workspace via _Save All GIS Data_. Or you can save a single file by a right-click on the item in the data view's workspace list.
 
 ![Alt text](images/DocHandleGpxFiles/maproom4.png)
 

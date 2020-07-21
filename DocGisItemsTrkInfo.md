@@ -29,15 +29,15 @@ A single track shown in a map view can be in 3 different states:
 
 *State*                                |*Layout*                                 | *How to get to state* | *How to get back to default state* |
 ---------------------------------------|-------------------|----------------|-------|
- **Default (normal):** borderless line | ![Normal track](images/DocAdv/TrackDefault.png "Normal track state")  | single left click in track-free part of map window to remove selected state, double left click to remove highlighted state| - |
- **Selected:** opaque red border       | ![Selected track](images/DocAdv/TrackSelected.png "Selected track state")    | left-click on track in workspace or in map view |  single left click in track-free part of map window |
- **Highlighted:** red border           | ![Sighlighted track](images/DocAdv/TrackHighlighted.png "Highlighted track state") | double-click on track in workspace window _or_ click on track in a map view window and then click the track information icon ![Track info](images/icons/TrkProfile.png "Track info") in the toolbar. **Remark:** If the red border is missing, then click the main menu entry `View - Track Info - Track highlight` to activate it!  | double left click in track-free part of map window |
+ **Default (normal):** borderless line | ![Normal track](images/DocAdv/TrackDefault.png "Normal track state")  | single left-click in track-free part of map window to remove selected state, double left-click to remove highlighted state| - |
+ **Selected:** opaque red border       | ![Selected track](images/DocAdv/TrackSelected.png "Selected track state")    | left-click on track in workspace or in map view |  single left-click in track-free part of map window |
+ **Highlighted:** red border           | ![Sighlighted track](images/DocAdv/TrackHighlighted.png "Highlighted track state") | double-click on track in workspace window _or_ click on track in a map view window and then click the track information icon ![Track info](images/icons/TrkProfile.png "Track info") in the toolbar. **Remark:** If the red border is missing, then click the main menu entry `View - Track Info - Track highlight` to activate it!  | double left-click in track-free part of map window |
 
 Only one track can be in the selected resp. highlighted state.
 
 The available track information depends heavily on the correct selection of the track state.
 
-_Remark:_ When moving the mouse pointer on a track in a map view, then the track gets already an opaque red border. This does not yet indicate a state change. To change the state a left click must be done first.
+_Remark:_ When moving the mouse pointer on a track in a map view, then the track gets already an opaque red border. This does not yet indicate a state change. To change the state a left-click must be done first.
 
 ## Trackpoint information for highlighted tracks
 
@@ -61,16 +61,16 @@ The numbers mark the different features that can be selected.
 
 1. These are trackpoints with additional text information. They are marked with auto-numbered black bullets. You can create such points by two methods:
 
-     * Click on the track and the track options menu will open at the clicked point. Select the toolbar button ![Track point info](images/icons/PointInfo.png "Track point info") to open a dialog where you can enter a short text. 
-     * Right-click on a profile plot (either the on-screen one, the one in a separate window or the one in the track edit/details dialog and select the `Add Track Point Info` menu entry to open a dialog where you can enter a short text.
+     * Click on the track and the track options menu will open at the clicked point. Select the toolbar button ![Trackpoint info](images/icons/PointInfo.png "Trackpoint info") to open a dialog where you can enter a short text. 
+     * Right-click on a profile plot (either the on-screen one, the one in a separate window or the one in the track edit/details dialog and select the `Add Trackpoint Info` menu entry to open a dialog where you can enter a short text.
 
-     You can toggle visibility of the bullets with the `View - Track Info - Track Point Info` main menu entry or with the main toolbar icon ![Track point info](images/icons/PointInfo.png "Track point info").
+     You can toggle visibility of the bullets with the `View - Track Info - Trackpoint Info` main menu entry or with the main toolbar icon ![Trackpoint info](images/icons/PointInfo.png "Trackpoint info").
 
      More details about trackpoint information can be found in section [Adding trackpoint information](#adding-trackpoint-information).
     
 1. These are labels for the minimum and maximum values of track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Labels` main menu entry, via keyboard hotkey `CTRL-N`, or with the main toolbar icon ![Min max labels](images/icons/Label.png "Min max labels").
 
-1. This is a list of all trackpoints with additional text (some kind of legend). You can toggle visibility with the `View - Track Info - Track Point Info Table` main menu entry or with the main toolbar icon ![Min max labels](images/icons/PointInfoTable.png "Min max labels").
+1. This is a list of all trackpoints with additional text (some kind of legend). You can toggle visibility with the `View - Track Info - Trackpoint Info Table` main menu entry or with the main toolbar icon ![Min max labels](images/icons/PointInfoTable.png "Min max labels").
 
 1. The track summary. You will get the same as tool tip for the track in the workspace list or in the edit/details dialog. You can toggle visibility with the `View - Track Info - Track Summary` main menu entry or with the main toolbar icon ![Min max labels](images/icons/Summary.png "Min max labels").
 

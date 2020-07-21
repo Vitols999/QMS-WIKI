@@ -12,7 +12,7 @@ ___Do not edit - automatically created from DocMain!___
         * [Windows](InstallSetup#windows)
         * [Linux ](InstallSetup#linux)
     * [Running](InstallSetup#running)
-        * [List of command-line options](InstallSetup#list-of-command-line-options)
+        * [List of commandline options](InstallSetup#list-of-commandline-options)
     * [Setup](InstallSetup#setup)
 * Using QMapTool
     * [Overview tool](OverviewTool)

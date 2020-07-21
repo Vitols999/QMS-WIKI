@@ -43,8 +43,8 @@ To work with the QMT reference tool proceed as follows:
      ![Input of WGS84 coordinates](QMapTool/images/RefToolCoord.jpg "Input of WGS84 coordinates")
 
      _Remark:_ An easy way to get reference points into QMT is to use QMS. Find some reference point which is on the raster map and on the
-     QMS map as well. Right click the QMS map at the reference point location to get a context menu and then click `Copy position`. This copies the current position to
-     the clipboard. Now, goto to the QMT window and add the reference point. When being asked for the coordinates simply press `CTRL-V` to insert the coordinates
+     QMS map as well. Right-click the QMS map at the reference point location to get a context menu and then click `Copy position`. This copies the current position to
+     the clipboard. Now, go to to the QMT window and add the reference point. When being asked for the coordinates simply press `CTRL-V` to insert the coordinates
      found in QMS.
      
 1. Click the `Start projection wizard` icon (![](QMapTool/images/GridWizzard.png)) and select the coordinate system for the output of referenced data. An example is shown in the next image.

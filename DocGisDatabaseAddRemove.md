@@ -16,13 +16,13 @@
 
 ## Add/Remove a database
 
-To add a database you do a right click with your mouse on some empty space in the database list. You will get a context menu with an option to add a database:
+To add a database you do a right-click with your mouse on some empty space in the database list. You will get a context menu with an option to add a database:
 
 ![Add database](images/DocGisDatabaseAddRemove/maproom2.png "Add database")
 
 You can choose between a SQLite database or a MySQL database. For a single user or an installation on a laptop with no permanent access to a network, SQLite is the better choice. If you want multiple users to access the data via network, MySQL is the option to go.
 
-To remove a database you do a right click on the root entry of the database and select *"Remove Database"*
+To remove a database you do a right-click on the root entry of the database and select *"Remove Database"*
 
 ![Database context menu](images/DocGisDatabaseAddRemove/maproom3.png "Database context menu")
 
@@ -43,7 +43,7 @@ The provided name must be unique.
 
 ### MySQL (>= 5.6.5)
 
-To use MySQL as database you need to enter some commands on the server first. To enter the MySQL console from the command line you do:
+To use MySQL as database you need to enter some commands on the server first. To enter the MySQL console from the commandline you do:
 
 
 ```bash
@@ -99,13 +99,13 @@ To see changes in the database by someone else as soon as they are saved to the 
 
 Make sure your personal firewall allows UDP traffic on the given port.
 
-You can trigger the resulting action on the notification manually, too. Do a right click on the root entry of the database and select *"Sync. with Database"*.
+You can trigger the resulting action on the notification manually, too. Do a right-click on the root entry of the database and select *"Sync. with Database"*.
 
 ![Synchronize DB](images/DocGisDatabaseAddRemove/maproom3.png "Synchronize DB")
 
 ## Search the database
 
-You can do a text search over items of a database. To start the search do a right click on the root entry of the database and select *"Search Database"*.
+You can do a text search over items of a database. To start the search do a right-click on the root entry of the database and select *"Search Database"*.
 
 ![Search database](images/DocGisDatabaseAddRemove/maproom3.png "Search database")
 

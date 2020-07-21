@@ -146,14 +146,14 @@ _(Contributed by Helmut Schmidt)_
 
 Many GPS receivers (e.g. the above mentioned NL 8002 U Multi GNSS receiver and older Garmin devices) provide a (virtual) serial interface. Nowadays, devices with a serial interface are connected with a USB-to-Serial adapter to a PC. Check, if your operating system detects the serial interface provided by the adapter!
 
-[Ncat](https://nmap.org/ncat/) is a networking utility for the Windows operating system which reads and writes data across networks from the command line. Ncat was written for the Nmap Project. It can be used as NMEA data transmitter.
+[Ncat](https://nmap.org/ncat/) is a networking utility for the Windows operating system which reads and writes data across networks from the commandline. Ncat was written for the Nmap Project. It can be used as NMEA data transmitter.
 
 Proceed as follows to use this transmitter:
 
 * Activate NMEA data transmission in the GPS receiver.
 * Download the `netcat/Nmap` package for Windows from https://nmap.org/download.html (download file https://nmap.org/dist/nmap-7.70-win32.zip) and unzip it.
 * Identify the serial (COM) port provided by the GPS receiver with the help of the Windows device manager or similar tools.
-* Call `ncat -v -l 1234 < COM5` from the command line (replace`COM5` with the COM port found in the previous point!). This starts `Ncat` as TCP server transmitting NMEA data from the receiver via TCP. The following lines are shown in the command line window after the server start:
+* Call `ncat -v -l 1234 < COM5` from the commandline (replace`COM5` with the COM port found in the previous point!). This starts `Ncat` as TCP server transmitting NMEA data from the receiver via TCP. The following lines are shown in the commandline window after the server start:
 
          ncat -v -l 1234 < COM5
          Ncat: Version 7.70 ( https://nmap.org/ncat )
@@ -165,7 +165,7 @@ Proceed as follows to use this transmitter:
          Ncat: Connection from ::1.
          Ncat: Connection from ::1:60629.
     
-* Goto the QMS realtime window and insert `localhost` as host name and `1234` as port number into the respective edit fields.
+* Go to the QMS realtime window and insert `localhost` as host name and `1234` as port number into the respective edit fields.
 * Click the connect icon (![Connect icon](images/DocAdv/Disconnected.png "Connect")). The connection between QMS and `GPS Tether` on the smartphone will be established and the icon changes to show the connection (![Connect icon](images/DocAdv/Connected.png "Connected")).
     
 
@@ -179,7 +179,7 @@ The Python script which can be downloaded from [here](Downloads/gpsserver.py) wo
 
 Due to the device naming pattern used the script can only be used on operating systems having the given naming pattern for its hardware (Linux-like systems). It can't be used without changes on a Windows PC.
 
-The script should be started from a command line. The parameters that should be supplied to the script can be revealed with the help of a call of the form:
+The script should be started from a commandline. The parameters that should be supplied to the script can be revealed with the help of a call of the form:
 
     gpsserver.py -h
     
@@ -206,7 +206,7 @@ _Remark:_ The Python script imports the `serial` module. This module should be i
 
 Tracks recorded by a GPS device are typically saved as GPX or similar files and not as NMEA files. The well-known [GPSBabel](https://www.gpsbabel.org) tool converts tracks and other GPS data between different formats. For example, GPSBabel can convert a GPX file with recorded GPS data into a NMEA file. Therefore, GPSBabel can be used as a virtual GPS receiver and replay the recorded data via a TCP server into QMS. An advantage of GPSBabel is the control over the frequency of the data output. The only restrictions are the (quite reasonable) [requirements imposed on NMEA data by QMS](#nmea-and-other-restrictions). On output of NMEA `GGA` sentences GPSBabel sets the `Fix quality` to 0 and adds microseconds to timestamps. These 2 data items can be easily corrected with a small script reading the GPSBabel NMEA output, changing the 2 items properly and forwarding the corrected output to the TCP server.
 
-Start the TCP server on a command line with a sequence of commands as follows:
+Start the TCP server on a commandline with a sequence of commands as follows:
 
     GPSBabel.exe -t -i gpx -f RecordedTrack.gpx -o nmea,gpgga=1,gprmc=0,gpvtg=0,gpgsa=0,pause=3 -F - | nmeahandler.py | ncat.exe  -v -l 1234
 
@@ -223,7 +223,7 @@ The approach described in this section is similar to the one described in the se
 To get NMEA data from Garmin GPSMap 64s or a similar device on a Windows 10 PC a few configuration settings must be done:
 
 * Switch on the device and wait for a satellite fix.
-* Goto to the main page and select `Setup` and then `System`.
+* Go to to the main page and select `Setup` and then `System`.
 * Set the interface to `Garmin spanner`.
 * Connect the device with an USB cable to the PC.
 * When asked `Would you like to go to mass storage?` select `no` (no additional disk drives are added in this case!). The device is now ready to send NMEA data to the PC using the USB interface.
@@ -240,16 +240,16 @@ _Remark:_ If no Garmin device appears in the device manager, then
 * check if your device is connected to a serial port. In this case, use the approach described in section [Using serial interface and Ncat](#using-serial-interface-and-ncat-windows-os),
 * check if your device is exposed as mass storage device. In this case restart your GPS receiver, ensure the correct settings and don't use it as mass storage device, when asked.
 
-On a command line a sequence of commands for starting the TCP server can look as follows:
+On a commandline a sequence of commands for starting the TCP server can look as follows:
 
     GPSBabel.exe -T -i garmin,get_posn -f usb: -o nmea,gpgga=1,gprmc=0,gpvtg=0,gpgsa=0,pause=3 -F - | nmeahandler.py | ncat.exe  -v -l 1234
 
-Stop the transmission of data from the receiver by pressing `CTRL-C` in the command line window.
+Stop the transmission of data from the receiver by pressing `CTRL-C` in the commandline window.
     
 _Remarks:_ 
 
 * A Garmin GPSMap 60CSx device can be used in a similar way.
-* Garmin Etrex Vista devices only support serial interfaces, either directly or with the help of a USB-to-Serial adapter. When using a USB-to-Serial adapter be sure that it works correctly with your operating system (insert GPSBabel option -D9 to see if and how GPSBabel establishes the serial connection). Tested was a TrendNet TU-9 adapter with a Prolific PL-2303 HXD chip and latest Windows 10 drivers. Set the interface in the Etrex Vista settings to `Garmin` and replace `usb:` in the command line shown above with `com9` where `9` should be the number of the COM port for the adapter. If the Etrex Vista interface is set to `NMEA`, then the device sends a continuous flow of NMEA data without line end markers. These data can't be parsed by the involved tools because they assume that NMEA data is sent in records (with some line end). 
+* Garmin Etrex Vista devices only support serial interfaces, either directly or with the help of a USB-to-Serial adapter. When using a USB-to-Serial adapter be sure that it works correctly with your operating system (insert GPSBabel option -D9 to see if and how GPSBabel establishes the serial connection). Tested was a TrendNet TU-9 adapter with a Prolific PL-2303 HXD chip and latest Windows 10 drivers. Set the interface in the Etrex Vista settings to `Garmin` and replace `usb:` in the commandline shown above with `com9` where `9` should be the number of the COM port for the adapter. If the Etrex Vista interface is set to `NMEA`, then the device sends a continuous flow of NMEA data without line end markers. These data can't be parsed by the involved tools because they assume that NMEA data is sent in records (with some line end). 
     
 ### QMS as TCP client
     

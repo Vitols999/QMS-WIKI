@@ -40,7 +40,7 @@ To work with the QMT grid tool proceed as follows (compare the images in the [ex
 1. Insert easting/longitude and northing/latitude into their fields. Use meters with easting/northing and degrees with longitude/latitude.
 1. Define the horizontal and vertical size (spacing) of the considered grid square with the unit used in the previous point.
 1. Select the next (second) radio button.
-1. Goto the map and left-click the upper left corner of the grid square. This selects the first reference point (remember: the coordinates of this point 
+1. Go to the map and left-click the upper left corner of the grid square. This selects the first reference point (remember: the coordinates of this point 
    have been defined earlier). 
 1. Select each of the 3 neighbors in the square in the tool window and click the corresponding grid corners of the map. This defines 3
    additional reference points. The coordinates of these points are calculated from the grid size defined earlier. All reference points up to this step are
@@ -48,7 +48,7 @@ To work with the QMT grid tool proceed as follows (compare the images in the [ex
 1. Click the `Set area` button in the grid tool. A black-framed rectangle appears in the map window (zoom out if not visible!). Within this area
    the tool creates additional grid points (shown as small black points).
 1. To change the size of the area click in the square at the upper left or lower right corner of the area frame to fix the mouse to this corner,
-   move the mouse to the wanted new location and left click again to fix the corner.
+   move the mouse to the wanted new location and left-click again to fix the corner.
 1. Click `Ok` to close the grid tool.
 1. In the reference tool there appears now a list of reference points. If necessary, the positions of the reference points can be improved as described in the
    [reference tool](ReferenceTool) section.

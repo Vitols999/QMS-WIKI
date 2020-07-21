@@ -86,14 +86,14 @@ On the left you will see the "Widget Box". The elements that interest you most a
   They look like springs. They are like springs. Spacers will use as much unused space as possible and move all other items nicely together.
   
 * The buttons:
-  You can use 2 different kinds: The radio button and the check box. All other buttons are of no use for our templates. 
+  You can use 2 different kinds: The radio button and the checkbox. All other buttons are of no use for our templates. 
   Radio buttons are mutual exclusive in a group. In other words: Only one can be checked at a time.
   
 * The group box:
   It's ok to use the other containers, too. But the group box is very important as only widgets in a group box will be used to create the text.
   
 * Input widgets:
-  The only input widgets you can use are the combo box, the line edit and the text edit. All other widgets are useless for your template.
+  The only input widgets you can use are the combobox, the line edit and the text edit. All other widgets are useless for your template.
 
 ### Basic Concept
 
@@ -112,11 +112,11 @@ Later when the text is produced the following strings are used:
 ![Designer All Widgets](images/DocGisTemplates/DesignerAllWidgets.png "Designer All Widgets") 
 
 
-You can edit the widget text either via the property editor or usually with a double click on the widget. For the line and the text edit it's usually up to the user.
+You can edit the widget text either via the property editor or usually with a double-click on the widget. For the line and the text edit it's usually up to the user.
 
 ### Layout Management
 
-Your template will not show anything in QMapShack unless you use the layout management. Each widget that groups other widgets has to use a layout. By that the other widgets are placed relative to the grouping widget. To define a layout do a right click on the grouping widget and select "Layout" from the context menu. Another menu shows up:
+Your template will not show anything in QMapShack unless you use the layout management. Each widget that groups other widgets has to use a layout. By that the other widgets are placed relative to the grouping widget. To define a layout do a right-click on the grouping widget and select "Layout" from the context menu. Another menu shows up:
 
 ![Designer Layout](images/DocGisTemplates/DesignerLayout.png "Designer Layout") 
 
@@ -140,7 +140,7 @@ Not one for each group box. But this has no influence on the order of the group 
 
 ### Additional information
 
-* The name of the template shown in the combo box is the filename of the `UI` template file.
+* The name of the template shown in the combobox is the filename of the `UI` template file.
 * The bold keywords in the resulting text are the titles of the corresponding group boxes of the template. As mentioned above, their order is the alphabetical order of the group box object names.
 * Information added to a data object via a template is saved in form of text strings together with the data object into a database or a GPX file. The text strings are
   pre-formated in accordance with XML/HTML rules. It is known that Garmin GPX parsers can only parse a limited number of XML tags. Thus, if a GPX file saved by QMS 

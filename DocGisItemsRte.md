@@ -71,7 +71,7 @@ Autorouting is the default routing in QMS.
 
 To check if autorouting is active or to activate it proceed as follows:
 
-1. Right click in a map view and select `Add route` from context menu.
+1. Right-click in a map view and select `Add route` from context menu.
 1. If the `A` icon in the toolbar is pressed, then autorouting is active. If not, press `A` to activate autorouting.
 1. Press twice `Esc` to leave the edit mode again.
 
@@ -81,11 +81,11 @@ To check if autorouting is active or to activate it proceed as follows:
 1. Ensure that the `Routing` docked window is open (if necessary, open it with the main menu entry `Window - Routing`).
 1. Select one of the routers in the listbox on the top of the `Routing` window.
 1. Select the wanted [routing strategy][RouterCfg] using the offered choices (each router has its own choices!).
-1. Goto the `Workspace` docked window and select all routing points required for the route.
+1. Go to the `Workspace` docked window and select all routing points required for the route.
 1. Right-click on one of the selected waypoints to open the context menu and select `Create route`.
 1. If necessary, re-order the routing points in the next window.
 1. When closing this window, a new route is constructed. Give the route a name  and assign it to a project.
-1. Goto to the newly created route object in the workspace, open the context menu with a right-click, and select `Calculate route` (this step is not necessary, if the route has been calculated on-the-fly!). 
+1. Go to to the newly created route object in the workspace, open the context menu with a right-click, and select `Calculate route` (this step is not necessary, if the route has been calculated on-the-fly!). 
 1. To see the new route in a map window double-click on the route name in the workspace window. The map will be zoomed so that the complete route is visible.
 
 
@@ -189,7 +189,7 @@ An existing route in a project selected in the workspace can be modified and edi
     
          ![Add routing point](images/DocAdv/RouteAddPt.jpg "Add new routing point")
        
-         The info box below the toolbar gives some information about possible actions.
+         The infobox below the toolbar gives some information about possible actions.
        
     1. Click on the route at a location where a new routing point should be added and move the mouse to the location of the new routing point.  
  
@@ -213,7 +213,7 @@ If the route was constructed with the Routino or the MapQuest router, then route
 1. Move the mouse pointer on a light-blue point.
 1. See the instructions for the given point in a bubble box.
 
-  ![Route instructions info box](images/DocFaq/RouteInstructions.png "Route instructions info box")
+  ![Route instructions infobox](images/DocFaq/RouteInstructions.png "Route instructions infobox")
 
 ## Save route in GPX file
 
@@ -254,7 +254,7 @@ non-portable format which links route and track data.
 
 _Remarks on other toolbar actions:_
 
-* When selecting `Reset route ...` from the context menu of a route or from the action toolbar in a map window, then all paths between routing points are replaced by straight line segments (this means no routing at all or off-line routing).
+* When selecting `Reset route ...` from the context menu of a route or from the action toolbar in a map window, then all paths between routing points are replaced by straight line segments (this means no routing at all or offline routing).
 * When selecting `Calculate route` from the context menu of a route or from the action toolbar in a map window, then the selected routing engine for autorouting is restarted with the current configuration. Routing points are joined by road segments.
 * When selecting `Convert to track` from the context menu of a route or from the action toolbar in a map window, then a track is created from the route. The route itself remains unchanged. This is quite a comfortable way to create a new track from a few given routing points.
 * For details about the  `Set tags and rating` icon see [here][Tags].

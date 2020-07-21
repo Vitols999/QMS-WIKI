@@ -20,7 +20,7 @@ Then a logfile "org.qlandkarte.QMapShack.log" will be created in
 the system's temporary folder.
 On a Windows 7 installation this temporary folder seems to be
 C:\Users\your user name\AppData\Local\Temp.
-That log file may give additional insight to the root cause.
+That logfile may give additional insight to the root cause.
 
 ## Create a backtrace of a crash on Linux
 

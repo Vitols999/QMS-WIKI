@@ -168,7 +168,7 @@ When you fork a project in order to propose changes to the original repository, 
 
 ### Keep your fork synced
 
-You might fork a project in order to propose changes to the upstream, or original, repository. In this case, it's good practice to regularly sync your fork with the upstream repository. To do this, you'll need to use Git on the command line. You can practice setting the upstream repository using the same Maproom/qmapshack repository you just forked! Based on [Syncing a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+You might fork a project in order to propose changes to the upstream, or original, repository. In this case, it's good practice to regularly sync your fork with the upstream repository. To do this, you'll need to use Git on the commandline. You can practice setting the upstream repository using the same Maproom/qmapshack repository you just forked! Based on [Syncing a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
 
 1. Open Terminal.
 
@@ -340,7 +340,7 @@ $ git rebase -i HEAD~2
 > # r, reword = use commit, but edit the commit message
 > # e, edit = use commit, but stop for amending
 > # s, squash = use commit, but meld into previous commit
-> # f, fixup = like "squash", but discard this commit's log message
+> # f, fixup = like "squash", but discard the commit log message
 > # x, exec = run command (the rest of the line) using shell
 > # d, drop = remove commit
 > #

@@ -10,7 +10,7 @@
         * [Using the script in a client-side hook](#using-the-script-in-a-client-side-hook)
         * [Limitations of the script](#limitations-of-the-script)
         * [Used anchor building (slugify) method](#used-anchor-building-slugify-method)
-    * [Differences in rendering TOC's ](#differences-in-rendering-tocs)
+    * [Differences in rendering TOCs(#differences-in-rendering-tocs)
 
 * * * * * * * * * *
  
@@ -23,7 +23,7 @@ There is no known way to do the same with GitHub Markdown.
 
 For obvious reasons, GitHub doesn't allow to execute arbitrary code on their servers as part of server-side Git hooks. 
 
-Thus, the easiest way to create and update TOC's on Wiki pages is to use a client-side script on a local copy of the remote Wiki. This approach is similar to the handling of navigation bars for Wiki pages and it has the same disadvantages:
+Thus, the easiest way to create and update TOCs on Wiki pages is to use a client-side script on a local copy of the remote Wiki. This approach is similar to the handling of navigation bars for Wiki pages and it has the same disadvantages:
 
 * If a Wiki page is edited on the server, then the TOC may get out of sync.
 * If a Wiki page is edited locally, then the user *should* run a script to handle necessary updates of the pages TOC. This can be automated with a client-side Git hook, but this hook needs special manual installation by each local user.
@@ -102,11 +102,11 @@ For handling non-ASCII header lines in GitHub correctly the usual method for anc
 
 
 
-## Differences in rendering TOC's 
+## Differences in rendering TOCs 
 
 Markdown files (Wiki pages) can be rendered using various rendering engines: GitHub, BitBucket, Google Chrome with markdown extension, ...
 
-These rendering engines are using different rules for link/anchor building in the case of non-ASCII header lines. The given script creates TOC's for rendering in GitHub. TOC links for header lines with non-ASCII characters might be broken when using different rendering engines. 
+These rendering engines are using different rules for link/anchor building in the case of non-ASCII header lines. The given script creates TOCs
 
 [Here](https://johnmacfarlane.net/babelmark2/?text=%5BGo+to+the+anchor%5D(%23i-have-an-anchor)%0A%0A%23+%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5+%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8+QMS) you can see some of the rendering differences.
 

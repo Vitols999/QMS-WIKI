@@ -27,15 +27,15 @@ Other information of these data objects can be edited with the help of the edit 
 
 To create a new multi-point data object proceed as follows:
 
-* Goto the docked routing window and select a routing engine and its properties.
-* Goto a map window and zoom it to the region in which the new object should be located.
+* Go to the docked routing window and select a routing engine and its properties.
+* Go to a map window and zoom it to the region in which the new object should be located.
 * Right-click in the map window to open its context menu.
 * Click the menu entry `Add track/route/area`. The mouse position will be taken as first point of the new data object. The mouse cursor will show that you are now in the line edit mode. 
 * Select a [routing option][Routing] from the toolbar:
     * Press `O` to create the new object without routing (i.e. points are joined by straight line segments).
     * Press `A` to use the selected routing engine and its properties as established to create the new object. Points are joined by paths following some road.
 * Left-click one after the other the required points. While doing so, the current layout of the new object is shown. If the new object is an area, then the last point clicked is joined with the first one to get a closed border line for the area.
-* Finish with a right click at the last point.
+* Finish with a right-click at the last point.
 * Click the `Save as new` button in the toolbar to save the new multi-point object in a workspace project and to give the new object a name.
 
 
@@ -120,10 +120,10 @@ __Recommendation:__ If any possible, save your data to a database and take advan
 
 | Icon | Meaning | Description |
 |--|--|--|
-|  ![PointMove.png](images/icons/PointMove.png) | Move a point | Hotkey: `CTRL+M`. Move the mouse cursor over a point until it is highlighted. A left click will make the point stick to the mouse cursor. A right click will abort the operation. A second left click will drop the point at the new position. If routing is enabled, the paths to and from the moved point are updated by newly calculated paths.|
-|  ![maproom2g](images/icons/PointAdd.png) | Add a point| Hotkey: `CTRL++`. Add a point to a line segment or at the start or end of the line. Move the mouse cursor over a line segment or a point to highlight it. A left click will add a new point that sticks to the mouse cursor.  A right click will abort the operation. A second left click will drop the point at the new position. If routing is enabled, the lines to and from the point are  newly calculated paths.|
-|  ![maproom2z](images/icons/SelectRange.png) | Select a range of points | Hotkey: `CTRL+R`. Select the first and last point with a left click of the mouse. You will get two options to choose from: Click the delete icon ![maproom2](images/DocGisItemsEditMultiple/DeleteOne_small.png) to delete all points between the first and the last selected point. Click the wheel icon ![maproom2](images/DocGisItemsEditMultiple/Apply_small.png) to calculate a route between the first and the last point. Make sure the routing mode and router are setup properly in advance to make this action work. |
-|  ![maproom2u](images/icons/PointDel.png) |Delete a point| Hotkey: `CTRL+-`. Remove a highlighted point by a left click. If routing is enabled, the lines to and from the point are updated by newly calculated paths. |
+|  ![PointMove.png](images/icons/PointMove.png) | Move a point | Hotkey: `CTRL+M`. Move the mouse cursor over a point until it is highlighted. A left-click will make the point stick to the mouse cursor. A right-click will abort the operation. A second left-click will drop the point at the new position. If routing is enabled, the paths to and from the moved point are updated by newly calculated paths.|
+|  ![maproom2g](images/icons/PointAdd.png) | Add a point| Hotkey: `CTRL++`. Add a point to a line segment or at the start or end of the line. Move the mouse cursor over a line segment or a point to highlight it. A left-click will add a new point that sticks to the mouse cursor.  A right-click will abort the operation. A second left-click will drop the point at the new position. If routing is enabled, the lines to and from the point are  newly calculated paths.|
+|  ![maproom2z](images/icons/SelectRange.png) | Select a range of points | Hotkey: `CTRL+R`. Select the first and last point with a left-click of the mouse. You will get two options to choose from: Click the delete icon ![maproom2](images/DocGisItemsEditMultiple/DeleteOne_small.png) to delete all points between the first and the last selected point. Click the wheel icon ![maproom2](images/DocGisItemsEditMultiple/Apply_small.png) to calculate a route between the first and the last point. Make sure the routing mode and router are setup properly in advance to make this action work. |
+|  ![maproom2u](images/icons/PointDel.png) |Delete a point| Hotkey: `CTRL+-`. Remove a highlighted point by a left-click. If routing is enabled, the lines to and from the point are updated by newly calculated paths. |
 
 ## Routing options
 

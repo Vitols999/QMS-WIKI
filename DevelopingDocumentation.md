@@ -141,7 +141,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
         * Valid fragment identifiers working in the GitHub Wiki may not work when using them in other browsers and vice versa.
         * A reliable way to find a fragment identifier for a header is as follows:       
             * Upload the page to the GitHub Wiki and open it there.
-            * Goto the HTML source text of the Wiki page (try `CTRL-U` or use context menu!).
+            * Go to the HTML source text of the Wiki page (try `CTRL-U` or use context menu!).
             * Find the header text in the HTML source text.
             * Take the value of the HTML `id` attribute as fragment identifier.
             * _Example of source code and fragment identifier for a header with non-ASCII characters:_

@@ -57,7 +57,7 @@ https://dcravey.wordpress.com/2011/03/21/using-sqlite-in-a-visual-c-application/
 * Create a directory M:\lib2017\sqlite
 * Unzip the DLL and DEF files to that directory
 * Open a “Visual Studio Command Prompt (2017)” and navigate to your source folder.
-* Create an import library using the following command line:
+* Create an import library using the following commandline:
 ```
 LIB /DEF:sqlite3.def
 ```

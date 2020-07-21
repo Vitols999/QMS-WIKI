@@ -66,7 +66,7 @@ The following links are recommendations for files which allow comfortable work w
     * [Load vector map Germany (Freizeitkarte)](http://download.freizeitkarte-osm.de/garmin/latest/DEU_de_gmapsupp.img.zip "Freizeitkarte Deutschland"). 
       (Choose your region! This links to a file! Approximately 1.4 GB, if a Garmin navigation device is used, a suitable file `gmapsupp*.img` may already exist
        and can be used in this step)
-    * _Optional:_ [Load links to on-line maps](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "On-line maps"). 
+    * _Optional:_ [Load links to online maps](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "Online maps"). 
       _Hint:_ Click field `Download online maps`! Result is a downloaded file `Onlinemaps.zip`.
     
 * _Routing support (recommended for creation of new routes and tracks)_:
@@ -140,10 +140,10 @@ The following links are recommendations for files which allow comfortable work w
 * When working with QMS, the user often receives information about actions to be performed in the form of info bubbles when pointing the mouse to a displayed object.
 * _Activate vector maps and choose level of map details:_
     * Go to the `Maps` window with your mouse.
-    * Open the context menu with a right click and select `Setup map paths`.
+    * Open the context menu with a right-click and select `Setup map paths`.
     * Open the folder `QMS\Maps` and select this folder.
     * In the map window appears a new entry `LeisureMap DE`.
-    * Open the context menu with a right click on the map name and select `Activate`.
+    * Open the context menu with a right-click on the map name and select `Activate`.
     * Move the map to a position that is contained in the map. The map should be visible.
     * A double-click on the name of an activated vector map opens the display of configurable map properties:
         * Opacity of the map (slider).
@@ -152,15 +152,15 @@ The following links are recommendations for files which allow comfortable work w
         * Layout of map objects (selection of a `TYP` file).
     * _Remark:_ Open more map windows and configure them independently of each other with the help of the menu entry `View - Add map view`.  
       
-* _Optional: Activate on-line maps: (requires selection of the map folder in the previous step!)_
+* _Optional: Activate online maps: (requires selection of the map folder in the previous step!)_
     * Go to the `Maps` window with your mouse.
-    * Open the context menu with a right click and select `Reload Maps`.
+    * Open the context menu with a right-click and select `Reload Maps`.
     * In the map window appears a new entry, in the example `4UMaps-eu` (maybe appeared already during the activation of the vector map!).
-    * Open the context menu with a right click on the map name and select `Activate`.
-    * If an Internet connection is active, then the selected on-line map is now loaded (this can take some time, progress is shown in 
+    * Open the context menu with a right-click on the map name and select `Activate`.
+    * If an Internet connection is active, then the selected online map is now loaded (this can take some time, progress is shown in 
       the middle window!)
 
-      ![Activate on-line map](images/DocAdv/InstallMapsEn.jpg "Activating on-line map")
+      ![Activate online map](images/DocAdv/InstallMapsEn.jpg "Activating online map")
     
     
 * _Optional: Activate Routino routing support:_
@@ -173,7 +173,7 @@ The following links are recommendations for files which allow comfortable work w
       The completion of the operation is shown.
     * Go to the `Routing` window and add the `QMS\Routino` folder using the 'Open' icon.
     * Open the database selection list in the `Routing` window and select `BE`.
-    * Routes and tracks can now be created with the support of the off-line Routino router (in the area covered by the
+    * Routes and tracks can now be created with the support of the offline Routino router (in the area covered by the
       selected database, in the example for Berlin!).
       
       ![Create Routino database](images/DocAdv/InstallRoutinoDbEn.jpg "Create Routino database")
@@ -189,10 +189,10 @@ The following links are recommendations for files which allow comfortable work w
       ![Create VRT for elevation data](images/DocAdv/InstallDem2VrtEn.jpg "Create VRT file for elevation data")
 
     * Move the mouse to the `Dig.Elev.Model (DEM)` window.  
-    * Open the context menu with a right click and choose `Setup DEM paths`.
+    * Open the context menu with a right-click and choose `Setup DEM paths`.
     * Choose `QMS\DEM` as folder.
     * In the `Dig.Elev.Model (DEM)` window now appears, among others, an entry `N51E012`.
-    * Open the context menu with a right click on this name and select `Activate`.
+    * Open the context menu with a right-click on this name and select `Activate`.
     * Elevation data is now available for the selected area (in the example the south-west corner of the area has the coordinates 
       51° North, 12° East and extends over 1° in both directions).
     * The existence of elevation data at the location of the mouse pointer is indicated in the status line by an existing elevation specification.
@@ -229,7 +229,7 @@ With these steps, a workable state of QMS is reached.
 * In the workspace window appears a new project entry with name ` MyProject`.
 * After opening the project, the waypoints and tracks present in the GPX file (that is, the project) are displayed.
 * If you move the mouse pointer to one of the displayed lines, you get some information about the selected object.
-* A double click on a waypoint or track centers the selected map around this object.
+* A double-click on a waypoint or track centers the selected map around this object.
 
      ![Show project](images/DocAdv/InstallProjectEn.jpg "Show project")
 
@@ -239,7 +239,7 @@ QMS provides various forms of data storage. A recommended and powerful form is s
 a database. The following steps are required to create a database:
 
 * Go with the mouse to the database window.
-* Open the context menu with a right click and select `Add Database`.
+* Open the context menu with a right-click and select `Add Database`.
 * In the next window, select a database name and a file name in the form `QMS\Databases\MyDatabase.db`
   (leave `SQLite` selected!).
 * The selected database name appears as a new line in the database window.
@@ -267,7 +267,7 @@ The creation of databases was described in the previous step.
 
 To create group, project and other folders follow these steps:  
  
-* Open the context  menu with a right click on the database or folder name.
+* Open the context  menu with a right-click on the database or folder name.
 * Choose the menu entry `Add folder`.
 * In the next window, select a folder name and a folder type (different types use different folder colors).
  
@@ -298,13 +298,13 @@ _Further information:_
   and one of the
   existing Routing databases (in the example `BE`).
 * Move the mouse to the starting point of the track in the map window.
-* Open the context  menu with a right click and select `Add Track`.
+* Open the context  menu with a right-click and select `Add Track`.
 * Press `A` on the keyboard (this selects the automatic routing mode).
-* Move the mouse to the wanted next intermediate point of the track and fix it with a left click. An intermediate track segment is 
+* Move the mouse to the wanted next intermediate point of the track and fix it with a left-click. An intermediate track segment is 
   automatically calculated in accordance with the selected routing options between the last two
   selected points. This segment is displayed in the map window.
 * Repeat the previous step until the end of the track is reached.
-* Right click to finish the new track.
+* Right-click to finish the new track.
 * Select `Save as new`  from the toolbar at the top of the map window.
 * Enter a track name.
 * Select a new project name and `Database` as the project type.
@@ -312,7 +312,7 @@ _Further information:_
 * Select a name for a database folder.
 * A new project with the selected name is displayed in the workspace window. This project contains the newly created track.
 * The database window shows a new folder for the used database.
-* Open the context menu with a right click on the project name and select `Save`. The project with its
+* Open the context menu with a right-click on the project name and select `Save`. The project with its
   data is permanently saved in the selected database folder. The saved track appears as a line in the database folder.
 
 ### Display track information
@@ -320,7 +320,7 @@ _Further information:_
 Track information is provided in various forms and with different detail level.
 
 * _In the workspace window:_ If the mouse pointer is located on the track name in the workspace window, then a summary of track information is shown.
-* _In the map window:_ A double click on the track name in the workspace window moves and zooms the map so that the track is completely shown in the map window.
+* _In the map window:_ A double-click on the track name in the workspace window moves and zooms the map so that the track is completely shown in the map window.
   Moving the mouse to the track in the map window gives the distance of the selected trackpoint to the begin and the end of the track as well as some additional
   information (elevation, speed, ...) of the trackpoint.
 * _In the track info (edit) window:_ To open this window select `Edit...` from the track context menu in the workspace window. It shows summary 

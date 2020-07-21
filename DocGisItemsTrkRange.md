@@ -36,7 +36,7 @@ A track range can be selected either in a map view or in the edit window of the 
 
     Choose the "_Select a range of points_" icon ![Range selection][RngSel0] in the toolbar. 
 
-    The mouse cursor changes to the range selection icon and the range tool window pops-up which supports the selection of the track range and which allows to perform the required range actions. The range tool window offers again a toolbar. Move the mouse on one of the icons to see a bubblebox explaining the meaning of the icon. The left part of the toolbar is for range actions, the right part can be used to select precisely the wanted range.
+    The mouse cursor changes to the range selection icon and the range tool window pops-up which supports the selection of the track range and which allows to perform the required range actions. The range tool window offers again a toolbar. Move the mouse on one of the icons to see a bubble box explaining the meaning of the icon. The left part of the toolbar is for range actions, the right part can be used to select precisely the wanted range.
 
     ![RangeTool.jpg][RngTool]
     
@@ -44,11 +44,11 @@ A track range can be selected either in a map view or in the edit window of the 
     
     | Icon  | Meaning   |
     |-------|-----------|
-|  ![PointHide.png](images/icons/PointHide.png) | Hide selected track points. |
-|  ![PointShow.png](images/icons/PointShow.png) | Show selected track points. |
+|  ![PointHide.png](images/icons/PointHide.png) | Hide selected trackpoints. |
+|  ![PointShow.png](images/icons/PointShow.png) | Show selected trackpoints. |
 |  ![Activity.png](images/icons/Activity.png) | Select activity for selected range. |
-|  ![Copy.png](images/icons/Copy.png) | Copy selected track points. |
-|  ![DeleteMultiple.png](images/icons/DeleteMultiple.png) | Delete selected track points. |
+|  ![Copy.png](images/icons/Copy.png) | Copy selected trackpoints. |
+|  ![DeleteMultiple.png](images/icons/DeleteMultiple.png) | Delete selected trackpoints. |
 |  ![Apply.png](images/icons/Apply.png) | Setup range tool behavior. |
 |  ![SelectStartNextPoint.png](images/icons/SelectStartNextPoint.png) | Move start of range toward start of track. If you keep the key pressed the action is repeated.  |
 |  ![SelectStartPrevPoint.png](images/icons/SelectStartPrevPoint.png) | Move start of range toward end of track. If you keep the key pressed the action is repeated.  |
@@ -84,7 +84,7 @@ A track range can be selected either in a map view or in the edit window of the 
     ![Range Setup][RngSettings]
 
 * Select the necessary action for the range operation from the left part of the range window toolbar.
-* Stop the range handling with a right click in the map window. The mouse cursor returns to its default icon.
+* Stop the range handling with a right-click in the map window. The mouse cursor returns to its default icon.
 * Use the track history in the track edit window to undo any range action on the track.
 * If no trackpoint is selected for a range, then part of the icons in the toolbar can be inactive (gray) and the list of trackpoints can be empty. As soon as a range is selected all icons are active again and the list of trackpoints highlights the last range point selected.
 
@@ -113,7 +113,7 @@ A track range can be selected either in a map view or in the edit window of the 
 
 (Recommended, if one of the track graphs should be used for range selection)
 
-* Open the edit window of the track either from the track context menu in the workspace (use menu entry `Edit`) or with a left click on the track in a map view and then a click of the `Edit` icon (the first track toolbar icon).
+* Open the edit window of the track either from the track context menu in the workspace (use menu entry `Edit`) or with a left-click on the track in a map view and then a click of the `Edit` icon (the first track toolbar icon).
 
 * Click with the left mouse button at the location of the start of the range to be selected in one of the track graphs and release the mouse button. A vertical red line jumps to the location of the nearest trackpoint of the track.
 * Move the mouse __in the same graph__ to the location of the end of the range to be selected and click with the left mouse button. _Warning:_ If a prohibition sign ![Not possible][NotPossible] pops up at the location of the mouse pointer, then the mouse was moved out of the graph used for the first click!
@@ -178,7 +178,7 @@ This track range selection mode is useful when refining planned tracks.
 
 * Display the track in a map window.
 * Click with the left mouse button on the track and release the mouse button.
-  An infobox pops up. Choose the "_Edit position of track points_" icon in this
+  An infobox pops up. Choose the "_Edit position of trackpoints_" icon in this
   infobox. This starts the track edit mode. The mouse cursor changes to the edit position icon.
 * In the toolbar that appears at the top of the map window click the "_Select a range of points_" icon.
   The mouse cursor changes to the range selection icon.
@@ -214,7 +214,7 @@ described below:
 * Display the track in a map view.
 * Zoom the map view so that you can see the wanted details of the track.
 * Click with the left mouse button on the track and release the mouse button.
-  An infobox pops up. Choose the "_Edit position of track points_" icon in this
+  An infobox pops up. Choose the "_Edit position of trackpoints_" icon in this
   infobox. This starts the track edit mode.
 
     ![Track in edit mode](images/DocAdv/MoveTrack.jpg "Track in edit mode. Only ordinary trackpoints")

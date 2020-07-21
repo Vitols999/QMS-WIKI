@@ -68,7 +68,7 @@ The following approach for avoiding this authorization was recommended in the [Q
     * `.\translations`: language files
     * `.\routino-xml`: routino configuration files including `profiles.xml`
 * Other directories:
-    * `c:\Users\your_user_name\AppData\Local\Temp\org.qlandkarte.QMapShack.log`: logfile written if command line option
+    * `c:\Users\your_user_name\AppData\Local\Temp\org.qlandkarte.QMapShack.log`: logfile written if commandline option
       `-f` is used
     * `c:\Users\your_user_name\.QMapShack`: tile caches for online maps (default, can be changed by the user)
     * `c:\Users\your_user_name\.config\QLandkarte\workspace.db`: backup of last used workspace - used for rebuilding the last workspace when QMapShack is restarted
@@ -122,12 +122,12 @@ The following list gives an overview of the locations used for saving setup, con
 
 * **Logfile (`org.qlandkarte.QMapShack.log`)**
     * *Purpose:* Provide various information about QMS run
-    * *Command line:* `qmapshack.exe -f`
+    * *Commandline:* `qmapshack.exe -f`
     * *Location (Windows):* `c:\Users\user_name\AppData\Local\Temp\`
     * *Location (Linux):* `/tmp/`
 * **Console debug output (Linux only)**
     * *Purpose:* Provide various information about QMS run (same information as in logfile)
-    * *Command line:* `qmapshack.exe -d`
+    * *Commandline:* `qmapshack.exe -d`
     * *Location (Linux):* output on console
 * **`workspace.db`**
     * *Purpose:* Save various information for restoring QMS workspace at restart. Proprietary file structure.
@@ -135,14 +135,14 @@ The following list gives an overview of the locations used for saving setup, con
     * *Location (Linux):* `~/.config/QLandkarte/` 
 * **INI file**
     * *Purpose:* Save most of the QMS setup and configuration information in a usual INI file structure
-    * *Command line:* `qmapshack.exe -c my_inifile.ini`
+    * *Commandline:* `qmapshack.exe -c my_inifile.ini`
     * *Location (Windows):* defined with INI file name, if necessary, `my_inifile.ini` should include complete path
     * *Location (Linux):* defined with INI file name, if necessary, `my_inifile.ini` should include complete path
 * **Registry (Windows only)** 
-    * *Purpose:* Save most of the QMS setup and configuration information in a structure similar to the one used in QMS INI file. Registry is used, if no INI file is given on command line.
+    * *Purpose:* Save most of the QMS setup and configuration information in a structure similar to the one used in QMS INI file. Registry is used, if no INI file is given on commandline.
     * *Location (Windows):* `HKCU\Software\QLandkarte\QMapShack`
 * **`QMapShack.conf` (Linux only)**
-    * *Purpose:* Save most of the QMS setup and configuration information in a usual INI file structure. File is used, if no QMS INI file is given on command line.
+    * *Purpose:* Save most of the QMS setup and configuration information in a usual INI file structure. File is used, if no QMS INI file is given on commandline.
     * *Location (Linux):* `~/.config/QLandkarte/`
 * **User-defined waypoint icons**
     * *Purpose:* Default path for adding user-defined waypoint icons (user can change this path!) 
@@ -151,7 +151,7 @@ The following list gives an overview of the locations used for saving setup, con
     
 *Remark:*
 
-* The command line parameters `-f` and `-d` for Linux can be used simultaneously. In this case, debug output is written to the logfile and to the console.
+* The commandline parameters `-f` and `-d` for Linux can be used simultaneously. In this case, debug output is written to the logfile and to the console.
 
  
 ## What to do if QMS doesn't start?
@@ -159,7 +159,7 @@ The following list gives an overview of the locations used for saving setup, con
 *(Find details and locations of files mentioned in this section [here][SetupFiles])*
 
 1. Search in the list of running processes (task manager!) for a still running QMS process. If yes, kill it. Restart QMS.
-1. Start QMS from command line using `qmapshack.exe -f`. A logfile is written. Check this logfile for error messages and try to avoid these errors.
+1. Start QMS from commandline using `qmapshack.exe -f`. A logfile is written. Check this logfile for error messages and try to avoid these errors.
 1. If no `qmapshack.exe` process is running: Back up  
     * `workspace.db`, 
     * INI file (if used), 

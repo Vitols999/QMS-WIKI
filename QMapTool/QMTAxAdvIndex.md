@@ -32,8 +32,8 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Color palette tool, description**
 :  [Color palette tool](PaletteTool "Color palette tool")
 
-**Command line, QMapTool**
-:  [List of command-line options](InstallSetup#list-of-command-line-options "List of command-line options")
+**Commandline, QMapTool**
+:  [List of commandline options](InstallSetup#list-of-commandline-options "List of commandline options")
 
 **Coordinate systems, commonly used**
 :  [Properties of some commonly used coordinate systems](EpsgOverview "Properties of some commonly used coordinate systems")
@@ -74,7 +74,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **QMapTool, commandline parameters**
-:  [List of command-line options](InstallSetup#list-of-command-line-options "List of command-line options")
+:  [List of commandline options](InstallSetup#list-of-commandline-options "List of commandline options")
 
 **QMapTool, installation**
 :  [Installation](InstallSetup#installation "Installation")

@@ -35,7 +35,7 @@ Users can find short quickstart help here:
 * Using QMapShack
 
     * [Getting started](DocGettingStarted)
-    * [Command line parameters](DocCmdOptions)
+    * [Commandline parameters](DocCmdOptions)
     * [Install Maps & DEM Data](DocInstallMapDem)
         * [Maps & DEM](DocBasicsMapDem)
         * [Control maps and DEM files](DocControlMapDem)   
@@ -96,7 +96,7 @@ Users can find short quickstart help here:
 * [Developing Documentation](DevelopingDocumentation)
     * [Recommendations for editing QMS Wiki pages](AxMaintainAutoPages)
     * [Maintaining the QMS Wiki Index](AxMaintainIndex)
-    * [Maintaining TOC's on Wiki pages](AxMaintainPageTOC)
+    * [Maintaining TOCs on Wiki pages](AxMaintainPageTOC)
 * [Discussion of extended activity system](DocActivityPlanning)    
 * [Playground - start your new Wiki page](DocPlayground)
 * [How to piss off open source developers](DocPissOffDevelopers)

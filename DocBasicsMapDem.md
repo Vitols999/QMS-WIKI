@@ -27,7 +27,7 @@ QMapShack supports the following map formats:
 
  Ext.   | Comment
 --------|-------------
-.img    | Garmin Map Images. This must be the same container files as used on the devices (often named gmapsupp_*.img). Garmin map images consisting of several mapsets (required for older Garmin devices) can be used only if all included mapsets use the same type file. Freely available software tools can be used to find the properties of a map image container and to create map images with just 1 mapset from map image containers with several mapsets. A collection with a \*tdb file and several \*img map tile files won't do.
+.img    | Garmin Map Images. This must be the same container files as used on the devices (often named `gmapsupp_*.img`). Garmin map images consisting of several mapsets (required for older Garmin devices) can be used only if all included mapsets use the same type file. Freely available software tools can be used to find the properties of a map image container and to create map images with just 1 mapset from map image containers with several mapsets. A collection with a \*tdb file and several \*img map tile files won't do. *Remark:* The Garmin `gmap` format is not supported!
 
 
 ### Raster Maps
@@ -105,7 +105,7 @@ Or satellite images:
 
     http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml
 
-To use the map you download the XML file and rename it, let's say: _World_Topo.wmts_. Move the file into QMapShack's map path and you can use the map on-line.
+To use the map you download the XML file and rename it, let's say: _World_Topo.wmts_. Move the file into QMapShack's map path and you can use the map online.
 
 For some servers, the "capabilities" XML sheet may need some hand tuning (comparing with the above working ones from Arcgis may greatly help in fixing it). For example, there is some detailed info about French IGN WMTS server in the ["maps tips & tricks"](DocMapsTipsOnline) section.
 
@@ -293,7 +293,7 @@ Script gets executed by command:
 wish Mapsforge_for_QMapShack.tcl
 ```
 
-Select map(s), theme, style and overlays, press wrapper's _QMapShack_ button to start QMapShack and activate selected map(s) by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map(s), theme, style or overlays, first press _QMapShack_ button, then right click QMapShack's maps list and force QMapShack to reload maps.
+Select map(s), theme, style and overlays, press wrapper's _QMapShack_ button to start QMapShack and activate selected map(s) by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map(s), theme, style or overlays, first press _QMapShack_ button, then right-click QMapShack's maps list and force QMapShack to reload maps.
 
 Screenshot:
 

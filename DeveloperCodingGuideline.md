@@ -22,7 +22,7 @@ No one likes them but it helps to read and maintain the code. Thus please stick 
     }
   ...
 ```
-* Use camel case with first character lower case on variables.
+* Use camel case with first character lowercase on variables.
 
 ```c++
 

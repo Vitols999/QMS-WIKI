@@ -75,7 +75,7 @@ When creating the routing database QMS executes the following Routino commands:
 When using the standard QMS Windows installation then `planetsplitter.exe` is found in the same directory as `qmapshack.exe`,
 `tagging.xml`is found in the `routino-xml` subdirectory of the `qmapshack.exe` directory.
 
-These commands can be executed directly from a command line.
+These commands can be executed directly from a commandline.
 
 ## Does the Routino router support _fly-as-a-bird_ routing?
 

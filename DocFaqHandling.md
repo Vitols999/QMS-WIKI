@@ -166,7 +166,7 @@ QMS offers the following track editing methods:
 
     By that the selected trackpoints are hidden and do not add to the statistics. If you want to remove them permanently:
   
-    * goto the track edit window of the track,
+    * go to the track edit window of the track,
     * click the `Filter` tab,
     * open the `Reduce visible points` filter group,
     * run the `Remove trackpoints` filter.

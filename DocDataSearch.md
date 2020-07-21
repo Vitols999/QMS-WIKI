@@ -30,7 +30,7 @@ Some actions with several GIS data objects can be carried out easily with the he
 * Right-click in the map view to open its context menu and select the menu entry `Select items on map`. 
 * An infobox at the upper left corner of the map view describes the next actions: 
     * Select a rectangular area on the map. Use the left mouse button and move the mouse. 
-    * Abort with a right click. 
+    * Abort with a right-click. 
     * Adjust the selection by point-click-move on the corners.
 
 Here is an example of a map view with a selection rectangle in the exact mode (selection summary is shown in infobox!):
@@ -72,13 +72,13 @@ _Comments:_
   `not checked/not selected`). A change of the state implies a change of the displayed toolbar icon.
 * Select first the necessary states of the actions with on/off state.
 * Next click one of the actions that can't be checked. The corresponding action is carried out immediately.
-* Close the selection rectangle with a right click.
+* Close the selection rectangle with a right-click.
 
 ## Tagging data
 
 Data objects can be tagged with a rating and with keywords for easier search.  To use this feature proceed as follows:
 
-* Goto the [workspace setup](AdvSetup#workspace-setup) window be clicking the menu entries `Workspace - Setup workspace`.
+* Go to the [workspace setup](AdvSetup#workspace-setup) window be clicking the menu entries `Workspace - Setup workspace`.
 * Select the option `Show tags in workspace tree`. Having done this a new column "Rating" is shown in the workspace window.
 * Select one or more data objects in the workspace.
 * Right-click on one of the selected data objects to open the context menu and click the menu entry `Set tags`.

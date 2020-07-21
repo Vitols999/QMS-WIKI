@@ -13,9 +13,9 @@
  
 ## HOWTO enable/disable source translations extraction #
 We now have the ability to choose when to update (extract) the
-translations from the sources files within CMake. It's controlled by the `UPDATE_TRANSLATIONS` CMake command line option. It defaults to `OFF`. Translations are always compiled (.ts to .qm)
+translations from the sources files within CMake. It's controlled by the `UPDATE_TRANSLATIONS` CMake commandline option. It defaults to `OFF`. Translations are always compiled (.ts to .qm)
 
-To update the translations just set the CMake command line option `UPDATE_TRANSLATIONS` to `ON`. E.g.:
+To update the translations just set the CMake commandline option `UPDATE_TRANSLATIONS` to `ON`. E.g.:
 ```cmake
 cmake -DUPDATE_TRANSLATIONS=ON ..
 make

@@ -90,7 +90,7 @@ This section describes the necessary workflow after making some special changes 
 
 * In the case that you have to run a script mentioned in this section carry out the following steps:
 
-    * Open a command line window.
+    * Open a commandline window.
     * Change to the `./Tools` folder and run the Python scripts from this folder.
     * If you want to run the navbar tools, then change to the root folder and run the scripts from this folder.
 
@@ -102,7 +102,7 @@ This section describes the necessary workflow after making some special changes 
 
     Subsections of the manual can be used as targets for links. A special marker is added by the Markdown processor to each section header. This marker can be found as follows:
 
-    * Open the on-line Wiki page in your browser.
+    * Open the online Wiki page in your browser.
     * Open the source text of this page.
     * Find the wanted section header in the source text.
     * The `<a href="#markdown-header-some_text">` string in front of the section header shows the quoted marker.

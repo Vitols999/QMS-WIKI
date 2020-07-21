@@ -140,7 +140,7 @@ BRouter has an offline and an online variant. To configure a variant of this rou
 * select `BRouter (...)` in the combobox on top of the router window,
 * if the variant shown is not the one to be used, press the `Setup` button,
     * in the next window select `BRouter-Web` (online) or `local installation`,
-    * goto the next windows and confirm or modify settings as necessary (if initial BRouter setup was correct and complete, than nothing has to be changed), 
+    * go to the next windows and confirm or modify settings as necessary (if initial BRouter setup was correct and complete, than nothing has to be changed), 
     * the last setup window for the offline variant allows to [download routing database files][BRouterDatabase] (so-called RD5 files) for the regions under consideration,
 * select a profile (a vehicle type) from the combobox,
 * select an alternative (start with original, if not satisfied with obtained route, then select an alternative),
@@ -238,7 +238,7 @@ on-the-fly routing | online: no, offline: yes, if switched on | yes | no | no | 
 * The user can change routing preferences in the configuration files of the BRouter and Routino routers. Special knowledge is needed for making changes to these configuration
   files.
 * Routes (but not tracks) can be (re-)calculated. There are 2 methods to start route calculation:
-    * Goto to the route object in the workspace window, open the context menu with a right click and select `Calculate route`.
+    * Go to to the route object in the workspace window, open the context menu with a right-click and select `Calculate route`.
     * Click on the route in a map window and select the `Calculate route` icon ![Apply icon](images/icons/Apply.png) from the displayed toolbar.
 * Recalculation is carried out with the router selected in the routing window. This router can be different to the one used in the original calculation.
 * When saving a route (e.g. into a GPX file), only the routing points are saved. (Re-)Loading a saved route into QMS results in a route object with a list of routing points. Without recalculating the route it is displayed with straight line segments joining the routing points. After recalculation, the display changes to a _breadcrumb_ line. To save this line completely convert the route into a track using the context menu entry `Convert to track` of the route and save the track.
@@ -324,7 +324,7 @@ Several no-go areas and lines can be active at the same time.
     ![No-go area](images/DocAdv/WPTNoGo.jpg "No-go area")
   
 * Clicking on the circle surrounding a no-go area opens a toolbox. The text in the toolbox shows the proximity radius. Using the toolbox icons the user can
-    * change the radius of the no-go area with the mouse (click icon, move mouse to new size of no-go area, old radius size is still shown, left click to confirm new size).
+    * change the radius of the no-go area with the mouse (click icon, move mouse to new size of no-go area, old radius size is still shown, left-click to confirm new size).
     * remove the proximity radius and thus the no-go area.
     * switch the no-go area property on or off.   
  

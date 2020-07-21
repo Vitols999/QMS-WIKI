@@ -9,7 +9,7 @@
  
 # Folders and Items
 
-You can add or delete folders by a right click on the parent folder/database. Simply select from the context menu:
+You can add or delete folders by a right-click on the parent folder/database. Simply select from the context menu:
 
 ![maproom2](images/DocGisDatabaseFolderItems/maproom1.png)
 

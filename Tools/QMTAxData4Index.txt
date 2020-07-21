@@ -11,9 +11,9 @@ ___Basic usage___
         * [Linux ](InstallSetup#linux)
         
     * [Running](InstallSetup#running)
-        * [List of command-line options](InstallSetup#list-of-command-line-options)
+        * [List of commandline options](InstallSetup#list-of-commandline-options)
                 1. QMapTool|commandline parameters
-                1. Command line|QMapTool
+                1. Commandline|QMapTool
                 
     * [Setup](InstallSetup#setup)
         1. QMapTool|setup

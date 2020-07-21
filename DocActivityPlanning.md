@@ -1,4 +1,4 @@
-[Prev](AxMaintainPageTOC) (Maintaining TOC's on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Playground - start your new Wiki page) [Next](DocPlayground)
+[Prev](AxMaintainPageTOC) (Maintaining TOCs on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Playground - start your new Wiki page) [Next](DocPlayground)
 - - -
 
 ***Table of contents***
@@ -160,4 +160,4 @@ eg: 'Running 3 - Difficult path'  / 'Running 3'  /  'R3' / Default color blue
 ...
 
 - - -
-[Prev](AxMaintainPageTOC) (Maintaining TOC's on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Playground - start your new Wiki page) [Next](DocPlayground)
+[Prev](AxMaintainPageTOC) (Maintaining TOCs on Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Playground - start your new Wiki page) [Next](DocPlayground)

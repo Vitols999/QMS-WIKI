@@ -4,7 +4,7 @@
 ***Table of contents***
 
 * [Track elevation data](#track-elevation-data)
-    * [Manually edit elevation of a track point](#manually-edit-elevation-of-a-track-point)
+    * [Manually edit elevation of a trackpoint](#manually-edit-elevation-of-a-trackpoint)
     * [Assign elevation using DEM data](#assign-elevation-using-dem-data)
     * [Handle invalid elevation data](#handle-invalid-elevation-data)
 
@@ -12,12 +12,12 @@
  
 # Track elevation data
 
-## Manually edit elevation of a track point
+## Manually edit elevation of a trackpoint
 
 * open the [edit window][TrkEdit] of the track,
 * ensure that track data can be edited (open lock in description part of edit window - if lock is closed, click it!)
 * go to the _Points_ tab,
-* find the track point to be edited,
+* find the trackpoint to be edited,
 * double-click in the elevation column,
 * set the new elevation in the pop-up window.
 
@@ -67,18 +67,18 @@ If there is an urgent need to avoid these missing elevation values, the user can
 * (_optimal procedure_) Try to find a source of DEM (SRTM) data with improved quality, i.e. with data where the
 above mentioned gaps have been removed using various techniques. For Germany the
 [opendem.info](https://opendem.info/download_srtm.html) server is such a source.
-* Use the QMS __Reduce visible track points__ filter to __hide invalid track points__. Check if
+* Use the QMS __Reduce visible trackpoints__ filter to __hide invalid trackpoints__. Check if
 the resulting changes of the track can be accepted. If so, use this filter again to finally __remove
 invalid points__.
 
-* Use the QMS __Change elevation of track points__ filter to __interpolate elevation data__. Check in the __preview__
+* Use the QMS __Change elevation of trackpoints__ filter to __interpolate elevation data__. Check in the __preview__
 if the resulting interpolated (smoothed) track profile can be accepted. If so, apply the filter.
 
 * (_tedious procedure_) Manually edit elevation data with data taken from a different source (e.g. raster map
 with elevation data).
 
 * (_unreliable procedure_) If the area is rather flat then gaps in HGT files can be filled in with a default average elevation
-value with the help of the `GDAL` package. On a command line 2 steps have to be executed:
+value with the help of the `GDAL` package. On a commandline 2 steps have to be executed:
 
     * Convert the `NODATA` value of the source file to the wanted average value (in the example 50m, use full paths!)
 

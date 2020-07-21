@@ -38,7 +38,7 @@ More details of the topics mentioned on this page can be found elsewhere in this
 
 ### Workspace setup
 
-* Goto menu  `Workspace - Setup workspace` (__Remark:__ changes made to these options need QMS restart!)
+* Go to menu  `Workspace - Setup workspace` (__Remark:__ changes made to these options need QMS restart!)
 
     In the pop-up windows define
   
@@ -47,14 +47,14 @@ More details of the topics mentioned on this page can be found elsewhere in this
     * how GPS devices should be handled by QMS. If this option is not checked, then GPS devices can't be seen in QMS. Otherwise GPS devices plugged in to the PC can be seen in QMS. For details compare section ["Working with GPS Devices"](DocGisDevices).
     * whether [tags (ratings and keywords)](DocDataSearch#tagging-data) are shown in the workspace window for GIS data objects.
     
-* To control the visibility of parts of the workspace goto menu `Window`
+* To control the visibility of parts of the workspace go to menu `Window`
     * `Toggle docks:` change visibility of all docked window parts at once.
     * `Toolbar:` change visibility of toolbar.
     * `Maps, Dig.Elev.Model (DEM), Workspace, Database, Routing:` change visibility of single docked window part.
     
 ### Waypoint icons setup
 
-* Goto menu  `Workspace - Setup waypoint icons`
+* Go to menu  `Workspace - Setup waypoint icons`
 * In the pop-up windows click the `Open` icon and define a path from which additional user-defined waypoint icons can be loaded
 
 
@@ -75,7 +75,7 @@ The toolbar allows quick access to important QMS actions.
 QMS can render vector maps in the Garmin format and various types of raster and online maps.
 
 * _Vector maps:_ 
-    * must have the `gmapsupp.img` container format,
+    * must have the `gmapsupp.img` container format (the Garmin `gmap` format is not supported!),
     * only unlocked ones can be used,
     * typical sources:
         * [http://download.freizeitkarte-osm.de/garmin/latest/](http://download.freizeitkarte-osm.de/garmin/latest/) - select region and correct format.
@@ -84,7 +84,7 @@ QMS can render vector maps in the Garmin format and various types of raster and 
     * download (and unzip if necessary) the map and save it in some map directory.
 * _Raster maps:_ for details see [here](DocFaqMaps).
 * _Online maps:_ 
-    * [Load file with links to on-line maps](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "On-line maps"). 
+    * [Load file with links to online maps](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "Online maps"). 
       _Hint:_ Click field `Download online maps`! Result is a downloaded file `Onlinemaps.zip`. 
     * Unpack this file into some map directory.  
     
@@ -98,23 +98,23 @@ For more details about the installation of maps and DEM data compare also the [Q
 ### Map paths
 
 * _Assumption:_ Vector, raster maps or links to online maps have been downloaded and installed
-* Goto the `Maps` tab (docked window, if not visible, then open it with the menu entry `Window - Maps`)
-* Right click in the window to open the context menu
+* Go to the `Maps` tab (docked window, if not visible, then open it with the menu entry `Window - Maps`)
+* Right-click in the window to open the context menu
 * Select `Setup map paths` (alternatively: select menu `File - Setup map paths`)
 * In the pop-up window, add or remove paths with vector or raster maps
 
 ### Map cache path for online maps
 
-* Goto the `Maps` tab (docked window, if not visible, then open it with the menu entry `Window - Maps`)
-* Right click in the window to open the context menu
+* Go to the `Maps` tab (docked window, if not visible, then open it with the menu entry `Window - Maps`)
+* Right-click in the window to open the context menu
 * Select `Setup map paths` (alternatively: select menu `File - Setup map paths`)
 * In the pop-up window, define a path used for caching online map tiles
 
 ### DEM file paths
 
 * _Assumption:_ DEM data has been downloaded and installed.
-* Goto the `Dig.Elev.Model (DEM)` tab (docked window, if not visible, then open it with the menu entry `Window - Dig.Elev.Model (DEM)`)
-* Right click in the window to open the context menu
+* Go to the `Dig.Elev.Model (DEM)` tab (docked window, if not visible, then open it with the menu entry `Window - Dig.Elev.Model (DEM)`)
+* Right-click in the window to open the context menu
 * Select `Setup DEM paths` (alternatively: select menu `File - Setup DEM paths`)
 * In the pop-up window add or remove paths with digital elevation (DEM) data 
 
@@ -165,13 +165,13 @@ section "[Adjustable map properties](AdvMapDetails#adjustable-map-properties)"
 ### Routino database paths
 
 * _Assumption:_ Routing databases have been downloaded and installed. For more details compare also the [Quick start guide](DocQuickStartEnglish#steps-after-the-first-start).
-* Goto the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`).
+* Go to the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`).
 * In the combobox on the top of the window, select `Routino (offline)`.
 * Click the ![Open folder selection](images/icons/PathBlue.png "Folder selection") icon. In the pop-up window, add or remove paths to Routino databases.
 
 ### Routino routing setup
 
-* Goto the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`).
+* Go to the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`).
 * In the combobox on the top of the window, select `Routino (offline)`.
 * Select 
     * Profile (vehicle type)
@@ -222,7 +222,7 @@ The routing properties used for the 3 variants are
 ### BRouter setup
 
 * For general information about the use of BRouter see [here](http://brouter.de/brouter/).
-* Goto the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`)
+* Go to the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`)
 * In the combobox on the top of the window, select `BRouter (...)` 
 * Be sure the Internet can be accessed
 * Click the `Setup` button
@@ -272,7 +272,7 @@ The routing properties used for the 3 variants are
 
 ### MapQuest setup
 
-* Goto the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`)
+* Go to the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`)
 * In the combobox on the top of the window, select `MapQuest (online)` 
 * Select 
     * Profile (vehicle type)

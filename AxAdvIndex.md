@@ -84,8 +84,8 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Calculated data, of track**
 :  [Recorded and calculated tracks](DocGisItemsTrk#recorded-and-calculated-tracks "Recorded and calculated tracks")
 
-**Command line, options**
-:  [Command line parameters](DocCmdOptions "Command line parameters")
+**Commandline, parameters**
+:  [Commandline parameters](DocCmdOptions "Commandline parameters")
 
 **CompeGPS, map**
 :  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
@@ -402,7 +402,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [DEM Files](DocBasicsMapDem#dem-files "DEM Files")
 
 **Elevation, edit**
-:  [Manually edit elevation of a track point](DocGisItemsTrkElevation#manually-edit-elevation-of-a-track-point "Manually edit elevation of a track point")
+:  [Manually edit elevation of a trackpoint](DocGisItemsTrkElevation#manually-edit-elevation-of-a-trackpoint "Manually edit elevation of a trackpoint")
 
 **Elevation, filter**
 :  [Handle invalid elevation data](DocGisItemsTrkElevation#handle-invalid-elevation-data "Handle invalid elevation data")
@@ -471,8 +471,8 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **FIT, load file**
 :  [Load GPX Files](DocHandleGpxFiles#load-gpx-files "Load GPX Files")
 
-**Full-screen display, of maps**
-:  [Full-screen display](AdvMapDetails#full-screen-display "Full-screen display")
+**Fullscreen display, of maps**
+:  [Fullscreen display](AdvMapDetails#fullscreen-display "Fullscreen display")
 
 
 ## G
@@ -654,7 +654,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Linux Mint 19.x](BuildLinuxMint19 "Linux Mint 19.x")
 
 **Logfile, enable debug output**
-:  [Command line parameters](DocCmdOptions "Command line parameters")
+:  [Commandline parameters](DocCmdOptions "Commandline parameters")
 
 **Logfile, find used locale and language file**
 :  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
@@ -714,8 +714,8 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Map, folder organization**
 :  [Organization of Maps & DEM](DocInstallMapDem#organization-of-maps--dem "Organization of Maps & DEM")
 
-**Map, full-screen display**
-:  [Full-screen display](AdvMapDetails#full-screen-display "Full-screen display")
+**Map, fullscreen display**
+:  [Fullscreen display](AdvMapDetails#fullscreen-display "Fullscreen display")
 
 **Map, Garmin Birds Eye (JNX)**
 :  [Raster Maps](DocBasicsMapDem#raster-maps "Raster Maps")
@@ -744,7 +744,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Map, NZ topo configuration**
 :  [TMS configuration for New Zealand topo maps](DocMapsTipsOnline#tms-configuration-for-new-zealand-topo-maps "TMS configuration for New Zealand topo maps")
 
-**Map, on-line**
+**Map, online**
 :  [Online Maps](DocBasicsMapDem#online-maps "Online Maps")
 
 **Map, opacity**
@@ -765,7 +765,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Map, projection**
 :  [Projection and Scaling](DocBasicsMapDem#projection-and-scaling "Projection and Scaling")
 
-**Map, properties of on-line maps**
+**Map, properties of online maps**
 :  [Online Maps](DocControlMapDem#online-maps "Online Maps")
 
 **Map, properties of vector map**
@@ -932,14 +932,14 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 ## O
 
 
-**Off-line routing, Routino**
+**Offline routing, Routino**
 :  [Routino](DocGisItemsRouting#routino "Routino")
-
-**On-line routing, MapQuest**
-:  [MapQuest](DocGisItemsRouting#mapquest "MapQuest")
 
 **Online maps, Access with MapProxy**
 :  [Use MapProxy to access many maps as TMS](DocMapsTipsOnline#use-mapproxy-to-access-many-maps-as-tms "Use MapProxy to access many maps as TMS")
+
+**Online routing, MapQuest**
+:  [MapQuest](DocGisItemsRouting#mapquest "MapQuest")
 
 **OpenSky, realtime data**
 :  [OpenSky flight data](DocRealtime#opensky-flight-data "OpenSky flight data")
@@ -1019,13 +1019,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **QMapShack, INI file**
-:  [Command line parameters](DocCmdOptions "Command line parameters")
+:  [Commandline parameters](DocCmdOptions "Commandline parameters")
 
 **QMapShack, language selection and change**
 :  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
 
 **QMapShack, logfile**
-:  [Command line parameters](DocCmdOptions "Command line parameters")
+:  [Commandline parameters](DocCmdOptions "Commandline parameters")
 
 **QMapShack, running**
 :  [Can I run several QMS instances at the same time?](DocFaqConfig#can-i-run-several-qms-instances-at-the-same-time "Can I run several QMS instances at the same time?")
@@ -1037,7 +1037,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Why does QMS ask for authorization on start-up (Ubuntu version)](DocFaqConfig#why-does-qms-ask-for-authorization-on-start-up-ubuntu-version "-")
 
 **QMapShack, use of Windows registry**
-:  [Command line parameters](DocCmdOptions "Command line parameters")
+:  [Commandline parameters](DocCmdOptions "Commandline parameters")
 
 **QMapShack, used directories**
 :  [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-relevant-qmapshack-directories-windows-version "-")
@@ -1082,7 +1082,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Raster map, find location**
 :  [How to find the location of a raster map?](DocFaqMaps#how-to-find-the-location-of-a-raster-map "How to find the location of a raster map?")
 
-**Raster map, from on-line map**
+**Raster map, from online map**
 :  [Which raster map formats are supported?](DocFaqMaps#which-raster-map-formats-are-supported "Which raster map formats are supported?")
 
 **Raster map, installation**
@@ -1574,7 +1574,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Using the track edit/info window](DocGisItemsTrkInfo#using-the-track-editinfo-window "Using the track edit/info window")
 
 **Trackpoint, elevation**
-:  [Manually edit elevation of a track point](DocGisItemsTrkElevation#manually-edit-elevation-of-a-track-point "Manually edit elevation of a track point")
+:  [Manually edit elevation of a trackpoint](DocGisItemsTrkElevation#manually-edit-elevation-of-a-trackpoint "Manually edit elevation of a trackpoint")
 
 **Trackpoint, remove extension**
 :  [Remove extension from all trackpoints](DocGisItemsTrkFilters#remove-extension-from-all-trackpoints "Remove extension from all trackpoints")
@@ -1706,7 +1706,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Where does QMS save setup, configuration, and other information?](DocFaqConfig#where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")
 
 **Windows registry, use**
-:  [Command line parameters](DocCmdOptions "Command line parameters")
+:  [Commandline parameters](DocCmdOptions "Commandline parameters")
 
 **WMS, accessed with TMS**
 :  [Use WMS server as TMS server](DocMapsTipsOnline#use-wms-server-as-tms-server "Use WMS server as TMS server")

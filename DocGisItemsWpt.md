@@ -31,7 +31,7 @@ The creation of a new waypoint is similar to the creation of a [track][TrkCreate
 
 To create a new waypoint proceed as follows:
 
-* Goto a map window and zoom it to the region in which the new waypoint should be located.
+* Go to a map window and zoom it to the region in which the new waypoint should be located.
 * Right-click in the map window to open its context menu.
 * Click the menu entry `Add waypoint`.
 * Select 
@@ -113,7 +113,7 @@ If you want to use your own icons, then there are 2 ways to do this:
 * _Use other icon directory:_
     * Put your icons in some directory.
     * Start QMapShack.
-    * Goto menu entry  `Workspace - Setup waypoint icons`.
+    * Go to menu entry  `Workspace - Setup waypoint icons`.
     * In the pop-up windows click the `Open` icon and define your directory path where QMapShack can find the additional user-defined waypoint icons.
     * _Remark:_ As soon as a path is defined in this way, the default directory mentioned in the previous point isn't used anymore for loading icons.
     
@@ -173,7 +173,7 @@ with a more informative layout in form of a bubble box
 
 ![Waypoint bubble layout][WptBubble]
 
-* _Edit radius of circular area:_ Change the proximity radius of the waypoint in a map view: click icon, move mouse to new size of proximity area, old radius size is still shown, left click to confirm new size. 
+* _Edit radius of circular area:_ Change the proximity radius of the waypoint in a map view: click icon, move mouse to new size of proximity area, old radius size is still shown, left-click to confirm new size. 
 * _Switch between proximity and no-go area:_ If the waypoint has a proximity radius > 0, then the proximity range can be converted to a no-go area and vice versa.
 * _Search for information about the waypoint position on selected websites:_ When choosing this action a web service from the list of configured [web services][WebServ] can be selected which displays information about the waypoint location in a web browser.
 

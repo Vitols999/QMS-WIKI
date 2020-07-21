@@ -31,7 +31,7 @@ To cut a map proceed as follows:
 1. Click the `Open` (`Add map files to list`) icon (![](QMapTool/images/PathBlue.png)) and select a raster map. The raster map is loaded into the QMT map window.
 1. Click the `Add point to mask` icon (![](QMapTool/images/RefAdd.png)). The map cursor now is a cross-hair one.
 1. Move the mouse cursor to the first polygon point as precisely as possible (use the mouse wheel to zoom map!) and left-click to fix the point.
-1. Move the mouse to the next polygon point and fix it with a left click. Continue until the polygon mask has the wanted shape. _Remark:_ Starting with the third
+1. Move the mouse to the next polygon point and fix it with a left-click. Continue until the polygon mask has the wanted shape. _Remark:_ Starting with the third
    point the cut polygon is visible as an area.
 1. Click the `Start` button to cut the map. The file name of the new map file gets an additional suffix (default: `_cut`). 
 1. The shell window (if activated) shows the used GDAL commands and the progress of the operation.

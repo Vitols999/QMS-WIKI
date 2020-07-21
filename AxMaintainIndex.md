@@ -1,4 +1,4 @@
-[Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maintaining TOC's on Wiki pages) [Next](AxMaintainPageTOC)
+[Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maintaining TOCs on Wiki pages) [Next](AxMaintainPageTOC)
 - - -
 
 ***Table of contents***
@@ -46,8 +46,8 @@ This page describes how to maintain (edit) the index of the QMS Wiki.
   cases described later it is recommended to contact a user who can run the tools to help you.
 
 * _Remember:_
-    * The (on-line) manual is maintained with the help of the Github version control system. Any change you make can
-      be undone. _You can never make irreversible changes to the (on-line) manual!
+    * The (online) manual is maintained with the help of the Github version control system. Any change you make can
+      be undone. _You can never make irreversible changes to the (online) manual!
       You never can destroy manual pages forever!_
     * The editor used for editing some text in a manual page must use UTF-8 encoding (without BOM). A different encoding
       (such as Latin1) is not allowed even when using ASCII characters only! Others might have used non-ASCII
@@ -267,7 +267,7 @@ page.
 This is a recommended sequence of steps when editing the index in a local copy of the manual:
 
 1. Update your local copy of the manual using your preferred Github version control tool.
-1. Open a command-line window and change the working directory to `my_path_to_manual\doc\Tools`. Run all Python scripts
+1. Open a commandline window and change the working directory to `my_path_to_manual\doc\Tools`. Run all Python scripts
    mentioned from this working directory!
 1. Copy the `AxAdvToc.md` to the `Tools` subfolder (overwrite an existing one!). This copy is used for the consistency check.
 1. Run `BuildToc.py` to update the complete table of contents.
@@ -286,7 +286,7 @@ This is a recommended sequence of steps when editing the index in a local copy o
 ## Further remarks
 
 * The raw index file and all the Python scripts used for maintaining the index are located in the `Tools` subfolder
-  of the `doc` folder of the manual. The scripts should be run in a command-line (console) window after changing the
+  of the `doc` folder of the manual. The scripts should be run in a commandline (console) window after changing the
   working directory to `my_path_to_manual\doc\Tools`. Some script output (e.g the results of consistency checks) is sent to
   the console window. The Python scripts rely on the described folder structure.
 
@@ -299,7 +299,7 @@ This is a recommended sequence of steps when editing the index in a local copy o
     * can upload (push) edited manual pages to the Github server.
 
 * _Not recommended but possible:_ If a local copy of the manual can't be made available, then make your changes
-  on-line in the Github Wiki. Other users editing the manual will see your changes and carry out the
+  online in the Github Wiki. Other users editing the manual will see your changes and carry out the
   maintenance steps described on this page.
 
 * No index entries are inserted for the following manual pages:
@@ -382,4 +382,4 @@ chosen for
 * a slightly longer text describing in more detail the target topic.
 
 - - -
-[Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Maintaining TOC's on Wiki pages) [Next](AxMaintainPageTOC)
+[Prev](AxMaintainAutoPages) (Recommendations for editing QMS Wiki pages) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Maintaining TOCs on Wiki pages) [Next](AxMaintainPageTOC)

@@ -10,7 +10,7 @@
     * [Range of use of elevation data](#range-of-use-of-elevation-data)
     * [Map scale type](#map-scale-type)
     * [Projection and datum](#projection-and-datum)
-    * [Full-screen display](#full-screen-display)
+    * [Fullscreen display](#fullscreen-display)
     * [Distance ruler](#distance-ruler)
 
 * * * * * * * * * *
@@ -28,7 +28,7 @@ _(valid starting with QMS patch version de4deeb (30.07.2017))_
 After activating a map in a map view, some properties that control the display of the map can be adjusted.
 The number of properties depends on the type of the map. Their availability is shown in the next table:
 
-Property | vector map | off-line raster map | on-line  map
+Property | vector map | offline raster map | online  map
 ---------|------------|--------------------|------------
 Map opacity               | ✔ | ✔ | ✔
 Visibility range of map   | ✔ | ✔ | ✔
@@ -39,7 +39,7 @@ Cache size                | ✘ | ✘ | ✔
 Cache expiration          | ✘ | ✘ | ✔
 Layer selection           | ✘ | ✘ | ✔
 _Data opacity_            | ✔ | ✔ | ✔
-_Full-screen display_     | ✔ | ✔ | ✔
+_Fullscreen display_      | ✔ | ✔ | ✔
 
 The following image shows the layout of the various selection possibilities in the map tab:
 
@@ -55,7 +55,7 @@ _Comments:_
 * The visibility of details controls how many map details are shown at a given zoom level.
 * The layout of map objects can be changed by using different type files for the map.
 * The data opacity (slider in the data and not in the map tab!) controls the opacity of the GIS data in the workspace.
-* Full-screen display of a map window is enabled by pressing `F11` (toggle!).
+* Fullscreen display of a map window is enabled by pressing `F11` (toggle!).
 
 ## Use of map visibility range
 
@@ -169,7 +169,7 @@ zooming with a square scale changes the scale faster than zooming with a logarit
 The minimum and maximum zoom levels (scales) are nearly the same for both scales.
 
 For square scales the next zoom step leads to a scale which is approximately changed by a factor 2
-compared with the previous one. This scale is recommended for on-line (TMS, WMTS) maps.
+compared with the previous one. This scale is recommended for online (TMS, WMTS) maps.
 
 ## Projection and datum
 
@@ -263,17 +263,17 @@ _Remarks:_
     ![Different lon/lat coordinates](images/DocAdv/MapGrid4.jpg "Different lon/lat coordinates")
   
 
-## Full-screen display
+## Fullscreen display
 
 _(valid starting with QMS patch version de4deeb (30.07.2017))_
 
-Map windows (and other windows as well) can be displayed in full-screen mode. A map window switches to full-screen mode after pressing `F11`. 
+Map windows (and other windows as well) can be displayed in fullscreen mode. A map window switches to fullscreen mode after pressing `F11`. 
 Pressing `F11` again switches the window back to the standard mode.
 
 _Remarks:_
 
-* If the QMS toolbar is active, then it is also shown in the full-screen window.
-* Pressing `CTRL-D` in the full-screen mode activates the docked windows. Pressing this key again closes the docked windows in the full-screen mode.
+* If the QMS toolbar is active, then it is also shown in the fullscreen window.
+* Pressing `CTRL-D` in the fullscreen mode activates the docked windows. Pressing this key again closes the docked windows in the fullscreen mode.
 
 
 ## Distance ruler
@@ -307,7 +307,7 @@ To use the distance rule proceed as follows:
 |  ![Redo.png](images/icons/Redo.png) | Redo |
 
 * Left-click in the map view at the first point of the wanted line segment.
-* Add points with more left clicks.
+* Add points with more left-clicks.
 * Right-click, if finished with adding points (line segments).
 * Assume all selectable toolbar icons are selected. Then a table shows information about the length (distance) and other information of each line segment. The same information is displayed on the line segments. In addition to this, the angle between adjacent line segments is shown.
 

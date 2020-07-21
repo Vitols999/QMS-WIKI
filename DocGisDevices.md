@@ -27,7 +27,7 @@ After you plugged your device to the PC and switched it to mass storage mode you
 
 Each memory of the device is listed  in the workspace. If data is found on the device it will be attached as project to it's device entry.
 
-The important part to understand is that a project on the device is stored differently than on the workspace. For example devices won't be able to deal with the idea of hidden track points. Or it simply has no way to store all the information QMapShack is able to store. That is why projects have to be copied via the device entry to the device. And consequently projects on the device can't be copied to the workspace. This would lead to a project clash that is hard to resolve and very likely to loose data.
+The important part to understand is that a project on the device is stored differently than on the workspace. For example devices won't be able to deal with the idea of hidden trackpoints. Or it simply has no way to store all the information QMapShack is able to store. That is why projects have to be copied via the device entry to the device. And consequently projects on the device can't be copied to the workspace. This would lead to a project clash that is hard to resolve and very likely to loose data.
 
 ![Drag-n-drop from device to workspace](images/DocGisDevices/qmapshack4.png "Drag-n-drop from device to workspace")
 

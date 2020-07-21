@@ -237,7 +237,7 @@ Note: libjpeg is needed for qmt_map2jnx. Other parts of QMapshack may use the jp
         NMAKE /f makefile.vs  setup-v15
 
 - Open the solution file jpeg.sln
-- Open the configuration manager (click on the list box filled with "Win32"
+- Open the configuration manager (click on the listbox filled with "Win32"
 - create a new project platform x64 by cloning from Win32
 - now build the project for x64 - Release
 - create a directory structure for the header files and the resulting library, e.g.
@@ -342,7 +342,7 @@ Note: If you don't want to compile these libraries, you can also copy them from 
   ==> QMapShack should start up and be fully operational without any restrictions
 
 ### I5.) Create the installer with NSIS(3.0b1)
-- Run the QMapShack_Installer.nsi script e.g via right click on script file
+- Run the QMapShack_Installer.nsi script e.g via right-click on script file
   and choosing "Compile NSIS Script" from contextual menu.
 
 Note: there also are the options to run the script on command prompt with
@@ -401,7 +401,7 @@ not .dll's + all directories)
 ### D5.) Run/Debug
 Congratulations: all preparations finished.
 Now you can _really_ start debugging!
-Right click on "qmapshack" project and select Debug -> Start new instance
+Right-click on "qmapshack" project and select Debug -> Start new instance
 
 - - -
 [Prev](BuildWindowsVisualStudio2013) (Windows with VisualStudio 2013) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (GDAL support for additional map formats) [Next](BuildWindowsGdalWithAdditionalFormats)

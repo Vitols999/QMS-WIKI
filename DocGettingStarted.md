@@ -1,4 +1,4 @@
-[Prev](OfflineDocumentation) (Create Offline Documentation) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Command line parameters) [Next](DocCmdOptions)
+[Prev](OfflineDocumentation) (Create Offline Documentation) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Commandline parameters) [Next](DocCmdOptions)
 - - -
 
 ***Table of contents***
@@ -33,7 +33,7 @@ Use the _"+" button_ to add a new path. To remove paths you select one or more a
 
 ![Alt text](images/DocGettingStarted/maproom3.png)
 
-However the right hand canvas is still empty. To actually display a map you have to activate it by a right click on the entry in the list and selecting _Activate_. You can activate several maps
+However the right hand canvas is still empty. To actually display a map you have to activate it by a right-click on the entry in the list and selecting _Activate_. You can activate several maps
 at a time. And you can use drag-n-drop to move the activated maps in the list. The top most 
 map is drawn first. The one at the bottom of the active list is drawn last. 
 
@@ -56,7 +56,7 @@ To read more about maps see [_Basics about maps and DEM files_](DocBasicsMapDem)
 If you want to know the elevation at the mouse cursor's position or you want to overlay some hill shading you need Digital Elevation Model (DEM) data.
 
 Adding files for the Digital Elevation Model (DEM) is very similar to adding maps. This time
-you have to select  _File->Setup DEM Paths_. As with the maps, you have to activate a DEM file before it is used by QMapShack. You do this by a right click on the DEM file entry in the list and selecting _Activate_. 
+you have to select  _File->Setup DEM Paths_. As with the maps, you have to activate a DEM file before it is used by QMapShack. You do this by a right-click on the DEM file entry in the list and selecting _Activate_. 
 
 Type some string in the edit field at the top of the DEM tab to reduce the list of available DEM files to those matching the given string. A click on the cross at the right edge of the edit field clears the filter.
 
@@ -70,4 +70,4 @@ To read more about DEM files see [_Basics about maps and DEM files_](DocBasicsMa
 [_Control maps and DEM files_](DocControlMapDem)
 
 - - -
-[Prev](OfflineDocumentation) (Create Offline Documentation) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Command line parameters) [Next](DocCmdOptions)
+[Prev](OfflineDocumentation) (Create Offline Documentation) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Commandline parameters) [Next](DocCmdOptions)

@@ -56,7 +56,7 @@ GIS Data:
 * 100% project oriented data handling
 * Summarize project by a diary
 * Support for tracks, routes, waypoints and areas
-* Support of track point extensions (e.g. heart rate)
+* Support of trackpoint extensions (e.g. heart rate)
 * Support GPX, SLF, FIT, TCX, SMl, LOG, QLB and QMapShack's own binary format
 * Simple geocache support
 * Store projects in a database
@@ -65,10 +65,10 @@ GIS Data:
 Planning:
 
 * Undo/redo history for all items
-* Track point edit mode to create/change tracks, routes or areas
+* Trackpoint edit mode to create/change tracks, routes or areas
 * Cut/copy/combine/reverse tracks
 * Various filter to enhance tracks
-* Track point extensions like heart rate, cadence,...
+* Trackpoint extensions like heart rate, cadence,...
 * Fine tune track statistics by activities
 * Colorize track by extension or activity
 * Create routes and calculate them by Routino (offline), MapQuest (online) or BRouter(online/offline)

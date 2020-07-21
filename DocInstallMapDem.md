@@ -1,4 +1,4 @@
-[Prev](DocCmdOptions) (Command line parameters) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maps & DEM) [Next](DocBasicsMapDem)
+[Prev](DocCmdOptions) (Commandline parameters) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Maps & DEM) [Next](DocBasicsMapDem)
 - - -
 
 ***Table of contents***
@@ -26,7 +26,7 @@ Maps & DEM data should be organized in folders on your system. One for maps and 
 <myglobal_path>/QMapShackData/DEM
 ```
 
-You have to register these paths with ***File->Setup Map Paths*** and ***File->Setup DEM Paths*** in QMapShack. QMapShack will scan these paths for map and DEM files and lists them in the two list boxes for maps and DEM data. The filename will be the entry name. Underscores get replaced by a space.
+You have to register these paths with ***File->Setup Map Paths*** and ***File->Setup DEM Paths*** in QMapShack. QMapShack will scan these paths for map and DEM files and lists them in the two listboxes for maps and DEM data. The filename will be the entry name. Underscores get replaced by a space.
 
 ## Installing Maps
 
@@ -46,7 +46,7 @@ Usually this kind of data is very large. And because it is large, it is split in
 1. Select a target filename. Use the tool button with the blue folder. Of course this should be in your map or DEM path.
 1. Press the start button and watch.
 
-When done you can reload the map or DEM list by a right click on the list. Choose ***Reload Maps*** or ***Reload DEM***. The new map should be listed. Don't forget: You have to activate a map if you want to see it (right click on the map entry in the list!).
+When done you can reload the map or DEM list by a right-click on the list. Choose ***Reload Maps*** or ***Reload DEM***. The new map should be listed. Don't forget: You have to activate a map if you want to see it (right-click on the map entry in the list!).
 
 If you want to know more about the details of creating a \*.vrt file jump [here](DocBasicsMapDem#gdal-vrt-maps)
 
@@ -63,4 +63,4 @@ If you want to know more about the details of creating a \*.vrt file jump [here]
 * For Bavaria, the survey authorities offer DEM data as part of their [OpenData program](https://www.ldbv.bayern.de/produkte/weitere/opendata.html). Scroll down until "DGM50 und DGM200".
 
 - - -
-[Prev](DocCmdOptions) (Command line parameters) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Maps & DEM) [Next](DocBasicsMapDem)
+[Prev](DocCmdOptions) (Commandline parameters) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Maps & DEM) [Next](DocBasicsMapDem)

@@ -37,7 +37,7 @@ The possibility to control the POI visibility in QMS map windows depends on the 
         * _Map opacity_. Use slider to increase or decrease map opacity. This controls the visibility of maps in a stack of active maps.
         * _Zoom levels for map display_. Select minimum resp. maximum zoom level of map display by clicking the small buttons at the left resp. right of the scale.
           If the zoom level slider is in the green interval, then the map is displayed.
-        * _Type of displayed map objects_. Use the check boxes to switch on or off the display of areas, lines and points (POI).  
+        * _Type of displayed map objects_. Use the checkboxes to switch on or off the display of areas, lines and points (POI).  
         * _Details level_. Use levels between -5 and 5 to select the amount of map objects for a given zoom level. 
     * _Using the main menu_. 
         * The menu entry `View - POI Text` is a toggle. If it is selected, then the name of a POI (if available in the map) is displayed. The font used can be changed
@@ -78,7 +78,7 @@ several waypoints with equal coordinates).
 __(valid starting with QMS commit c57ba23001c7,  Wed Jul 25 13:02:57 2018)__
 
 * Open a map view and move the mouse to the position (location) of interest.
-* Right click the mouse to open the context menu (this menu is included in the waypoint context menu , too).
+* Right-click the mouse to open the context menu (this menu is included in the waypoint context menu , too).
 * Select `Search Web for position` and then one of the preconfigured web services that provide information about the position. The default browser opens the web service which displays information about the selected position (if available).
 
     ![Web service selection](images/DocFaq/WebSearch1.jpg "Web service selection")
@@ -237,7 +237,7 @@ Here is an overview of some web services (composed by Mitxel in the [QMapShack n
  
 ## What is the difference between `Copy position` and `Copy position (Grid)`?
 
-A right click in a map window at a certain positions opens a context menu which offers (among others) the 2 choices:
+A right-click in a map window at a certain positions opens a context menu which offers (among others) the 2 choices:
 
 * `Copy position`
 * `Copy position (grid)`
@@ -336,7 +336,7 @@ An advantage of the GEMF format is that reading the tiles from the map file is v
 
 The [MOBAC Mobile Atlas Creator](https://mobac.sourceforge.net/ "MOBAC main page") can be used as a source of raster maps. 
 With the help of this application
-the user can load tiles of on-line maps as well as some other map formats and save them as raster maps. Use GEMF or RMAP as output formats.
+the user can load tiles of online maps as well as some other map formats and save them as raster maps. Use GEMF or RMAP as output formats.
 For details check the [MOBAC Wiki](https://mobac.sourceforge.net/wiki/index.php/Main_Page "MOBAC wiki main page").
 
 The proprietary Mapsforge vector map format, which is rather popular on mobile phones, can be read by the latest version of MOBAC.
@@ -409,7 +409,7 @@ Consider the following hints:
 
     ![Overview raster map](images/DocFaq/RasterMap4.jpg "Overview raster map")
 
-    Data of raster maps may be outdated. To assess the data quality use the possibility to overlay the raster map with a map providing recent data (e.g. on-line Google map) in QMS. The following example reveals that the German motorway A4 was reconstructed and avoids now some mountain area.
+    Data of raster maps may be outdated. To assess the data quality use the possibility to overlay the raster map with a map providing recent data (e.g. online Google map) in QMS. The following example reveals that the German motorway A4 was reconstructed and avoids now some mountain area.
 
     ![Raster map with overlay](images/DocFaq/RasterMap3.jpg "Raster map with overlay")
 
@@ -426,7 +426,7 @@ Consider the following hints:
 A raster map requires a VRT file to display it in QMS. The location of a raster map is part of the information
 of the VRT file.
 The `gdalinfo` tool can be used to display this information in a readable way. Call the tool
-from the command line as follows:
+from the commandline as follows:
 
     gdalinfo complete_path_to_vrt_file
 
@@ -448,7 +448,7 @@ Here is an example of the result:
       Center      (  605032.180, 5653706.264) ( 10d29'46.95"E, 51d 0'14.73"N)
 
 The coordinates given help to identify the location of the raster map on the QMS map screen. An easy way to do so is to
-define a waypoint in QMS with coordinates at the center of the raster map defined above and then to double click on the
+define a waypoint in QMS with coordinates at the center of the raster map defined above and then to double-click on the
 waypoint. This centers the map in QMS to the waypoint and thus to the raster map.
 
 ## Is it possible to use several VRT files?
@@ -464,7 +464,7 @@ The fastest way to create a VRT file for a raster map is the VRT builder include
 
     Warning 6: gdalbuildvrt does not support rotated geo transforms.
     
-The reason for this error message is that `GDALBuildVRT` can not create VRT files for raster maps that need additional projection transformations (in the example due to a rotated map). Such transformations can  be carried out with the help of `GDALWarp`. `GDALWarp` has VRT as one of its output formats. Thus, in the described situation run the following command from a command line:
+The reason for this error message is that `GDALBuildVRT` can not create VRT files for raster maps that need additional projection transformations (in the example due to a rotated map). Such transformations can  be carried out with the help of `GDALWarp`. `GDALWarp` has VRT as one of its output formats. Thus, in the described situation run the following command from a commandline:
 
     gdalwarp -of VRT input_raster_file_name output_VRT_file_name
     

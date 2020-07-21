@@ -77,11 +77,11 @@ QMS can
 
 The artificial new tracks are based on assumptions of maps and what you think the world looks like. And the ones from the field are created in reality, with an error typical to the GPS. Both sources of information have their caveats. As long as you know the origin of the data you are able to do your own assumptions on the reliability. However, if artificial and real sources get mixed without notice this can lead to very misleading results. 
 
-Take the recording of a mountain trip, for example. On certain sections the signal conditions might be very bad. But you want to distribute that track. What are you doing now? You can replace the bad section by some artificial new data, or move the track points to whatever position you believe that is right. But is that right? Is that a reliable source for anyone else to follow? Or would it be better to simply delete those bad points, showing the user that there is no good data for that section and leave it up to the user? 
+Take the recording of a mountain trip, for example. On certain sections the signal conditions might be very bad. But you want to distribute that track. What are you doing now? You can replace the bad section by some artificial new data, or move the trackpoints to whatever position you believe that is right. But is that right? Is that a reliable source for anyone else to follow? Or would it be better to simply delete those bad points, showing the user that there is no good data for that section and leave it up to the user? 
 
 Anyway QMapShack is following a certain policy on that topic: 
 
-* If data is not created within QMapShack, it is locked. The user can unlock the data, but the data is marked as tainted. If data is tainted it will loose significant information. A track, for example, will loose it's timestamps, as timestamps don't make any sense if you have moved track points. 
+* If data is not created within QMapShack, it is locked. The user can unlock the data, but the data is marked as tainted. If data is tainted it will loose significant information. A track, for example, will loose it's timestamps, as timestamps don't make any sense if you have moved trackpoints. 
 
 * Data created within QMapShack can be changed without tainting the element. 
 
@@ -163,12 +163,12 @@ The meaning of the toolbar options is shown in the following table:
 |  ![DeleteOne.png](images/icons/DeleteOne.png) | Delete track from project. |
 |  ![TrkProfile.png](images/icons/TrkProfile.png) | Show on-screen profile and detailed information about points. |
 |  ![SelectRange.png](images/icons/SelectRange.png) | Select a range of points. You can use that tool to: ... |
-|  ![LineMove.png](images/icons/LineMove.png) | Edit the position of track points and use automatic routing  ... |
+|  ![LineMove.png](images/icons/LineMove.png) | Edit the position of trackpoints and use automatic routing  ... |
 |  ![Reverse.png](images/icons/Reverse.png) | Reverse track. |
 |  ![Combine.png](images/icons/Combine.png) | Combine tracks. |
 |  ![TrkCut.png](images/icons/TrkCut.png) | Cut track at selected point. You can use this to: ... |
 |  ![Activity.png](images/icons/Activity.png) | Set an activity for the complete track. |
-|  ![AddPointInfo.png](images/icons/AddPointInfo.png) | Add a description to the selected track point. The track point will be marked with an auto-numbered bullet. A table with all descriptions will be shown in the track details dialog and for highlighted tracks in the map view. |
+|  ![AddPointInfo.png](images/icons/AddPointInfo.png) | Add a description to the selected trackpoint. The trackpoint will be marked with an auto-numbered bullet. A table with all descriptions will be shown in the track details dialog and for highlighted tracks in the map view. |
 |  ![SelectColor.png](images/icons/SelectColor.png) | Change the color of the track. |
 |  ![SetEle.png](images/icons/SetEle.png) | Replace elevation by the view's DEM data. |
 |  ![CopyTrkWithWpt.png](images/icons/CopyTrkWithWpt.png) | Copy track together with all attached waypoints into another project. |
@@ -242,7 +242,7 @@ QMS is a software for
 trackpoints. The trackpoint data consists of location, elevation, timestamp and some other data. Except for
 rare failures caused by the recording GPS device this data is consistent (valid).
 
-* _creating new waypoints and tracks_. The creation of a track requires a map so that track points can be properly located.
+* _creating new waypoints and tracks_. The creation of a track requires a map so that trackpoints can be properly located.
 If elevation data should be added to the track, then this data (DEM data) should be available in QMS. Finally,
 if routing should be used for track creation, then routing data should be available in QMS.
 
@@ -273,7 +273,7 @@ If there are invalid data in a newly created, edited or loaded track then QMS di
 
 When loading a GPX file with invalid data in a track, then a pop-up window informs about this fact for each loaded track. Clicking the `Show details` button in this window shows the list of trackpoints of the involved track. Trackpoints with invalid data are shown with red background:
 
-![Invalid track points](images/DocAdv/InvalidPts2.jpg "Invalid track points")
+![Invalid trackpoints](images/DocAdv/InvalidPts2.jpg "Invalid trackpoints")
 
 Using the respective buttons in this window the user can with one click hide all invalid data in the track.
 

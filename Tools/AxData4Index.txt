@@ -155,9 +155,9 @@ ___Basic usage___
             1. Elevation data|add and activate
             1. DEM|add elevation data
         
-    * [Command line parameters](DocCmdOptions)
-    Command line options
-        1. Command line|options
+    * [Commandline parameters](DocCmdOptions)
+
+        1. Commandline|parameters
         1. QMapShack|logfile
         1. QMapShack|INI file    
         1. QMapShack|use of Windows registry        
@@ -211,12 +211,12 @@ ___Basic usage___
                     
                     
                 * [Online Maps](DocBasicsMapDem#online-maps)
-                Supported on-line maps
+                Supported online maps
                     1. WMTS|map
                     1. Map|WMTS
                     1. TMS|map
                     1. Map|TMS
-                    1. Map|on-line
+                    1. Map|online
 
                 * [DEM Files](DocBasicsMapDem#dem-files)
                     1. DEM|VRT file for
@@ -269,7 +269,7 @@ ___Basic usage___
                     1. Map|properties of vector map
                     
                 * [Online Maps](DocControlMapDem#online-maps)
-                    1. Map|properties of on-line maps
+                    1. Map|properties of online maps
                     1. Map|tile cache                  
                     
                 * [DEM Files](DocControlMapDem#dem-files)
@@ -525,7 +525,7 @@ ___Basic usage___
                 1. Track graph|scales
                 
     * [Editing elevation data](DocGisItemsTrkElevation)
-        * [Manually edit elevation of a track point](DocGisItemsTrkElevation#manually-edit-elevation-of-a-track-point)
+        * [Manually edit elevation of a trackpoint](DocGisItemsTrkElevation#manually-edit-elevation-of-a-trackpoint)
                 1. Trackpoint|elevation
                 1. Elevation|edit
         
@@ -699,7 +699,7 @@ ___Basic usage___
             * [Routino](DocGisItemsRouting#routino)
                 1. Routino|configuration
                 1. Configuration|Routino
-                    1. Off-line routing|Routino
+                    1. Offline routing|Routino
                     1. Routino|routing database                    
                 
                 
@@ -715,7 +715,7 @@ ___Basic usage___
                     1. Configuration|MapQuest
                     1. Router|MapQuest
                     1. MapQuest|router
-                    1. On-line routing|MapQuest
+                    1. Online routing|MapQuest
                     
         * [Comparison of routing engines](DocGisItemsRouting#comparison-of-routing-engines)
             1. Router|compare properties
@@ -999,9 +999,9 @@ ___Basic usage___
         1. WGS84|projection
     
     
-    * [Full-screen display](AdvMapDetails#full-screen-display)
-        1. Map|full-screen display
-        1. Full-screen display|of maps        
+    * [Fullscreen display](AdvMapDetails#fullscreen-display)
+        1. Map|fullscreen display
+        1. Fullscreen display|of maps        
      
     * [Distance ruler](AdvMapDetails#distance-ruler) 
         1. Distance measurement|with ruler tool
@@ -1358,7 +1358,7 @@ Toolbar
             Supported raster maps
                 1. Raster map|sources
                 1. Raster map|supported formats
-                1. Raster map|from on-line map
+                1. Raster map|from online map
                 1. Raster map|convert to other format
                 1. Mapsforge map|convert to raster map
                 1. GDAL|VRT
@@ -1482,14 +1482,14 @@ ___Developing QMapShack___
         * [Further remarks](AxMaintainIndex#further-remarks)
         * [Some remarks on the design of the index page](AxMaintainIndex#some-remarks-on-the-design-of-the-index-page)
     
-    * [Maintaining TOC's on Wiki pages](AxMaintainPageTOC)
+    * [Maintaining TOCs on Wiki pages](AxMaintainPageTOC)
         * [The `AddToc.py` script](AxMaintainPageTOC#the-addtocpy-script)
         * [Purpose of the script](AxMaintainPageTOC#purpose-of-the-script)
         * [Running the script](AxMaintainPageTOC#running-the-script)
         * [Using the script in a client-side hook](AxMaintainPageTOC#using-the-script-in-a-client-side-hook)
         * [Limitations of the script](AxMaintainPageTOC#limitations-of-the-script)
         * [Used anchor building (slugify) method](AxMaintainPageTOC#used-anchor-building-slugify-method)
-        * [Differences in rendering TOC's ](AxMaintainPageTOC#differences-in-rendering-tocs)
+        * [Differences in rendering TOCs ](AxMaintainPageTOC#differences-in-rendering-tocs)
 
 ___Quickstart pages:___
 

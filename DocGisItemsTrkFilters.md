@@ -36,7 +36,7 @@ timestamps, splitting of tracks and others.
 
 To apply a track filter proceed as follows:
 
-* Right click on the track name in the workspace
+* Right-click on the track name in the workspace
 * Select the context menu entry `Edit...`
 
 _or_
@@ -87,7 +87,7 @@ _Remark:_ When using this filter with inappropriate parameter settings it may ha
 
 ![Elevatuion filters][FilterElevation]
 
-Track elevation filters can be found under the header `Change elevation of track points` in the filter tab.
+Track elevation filters can be found under the header `Change elevation of trackpoints` in the filter tab.
 
 QMapShack offers the following filters for track elevation:
 
@@ -157,7 +157,7 @@ A fixed value selected by the user is added to the elevation of each trackpoint.
 
 Timestamp filters are used to assign timing to a track while planning the track.
 
-Timestamp filters can be found under the header `Change timestamps of track points` in the filter tab.
+Timestamp filters can be found under the header `Change timestamps of trackpoints` in the filter tab.
 
 QMapShack offers the following timestamp filters:
 
@@ -191,13 +191,13 @@ The following criteria can be selected in the first combobox of this filter:
 
 #### Constant
 
-The timestamps of the track points are calculated so that the movement on the track takes place at a constant speed defined in the edit field of the filter.
+The timestamps of the trackpoints are calculated so that the movement on the track takes place at a constant speed defined in the edit field of the filter.
 
 ![Track with constant speed](images/DocAdv/TimeFilterConst.jpg "Track with constant speed")
     
 #### Cycling
 
-With this filter variant the speed at a track point depends on the track slope at the given trackpoint. This filter can be used to get more realistic information about the duration of a track. 
+With this filter variant the speed at a trackpoint depends on the track slope at the given trackpoint. This filter can be used to get more realistic information about the duration of a track. 
 
 There are 4 predefined speed types (City, Trekking, Sportive, Mountain).
 
@@ -294,7 +294,7 @@ _Hints:_
 
 ![Time Filter Hiking Check Range](images/DocAdv/TimeFilterHikingRange.jpg "Time Filter: Hiking Check Range")
 
-* Once you have applied this filter you can also [set a starting time](#change-time). Then open the project properties tab (Right click on the project - Edit) and you will get a pretty project diary with detailed info about estimated time for all Waypoints on the track. Taking this in your head ( or in a paper) can help you to check and take right decisions at place. 
+* Once you have applied this filter you can also [set a starting time](#change-time). Then open the project properties tab (Right-click on the project - Edit) and you will get a pretty project diary with detailed info about estimated time for all Waypoints on the track. Taking this in your head ( or in a paper) can help you to check and take right decisions at place. 
 
 ![Project Diary](images/DocAdv/ProjectDiarySample.jpg "Time Filter: Hiking Check Range")
 
@@ -391,13 +391,13 @@ To use this filter proceed as follows:
 
     ![Change track start](images/DocAdv/ChangeStart0.jpg "Change track start") ![Waypoints attached to track](images/DocAdv/ChangeStart3.jpg "Waypoints attached to track")
 
-* Open the track edit window with a right click on the track name in the workspace (select `Edit`).
+* Open the track edit window with a right-click on the track name in the workspace (select `Edit`).
 
     ![Track edit window](images/DocAdv/ChangeStart1.jpg "Track edit window")
     
 * Click the `Filter` tab and open the `Miscellaneous` part of the filters.
 * The `Change start point` filter displays in a combobox those waypoints that can be used as new start points. Select one of them (WPT2 in the example) and start the filter (click the wheel icon at the right).
-* The start of the track is moved to the selected waypoint (track point). The start time and the speed on the track are not changed. The example shows the new track with start point WPT2
+* The start of the track is moved to the selected waypoint (trackpoint). The start time and the speed on the track are not changed. The example shows the new track with start point WPT2
 
     ![Track edit window with changed start](images/DocAdv/ChangeStart2.jpg "Track edit window with changed start")
  

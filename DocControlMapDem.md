@@ -83,7 +83,7 @@ Vector maps have additional properties.
 
 ![Alt text](images/DocControlMapDem/maproom6.png)
 
-Use the check boxes to control what major map elements are displayed. For example you can overlay your raster map with a vector map and display the points of interest only, to add more information to your map.
+Use the checkboxes to control what major map elements are displayed. For example you can overlay your raster map with a vector map and display the points of interest only, to add more information to your map.
 
 ### Online Maps
 

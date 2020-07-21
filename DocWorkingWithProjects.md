@@ -15,7 +15,7 @@ You can create a new project, start a search or close all projects by the _Works
 
 ![Alt text](images/DocWorkingWithProjects/maproom1.png)
 
-You get the same menu with a right click when no item in the data view's workspace list is selected.
+You get the same menu with a right-click when no item in the data view's workspace list is selected.
 
 - - -
 [Prev](DocMapDemSources) (Sources of QMapShack-compatible maps and elevation data) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Handle GPX and QMS files) [Next](DocHandleGpxFiles)

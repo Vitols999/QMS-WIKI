@@ -8,7 +8,7 @@
         * [Windows](#windows)
         * [Linux ](#linux)
     * [Running](#running)
-        * [List of command-line options](#list-of-command-line-options)
+        * [List of commandline options](#list-of-commandline-options)
     * [Setup](#setup)
 
 * * * * * * * * * *
@@ -56,9 +56,9 @@ After starting QMapTool, the initial user interface is shown:
 ![QMT initial layout](QMapTool/images/QMTLayout.jpg "QMT initial layout")
 
 
-### List of command-line options
+### List of commandline options
 
-The following options are available when starting QMT from the command-line:
+The following options are available when starting QMT from the commandline:
 
 | Switch | Parameter  | Comment                                        |
 |:------:|:----------:|------------------------------------------------|

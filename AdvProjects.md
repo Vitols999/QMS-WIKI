@@ -181,17 +181,17 @@ Now, define the drop zones:
 * Right-click in the database window to open the context menu and select the menu entry _Show summary drop zones_ (toggle!). This displays the drop zone 
   setup icon ![Setup icon](images/DocAdv/DropZonesSetupIcon.jpg) in the upper left corner of the database window.
 * Click the drop zone setup icon to open the _Setup summary projects window_.
-* Goto the _Drop zone 1_ tab.
+* Go to the _Drop zone 1_ tab.
     * Insert _Biking_ as the drop zone name.
     * Click the ![Add icon](images/DocAdv/DropZonesAddIcon.jpg) icon and select the database folder _Bike tours_.  
-* Goto the _Drop zone 2_ tab.
+* Go to the _Drop zone 2_ tab.
     * Insert _Hiking_ as the drop zone name.
     * Click the ![Add icon](images/DocAdv/DropZonesAddIcon.jpg) icon and select the database folder _Hike tours_.  
-* Goto the _Drop zone 3_ tab.
+* Go to the _Drop zone 3_ tab.
     * Insert _Club Biking_ as the drop zone name.
     * Click the ![Add icon](images/DocAdv/DropZonesAddIcon.jpg) icon and select the database folder _Bike tours_.  
     * Click the ![Add icon](images/DocAdv/DropZonesAddIcon.jpg) icon again and select the database folder _All sport club tours_.  
-* Goto the _Drop zone 4_ tab.
+* Go to the _Drop zone 4_ tab.
     * Insert _Club Hiking_ as the drop zone name.
     * Click the ![Add icon](images/DocAdv/DropZonesAddIcon.jpg) icon and select the database folder _Hike tours_.  
     * Click the ![Add icon](images/DocAdv/DropZonesAddIcon.jpg) icon again and select the database folder _All sport club tours_.  

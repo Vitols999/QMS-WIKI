@@ -52,7 +52,7 @@ _Remark:_ Everything described for QMS is analogously valid for QMapTool (QMT). 
     1. Start QMS.
     1. Press `F1` on the keyboard. The QMS help browser pops-up. Use the contents, index, or search tabs to find the help topic of interest.
 * QMS can't be installed on the computer:
-    1. Goto the [QMS source code repository][HelpSource] and download the files `QMSHelp.qch` and `QMSHelp.qhc` (when having a QMS installation these 2 files can be found in the `doc/html` subdirectory of the QMS installation directory).
+    1. Go to the [QMS source code repository][HelpSource] and download the files `QMSHelp.qch` and `QMSHelp.qhc` (when having a QMS installation these 2 files can be found in the `doc/html` subdirectory of the QMS installation directory).
     1. Be sure [Qt assistant][QtAssistant] is installed together with Qt and on your path.
     1. To open QMS help run the following command in a console window:
     

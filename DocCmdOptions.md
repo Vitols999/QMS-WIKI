@@ -3,11 +3,11 @@
 
 ***Table of contents***
 
-* [List of options](#list-of-options)
+* [Commandline parameters](#commandline-parameters)
 
 * * * * * * * * * *
  
-# List of options
+# Commandline parameters
 
 | Switch | Parameter  | Comment                                        |
 |:------:|:----------:|------------------------------------------------|
