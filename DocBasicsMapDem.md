@@ -293,15 +293,16 @@ Script gets executed by command:
 wish Mapsforge_for_QMapShack.tcl
 ```
 
-Select map(s), theme, style and overlays, press wrapper's _QMapShack_ button to start QMapShack and activate selected map(s) by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map(s), theme, style or overlays, first press _QMapShack_ button, then right-click QMapShack's maps list and force QMapShack to reload maps.
+Select map(s), theme, style and overlays, press wrapper's _QMapShack_ button to start QMapShack and activate selected map(s) by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map(s), preferred maps language, theme, style or overlays, first press _QMapShack_ button, then right-click QMapShack's maps list and force QMapShack to reload maps.
 
 Screenshot:
 
-![Mapsforge_for_QMapShack](images/DocBasicsMapDem/Mapsforge4QMS.png "Mapsforge for QMS")
+![Mapsforge_for_QMapShack](https://user-images.githubusercontent.com/62614244/88279597-a1f4b480-cce4-11ea-8a4d-d81bd1c449de.png "Mapsforge for QMS")
 
-Script _Mapsforge_for_QMapShack.tcl_ (as of July 11th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/4906862/Mapsforge_for_QMapShack.zip).
+Script _Mapsforge_for_QMapShack.tcl_ in English language (as of July 23th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/4965487/Mapsforge_for_QMapShack.zip).   
+Script _Mapsforge_für_QMapShack.tcl_ in German language (as of July 23th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/4965490/Mapsforge_fur_QMapShack.zip).
 
-*Hint:*
+Hint:
 
 If QMapShack is showing rendered Mapsforge map a little blurred, it may help to
 
