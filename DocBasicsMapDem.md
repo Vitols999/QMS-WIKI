@@ -301,16 +301,24 @@ Script _Mapsforge_for_QMapShack.tcl_ in English language (as of July 23th, 2020)
 Script _Mapsforge_für_QMapShack.tcl_ in German language (as of July 23th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/4965490/Mapsforge_fur_QMapShack.zip).
 
 How to install _Mapsforge for QMapShack_ wrapper in Microsoft Windows:
+
 1. If not yet installed, download and install Java.
 2. Download [Mapsforge Tile Server](https://github.com/telemaxx/mapsforgesrv_with_gradle) as ZIP file by clicking green _Code_ button.  
-Extract subfolder _jars_ready2use_ from downloaded ZIP file _mapsforgesrv_with_gradle-master.zip_ and copy subfolder _jars_ready2use_ into your Mapsforge Tile Server installation folder, e.g. _%programfiles%/MapsforgeTileServer_
+
+    Extract subfolder _jars_ready2use_ from downloaded ZIP file _mapsforgesrv_with_gradle-master.zip_ and copy subfolder _jars_ready2use_ into your Mapsforge Tile Server installation folder, e.g. _%programfiles%/MapsforgeTileServer_
+    
 3. Download Mapsforge maps, e.g. [OpenAndroMaps](https://www.openandromaps.org/), and download Mapsforge themes, e.g. OpenAndroMaps map styles _Elevate_ or _Elements_.
 4. Download and install Tcl/Tk scripting language version 8.6 or newer binaries.  
-Binaries may be found and downloaded from [this site](https://bitbucket.org/tombert/tcltk/downloads/). Unpack recent archive file _[tcltk86-8.6.10-1.tcl86.Win10.x86_64.tgz](https://bitbucket.org/tombert/tcltk/downloads/tcltk86-8.6.10-1.tcl86.Win10.x86_64.tgz)_ and copy contents of subfolder _tcltk86-8.6.10-1.tcl86.Win10.x86_64_ into your Tcl/Tk installation folder, e.g. _%programfiles%/Tcl_
-5. Download English wrapper script _Mapsforge_for_QMapShack.tcl_ or German wrapper script _Mapsforge_für_QMapShack.tcl_.  
-Edit _variables settings section_ of script file to match files and folders of your local Java, Mapsforge Tile Server and QMapShack installation.
+
+    Binaries may be found and downloaded from [this site](https://bitbucket.org/tombert/tcltk/downloads/). Unpack recent archive file _[tcltk86-8.6.10-1.tcl86.Win10.x86_64.tgz](https://bitbucket.org/tombert/tcltk/downloads/tcltk86-8.6.10-1.tcl86.Win10.x86_64.tgz)_ and copy contents of subfolder _tcltk86-8.6.10-1.tcl86.Win10.x86_64_ into your Tcl/Tk installation folder, e.g. _%programfiles%/Tcl_
+    
+5. Download English wrapper script _Mapsforge_for_QMapShack.tcl_ or German wrapper script _Mapsforge_für_QMapShack.tcl_. 
+ 
+    Edit _variables settings section_ of script file to match files and folders of your local Java, Mapsforge Tile Server and QMapShack installation.
+    
 6. Assign file extension _.tcl_ to Tcl/Tk binary _wish.exe_.  
-Right-click wrapper script file and open file’s properties window. Change data type _.tcl_ to be opened by _Wish application_ e.g. _%programfiles%/Tcl/bin/wish.exe_. Double-click wrapper script file to run.
+
+    Right-click wrapper script file and open file’s properties window. Change data type _.tcl_ to be opened by _Wish application_ e.g. _%programfiles%/Tcl/bin/wish.exe_. Double-click wrapper script file to run.
 
 
 Hint:
