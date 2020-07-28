@@ -25,7 +25,7 @@ Finally don't forget to activate the usage of those libraries in the nmake.opt f
 
 * download https://zlib.net/zlib1211.zip
 * Read zlib-1.2.11\contrib\vstudio\readme.txt
-* Build instructions for Visual Studio 2015 (32 bits or 64 bits)
+* Build instructions for Visual Studio 2015 (32 bits or 64-bits)
     * Decompress current zlib, including all contrib/* files
     * Open contrib\vstudio\vc14\zlibvc.sln with Microsoft Visual C++ 2015
 * as zlib-1.2.11 does not provide a .sln file for VS1017, we have to take the one for VS2015:

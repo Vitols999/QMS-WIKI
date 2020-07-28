@@ -46,9 +46,9 @@ Of course, there might be other ways to create windows binaries, e.g. with other
 
 ## General remarks
 
-QMapShack for Windows (short: QMS) is build with Visual Studio 2013 as _64bit_ application.
+QMapShack for Windows (short: QMS) is build with Visual Studio 2013 as _64-bit_ application.
 
-- Ensure to have the 64bit option selected in all build steps.
+- Ensure to have the 64-bit option selected in all build steps.
 - Currently, no _32bit_ version is officially supported.
   It should still be possible to build a 32bit version using analogous steps.
   But you might have problems with memory limitations on large maps and you will be on your own when it comes to bug fixing.

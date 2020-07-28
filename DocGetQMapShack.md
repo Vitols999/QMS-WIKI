@@ -19,7 +19,7 @@
 
 ## Windows
 
-For 64 bit Windows there is a binary installer available [in the download section](https://github.com/Maproom/qmapshack/releases).
+For 64-bit Windows there is a binary installer available [in the download section](https://github.com/Maproom/qmapshack/releases).
 There is also an outdated version for 32 bit Windows. To get up-to-date 32 bit binaries it needs someone maintaining it.
 
 **Hint:** *Never use non-ASCII characters in installation directory names (limitation due to external packages used by QMapShack)!*
