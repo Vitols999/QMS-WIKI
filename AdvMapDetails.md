@@ -291,7 +291,7 @@ To use the distance rule proceed as follows:
     
     The following table gives an overview of the toolbar:  
     
-    | Default icon |  Tooltip |
+| Default icon |  Tooltip |
 |---------|----------|
 |  ![FlagBlue.png](images/icons/FlagBlue.png) | Convert into a group of waypoints. |
 |  ![Track.png](images/icons/Track.png) | Convert into a track. |
@@ -305,6 +305,7 @@ To use the distance rule proceed as follows:
 |  ![Reset.png](images/icons/Reset.png) | Reset ruler. |
 |  ![Undo.png](images/icons/Undo.png) | Undo |
 |  ![Redo.png](images/icons/Redo.png) | Redo |
+
 
 * Left-click in the map view at the first point of the wanted line segment.
 * Add points with more left-clicks.

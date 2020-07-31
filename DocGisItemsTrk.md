@@ -163,12 +163,12 @@ The meaning of the toolbar options is shown in the following table:
 |  ![DeleteOne.png](images/icons/DeleteOne.png) | Delete track from project. |
 |  ![TrkProfile.png](images/icons/TrkProfile.png) | Show on-screen profile and detailed information about points. |
 |  ![SelectRange.png](images/icons/SelectRange.png) | Select a range of points. You can use that tool to: ... |
-|  ![LineMove.png](images/icons/LineMove.png) | Edit the position of trackpoints and use automatic routing  ... |
+|  ![LineMove.png](images/icons/LineMove.png) | Edit the position of track points and use automatic routing  ... |
 |  ![Reverse.png](images/icons/Reverse.png) | Reverse track. |
 |  ![Combine.png](images/icons/Combine.png) | Combine tracks. |
 |  ![TrkCut.png](images/icons/TrkCut.png) | Cut track at selected point. You can use this to: ... |
 |  ![Activity.png](images/icons/Activity.png) | Set an activity for the complete track. |
-|  ![AddPointInfo.png](images/icons/AddPointInfo.png) | Add a description to the selected trackpoint. The trackpoint will be marked with an auto-numbered bullet. A table with all descriptions will be shown in the track details dialog and for highlighted tracks in the map view. |
+|  ![AddPointInfo.png](images/icons/AddPointInfo.png) | Add a description to the selected track point. The track point will be marked with an auto-numbered bullet. A table with all descriptions will be shown in the track details dialog and for highlighted tracks in the map view. |
 |  ![SelectColor.png](images/icons/SelectColor.png) | Change the color of the track. |
 |  ![SetEle.png](images/icons/SetEle.png) | Replace elevation by the view's DEM data. |
 |  ![CopyTrkWithWpt.png](images/icons/CopyTrkWithWpt.png) | Copy track together with all attached waypoints into another project. |

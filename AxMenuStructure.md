@@ -36,7 +36,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Show Scale | - | true | - | - |
  | Show Grid | Ctrl+G | true | - | - |
  | POI Text | - | true | - | - |
- | Map Tool Tip | Ctrl+I | true | - | - |
+ | Map Tooltip | Ctrl+I | true | - | - |
  | Night / Day | - | true | - | - |
  | Track Info>>> | - | - | - | Select what information is shown for a highlighted track. |
  | Flip Mouse Wheel | - | true | - | - |
@@ -45,7 +45,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Setup Units | - | - | - | - |
  | Setup Grid | Ctrl+Alt+G | - | - | - |
  | Setup Map View | - | - | - | Setup Map View |
- | Setup Time Zone | - | - | - | - |
+ | Setup Timezone | - | - | - | - |
  | Setup Coord. Format | - | - | - | Change the format coordinates are displayed |
 **Tool (Main menu)** | . | . | . | . | . |  
  | Import Database from QLandkarte | - | - | - | Import QLandkarte GT database |
@@ -54,7 +54,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
  | Start QMapTool | - | - | - | - |
 **Window (Main menu)** | . | . | . | . | . |  
  | Close Tab | Ctrl+W | - | - | - |
- | Full Screen | F11 | - | - | - |
+ | Fullscreen | F11 | - | - | - |
  | Toggle Docks | Ctrl+D | true | - | Toggle visibility of dockable windows |
  | Toolbar | - | true | - | - |
  | Maps | - | true | - | - |
@@ -244,7 +244,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 
 
 
-(_Overview derived from commit c88f80f3 - 2020-06-14 19:08:46 +0200)_ 
+(_Overview derived from commit f9f956ee - 2020-07-30 16:59:24 +0200)_ 
 
 
 

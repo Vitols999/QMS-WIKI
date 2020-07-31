@@ -34,13 +34,13 @@ The user can select the actions shown in the toolbar with the help of the mein m
  ![Database](images/icons/ToggleDatabase.png) | Database | Database | true |  
  ![Dig. Elev. Model (DEM)](images/icons/ToggleDem.png) | Dig. Elev. Model (DEM) | Dig. Elev. Model (DEM) | true |  
  ![Flip Mouse Wheel](images/icons/MouseWheel.png) | Flip Mouse Wheel | Flip Mouse Wheel | true |  
- ![Full Screen](images/icons/FullScreen.png) | Full Screen | Full Screen | - |  
+ ![Fullscreen](images/icons/FullScreen.png) | Fullscreen | Fullscreen | - |  
  ![Geosearch](images/icons/SearchGoogle.png) | Geosearch | Geosearch | true |  
  ![Help](images/icons/Help.png) | Help | Help | - |  
  ![Import Database from QLandkarte](images/icons/DatabaseConvert.png) | Import Database from QLandkarte | Import QLandkarte GT database | - |  
  ![Load GIS Data](images/icons/LoadGIS.png) | Load GIS Data | Load projects from file | - |  
  ![Load Map View](images/icons/LoadView.png) | Load Map View | Restore view with active map and DEM list including the properties from a file | - |  
- ![Map Tool Tip](images/icons/ToolTip.png) | Map Tool Tip | Map Tool Tip | true |  
+ ![Map Tooltip](images/icons/ToolTip.png) | Map Tooltip | Map Tooltip | true |  
  ![Maps](images/icons/ToggleMaps.png) | Maps | Maps | true |  
  ![Min./Max Summary](images/icons/LabelInfo.png) | Min./Max Summary | Show the minimum and the maximum values of the track properties in a table. | true |  
  ![Min./Max. Labels](images/icons/Label.png) | Min./Max. Labels | Show the minimum and maximum values of the track properties along the track in the map view. | true |  
@@ -59,7 +59,7 @@ The user can select the actions shown in the toolbar with the help of the mein m
  ![Setup Map Font](images/icons/Font.png) | Setup Map Font | Setup Map Font | - |  
  ![Setup Map Paths](images/icons/FolderMap.png) | Setup Map Paths | Setup Map Paths | - |  
  ![Setup Map View](images/icons/SetupMapWorkspace.png) | Setup Map View | Setup Map View | - |  
- ![Setup Time Zone](images/icons/TimeZoneSetup.png) | Setup Time Zone | Setup Time Zone | - |  
+ ![Setup Timezone](images/icons/TimeZoneSetup.png) | Setup Timezone | Setup Timezone | - |  
  ![Setup Toolbar](images/icons/ToolBarSetup.png) | Setup Toolbar | Setup Toolbar | - |  
  ![Setup Units](images/icons/UnitSetup.png) | Setup Units | Setup Units | - |  
  ![Setup Waypoint Icons](images/icons/SetupWptSym.png) | Setup Waypoint Icons | Setup path to custom icons | - |  
@@ -83,7 +83,7 @@ The user can select the actions shown in the toolbar with the help of the mein m
 
 
 
-(_Overview derived from commit c88f80f3 - 2020-06-14 19:08:46 +0200_) 
+(_Overview derived from commit f9f956ee - 2020-07-30 16:59:24 +0200_) 
 
 _Remarks:_
 

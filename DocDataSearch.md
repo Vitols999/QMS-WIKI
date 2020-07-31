@@ -190,6 +190,7 @@ An **extended search** is used automatically as soon as the input has the specia
 
 
 
+
 `comparison` must be taken from the list shown in the next table:
 
 | Comparison operator | Example of use |
@@ -222,6 +223,8 @@ An **extended search** is used automatically as soon as the input has the specia
 | with | attributes with dog |
 | without | name without water |
 
+
+
 All `property` and the `comparison` terms are displayed in the extended search help window (left list: properties, right list: comparisons (operators)):
 
 ![Extended search help](images/DocAdvSearch/SearchHelp.png "Extended search help")
@@ -246,7 +249,8 @@ Some properties and comparison terms are synonyms. Synonyms give more flexibilit
     * 'min elevation', 'minimal elevation'
     * 'min speed', 'minimal speed'
     * 'non-negated attributes', 'positive attributes'
-    
+
+
 * **Synonyms for comparison operators:**
     * '<', 'before', 'earlier than', 'less than', 'lower than', 'shorter than', 'smaller than', 'under'
     * '=', 'equals', 'is'

@@ -42,13 +42,13 @@ A track range can be selected either in a map view or in the edit window of the 
     
     The meaning of the toolbar icons is as follows:
     
-    | Icon  | Meaning   |
-    |-------|-----------|
-|  ![PointHide.png](images/icons/PointHide.png) | Hide selected trackpoints. |
-|  ![PointShow.png](images/icons/PointShow.png) | Show selected trackpoints. |
+| Default icon |  Tooltip |
+|---------|----------|
+|  ![PointHide.png](images/icons/PointHide.png) | Hide selected track points. |
+|  ![PointShow.png](images/icons/PointShow.png) | Show selected track points. |
 |  ![Activity.png](images/icons/Activity.png) | Select activity for selected range. |
-|  ![Copy.png](images/icons/Copy.png) | Copy selected trackpoints. |
-|  ![DeleteMultiple.png](images/icons/DeleteMultiple.png) | Delete selected trackpoints. |
+|  ![Copy.png](images/icons/Copy.png) | Copy selected track points. |
+|  ![DeleteMultiple.png](images/icons/DeleteMultiple.png) | Delete selected track points. |
 |  ![Apply.png](images/icons/Apply.png) | Setup range tool behavior. |
 |  ![SelectStartNextPoint.png](images/icons/SelectStartNextPoint.png) | Move start of range toward start of track. If you keep the key pressed the action is repeated.  |
 |  ![SelectStartPrevPoint.png](images/icons/SelectStartPrevPoint.png) | Move start of range toward end of track. If you keep the key pressed the action is repeated.  |

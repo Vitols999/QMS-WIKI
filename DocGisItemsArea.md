@@ -49,11 +49,12 @@ The meaning of the toolbar options is shown in the following table:
 | Default icon |  Tooltip |
 |---------|----------|
 |  ![EditDetails.png](images/icons/EditDetails.png) | View details and edit. |
-|  ![Tag.png](images/icons/Tag.png)                 | Set tags and rating. |
-|  ![Copy.png](images/icons/Copy.png)               | Copy area into another project. |
-|  ![DeleteOne.png](images/icons/DeleteOne.png)     | Delete area from project. |
-|  ![AreaMove.png](images/icons/AreaMove.png)       | Edit shape of the area. |
-|  ![NoGo.png](images/icons/NoGo.png)               | Toggle Nogo-Area |
+|  ![Tag.png](images/icons/Tag.png) | Set tags and rating. |
+|  ![Copy.png](images/icons/Copy.png) | Copy area into another project. |
+|  ![DeleteOne.png](images/icons/DeleteOne.png) | Delete area from project. |
+|  ![AreaMove.png](images/icons/AreaMove.png) | Edit shape of the area. |
+|  ![NoGo.png](images/icons/NoGo.png) | Toggle Nogo-Area |
+
 
 When clicking the `View details ...` icon an additional windows pops-up giving more detailed information about the area. This window allows to edit some of the details:
 
