@@ -276,14 +276,12 @@ pause
 
 Alternatively, a wrapper script based on above information can make Mapsforge maps available in QMapShack, amongst others OpenAndroMaps maps. In addition, it allows for initially selecting a Mapsforge map and theme and later on switching easily map and theme while QMapShack keeps running. Script _Mapsforge_for_QMapShack.tcl_ is written in Tcl/Tk command language and is executable on Microsoft Windows and Linux operating system. Execution requires Tcl/Tk 8.6 or newer command interpreter to be installed. Tcl/Tk binaries for Microsoft Windows can be downloaded e.g. from [this repository](https://bitbucket.org/tombert/tcltk/downloads/), binaries for Linux are part of distribution and can be installed by corresponding package manager.
 
-Update June 20th, 2020:
+Recent Mapsforge tile server as of August 10th, 2020 ...
 
-* Recent version of Mapsforge tile server is able to serve multiple maps. Thus adjacent maps overlap seamlessly and allow for cross-regional planning. Script has been extended to allow selecting multiple map files.  
-* In addition, recent version of Mapsforge tile server now accepts Mapsforge rendertheme version 4 XML files containing styles and overlays. Unfortunately, tile server does not allow selecting a particular style nor enabling/disabling overlays. Instead of that, **all** styles and overlays contained in theme file are rendered. However, separation into different theme files, one file per style, can be derived by removing all unneeded style layers, overlay layers **and** rules from original theme file.
-
-Update July 11th, 2020:
-
-* Recent version of Mapsforge tile server now accepts style and a list of overlays as optional parameters. Script has been extended to allow selecting style and overlays if contained in rendertheme.   
+* is able to serve multiple maps. Thus adjacent maps overlap seamlessly and allow for cross-regional planning.
+* accepts Mapsforge rendertheme version 4 XML files containing styles and overlays.
+* accepts style and a list of overlays as optional parameters.
+* allows for choosing between 2 Mapsforge renderers as optional parameter, _database_ (default renderer) and _direct_.
 
 Before using script, some script variables settings (folders, executables, ...) have to be modified to match local installation and environment. These variables are described and set at the beginning of script.
 
@@ -293,12 +291,13 @@ Script gets executed by command:
 wish Mapsforge_for_QMapShack.tcl
 ```
 
-Select map(s), theme, style and overlays, press wrapper's _QMapShack_ button to start QMapShack and activate selected map(s) by QMapShack's maps list _Mapsforge_ item. After changing Mapsforge map(s), preferred maps language, theme, style or overlays, first press _QMapShack_ button, then right-click QMapShack's maps list and force QMapShack to reload maps.
+Select Mapsforge preferred maps language, renderer, map(s), theme, style and overlays, press wrapper's _QMapShack_ button to start QMapShack and activate selected map(s) by QMapShack's maps list _Mapsforge_ item. After changing any setting, first press _QMapShack_ button, then right-click QMapShack's maps list and force QMapShack to reload maps.
 
-For a screenshot see [here](https://user-images.githubusercontent.com/62614244/88279597-a1f4b480-cce4-11ea-8a4d-d81bd1c449de.png "Mapsforge for QMS").
+For a screenshot (no more up to date) of wrapper's GUI see [here](https://user-images.githubusercontent.com/62614244/88279597-a1f4b480-cce4-11ea-8a4d-d81bd1c449de.png "Mapsforge for QMS").
 
-Script _Mapsforge_for_QMapShack.tcl_ in English language (as of July 23th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/4965487/Mapsforge_for_QMapShack.zip).   
-Script _Mapsforge_für_QMapShack.tcl_ in German language (as of July 23th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/4965490/Mapsforge_fur_QMapShack.zip).
+Script _Mapsforge_for_QMapShack.tcl_ in English language (as of August 11th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/5057249/Mapsforge_for_QMapShack.zip).   
+Script _Mapsforge_für_QMapShack.tcl_ in German language (as of August 11th, 2020) can be downloaded from [here](https://github.com/Maproom/qmapshack/files/5057253/Mapsforge_fur_QMapShack.zip).  
+Script expects recent Mapsforge tile server to be installed or will fail otherwise.
 
 How to install _Mapsforge for QMapShack_ wrapper in Microsoft Windows:
 
@@ -314,7 +313,7 @@ How to install _Mapsforge for QMapShack_ wrapper in Microsoft Windows:
     
 5. Download English wrapper script _Mapsforge_for_QMapShack.tcl_ or German wrapper script _Mapsforge_für_QMapShack.tcl_. 
  
-    Edit _variables settings section_ of script file to match files and folders of your local Java, Mapsforge Tile Server and QMapShack installation.
+    Edit _variables settings section_ of script file to match files and folders of your local Java, Mapsforge Tile Server and QMapShack installation. Important: Always use character slash "/" as directory separator in script. For Microsoft Windows too!
     
 6. Assign file extension _.tcl_ to Tcl/Tk binary _wish.exe_.  
 
