@@ -226,6 +226,14 @@ Here is an overview of some web services (composed by Mitxel in the [QMapShack n
     
     _Hints:_ Contributed by JOSEPV. Once in Google maps you can use the StreetView function.
 
+* __StreetView__
+
+    _Purpose:_ Display the StreetView image at the given location if available.
+    
+    _URL:_ https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=%2,%1
+    
+    _Hints:_ Contributed by pdenessen. 
+
 * __GoogleEarth__
 
     _Purpose:_ Show the GoogleEarth map at the given location.
