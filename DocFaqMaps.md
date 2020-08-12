@@ -214,7 +214,7 @@ Here is an overview of some web services (composed by Mitxel in the [QMapShack n
 
     _Purpose:_ Find  a route between two points including alternative routes with information about stops, transfers, ...
     
-    _ URL:_ https://www.google.com/maps/dir/?api=1&origin=Bilbao&destination=%2,%1&travelmode=driving
+    _URL:_ https://www.google.com/maps/dir/?api=1&origin=Bilbao&destination=%2,%1&travelmode=driving
     
     _Hints:_ In the given URL Bilbao (Spain) is used as the start point and the selected location is the end point of the route. You must replace Bilbao with the name of your town or city. If the name is composed replace spaces with +, e.g.: Selva+di+Val+Gardena. You can also use your home coordinates  e.g.: `43.164,-1.236` (... but remind that this is Google!). Select the type of transportation in the Google maps window.
 
