@@ -228,7 +228,7 @@ Here is an overview of some web services (composed by Mitxel in the [QMapShack n
 
 * __StreetView__
 
-    _Purpose:_ Display the StreetView image at the given location if available.
+    _Purpose:_ Show the StreetView image at the given location if available.
     
     _URL:_ https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=%2,%1
     
