@@ -158,16 +158,34 @@ The following list gives an overview of the locations used for saving setup, con
 
 *(Find details and locations of files mentioned in this section [here][SetupFiles])*
 
-1. Search in the list of running processes (task manager!) for a still running QMS process. If yes, kill it. Restart QMS.
-1. Start QMS from commandline using `qmapshack.exe -f`. A logfile is written. Check this logfile for error messages and try to avoid these errors.
-1. If no `qmapshack.exe` process is running: Back up  
+In rare cases it can happen that QMS cannot be started because of configuration or data errors.
+
+To achieve a QMS restart, carry out the following steps one after the other until QMS starts:
+
+1. Search in the list of running processes (task manager!) for a still running `qmapshack.exe` process. If there is some, kill it. 
+1. If no `qmapshack.exe` process is running anymore, back up  
     * `workspace.db`, 
     * INI file (if used), 
-    * QMS part of registry (Windows users only. Use text format!) or  `~/.config/QLandkarte/QMapShack.conf` (Linux users)
-1. Remove one after the other `workspace.db` (workspace isn't re-established), INI file **and also**  QMS part of registry resp. `QMapShack.conf` (QMS restarted without any previous setup and configuration data) and try to restart QMS after each step
-1. If QMS restart was successful, shutdown QMS and repeat step 3 with different filenames (saves new clean setup!)
-1. If QMS restart was successful: Restore `workspace.db` from first backup in step 3 and restart QMS again. In case of success: old QMS workspace is restored. If restart fails, `workspace.db` can be broken and workspace can't be recovered. Remove `workspace.db` again.
-1. If QMS was successfully restarted, redefine essential parts of setup and configuration. _Hint:_ Open the INI file, the registry or the `QMapShack.conf` file saved in step 3 to get some information about the last QMS setup and configuration.
+    * QMS part of registry (Windows users only. Use text format for saving!) or  `~/.config/QLandkarte/QMapShack.conf` (Linux users).
+1. Start QMS.
+1. Start QMS from commandline with the command `path_to_qms/qmapshack -f`. A logfile is written. Check this logfile for error messages and try to eliminate these errors.
+1. Move the workspace file `workspace.db` temporarily to another directory and try to start QMS. 
+
+    If QMS starts: there is a data error from the last QMS run. Try to reconstruct the workspace data from the used databases and/or GPX files.  
+
+1. Copy the workspace file back to its original location. 
+1. Start QMS from a commandline with the command `path_to_qms/qmapshack -c nonexisting0.ini` where `nonexisting0.ini` is the name of a non-existent file. 
+
+    If QMS starts: there is no data error, but a configuration error. The workspace shows the last content. All configuration parameters have to be set again (maps and map windows, elevation data, databases, ...).  
+
+1. Again move the workspace file temporarily into another directory.
+1. Start QMS from a commandline with the command `path_to_qms/qmapshack -c nonexisting1.ini` where `nonexisting1.ini` is the name of a non-existent file.
+    
+    If QMS starts: there is both a data and a configuration error. Try to reconstruct workspace data from the used databases or GPX files. All configuration parameters must be set again (maps and map windows, elevation data, databases, ...).    
+    
+
+*Hint:* Open the INI file, the registry or the `QMapShack.conf` file saved in step 2 in an editor to get some information about the last used QMS setup and configuration. 
+
 
 
 [SetupFiles]: #where-does-qms-save-setup-configuration-and-other-information "Save setup info"

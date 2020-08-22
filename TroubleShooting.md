@@ -16,11 +16,16 @@
 
 Since the 13-Oct-2015 development version, you can start qmapshack
 with the commandline option "-f".
-Then a logfile "org.qlandkarte.QMapShack.log" will be created in
+Then a logfile `org.qlandkarte.QMapShack.log` will be created in
 the system's temporary folder.
-On a Windows 7 installation this temporary folder seems to be
-C:\Users\your user name\AppData\Local\Temp.
-That logfile may give additional insight to the root cause.
+On a Windows installation this temporary folder is
+`C:\Users\your_user_name\AppData\Local\Temp`.
+This logfile may give additional insight to the root cause of the trouble.
+
+More details about restarting QMS after a data or configuration error are given in section ["What to do if QMS doesn't start"][QMSRestart].
+
+[QMSRestart]: DocFaqConfig#what-to-do-if-qms-doesnt-start "What to do if QMS doesn't start"
+
 
 ## Create a backtrace of a crash on Linux
 
@@ -46,7 +51,7 @@ No need to do a "make install". To create a backtrace you have to start QMapShac
 ```bash
 gdb bin/qmapshack
 ```
-At gdb's command line prompt enter 'r' to run QMapShack. Now you can provoke the crash. After the crash enter 'bt' on gdb's command line. This will output the backtrace. Copy the lines and attach them to your bug report.
+At gdb's commandline prompt enter 'r' to run QMapShack. Now you can provoke the crash. After the crash enter 'bt' on gdb's commandline. This will output the backtrace. Copy the lines and attach them to your bug report.
 
 
 

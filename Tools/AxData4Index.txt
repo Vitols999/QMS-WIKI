@@ -47,6 +47,9 @@ ___Basic usage___
             * [I3.) Copy all required files to intermediate directory](BuildWindowsVisualStudio2013#i3-copy-all-required-files-to-intermediate-directory)
             * [I4.) Create the installer with NSIS(3.0b1)](BuildWindowsVisualStudio2013#i4-create-the-installer-with-nsis30b1)
         * [TroubleShooting](BuildWindowsVisualStudio2013#troubleshooting)
+            1. QMapShack|trouble shooting
+            1. QMapShack|failure when starting
+            
         * [Debugging with VS2013](BuildWindowsVisualStudio2013#debugging-with-vs2013)
             * [D1.) Set the solution configuration type to "RelWithDebInfo"](BuildWindowsVisualStudio2013#d1-set-the-solution-configuration-type-to-relwithdebinfo)
             * [D2.) Right-click on the "qmapshack" project and open the "Properties" dialog](BuildWindowsVisualStudio2013#d2-right-click-on-the-qmapshack-project-and-open-the-properties-dialog)                        

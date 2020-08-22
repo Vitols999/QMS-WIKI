@@ -1018,6 +1018,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 ## Q
 
 
+**QMapShack, failure when starting**
+:  [TroubleShooting](BuildWindowsVisualStudio2013#troubleshooting "TroubleShooting")
+
 **QMapShack, INI file**
 :  [Commandline parameters](DocCmdOptions "Commandline parameters")
 
@@ -1032,6 +1035,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **QMapShack, supported languages**
 :  [How to change the GUI language?](DocFaqConfig#how-to-change-the-gui-language "How to change the GUI language?")
+
+**QMapShack, trouble shooting**
+:  [TroubleShooting](BuildWindowsVisualStudio2013#troubleshooting "TroubleShooting")
 
 **QMapShack, Ubuntu authorization**
 :  [Why does QMS ask for authorization on start-up (Ubuntu version)](DocFaqConfig#why-does-qms-ask-for-authorization-on-start-up-ubuntu-version "-")
