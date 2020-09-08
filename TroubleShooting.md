@@ -80,7 +80,7 @@ As a workaround you could download the and compatible Windows SSL package
 and copy the 2 DLLs libeay32.dll and ssleay32.dll to QMS home directory.
 The DLLs from the following 2 sources have been reported to work:
 [indy](https://indy.fulgan.com/SSL/) (download latest file `openssl-x.y.z-x64_86-win64.zip`) or
-[gisinternals](http://download.gisinternals.com/sdk/downloads/release-1800-x64-gdal-1-11-mapserver-6-4.zip).
+[gisinternals](https://www.gisinternals.com/query.html?content=filelist&file=release-1800-x64-gdal-1-11-4-mapserver-6-4-3.zip).
 Please judge by yourself whether those sources are trustable for you and
 whether they fit to your actual installation.
 
@@ -98,7 +98,7 @@ subdirectories to the QMS home directory.
 Some raster map formats (e.g. wavelet based) are not supported by the default
 GDAL installation. The reasons may be various (licenses, dependencies, ...).
 A possible workaround is the same as to add curl support: use the GDAL binaries
-from [gisinternals](http://gisinternals.com/).
+from [gisinternals](https://gisinternals.com/).
 
 Proposals for extending the standard GDAL distribution for Windows with some additional plugins that support more raster map formats can be found
 on the ["Tips & tricks for raster maps"](DocMapsTipsRasterDEM) page. 
