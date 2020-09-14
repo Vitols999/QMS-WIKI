@@ -141,7 +141,7 @@ If the user wants to delete a data item from the database, then he must use the 
 
 * *The workspace is not the location for saving data permanently. Save data, if any possible, in databases.*
 * *Use the data selection checkboxes in databases for loading into the workspace only those data you want to work with.*
-* *Don't abuse the workspace as a database. The workspace is not the intended location for loading everything to it and then blend out again almost everything but a few items.*
+* *Don't abuse the workspace as a database. The workspace is not the intended location for loading everything to it and then blend out again almost everything but a few items. Having lots of items in the workspace puts stress on your system and slows down everything. Don't do it. Store your stuff in the database and load only the stuff you like to have visible into the workspace.*
 
 ## Summary projects and drop zones
 
