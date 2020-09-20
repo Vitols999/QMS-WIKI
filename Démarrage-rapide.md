@@ -3,20 +3,20 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 
 ***Table des matières***
 
-    * [Démarrage rapide](#Démarrage)
-    * [Caractéristiques importantes de QMS](#Caractéristiques-importantes-de-QMS)
-    * Télécharger des fichiers depuis Internet
-    * Installation
-    * Étapes après le premier démarrage
-    * Quelques étapes de travail typiques
-            * Déplacer et agrandir la carte
-            * Charger le fichier GPX et afficher les données
-            * Créer une base de données
-            * Organisation des données dans la base de données
-            * Créer une trace
-            * Afficher les informations de piste
-            * Créer une trace (route) à l'aide de waypoints
-            * Trouver un waypoint
+* [Démarrage rapide](#Démarrage)
+* [Caractéristiques importantes de QMS](#Caractéristiques-importantes-de-QMS)
+* Télécharger des fichiers depuis Internet
+* Installation
+* Étapes après le premier démarrage
+* Quelques étapes de travail typiques
+     * Déplacer et agrandir la carte
+     * Charger le fichier GPX et afficher les données
+     * Créer une base de données
+     * Organisation des données dans la base de données
+     * Créer une trace
+     * Afficher les informations de piste
+     * Créer une trace (route) à l'aide de waypoints
+     * Trouver un waypoint
 
 * * * * * * * * * *
 			 
