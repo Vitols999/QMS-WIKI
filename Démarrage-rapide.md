@@ -3,7 +3,7 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 
 ***Table des matières***
 
-* [Démarrage rapide](#Démarrage)
+* [Démarrage rapide](#Démarrage-rapide)
 * [Caractéristiques importantes de QMS](#Caractéristiques-importantes-de-QMS)
 * Télécharger des fichiers depuis Internet
 * Installation
