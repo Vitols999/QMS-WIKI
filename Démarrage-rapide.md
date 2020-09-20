@@ -21,9 +21,9 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 # Démarrage rapide
 ___(Instructions en français pour les utilisateurs de Windows)___
 
-_valide à partir du commit QMapShack 8ddec3217899 (mercredi 04 avril 17:38:39 2018 +0200)
+_valide à partir du commit QMapShack 8ddec3217899 (mercredi 04 avril 17:38:39 2018 +0200)_
 
-_À l'exception des parties liées à l'installation de QMapShack lui-même, ces instructions s'appliquent également aux systèmes d'exploitation non Windows.
+_À l'exception des parties liées à l'installation de QMapShack lui-même, ces instructions s'appliquent également aux systèmes d'exploitation non Windows._
 
 QMapShack (QMS en abrégé) pour Windows est une application 64 bits et nécessite donc un système d'exploitation Windows 64 bits.
 
