@@ -1,6 +1,9 @@
-Table des matières
+Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
+- - -
 
-     Démarrage rapide
+***Table des matières***
+
+* [Démarrage rapide](#Démarrage)
          Caractéristiques importantes de QMS
          Télécharger des fichiers depuis Internet
          installation
@@ -15,13 +18,12 @@ Table des matières
              Créer une trace (route) à l'aide de waypoints
              Trouver un waypoint
 			 
-	Démarrage rapide
+#Démarrage rapide
+___(Instructions en français pour les utilisateurs de Windows)___
 
-(Instructions en allemand pour les utilisateurs de Windows)
+_valide à partir du commit QMapShack 8ddec3217899 (mercredi 04 avril 17:38:39 2018 +0200)
 
-valide à partir du commit QMapShack 8ddec3217899 (mercredi 04 avril 17:38:39 2018 +0200)
-
-À l'exception des parties liées à l'installation de QMapShack lui-même, ces instructions s'appliquent également aux systèmes d'exploitation non Windows.
+_À l'exception des parties liées à l'installation de QMapShack lui-même, ces instructions s'appliquent également aux systèmes d'exploitation non Windows.
 
 QMapShack (QMS en abrégé) pour Windows est une application 64 bits et nécessite donc un système d'exploitation Windows 64 bits.
 
@@ -29,9 +31,9 @@ Ces instructions sont aussi courtes que possible afin d'initier rapidement l'uti
 
 Des informations détaillées sur QMS peuvent être trouvées dans le wiki en anglais.
 
-Les utilisateurs qui ont déjà installé un QMS trouveront une page d'accueil lorsqu'ils démarreront le système pour la première fois et pourront directement effectuer les différentes étapes d'installation décrites sur cette page à partir de là.
+Les utilisateurs qui disposent d'un QMS déjà installé trouveront une page d'accueil lorsqu'ils démarreront le système pour la première fois et pourront directement effectuer les différentes étapes d'installation décrites sur cette page à partir de là.
 
-Caractéristiques importantes de QMS
+## Caractéristiques importantes de QMS
 
      Utilisation simple et flexible des cartes vectorielles, matricielles et en ligne
      Utilisation des données d'altitude (hors ligne et en ligne)
@@ -41,20 +43,21 @@ Caractéristiques importantes de QMS
      Stockage structuré des données dans des bases de données ou des fichiers
      Connexion directe en lecture et en écriture à des équipements de navigation et de fitness modernes
 	 
-	 Télécharger des données depuis Internet
+## Télécharger des données depuis Internet
 
-Conseils:
+_Conseils:_
 
-     Les numéros de version mentionnés sont susceptibles d'être modifiés. La dernière version disponible doit être sélectionnée.
-     Souvent, des fichiers pour des régions spécifiques peuvent être sélectionnés sur les pages spécifiées. L'utilisateur doit sélectionner la région qui l'intéresse.
-     Les recommandations faites ici sont des exemples. Il y a beaucoup plus de choix!
+* Les numéros de version mentionnés sont susceptibles d'être modifiés. La dernière version disponible doit être sélectionnée.  
+* Souvent, des fichiers pour des régions spécifiques peuvent être sélectionnés sur les pages spécifiées. L'utilisateur doit sélectionner la région qui l'intéresse.
+* Les recommandations faites ici sont des exemples. Il y a beaucoup plus de choix!
 
 Les liens suivants sont des recommandations pour les données qui facilitent l'utilisation de QMS et qui peuvent être téléchargées à partir d'Internet.
 
-QMapShack:
-        Chargez le fichier d'installation de QMS à partir du serveur. Chargez le fichier QMapShack_Win64bit_1.14.0.exe à partir de cette page (environ 100 Mo, le numéro de version peut être différent).
+* _QMapShack:_
 
-    Prise en charge de la carte (recommandée):
+   * [Chargez le fichier d'installation de QMS à partir du serveur](https://github.com/Maproom/qmapshack/releases "QMS Installationsdatei laden"). Chargez le fichier QMapShack_Win64bit_1.14.0.exe à partir de cette page (environ 100 Mo, le numéro de version peut être différent).
+
+* Prise en charge de la carte (recommandée):
         Chargez la carte vectorielle de l'Allemagne (Freizeitkarte). (Lien direct vers un fichier, environ 1,4 Go! Si un appareil de navigation Garmin est utilisé, un fichier gmapsupp * .img approprié peut déjà être disponible et peut être utilisé pour cette étape)
         Facultatif: chargez les liens cartographiques en ligne. Remarque: cliquez sur le champ Télécharger les cartes en ligne! Fournit le fichier Onlinemaps.zip.
 
