@@ -75,27 +75,27 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
 
     _Remarque:_ tous les fichiers requis pour la région sélectionnée doivent être téléchargés !
 
-installation
+## Installation
 
-    Tous les fichiers téléchargés se trouvent généralement dans le répertoire Téléchargement de l'utilisateur.
-    Recherchez le fichier QMapShack_Install_Windows64bit__1.14.0.exe dans le répertoire de téléchargement.
-    Démarrez ce fichier d'installation en double-cliquant sur le nom du fichier.
-    Confirmez les informations dans les premières fenêtres d'installation.
-    Dans la fenêtre Sélectionner les composants, l'élément d'exécution MSVC ++ 2013 SP1 doit être sélectionné (cela peut être omis si cet environnement d'exécution est déjà installé sur l'ordinateur utilisé).
-    Confirmez le début de l'installation de l'environnement d'exécution. Remarque: l'installation peut prendre quelques minutes!
-    À la fin de l'installation de l'environnement d'exécution, cette installation doit se terminer par Close. L'installation de QMS se poursuivra alors et QMS sera entièrement installé.
-    Attention: les caractères non ASCII ne peuvent pas être utilisés dans les noms des répertoires d'installation!
-    QMS peut déjà être démarré via le menu Démarrer. Cependant, il est recommandé d'effectuer les étapes suivantes au préalable.
-    Créez un répertoire dans lequel l'utilisateur a un accès en écriture. Dans la discussion suivante, ce répertoire est appelé QMS. Remarque: L'utilisateur ne dispose pas des droits d'écriture complets pour le répertoire d'installation standard, donc un répertoire distinct pour les données doit être créé à cette étape.
-    Créez les sous-répertoires suivants dans le répertoire QMS:
-        Plans,
-        Routine,
-        BRouter,
-        DEM,
-        Bases de données,
-        GPX.
-    Ouvrez le fichier DEU_de_gmapsupp.img.zip avec la carte des loisirs de l'Allemagne et copiez le fichier gmapsupp.img qu'il contient dans le répertoire Maps.
-    Renommez le fichier gmapsupp.img en Freizeitkarte_DE.img.
-    Facultatif: ouvrez le fichier Onlinemaps.zip et copiez les fichiers qu'il contient dans le répertoire Maps.
-    Facultatif: déplacez le fichier berlin-latest.osm.pbf dans le répertoire Routino.
-    Facultatif: Ouvrez le fichier N51E012.hgt.zip ou N32.zip et copiez les fichiers qu'il contient dans le répertoire DEM.
+* Tous les fichiers téléchargés se trouvent généralement dans le répertoire Téléchargements de l'utilisateur.
+* Recherchez le fichier QMapShack_Install_Windows64bit__1.14.0.exe dans le répertoire de téléchargement.
+* Démarrez ce fichier d'installation en double-cliquant sur le nom du fichier.
+* Confirmez les informations dans les premières fenêtres d'installation.
+* Dans la fenêtre `Sélectionner les composants`, l'élément d'exécution `MSVC ++ 2013 SP1 runtime` doit être sélectionné (cela peut être omis si cet environnement d'exécution est déjà installé sur l'ordinateur utilisé).
+* Confirmez le début de l'installation de l'environnement d'exécution. Remarque: l'installation peut prendre quelques minutes !
+* À la fin de l'installation de l'environnement d'exécution, cette installation doit se terminer par `Close`. L'installation de QMS se poursuivra alors et QMS sera entièrement installé.
+* **Attention:** *Les caractères non ASCII ne peuvent pas être utilisés dans les noms des répertoires d'installation !*
+* QMS peut déjà être démarré via le menu Démarrer. Cependant, il est recommandé d'effectuer les étapes suivantes au préalable.
+* Créez un répertoire dans lequel l'utilisateur a un accès en écriture. Dans la suite de ce mode d'emploi, ce répertoire est appelé `QMS`. _Remarque:_ L'utilisateur ne dispose pas des droits d'écriture complets pour le répertoire d'installation standard, donc un répertoire distinct pour les données doit être créé à cette étape.
+* Créez les sous-répertoires suivants dans le répertoire QMS:
+        * `Maps`,
+        * `Routino`,
+        * `BRouter`,
+        * `DEM`,
+        * `Databases`,
+        * `GPX`.
+* Ouvrez le fichier `DEU_de_gmapsupp.img.zip` avec la carte des loisirs de l'Allemagne et copiez le fichier `gmapsupp.img` qu'il contient dans le répertoire `Maps`.
+* Renommez le fichier `gmapsupp.img` en `Freizeitkarte_DE.img`.
+* _Facultatif:_ Ouvrez le fichier `Onlinemaps.zip` et copiez les fichiers qu'il contient dans le répertoire `Maps`.
+* _Facultatif:_ Déplacez le fichier `berlin-latest.osm.pbf` dans le répertoire `Routino`.
+* _Facultatif:_ Ouvrez le fichier `N51E012.hgt.zip` ou `N32.zip` et copiez les fichiers qu'il contient dans le répertoire `DEM`.
