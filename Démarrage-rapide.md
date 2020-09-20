@@ -18,7 +18,7 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
              Créer une trace (route) à l'aide de waypoints
              Trouver un waypoint
 			 
-#Démarrage rapide
+# Démarrage rapide
 ___(Instructions en français pour les utilisateurs de Windows)___
 
 _valide à partir du commit QMapShack 8ddec3217899 (mercredi 04 avril 17:38:39 2018 +0200)
