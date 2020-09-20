@@ -35,13 +35,13 @@ Les utilisateurs qui disposent d'un QMS déjà installé trouveront une page d'a
 
 ## Caractéristiques importantes de QMS
 
-     Utilisation simple et flexible des cartes vectorielles, matricielles et en ligne
-     Utilisation des données d'altitude (hors ligne et en ligne)
-     Génération / planification d'itinéraires et de pistes avec différents routeurs
-     Évaluation des données enregistrées (traces) de divers appareils de navigation et de fitness
-     Modification des itinéraires et des tracés planifiés
-     Stockage structuré des données dans des bases de données ou des fichiers
-     Connexion directe en lecture et en écriture à des équipements de navigation et de fitness modernes
+* Utilisation simple et flexible des cartes vectorielles, matricielles et en ligne
+* Utilisation des données d'altitude (hors ligne et en ligne)
+* Génération / planification d'itinéraires et de pistes avec différents routeurs
+* Évaluation des données enregistrées (traces) de divers appareils de navigation et de fitness
+* Modification des itinéraires et des tracés planifiés
+* Stockage structuré des données dans des bases de données ou des fichiers
+* Connexion directe en lecture et en écriture à des équipements de navigation et de fitness modernes
 	 
 ## Télécharger des données depuis Internet
 
@@ -57,12 +57,13 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
 
    * [Chargez le fichier d'installation de QMS à partir du serveur](https://github.com/Maproom/qmapshack/releases "QMS Installationsdatei laden"). Chargez le fichier QMapShack_Win64bit_1.14.0.exe à partir de cette page (environ 100 Mo, le numéro de version peut être différent).
 
-* Prise en charge de la carte (recommandée):
-        Chargez la carte vectorielle de l'Allemagne (Freizeitkarte). (Lien direct vers un fichier, environ 1,4 Go! Si un appareil de navigation Garmin est utilisé, un fichier gmapsupp * .img approprié peut déjà être disponible et peut être utilisé pour cette étape)
-        Facultatif: chargez les liens cartographiques en ligne. Remarque: cliquez sur le champ Télécharger les cartes en ligne! Fournit le fichier Onlinemaps.zip.
+* _Prise en charge de la carte (recommandée)_ :
 
-    Prise en charge du routage (recommandé pour créer de nouvelles routes):
-        Chargez les données de routine. Sur cette page, par ex. allez à la ligne Berlin et cliquez sur .osm.pbf dans cette ligne. Fournit le fichier berlin-latest.osm.pbf.
+     * [Chargez la carte vectorielle de l'Allemagne (Freizeitkarte)](http://download.freizeitkarte-osm.de/garmin/latest/DEU_de_gmapsupp.img.zip "Freizeitkarte Deutschland"). (Lien direct vers un fichier, environ 1,4 Go! Si un appareil de navigation Garmin est utilisé, un fichier `gmapsupp*.img` approprié peut déjà être disponible et peut être utilisé pour cette étape).
+     * _Facultatif:_ [Chargez les liens cartographiques en ligne](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "Online-Karten"). Remarque: cliquez sur le champ Télécharger les cartes en ligne! Fournit le fichier `Onlinemaps.zip`.
+
+* _Prise en charge du routage (recommandé pour créer de nouvelles routes)_:
+     * [Chargez les données Routino]. Sur cette page, par ex. allez à la ligne Berlin et cliquez sur .osm.pbf dans cette ligne. Fournit le fichier berlin-latest.osm.pbf.
 
     Données d'altitude (recommandées si des informations d'altitude sont requises pour de nouveaux itinéraires):
 
