@@ -63,7 +63,7 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
      * _Facultatif:_ [Chargez les liens cartographiques en ligne](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "Online-Karten"). Remarque: cliquez sur le champ Télécharger les cartes en ligne! Fournit le fichier `Onlinemaps.zip`.
 
 * _Prise en charge du routage (recommandé pour créer de nouvelles routes)_:
-     * [Chargez les données Routino]. Sur cette page, par ex. allez à la ligne Berlin et cliquez sur .osm.pbf dans cette ligne. Fournit le fichier berlin-latest.osm.pbf.
+     * [Chargez les données Routino](http://download.geofabrik.de/europe/germany.html "Routino-Daten laden"). Sur cette page, par ex. allez à la ligne Berlin et cliquez sur .osm.pbf dans cette ligne. Fournit le fichier berlin-latest.osm.pbf.
 
     Données d'altitude (recommandées si des informations d'altitude sont requises pour de nouveaux itinéraires):
 
