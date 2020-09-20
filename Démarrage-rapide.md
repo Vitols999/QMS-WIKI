@@ -3,8 +3,9 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 
 ***Table des matières***
 
-* [Démarrage rapide](#Démarrage)
-         Caractéristiques importantes de QMS
+    * [Démarrage rapide](#Démarrage)
+    * [Caractéristiques importantes de QMS](#Caractéristiques-importantes-de-QMS)
+
          Télécharger des fichiers depuis Internet
          installation
          Étapes après le premier démarrage
