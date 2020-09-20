@@ -101,3 +101,9 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
 * _Facultatif:_ Ouvrez le fichier `Onlinemaps.zip` et copiez les fichiers qu'il contient dans le répertoire `Maps`.
 * _Facultatif:_ Déplacez le fichier `berlin-latest.osm.pbf` dans le répertoire `Routino`.
 * _Facultatif:_ Ouvrez le fichier `N51E012.hgt.zip` ou `N32.zip` et copiez les fichiers qu'il contient dans le répertoire `DEM`.
+
+## Etapes après le premier démarrage
+
+* Démarrez QMS via le menu Démarrer (sélectionnez QMapShack - QMapShack).
+
+L'interface QMS encore vide apparaît. Si la langue du système d'exploitation est l'allemand, l'allemand est également utilisé comme langue dans l'interface QMS.
