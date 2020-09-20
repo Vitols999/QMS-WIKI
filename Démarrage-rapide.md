@@ -63,17 +63,17 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
      * _Facultatif:_ [Chargez les liens cartographiques en ligne](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "Online-Karten"). Remarque: cliquez sur le champ Télécharger les cartes en ligne! Fournit le fichier `Onlinemaps.zip`.
 
 * _Prise en charge du routage (recommandé pour créer de nouvelles routes)_:
-     * [Chargez les données Routino](http://download.geofabrik.de/europe/germany.html "Routino-Daten laden"). Sur cette page, par ex. allez à la ligne Berlin et cliquez sur .osm.pbf dans cette ligne. Fournit le fichier berlin-latest.osm.pbf.
+     * [Chargez les données Routino](http://download.geofabrik.de/europe/germany.html "Routino-Daten laden"). Sur cette page, par ex. allez à la ligne `Berlin` et cliquez sur `.osm.pbf` dans cette ligne. Fournit le fichier `berlin-latest.osm.pbf`.
 
-    Données d'altitude (recommandées si des informations d'altitude sont requises pour de nouveaux itinéraires):
-
-        Chargez les tuiles pour les données d'élévation. Sélectionnez le (s) fichier (s) approprié (s) en utilisant les coordonnées, par ex. N51E012.hgt.zip. Les coordonnées données décrivent le coin sud-ouest d'une tuile.
+* _Données d'altitude (recommandées si des informations d'altitude sont requises pour de nouveaux itinéraires)_:
+ 
+     * [Chargez les tuiles pour les données d'altitude](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia/ "Einzelne Kacheln"). Sélectionnez le(s) fichier(s) approprié(s) en utilisant les coordonnées, par ex. `N51E012.hgt.zip`. Les coordonnées données décrivent le coin sud-ouest d'une tuile.
 
         Ou:
 
-        Chargez les données d'altitude pour les régions. Sélectionnez la région appropriée sur la carte affichée et cliquez dessus. Par exemple. téléchargé un fichier N32.zip. N32 est le nom de la zone dite UTM.
+     * [Chargez les données d'altitude pour les régions](http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm "DEM Höhendaten für Regionen"). Sélectionnez la région appropriée sur la carte affichée et cliquez dessus. Par exemple un fichier `N32.zip` sera téléchargé. `N32` est le nom de la zone nommée UTM.
 
-    Remarque: tous les fichiers requis pour la région sélectionnée doivent être téléchargés!
+    _Remarque:_ tous les fichiers requis pour la région sélectionnée doivent être téléchargés !
 
 installation
 
