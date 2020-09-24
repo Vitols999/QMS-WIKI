@@ -107,6 +107,7 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
 
 * Démarrez QMS via le menu Démarrer (sélectionnez `QMapShack - QMapShack`).
 
-
-
 L'interface QMS encore vide apparaît. Si la langue du système d'exploitation est l'allemand, l'allemand est également utilisé comme langue dans l'interface QMS.
+
+![QMapSchack la fenêtre de départ](https://user-images.githubusercontent.com/56509955/94165648-babb4b00-fe8a-11ea-904b-5552556611ab.png "QMapSchack la fenêtre de départ")
+
