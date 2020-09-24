@@ -111,3 +111,38 @@ L'interface QMS encore vide apparaît. Si la langue du système d'exploitation e
 
 ![QMapSchack la fenêtre de départ](https://user-images.githubusercontent.com/56509955/94165648-babb4b00-fe8a-11ea-904b-5552556611ab.png "QMapSchack la fenêtre de départ")
 
+La partie centrale de la surface est utilisée pour les affichages cartographiques, pour les fenêtres d'édition des données et à d'autres fins. Lorsque vous démarrez QMS pour la première fois, une page d'accueil s'affiche ici, comme mentionné ci-dessus.
+
+Les 6 fenêtres partielles sur le bord gauche et droit (cartes, modèle numérique d'élévation (DEM), poste de travail, base de données, routage, temps réel) peuvent être déplacées individuellement et disposées différemment sur le bord gauche ou droit de la fenêtre principale ainsi que flottant librement (fenêtres dites ancrées). Ils peuvent être ouverts et fermés à l'aide de l'élément de menu Fenêtre ou des icônes correspondantes dans la barre d'outils. La barre d'outils est également une fenêtre ancrée et peut être positionnée ailleurs.
+
+La page d'accueil vous permet d'effectuer certaines des étapes d'installation décrites ici directement à partir de la surface de travail QMS. La page d'accueil disparaît dès qu'une carte est activée. Il peut être rendu visible à nouveau en désactivant toutes les cartes activées.
+
+Lorsque vous travaillez avec QMS, vous recevez souvent des informations sur les actions à effectuer sous forme de bulles d'informations lorsque vous pointez la souris sur un objet affiché.
+
+Activez les cartes vectorielles et définissez le niveau de détail:
+
+Utilisez la souris pour accéder à la fenêtre Cartes.
+Cliquez avec le bouton droit de la souris pour ouvrir le menu contextuel et choisissez Spécifier le répertoire de la carte.
+Ouvrez le répertoire QMS \ Maps et sélectionnez ce répertoire.
+La nouvelle entrée Freizeitkarte DE apparaît dans la fenêtre de carte.
+Cliquez avec le bouton droit sur le nom de la carte pour ouvrir le menu contextuel et sélectionnez Activer.
+Déplacez la carte vers un emplacement inclus sur la carte. La carte doit être visible.
+Un double clic sur le nom d'une carte vectorielle activée ouvre l'affichage des propriétés de la carte à définir:
+Transparence de la carte (curseur).
+Affichage des zones, des lignes et des points.
+Affichage des détails de la carte (réglable entre -5 et 5).
+Forme de représentation des objets cartographiques (sélection d'un fichier TYP).
+Remarque: En utilisant l'élément de menu Affichage - Ajouter une vue cartographique, des fenêtres cartographiques supplémentaires peuvent être ouvertes et configurées indépendamment les unes des autres en fonction des besoins de l'utilisateur.
+Facultatif: Activer les cartes en ligne: (nécessite la sélection du répertoire de cartes à l'étape précédente!)
+
+Utilisez la souris pour accéder à la fenêtre Cartes.
+
+Cliquez avec le bouton droit pour ouvrir le menu contextuel et sélectionnez Recharger les cartes.
+
+Une nouvelle entrée apparaît dans la fenêtre de la carte, par ex. 4UMaps-eu (peut-être déjà apparu lors de l'activation de la carte vectorielle!).
+
+Cliquez avec le bouton droit sur le nom de la carte pour ouvrir le menu contextuel et sélectionnez Activer.
+
+Si une connexion Internet est active, la carte en ligne sélectionnée est chargée (cela peut prendre un certain temps, l'indicateur de progression apparaît!) Et affichée dans la fenêtre du milieu.
+
+
