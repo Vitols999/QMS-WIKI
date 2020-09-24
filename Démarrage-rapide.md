@@ -104,6 +104,7 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
 
 ## Etapes après le premier démarrage
 
-* Démarrez QMS via le menu Démarrer (sélectionnez QMapShack - QMapShack).
+
+* Démarrez QMS via le menu Démarrer (sélectionnez `QMapShack - QMapShack`).
 
 L'interface QMS encore vide apparaît. Si la langue du système d'exploitation est l'allemand, l'allemand est également utilisé comme langue dans l'interface QMS.
