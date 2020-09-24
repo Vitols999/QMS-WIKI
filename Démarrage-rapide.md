@@ -80,7 +80,7 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
 ## Installation
 
 * Tous les fichiers téléchargés se trouvent généralement dans le répertoire Téléchargements de l'utilisateur.
-* Recherchez le fichier QMapShack_Install_Windows64bit__1.14.0.exe dans le répertoire de téléchargement.
+* Recherchez le fichier `QMapShack_Install_Windows64bit__1.14.0.exe` dans le répertoire de téléchargement.
 * Démarrez ce fichier d'installation en double-cliquant sur le nom du fichier.
 * Confirmez les informations dans les premières fenêtres d'installation.
 * Dans la fenêtre `Sélectionner les composants`, l'élément d'exécution `MSVC ++ 2013 SP1 runtime` doit être sélectionné (cela peut être omis si cet environnement d'exécution est déjà installé sur l'ordinateur utilisé).
