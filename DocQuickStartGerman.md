@@ -26,7 +26,7 @@ ___(deutsche Anleitung für Windows-Nutzer)___
 _gültig ab QMapShack commit 8ddec3217899 (Wed Apr 04 17:38:39 2018 +0200)_
 
 _Mit Ausnahme der Teile, die sich auf die Installation von QMapShack selbst beziehen, gilt diese Anleitung auch für 
-nicht-Windows-Betriebssysteme._ 
+nicht-Windows-Betriebssysteme._
 
 
 QMapShack (kurz QMS) für Windows ist eine 64-bit-Anwendung und erfordert deshalb ein 64-bit Windows Betriebssystem.
