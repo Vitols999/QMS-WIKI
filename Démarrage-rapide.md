@@ -1,6 +1,9 @@
 Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 - - -
 
+
+***@olaboum: Please contact me at k-w.thaemelt_at_vodafone_de for some important hints about this Wiki page! Currently, this page fails to work with the QMS F1 offline help!*** 
+
 ***Table des matières***
 
 * [Démarrage rapide](#Démarrage-rapide)
