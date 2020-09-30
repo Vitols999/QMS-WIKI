@@ -4,19 +4,19 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 ***Table of contents***
 
 * [Démarrage rapide](#démarrage-rapide)
-* [Caractéristiques importantes de QMS](#caractéristiques-importantes-de-QMS)
-* [Télécharger des fichiers depuis Internet](#télécharger-des-données-depuis-Internet)
-* [Installation](#installation)
-* [Étapes après le premier démarrage](#user-content-Étapes-après-le-premier-démarrage)
-* [Quelques étapes de travail typiques](#quelques-étapes-de-travail-typiques)
-     * [Déplacer et agrandir la carte](#déplacer-et-agrandir-la-carte)
-     * [Charger le fichier GPX et afficher les données](#charger-le-fichier-GPX-et-afficher-les-données)
-     * [Créer une base de données](#créer-une-base-de-données)
-     * [Organisation des données dans la base de données](#organisation-des-données-dans-la-base-de-données)
-     * [Créer une trace](#créer-une-trace)
-     * [Afficher les informations de piste](#afficher-les-informations-de-piste)
-     * [Créer une trace (route) à l'aide de waypoints](#créer-une-trace-route-à-laide-de-waypoints)
-     * [Trouver un waypoint](#Trouver-un-waypoint)
+    * [Caractéristiques importantes de QMS](#caractéristiques-importantes-de-qms)
+    * [Télécharger des fichiers depuis Internet](#télécharger-des-fichiers-depuis-internet)
+    * [Installation](#installation)
+    * [Étapes après le premier démarrage](#user-content-Étapes-après-le-premier-démarrage)
+    * [Quelques étapes de travail typiques](#quelques-étapes-de-travail-typiques)
+         * [Déplacer et agrandir la carte](#déplacer-et-agrandir-la-carte)
+         * [Charger le fichier GPX et afficher les données](#charger-le-fichier-gpx-et-afficher-les-données)
+         * [Créer une base de données](#créer-une-base-de-données)
+         * [Organisation des données dans la base de données](#organisation-des-données-dans-la-base-de-données)
+         * [Créer une trace](#créer-une-trace)
+         * [Afficher les informations de piste](#afficher-les-informations-de-piste)
+         * [Créer une trace (route) à l'aide de waypoints](#créer-une-trace-route-à-laide-de-waypoints)
+         * [Trouver un waypoint](#trouver-un-waypoint)
 
 * * * * * * * * * *
              
@@ -51,7 +51,7 @@ Les utilisateurs qui disposent d'un QMS déjà installé trouveront une page d'a
 
 * Connexion directe en lecture et en écriture à des équipements de navigation et de fitness modernes
      
-## Télécharger des données depuis Internet
+## Télécharger des fichiers depuis Internet
 
 *Conseils :*
 
@@ -64,24 +64,22 @@ Les utilisateurs qui disposent d'un QMS déjà installé trouveront une page d'a
 Les liens suivants sont des recommandations pour les données qui facilitent l'utilisation de QMS et qui peuvent être téléchargées à partir d'Internet.
 
 * *QMapShack:*
-
-   * [Chargez le fichier d'installation de QMS à partir du serveur](https://github.com/Maproom/qmapshack/releases "QMS Installationsdatei laden"). Chargez le fichier `QMapShack_Win64bit_1.15.0.exe` à partir de cette page (environ 100 Mo, le numéro de version peut être différent).
+    * [Chargez le fichier d'installation de QMS à partir du serveur](https://github.com/Maproom/qmapshack/releases "QMS Installationsdatei laden"). Chargez le fichier `QMapShack_Win64bit_1.15.0.exe` à partir de cette page (environ 100 Mo, le numéro de version peut être différent).
 
 * *Prise en charge de la carte (recommandée)* :
-
-     * [Chargez la carte vectorielle de l'Allemagne (Freizeitkarte)](http://download.freizeitkarte-osm.de/garmin/latest/DEU_de_gmapsupp.img.zip "Freizeitkarte Deutschland"). (Lien direct vers un fichier, environ 1,4 Go! Si un appareil de navigation Garmin est utilisé, un fichier `gmapsupp*.img` approprié peut déjà être disponible et peut être utilisé pour cette étape).
-     * _Facultatif:_ [Chargez les liens cartographiques en ligne](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "Online-Karten"). Remarque: cliquez sur le champ `Download Onlinemaps`! Fournit le fichier `Onlinemaps.zip`.
+    * [Chargez la carte vectorielle de l'Allemagne (Freizeitkarte)](http://download.freizeitkarte-osm.de/garmin/latest/DEU_de_gmapsupp.img.zip "Freizeitkarte Deutschland"). (Lien direct vers un fichier, environ 1,4 Go! Si un appareil de navigation Garmin est utilisé, un fichier `gmapsupp*.img` approprié peut déjà être disponible et peut être utilisé pour cette étape).
+    * _Facultatif:_ [Chargez les liens cartographiques en ligne](http://www.mtb-touring.net/qms/onlinekarten-einbinden/ "Online-Karten"). Remarque: cliquez sur le champ `Download Onlinemaps`! Fournit le fichier `Onlinemaps.zip`.
 
 * *Prise en charge du routage (recommandé pour créer de nouvelles routes)* :
-     * [Chargez les données Routino](http://download.geofabrik.de/europe/germany.html "Routino-Daten laden"). Sur cette page, par ex. allez à la ligne `Berlin` et cliquez sur `.osm.pbf` dans cette ligne. Fournit le fichier `berlin-latest.osm.pbf`.
+    * [Chargez les données Routino](http://download.geofabrik.de/europe/germany.html "Routino-Daten laden"). Sur cette page, par ex. allez à la ligne `Berlin` et cliquez sur `.osm.pbf` dans cette ligne. Fournit le fichier `berlin-latest.osm.pbf`.
 
 * *Données d'altitude (recommandées si des informations d'altitude sont requises pour de nouveaux itinéraires)* :
  
-     * [Chargez les tuiles pour les données d'altitude](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia/ "Einzelne Kacheln"). Sélectionnez le(s) fichier(s) approprié(s) en utilisant les coordonnées, par ex. `N51E012.hgt.zip`. Les coordonnées données décrivent le coin sud-ouest d'une tuile.
+    * [Chargez les tuiles pour les données d'altitude](https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia/ "Einzelne Kacheln"). Sélectionnez le(s) fichier(s) approprié(s) en utilisant les coordonnées, par ex. `N51E012.hgt.zip`. Les coordonnées données décrivent le coin sud-ouest d'une tuile.
 
-       **Ou:**
+        **Ou:**
 
-     * [Chargez les données d'altitude pour les régions](http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm "DEM Höhendaten für Regionen"). Sélectionnez la région appropriée sur la carte affichée et cliquez dessus. Par exemple un fichier `N32.zip` sera téléchargé. `N32` est le nom de la zone nommée UTM.
+    * [Chargez les données d'altitude pour les régions](http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm "DEM Höhendaten für Regionen"). Sélectionnez la région appropriée sur la carte affichée et cliquez dessus. Par exemple un fichier `N32.zip` sera téléchargé. `N32` est le nom de la zone nommée UTM.
 
     _Remarque:_ tous les fichiers requis pour la région sélectionnée doivent être téléchargés !
 
