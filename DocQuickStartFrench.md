@@ -7,7 +7,7 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
 * [Caractéristiques importantes de QMS](#caractéristiques-importantes-de-QMS)
 * [Télécharger des fichiers depuis Internet](#télécharger-des-données-depuis-Internet)
 * [Installation](#installation)
-* [Étapes après le premier démarrage](#étapes-après-le-premier-démarrage)
+* [Étapes après le premier démarrage](#user-content-Étapes-après-le-premier-démarrage)
 * [Quelques étapes de travail typiques](#quelques-étapes-de-travail-typiques)
      * [Déplacer et agrandir la carte](#déplacer-et-agrandir-la-carte)
      * [Charger le fichier GPX et afficher les données](#charger-le-fichier-GPX-et-afficher-les-données)
