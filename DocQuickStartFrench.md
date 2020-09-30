@@ -177,7 +177,7 @@ Les liens suivants sont des recommandations pour les données qui facilitent l'u
 
     * Si une connexion Internet est active, la carte en ligne sélectionnée est chargée (cela peut prendre un certain temps, l'indicateur de progression apparaît!) Et affichée dans la fenêtre du milieu.
 
-    ![Activer la carte en ligne](images/DocAdv/InstallMapsFr.png)
+        ![Activer la carte en ligne](images/DocAdv/InstallMapsFr.png)
 
 * *Facultatif: activer la prise en charge du routage de routino :*
     * Sélectionnez l'élément de menu `Outil - Créer une base de données Routino`.
@@ -365,7 +365,7 @@ Les informations de suivi sont disponibles sous différentes formes et niveaux d
 
 * Vérifiez et, si nécessaire, modifiez l'ordre des waypoints dans la nouvelle fenêtre `Créer une route à partir de waypoints`.
 
-   ![Trace par les waypoints](images/DocAdv/WPTs2TrkFr.png "Trace par les waypoints")
+    ![Trace par les waypoints](images/DocAdv/WPTs2TrkFr.png "Trace par les waypoints")
 
 * Sélectionnez `OK` pour créer une route à travers les waypoints.
 

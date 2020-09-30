@@ -1060,6 +1060,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Quickstart help, English**
 :  [Quickstart English](DocQuickStartEnglish "Quickstart English")
 
+**Quickstart help, French**
+:  [Quickstart French](DocQuickStartFrench "Quickstart French")
+
 **Quickstart help, German**
 :  [Quickstart German](DocQuickStartGerman "Quickstart German")
 

@@ -9,6 +9,7 @@ ___Do not edit - automatically created from DocMain!___
 * ![German flag](images/DocGettingStarted/FlagDe.jpg)  [__Schnellstartanleitung__](DocQuickStartGerman "German quickstart description")
 * ![Russian flag](images/DocGettingStarted/FlagRu.jpg)  [__Быстрый старт__](DocQuickStartRussian "Russian quickstart description")
 * ![Spanish flag](images/DocGettingStarted/FlagEs.jpg)  [__Guía de Inicio__](DocQuickStartSpanish "Spanish quickstart description")
+* ![French flag](images/DocGettingStarted/FlagFr.jpg)  [__Démarrage rapide__](DocQuickStartFrench "French quickstart description")
 
 
 ## Basic usage

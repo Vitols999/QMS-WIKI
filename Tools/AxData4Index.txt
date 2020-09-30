@@ -1498,6 +1498,9 @@ ___Quickstart pages:___
 
 * [Quickstart English](DocQuickStartEnglish) 
   1. Quickstart help|English   
+
+* [Quickstart French](DocQuickStartFrench) 
+  1. Quickstart help|French    
     
 * [Quickstart German](DocQuickStartGerman) 
   1. Quickstart help|German  
