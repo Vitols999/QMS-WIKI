@@ -13,6 +13,7 @@
         * [Python server for Linux-like OS](#python-server-for-linux-like-os)
         * [Track replay](#track-replay)
         * [Using Garmin devices with Windows 10](#using-garmin-devices-with-windows-10)
+        * [Using Garmin etrex VISTA HCx with Ubuntu 20.04](#using-garmin-etrex-vista-hcx-with-ubuntu-2004)
         * [QMS as TCP client](#qms-as-tcp-client)
         * [NMEA and other restrictions](#nmea-and-other-restrictions)
 
@@ -250,6 +251,10 @@ _Remarks:_
 
 * A Garmin GPSMap 60CSx device can be used in a similar way.
 * Garmin Etrex Vista devices only support serial interfaces, either directly or with the help of a USB-to-Serial adapter. When using a USB-to-Serial adapter be sure that it works correctly with your operating system (insert GPSBabel option -D9 to see if and how GPSBabel establishes the serial connection). Tested was a TrendNet TU-9 adapter with a Prolific PL-2303 HXD chip and latest Windows 10 drivers. Set the interface in the Etrex Vista settings to `Garmin` and replace `usb:` in the commandline shown above with `com9` where `9` should be the number of the COM port for the adapter. If the Etrex Vista interface is set to `NMEA`, then the device sends a continuous flow of NMEA data without line end markers. These data can't be parsed by the involved tools because they assume that NMEA data is sent in records (with some line end). 
+
+### Using Garmin etrex VISTA HCx with Ubuntu 20.04
+
+Some experience of using Garmin etrex Vist HCx with Ubuntu 20.04 can be found [here](https://sourceforge.net/p/qlandkartegt/mailman/message/37121555/).    
     
 ### QMS as TCP client
     

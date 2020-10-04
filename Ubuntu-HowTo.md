@@ -41,7 +41,9 @@ sudo apt-get install cmake build-essential subversion git qt5-default qttools5-d
 
 **Remarks:**
 
-* Starting with version 1.13.0 QMapShack requires PROJ.4 version 5.0.0 or newer. To check the installed PROJ.4 version with the above command run
+* Starting with version 1.13.0 QMapShack requires PROJ.4 version 5.0.0 or newer. It is reported that with the standard Ubuntu-20.04 installation this requirement is already fulfilled.
+
+    To check the installed PROJ.4 version with the above command run
 
         pkg-config --modversion proj
     

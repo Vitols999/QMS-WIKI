@@ -810,7 +810,12 @@ ___Basic usage___
                 
             * [Using Garmin devices with Windows 10](DocRealtime#using-garmin-devices-with-windows-10) 
                 1. Garmin|realtime data   
-                1. Realtime data|Garmin devices                
+                1. Realtime data|Garmin devices  
+                1. Realtime data|Windows 10                
+
+            * [Using Garmin etrex VISTA HCx with Ubuntu 20.04](DocRealtime#using-garmin-etrex-vista-hcx-with-ubuntu-2004)
+                1. Garmin|realtime data
+                1. Realtime data|Ubuntu                
                 
             * [QMS as TCP client](DocRealtime#qms-as-tcp-client)
             * [NMEA and other restrictions](DocRealtime#nmea-and-other-restrictions)  

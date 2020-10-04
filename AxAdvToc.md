@@ -314,6 +314,7 @@ ___Do not edit - automatically created from DocMain!___
                 * [Python server for Linux-like OS](DocRealtime#python-server-for-linux-like-os)
                 * [Track replay](DocRealtime#track-replay)
                 * [Using Garmin devices with Windows 10](DocRealtime#using-garmin-devices-with-windows-10)
+                * [Using Garmin etrex VISTA HCx with Ubuntu 20.04](DocRealtime#using-garmin-etrex-vista-hcx-with-ubuntu-2004)
                 * [QMS as TCP client](DocRealtime#qms-as-tcp-client)
                 * [NMEA and other restrictions](DocRealtime#nmea-and-other-restrictions)
     * [Database](DocGisDatabase)

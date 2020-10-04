@@ -488,7 +488,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Vector Maps](DocBasicsMapDem#vector-maps "Vector Maps")
 
 **Garmin, realtime data**
-:  [Using Garmin devices with Windows 10](DocRealtime#using-garmin-devices-with-windows-10 "Using Garmin devices with Windows 10")
+:  [Using Garmin devices with Windows 10](DocRealtime#using-garmin-devices-with-windows-10 "Using Garmin devices with Windows 10") ⊞ [Using Garmin etrex VISTA HCx with Ubuntu 20.04](DocRealtime#using-garmin-etrex-vista-hcx-with-ubuntu-2004 "Using Garmin etrex VISTA HCx with Ubuntu 20.04")
 
 **Garmin, use of legacy device**
 :  [How to access data from legacy Garmin devices?](DocFaqHandling#how-to-access-data-from-legacy-garmin-devices "How to access data from legacy Garmin devices?")
@@ -1130,8 +1130,14 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Realtime data, OpenSky**
 :  [OpenSky flight data](DocRealtime#opensky-flight-data "OpenSky flight data")
 
+**Realtime data, Ubuntu**
+:  [Using Garmin etrex VISTA HCx with Ubuntu 20.04](DocRealtime#using-garmin-etrex-vista-hcx-with-ubuntu-2004 "Using Garmin etrex VISTA HCx with Ubuntu 20.04")
+
 **Realtime data, use in QMS**
 :  [Realtime data](DocRealtime "Realtime data")
+
+**Realtime data, Windows 10**
+:  [Using Garmin devices with Windows 10](DocRealtime#using-garmin-devices-with-windows-10 "Using Garmin devices with Windows 10")
 
 **Recorded data, of track**
 :  [Recorded and calculated tracks](DocGisItemsTrk#recorded-and-calculated-tracks "Recorded and calculated tracks")
