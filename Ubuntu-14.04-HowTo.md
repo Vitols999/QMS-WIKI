@@ -1,4 +1,4 @@
-[Prev](BuildWindowsGdalWithAdditionalFormats) (GDAL support for additional map formats) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Ubuntu-18) [Next](Ubuntu-18-HowTo)
+[Prev](BuildWindowsGdalWithAdditionalFormats) (GDAL support for additional map formats) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (Ubuntu-18, Ubuntu-20) [Next](Ubuntu-HowTo)
 - - -
 
 ***Table of contents***
@@ -74,4 +74,4 @@ Maybe there is a better way to use Qt 5.4
 
 
 - - -
-[Prev](BuildWindowsGdalWithAdditionalFormats) (GDAL support for additional map formats) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Ubuntu-18) [Next](Ubuntu-18-HowTo)
+[Prev](BuildWindowsGdalWithAdditionalFormats) (GDAL support for additional map formats) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Ubuntu-18, Ubuntu-20) [Next](Ubuntu-HowTo)

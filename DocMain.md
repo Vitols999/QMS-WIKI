@@ -28,7 +28,7 @@ Users can find short quickstart help here:
         * [Windows with VisualStudio 2017](BuildWindowsVisualStudio)
             * [GDAL support for additional map formats](BuildWindowsGdalWithAdditionalFormats)
         * [Ubuntu-14.04](Ubuntu-14.04-HowTo)
-        * [Ubuntu-18](Ubuntu-18-HowTo)
+        * [Ubuntu-18, Ubuntu-20](Ubuntu-HowTo)
         * [Linux Mint 19.x](BuildLinuxMint19)
         * [OSX](BuildOSX)
     * [Create Offline Documentation](OfflineDocumentation)

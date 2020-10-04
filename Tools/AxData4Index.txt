@@ -105,20 +105,21 @@ ___Basic usage___
             * [Use Qt 5.4 instead of 5.2 (it's only temporary and for the current terminal)](Ubuntu-14.04-HowTo#use-qt-54-instead-of-52-its-only-temporary-and-for-the-current-terminal)
         * [Running the software:](Ubuntu-14.04-HowTo#running-the-software)
           
-    * [Ubuntu-18](Ubuntu-18-HowTo)
+    * [Ubuntu-18, Ubuntu-20](Ubuntu-HowTo)
         1. Compilation|Ubuntu-18.04
+        1. Compilation|Ubuntu-20.04
         1. Ubuntu-18.04|compilation
         1. Ubuntu-20.04|compilation
         
-        * [Initial build Routino and QMapShack](Ubuntu-18-HowTo#initial-build-routino-and-qmapshack)  
-            * [Create installation folder](Ubuntu-18-HowTo#create-installation-folder)
-            * [Installation of needed build packages](Ubuntu-18-HowTo#installation-of-needed-build-packages)
-            * [Initial build of Routino](Ubuntu-18-HowTo#initial-build-of-routino)
-                * [Update of Routino when something has changed in future](Ubuntu-18-HowTo#update-of-routino-when-something-has-changed-in-future)
-            * [Initial build of QMapShack](Ubuntu-18-HowTo#initial-build-of-qmapshack)
-                * [Update of QMapShack when something has changed in future](Ubuntu-18-HowTo#update-of-qmapshack-when-something-has-changed-in-future)
-            * [Start QMapShack](Ubuntu-18-HowTo#start-qmapshack)
-        * [Setup development environment](Ubuntu-18-HowTo#setup-development-environment)
+        * [Initial build Routino and QMapShack](Ubuntu-HowTo#initial-build-routino-and-qmapshack)  
+            * [Create installation folder](Ubuntu-HowTo#create-installation-folder)
+            * [Installation of needed build packages](Ubuntu-HowTo#installation-of-needed-build-packages)
+            * [Initial build of Routino](Ubuntu-HowTo#initial-build-of-routino)
+                * [Update of Routino when something has changed in future](Ubuntu-HowTo#update-of-routino-when-something-has-changed-in-future)
+            * [Initial build of QMapShack](Ubuntu-HowTo#initial-build-of-qmapshack)
+                * [Update of QMapShack when something has changed in future](Ubuntu-HowTo#update-of-qmapshack-when-something-has-changed-in-future)
+            * [Start QMapShack](Ubuntu-HowTo#start-qmapshack)
+        * [Setup development environment](Ubuntu-HowTo#setup-development-environment)
         
     * [Linux Mint 19.x](BuildLinuxMint19)
         1. Compilation|Linux Mint

@@ -24,7 +24,7 @@ ___Do not edit - automatically created from DocMain!___
         * [Windows with VisualStudio 2013](BuildWindowsVisualStudio2013)
         * [Windows with VisualStudio 2017](BuildWindowsVisualStudio)
         * [Ubuntu-14.04](Ubuntu-14.04-HowTo)
-        * [Ubuntu-18](Ubuntu-18-HowTo)
+        * [Ubuntu-18, Ubuntu-20](Ubuntu-HowTo)
         * [Linux Mint 19.x](BuildLinuxMint19)
         * [OSX](BuildOSX)
     * [Create Offline Documentation](OfflineDocumentation)

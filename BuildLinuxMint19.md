@@ -1,4 +1,4 @@
-[Prev](Ubuntu-18-HowTo) (Ubuntu-18) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (OSX) [Next](BuildOSX)
+[Prev](Ubuntu-HowTo) (Ubuntu-18, Ubuntu-20) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | (OSX) [Next](BuildOSX)
 - - -
 
 ***Table of contents***
@@ -137,4 +137,4 @@ into a console window and press `Enter`.
 
 
 - - -
-[Prev](Ubuntu-18-HowTo) (Ubuntu-18) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (OSX) [Next](BuildOSX)
+[Prev](Ubuntu-HowTo) (Ubuntu-18, Ubuntu-20) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (OSX) [Next](BuildOSX)

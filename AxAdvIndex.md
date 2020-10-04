@@ -100,7 +100,10 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [OSX](BuildOSX "OSX")
 
 **Compilation, Ubuntu-18.04**
-:  [Ubuntu-18](Ubuntu-18-HowTo "Ubuntu-18")
+:  [Ubuntu-18, Ubuntu-20](Ubuntu-HowTo "Ubuntu-18, Ubuntu-20")
+
+**Compilation, Ubuntu-20.04**
+:  [Ubuntu-18, Ubuntu-20](Ubuntu-HowTo "Ubuntu-18, Ubuntu-20")
 
 **Compilation, Windows VS 2017**
 :  [Windows with VisualStudio 2017](BuildWindowsVisualStudio "Windows with VisualStudio 2017")
@@ -1602,10 +1605,10 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **Ubuntu-18.04, compilation**
-:  [Ubuntu-18](Ubuntu-18-HowTo "Ubuntu-18")
+:  [Ubuntu-18, Ubuntu-20](Ubuntu-HowTo "Ubuntu-18, Ubuntu-20")
 
 **Ubuntu-20.04, compilation**
-:  [Ubuntu-18](Ubuntu-18-HowTo "Ubuntu-18")
+:  [Ubuntu-18, Ubuntu-20](Ubuntu-HowTo "Ubuntu-18, Ubuntu-20")
 
 **Undo, edit**
 :  [Undo/redo](DocGisItemsEditMultiple#undoredo "Undo/redo")

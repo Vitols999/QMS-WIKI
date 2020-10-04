@@ -86,7 +86,7 @@ You also need to **install the development packages** in order to build QMapShac
 Additional instructions about how to install can be found
 
 * [here](Ubuntu-14.04-HowTo) for Ubuntu-14-04,
-* [here](Ubuntu-18-HowTo) for Ubuntu-18,
+* [here](Ubuntu-HowTo) for Ubuntu-18 and Ubuntu 20,
 * [here](BuildLinuxMint19) for Linux Mint 19.
 
 #### Obtaining the Source
