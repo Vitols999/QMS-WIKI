@@ -254,7 +254,7 @@ _Remarks:_
 
 ### Using Garmin etrex VISTA HCx with Ubuntu 20.04
 
-Some experience of using Garmin etrex Vist HCx with Ubuntu 20.04 can be found [here](https://sourceforge.net/p/qlandkartegt/mailman/message/37121555/).    
+Some experience of using Garmin etrex Vist HCx with Ubuntu 20.04 can be found [here](https://sourceforge.net/p/qlandkartegt/mailman/message/37126840/).    
     
 ### QMS as TCP client
     
