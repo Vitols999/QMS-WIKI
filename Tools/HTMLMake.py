@@ -260,88 +260,80 @@ class StrikeThrough(Extension):
 # ### class Slugify
 
 class Slugify():
+    """
+    Slugify text string = convert text string so that it can be used in Markdown links in GitHub Wiki and in Chrome
 
-    rascii = re.compile("[A-Z]+")
-    rdigit = re.compile("[0-9-]")
-    rimglnk = re.compile(r"\!\[([^]]*)\]\([^)]*\)")   # mask for image links
-    ritalic = re.compile(r"\s_([^_]+)_(\s|$)")        # mask for italic markdown with underscores
+    Extents considerably the slugify rules found in the Internet so that more non-ASCII characters can be
+    handled.
 
-    isNonASCIICaps = False                            # indicator for non-ASCII uppercase letters
+    * handles completely characters with Unicode categories
+        * Lo, Lu, Lo (letters)
+        * Nd (digits 0-9)
+
+    * tested with characters in Unicode categories
+
+      'Cf', Pc', 'Pd', 'Pe', 'Pf', 'Pi', 'Po', 'Ps', 'Sc', 'Sk', 'So', Sm', 'Zs'
+
+      used in QMS Wiki
+    """
+
+    rimglnk = re.compile(r"\!\[([^]]*)\]\([^)]*\)")        # mask for image links
+    ritalic = re.compile(r"(?<![^\s])_([^_]+)_(?![^\s])")  # mask for italic markdown with underscores
+
+    keeplist_cat = ["Ll", "Lo", "Nd", "Nl", "Pc", "Pd"]    # keep characters with these Unicode categories
+    droplist_cat = ["Cf", "Pe", "Ps"]                      # drop characters with these Unicode categories
+    drop_nonascii = ["No", "Pf", "Pi", "Po", "Sc", "Sk", "Sm", "So"]  # drop in Wiki, keep non-ASCII in Chrome
 
     def __init_(self):
         return
 
-    def slugify(self, txt, kind=("Lu", "Ll", "Lo")):  # 3 Unicode letter categories: upper, lower, other
-        self.isNonASCIICaps = False
+    def slugify(self, txt, kind="GitHub"):            # slugify txt for GitHub Wiki or Google Chrome (kind="Chrome")
+        self.kind = kind
 
         if self.rimglnk.search(txt):                  # drop image link from header Wiki case
             repl = ""
-            if "No" in kind:                          # keep link text in case of Chromw
+            if self.kind == "Chrome":                 # keep link text in case of Chrome
                 repl = r"\1"
             txt = self.rimglnk.sub(repl, txt)
 
         txt = txt.strip()
 
-        txt = self.ritalic.sub(r"-\1", txt)           # drop italic markdown
+        txt = self.ritalic.sub(r"\1", txt)            # drop italic markdown
 
-        txt = self.rascii.sub(f, txt)                 # convert upper ASCII to lower
-        txt = re.sub(r'\s', "-", txt)                 # replace whitespace with hyphen
+        txt = "".join((self.slugifyc(x) for x in txt))  # slugify given string
 
-        txt = "".join(self.slugifyc(x, kind) for x in txt)  # handle each remaining character
-
-        if self.isNonASCIICaps:                       # Wiki: add "user-content-"
+        if kind == "GitHub":                          # Wiki link: add prefix "user-content-"
             txt = f"user-content-{txt}"
-        return txt
 
-    def slugifyc(self, char, kind):                   # handle single character
-        if self.rdigit.search(char) or char == "_":   # keep digits 0-9, hyphen and underscore
-            return char
+        return txt                                    # slugified string
 
-        elif ucd.category(char) not in kind:          # drop unwanted Unicode characters
+    def slugifyc(self, char):                         # slugify single character
+
+        droplist = self.droplist_cat + self.drop_nonascii if self.kind == "GitHub" else self.droplist_cat
+
+        if ucd.category(char) in droplist:
             return ""
 
-        elif ucd.category(char) == "Lu" and "No" not in kind:  # set indicator for non-ASCII uppercase for use in Wiki
-            self.isNonASCIICaps = True
-
-        else:
+        elif ucd.category(char) in self.keeplist_cat:
             return char
 
-        return char
+        elif ucd.category(char) == "Lu":
+            return char.lower() if char.isascii() else char
+
+        elif ucd.category(char) == "Zs":
+            return "-"
+
+        elif self.kind == "Chrome" and ucd.category(char) in self.drop_nonascii:
+            return "" if char.isascii() else char
+
+        else:
+            print(f"*** Check link with deleted unhandled character: '{char}'! Category: '{ucd.category(char)}'. Conversion for {self.kind}.")
+            return ""
 
 slg = Slugify()
 
-def slugifyx(txt, separator):
+def slugifyx(txt, separator):  # wrapper used in Markdown extension - extension uses this signature
     return slg.slugify(txt)
-
-# ## Function slugify - obsolete with the exception of function `f`!
-
-# Define a "slugify" function which does  the same thing as the standard
-# "slugify" function built into the  Markdown "toc" extension  and addit-
-# ionally adds the Github specific prefix to header line identifiers:
-
-# build MD reference from given string using separator as word separator
-
-r1 = re.compile("[A-Z]+")                     # matches ASCII uppercase
-r2 = re.compile("[А-ЯÀÁÄÇÈÉÊÍÑÓÖÚÜÝĄĆČĎĘĚŁŃŇŘŚŠŤŮŹŻŽ]")     # matches non-ASCII uppercase
-r4 = re.compile(r"\!\[[^]]*\]\([^)]*\)\s+")   # include spaces at the end of the link
-
-# Github version working with non-ASCII
-def f(matchobj):                              # convert ASCII uppercase to lowercase
-    return matchobj.group(0).lower()
-
-def slugify0(value, separator):                # variant that handles non-ASCII in GitHub correctly
-    value = r4.sub("-", value)                # remove possible image link
-
-    value = re.sub(r'[^0-9a-zа-яßàáâäçèéêëìíîïñòóôöùúûüýąćčďęěłńňœŕřśšťůźżžё\s-]',
-                   '',
-                   value,
-                   flags=re.IGNORECASE).rstrip()  # drop non-alphabetic characters
-    value = r1.sub(f, value)                  # make only ASCII uppercase to lower
-
-    if r2.search(value):                      # non-ASCII uppercase found
-        value = "user-content-%s" % value     # use "id" instead of "href" for link target
-
-    return re.sub(r'\s', separator, value).strip()  # replace space with separator ("-")
 
 # ## DoIt
 
