@@ -50,7 +50,7 @@ To prepare (configure) the application the following general initial procedure i
 * Click the right most icon with initial tooltip `Select record file`. This opens a file selection window. Define a filename and a path for a file where the realtime data can be saved (default extension: `.rec`). After selecting a record file, the tooltip of this icon changes to the name of the selected file.
 * Click the fourth icon with tooltip `Reset record` and confirm, if required, the reset of the content of the record file.
 * Now, the first icon with tooltip `Start recording` should be active (red). 
-* Continue with the application specific configuration.
+* Continue with the application-specific configuration.
 
 As soon as the connection is established between the data source and QMS and realtime data is reaching QMS an animated line of the received locations is displayed in the QMS map window (without activated recording only a moving object (aircraft or circle) and no animated line is shown).    
 
@@ -102,11 +102,11 @@ Tested **GPS receivers** are
 * NL 8002 U Multi GNSS Receivers.
 * NMEA data saved in file form and streamed to an appropriate TCP server (virtual GPS receiver, GPS replay).
 
-The hardware of a GPS receiver connected to a PC can appear in various forms. Older devices are connected using a serial interface. Other devices have its own proprietary device type (e.g. Garmin GPSMap 64s). Different operating systems handle the hardware attached to the PC differently. Various **NMEA data transmitters** (TCP servers) can be used with GPS receivers. As a consequence, there is no unique approach for using different GPS receivers. This page describes in the following sections a few typical and tested use cases.
+The hardware of a GPS receiver connected to a PC can appear in various forms. Older devices are connected using a serial interface. Other devices have their own proprietary device type (e.g. Garmin GPSMap 64s). Different operating systems handle the hardware attached to the PC differently. Various **NMEA data transmitters** (TCP servers) can be used with GPS receivers. As a consequence, there is no unique approach for using different GPS receivers. This page describes in the following sections a few typical and tested use cases.
 
 ### GPS Tether on Android smartphones 
  
-In this use case it is assumed that the smartphone has a GPS receiver. The NMEA data transmitter is located on the smartphone itself.
+In this use case, it is assumed that the smartphone has a GPS receiver. The NMEA data transmitter is located on the smartphone itself.
  
 This TCP server together with QMS as TCP client needs a few installation and configuration steps on the smartphone and on the PC:
 
@@ -145,7 +145,7 @@ This TCP server together with QMS as TCP client needs a few installation and con
 
 _(Contributed by Helmut Schmidt)_
 
-Many GPS receivers (e.g. the above mentioned NL 8002 U Multi GNSS receiver and older Garmin devices) provide a (virtual) serial interface. Nowadays, devices with a serial interface are connected with a USB-to-Serial adapter to a PC. Check, if your operating system detects the serial interface provided by the adapter!
+Many GPS receivers (e.g. the above-mentioned NL 8002 U Multi GNSS receiver and older Garmin devices) provide a (virtual) serial interface. Nowadays, devices with a serial interface are connected with a USB-to-Serial adapter to a PC. Check, if your operating system detects the serial interface provided by the adapter!
 
 [Ncat](https://nmap.org/ncat/) is a networking utility for the Windows operating system which reads and writes data across networks from the commandline. Ncat was written for the Nmap Project. It can be used as NMEA data transmitter.
 
@@ -161,7 +161,7 @@ Proceed as follows to use this transmitter:
          Ncat: Listening on :::1234
          Ncat: Listening on 0.0.0.0:1234
       
-* After a connection lines of the following form appear:      
+* After connection lines of the following form appear:      
       
          Ncat: Connection from ::1.
          Ncat: Connection from ::1:60629.
@@ -192,7 +192,7 @@ which gives the following information:
 
     optional arguments:
     -h, --help            show this help message and exit
-    --port PORT           provide port to listen at, default=10000
+    --port PORT           provide port to listen to, default=10000
     --host HOST           provide host name to listen, default=localhost
     --device DEVICE       provide device pattern, e.g. ttyACM without number,
                           default=ttyACM
@@ -213,7 +213,7 @@ Start the TCP server on a commandline with a sequence of commands as follows:
 
 Here, GPSBabel converts the GPX data of the input file to NMEA `GGA` sentences only and streams them to the [`nmeahandler.py`](Downloads/nmeahandler.py) script which carries out the described data update and forwards the updated data to the TCP server. Each NMEA data sentence is sent by GPSBabel after a 3 seconds pause. `Ncat` is used in the example as TCP server. The next image shows the result of such a procedure in QMS. 
 
-NMEA `GGA` sentences have only a time but no date information. The timestamp displayed in the realtime window is composed of the date of the replay and the UTC time of recording!
+NMEA `GGA` sentences have only time but no date information. The timestamp displayed in the realtime window is composed of the date of the replay and the UTC time of recording!
     
 ![GPX replay](images/DocAdv/RealtimeReplay.png)
 
@@ -224,22 +224,22 @@ The approach described in this section is similar to the one described in the se
 To get NMEA data from Garmin GPSMap 64s or a similar device on a Windows 10 PC a few configuration settings must be done:
 
 * Switch on the device and wait for a satellite fix.
-* Go to to the main page and select `Setup` and then `System`.
+* Go to the main page and select `Setup` and then `System`.
 * Set the interface to `Garmin spanner`.
-* Connect the device with an USB cable to the PC.
+* Connect the device with a USB cable to the PC.
 * When asked `Would you like to go to mass storage?` select `no` (no additional disk drives are added in this case!). The device is now ready to send NMEA data to the PC using the USB interface.
 * Open the Windows device manager or a similar tool. There should be a new entry `Garmin devices` with a subentry `Garmin USB GPS`. Double-click the last entry and check the device information in the next window. If the device has been installed properly, then there shouldn't be an error message in this window. 
 
     ![Windows device manager](images/DocAdv/RealtimeDevMan.png "Windows10 device manager")
 
-    The next snapshots shows the driver details tab revealing the installed Garmin drivers for the device.
+    The next snapshot shows the driver details tab revealing the installed Garmin drivers for the device.
 
     ![Windows device manager, driver details](images/DocAdv/RealtimeDevManDrivers.png "Windows10 device manager - Garmin driver details")
 
 _Remark:_ If no Garmin device appears in the device manager, then 
 
 * check if your device is connected to a serial port. In this case, use the approach described in section [Using serial interface and Ncat](#using-serial-interface-and-ncat-windows-os),
-* check if your device is exposed as mass storage device. In this case restart your GPS receiver, ensure the correct settings and don't use it as mass storage device, when asked.
+* check if your device is exposed as mass storage device. In this case, restart your GPS receiver, ensure the correct settings and don't use it as mass storage device, when asked.
 
 On a commandline a sequence of commands for starting the TCP server can look as follows:
 
@@ -249,13 +249,13 @@ Stop the transmission of data from the receiver by pressing `CTRL-C` in the comm
     
 _Remarks:_ 
 
-* A Garmin GPSMap 60CSx device can be used in a similar way.
+* A Garmin GPSMap 60CSx device can be used similarly.
 * Garmin Etrex Vista devices only support serial interfaces, either directly or with the help of a USB-to-Serial adapter. When using a USB-to-Serial adapter be sure that it works correctly with your operating system (insert GPSBabel option -D9 to see if and how GPSBabel establishes the serial connection). Tested was a TrendNet TU-9 adapter with a Prolific PL-2303 HXD chip and latest Windows 10 drivers. Set the interface in the Etrex Vista settings to `Garmin` and replace `usb:` in the commandline shown above with `com9` where `9` should be the number of the COM port for the adapter. If the Etrex Vista interface is set to `NMEA`, then the device sends a continuous flow of NMEA data without line end markers. These data can't be parsed by the involved tools because they assume that NMEA data is sent in records (with some line end). 
 
 ### Using Garmin etrex VISTA HCx with Ubuntu 20.04
 
-Some experience of using Garmin etrex Vist HCx with Ubuntu 20.04 can be found [here](https://sourceforge.net/p/qlandkartegt/mailman/message/37126840/).    
-    
+Some experience of using Garmin etrex Vist HCx with Ubuntu 20.04 can be found [here](https://sourceforge.net/p/qlandkartegt/mailman/message/37129094/). 
+                                                                                                                                           
 ### QMS as TCP client
     
 After successful configuration of the TCP server and the QMS TCP client and after establishing the connection between server and client QMS receives permanently the GPS locations transmitted by the TCP server and visualizes them as moving objects (aircraft or circles) in the map window. If the record icon is pressed, then the locations are shown as an animated line in the map window. The locations can be recorded as described in the [OpenSky application section](#opensky-flight-data).
@@ -270,7 +270,7 @@ The last location (position) is shown together with other GPS data in the realti
 
 ### NMEA and other restrictions
 
-The NMEA data format is a rather variable data format. Each GPS receiver may use some specific features of this format. QMS does not know about all of these conceivable formatting variants. The QMS NMEA data parser handles mainly the most commonly used NMEA sentence identifiers `RMC` (Recommended minimum specific GPS/Transit data) and `GGA` (Global Positioning System Fix Data) to get timestamp, position and elevation and some other data.
+The NMEA data format is a rather variable. Each GPS receiver may use some specific features of this format. QMS does not know about all of these conceivable formatting variants. The QMS NMEA data parser handles mainly the most commonly used NMEA sentence identifiers `RMC` (Recommended minimum specific GPS/Transit data) and `GGA` (Global Positioning System Fix Data) to get timestamp, position, elevation, and some other data.
 
 NMEA data in QMS is valid (is used in QMS) if it fulfills the following reasonable restrictions:
 
