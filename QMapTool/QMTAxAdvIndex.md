@@ -18,7 +18,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 
-[C](#c) [E](#e) [G](#g) [M](#m) [O](#o) [Q](#q) [R](#r) [S](#s)
+[C](#user-content-c) [E](#user-content-e) [G](#user-content-g) [M](#user-content-m) [O](#user-content-o) [Q](#user-content-q) [R](#user-content-r) [S](#user-content-s)
 
 ------
 

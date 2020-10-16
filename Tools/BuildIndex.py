@@ -170,7 +170,7 @@ _The symbol_ "%s" _is used as a separator in the case that several links belong 
 
     for x in idxlistd:
       if x[0][2] not in idxtoc:
-        idxtoc["[%s](#%s)" % (x[0][2].upper(), x[0][2].lower())] = x[0]
+        idxtoc["[%s](#user-content-%s)" % (x[0][2].upper(), x[0][2].lower())] = x[0]
 
     usedletters = list(idxtoc.keys())   
     usedletters.sort()                                          # sorted list of used first uppercase letters

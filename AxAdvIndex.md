@@ -20,7 +20,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 
-[A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w)
+[A](#user-content-a) [B](#user-content-b) [C](#user-content-c) [D](#user-content-d) [E](#user-content-e) [F](#user-content-f) [G](#user-content-g) [H](#user-content-h) [I](#user-content-i) [K](#user-content-k) [L](#user-content-l) [M](#user-content-m) [N](#user-content-n) [O](#user-content-o) [P](#user-content-p) [Q](#user-content-q) [R](#user-content-r) [S](#user-content-s) [T](#user-content-t) [U](#user-content-u) [V](#user-content-v) [W](#user-content-w)
 
 ------
 
@@ -370,6 +370,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Edit window, of project**
 :  [Attach waypoints to track](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information "Attach waypoints to track")
+
+**Edit, Markdown links**
+:  [General rules for building GitHub fragment identifiers](DevelopingDocumentation#general-rules-for-building-github-fragment-identifiers "General rules for building GitHub fragment identifiers")
 
 **Edit, points of lines**
 :  [Edit line points](DocGisItemsEditMultiple#edit-line-points "Edit line points")
@@ -854,6 +857,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Mapsforge, map**
 :  [Mapsforge Maps](DocBasicsMapDem#mapsforge-maps "Mapsforge Maps")
+
+**Markdown links, edit**
+:  [General rules for building GitHub fragment identifiers](DevelopingDocumentation#general-rules-for-building-github-fragment-identifiers "General rules for building GitHub fragment identifiers")
 
 **MBTILES, use for maps**
 :  [ECW, MBTILES and MrSID maps](DocMapsTipsRasterDEM#ecw-mbtiles-and-mrsid-maps "ECW, MBTILES and MrSID maps")
@@ -1343,6 +1349,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Slope, visualization**
 :  [Adjustable elevation properties](AdvMapDetails#adjustable-elevation-properties "Adjustable elevation properties")
+
+**Slugify, rules**
+:  [General rules for building GitHub fragment identifiers](DevelopingDocumentation#general-rules-for-building-github-fragment-identifiers "General rules for building GitHub fragment identifiers")
 
 **SQLite, database**
 :  [SQLite](DocGisDatabaseAddRemove#sqlite "SQLite")

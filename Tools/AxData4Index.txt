@@ -1453,15 +1453,27 @@ ___Developing QMapShack___
         * [HOWTO enable/disable source translations extraction](DeveloperTranslate#howto-enabledisable-source-translations-extraction)
         * [HOWTO translate qmapshack.desktop (UNIX like only)](DeveloperTranslate#howto-translate-qmapshackdesktop-unix-like-only)
 
-
-
 * [Developing Documentation](DevelopingDocumentation)
     * [Prerequisites](DevelopingDocumentation#prerequisites)
     * [Remarks about the Markdown language](DevelopingDocumentation#remarks-about-the-markdown-language)
+
+    * [General rules for building GitHub fragment identifiers](DevelopingDocumentation#general-rules-for-building-github-fragment-identifiers)
+    +General slugify rules
+        1. Edit|Markdown links
+        1. Markdown links|edit
+        1. Slugify|rules
+        
+        * [Preliminaries and recommendations](DevelopingDocumentation#preliminaries-and-recommendations)
+        * [General fragment identifier build rules](DevelopingDocumentation#general-fragment-identifier-build-rules)
+        * [Differences for Google Chrome fragment identifier build rules](DevelopingDocumentation#differences-for-google-chrome-fragment-identifier-build-rules)
+        +Google Chrome differences
+        * [Overview of slugify rules](DevelopingDocumentation#overview-of-slugify-rules)
+
     * [General recommendations for editing QMS Wiki pages](DevelopingDocumentation#general-recommendations-for-editing-qms-wiki-pages)
-    Recommendations for editing
+    +Recommendations for editing
         1. Edit|QMS documentation
         1. QMS documentation|edit
+
 
     * [QMapShack-specific rules for Markdown use](DevelopingDocumentation#qmapshack-specific-rules-for-markdown-use)
     * [Further recommendations for editing Wiki pages](DevelopingDocumentation#further-recommendations-for-editing-wiki-pages)
