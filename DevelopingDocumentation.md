@@ -129,7 +129,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
     1. Convert the header text to lowercase.
     1. Remove anything that is not a letter, number, space, underscore, or hyphen.
     1. Replace each space with a hyphen.
-    1. Add the prefix `user-content-` (GitHub-specific optional but recommended prefix).     
+    1. Add the prefix `user-content-` (GitHub-specific prefix).     
    
     Thus, the fragment identifier referencing the ASCII header line
 
@@ -406,7 +406,7 @@ The following table describes the slugify action to be taken for characters in t
         [Text](../File)
 
     or they will not be resolvable while you inspect your work online on
-    the GitHub server or offline by manually [converting Markdown files to HTML][EditOffline].
+    the GitHub server or offline by manually [converting Markdown files to HTML][Workflow].
     
     For new QMapTool Markdown files, the prefix should be `../QMapTool/`.
     
@@ -488,18 +488,18 @@ The following table describes the slugify action to be taken for characters in t
 [GFM]:        https://GitHub.GitHub.com/gfm/ "GitHub Flavored Markdown Specification"
 [WIKI]:       https://github.com/Maproom/qmapshack/wiki "QMS Wiki on GitHub"
 [MSYS]:       https://www.msys2.org/ "MSYS installation"
+[UCDcats]:    http://www.fileformat.info/info/unicode/category/index.htm "Unicode categories"
 
-[EditOffline]: #offline-editing-workflow "Offline editing"
-[General]:     #general-recommendations-for-editing-qms-wiki-pages "General recommendations"
-[NewMD]:       #rules-for-new-pages "Rules for new pages"
-[Workflow]:    #offline-editing-workflow "Offline editing - workflow"
-[IDX]:         AxMaintainIndex "Maintain QMS index"
-[TC]:          AxMaintainPageTOC "Maintain QMS TOC"
-[HelpOffline]: OfflineDocumentation  "Offline help"
+[General]:      #general-recommendations-for-editing-qms-wiki-pages "General recommendations"
+[NewMD]:        #rules-for-new-pages                                "Rules for new pages"
+[Workflow]:     #offline-editing-workflow                           "Offline editing - workflow"
+[GeneralRules]: #general-fragment-identifier-build-rules            "General fragment identifier build rules"
 
-[GeneralRules]: #general-fragment-identifier-build-rules "General fragment identifier build rules"
+[IDX]:         AxMaintainIndex                                     "Maintain QMS index"
+[TC]:          AxMaintainPageTOC                                   "Maintain QMS TOC"
+[HelpOffline]: OfflineDocumentation                                "Offline help"
 
-[UCDcats]:     http://www.fileformat.info/info/unicode/category/index.htm "Unicode categories"
+
 
 - - -
 [Prev](DeveloperTranslate) (Add translations) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Recommendations for editing QMS Wiki pages) [Next](AxMaintainAutoPages)
