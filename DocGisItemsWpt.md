@@ -23,7 +23,7 @@ A waypoint is a coordinate with data attached. This can be a point of interest, 
 
 ![Waypoint Highlight](images/DocGisItemsWpt/WptHighlight.png)
 
-[Geocaches](#geocaches) are handled  in QMS as waypoints with special features.
+[Geocaches](#user-content-geocaches) are handled  in QMS as waypoints with special features.
 
 ## Create waypoint
 
@@ -201,10 +201,10 @@ _Remarks:_
 [WptIcon]:    images/DocGisItemsWpt/WptIcons.jpg    "Select waypoint icon"
 [WptProject]: images/DocGisItemsWpt/WptProject.jpg  "Select project for waypoint"
 
-[TrkCreate]:  DocGisItemsTrk#create-track           "Create a track"
-[RteCreate]:  DocGisItemsRte#create-route           "Create a route"
-[WebServ]:    DocFaqMaps#how-to-find-information-about-a-position-a-poi-in-the-web "Get location information from web service"
-[NoGo]:       DocGisItemsRouting#using-no-go-areas-and-lines  "Handling no-go areas"
+[TrkCreate]:  DocGisItemsTrk#user-content-create-track           "Create a track"
+[RteCreate]:  DocGisItemsRte#user-content-create-route           "Create a route"
+[WebServ]:    DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-in-the-web "Get location information from web service"
+[NoGo]:       DocGisItemsRouting#user-content-using-no-go-areas-and-lines  "Handling no-go areas"
 
 
 - - -

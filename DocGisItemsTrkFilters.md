@@ -50,7 +50,7 @@ _In both cases_
 
 To apply (run) a filter click the ![Run filter](images/DocAdv/FilterRun.jpg "Run filter") icon at the right border of the filter. Most filter results can be reverted with the help of the [track history][History].
 
-[History]:  DocGisItems#undo--redo  "Use of history list"
+[History]:  DocGisItems#user-content-undo--redo  "Use of history list"
 
 ## Point filters
 
@@ -294,7 +294,7 @@ _Hints:_
 
 ![Time Filter Hiking Check Range](images/DocAdv/TimeFilterHikingRange.jpg "Time Filter: Hiking Check Range")
 
-* Once you have applied this filter you can also [set a starting time](#change-time). Then open the project properties tab (Right-click on the project - Edit) and you will get a pretty project diary with detailed info about estimated time for all Waypoints on the track. Taking this in your head ( or in a paper) can help you to check and take right decisions at place. 
+* Once you have applied this filter you can also [set a starting time](#user-content-change-time). Then open the project properties tab (Right-click on the project - Edit) and you will get a pretty project diary with detailed info about estimated time for all Waypoints on the track. Taking this in your head ( or in a paper) can help you to check and take right decisions at place. 
 
 ![Project Diary](images/DocAdv/ProjectDiarySample.jpg "Time Filter: Hiking Check Range")
 
@@ -350,7 +350,7 @@ with a _(segment xx)_ suffix.
 (_valid starting with QMS patch version 7ac34c818ec1/2016-12-06_)
 
 When creating a track, the user creates with the help of mouse clicks (ordinary) trackpoints. Depending on the selected
-[routing method](DocGisItemsRouting#description-of-routing-methods-in-qmapshack)
+[routing method](DocGisItemsRouting#user-content-description-of-routing-methods-in-qmapshack)
 additional trackpoints are being added automatically by the routing algorithm. These additional trackpoints are
 called _subpoints_.
 
@@ -385,7 +385,7 @@ Assume you have a track that is a round-trip (start point equals end point). Thi
 
 To use this filter proceed as follows:
 
-* Define a new waypoint on the track as new start point. The new waypoint should be saved in the project used for the track. It should be close to the track so that it is seen as [attached waypoint](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information) (distance < 50m from the track). 
+* Define a new waypoint on the track as new start point. The new waypoint should be saved in the project used for the track. It should be close to the track so that it is seen as [attached waypoint](DocGisItemsTrk#user-content-attach-waypoints-to-a-track-to-get-additional-track-information) (distance < 50m from the track). 
 
     The next image shows a round-trip track with its original start point (WPT0) and 2 attached waypoints on the track (WPT1, WPT2). To check, if the new start point is attached to the track, use the project diary (the project edit window). 
 

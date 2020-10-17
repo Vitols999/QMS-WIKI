@@ -60,7 +60,7 @@ sudo apt-get install libquazip5-headers libquazip5-1 libquazip5-dev
 ```bash
 source /opt/qt54/bin/qt54-env.sh
 ```
-[go on with the build instructions](DocGetQMapShack#linux)
+[go on with the build instructions](DocGetQMapShack#user-content-linux)
 
 
 ## Running the software:

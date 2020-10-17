@@ -153,7 +153,7 @@ If you found an index entry "__MainIndex, subindex__" in the index that you want
 * Open the raw index in an editor and find the link part (the `TestPage#label` part).
   There should be exactly 1 line with a "__*__"
   marker and the given link part. If not then there is some inconsistency between the index and the raw index.
-  Go to section [Consistency checks](#consistency-checks)
+  Go to section [Consistency checks](#user-content-consistency-checks)
   first and remove the inconsistencies. Then continue here.
 * Find in one of the following lines with a "__1.__" marker the text string "__MainIndex, subindex__".
 * Now you can edit
@@ -168,7 +168,7 @@ If you found an index entry "__MainIndex, subindex__" in the index that you want
       use lowercase for the first word in __subindex__.
     * Avoid any special formatting in the text strings.
 
-* Continue as described in section [Updating the index](#updating-the-index).
+* Continue as described in section [Updating the index](#user-content-updating-the-index).
 
 ## Consistency checks
 
@@ -273,10 +273,10 @@ This is a recommended sequence of steps when editing the index in a local copy o
 1. Run `BuildToc.py` to update the complete table of contents.
 1. Run `CompareIdxToc.py` to get inconsistencies between the complete table of contents and the raw index (output in console window!).
 1. Remove these inconsistencies (compare section
-[Table of contents consistency check](#table-of-contents-consistency-check "TOC consistency check")).
+[Table of contents consistency check](#user-content-table-of-contents-consistency-check "TOC consistency check")).
 1. Run `CheckIndex.py` to get inconsistencies between the raw index and the index (output in console window!).
 1. Open the raw index `.\Tools\AxDate4Index.md` in an editor and remove manually these inconsistencies
-  (compare section [Index consistency check](#index-consistency-check "Index consistency check")).
+  (compare section [Index consistency check](#user-content-index-consistency-check "Index consistency check")).
 1. Modify index entries in the raw index as wanted and save the file when finished.
 1. Run `BuildIndex.py` to rebuild the index.
 1. Run the navbar tool `make nav` to insert navigation bars into the index page

@@ -188,7 +188,7 @@ To achieve a QMS restart, carry out the following steps one after the other unti
 
 
 
-[SetupFiles]: #where-does-qms-save-setup-configuration-and-other-information "Save setup info"
+[SetupFiles]: #user-content-where-does-qms-save-setup-configuration-and-other-information "Save setup info"
   
 
 

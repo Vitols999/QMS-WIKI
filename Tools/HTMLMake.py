@@ -52,7 +52,6 @@ DIRNAME = os.path.abspath(".")   # folder in which all QMS MD files can be found
 
 HTMLDIR = "doc/html"             # relative path to subdirectory with .html files (root: Wiki root directory)
 
-FILES2CONVERT = (sys.argv[1], )  # convert MD file given on command line
 SINGLEFILE = True                # convert just 1 file - don't change or remove, used in another script variant!
 
 # ## HTML header and footer definitions
@@ -388,5 +387,7 @@ def DoIt():
     return
 
 if __name__ == '__main__':
+    FILES2CONVERT = (sys.argv[1], )  # convert MD file given on command line
+
     DoIt()
 

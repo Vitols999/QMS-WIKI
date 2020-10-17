@@ -129,7 +129,7 @@ GitHub, you should have sufficient knowledge of the installation and use of
     1. Convert the header text to lowercase.
     1. Remove anything that is not a letter, number, space, underscore, or hyphen.
     1. Replace each space with a hyphen.
-    1. Add the prefix `user-content-` (GitHub-specific prefix).     
+    1. Add the prefix `user-content-` (GitHub-specific prefix, required for QMS offline help).     
    
     Thus, the fragment identifier referencing the ASCII header line
 
@@ -490,10 +490,10 @@ The following table describes the slugify action to be taken for characters in t
 [MSYS]:       https://www.msys2.org/ "MSYS installation"
 [UCDcats]:    http://www.fileformat.info/info/unicode/category/index.htm "Unicode categories"
 
-[General]:      #general-recommendations-for-editing-qms-wiki-pages "General recommendations"
-[NewMD]:        #rules-for-new-pages                                "Rules for new pages"
-[Workflow]:     #offline-editing-workflow                           "Offline editing - workflow"
-[GeneralRules]: #general-fragment-identifier-build-rules            "General fragment identifier build rules"
+[General]:      #user-content-general-recommendations-for-editing-qms-wiki-pages "General recommendations"
+[NewMD]:        #user-content-rules-for-new-pages                                "Rules for new pages"
+[Workflow]:     #user-content-offline-editing-workflow                           "Offline editing - workflow"
+[GeneralRules]: #user-content-general-fragment-identifier-build-rules            "General fragment identifier build rules"
 
 [IDX]:         AxMaintainIndex                                     "Maintain QMS index"
 [TC]:          AxMaintainPageTOC                                   "Maintain QMS TOC"

@@ -52,7 +52,7 @@ be changed by the user. A change will affect every track for which this option w
 _Remark:_ Other already open track edit windows won't be updated when changing the settings for the given track.
 The user should re-open them.
 
-[TrkEdit]: DocGisItemsTrk#view--edit-details "Track edit window"
+[TrkEdit]: DocGisItemsTrk#user-content-view--edit-details "Track edit window"
 
 
 - - -

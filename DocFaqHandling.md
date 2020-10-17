@@ -104,7 +104,7 @@ A similar data field is `gpxtpx:course`. This field contains an angle measured i
 (the _course_).
 
 Compare also section 
-[Recorded and calculated track data](DocGisItemsTrk#recorded-and-calculated-tracks).
+[Recorded and calculated track data](DocGisItemsTrk#user-content-recorded-and-calculated-tracks).
 
 
 ![Recorded gpxtpx:speed vs. speed graphs](images/DocFaq/FaqGpxTpxSpeed.jpg "Recorded gpxtpx:speed vs. speed graphs")

@@ -331,7 +331,7 @@ To use the distance rule proceed as follows:
  
 * Finally, press the `Close` button in the toolbar to close the ruler tool.    
 
-[MapRange]: #use-of-map-visibility-range "Use of map visibility range"
+[MapRange]: #user-content-use-of-map-visibility-range "Use of map visibility range"
     
 [MapScale1]:  images/DocAdv/MapScale1.png  "Map visibility ranges"
 [MapScale2]:  images/DocAdv/MapScale2.png  "Map visibility ranges"

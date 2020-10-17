@@ -57,7 +57,7 @@ As soon as the connection is established between the data source and QMS and rea
 
 ## OpenSky flight data
 
-Activate the OpenSky data source as described in the [previous section](#general-description).
+Activate the OpenSky data source as described in the [previous section](#user-content-general-description).
 
 The [OpenSky Network](https://opensky-network.org) provides realtime flight data (aircraft information). The given application uses this data and displays graphically information about a selected aircraft moving within the map area.
 
@@ -136,7 +136,7 @@ This TCP server together with QMS as TCP client needs a few installation and con
     
 * _Configuration of QMS_
 
-    * Activate the GPS Tether data source as described at the [top of this page](#general-description).
+    * Activate the GPS Tether data source as described at the [top of this page](#user-content-general-description).
     * Insert the IP address of the smartphone and the port number into the respective edit fields.
     * Click the connect icon (![Connect icon](images/DocAdv/Disconnected.png "Connect")). The connection between QMS and `GPS Tether` on the smartphone will be established and the icon changes to show the connection (![Connect icon](images/DocAdv/Connected.png "Connected")).
     
@@ -199,13 +199,13 @@ which gives the following information:
     --device-directory DEVICE_DIRECTORY
                           provide device directory, e.g. /dev, default=/dev
                           
-Configure and use QMS as described for [GPS Tether on smartphones](#gps-tether-on-android-smartphones).                          
+Configure and use QMS as described for [GPS Tether on smartphones](#user-content-gps-tether-on-android-smartphones).                          
 
 _Remark:_ The Python script imports the `serial` module. This module should be installed first.
                           
 ### Track replay
 
-Tracks recorded by a GPS device are typically saved as GPX or similar files and not as NMEA files. The well-known [GPSBabel](https://www.gpsbabel.org) tool converts tracks and other GPS data between different formats. For example, GPSBabel can convert a GPX file with recorded GPS data into a NMEA file. Therefore, GPSBabel can be used as a virtual GPS receiver and replay the recorded data via a TCP server into QMS. An advantage of GPSBabel is the control over the frequency of the data output. The only restrictions are the (quite reasonable) [requirements imposed on NMEA data by QMS](#nmea-and-other-restrictions). On output of NMEA `GGA` sentences GPSBabel sets the `Fix quality` to 0 and adds microseconds to timestamps. These 2 data items can be easily corrected with a small script reading the GPSBabel NMEA output, changing the 2 items properly and forwarding the corrected output to the TCP server.
+Tracks recorded by a GPS device are typically saved as GPX or similar files and not as NMEA files. The well-known [GPSBabel](https://www.gpsbabel.org) tool converts tracks and other GPS data between different formats. For example, GPSBabel can convert a GPX file with recorded GPS data into a NMEA file. Therefore, GPSBabel can be used as a virtual GPS receiver and replay the recorded data via a TCP server into QMS. An advantage of GPSBabel is the control over the frequency of the data output. The only restrictions are the (quite reasonable) [requirements imposed on NMEA data by QMS](#user-content-nmea-and-other-restrictions). On output of NMEA `GGA` sentences GPSBabel sets the `Fix quality` to 0 and adds microseconds to timestamps. These 2 data items can be easily corrected with a small script reading the GPSBabel NMEA output, changing the 2 items properly and forwarding the corrected output to the TCP server.
 
 Start the TCP server on a commandline with a sequence of commands as follows:
 
@@ -219,7 +219,7 @@ NMEA `GGA` sentences have only time but no date information. The timestamp displ
 
 ### Using Garmin devices with Windows 10
 
-The approach described in this section is similar to the one described in the section [Track replay](#track-replay). The only difference is the input to GPSBabel. For GPS replay a GPX file is used as GPSBabel input. Here, GPSBabel reads its input directly from the connected GPS receiver in form of NMEA data.
+The approach described in this section is similar to the one described in the section [Track replay](#user-content-track-replay). The only difference is the input to GPSBabel. For GPS replay a GPX file is used as GPSBabel input. Here, GPSBabel reads its input directly from the connected GPS receiver in form of NMEA data.
 
 To get NMEA data from Garmin GPSMap 64s or a similar device on a Windows 10 PC a few configuration settings must be done:
 
@@ -238,7 +238,7 @@ To get NMEA data from Garmin GPSMap 64s or a similar device on a Windows 10 PC a
 
 _Remark:_ If no Garmin device appears in the device manager, then 
 
-* check if your device is connected to a serial port. In this case, use the approach described in section [Using serial interface and Ncat](#using-serial-interface-and-ncat-windows-os),
+* check if your device is connected to a serial port. In this case, use the approach described in section [Using serial interface and Ncat](#user-content-using-serial-interface-and-ncat-windows-os),
 * check if your device is exposed as mass storage device. In this case, restart your GPS receiver, ensure the correct settings and don't use it as mass storage device, when asked.
 
 On a commandline a sequence of commands for starting the TCP server can look as follows:
@@ -258,7 +258,7 @@ Some experience of using Garmin etrex Vist HCx with Ubuntu 20.04 can be found [h
                                                                                                                                            
 ### QMS as TCP client
     
-After successful configuration of the TCP server and the QMS TCP client and after establishing the connection between server and client QMS receives permanently the GPS locations transmitted by the TCP server and visualizes them as moving objects (aircraft or circles) in the map window. If the record icon is pressed, then the locations are shown as an animated line in the map window. The locations can be recorded as described in the [OpenSky application section](#opensky-flight-data).
+After successful configuration of the TCP server and the QMS TCP client and after establishing the connection between server and client QMS receives permanently the GPS locations transmitted by the TCP server and visualizes them as moving objects (aircraft or circles) in the map window. If the record icon is pressed, then the locations are shown as an animated line in the map window. The locations can be recorded as described in the [OpenSky application section](#user-content-opensky-flight-data).
 
 ![GPS Tether track](images/DocAdv/GPSTetherTrack.jpg "GPS Tether track")
 

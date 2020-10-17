@@ -82,15 +82,15 @@ _Remarks on other toolbar actions:_
 
 
 
-[EditMeta]: DocGisItems#create-data                         "Edit description and comment"
-[EditPts]:  DocGisItemsEditMultiple#edit-line-points        "Edit shape of area"
-[Hist]:     DocGisItems#undo--redo                          "Use of history list"
-[Tags]:     DocDataSearch#tagging-data                      "Set and use tags"
-[NoGo]:     DocGisItemsRouting#using-no-go-areas-and-lines  "Handling no-go areas"
-[Routing]:  DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing options in toolbar"
-[TrkPts]:   DocGisItemsEditMultiple#line-edit-mode          "Meaning of points on track"
-[MultiPt]:  DocGisItemsEditMultiple#create-new-data         "Create multi-point data"
-[DataMultiplePts]: DocGisItemsEditMultiple                  "Multi-point data"
+[EditMeta]: DocGisItems#user-content-create-data                         "Edit description and comment"
+[EditPts]:  DocGisItemsEditMultiple#user-content-edit-line-points        "Edit shape of area"
+[Hist]:     DocGisItems#user-content-undo--redo                          "Use of history list"
+[Tags]:     DocDataSearch#user-content-tagging-data                      "Set and use tags"
+[NoGo]:     DocGisItemsRouting#user-content-using-no-go-areas-and-lines  "Handling no-go areas"
+[Routing]:  DocGisItemsRouting#user-content-description-of-routing-methods-in-qmapshack "Routing options in toolbar"
+[TrkPts]:   DocGisItemsEditMultiple#user-content-line-edit-mode          "Meaning of points on track"
+[MultiPt]:  DocGisItemsEditMultiple#user-content-create-new-data         "Create multi-point data"
+[DataMultiplePts]: DocGisItemsEditMultiple                               "Multi-point data"
 
 [Area]:        images/DocGisItemsArea/Area.jpg              "Area without routing"
 [AreaRoute]:   images/DocGisItemsArea/AreaWithRouting.jpg   "Area with routing"

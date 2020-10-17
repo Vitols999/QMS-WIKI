@@ -80,7 +80,7 @@ In line edit mode a toolbar with several buttons is displayed at the top of the 
 ![Line edit toolbar](images/DocGisItemsEditMultiple/LineEditToolbar.jpg)
 
 [Edit]: images/icons/EditDetails.png "Edit general information"
-[TrkRange]: DocGisItemsTrkRange#track-ranges "Track ranges"
+[TrkRange]: DocGisItemsTrkRange#user-content-track-ranges "Track ranges"
 
 The next table gives a short description of the meaning of the toolbar buttons resp. icons. More details are given in the section ["Edit line points"][PtsEdit]
 
@@ -145,9 +145,9 @@ The routing mode can be changed during the track/route creation by pressing the 
 
 While in line edit mode the last change can be undone with a click on the undo icon ![Undo](images/icons/Undo.png). An undone change can be redone with a click on the redo icon ![Redo](images/icons/Redo.png).
 
-[RteModes]:  DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing methods"
-[PtsEdit]:   #edit-line-points                                              "Edit line points"            
-[Routing]:   DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing"
+[RteModes]:  DocGisItemsRouting#user-content-description-of-routing-methods-in-qmapshack "Routing methods"
+[PtsEdit]:   #user-content-edit-line-points                                              "Edit line points"            
+[Routing]:   DocGisItemsRouting#user-content-description-of-routing-methods-in-qmapshack "Routing"
 
 - - -
 [Prev](DocGisItems) (Data in QMapShack) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Tracks) [Next](DocGisItemsTrk)

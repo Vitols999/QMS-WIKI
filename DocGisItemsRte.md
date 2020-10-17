@@ -53,7 +53,7 @@ a tour. After the final edit step, the route can easily be converted into a trac
 QMS offers tools to create and edit both routes and tracks.
 
 
-[RteTrk]: DocGisItemsTrk#tracks-vs-routes "Route vs. track" 
+[RteTrk]: DocGisItemsTrk#user-content-tracks-vs-routes "Route vs. track" 
 
 
 
@@ -103,7 +103,7 @@ To check if autorouting is active or to activate it proceed as follows:
 1. Right-click the mouse and select `Add route` from the context menu which pops-up. A [toolbox][LineEditToolbar] appears on the top of the map
    view.
 1. Press `A` (autorouting), `O` (off-road routing) or `V` (vector routing) to select a routing method
-   (described in detail [here](DocGisItemsRouting#description-of-routing-methods-in-qmapshack)).
+   (described in detail [here](DocGisItemsRouting#user-content-description-of-routing-methods-in-qmapshack)).
 1. Move the mouse pointer to the next routing point in the map view and left-click the mouse. After a short moment, the path connecting the previous with the current waypoint is shown (maybe in form of a straight line). _Remark:_ The first waypoint is shown with a yellow border, the last one with a green border. Waypoints between the first and the last one are shown as big black rectangles. A change of the routing method during the route creation procedure is allowed. The newly selected method will be applied to all further waypoints.
 1. Repeat the previous step up to the end of the route.
 1. After reaching the last waypoint of the route right-click the mouse. This stops the creation of new routing points.
@@ -319,16 +319,16 @@ Here is an example of route optimization:
 [RteToolbar]:   images/DocGisItemsRte/RteActions.jpg      "Short route info & toolbar"
 [RteDetails]:   images/DocGisItemsRte/RteEditDetails.jpg  "Route details"    
 
-[NoGo]:          DocGisItemsRouting#using-no-go-areas-and-lines                 "Handling no-go areas"
-[Routing]:       DocGisItemsRouting#description-of-routing-methods-in-qmapshack "Routing options in toolbar"
-[EditMultiPts]:  DocGisItemsEditMultiple#edit-line-points                       "Edit multi-point objects"    
-[LineEdit]:      DocGisItemsEditMultiple#line-edit-mode                         "Line edit mode"    
-[Tags]:          DocDataSearch#tagging-data                                     "Add tags to data"    
-[CreateWpt]:     DocGisItemsWpt#create-waypoint                                 "Create waypoint"
-[CreateMultiPt]: DocGisItemsEditMultiple#create-new-data                        "Create multi-point object"
-[RouterSetup]:   AdvSetup#routing-setup                                         "Router setup"
-[RouterCfg]:     DocGisItemsRouting#configuration-of-routing-engines            "Router configuration"
-[LineEditToolbar]: DocGisItemsEditMultiple#line-edit-toolbar                    "Line edit toolbar"
+[NoGo]:          DocGisItemsRouting#user-content-using-no-go-areas-and-lines                 "Handling no-go areas"
+[Routing]:       DocGisItemsRouting#user-content-description-of-routing-methods-in-qmapshack "Routing options in toolbar"
+[EditMultiPts]:  DocGisItemsEditMultiple#user-content-edit-line-points                       "Edit multi-point objects"    
+[LineEdit]:      DocGisItemsEditMultiple#user-content-line-edit-mode                         "Line edit mode"    
+[Tags]:          DocDataSearch#user-content-tagging-data                                     "Add tags to data"    
+[CreateWpt]:     DocGisItemsWpt#user-content-create-waypoint                                 "Create waypoint"
+[CreateMultiPt]: DocGisItemsEditMultiple#user-content-create-new-data                        "Create multi-point object"
+[RouterSetup]:   AdvSetup#user-content-routing-setup                                         "Router setup"
+[RouterCfg]:     DocGisItemsRouting#user-content-configuration-of-routing-engines            "Router configuration"
+[LineEditToolbar]: DocGisItemsEditMultiple#user-content-line-edit-toolbar                    "Line edit toolbar"
 
 
 - - -

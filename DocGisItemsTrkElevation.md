@@ -94,7 +94,7 @@ value with the help of the `GDAL` package. On a commandline 2 steps have to be e
 
   ![Trackpoints with corrected elevation](images/DocFaq/DEM13.jpg "Trackpoints with corrected elevation")
 
-[TrkEdit]: DocGisItemsTrk#view--edit-details "Track edit window"
+[TrkEdit]: DocGisItemsTrk#user-content-view--edit-details "Track edit window"
 
 
 - - -

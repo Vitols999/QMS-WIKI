@@ -203,15 +203,15 @@ _Remarks on other general toolbar actions:_
 * For details about the `Toggle no-go area` icon see [here][NoGo].
 
 
-[MultiPts]:   DocGisItemsEditMultiple#edit-line-points       "Editing features of multi-point data"
-[NoGo]:       DocGisItemsRouting#using-no-go-areas-and-lines "Handling no-go areas"
-[MapToolbar]: DocGisItemsEditMultiple#line-edit-toolbar      "Edit toolbar in map window"
-[Router]:     DocGisItemsRouting                             "Routing engines"
-[WptCreate]:  DocGisItemsWpt#create-waypoint                 "Create waypoint"
-[Devices]:    DocGisDevices                                  "GPS devices in QMapShack"
-[Databases]:  AdvProjects#databases-and-projects             "Databases in QMapShack"
-[Templates]:  DocGisTemplates                                "Use of templates"
-[Tags]:       DocDataSearch#tagging-data                     "Add tags to data"
+[MultiPts]:   DocGisItemsEditMultiple#user-content-edit-line-points       "Editing features of multi-point data"
+[NoGo]:       DocGisItemsRouting#user-content-using-no-go-areas-and-lines "Handling no-go areas"
+[MapToolbar]: DocGisItemsEditMultiple#user-content-line-edit-toolbar      "Edit toolbar in map window"
+[Router]:     DocGisItemsRouting                                          "Routing engines"
+[WptCreate]:  DocGisItemsWpt#user-content-create-waypoint                 "Create waypoint"
+[Devices]:    DocGisDevices                                                "GPS devices in QMapShack"
+[Databases]:  AdvProjects#user-content-databases-and-projects             "Databases in QMapShack"
+[Templates]:  DocGisTemplates                                             "Use of templates"
+[Tags]:       DocDataSearch#user-content-tagging-data                     "Add tags to data"
 
 [Template]:   images/icons/Template.png           "Template icon"
 [EditDescr]:  images/DocGisItems/EditDescr.jpg    "Edit description"

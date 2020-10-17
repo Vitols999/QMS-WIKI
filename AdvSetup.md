@@ -45,7 +45,7 @@ More details of the topics mentioned on this page can be found elsewhere in this
     * a time interval for automatic project data backup,
     * a listening port for a QMS multi-user environment,
     * how GPS devices should be handled by QMS. If this option is not checked, then GPS devices can't be seen in QMS. Otherwise GPS devices plugged in to the PC can be seen in QMS. For details compare section ["Working with GPS Devices"](DocGisDevices).
-    * whether [tags (ratings and keywords)](DocDataSearch#tagging-data) are shown in the workspace window for GIS data objects.
+    * whether [tags (ratings and keywords)](DocDataSearch#user-content-tagging-data) are shown in the workspace window for GIS data objects.
     
 * To control the visibility of parts of the workspace go to menu `Window`
     * `Toggle docks:` change visibility of all docked window parts at once.
@@ -146,7 +146,7 @@ The following setup options change the layout of all map windows:
     * _Remark:_ Each view has its own settings!
 * Menu `View - Setup map view`: 
     * Set the map scales to _Logarithmic_ or _Square_. A change of this option leads to a different zoom behavior of maps 
-     (compare section "[Map scale type](AdvMapDetails#map-scale-type)").
+     (compare section "[Map scale type](AdvMapDetails#user-content-map-scale-type)").
     * _Expert mode_: Define projection and datum (coordinate system) used for rendering of maps
     * _Remarks:_ 
         * Each view has its own settings!
@@ -157,14 +157,14 @@ The following setup options change the layout of all map windows:
 ### Single map display options
 
 With the help of these options the user controls the rendering of a single map. For details, see 
-section "[Adjustable map properties](AdvMapDetails#adjustable-map-properties)"
+section "[Adjustable map properties](AdvMapDetails#user-content-adjustable-map-properties)"
 
 
 ## Routing setup
 
 ### Routino database paths
 
-* _Assumption:_ Routing databases have been downloaded and installed. For more details compare also the [Quick start guide](DocQuickStartEnglish#steps-after-the-first-start).
+* _Assumption:_ Routing databases have been downloaded and installed. For more details compare also the [Quick start guide](DocQuickStartEnglish#user-content-steps-after-the-first-start).
 * Go to the `Routing` tab (docked window, if not visible, then open it with the menu entry `Window - Routing`).
 * In the combobox on the top of the window, select `Routino (offline)`.
 * Click the ![Open folder selection](images/icons/PathBlue.png "Folder selection") icon. In the pop-up window, add or remove paths to Routino databases.

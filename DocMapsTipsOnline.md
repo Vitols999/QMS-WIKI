@@ -80,16 +80,16 @@ QMS does support TMS.
 
 | Country | Regions | Remarks |
 |---------|---------|---------|
-|World   |[various in package 1](#sources-of-wmts-and-tms-map-files)| Strava heatmaps, maps based on OpenStreetmap |
-|Europe  |[various in package 1](#sources-of-wmts-and-tms-map-files)|  maps based on OpenStreetmap|
-|Austria |[various in package 1](#sources-of-wmts-and-tms-map-files)|  maps based on OpenStreetmap and other Austrian servers|
+|World   |[various in package 1](#user-content-sources-of-wmts-and-tms-map-files)| Strava heatmaps, maps based on OpenStreetmap |
+|Europe  |[various in package 1](#user-content-sources-of-wmts-and-tms-map-files)|  maps based on OpenStreetmap|
+|Austria |[various in package 1](#user-content-sources-of-wmts-and-tms-map-files)|  maps based on OpenStreetmap and other Austrian servers|
 |Belgium |[list of WMTS services with data for Belgium and wordwide](https://gitlab.com/GIS-projects/Belgium-WMTS), [IGN](http://www.ngi.be/cartoweb/1.0.0/WMTSCapabilities.xml) | topo map |
-|Czech Republic|[MTBMap.cz in package 1](#sources-of-wmts-and-tms-map-files)| mountain bike |
-|France  |[IGN](#wmts-configuration-for-french-ign-maps), [BRGM](#use-wms-server-as-tms-server)| IGN, geological service |
-|Germany |[various in package 1](#sources-of-wmts-and-tms-map-files), [North Rhine-Westphalia](#use-wms-server-as-tms-server) | maps based on OpenStreetmap and some German servers |
-|Italy   |[Italy](#use-arcgis-server-as-tms-server)| topo map|
-|Norway  |[Norway](#tms-configuration-for-norwegian-topo-maps)| topo map|
-|Spain   |[various in package 2](#sources-of-wmts-and-tms-map-files), [IGN](#use-wmts-server-as-tms-server) [Spain orthophotos](#tms-for-spanish-orthophoto-maps)| various Spanish servers |
+|Czech Republic|[MTBMap.cz in package 1](#user-content-sources-of-wmts-and-tms-map-files)| mountain bike |
+|France  |[IGN](#user-content-wmts-configuration-for-french-ign-maps), [BRGM](#user-content-use-wms-server-as-tms-server)| IGN, geological service |
+|Germany |[various in package 1](#user-content-sources-of-wmts-and-tms-map-files), [North Rhine-Westphalia](#user-content-use-wms-server-as-tms-server) | maps based on OpenStreetmap and some German servers |
+|Italy   |[Italy](#user-content-use-arcgis-server-as-tms-server)| topo map|
+|Norway  |[Norway](#user-content-tms-configuration-for-norwegian-topo-maps)| topo map|
+|Spain   |[various in package 2](#user-content-sources-of-wmts-and-tms-map-files), [IGN](#user-content-use-wmts-server-as-tms-server) [Spain orthophotos](#user-content-tms-for-spanish-orthophoto-maps)| various Spanish servers |
 
 
 ## Sources of WMTS and TMS map files
@@ -397,7 +397,7 @@ The WMTS "capabilities" can then be fetched at the following URL:
 
 (don't forget to replace **[YOUR_ID]** with your actual 24 character personal key)
 
-If your request is denied by IGN, it's maybe because QMapShack don't send the right headers, you can specify them manually with the `<RawHeader>` XML node, compare section ["Basic knowledge about maps and DEM files"](DocBasicsMapDem#wmts-maps).
+If your request is denied by IGN, it's maybe because QMapShack don't send the right headers, you can specify them manually with the `<RawHeader>` XML node, compare section ["Basic knowledge about maps and DEM files"](DocBasicsMapDem#user-content-wmts-maps).
 
 Unfortunately, unlike other WMTS servers, this capabilities file does not directly work in QMapShack (although it works "as is" in QGIS). To work around this, you will have to modify it with a text editor to include a <ResourceURL> line at the end of the layer description (just before the </Layer> directive) for the "GEOGRAPHICALGRIDSYSTEMS.MAPS" layer (must be adjusted and tested for other layers).
 

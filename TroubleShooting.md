@@ -24,7 +24,7 @@ This logfile may give additional insight to the root cause of the trouble.
 
 More details about restarting QMS after a data or configuration error are given in section ["What to do if QMS doesn't start"][QMSRestart].
 
-[QMSRestart]: DocFaqConfig#what-to-do-if-qms-doesnt-start "What to do if QMS doesn't start"
+[QMSRestart]: DocFaqConfig#user-content-what-to-do-if-qms-doesnt-start "What to do if QMS doesn't start"
 
 
 ## Create a backtrace of a crash on Linux

@@ -21,7 +21,7 @@
 # Track information
 
 
-The focus of this page is on track information that can be found in a map view. For more information compare also the ["General information about tracks"](DocGisItemsTrk) and ["General project actions"](AdvProjActions#working-with-project-roadbook) pages.
+The focus of this page is on track information that can be found in a map view. For more information compare also the ["General information about tracks"](DocGisItemsTrk) and ["General project actions"](AdvProjActions#user-content-working-with-project-roadbook) pages.
 
 ## Track states
 
@@ -43,7 +43,7 @@ _Remark:_ When moving the mouse pointer on a track in a map view, then the track
 
 ### Overview
 
-**NOTE**: This section is about a _highlighted_ track. To highlight a track double-click on it in the workspace or use the track information icon ![Track info](images/icons/TrkProfile.png "Track info") of the track options toolbar of a map view. You can select what features are shown for a highlighted track in the [main menu](#select-display-of-track-information-in-main-menu) `View- Track Info`. 
+**NOTE**: This section is about a _highlighted_ track. To highlight a track double-click on it in the workspace or use the track information icon ![Track info](images/icons/TrkProfile.png "Track info") of the track options toolbar of a map view. You can select what features are shown for a highlighted track in the [main menu](#user-content-select-display-of-track-information-in-main-menu) `View- Track Info`. 
 
 Here is a screenshot with all features enabled:
 
@@ -66,7 +66,7 @@ The numbers mark the different features that can be selected.
 
      You can toggle visibility of the bullets with the `View - Track Info - Trackpoint Info` main menu entry or with the main toolbar icon ![Trackpoint info](images/icons/PointInfo.png "Trackpoint info").
 
-     More details about trackpoint information can be found in section [Adding trackpoint information](#adding-trackpoint-information).
+     More details about trackpoint information can be found in section [Adding trackpoint information](#user-content-adding-trackpoint-information).
     
 1. These are labels for the minimum and maximum values of track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Labels` main menu entry, via keyboard hotkey `CTRL-N`, or with the main toolbar icon ![Min max labels](images/icons/Label.png "Min max labels").
 
@@ -77,8 +77,7 @@ The numbers mark the different features that can be selected.
 1. The summary of the minimum and maximum values of the track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Summary` main menu entry or with the main toolbar icon ![Min max labels](images/icons/LabelInfo.png "Min max labels").
 
 1. The color bar for track coloring. The color bar has to be enabled in the track's edit/details dialog. Use the track options toolbar icon ![Track details](images/icons/EditDetails.png "Track details") to open this dialog. Select the `Style` tab in the edit window and select one of the track properties as source, e.g. elevation or slope. 
-
-Compare section [Select display of track information in main menu](#select-display-of-track-information-in-main-menu) for a list of all menu entries described in this section.
+user-content-select-display-of-track-information-in-main-menu) for a list of all menu entries described in this section.
 
 __Remark:__ Access to the actions in the main toolbar requires a proper configuration of the toolbar with the help of the menu entry `Window - Setup toolbar` (activate the necessary icons).
 
@@ -88,7 +87,7 @@ If you want to have the complete view with the selected track information as a s
  ---- | ---- |
  ![Without profile](images/DocAdv/screenshot_small_wo_profile.png "Screenshot without profile window") | ![With profile](images/DocAdv/screenshot_small_w_profile.png "Screenshot with profile window") |
  
-Section [Get additional track information in highlighted state](#get-additional-track-information-in-highlighted-state) describes some more information that can be obtained from a track.
+Section [Get additional track information in highlighted state](#user-content-get-additional-track-information-in-highlighted-state) describes some more information that can be obtained from a track.
 
 ### Adding trackpoint information
 
@@ -116,7 +115,7 @@ _Remarks:_
 
 * Trackpoint descriptions can be added also using the context menu of a graph in the track edit window.
 * If the bullets are missing in the map view or the track edit window, then click the main menu entry `View -Track info - Trackpoint info`.
-* Trackpoints with description are shown also in the [roadbook of the project](AdvProjActions#working-with-project-roadbook) to which the track belongs. They are not [(attached) waypoints](DocGisItemsTrk#attach-waypoints-to-a-track-to-get-additional-track-information)!
+* Trackpoints with description are shown also in the [roadbook of the project](AdvProjActions#user-content-working-with-project-roadbook) to which the track belongs. They are not [(attached) waypoints](DocGisItemsTrk#user-content-attach-waypoints-to-a-track-to-get-additional-track-information)!
 * Never add a description to a trackpoint that has the same location as a waypoint!
  
 
@@ -136,7 +135,7 @@ _Remarks:_
         
     ![Track info in map window](images/DocAdv/TrackInfo6.jpg "Track info at location in map window")
        
-* With a left-click on the track the summary information described in section [Track information in selected state](#track-information-in-selected-state) is displayed.
+* With a left-click on the track the summary information described in section [Track information in selected state](#user-content-track-information-in-selected-state) is displayed.
 
 If the track was not recorded by a GPS device, then some of this information can be missing.
 
@@ -229,7 +228,7 @@ There are more ways to get information about a track. Some of these are describe
         
     ![Track summary with activities](images/DocAdv/TrkInfoWithAct.png "Track summary with activities")
         
-    With the help of the icons shown in this info window the user can carry out various [actions](DocGisItemsTrk#view--edit-details) with the track.
+    With the help of the icons shown in this info window the user can carry out various [actions](DocGisItemsTrk#user-content-view--edit-details) with the track.
        
        
        

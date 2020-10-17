@@ -33,7 +33,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Color palette tool](PaletteTool "Color palette tool")
 
 **Commandline, QMapTool**
-:  [List of commandline options](InstallSetup#list-of-commandline-options "List of commandline options")
+:  [List of commandline options](InstallSetup#user-content-list-of-commandline-options "List of commandline options")
 
 **Coordinate systems, commonly used**
 :  [Properties of some commonly used coordinate systems](EpsgOverview "Properties of some commonly used coordinate systems")
@@ -74,13 +74,13 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **QMapTool, commandline parameters**
-:  [List of commandline options](InstallSetup#list-of-commandline-options "List of commandline options")
+:  [List of commandline options](InstallSetup#user-content-list-of-commandline-options "List of commandline options")
 
 **QMapTool, installation**
-:  [Installation](InstallSetup#installation "Installation")
+:  [Installation](InstallSetup#user-content-installation "Installation")
 
 **QMapTool, setup**
-:  [Setup](InstallSetup#setup "Setup")
+:  [Setup](InstallSetup#user-content-setup "Setup")
 
 
 ## R
@@ -106,4 +106,4 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 
 **Setup, QMapTool**
-:  [Setup](InstallSetup#setup "Setup")
+:  [Setup](InstallSetup#user-content-setup "Setup")

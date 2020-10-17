@@ -272,9 +272,9 @@ on-the-fly routing | online: no, offline: yes, if switched on | yes | no | no | 
 
 [RoutingWindow]:   images/DocGisItemsRte/RouterCfg.jpg  "Router window"
 
-[BRouterDatabase]: AdvSetup#brouter-setup               "Download BRouter database files"
-[AdvSetup]:        AdvSetup#routing-setup               "Routing setup"
-[EditMode]:        DocGisItemsEditMultiple#line-edit-mode       "Line edit mode"
+[BRouterDatabase]: AdvSetup#user-content-brouter-setup                     "Download BRouter database files"
+[AdvSetup]:        AdvSetup#user-content-routing-setup                     "Routing setup"
+[EditMode]:        DocGisItemsEditMultiple#user-content-line-edit-mode     "Line edit mode"
 
 [BRouterProfile]:  http://brouter.de/brouter/costfunctions.html "BRouter profiles"
 

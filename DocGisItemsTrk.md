@@ -286,7 +286,7 @@ To deal with invalid track data QMS offers some filters in the track edit window
 * define new timestamps for trackpoints.
 
 Different approaches for avoiding or removing invalid elevations are described also
-[here](#avoid-and-remove-invalid-data-in-a-track).
+[here](#user-content-avoid-and-remove-invalid-data-in-a-track).
 
  
 
@@ -384,7 +384,7 @@ There are several ways to do this:
     * Move the mouse cursor on the profile graph to a location where the index shown in the upper left corner jumps to a new value (i.e. where a trackpoint is located).
     * Right-click and select `Add waypoint` to attach a waypoint to the track. _Remark:_ If a selected waypoint has a distance of less than 50m to a trackpoint than it is attached to the track.
 
-Having waypoints attached to a track additional information about the waypoints is available in the [roadbook](AdvProjActions#working-with-project-roadbook) of the project.
+Having waypoints attached to a track additional information about the waypoints is available in the [roadbook](AdvProjActions#user-content-working-with-project-roadbook) of the project.
 
 Attached waypoints are also shown with their icons - or in the case that the cursor is located at the waypoint position with
 their name - in the profile graph of the track (if elevation data is available). To see the profile graph open the edit window for the
@@ -431,7 +431,7 @@ assigned to red parts):
 
 ## Tracks and no-go areas
 
-When using the BRouter as routing engine for creating or editing tracks, then the tracks are not routed through no-go areas defined in all selected projects. For details of no-go areas compare section ["Using no-go areas"](DocGisItemsRouting#using-no-go-areas-and-lines).
+When using the BRouter as routing engine for creating or editing tracks, then the tracks are not routed through no-go areas defined in all selected projects. For details of no-go areas compare section ["Using no-go areas"](DocGisItemsRouting#user-content-using-no-go-areas-and-lines).
 
 
 
@@ -441,21 +441,21 @@ When using the BRouter as routing engine for creating or editing tracks, then th
 [TrkCombine1]: images/DocGisItemsTrk/CombineTrks1.png "Combine tracks - wrong order"
 [TrkCombine2]: images/DocGisItemsTrk/CombineTrks2.png "Combine tracks - correct order"
 
-[RteCreate]:      DocGisItemsRte#use-map-window             "Create route in map window"
-[Rte2Trk]:        DocGisItemsRte#other-actions              "Convert route to track"
-[CreateRte4Wpts]: DocGisItemsRte#use-list-of-routing-points "Create route from waypoints"
-[TrkDef]:         #definition-of-a-track                    "Definition of a track"
-[LineEdit]:       DocGisItemsEditMultiple#line-edit-mode    "Line edit mode"   
-[TrkRange]:       DocGisItemsTrkRange                       "Track range information"
-[TrkGraphs]:      DocGisItemsTrkGraphs                      "Track graphs"
-[TrkptInfo]:      DocGisItemsTrkInfo                        "Trackpoints with additional information"
-[TrkActivity]:    DocGisItemsTrk#view--edit-details         "Track activity"
-[TrkFilters]:     DocGisItemsTrkFilters                          "Track filters"
-[TrkHist]:        DocGisItems#undo--redo                    "Use of history list"
-[TrkLine]:        DocGisItemsTrkInfo#trackpoint-information-for-highlighted-tracks  "Information from track line"
-[TrkSource]:      DocGisItems#sources-of-data               "Sources of data"
-[RouterSetup]:    AdvSetup#routing-setup                    "Router setup"
-[TrkSegments]:    #handling-of-track-segments               "Handling of track segments"
+[RteCreate]:      DocGisItemsRte#user-content-use-map-window             "Create route in map window"
+[Rte2Trk]:        DocGisItemsRte#user-content-other-actions              "Convert route to track"
+[CreateRte4Wpts]: DocGisItemsRte#user-content-use-list-of-routing-points "Create route from waypoints"
+[TrkDef]:         #user-content-definition-of-a-track                    "Definition of a track"
+[LineEdit]:       DocGisItemsEditMultiple#user-content-line-edit-mode    "Line edit mode"   
+[TrkRange]:       DocGisItemsTrkRange                                    "Track range information"
+[TrkGraphs]:      DocGisItemsTrkGraphs                                   "Track graphs"
+[TrkptInfo]:      DocGisItemsTrkInfo                                     "Trackpoints with additional information"
+[TrkActivity]:    DocGisItemsTrk#user-content-view--edit-details         "Track activity"
+[TrkFilters]:     DocGisItemsTrkFilters                                  "Track filters"
+[TrkHist]:        DocGisItems#user-content-undo--redo                    "Use of history list"
+[TrkLine]:        DocGisItemsTrkInfo#user-content-trackpoint-information-for-highlighted-tracks  "Information from track line"
+[TrkSource]:      DocGisItems#user-content-sources-of-data               "Sources of data"
+[RouterSetup]:    AdvSetup#user-content-routing-setup                    "Router setup"
+[TrkSegments]:    #user-content-handling-of-track-segments               "Handling of track segments"
 
 - - -
 [Prev](DocGisItemsEditMultiple) (Create and edit multi-point data)) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Track information) [Next](DocGisItemsTrkInfo)

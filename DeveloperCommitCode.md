@@ -39,7 +39,7 @@ Yeah, I know. It's confusing.
   documentation is missing. A ticket that does not stick to that rule
   might be closed without further notice.
 * Use the ticket number `QMS-XX` as name for your branch. See also:
-  [Open a new branch](#open-a-new-branch)
+  [Open a new branch](#user-content-open-a-new-branch)
 * Add the ticket number `[QMS-XX]` to each of your commits at the start
   of the short headline. And a meaningful description of what the commit
   does, e.g:
@@ -135,7 +135,7 @@ When you fork a project in order to propose changes to the original repository, 
 
 4. Open Terminal.
 
-5. Change directories to the location of the fork you cloned  [Create a local clone of your fork](#create-a-local-clone-of-your-fork)
+5. Change directories to the location of the fork you cloned  [Create a local clone of your fork](#user-content-create-a-local-clone-of-your-fork)
     * To go to your home directory, type just `cd` with no other text.
     * To list the files and folders in your current directory, type `ls`.
     * To go into one of your listed directories, type `cd your_listed_directory`.

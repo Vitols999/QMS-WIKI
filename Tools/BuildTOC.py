@@ -16,11 +16,16 @@
 
 # W.Thämelt, 15.10.2019: script adjusted to GitHub Wiki needs
 #            17.02.2020: add creation of QMapTool TOC
+#            16.02.2020: update to more general slugify method 
 
 import os
+import sys
 import fnmatch
 import re
 import unicodedata
+
+from HTMLMake import Slugify
+from HTMLMake import slugifyx as slugify
 
 cfg = {"QMS": {}, "QMT": {}}
 
@@ -70,7 +75,7 @@ r5 = re.compile("#+\s+$")
 
 
 # build MD reference from given string using separator as word separator (taken from HtmlMake.py)
-def slugify(value, separator):
+def slugify0(value, separator):
     value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore') # result is string
     value = re.sub('[^a-zA-Z0-9\s-]', '', value.decode('ascii')).lower().rstrip() # remove some unnecessary characters including "_"
 
