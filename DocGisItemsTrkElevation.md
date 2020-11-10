@@ -65,7 +65,7 @@ assign an elevation to this trackpoint.
 If there is an urgent need to avoid these missing elevation values, the user can select one of the following procedures:
 
 * (_optimal procedure_) Try to find a source of DEM (SRTM) data with improved quality, i.e. with data where the
-above mentioned gaps have been removed using various techniques. For Germany the
+above-mentioned gaps have been removed using various techniques. For Germany the
 [opendem.info](https://opendem.info/download_srtm.html) server is such a source.
 * Use the QMS __Reduce visible trackpoints__ filter to __hide invalid trackpoints__. Check if
 the resulting changes of the track can be accepted. If so, use this filter again to finally __remove

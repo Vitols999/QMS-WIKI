@@ -121,7 +121,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Overview of setup and configuration options](AdvSetup "Overview of setup and configuration options")
 
 **Configuration, Routino**
-:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#user-content-is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?") ⊞ [Routino database paths](AdvSetup#user-content-routino-database-paths "Routino database paths") ⊞ [Routino](DocGisItemsRouting#user-content-routino "Routino") ⊞ [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-content-user-relevant-qmapshack-directories-windows-version "-")
+:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#user-content-is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?") ⊞ [Routino setup](AdvSetup#user-content-routino-setup "Routino setup") ⊞ [Routino](DocGisItemsRouting#user-content-routino "Routino") ⊞ [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-content-user-relevant-qmapshack-directories-windows-version "-")
 
 **Configuration, used files for**
 :  [Where does QMS save setup, configuration, and other information?](DocFaqConfig#user-content-where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")
@@ -1254,7 +1254,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Using no-go areas and lines](DocGisItemsRouting#user-content-using-no-go-areas-and-lines "Using no-go areas and lines")
 
 **Routino, configuration**
-:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#user-content-is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?") ⊞ [Routino database paths](AdvSetup#user-content-routino-database-paths "Routino database paths") ⊞ [Routino](DocGisItemsRouting#user-content-routino "Routino") ⊞ [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-content-user-relevant-qmapshack-directories-windows-version "-") ⊞ [What can be the reason for unexpected Routino routing results?](DocFaqRouting#user-content-what-can-be-the-reason-for-unexpected-routino-routing-results "What can be the reason for unexpected Routino routing results?")
+:  [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#user-content-is-there-a-possibility-to-choose-the-preferred-road-class-when-routing "Is there a possibility to choose the preferred road class when routing?") ⊞ [Routino setup](AdvSetup#user-content-routino-setup "Routino setup") ⊞ [Routino](DocGisItemsRouting#user-content-routino "Routino") ⊞ [User-relevant QMapShack directories (Windows version)](DocFaqConfig#user-content-user-relevant-qmapshack-directories-windows-version "-") ⊞ [What can be the reason for unexpected Routino routing results?](DocFaqRouting#user-content-what-can-be-the-reason-for-unexpected-routino-routing-results "What can be the reason for unexpected Routino routing results?")
 
 **Routino, create routing database**
 :  [Create Routino database](DocGisItemsRouting#user-content-create-routino-database "Create Routino database")
@@ -1284,7 +1284,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [What can be the reason for unexpected Routino routing results?](DocFaqRouting#user-content-what-can-be-the-reason-for-unexpected-routino-routing-results "What can be the reason for unexpected Routino routing results?")
 
 **Routino, user profiles**
-:  [User-defined Routino profiles](AdvSetup#user-content-user-defined-routino-profiles "User-defined Routino profiles")
+:  [Routino setup](AdvSetup#user-content-routino-setup "Routino setup")
 
 **Ruler, for distance measurement**
 :  [Distance ruler](AdvMapDetails#user-content-distance-ruler "Distance ruler")
@@ -1334,6 +1334,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Setup, overview of options**
 :  [Overview of setup and configuration options](AdvSetup "Overview of setup and configuration options")
+
+**Setup, Routino**
+:  [Routino setup](AdvSetup#user-content-routino-setup "Routino setup")
 
 **Setup, used files for**
 :  [Where does QMS save setup, configuration, and other information?](DocFaqConfig#user-content-where-does-qms-save-setup-configuration-and-other-information "Where does QMS save setup, configuration, and other information?")

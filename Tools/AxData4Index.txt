@@ -1153,13 +1153,11 @@ Setup options
         1. Routing setup|overview of options
         1. Routing|setup
         
-        * [Routino database paths](AdvSetup#user-content-routino-database-paths)
+        * [Routino setup](AdvSetup#user-content-routino-setup)
+            1. Routino|user profiles
             1. Configuration|Routino
             1. Routino|configuration
-
-        * [Routino routing setup](AdvSetup#user-content-routino-routing-setup)
-        * [User-defined Routino profiles](AdvSetup#user-content-user-defined-routino-profiles)
-            1. Routino|user profiles
+            1. Setup|Routino
             
         * [BRouter setup](AdvSetup#user-content-brouter-setup)
         * [MapQuest setup](AdvSetup#user-content-mapquest-setup)

@@ -373,7 +373,7 @@ a GIF file (or other image file) with the raster map and an `OZIExplorer` MAP fi
 
 * QMapShack supports the use of raster maps via VRT files. These files can be created with the `GDALBuildVRT` tool
 and can also be accessed from within QMapShack.
-Doing so leads for the above mentioned maps to an error message indicating that
+Doing so leads for the above-mentioned maps to an error message indicating that
 georeference data can't be found within the MAP files.
 
 * To make the raster map usable for QMapShack the following procedure (described for a Windows installation) can be used:

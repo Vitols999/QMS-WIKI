@@ -243,7 +243,7 @@ An implication of this is that a transfer of a route
 in form of a GPX file from one soft- or hardware tool to another one can lead to a different route due to a different
 routing algorithm or different map (routing) data.
 
-QMS can transform a route into a track. This track shows exactly the path to follow but doesn't include the above mentioned
+QMS can transform a route into a track. This track shows exactly the path to follow but doesn't include the above-mentioned
 routing information for junctions. This track can be stored together with the route (more precisely the route waypoints)
 in a GPX file. In this file the route and the track are 2 independent objects!
 
