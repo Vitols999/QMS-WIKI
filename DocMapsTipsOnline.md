@@ -373,7 +373,8 @@ The terms of use enforce a few restrictions listed at the following URL:
 
 You can register for this free "licence géoservices IGN pour usage grand public" at the following URL (_hint:_ the content of the linked page seems to change frequently, look for a link similar to "_Commander une clé de géoservices_"):
 
-[http://professionnels.ign.fr/user/register](https://geoservices.ign.fr/documentation/diffusion/index.html
+[http://professionnels.ign.fr/user/register](https://geoservices.ign.fr/documentation/diffusion/index.html)
+
 You will be prompted to select which layers you want. Although the same procedure probably applies to any of the available layers, the process described here has only been tried with the map layer called "cartes IGN" (or "GEOGRAPHICALGRIDSYSTEMS.MAPS" on the WMTS server).
 
 Note that you will also need to provide your IP address (external IP: that is the IP of your Internet router) during the application process. Usually you can easily find this IP in your router status page, or alternatively you can visit websites such as 

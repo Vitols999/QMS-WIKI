@@ -16,7 +16,7 @@ about some of these coordinate systems. The Proj.4 settings can then be used dir
 The information collected on this page is taken from the following sources:
 
 * [epsg.io](https://epsg.io)
-* [EPSG Geodetic Parameter Registry](http://www.epsg-registry.org)
+* [EPSG Geodetic Parameter Dataset](https://epsg.org/home.html)
 
 and from files in the `nad` subdirectory of the [Proj.4](https://proj.org/download.html#current-release) source distribution.
 

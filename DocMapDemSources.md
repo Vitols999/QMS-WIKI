@@ -34,7 +34,6 @@ Maps listed in the following table cover the whole world.
 | Google map | file `Google.tms` in [package online.zip](https://www.mtb-touring.net/wp-content/uploads/Onlinemaps.zip) | online, raster | 4 map layers can be selected: Google Hybrid, Google (street), Google Sat(ellite) Map, Google Terrain Map. |  |
 | Bing map | file `Bing.tms` in [package online.zip](https://www.mtb-touring.net/wp-content/uploads/Onlinemaps.zip) | online, satellite | worldwide satellite map |  |
 | Lambertus map | [Free maps for Garmin brand GPS devices](http://garmin.openstreetmap.nl) | offline, vector | The server offers the possibility to select user-defined  regions of the world and download offline vector maps based on OpenStreetMap data in the Garmin container format. Follow the instructions on the given page. Several map types and TYP files can be selected, too. After being informed that the download is ready, download the file `osm_generic_gmapsupp.zip`, unpack it and rename file `gmapsupp.img` to `your_favorite_name_for the_region.img`. |  |
-| Raumbezug map | [OpenStreetMap-Data for Garmin GPS devices](http://raumbezug.eu/osm-garmin_en.htm) | offline, vector | select continent, country, and use `gmapsupp.img` format |  |
 | OpenStreetMap | [OSM Map On Garmin](https://wiki.openstreetmap.org/wiki/OSM_Map_On_Garmin/Download) | offline, vector | list with vast range of offline vector maps for different regions of the world and for different activities. If the map can be downloaded in the `gmapsupp.img` format (look for this term!), then the map can be used with QMS. | |
 | BBBike download server | [bbbike.org (OSM, Garmin format)](https://download.bbbike.org/) | offline, vector | select your range, choose Garmin output | other output formats not supported in QMS!|
 | OpenStreetMap | file `OpenStreetMap.tms` in [package online.zip](https://www.mtb-touring.net/wp-content/uploads/Onlinemaps.zip) | online, raster created from vector data | worldwide street map labeled in local languages | |
@@ -81,7 +80,7 @@ Some more maps can be found in the [package online.zip](https://www.mtb-touring.
 
 _Remarks:_
 
-* The [webpage](http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=1&gdz_unt_zeile=0&gdz_user_id=0) of the German _Bundesamt für Kartographie und Geodäsie_ has links to various forms of online and offline maps for Germany. Equivalent institutions for German counties offer similar services.
+* The [webpage](https://gdz.bkg.bund.de/) of the German _Bundesamt für Kartographie und Geodäsie_ has links to various forms of online and offline maps for Germany. Equivalent institutions for German counties offer similar services.
 * Some more maps and detailed DEMs for Spain can be found in the packages [ESP\_QMS\_onlinemaps.zip](https://mega.nz/#!5dMAzSyD!RJ1FDTxYC9jUxHEQ73jHmXm_S1dc6Jt0UUfYBgfN41o) and [QMS\_onlineDEM\_WCS.zip](https://drive.google.com/file/d/1CLzw4SH62BtgLJ7ZeUgT9SFQh1lh3Dbn/view?usp=drive_open)  provided by [Mitxel](https://sourceforge.net/p/qlandkartegt/mailman/message/35951444/). You can also have a look at the [list of maps and resources in Mendiak spanish forum.](https://www.mendiak.net/viewtopic.php?f=529&t=59020).
 
 

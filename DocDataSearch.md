@@ -271,7 +271,7 @@ The `property` part of an extended search string can be dropped, if it can be de
 * *Check the examples later on this page for more explanations and hints!*
 * All comparisons are exclusive, i.e. the bounds are not included
 * When trying a search with the comparison term `equals`, then you have to type the complete value to search for before you get the correct result. 
-* When trying a search with a comparison `regex`, then follow the regular expression syntax used for [Pearl](https://perldoc.perl.org/perlre.html).
+* When trying a search with a comparison `regex`, then follow the regular expression syntax used for [Pearl](https://perldoc.perl.org/perlre).
 * When using units, then only the ones listed in the search help window are supported.
 * The search keywords `keywords` and `rating` can be used to find [tagged GIS data objects](#user-content-tagging-data).
 * The search keyword `status` can be used to find geocaches with a certain status (`available, not available, archived`).
