@@ -3,9 +3,9 @@
 
 ***Table of contents***
 
-* [Add color palette](#add-color-palette)
-    * [Basic information](#basic-information)
-    * [More details   ](#more-details)
+* [Add color palette](#user-content-add-color-palette)
+    * [Basic information](#user-content-basic-information)
+    * [More details   ](#user-content-more-details)
 
 * * * * * * * * * *
  
@@ -41,17 +41,16 @@ To add a color palette to a map proceed as follows:
 
 1. Select the menu entry `Window - Shell` to open the QMT shell window (docked window, can be moved on the desktop).
 1. Click the `Add color palette` button in the QMT `Tools` window to open the palette tool.
-1. Click the `Open` (`Add map files to list`) icon (![](QMapTool/images/PathBlue.png)) and select one or several raster maps. 
+1. Click the `Open` (`Add map files to list`) icon (![Add file](QMapTool/images/PathBlue.png)) and select one or several raster maps. 
 
-     * _Attention:_ If more than one map is loaded into the palette tool, then all maps must be georeferenced with the same coordinate system.
-     * A tooltip pops-up when the mouse pointer is located on the filename of a map. This tooltip shows some of the properties of the map. Here, the
-       user can see if the map is georeferenced and what the coordinate system is.
-     * A selected raster map is loaded into the QMT map window. 
+    * _Attention:_ If more than one map is loaded into the palette tool, then all maps must be georeferenced with the same coordinate system.
+    * A tooltip pops-up when the mouse pointer is located on the filename of a map. This tooltip shows some of the properties of the map. Here, the user can see if the map is georeferenced and what the coordinate system is.
+    * A selected raster map is loaded into the QMT map window. 
      
 1. Select the radio button `Single files, filename suffix`, if a color palette should be added to each file. 
 
-     * Use the edit field to define a suffix for the output filename (default: `_8bit`).
-     * _Remark:_ A single color palette is calculated from all the input files and added to each of the files.
+    * Use the edit field to define a suffix for the output filename (default: `_8bit`).
+    * _Remark:_ A single color palette is calculated from all the input files and added to each of the files.
    
 1. Select the radio button `Combined file, filename`, if the input maps should be merged into 1 map for output. Define a filename
    for the output file (output format is TIFF!).
@@ -72,9 +71,9 @@ The following image shows the complete palette tool with 2 maps and the tooltip 
 
     | Icon | Tooltip |
     |------|---------|
-    | ![](QMapTool/images/DeleteOne.png) | Remove selected (map) file from the list |
-    | ![](QMapTool/images/DeleteMultiple.png) | Clear complete list of map files | 
-    | ![](QMapTool/images/Reload.png) | Reload the currently selected map | 
+    | ![Remove file](QMapTool/images/DeleteOne.png) | Remove selected (map) file from the list |
+    | ![Remove all files](QMapTool/images/DeleteMultiple.png) | Clear complete list of map files | 
+    | ![Reload map](QMapTool/images/Reload.png) | Reload the currently selected map | 
  
 
 _Remark:_ 

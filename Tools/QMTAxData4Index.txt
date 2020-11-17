@@ -32,7 +32,12 @@ ___Basic usage___
     
     * [Basic information](CutTool#user-content-basic-information)
         * [More details   ](CutTool#user-content-more-details)
-    * [Example: Cutting of Russian military maps](CutTool#user-content-example-cutting-of-russian-military-maps)
+    * [Example 1: Cutting of Russian military maps](CutTool#user-content-example-1-cutting-of-russian-military-maps)
+        1. Raster map|cut Russian military map
+        
+    * [Example 2: Repeated use of a cut map](CutTool#user-content-example-2-repeated-use-of-a-cut-map)
+        1. Cut tool|use of georeferenced cut mask
+    
 
 * [Reference tool](ReferenceTool)
     1. Reference tool|description

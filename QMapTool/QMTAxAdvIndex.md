@@ -41,6 +41,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Cut tool, description**
 :  [Cut tool](CutTool "Cut tool")
 
+**Cut tool, use of georeferenced cut mask**
+:  [Example 2: Repeated use of a cut map](CutTool#user-content-example-2-repeated-use-of-a-cut-map "Example 2: Repeated use of a cut map")
+
 
 ## E
 
@@ -91,6 +94,9 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 
 **Raster map, add overview map**
 :  [Overview tool](OverviewTool "Overview tool")
+
+**Raster map, cut Russian military map**
+:  [Example 1: Cutting of Russian military maps](CutTool#user-content-example-1-cutting-of-russian-military-maps "Example 1: Cutting of Russian military maps")
 
 **Raster map, cut with QMapTool**
 :  [Cut tool](CutTool "Cut tool")

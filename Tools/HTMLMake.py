@@ -176,7 +176,7 @@ class AddHtmlExt(Preprocessor):
 
             rr = ReRefLnkQMT.search(line)                   # adjust reference to link for QMT
             if rr:
-                line = ReRefLnk.sub(r"\1 ../../../\2", line)
+                line = ReRefLnkQMT.sub(r"\1 ../../../\2", line)
 
             if "](Downloads/" in line:       # adjust link in case of WMTS;TMS, ... file
                 line = ReDownloads.sub(r"\2)", line)  # remove .wmts, .tms, ... extensions
