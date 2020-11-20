@@ -84,7 +84,7 @@ based on [Fork a repo](https://docs.github.com/en/github/getting-started-with-gi
 1. Go to QMapShack's [code repository page](https://github.com/Maproom/qmapshack).
 2. In the top-right corner of the page, click Fork.
 
-  ![Fork](images/DeveloperCommitCode/ForkRepo.png "Fork")
+    ![Fork](images/DeveloperCommitCode/ForkRepo.png "Fork")
 
 ### Create a local clone of your fork
 
@@ -143,27 +143,21 @@ When you fork a project in order to propose changes to the original repository, 
 
 6. Type `git remote -v` and press Enter. You'll see the current configured remote repository for your fork.
 
-    ```sh
-    $ git remote -v
-    > origin  https://github.com/YOUR_USERNAME/qmapshack.git (fetch)
-    > origin  https://github.com/YOUR_USERNAME/qmapshack.git (push)
-    ```
+        $ git remote -v
+        > origin  https://github.com/YOUR_USERNAME/qmapshack.git (fetch)
+        > origin  https://github.com/YOUR_USERNAME/qmapshack.git (push)
 
 7. Type `git remote add upstream`, and then paste the URL you copied in Step 2 and press Enter. It will look like this:
 
-    ```sh
-    $ git remote add upstream https://github.com/Maproom/qmapshack.git
-    ```
+        $ git remote add upstream https://github.com/Maproom/qmapshack.git
 
 8. To verify the new upstream repository you've specified for your fork, type git remote -v again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
 
-    ```sh
-    $ git remote -v
-    > origin    https://github.com/YOUR_USERNAME/qmapshack.git (fetch)
-    > origin    https://github.com/YOUR_USERNAME/qmapshack.git (push)
-    > upstream  https://github.com/Maproom/qmapshack.git (fetch)
-    > upstream  https://github.com/Maproom/qmapshack.git (push)
-    ```
+        $ git remote -v
+        > origin    https://github.com/YOUR_USERNAME/qmapshack.git (fetch)
+        > origin    https://github.com/YOUR_USERNAME/qmapshack.git (push)
+        > upstream  https://github.com/Maproom/qmapshack.git (fetch)
+        > upstream  https://github.com/Maproom/qmapshack.git (push)
 
 
 ### Keep your fork synced
@@ -176,43 +170,36 @@ You might fork a project in order to propose changes to the upstream, or origina
 
 3. Fetch the branches and their respective commits from the upstream repository. Commits to `dev` will be stored in a local branch, `upstream/dev`.
 
-    ```sh
-    $ git fetch upstream
-    > Von https://github.com/Maproom/qmapshack
-    > * [neuer Branch]      Add_Geocaching_Attributes                                        -> upstream/Add_Geocaching_Attributes
-    > * [neuer Branch]      Add_waypoint_summary                                             -> upstream/Add_waypoint_summary
-    ...
-    ```
+        $ git fetch upstream
+        > Von https://github.com/Maproom/qmapshack
+        > * [neuer Branch]      Add_Geocaching_Attributes             -> upstream/Add_Geocaching_Attributes
+        > * [neuer Branch]      Add_waypoint_summary                  -> upstream/Add_waypoint_summary
 
 4. Check out your fork's local dev branch.
 
-    ```sh
-    $ git checkout dev
-    > Switched to branch 'dev'
-    ```
+
+        $ git checkout dev
+        > Switched to branch 'dev'
+
 
 5. Merge the changes from `upstream/dev` into your local `dev` branch. This brings your fork's `dev` branch into sync with the upstream repository, without losing your local changes.
 
-    ```dev
-    $ git merge upstream/dev
-    > Updating a422352..5fdff0f
-    > Fast-forward
-    >  README                    |    9 -------
-    >  README.md                 |    7 ++++++
-    >  2 files changed, 7 insertions(+), 9 deletions(-)
-    >  delete mode 100644 README
-    >  create mode 100644 README.md
-    ```
+        $ git merge upstream/dev
+        > Updating a422352..5fdff0f
+        > Fast-forward
+        >  README                    |    9 -------
+        >  README.md                 |    7 ++++++
+        >  2 files changed, 7 insertions(+), 9 deletions(-)
+        >  delete mode 100644 README
+        >  create mode 100644 README.md
 
 6. If your local branch didn't have any unique commits, Git will instead perform a "fast-forward":
 
-    ```sh
-    $ git merge upstream/dev
-    > Updating 34e91da..16c56ad
-    > Fast-forward
-    >  README.md                 |    5 +++--
-    >  1 file changed, 3 insertions(+), 2 deletions(-)
-    ```
+        $ git merge upstream/dev
+        > Updating 34e91da..16c56ad
+        > Fast-forward
+        >  README.md                 |    5 +++--
+        >  1 file changed, 3 insertions(+), 2 deletions(-)
 
 ### Open a new branch
 

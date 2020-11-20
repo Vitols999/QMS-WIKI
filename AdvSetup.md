@@ -166,18 +166,14 @@ Assume, QMapShack is correctly installed. Then the Routino routing engine is in 
 1. **Check, if the Routino routing engine is correctly installed:**
     * Start QMapShack from a console window with parameter `-f` to write a debug logfile:
     
-        ```
-        path_to_qms/qmapshack.exe -f
-        ```
+            path_to_qms/qmapshack.exe -f
 
     * Open the debug logfile `org.qlandkarte.QMapShack.log` which is located in
         * `c:\Users\user_name\AppData\Local\Temp\` (for Windows systems),
         * `/tmp/` (for Linux-type systems).
     * If a line of the form
 
-        ```
-        2020-11-08 18:03:56.036 [debug] "ROUTINO" path "some_path/translations.xml"
-        ```    
+            2020-11-08 18:03:56.036 [debug] "ROUTINO" path "some_path/translations.xml"   
 
         can be found in this debug log, then the Routino routing engine is correctly installed. Otherwise, the installation is corrupted and must be repeated. Linux users should compare the section about the [Routino installation][RoutinoInstallation].
 
