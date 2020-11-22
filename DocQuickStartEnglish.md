@@ -193,8 +193,7 @@ The following links are recommendations for files which allow comfortable work w
     * Choose `QMS\DEM` as folder.
     * In the `Dig.Elev.Model (DEM)` window now appears, among others, an entry `N51E012`.
     * Open the context menu with a right-click on this name and select `Activate`.
-    * Elevation data is now available for the selected area (in the example the south-west corner of the area has the coordinates 
-      51° North, 12° East and extends over 1° in both directions).
+    * Elevation data is now available for the selected area (in the example the south-west corner of the area has the coordinates 51° North, 12° East and extends over 1° in both directions).
     * The existence of elevation data at the location of the mouse pointer is indicated in the status line by an existing elevation specification.
  
         Status line without elevation data:

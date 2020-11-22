@@ -73,7 +73,7 @@ When creating the routing database QMS executes the following Routino commands:
     path_to\planetsplitter.exe --dir=\temp --prefix=MyRegions --tagging=path_to\tagging.xml --process-only
 
 When using the standard QMS Windows installation then `planetsplitter.exe` is found in the same directory as `qmapshack.exe`,
-`tagging.xml`is found in the `routino-xml` subdirectory of the `qmapshack.exe` directory.
+`tagging.xml` is found in the `routino-xml` subdirectory of the `qmapshack.exe` directory.
 
 These commands can be executed directly from a commandline.
 

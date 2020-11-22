@@ -154,7 +154,7 @@ Proceed as follows to use this transmitter:
 * Activate NMEA data transmission in the GPS receiver.
 * Download the `netcat/Nmap` package for Windows from https://nmap.org/download.html (download file https://nmap.org/dist/nmap-7.70-win32.zip) and unzip it.
 * Identify the serial (COM) port provided by the GPS receiver with the help of the Windows device manager or similar tools.
-* Call `ncat -v -l 1234 < COM5` from the commandline (replace`COM5` with the COM port found in the previous point!). This starts `Ncat` as TCP server transmitting NMEA data from the receiver via TCP. The following lines are shown in the commandline window after the server start:
+* Call `ncat -v -l 1234 < COM5` from the commandline (replace `COM5` with the COM port found in the previous point!). This starts `Ncat` as TCP server transmitting NMEA data from the receiver via TCP. The following lines are shown in the commandline window after the server start:
 
          ncat -v -l 1234 < COM5
          Ncat: Version 7.70 ( https://nmap.org/ncat )

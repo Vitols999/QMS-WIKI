@@ -64,7 +64,7 @@ heruntergeladen werden können.
 * _QMapShack_:
 
     * [QMS Installationsdatei vom Server laden](https://github.com/Maproom/qmapshack/releases "QMS Installationsdatei laden").
-      Von dieser Seite Datei `QMapShack_Win64bit_1.14.0.exe	` laden (etwa 100 MB, Versionsnummer kann verschieden sein).
+      Von dieser Seite Datei `QMapShack_Win64bit_1.14.0.exe` laden (etwa 100 MB, Versionsnummer kann verschieden sein).
 
 * _Kartenunterstützung (empfohlen)_:
 
@@ -199,8 +199,7 @@ heruntergeladen werden können.
     * Wähle `QMS\DEM` als Verzeichnis aus.
     * In dem Fenster  `Dig. Höhenmodell (DEM)` erscheint jetzt u.a. ein Eintrag `N51E012`.
     * Öffne mit Rechtsklick auf diesen Namen das Kontextmenü und wähle `Aktivieren`.
-    * Es stehen jetzt Höhendaten für den gewählten Bereich zur Verfügung (die südwestliche Ecke des Bereichs hat im Beispiel die Koordinaten 
-      51° Nord, 12° Ost und erstreckt sich jeweils über 1° in beide Richtungen).
+    * Es stehen jetzt Höhendaten für den gewählten Bereich zur Verfügung (die südwestliche Ecke des Bereichs hat im Beispiel die Koordinaten 51° Nord, 12° Ost und erstreckt sich jeweils über 1° in beide Richtungen).
     * Das Vorhandensein von Höhendaten am Ort des Mauszeigers wird in der Statuszeile durch eine vorhandene Höhenangabe angezeigt.
 
         Statuszeile ohne Höhendaten:

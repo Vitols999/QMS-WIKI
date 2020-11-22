@@ -9,14 +9,14 @@ Prev () | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | () Next
     * [Installation](#installation)
     * [Étapes après le premier démarrage](#user-content-Étapes-après-le-premier-démarrage)
     * [Quelques étapes de travail typiques](#quelques-étapes-de-travail-typiques)
-         * [Déplacer et agrandir la carte](#déplacer-et-agrandir-la-carte)
-         * [Charger le fichier GPX et afficher les données](#charger-le-fichier-gpx-et-afficher-les-données)
-         * [Créer une base de données](#créer-une-base-de-données)
-         * [Organisation des données dans la base de données](#organisation-des-données-dans-la-base-de-données)
-         * [Créer une trace](#créer-une-trace)
-         * [Afficher les informations de piste](#afficher-les-informations-de-piste)
-         * [Créer une trace (route) à l'aide de waypoints](#créer-une-trace-route-à-laide-de-waypoints)
-         * [Trouver un waypoint](#trouver-un-waypoint)
+        * [Déplacer et agrandir la carte](#déplacer-et-agrandir-la-carte)
+        * [Charger le fichier GPX et afficher les données](#charger-le-fichier-gpx-et-afficher-les-données)
+        * [Créer une base de données](#créer-une-base-de-données)
+        * [Organisation des données dans la base de données](#organisation-des-données-dans-la-base-de-données)
+        * [Créer une trace](#créer-une-trace)
+        * [Afficher les informations de piste](#afficher-les-informations-de-piste)
+        * [Créer une trace (route) à l'aide de waypoints](#créer-une-trace-route-à-laide-de-waypoints)
+        * [Trouver un waypoint](#trouver-un-waypoint)
 
 * * * * * * * * * *
              

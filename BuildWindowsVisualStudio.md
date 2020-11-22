@@ -202,7 +202,7 @@ Notes:
          ZLIB_INCLUDE_DIRS C:/Qt5/5.12.1/msvc2017_64/include/QtZlib 
 
 - click 'configure'
-     - verify no 'NOTFOUND' entries remain
+    - verify no 'NOTFOUND' entries remain
 - click 'generate'
 - click 'open project' --> this opens the configured project in Visual studio
 

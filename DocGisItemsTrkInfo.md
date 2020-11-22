@@ -61,12 +61,12 @@ The numbers mark the different features that can be selected.
 
 1. These are trackpoints with additional text information. They are marked with auto-numbered black bullets. You can create such points by two methods:
 
-     * Click on the track and the track options menu will open at the clicked point. Select the toolbar button ![Trackpoint info](images/icons/PointInfo.png "Trackpoint info") to open a dialog where you can enter a short text. 
-     * Right-click on a profile plot (either the on-screen one, the one in a separate window or the one in the track edit/details dialog and select the `Add Trackpoint Info` menu entry to open a dialog where you can enter a short text.
+    * Click on the track and the track options menu will open at the clicked point. Select the toolbar button ![Trackpoint info](images/icons/PointInfo.png "Trackpoint info") to open a dialog where you can enter a short text. 
+    * Right-click on a profile plot (either the on-screen one, the one in a separate window or the one in the track edit/details dialog and select the `Add Trackpoint Info` menu entry to open a dialog where you can enter a short text.
 
-     You can toggle visibility of the bullets with the `View - Track Info - Trackpoint Info` main menu entry or with the main toolbar icon ![Trackpoint info](images/icons/PointInfo.png "Trackpoint info").
+    You can toggle visibility of the bullets with the `View - Track Info - Trackpoint Info` main menu entry or with the main toolbar icon ![Trackpoint info](images/icons/PointInfo.png "Trackpoint info").
 
-     More details about trackpoint information can be found in section [Adding trackpoint information](#user-content-adding-trackpoint-information).
+    More details about trackpoint information can be found in section [Adding trackpoint information](#user-content-adding-trackpoint-information).
     
 1. These are labels for the minimum and maximum values of track properties like elevation, speed, etc. You can toggle visibility with the `View - Track Info - Min./Max. Labels` main menu entry, via keyboard hotkey `CTRL-N`, or with the main toolbar icon ![Min max labels](images/icons/Label.png "Min max labels").
 
@@ -83,9 +83,9 @@ __Remark:__ Access to the actions in the main toolbar requires a proper configur
 
 If you want to have the complete view with the selected track information as a screenshot you can select it with the main menu entry `File - Take Screenshot` or with the main toolbar icon ![Take screenshot](images/icons/Screenshot.png "Take screenshot"). The result will depend on the selected mode for the profile plot. If the profile is shown in a separate window, then a large profile will be appended to the screenshot.
 
- Screenshot with on-screen profile | Screenshot with profile in separate window |
- ---- | ---- |
- ![Without profile](images/DocAdv/screenshot_small_wo_profile.png "Screenshot without profile window") | ![With profile](images/DocAdv/screenshot_small_w_profile.png "Screenshot with profile window") |
+| Screenshot with on-screen profile | Screenshot with profile in separate window |
+| ---- | ---- |
+| ![Without profile](images/DocAdv/screenshot_small_wo_profile.png "Screenshot without profile window") | ![With profile](images/DocAdv/screenshot_small_w_profile.png "Screenshot with profile window") |
  
 Section [Get additional track information in highlighted state](#user-content-get-additional-track-information-in-highlighted-state) describes some more information that can be obtained from a track.
 
