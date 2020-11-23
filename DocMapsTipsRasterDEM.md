@@ -319,20 +319,20 @@ MKGMAP="mkgmap"
 # code starts here, no changes below here required
 
 error_check() {
-	if [ $1 != 0 ]; then
-		echo ${red}ERROR${NC}
-		exit 1
-	else
-		echo ${green}OK${NC}
-	fi
+    if [ $1 != 0 ]; then
+        echo ${red}ERROR${NC}
+        exit 1
+    else
+        echo ${green}OK${NC}
+    fi
 }
 
 tool_check() {
-	which $1 2>&1 1>/dev/null
-	if [ $? != 0 ]; then
-		echo ${red}ERROR: $1 missing${NC}
-		exit 1
-	fi
+    which $1 2>&1 1>/dev/null
+    if [ $? != 0 ]; then
+        echo ${red}ERROR: $1 missing${NC}
+        exit 1
+    fi
 }
 
 red="\033[0;31m"
@@ -341,17 +341,17 @@ NC="\033[0m"
 
 TMP=`mktemp`
 if [ ! -f "${TMP}" ]; then
-	echo ${red}ERROR: failed to get temp. file${NC}
-	exit 1
+    echo ${red}ERROR: failed to get temp. file${NC}
+    exit 1
 fi
 
 tool_check "wget"
 tool_check "7z"
 ${MKGMAP} >/dev/null 2>&1
 if [ $? != 0 ]; then
-	echo ${red}ERROR: mkgmap can\'t be executed${NC}
-	echo ${red}ERROR: make sure MKGMAP is set properly in script configuration${NC}
-	exit 1
+    echo ${red}ERROR: mkgmap can\'t be executed${NC}
+    echo ${red}ERROR: make sure MKGMAP is set properly in script configuration${NC}
+    exit 1
 fi
 
 echo -n " * Downloading... "

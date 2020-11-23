@@ -242,15 +242,12 @@ These steps are required to remove inconsistencies of this type:
 
      These lines mean
 
-     * There is a difference between the raw index and the last version of the (Wiki) index.
-     * An index entry "__Track|select range in edit mode__" was added ("__+__" marker!) to the raw index.
-     * There is index entry "__Tratck|select range in edit mode__"  not found in the raw index ("__-__" marker!
-       This line is found in the index).
-     * Necessary steps:
-         * Find the "[...](...)" strings in the raw index, i.e. find the subsections where the index entries are
-           defined.
-         * Decide about the necessary index changes for the given subsection. In the given case: nothing to do -
-           a spelling error was corrected in the raw index file.
+    * There is a difference between the raw index and the last version of the (Wiki) index.
+    * An index entry "__Track|select range in edit mode__" was added ("__+__" marker!) to the raw index.
+    * There is index entry "__Tratck|select range in edit mode__"  not found in the raw index ("__-__" marker! This line is found in the index).
+    * Necessary steps:
+        * Find the "[...](...)" strings in the raw index, i.e. find the subsections where the index entries are defined.
+        * Decide about the necessary index changes for the given subsection. In the given case: nothing to do - a spelling error was corrected in the raw index file.
 
 ## Updating the index
 

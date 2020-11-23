@@ -427,17 +427,17 @@ The following TMS file allows loading New Zealand topo maps into QMS (download f
 
 ```
 <TMS>
-	<Title>NZTopo</Title>
-	<MinZoomLevel>6</MinZoomLevel>
-	<MaxZoomLevel>15</MaxZoomLevel>
-	<Layer idx="0">
-		<Title>NZTopo</Title>
-		<Script><![CDATA[(
-		function convert(z1,x1,y1)
-		{  return "http://nz1.nztopomaps.com/" + z1 + "/" + x1 + "/" + ((1<<z1) - y1 - 1) + ".png";
-		}
-		)]]></Script>
-	</Layer>
+    <Title>NZTopo</Title>
+    <MinZoomLevel>6</MinZoomLevel>
+    <MaxZoomLevel>15</MaxZoomLevel>
+    <Layer idx="0">
+        <Title>NZTopo</Title>
+        <Script><![CDATA[(
+        function convert(z1,x1,y1)
+        {  return "http://nz1.nztopomaps.com/" + z1 + "/" + x1 + "/" + ((1<<z1) - y1 - 1) + ".png";
+        }
+        )]]></Script>
+    </Layer>
 </TMS>
 ```
 The script inside the TMS file prepares the correct URL form in accordance with [OSGEO TMS](https://www.maptiler.com/google-maps-coordinates-tile-bounds-projection/)
