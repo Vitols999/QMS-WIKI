@@ -20,13 +20,13 @@ QMS is QMapShack's own binary format. You will never loose information using it,
 
 There are two ways to load GPX or QMS files. 
 
-1) When you start QMapShack from the commandline you can add a list of GPX and QMS files
+1. When you start QMapShack from the commandline you can add a list of GPX and QMS files
 
     qmapshack file1.gpx file2.qms
     
-2) Use the menu _File->Load GIS Data_ (GIS = Geographic Information Systems)
+2. Use the menu _File->Load GIS Data_ (GIS = Geographic Information Systems)
 
-![Alt text](images/DocHandleGpxFiles/maproom1.png)
+    ![Alt text](images/DocHandleGpxFiles/maproom1.png)
 
 FIT, SLF and TCX files can be loaded in the same way.
 

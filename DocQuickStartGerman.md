@@ -166,8 +166,7 @@ heruntergeladen werden können.
     * Falls eine Internetverbindung aktiv ist, wird die gewählte Onlinekarte geladen (kann etwas dauern, Verlaufsanzeige erscheint!) 
       und im mittleren Fenster angezeigt.
 
-      ![Aktiviere Onlinekarte](images/DocAdv/InstallMaps.jpg "Aktivieren einer Onlinekarte")
-    
+        ![Aktiviere Onlinekarte](images/DocAdv/InstallMaps.jpg "Aktivieren einer Onlinekarte")
     
 * _Optional: Routino Routingunterstützung aktivieren:_
     * Wähle den Menüpunkt `Werkzeug - Routino Datenbank erstellen`.
@@ -182,8 +181,7 @@ heruntergeladen werden können.
     * Es können jetzt mit Unterstützung des offline Routino-Routers Tracks und Routen erstellt werden (in dem Bereich der durch die 
       gewählte Datenbank abgedeckt wird, im Beispiel für Berlin!).
       
-      ![Erstellen Routino-Datenbank](images/DocAdv/InstallRoutinoDb.jpg "Erstellen einer Routino-Datenbank")
-      
+        ![Erstellen Routino-Datenbank](images/DocAdv/InstallRoutinoDb.jpg "Erstellen einer Routino-Datenbank")
       
 * _Optional: Unterstützung für digitale Höhendaten aktivieren:_    
     * Wähle den Menüpunkt `Werkzeug - VRT Builder`.
@@ -192,7 +190,7 @@ heruntergeladen werden können.
       (die Endung `.vrt` wird automatisch angefügt). _Im nachfolgenden Bild werden aus technischen Gründen andere Pfade gezeigt!_.
     * Wähle `Start`. Der Abschluss der Operation wird angezeigt.
 
-      ![VRT für Höhendaten erstellen](images/DocAdv/InstallDem2Vrt.jpg "VRT für Höhendaten erstellen")
+        ![VRT für Höhendaten erstellen](images/DocAdv/InstallDem2Vrt.jpg "VRT für Höhendaten erstellen")
 
     * Gehe mit der Maus zum Fenster `Dig. Höhenmodell (DEM)`.
     * Öffne mit Rechtsklick das Kontextmenü und wähle `DEM Verzeichnisse angeben`.

@@ -215,7 +215,7 @@ Assume, QMapShack is correctly installed. Then the Routino routing engine is in 
     * Routes and tracks can now be created with the support of the offline Routino router (in the area covered by the
       selected routing database, in the example for Berlin!).
       
-      ![Create Routino database](images/DocAdv/InstallRoutinoDbEn.jpg "Create Routino database")
+        ![Create Routino database](images/DocAdv/InstallRoutinoDbEn.jpg "Create Routino database")
 
 1. **Change/add routing profiles:**
     
@@ -310,7 +310,7 @@ Assume, QMapShack is correctly installed. Then the Routino routing engine is in 
             * Size of data download.
         * The status line in the window informs about the number of up-to-date and outdated tiles, and about. the number of tiles selected for download.    
            
-           ![Area overlay](images/DocAdv/BRouterTileSelection.jpg "BRouter tile selection")
+             ![Area overlay](images/DocAdv/BRouterTileSelection.jpg "BRouter tile selection")
            
     * Click `Download` to start the download of routing data for offline use. _Attention:_ Depending on the size of the selected area
       the download duration can be considerable!

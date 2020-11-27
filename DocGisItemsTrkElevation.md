@@ -90,9 +90,9 @@ value with the help of the `GDAL` package. On a commandline 2 steps have to be e
 
     * Use the new HGT file (more precisely: its VRT file) in QMS
 
-  The result of this procedure is shown in the following images:
+    The result of this procedure is shown in the following images:
 
-  ![Trackpoints with corrected elevation](images/DocFaq/DEM13.jpg "Trackpoints with corrected elevation")
+    ![Trackpoints with corrected elevation](images/DocFaq/DEM13.jpg "Trackpoints with corrected elevation")
 
 [TrkEdit]: DocGisItemsTrk#user-content-view--edit-details "Track edit window"
 

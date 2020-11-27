@@ -160,8 +160,7 @@ The following links are recommendations for files which allow comfortable work w
     * If an Internet connection is active, then the selected online map is now loaded (this can take some time, progress is shown in 
       the middle window!)
 
-      ![Activate online map](images/DocAdv/InstallMapsEn.jpg "Activating online map")
-    
+        ![Activate online map](images/DocAdv/InstallMapsEn.jpg "Activating online map")
     
 * _Optional: Activate Routino routing support:_
     * Choose menu entry `Tool - Create Routino Database`.
@@ -176,8 +175,7 @@ The following links are recommendations for files which allow comfortable work w
     * Routes and tracks can now be created with the support of the offline Routino router (in the area covered by the
       selected database, in the example for Berlin!).
       
-      ![Create Routino database](images/DocAdv/InstallRoutinoDbEn.jpg "Create Routino database")
-      
+        ![Create Routino database](images/DocAdv/InstallRoutinoDbEn.jpg "Create Routino database")
       
 * _Optional: Activate support for digital elevation data:_    
     * Choose the menu entry `Tool - VRT Builder`.
@@ -186,7 +184,7 @@ The following links are recommendations for files which allow comfortable work w
       (the extension `.vrt` is added automatically). _Paths shown in the snapshot are different!_
     * Click the `Start` button. The completion of the operation is shown.
 
-      ![Create VRT for elevation data](images/DocAdv/InstallDem2VrtEn.jpg "Create VRT file for elevation data")
+        ![Create VRT for elevation data](images/DocAdv/InstallDem2VrtEn.jpg "Create VRT file for elevation data")
 
     * Move the mouse to the `Dig.Elev.Model (DEM)` window.  
     * Open the context menu with a right-click and choose `Setup DEM paths`.

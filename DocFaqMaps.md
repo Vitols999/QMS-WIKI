@@ -356,7 +356,7 @@ converter between various raster map formats.
 
 **Remark about the QMS Windows version:** Many applications handling geodata use the `GDAL` package. Thus, it may happen that several different versions of this package
 can be found on the computer with different support for raster map formats. In order to avoid version conflicts QMS works exclusively with the `GDAL` version in its
-installation directory. Thus, a change of the `GDAL` related environment variables doesn't result in a change of the `GDAL`version used by QMS.
+installation directory. Thus, a change of the `GDAL` related environment variables doesn't result in a change of the `GDAL` version used by QMS.
 
 ## How to use Russian military and similar raster maps with QMapShack?
 
@@ -368,8 +368,7 @@ Some servers are
     * [https://gpska.yapl.ru](https://gpska.yapl.ru)
     * [http://satmaps.info/us/map-detector.php](https://satmaps.info/us/map-detector.php)
 
-  When downloading a map tile 2 files are created:
-a GIF file (or other image file) with the raster map and an `OZIExplorer` MAP file with geodetic calibration data.
+    When downloading a map tile 2 files are created: a GIF file (or other image file) with the raster map and an `OZIExplorer` MAP file with geodetic calibration data.
 
 * QMapShack supports the use of raster maps via VRT files. These files can be created with the `GDALBuildVRT` tool
 and can also be accessed from within QMapShack.

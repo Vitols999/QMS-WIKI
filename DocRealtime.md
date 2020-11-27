@@ -277,7 +277,7 @@ NMEA data in QMS is valid (is used in QMS) if it fulfills the following reasonab
 * `RMC` data: The data field `Receiver warning` should have the value `A` (Available, ok). Sentences with other values are skipped by QMS.
 * `GGA` data: The data field `Fix quality` should have a value `>0` (GPS fix). Sentences with other values are skipped by QMS.
 * Timestamps in both types of NMEA records should have the format `hhmmss.00` (no milliseconds and `00` after decimal point). They are interpreted as UTC time.
-* The date is set to the current date for `GGA` sentences in QMS (`GGA`sentences don't provide a date information!).
+* The date is set to the current date for `GGA` sentences in QMS (`GGA` sentences don't provide a date information!).
 * The first NMEA sentence with valid data for a given timestamp is used in QMS. If there are more sentences with the same timestamp, then they are skipped (this may lead to invalid elevation, if a valid `RMC` sentence is in front of a valid `GGA` sentence with the same timestamp).
 
 Further on, QMS updates its data only with a 1-second frequency. If data arrives at a higher frequency, then some data might be skipped.

@@ -108,7 +108,7 @@ The text in the line with the "__++__" marker is displayed when moving the mouse
 more detailed than the short text in the "__+__" line. This line requires a "__+__" line in front of it.
 
 The order of the blocks in the raw index (starting with a "__*__"  line is the order of the table of contents
-of the manual. The content of this line (the `[...](...)`part) is exactly the one used in the table of contents
+of the manual. The content of this line (the `[...](...)` part) is exactly the one used in the table of contents
 of the manual which can be found in the automatically created manual page `AxAdvToc.md`.
 
 ## Structure of the index

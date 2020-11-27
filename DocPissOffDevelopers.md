@@ -64,7 +64,7 @@ _with help requests masked as feature request. Or even worse, flagged as bug._
 in one sentence. That text of conduct you get when creating a bug is
 really meant seriously.
 
-Now, go and give hell to your favorite open source developer! :wink: 
+Now, go and give hell to your favorite open source developer! 😉
 
 
 - - -

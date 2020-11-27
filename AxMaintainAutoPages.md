@@ -38,7 +38,7 @@ the preface section of that page.
 
         # Header_of_page
 
-  Other sections of the page should be subsections of the header (section) and form a tree structure.
+    Other sections of the page should be subsections of the header (section) and form a tree structure.
 
 * An MD page should normally appear in the main table of contents in `DocMain`. *Header_of_page* should
   be used also as text in the `DocMain` entry for this page.
