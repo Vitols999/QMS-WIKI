@@ -72,6 +72,15 @@ footer = """</body>
 </html>
 """
 
+
+def is_ascii(s):
+    """ Check for all ASCII 
+    
+    Little helper as isascii() is just available for python 3.7
+    
+    """
+    return all(ord(c) < 128 for c in s)
+
 # ## Class definitions
 
 # ### class AddHtmlExt
@@ -317,13 +326,13 @@ class Slugify():
             return char
 
         elif ucd.category(char) == "Lu":
-            return char.lower() if char.isascii() else char
+            return char.lower() if is_ascii(char) else char
 
         elif ucd.category(char) == "Zs":
             return "-"
 
         elif self.kind == "Chrome" and ucd.category(char) in self.drop_nonascii:
-            return "" if char.isascii() else char
+            return "" if is_ascii(char) else char
 
         else:
             print(f"*** Check link with deleted unhandled character: '{char}'! Category: '{ucd.category(char)}'. Conversion for {self.kind}.")
