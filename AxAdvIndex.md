@@ -1480,8 +1480,14 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **Track, compared with route**
 :  [Tracks vs. routes](DocGisItemsTrk#user-content-tracks-vs-routes "Tracks vs. routes")
 
+**Track, composing from pieces of other tracks**
+:  [How to compose a track from pieces of other tracks?](DocFaqHandling#user-content-how-to-compose-a-track-from-pieces-of-other-tracks "How to compose a track from pieces of other tracks?")
+
 **Track, convert subpoint filter**
 :  [Convert track subpoints to points](DocGisItemsTrkFilters#user-content-convert-track-subpoints-to-points "Convert track subpoints to points")
+
+**Track, create with track routing**
+:  [How to compose a track from pieces of other tracks?](DocFaqHandling#user-content-how-to-compose-a-track-from-pieces-of-other-tracks "How to compose a track from pieces of other tracks?")
 
 **Track, create**
 :  [Create track](DocGisItemsTrk#user-content-create-track "Create track")

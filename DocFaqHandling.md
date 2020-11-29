@@ -3,14 +3,15 @@
 
 ***Table of contents***
 
-* [Frequently Asked Questions - Data handling](#frequently-asked-questions---data-handling)
-    * [How to create waypoint from POI (point of interest) in map?](#how-to-create-waypoint-from-poi-point-of-interest-in-map)
-    * [How to find distance between waypoints](#how-to-find-distance-between-waypoints)
-    * [Which track data is saved in GPX files?](#which-track-data-is-saved-in-gpx-files)
-    * [How to access data from legacy Garmin devices?](#how-to-access-data-from-legacy-garmin-devices)
-    * [What is the difference between speed and gpxtpx:speed?](#what-is-the-difference-between-speed-and-gpxtpxspeed)
-    * [How to remove DEM info from elevation graph?](#how-to-remove-dem-info-from-elevation-graph)
-    * [How to edit tracks without losing track data?](#how-to-edit-tracks-without-losing-track-data)
+* [Frequently Asked Questions - Data handling](#user-content-frequently-asked-questions---data-handling)
+    * [How to create waypoint from POI (point of interest) in map?](#user-content-how-to-create-waypoint-from-poi-point-of-interest-in-map)
+    * [How to find distance between waypoints](#user-content-how-to-find-distance-between-waypoints)
+    * [Which track data is saved in GPX files?](#user-content-which-track-data-is-saved-in-gpx-files)
+    * [How to access data from legacy Garmin devices?](#user-content-how-to-access-data-from-legacy-garmin-devices)
+    * [What is the difference between speed and gpxtpx:speed?](#user-content-what-is-the-difference-between-speed-and-gpxtpxspeed)
+    * [How to remove DEM info from elevation graph?](#user-content-how-to-remove-dem-info-from-elevation-graph)
+    * [How to edit tracks without losing track data?](#user-content-how-to-edit-tracks-without-losing-track-data)
+    * [How to compose a track from pieces of other tracks?](#user-content-how-to-compose-a-track-from-pieces-of-other-tracks)
 
 * * * * * * * * * *
  
@@ -74,11 +75,11 @@ edited (compare section ["Edit items with multiple points"](DocGisItemsEditMulti
 
 _(inspired by [newsgroup discussion](https://sourceforge.net/p/qlandkartegt/mailman/message/35994128))_
 
-The internal memory of legacy Garmin devices (e.g. the well-known Garmin GPS 60Csx) can't be connected as an USB drive to the computer even if they are connected 
+The internal memory of legacy Garmin devices (e.g. the well-known Garmin GPS 60Csx) can't be connected as a USB drive to the computer even if they are connected 
 via USB to the computer.. Thus, data in the internal
 memory (e.g. the so-called ActiveLogs or waypoints saved in the device) can't be accessed directly from QMS.
 
-[`GPSBabel`](https://www.gpsbabel.org) (available for Windows, MacOS and Linux) can be used to download tracks and waypoints stored the internal memory of
+[`GPSBabel`](https://www.gpsbabel.org) (available for Windows, MacOS, and Linux) can be used to download tracks and waypoints stored in the internal memory of
 a Garmin GPS device by using the command:
 
     gpsbabel -t -w -i garmin -f usb: -o gpx -F gpsdata.gpx
@@ -148,7 +149,7 @@ A need occurs to remove such non-reliable or wrong data by editing the track man
 
 QMS offers the following track editing methods:
 
-* Edit track in map window by going into the **track edit mode** and removing there single trackpoints. 
+* Edit track in map window by going into the **track edit mode** and removing their single trackpoints. 
 
     This method is very convenient because it is easy to identify and remove wrong trackpoints.
 
@@ -162,9 +163,9 @@ QMS offers the following track editing methods:
 
     * click the track, 
     * click the range selection icon,
-    * select the range of the track(points) that should be removed,
+    * select the range of the track(points) that should be removed.
 
-    By that the selected trackpoints are hidden and do not add to the statistics. If you want to remove them permanently:
+    By that, the selected trackpoints are hidden and do not add to the statistics. If you want to remove them permanently:
   
     * go to the track edit window of the track,
     * click the `Filter` tab,
@@ -184,11 +185,65 @@ QMS offers the following track editing methods:
     * If necessary, merge the remaining track parts into a new track.
         
     
-_Warning:_ As long as you stay in the QMapShack universe - using the database or the QMS files - you can revert all these steps in the history. However, if you save to a GPX file the data will be lost permanently. In this case save a backup copy of the track before editing it!
+_Warning:_ As long as you stay in the QMapShack universe - using the database or the QMS files - you can revert all these steps in the history. However, if you save to a GPX file the data will be lost permanently. In this case, save a backup copy of the track before editing it!
 
 
-Even as it is possible to remove erroneous recorded trackpoints with both methods, the later is the recommended one. The intended use-case for the track edit mode is to create artificial tracks to plan a tour. That is why additional data like timestamps and sensor data is removed as it won't be valid when moving points or combining different track fragments.
+Even as it is possible to remove incorrectly recorded trackpoints with both methods, the latter is the recommended one. The intended use-case for the track edit mode is to create artificial tracks to plan a tour. That is why additional data like timestamps and sensor data is removed as it won't be valid when moving points or combining different track fragments.
 
+## How to compose a track from pieces of other tracks?
+
+_(topic inspired by a discussion in [mendiak.net][Mendiak])_
+
+Assume, that you have several tracks as demonstrated in the next image with 3 tracks:
+
+![Existing tracks][TrkExist]
+
+The task is to compose a new track from adjacent pieces of these existing tracks. The wanted new track is shown in the next image (the magenta line):
+
+![Wanted new track][TrkWanted]
+
+QMS offers various ways to build this new track:
+
+* _Using [splits of tracks][TrkCut]:_
+    * Cut the given tracks into pieces necessary for the new track.
+    * If necessary, [reverse track pieces][TrkReverse] with wrong orientation (in the example, the red track has wrong orientation).
+    * [Join the required pieces][TrkCombine] into a new track.
+    
+    This approach is quite cumbersome and requires many single steps.
+    
+* _Using [track ranges][TrkRange]:_
+    * Select the track pieces necessary for the new track as ranges of the given tracks and copy them as new track pieces.
+    * If necessary, [reverse track pieces][TrkReverse] with wrong orientation.
+    * [Join the required pieces][TrkCombine] into a new track.
+    
+    This approach is less cumbersome than the previous one but still requires many single steps.
+    
+* _Using [track routing][TrkRouting0]:_
+    * [Select the first point of the new track][TrkNew]. If necessary, change the zoom level of the map to hit an existing track as exactly as possible.
+    * In the options toolbar select the routing option `T` (press key `T`).
+    * Move the mouse pointer along the first existing track segment. The track under the mouse will be highlighted in yellow.
+    
+        ![Routing following tracks][TrkRouting]
+        
+    * When hitting the next existing track, left-click to fix the first new track part.
+    * Follow the next existing track as long as necessary and so on.
+    * [Save the new track][TrkNew] after reaching its endpoint. 
+
+    This approach is again less cumbersome than the previous one and should be preferred. It avoids dealing with a lot of single track pieces.
+
+[Mendiak]: https://www.mendiak.net/viewtopic.php?t=61085&p=760483#p760483 "Compose tracks from pieces"
+
+[TrkCut]:     DocGisItemsTrk#user-content-cut-track
+[TrkReverse]: DocGisItemsTrk#user-content-view--edit-details
+[TrkCombine]: DocGisItemsTrk#user-content-combine-tracks
+[TrkRange]:   DocGisItemsTrkRange#user-content-select-track-range-in-map-view
+[TrkNew]:     DocGisItemsRte#user-content-use-map-window
+[TrkRouting0]: DocGisItemsRouting#user-content-description-of-routing-methods-in-qmapshack
+
+
+[TrkExist]:   images/DocFaq/TracksExist.png   "3 existing tracks"
+[TrkWanted]:  images/DocFaq/TrackWanted.png   "Wanted new track"
+[TrkRouting]: images/DocFaq/TrackRouting.png  "Routing following tracks"
 
 - - -
 [Prev](DocFaqData) (Databases and projects) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Routing) [Next](DocFaqRouting)

@@ -1282,6 +1282,10 @@ Toolbar
             Lossless track editing
                 1. Track|edit
                 1. Range|of track
+                
+            * [How to compose a track from pieces of other tracks?](DocFaqHandling#user-content-how-to-compose-a-track-from-pieces-of-other-tracks)
+                1. Track|composing from pieces of other tracks
+                1. Track|create with track routing
             
             * [Routing](DocFaqRouting)
             * [Why do route instructions use different languages?](DocFaqRouting#user-content-why-do-route-instructions-use-different-languages)

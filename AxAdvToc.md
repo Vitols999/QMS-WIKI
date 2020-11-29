@@ -457,6 +457,7 @@ ___Do not edit - automatically created from DocMain!___
         * [What is the difference between speed and gpxtpx:speed?](DocFaqHandling#user-content-what-is-the-difference-between-speed-and-gpxtpxspeed)
         * [How to remove DEM info from elevation graph?](DocFaqHandling#user-content-how-to-remove-dem-info-from-elevation-graph)
         * [How to edit tracks without losing track data?](DocFaqHandling#user-content-how-to-edit-tracks-without-losing-track-data)
+        * [How to compose a track from pieces of other tracks?](DocFaqHandling#user-content-how-to-compose-a-track-from-pieces-of-other-tracks)
     * [Routing](DocFaqRouting)
         * [Why do route instructions use different languages?](DocFaqRouting#user-content-why-do-route-instructions-use-different-languages)
         * [Is there a possibility to choose the preferred road class when routing?](DocFaqRouting#user-content-is-there-a-possibility-to-choose-the-preferred-road-class-when-routing)
