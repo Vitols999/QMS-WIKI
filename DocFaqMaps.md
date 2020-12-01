@@ -240,8 +240,16 @@ Here is an overview of some web services (composed by Mitxel in the [QMapShack n
     
     _URL:_ https://earth.google.com/web/@%2,%1,10000a,0d,35y,0h,0t,0r
 
-    _Hints:_ Contributed by JOSEPV. For now it only opens in the Google Chrome browser!
- 
+    _Hints:_ This might not work with older browsers. Contributed by JOSEPV.
+
+* __OpenStreetMap Editor__
+
+    _Purpose:_ Open the OSM webpage at the given location in edit mode (ID editor), so you can edit some things quickly.
+    
+    _URL:_ https://www.openstreetmap.org/edit?editor=id#map=19/%2/%1
+
+    _Hints:_ When opening, it will prompt you to log in to OSM. The value after `map=` is the zoom level, you can change it. Contributed by JOSEPV.
+
  
 ## What is the difference between `Copy position` and `Copy position (Grid)`?
 
