@@ -66,7 +66,7 @@ __Mapas:__
 __Ficheros OSM__ 
 ( son la base para el calculo automático de rutas y tracks)
 
-* [Routino_IBERIA_202003.zip](https://mega.nz/#!YBFHlSCY!BS_CP-MCnHzlpyA__ML-p4h9u4krpYcLRaQc4Vx0ZEg "Routino_Iberia_fecha.zip") (500 Mb aprox.) (RECOMENDADO para seguir esta guía) Este fichero no se actualiza diariamente, sin embargo ofrece la ventaja de traer los datos de enrutamiento ya cocinados y listos para usar en QMS directamente y ahorrarás mucho tiempo. Cubre Portugal, España, Andorra, y sur de Francia.
+* [Routino_IBERIA_202012.zip](https://mega.nz/file/tMNzGCKa#rtME_jV5iMh3AIQzkQvQRVz12VvDG77LqEmJvNJZaqA "Routino_Iberia_fecha.zip") (500 Mb aprox.) (RECOMENDADO para seguir esta guía) Este fichero no se actualiza diariamente, sin embargo ofrece la ventaja de traer los datos de enrutamiento ya cocinados y listos para usar en QMS directamente y ahorrarás mucho tiempo. Cubre Portugal, España, Andorra, y sur de Francia.
    
    
 __Datos de elevación DEM / MDT:__ 
@@ -246,7 +246,7 @@ NOTAS sobre los DEM y su fichero .VRT:
 
 QMS utiliza la aplicación _Routino_ para calcular rutas automáticamente sobre un conjunto de datos de OpenStreetMap (OSM). Normalmente estos datos se descargan de la red en formato `osm.pbf` y despues hay  que importarlos al formato usado por _Routino_.  El proceso se hace una sola vez y QMS tiene un asistente para hacer la importación fácilmente, pero consume mucho tiempo.
  
-Sin embargo si ya has descargado el archivo [Routino_IBERIA_202003.zip](https://mega.nz/#!YBFHlSCY!BS_CP-MCnHzlpyA__ML-p4h9u4krpYcLRaQc4Vx0ZEg "Routino_Iberia_fecha.zip") y has copiado su contenido en la carpeta `Routino`, te ahorras ese trabajo, pues estos ficheros ya están importados y listos para usar. Solamente nos falta decirle a QMS donde encontrar estos ficheros...
+Sin embargo si ya has descargado el archivo [Routino_IBERIA_202012.zip](https://mega.nz/file/tMNzGCKa#rtME_jV5iMh3AIQzkQvQRVz12VvDG77LqEmJvNJZaqA "Routino_Iberia_fecha.zip") y has copiado su contenido en la carpeta `Routino`, te ahorras ese trabajo, pues estos ficheros ya están importados y listos para usar. Solamente nos falta decirle a QMS donde encontrar estos ficheros...
 
 **Elegir la base de enrutamiento activa**
 
