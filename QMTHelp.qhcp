@@ -5,10 +5,11 @@
         <startPage>qthelp://QMT/doc/doc/html/QMTHome.html</startPage>
         <currentFilter>QMTApplication 1.0</currentFilter>
         <homePage>qthelp://QMT/doc/doc/html/QMapTool/QMTDocMain.html</homePage>
+        <enableAddressBar visible="true">true</enableAddressBar>        
         <enableFilterFunctionality visible="true">true</enableFilterFunctionality>
         <enableFullTextSearchFallback>true</enableFullTextSearchFallback>
-        <applicationIcon>doc/QMapShack.png</applicationIcon>
-        <cacheDirectory base="collection">cache</cacheDirectory>
+        <applicationIcon>doc/QMapTool.png</applicationIcon>
+        <cacheDirectory base="default">QLandkarte/HelpCache</cacheDirectory>
         <aboutMenuText>
             <text>About QMT</text>
             <text language="de">Über QMT</text>

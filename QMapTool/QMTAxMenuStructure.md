@@ -11,25 +11,25 @@
 
 *(Global QMT actions)*
 
-*Menu location*|*Menu entry*|*Shortcut*|*Checkable*|*Exclusive*|*Tooltip*|
-----|----|----|----|----|-----|
-**Setup (Main menu)** | . | . | . | . | . |  
- | Ext. Tools | - | - | - | Setup paths to external tools, like gdalwarp etc. |
- | Setup Units | - | - | - | Setup Units |
- | Setup Coord. Format | - | - | - | Change the format coordinates are displayed |
- | Show Tool Help | - | true | - | - |
-**View (Main menu)** | . | . | . | . | . |  
- | Flip Mouse Wheel | - | true | - | Flip Mouse Wheel |
-**Window (Main menu)** | . | . | . | . | . |  
- | Tools | - | true | - | - |
- | Shell | - | true | - | - |
-**? (Main menu)** | . | . | . | . | . |  
- | Help | F1 | - | - | - |
- | About | - | - | - | - |
+|*Menu location*|*Menu entry*|*Shortcut*|*Checkable*|*Exclusive*|*Tooltip*|
+|:----|:----|:----|:----|:----|:-----|
+| **Setup (Main menu)** | . | . | . | . | . |  
+| | Ext. Tools | - | - | - | Setup paths to external tools, like gdalwarp etc. |
+| | Setup Units | - | - | - | Setup Units |
+| | Setup Coord. Format | - | - | - | Change the format coordinates are displayed |
+| | Show Tool Help | - | true | - | - |
+| **View (Main menu)** | . | . | . | . | . |  
+| | Flip Mouse Wheel | - | true | - | Flip Mouse Wheel |
+| **Window (Main menu)** | . | . | . | . | . |  
+| | Tools | - | true | - | - |
+| | Shell | - | true | - | - |
+| **? (Main menu)** | . | . | . | . | . |  
+| | Help | F1 | - | - | - |
+| | About | - | - | - | - |
 
 
 
-(_Overview derived from commit fa908225 - 2020-03-21 17:04:59 +0100)_ 
+(_Overview derived from commit af90f636 - 2020-11-27 08:06:29 +0100)_ 
 
 **Comments:**
 

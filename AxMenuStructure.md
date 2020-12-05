@@ -12,9 +12,8 @@
 This page gives an overview of all QMS actions that can be triggered via the main menu or various context menus.
 
 |*Menu location*|*Menu entry*|*Shortcut*|*Checkable*|*Exclusive*|*Tooltip*|
-|:----|:----|:----:|:----:|:----:|:-----|
-||
-|**File (Main menu)** |
+|:----|:----|:----|:----|:----|:-----|
+| **File (Main menu)** | . | . | . | . | . |  
 | | Load GIS Data | Ctrl+L | - | - | Load projects from file |
 | | Save All GIS Data | Ctrl+S | - | - | Save all projects in the workspace |
 | | Load Map View | - | - | - | Restore view with active map and DEM list including the properties from a file |
@@ -24,13 +23,13 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Save(Print) Map | Ctrl+P | - | - | Print a selected area of the map |
 | | Take Screenshot | Ctrl+Alt+P | - | - | Take a screenshot from the current active map view. |
 | | Close | Ctrl+Q | - | - | - |
-|**Workspace (Main menu)** |
+| **Workspace (Main menu)** | . | . | . | . | . |  
 | | Add empty project | - | - | - | - |
 | | Geosearch | - | true | - | - |
 | | Close all projects | F8 | - | - | - |
 | | Setup Workspace | - | - | - | Setup save on exit. |
 | | Setup Waypoint Icons | - | - | - | Setup path to custom icons |
-|**View (Main menu)** |
+| **View (Main menu)** | . | . | . | . | . |  
 | | Add Map View | Ctrl+T | - | - | Add Map View |
 | | Clone Map View | Ctrl+Shift+T | - | - | - |
 | | Change Map View Name | - | - | - | - |
@@ -48,12 +47,12 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Setup Map View | - | - | - | Setup Map View |
 | | Setup Timezone | - | - | - | - |
 | | Setup Coord. Format | - | - | - | Change the format coordinates are displayed |
-|**Tool (Main menu)** |
+| **Tool (Main menu)** | . | . | . | . | . |  
 | | Import Database from QLandkarte | - | - | - | Import QLandkarte GT database |
 | | VRT Builder | - | - | - | GUI front end to gdalbuildvrt |
 | | Create Routino Database | - | - | - | - |
 | | Start QMapTool | - | - | - | - |
-|**Window (Main menu)** |
+| **Window (Main menu)** | . | . | . | . | . |  
 | | Close Tab | Ctrl+W | - | - | - |
 | | Fullscreen | F11 | - | - | - |
 | | Toggle Docks | Ctrl+D | true | - | Toggle visibility of dockable windows |
@@ -65,12 +64,12 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Database | - | true | - | - |
 | | Routing | - | true | - | - |
 | | Setup Toolbar | - | - | - | - |
-|**? (Main menu)** |
+| **? (Main menu)** | . | . | . | . | . |  
 | | About | - | - | - | - |
 | | Help | F1 | - | - | - |
 | | Online Wiki | - | - | - | - |
 | | Quickstart Help | - | - | - | - |
-|**>>>View->Track Info submenu** |
+| **>>>View->Track Info submenu** | . | . | . | . | . |  
 | | Track Highlight | - | true | - | Mark the highlighted track with a red border. |
 | | Min./Max. Labels | Ctrl+N | true | - | Show the minimum and maximum values of the track properties along the track in the map view. |
 | | Min./Max Summary | - | true | - | Show the minimum and the maximum values of the track properties in a table. |
@@ -79,7 +78,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Track Point Info Table | - | true | - | Show a legend for all track point info bullets along the track. |
 | | Track Profile | - | true | - | Show the track profile. |
 | | Track Profile as Window | Ctrl+E | true | - | Show the track profile in it's own window instead within the map view. |
-|**Project in workspace** |
+| **Project in workspace** | . | . | . | . | . |  
 | | Edit.. | - | - | - | - |
 | | Copy to... | - | - | - | - |
 | | Show on Map | - | - | - | - |
@@ -96,18 +95,18 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Send to Devices | - | - | - | - |
 | | Sync. with Database | - | - | - | - |
 | | Close | - | - | - | - |
-|**Device in workspace** |
+| **Device in workspace** | . | . | . | . | . |  
 | | Edit.. | - | - | - | - |
 | | Copy to... | - | - | - | - |
 | | Show on Map | - | - | - | - |
 | | Hide from Map | - | - | - | - |
 | | Update Project on Device | - | - | - | - |
 | | Delete | - | - | - | - |
-|**Lost&Found folder in workspace** |
+| **Lost&Found folder in workspace** | . | . | . | . | . |  
 | | Save as... | - | - | - | - |
 | | Save as GPX 1.1 w/o ext... | - | - | - | - |
 | | Close | - | - | - | - |
-|**Single Waypoint** |
+| **Single Waypoint** | . | . | . | . | . |  
 | | Edit... | - | - | - | - |
 | | Set Tags | - | - | - | - |
 | | Copy to... | - | - | - | - |
@@ -121,7 +120,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Search Web for Position> | - | - | - | - |
 | | Copy position | - | - | - | - |
 | | Delete | - | - | - | - |
-|**Single Track** |
+| **Single Track** | . | . | . | . | . |  
 | | Edit... | - | - | - | - |
 | | Set Tags | - | - | - | - |
 | | Copy to... | - | - | - | - |
@@ -136,7 +135,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Copy Track with Waypoints | - | - | - | - |
 | | Toggle Nogo-Line | - | true | - | - |
 | | Delete | - | - | - | - |
-|**Single Route** |
+| **Single Route** | . | . | . | . | . |  
 | | Edit... | - | - | - | - |
 | | Set Tags | - | - | - | - |
 | | Copy to... | - | - | - | - |
@@ -148,14 +147,14 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Convert to Track | - | - | - | - |
 | | Toggle Nogo-Line | - | true | - | - |
 | | Delete | - | - | - | - |
-|**Single Area** |
+| **Single Area** | . | . | . | . | . |  
 | | Edit... | - | - | - | - |
 | | Set Tags | - | - | - | - |
 | | Copy to... | - | - | - | - |
 | | Edit Area Points | - | - | - | - |
 | | Toggle Nogo-Area | - | true | - | - |
 | | Delete | - | - | - | - |
-|**Several selected workspace objects** |
+| **Several selected workspace objects** | . | . | . | . | . |  
 | | Set Tags | - | - | - | - |
 | | Copy to... | - | - | - | - |
 | | Create Route... | - | - | - | - |
@@ -166,10 +165,10 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Set Track Activity>>> | - | - | - | - |
 | | Set Track Color>>> | - | - | - | - |
 | | Delete | - | - | - | - |
-|**Empty area in database window** |
+| **Empty area in database window** | . | . | . | . | . |  
 | | Add Database | - | - | - | - |
 | | Show Summary Drop Zones | - | true | - | - |
-|**Database** |
+| **Database** | . | . | . | . | . |  
 | | Add Folder | - | - | - | - |
 | | Search Database | - | - | - | - |
 | | Sync. with Database | - | - | - | - |
@@ -177,7 +176,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Import from Files... | - | - | - | - |
 | | Export to GPX... | - | - | - | - |
 | | Show Summary Drop Zones | - | true | - | - |
-|**Database folder** |
+| **Database folder** | . | . | . | . | . |  
 | | Add Folder | - | - | - | - |
 | | Rename Folder | - | - | - | - |
 | | Copy Folder | - | - | - | - |
@@ -186,29 +185,29 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Import from Files... | - | - | - | - |
 | | Export to GPX... | - | - | - | - |
 | | Show Summary Drop Zones | - | true | - | - |
-|**Item in database folder** |
+| **Item in database folder** | . | . | . | . | . |  
 | | Delete Item | - | - | - | - |
 | | Show Summary Drop Zones | - | true | - | - |
-|**Lost&Found in database** |
+| **Lost&Found in database** | . | . | . | . | . |  
 | | Empty | - | - | - | - |
-|**Item in Lost&Found** |
+| **Item in Lost&Found** | . | . | . | . | . |  
 | | Delete Item | - | - | - | - |
-|**Map dock window** |
+| **Map dock window** | . | . | . | . | . |  
 | | Activate | - | true | - | - |
 | | Move Up | - | - | - | Hide map behind previous map |
 | | Move down | - | - | - | Show map on top of next map |
 | | Reload Maps | - | - | - | - |
 | | Setup Map Paths | - | - | - | Setup Map Paths |
-|**DEM dock window** |
+| **DEM dock window** | . | . | . | . | . |  
 | | Activate | - | true | - | - |
 | | Move Up | - | - | - | Hide DEM behind previous one |
 | | Move down | - | - | - | Show DEM on top of next one |
 | | Reload DEM | - | - | - | - |
 | | Setup DEM Paths | - | - | - | - |
-|**Realtime dock window** |
+| **Realtime dock window** | . | . | . | . | . |  
 | | Add Source | - | - | - | - |
 | | Delete Source | - | - | - | - |
-|**Map view window** |
+| **Map view window** | . | . | . | . | . |  
 | | Add POI as Waypoint | - | - | - | - |
 | | Add Waypoint | - | - | - | - |
 | | Add Track | - | - | - | - |
@@ -219,7 +218,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Search Web for Position>>> | - | - | - | - |
 | | Copy position | - | - | - | - |
 | | Copy position (Grid) | - | - | - | - |
-|**>>>Search Web for position - submenu** |
+| **>>>Search Web for position - submenu** | . | . | . | . | . |  
 | | PeakFinder | - | - | - | - |
 | | Waymarked Trails Hiking | - | - | - | - |
 | | Wikiloc | - | - | - | - |
@@ -231,7 +230,7 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Meteoblue Maps | - | - | - | - |
 | | Ventusky Map | - | - | - | - |
 | | Configure Services | - | - | - | - |
-|**Graphs in track edit window** |
+| **Graphs in track edit window** | . | . | . | . | . |  
 | | Reset Zoom | - | - | - | - |
 | | Reset Range | - | - | - | - |
 | | Save... | - | - | - | - |
@@ -239,11 +238,15 @@ This page gives an overview of all QMS actions that can be triggered via the mai
 | | Add Trackpoint Info | - | - | - | - |
 | | Cut Track... | - | - | - | - |
 | | Show Labels | - | true | - | - |
-|**History widget in track edit window** |
+| **History widget in track edit window** | . | . | . | . | . |  
 | | Cut history before | - | - | - | - |
 | | Cut history after | - | - | - | - |
 
-(_Overview derived from commit f9f956ee - 2020-07-30 16:59:24 +0200)_
+
+
+(_Overview derived from commit af90f636 - 2020-11-27 08:06:29 +0100)_ 
+
+
 
 _Remarks:_
 
