@@ -20,7 +20,9 @@ Users can find a short quickstart description here:
 
 If you need **troubleshooting**, have a look [**here**](TroubleShooting)
 
-The QMapShack package includes the `QMapTool` application, too. To get information about this tool visit its [documentation page](QMTDocMain "QMapTool documentation")
+The QMapShack package includes the `QMapTool` application, too. To get information about this tool visit its [documentation page][QMTHelp].
+
+[QMTHelp]: https://github.com/Maproom/qmapshack/wiki/QMTDocMain  "QMapTool documentation"
 
 ## Support
 
