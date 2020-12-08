@@ -228,14 +228,14 @@ To set up the tile server, you have to download (or clone) the [mapsforgesrv wit
 
 Now download some map of interest into any folder that suits you. To conveniently start the tile server create a .cmd file where you copied the contents of `jars_ready2use` and add this as contents:
 
-```cmd
+```bat
 java -jar MapsforgeSrv.jar -m \path\to\map
 pause
 ```
 
 Double-click the .cmd file to start tileserver, you should get something like this as output:
 
-```
+```bat
 MapsforgeSrv - a mapsforge tile server
 no port given, using 8080
 Map file: baden-wuerttemberg_ML.map
@@ -269,7 +269,7 @@ If this is successful, you can add a TMS file to your QMS map folder with follow
 
 If you want to use a different style for the map, you can download any style that does not use style menus. This is since the tile server (as of 28.01.2020) does not support style menus. From openandromaps.org you can download the `Elevate 2 (Mapsforge 0.3)` style. Again, save this file to some convenient folder and edit the contents for your .cmd file to:
 
-```cmd
+```bat
 java -jar MapsforgeSrv.jar -m \path\to\map -t \path\to\style
 pause
 ```
@@ -287,7 +287,7 @@ Before using script, some script variables settings (folders, executables, ...) 
 
 Script gets executed by command:
 
-```cmd
+```bat
 wish Mapsforge_for_QMapShack.tcl
 ```
 
