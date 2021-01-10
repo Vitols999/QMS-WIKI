@@ -203,7 +203,7 @@ _Remarks:_
 
 [TrkCreate]:  DocGisItemsTrk#user-content-create-track           "Create a track"
 [RteCreate]:  DocGisItemsRte#user-content-create-route           "Create a route"
-[WebServ]:    DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-in-the-web "Get location information from web service"
+[WebServ]:    DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-on-the-web "Get location information from web service"
 [NoGo]:       DocGisItemsRouting#user-content-using-no-go-areas-and-lines  "Handling no-go areas"
 
 

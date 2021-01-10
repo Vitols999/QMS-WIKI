@@ -535,8 +535,9 @@ Some online map servers can be accessed via the WMTS service.
 QMS supports WMTS services directly or by wrapping them into TMS services (TMS files). Examples for calling a WMTS service via TMS can be found in section ["Use WMTS server as TMS server"][TMS4WMTS]. The current section gives some more insight into the subtleties of using WMTS files in QMS and of building the resource URL used in such a TMS wrapper.
 
 The [WMTS standard][WMTSSpec] specifies several exchange mechanisms between clients and servers. The most important ones are
+
 * `RESTful` operations (a resource-oriented architectural style),
-*  `KVP` operations (a procedure-oriented architectural style, KVP = Key-Value-Pair).
+* `KVP` operations (a procedure-oriented architectural style, KVP = Key-Value-Pair).
 
 The WMTS specification allows a wide range of possibilities to describe the necessary map information in a WMTS capabilities file. QMS can handle only some of them.
 It assumes that the following requirements are fulfilled:
@@ -673,7 +674,7 @@ The structure of the resource URL depends on the architectural style (`KVP` or `
 
 #### Procedure-oriented style (`KVP` style)
 
-Here is a template TMS XML file for procedure-oriented requests (`KVP`style):
+Here is a template TMS XML file for procedure-oriented requests (`KVP` style):
 
 ```xml
 <TMS>
@@ -991,18 +992,20 @@ Here is the complete TMS file for the discussed example:
     * `<BoundingBox CRS="EPSG:4326" minx="-88" miny="-180" maxx="88" maxy="180"/>`. 
     
         Obviously, the y-coordinate describes longitudes, the x-coordinate describes latitudes. The region defined by the bounding box is the whole world without polar areas.
+        
     * `<BoundingBox CRS="EPSG:4326" maxx="53.2057" maxy="14.3058" minx="50.8002" miny="9.0407"/>`. 
     
         This bounding box belongs to a German map server. With this additional information the coordinate orientation is easily found: the y-coordinate describes longitudes, the x-coordinate describes latitudes. 
+        
     * `<LatLonBoundingBox maxy="84" maxx="-52" miny="41" minx="-141"/>`. 
     
         This bounding box belongs to a Canadian map server. With this additional information the coordinate orientation is easily found: the y-coordinate describes latitudes, the x-coordinate describes longitudes. 
 
 * Some servers require a user authentification and, possibly, some user key. This information must be included in the server URL. An example is the server of the French [Institut national de l’information géographique et forestière (IGN)][ign.fr]. Here, the user has to [register][ign.register] and to get a user login and a user key.
  
-   Having registered, an example of a user-specific URL is
+    Having registered, an example of a user-specific URL is
  
-  `https://user:password@wxs.ign.fr/userkey/geoportail/r/wms`
+    `https://user:password@wxs.ign.fr/userkey/geoportail/r/wms`
 
 * A TMS file can consist of several `<Layer idx=".."> ... </Layer>` blocks even if they use different servers and CRS. If several layer blocks are used, then the `idx` attributes must be numbered consecutively starting from 0. Here is an example TMS file with 3 layers:
 
@@ -1077,6 +1080,7 @@ Map information can be obtained with the following steps (details can be found i
     * [https://isk.geobasis-bb.de/mapproxy/dtk50farbe/service/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities:][geobb] WMS service.
 
     It depends on the server, if the procedure- or the resource-oriented style has to be used to get the capabilities file.
+    
 1. Save the obtained capabilities information in a file with the name `Capabilities.xml` (this ambiguous filename is chosen to make the following discussion easier).
 1. From the console call
 
@@ -1120,6 +1124,7 @@ Map information can be obtained with the following steps (details can be found i
         ...
 
     The `Subdatasets` part is the most interesting part. It lists each map layer with one feasible tile matrix and one coordinate reference system (CRS).
+    
 1. Select one of the subdatasets (in the example: `SUBDATASET_12`) to get more information about it. To do this, call
 
     `gdalinfo WMTS:Capabilities.xml,layer=zm,tilematrixset=wgs84:geographic2d:epsg:4326` 
@@ -1162,6 +1167,7 @@ Map information can be obtained with the following steps (details can be found i
         gdal_translate "WMTS:Capabilities.xml,layer=zm,tilematrixset=wgs84:geographic2d:epsg:4326" zm.tiff -of GTiff -outsize 2000 2000   
     
     The result is a georeferenced TIFF file `zm.tiff` with size 2000 x 2000. This image file shows the complete map of the layer.
+    
 1. Information about WMS services is obtained in the same way. The following example demonstrates some additional possibilities. When calling
 `gdalinfo Capabilities.xml` for the third example, i.e. for a WMS example, then the layer information returned is
 
@@ -1225,7 +1231,7 @@ Map information can be obtained with the following steps (details can be found i
 
 [ign.fr.wmts]:    https://wxs.ign.fr/beta/geoportail/wmts?service=WMTS&request=GetCapabilities "IGN France WMTS capabilities"
 
-[WMTSSpec]:       http://portal.opengeospatial.org/files/?artifact_id=35326 "WMTS specification"
+[WMTSSpec]:       https://portal.ogc.org/files/?artifact_id=35326 "WMTS specification"
 
 [gdal]:           https://gdal.org/index.html "gdal.org"
 [cuzuk.cz]:       http://geoportal-zm.cuzk.cz/WMTS_ZM/service.svc/get?service=WMTS&request=GetCapabilities "cuzk.cz"
