@@ -19,6 +19,14 @@
     * [Is it possible to use several VRT files?](#is-it-possible-to-use-several-vrt-files)
     * [When to use GDALWarp to get VRT file?](#when-to-use-gdalwarp-to-get-vrt-file)
     * [Is it possible to use EPSG codes for the coordinate system setup?](#is-it-possible-to-use-epsg-codes-for-the-coordinate-system-setup)
+    * [How to use WMTS files without ResourceURL?](#user-content-how-to-use-wmts-files-without-resourceurl)
+        * [Add missing resource URL to WMTS file](#user-content-add-missing-resource-url-to-wmts-file)
+        * [Build TMS file for WMTS file](#user-content-build-tms-file-for-wmts-file)
+            * [Procedure-oriented style (`KVP` style)](#user-content-procedure-oriented-style-kvp-style)
+            * [Resource-oriented style (`RESTful` style)](#user-content-resource-oriented-style-restful-style)
+    * [How to build the URL when using WMS via TMS?](#user-content-how-to-build-the-url-when-using-wms-via-tms)        
+    * [What are the differences between the WMTS and the WMS approach in QMS?](#user-content-what-are-the-differences-between-the-wmts-and-the-wms-approach-in-qms)      
+    * [How to get information about a WMTS or WMS service?](#user-content-how-to-get-information-about-a-wmts-or-wms-service)
 
 * * * * * * * * * *
  
