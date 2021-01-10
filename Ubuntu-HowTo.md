@@ -122,7 +122,7 @@ sudo apt-get install qtcreator
 ```
 
 Note:
-In QtCreator you can add `-jN in Project/Create/Steps/Details/Toolparammeter` to speed up the compilation time. `-jN` specifies the number (N) of jobs to run simultaneously. You can start with `-j2` and increase (`-j3, -j4`, ...) to the value of the optimal compilation speed depending on your CPU.
+In QtCreator you can add `-jN in Project/Create/Steps/Details/Toolparameter` to speed up the compilation time. `-jN` specifies the number (N) of jobs to run simultaneously. You can start with `-j2` and increase (`-j3, -j4`, ...) to the value of the optimal compilation speed depending on your CPU.
 
 Depending on your version of qtcreator this parameter has to be set at: `Projects/Build/Build Steps/Details/Tool arguments`.
 

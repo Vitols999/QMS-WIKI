@@ -1329,7 +1329,7 @@ Toolbar
             Blue dot waypoint icons
                 1. Waypoint|with blue icon
             
-            * [How to find information about a position (a POI) in the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-in-the-web)
+            * [How to find information about a position (a POI) on the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-on-the-web)
             * Web search
                 1. Waypoint|find info in web
                 1. Web search|find location info
@@ -1416,6 +1416,35 @@ Toolbar
                 1. EPSG|use for coordinate system setup
                 1. Setup|coordinate system
                 1. Coordinate system|setup with EPSG code
+            
+            * [How to use WMTS files without ResourceURL?](DocFaqMaps#user-content-how-to-use-wmts-files-without-resourceurl)
+            + Add URL to WMTS
+                
+                * [Add missing resource URL to WMTS file](DocFaqMaps#user-content-add-missing-resource-url-to-wmts-file)
+                    1. WMTS|add missing resource URL
+                
+                * [Build TMS file for WMTS file](DocFaqMaps#user-content-build-tms-file-for-wmts-file)
+                    1. WMTS|build TMS
+                    1. TMS|for WMTS
+                    
+                    * [Procedure-oriented style (`KVP` style)](DocFaqMaps#user-content-procedure-oriented-style-kvp-style)
+                    * [Resource-oriented style (`RESTful` style)](DocFaqMaps#user-content-resource-oriented-style-restful-style)
+                    
+            * [How to build the URL when using WMS via TMS?](DocFaqMaps#user-content-how-to-build-the-url-when-using-wms-via-tms)
+            + TMS for WMS
+            
+                1. WMS|build TMS
+                1. TMS|for WMS
+                
+            * [What are the differences between the WMTS and the WMS approach in QMS?](DocFaqMaps#user-content-what-are-the-differences-between-the-wmts-and-the-wms-approach-in-qms)
+            + Compare WMTS and WMS
+            
+                1. WMTS|compare with WMS
+                1. WMS|compare with WMTS
+                
+            * [How to get information about a WMTS or WMS service?](DocFaqMaps#user-content-how-to-get-information-about-a-wmts-or-wms-service)
+                1. WMTS|get GDAL information
+                1. WMS|get GDAL information
             
             
 * [Troubleshooting QMapShack](TroubleShooting)

@@ -1399,6 +1399,12 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **TMS, for Spain**
 :  [TMS for Spanish orthophoto maps](DocMapsTipsOnline#user-content-tms-for-spanish-orthophoto-maps "TMS for Spanish orthophoto maps")
 
+**TMS, for WMS**
+:  [TMS for WMS](DocFaqMaps#user-content-how-to-build-the-url-when-using-wms-via-tms "TMS for WMS")
+
+**TMS, for WMTS**
+:  [Build TMS file for WMTS file](DocFaqMaps#user-content-build-tms-file-for-wmts-file "Build TMS file for WMTS file")
+
 **TMS, map**
 :  [Online Maps](DocBasicsMapDem#user-content-online-maps "Online Maps") ⊞ [TMS Maps](DocBasicsMapDem#user-content-tms-maps "TMS Maps")
 
@@ -1700,7 +1706,7 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [View & edit details](DocGisItemsWpt#user-content-view--edit-details "View & edit details")
 
 **Waypoint, find info in web**
-:  [How to find information about a position (a POI) in the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-in-the-web "-")
+:  [How to find information about a position (a POI) on the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-on-the-web "-")
 
 **Waypoint, get info**
 :  [Waypoints](DocGisItemsWpt "Waypoints")
@@ -1724,16 +1730,16 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 :  [Why are waypoints shown with a blue dot icon?](DocFaqMaps#user-content-why-are-waypoints-shown-with-a-blue-dot-icon "Why are waypoints shown with a blue dot icon?")
 
 **Web search, find location info**
-:  [How to find information about a position (a POI) in the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-in-the-web "-")
+:  [How to find information about a position (a POI) on the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-on-the-web "-")
 
 **Web services, examples**
-:  [How to find information about a position (a POI) in the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-in-the-web "-")
+:  [How to find information about a position (a POI) on the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-on-the-web "-")
 
 **Web services, find location info**
-:  [How to find information about a position (a POI) in the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-in-the-web "-")
+:  [How to find information about a position (a POI) on the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-on-the-web "-")
 
 **Web services, transportation, meteo**
-:  [How to find information about a position (a POI) in the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-in-the-web "-")
+:  [How to find information about a position (a POI) on the Web?](DocFaqMaps#user-content-how-to-find-information-about-a-position-a-poi-on-the-web "-")
 
 **WGS84, projection**
 :  [Projection and datum](AdvMapDetails#user-content-projection-and-datum "Projection and datum")
@@ -1747,11 +1753,32 @@ _The symbol_ " ⊞ " _is used as a separator in the case that several links belo
 **WMS, accessed with TMS**
 :  [Use WMS server as TMS server](DocMapsTipsOnline#user-content-use-wms-server-as-tms-server "Use WMS server as TMS server")
 
+**WMS, build TMS**
+:  [TMS for WMS](DocFaqMaps#user-content-how-to-build-the-url-when-using-wms-via-tms "TMS for WMS")
+
+**WMS, compare with WMTS**
+:  [Compare WMTS and WMS](DocFaqMaps#user-content-what-are-the-differences-between-the-wmts-and-the-wms-approach-in-qms "Compare WMTS and WMS")
+
+**WMS, get GDAL information**
+:  [How to get information about a WMTS or WMS service?](DocFaqMaps#user-content-how-to-get-information-about-a-wmts-or-wms-service "How to get information about a WMTS or WMS service?")
+
 **WMTS, accessed with TMS**
 :  [Use WMTS server as TMS server](DocMapsTipsOnline#user-content-use-wmts-server-as-tms-server "Use WMTS server as TMS server")
 
+**WMTS, add missing resource URL**
+:  [Add missing resource URL to WMTS file](DocFaqMaps#user-content-add-missing-resource-url-to-wmts-file "Add missing resource URL to WMTS file")
+
+**WMTS, build TMS**
+:  [Build TMS file for WMTS file](DocFaqMaps#user-content-build-tms-file-for-wmts-file "Build TMS file for WMTS file")
+
+**WMTS, compare with WMS**
+:  [Compare WMTS and WMS](DocFaqMaps#user-content-what-are-the-differences-between-the-wmts-and-the-wms-approach-in-qms "Compare WMTS and WMS")
+
 **WMTS, for French IGN maps**
 :  [WMTS configuration for French IGN maps](DocMapsTipsOnline#user-content-wmts-configuration-for-french-ign-maps "WMTS configuration for French IGN maps")
+
+**WMTS, get GDAL information**
+:  [How to get information about a WMTS or WMS service?](DocFaqMaps#user-content-how-to-get-information-about-a-wmts-or-wms-service "How to get information about a WMTS or WMS service?")
 
 **WMTS, map**
 :  [Online Maps](DocBasicsMapDem#user-content-online-maps "Online Maps") ⊞ [WMTS Maps](DocBasicsMapDem#user-content-wmts-maps "WMTS Maps")
