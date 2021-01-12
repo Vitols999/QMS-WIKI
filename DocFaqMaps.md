@@ -664,9 +664,15 @@ Add this new XML entry (without line breaks) as last child node to the `Layer` t
 
 The map server response for a TMS or WMTS service request is a map tile. The tiles for both service types are identified using different rules. As a consequence, calling a WMTS service from a TMS service must include a rule for converting the TMS tile identifiers to WMTS identifiers. These rules also depend on the used coordinate reference system (CRS).
 
+One of the parameters for a TMS tile is its zoom level described by an integer number. A zoom level in WMTS belongs to a tile matrix. The identifier of a tile matrix can be a string. If so, a rule for getting the TMS zoom level from the tile matrix identifier must be found and used.
+
 Since many servers support the world-wide coordinate reference system EPSG:3857 (WGS 84/Pseudo-Mercator, axes: easting, northing in meters), only this CRS is discussed below. 
 
-Each layer used in a TMS wrapper for a WMTS file has to be linked with one of the tile matrix sets belonging to this layer. This tile matrix set must support the CRS EPSG:3857. If none of the tile matrix sets of a layer supports EPSG:3857, then the building of a TMS file is not possible.
+Each layer used in a TMS wrapper for a WMTS file has to be linked with one of the tile matrix sets belonging to this layer. This tile matrix set must support the CRS EPSG:3857 and each tile matrix in this set must have a width and a height of 256. If none of the tile matrix sets of a layer supports EPSG:3857 or if the tile size is not 256, then building of a TMS file is not possible.
+
+One of the parameters for a TMS tile is its zoom level described by an integer number. A zoom level in WMTS belongs to a tile matrix in the selected tile matrix set. The identifier of a tile matrix can be a string. If so, a rule for getting the TMS zoom level from the tile matrix identifier must be found and used. Tile numbering of the WMTS service and of the TMS one must be same. Otherwise, a TMS wrapper doesn't work as expected.
+
+Thus, the approach described in this section is some guideline for building a TMS wrapper for a WMTS. It is not guaranteed, that for any WMTS service the TMS wrapper works as expected.
 
 A TMS file can be used for rendering in QMS several layers from one or several WMTS files.
 
@@ -732,6 +738,26 @@ function convert(z1,x1,y1)
 </TMS>
 ``` 
 
+*Remark:* It was mentioned at the begin of this section that special care must be taken if the identifiers of tile matrix sets are not numbers but strings. This situation is explained with a [WMTS capabilities file][statkart.no] for Norway. A tile matrix for EPSG:3857 in this capabilities file looks as follows:
+
+```XML
+-<TileMatrixSet>
+  <ows:Identifier>EPSG:3857</ows:Identifier>
+  <ows:SupportedCRS>urn:ogc:def:crs:EPSG::3857</ows:SupportedCRS>
+  -<TileMatrix>
+    <ows:Identifier>EPSG:3857:0</ows:Identifier>
+```
+
+Here, the prefix `EPSG:3857:` is added to the zoom level. In this case an additional line can be inserted into the `convert` function of the TMS file to achieve the correct selection of a tile matrix:
+
+```
+<Script><![CDATA[(
+function convert(z1,x1,y1)
+{z1 = "EPSG:3857:" + z1.toString();
+return "http://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?SERVICE=WMTS&request=getTile&VERSION=1.0.0&Layer=norgeskart_bakgrunn&STYLE=default&TileMatrixSet=EPSG:3857&format=image/png&TileMatrix="+z1+"&TileRow="+y1+"&TileCol="+x1
+}
+)]]></Script>
+```
 #### Resource-oriented style (`RESTful` style)
 
 In this case, each layer should have a `ResourceURL` in the capabilities file pointing to a URL with the structure:
@@ -800,8 +826,6 @@ function convert(z1,x1,y1)
 <Copyright>BKG</Copyright>
 </TMS>
 ```
-
-
 
 ## How to build the URL when using WMS via TMS?
  
@@ -1000,6 +1024,8 @@ Here is the complete TMS file for the discussed example:
     * `<LatLonBoundingBox maxy="84" maxx="-52" miny="41" minx="-141"/>`. 
     
         This bounding box belongs to a Canadian map server. With this additional information the coordinate orientation is easily found: the y-coordinate describes latitudes, the x-coordinate describes longitudes. 
+
+* The CRS denoted as `CRS:84` is a relatively new coordinate system. It is equivalent to CRS EPSG:4326 but with longitude/latitude order of the coordinate axes. If there is a need to use this coordinate system, then use the approach described for CRS EPSG:4326 and change the coordinate order as described in the previous point.
 
 * Some servers require a user authentification and, possibly, some user key. This information must be included in the server URL. An example is the server of the French [Institut national de l’information géographique et forestière (IGN)][ign.fr]. Here, the user has to [register][ign.register] and to get a user login and a user key.
  
@@ -1240,6 +1266,8 @@ Map information can be obtained with the following steps (details can be found i
 
 [gdal.wmts]:      https://gdal.org/drivers/raster/wmts.html  "GDAL WMTS driver"
 [gdal.wms]:       https://gdal.org/drivers/raster/wms.html   "GDAL WMS driver"
+
+[statkart.no]:    https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?Version=1.0.0&service=wmts&request=getcapabilities "Norway WMTS"
     
 - - -
 [Prev](DocFaqRouting) (Routing) | [Home](Home) | [Manual](DocMain) | [Index](AxAdvIndex) | [Top](#) | (Troubleshooting QMapShack) [Next](TroubleShooting)
