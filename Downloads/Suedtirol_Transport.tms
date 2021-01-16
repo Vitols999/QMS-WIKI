@@ -1,0 +1,203 @@
+<TMS>
+  <Title>Geokatalog S&#252;dtirol</Title>
+  <Layer idx="0">
+    <Title>BicycleBridges</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=BicycleBridges&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="1">
+    <Title>BicycleLanes</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=BicycleLanes&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="2">
+    <Title>BicycleRentals</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=BicycleRentals&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="3">
+    <Title>BicycleRoutes_Events</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=BicycleRoutes_Events&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="4">
+    <Title>BicycleTunnels</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=BicycleTunnels&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="5">
+    <Title>Bridges</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=Bridges&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="6">
+    <Title>BusStop</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=BusStop&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="7">
+    <Title>Cableways</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=Cableways&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="8">
+    <Title>FareZones</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=FareZones&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="9">
+    <Title>FareZones_Distances</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=FareZones_Distances&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="10">
+    <Title>FareZones_ReferenceBusStations</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=FareZones_ReferenceBusStations&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="11">
+    <Title>FillingStations</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=FillingStations&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="12">
+    <Title>HikingTrails</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=HikingTrails&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="13">
+    <Title>KilometerMarker</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=KilometerMarker&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="14">
+    <Title>MountainbikeTours</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=MountainbikeTours&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="15">
+    <Title>RailwayYardAreas</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=RailwayYardAreas&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="16">
+    <Title>Railways</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=Railways&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="17">
+    <Title>RoadMaintenanceStaff-AreasOfR</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=RoadMaintenanceStaff-AreasOfR&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="18">
+    <Title>RoadNames</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=RoadNames&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="19">
+    <Title>SchoolBusStop</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=SchoolBusStop&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="20">
+    <Title>TrafficCounters</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=TrafficCounters&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="21">
+    <Title>TransportNetwork</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=TransportNetwork&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="22">
+    <Title>TransportNetwork_Aggregation</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=TransportNetwork_Aggregation&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="23">
+    <Title>TransportNetwork_ForestRoads</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=TransportNetwork_ForestRoads&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+  <Layer idx="24">
+    <Title>Tunnel</Title>
+    <Script><![CDATA[(
+function convert(z1,x1,y1){ function M(n){return 256*n*(156543.03392804062/(1<<z1))-20037508.342789244}y=(1<<z1)-1-y1;
+  bbox=M(x1)+', '+M(y)+', '+M(x1+1)+', '+M(y+1);return "https://geoservices.buergernetz.bz.it/geoserver/p_bz-transport_network/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=Tunnel&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=" + bbox;
+}
+)]]></Script>
+  </Layer>
+</TMS>
